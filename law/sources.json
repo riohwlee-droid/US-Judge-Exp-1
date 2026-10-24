@@ -36,6 +36,104 @@
         "case-specific doctrine",
         "all subsequent legal developments"
       ]
+    },
+    {
+      "id": "SRC-ME-SJC-OVERVIEW-20261024",
+      "url": "https://www.courts.maine.gov/courts/sjc/",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "court of last resort, Law Court appellate function, rulemaking, seven-member structure, clerk office",
+      "not_verified": [
+        "all internal deliberation and assignment procedures",
+        "case-specific doctrine"
+      ]
+    },
+    {
+      "id": "SRC-ME-SJC-STATUTE-20261024",
+      "url": "https://www.legislature.maine.gov/legis/statutes/4/title4sec1.html",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "Title 4 section 1 composition and administrative authority",
+      "not_verified": [
+        "full rules text",
+        "constitutional questions in individual cases"
+      ]
+    },
+    {
+      "id": "SRC-ME-CONSTITUTION-20261024",
+      "url": "https://legislature.maine.gov/doc/9050",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "Article VI judicial power, seven-year judicial terms and solemn occasion advisory function",
+      "not_verified": [
+        "full appointment confirmation procedure in each case"
+      ]
+    },
+    {
+      "id": "SRC-ME-JUDICIAL-BRANCH-20261024",
+      "url": "https://www.courts.maine.gov/about/",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "Governor appointment, Senate confirmation, seven-year term",
+      "not_verified": [
+        "specific fictional appointment feasibility"
+      ]
+    },
+    {
+      "id": "SRC-ME-APPELLATE-CALENDAR-20261024",
+      "url": "https://www.courts.maine.gov/courts/sjc/calendar.html",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "hearing calendar, Portland courthouse customary venue, next published argument dates November 3–5 2026, subject to change",
+      "not_verified": [
+        "fictional docket assignments",
+        "future calendar modifications"
+      ]
+    },
+    {
+      "id": "SRC-ME-APPEALS-GUIDE-20261024",
+      "url": "https://www.courts.maine.gov/help/appeals.html",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "appellate written record, briefs, appendix and oral argument not a new evidence hearing",
+      "not_verified": [
+        "all actual filing deadlines",
+        "all rule exceptions"
+      ]
+    },
+    {
+      "id": "SRC-ME-RULES-INDEX-20261024",
+      "url": "https://www.courts.maine.gov/rules/",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "identification of Maine Rules of Appellate Procedure (November 2024), judicial ethics code (September 2024), and recent amendments",
+      "not_verified": [
+        "rule-by-rule interpretation",
+        "all filing deadlines and exceptions",
+        "all rule changes post-cutoff"
+      ]
+    },
+    {
+      "id": "SRC-ME-LAW-CLERKS-20261024",
+      "url": "https://www.courts.maine.gov/about/sjc-clerkship-2026-2027.pdf",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "2026–2027 term August 17 2026 to August 13 2027; law clerks serve whole court while assigned to chambers; bench memos, research, opinion drafting",
+      "not_verified": [
+        "number of clerks per justice",
+        "specific real staffing assignments"
+      ]
+    },
+    {
+      "id": "SRC-ME-COURT-OPINIONS-20261024",
+      "url": "https://courts.maine.gov/courts/sjc/opinions.html",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "published opinions, review for reconsideration and correction",
+      "not_verified": [
+        "full text of individual precedent",
+        "subsequent treatment of any cited case"
+      ]
     }
   ]
 }

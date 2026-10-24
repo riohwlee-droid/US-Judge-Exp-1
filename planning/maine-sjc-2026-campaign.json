@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "kind": "simulation_planning_not_official_save",
+  "court_id": "ME-SJC-LAW-COURT",
+  "court_status": "research_required",
+  "start_game_time_proposed": "2026-10-26T09:00:00-04:00",
+  "legal_cutoff": "2026-10-24",
+  "law_policy": "verified_start_then_branch",
+  "player_id": "P-ME-J-WHITMORE",
+  "fictional_transition": "In an alternate-history Maine, Whitmore fills a lawfully vacated associate-justice seat after fictitious gubernatorial appointment, Senate confirmation and oath; no claim about real incumbents.",
+  "player_profile": {
+    "name": "Nathaniel James Whitmore",
+    "gender": "male",
+    "birth_year": 1973,
+    "fictional": true,
+    "location": "Portland",
+    "prior_career": [
+      "1998–1999 SJC law clerk",
+      "1999–2008 private civil litigation",
+      "2008–2015 Assistant Attorney General",
+      "2015–2026 Maine Superior Court justice"
+    ]
+  },
+  "judges": [
+    {
+      "id": "P-ME-CJ-HALE",
+      "name": "Eleanor Hale",
+      "role": "judge",
+      "office": "Chief Justice",
+      "age": 62,
+      "fictional": true,
+      "active": true,
+      "location": "Augusta",
+      "experience": "Former appellate practitioner and trial judge",
+      "traits": [
+        "process-focused",
+        "calm facilitator",
+        "protective of institutional legitimacy"
+      ],
+      "dynamic": "Respects preparation, not seniority alone; open to persuasion"
+    },
+    {
+      "id": "P-ME-J-KENNETT",
+      "name": "Robert Kennett",
+      "role": "judge",
+      "office": "Senior Associate Justice",
+      "age": 64,
+      "fictional": true,
+      "active": true,
+      "location": "Portland",
+      "experience": "Former civil litigator and long-serving justice",
+      "traits": [
+        "precise with precedent",
+        "direct in conference",
+        "concise writer"
+      ],
+      "dynamic": "Questions Whitmore closely but without personal hostility"
+    },
+    {
+      "id": "P-ME-J-ROSALES",
+      "name": "Isabel Rosales",
+      "role": "judge",
+      "office": "Associate Justice",
+      "age": 55,
+      "fictional": true,
+      "active": true,
+      "location": "Portland",
+      "experience": "Former legal-aid advocate and District Court judge",
+      "traits": [
+        "attentive to procedure",
+        "emphasizes practical effects",
+        "careful listener"
+      ],
+      "dynamic": "Offers collegial help without promising votes"
+    },
+    {
+      "id": "P-ME-J-OKAFOR",
+      "name": "David Okafor",
+      "role": "judge",
+      "office": "Associate Justice",
+      "age": 50,
+      "fictional": true,
+      "active": true,
+      "location": "Augusta",
+      "experience": "Former assistant attorney general and appellate advocate",
+      "traits": [
+        "strong statutory analysis",
+        "frequent hard questions",
+        "receptive to good records"
+      ],
+      "dynamic": "Professional curiosity about Whitmore's trial-court perspective"
+    },
+    {
+      "id": "P-ME-J-SLOANE",
+      "name": "Margaret Sloane",
+      "role": "judge",
+      "office": "Associate Justice",
+      "age": 58,
+      "fictional": true,
+      "active": true,
+      "location": "Bangor",
+      "experience": "Former probate and civil judge",
+      "traits": [
+        "methodical",
+        "values clear standards of review",
+        "guarded outside conferences"
+      ],
+      "dynamic": "Willing to collaborate on drafting once grounded in the record"
+    },
+    {
+      "id": "P-ME-J-CHEN",
+      "name": "Rebecca Chen",
+      "role": "judge",
+      "office": "Associate Justice",
+      "age": 49,
+      "fictional": true,
+      "active": true,
+      "location": "Portland",
+      "experience": "Former criminal-defense attorney and law professor",
+      "traits": [
+        "careful constitutional reasoning",
+        "constructive questions",
+        "clear prose"
+      ],
+      "dynamic": "Potential intellectual ally or dissenter depending on the issue"
+    },
+    {
+      "id": "P-ME-J-WHITMORE",
+      "name": "Nathaniel James Whitmore",
+      "role": "judge",
+      "office": "Associate Justice (player)",
+      "age": 53,
+      "fictional": true,
+      "active": true,
+      "location": "Portland",
+      "experience": "1998–99 Supreme Judicial Court law clerk; 1999–2008 civil litigator; 2008–15 Assistant Attorney General; 2015–26 Superior Court justice",
+      "traits": [
+        "measured",
+        "record-conscious",
+        "willing to revise views"
+      ],
+      "dynamic": "New member; professional relationships and conclusions are not predetermined"
+    }
+  ],
+  "staff": [
+    {
+      "id": "P-ME-LC-ELLIS",
+      "name": "Maya Ellis",
+      "role": "law_clerk",
+      "fictional": true,
+      "active": true,
+      "age": 28,
+      "office": "2026–27 court-wide law clerk assigned to Whitmore chambers",
+      "location": "Portland",
+      "traits": [
+        "meticulous source-checker",
+        "directly flags uncertain authority",
+        "reserved in large meetings"
+      ],
+      "duties": [
+        "research on instruction",
+        "bench memorandum",
+        "draft support"
+      ],
+      "limits": "No independent case decision; no access to private justice-only conference unless properly permitted"
+    },
+    {
+      "id": "P-ME-LC-PIKE",
+      "name": "Jordan Pike",
+      "role": "law_clerk",
+      "fictional": true,
+      "active": true,
+      "age": 29,
+      "office": "2026–27 court-wide law clerk assigned to Chief Justice chambers",
+      "location": "Augusta",
+      "traits": [
+        "fast issue-spotter",
+        "careful about preserving record distinctions"
+      ],
+      "duties": [
+        "research on instruction",
+        "draft support",
+        "cross-chambers collaboration when authorized"
+      ],
+      "limits": "Not Whitmore's subordinate; cannot share restricted drafts without authorization"
+    },
+    {
+      "id": "P-ME-STAFF-PRICE",
+      "name": "Hazel Price",
+      "role": "staff",
+      "fictional": true,
+      "active": true,
+      "age": 46,
+      "office": "Whitmore chambers administrative coordinator (simulation)",
+      "location": "Portland",
+      "traits": [
+        "organized",
+        "discreet",
+        "unflustered"
+      ],
+      "duties": [
+        "coordinate agenda",
+        "manage meeting logistics",
+        "route filings via proper office"
+      ],
+      "limits": "No legal opinions, voting, or creation of case evidence"
+    },
+    {
+      "id": "P-ME-STAFF-BECKETT",
+      "name": "Simon Beckett",
+      "role": "staff",
+      "fictional": true,
+      "active": true,
+      "age": 52,
+      "office": "Law Court clerk's-office liaison (simulation; not actual officeholder)",
+      "location": "Portland",
+      "traits": [
+        "procedurally exact",
+        "neutral with counsel"
+      ],
+      "duties": [
+        "docket status updates",
+        "public argument calendar",
+        "formal communications"
+      ],
+      "limits": "No ex parte merits discussions or judicial deliberation"
+    }
+  ],
+  "first_scene": {
+    "title": "New justice onboarding in chambers",
+    "planned_time": "2026-10-26T09:00:00-04:00",
+    "setting": "Portland, Maine (fictional individual chambers)",
+    "present": [
+      "P-ME-J-WHITMORE",
+      "P-ME-LC-ELLIS",
+      "P-ME-STAFF-PRICE"
+    ],
+    "status": "unplayed",
+    "pending_case_ids": [],
+    "deadlines": []
+  },
+  "current_status": "not_published_as_active_campaign",
+  "intended_next_action": "Complete court rule verification and initial appellate record; then submit campaign.configure and person.register save request; do not advance game time yet."
+}

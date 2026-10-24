@@ -1,4 +1,57 @@
 {
   "schema_version": 1,
-  "profiles": {}
+  "profiles": {
+    "ME-SJC-LAW-COURT": {
+      "id": "ME-SJC-LAW-COURT",
+      "status": "research_required",
+      "name": "Maine Supreme Judicial Court — Law Court (simulated alternate-history bench)",
+      "jurisdiction": "Maine statewide; court of last resort; appeals from Superior, District, Probate and certain administrative actions; case-specific review required",
+      "role": "Associate Justice of the Maine Supreme Judicial Court, appellate Law Court capacity",
+      "appeal_route": "State court of last resort; further federal judicial review only where legally available and independently verified",
+      "appointment": "Maine Governor appointment; Senate confirmation; seven-year term; assumed fictional oath/start must be supported before active campaign",
+      "staffing": "Seven judicial seats (one Chief Justice, six Associate Justices); law clerks serve full Court but have chamber assignments; clerk of the Law Court manages appellate docket",
+      "rules": "Maine Rules of Appellate Procedure (2024 compilation), Maine Code of Judicial Conduct (2024), Court rules and relevant administrative orders; details and amendments must be checked before use",
+      "judicial_power": "Questions of law on appeals; published decisions bind Maine lower courts; administrative rulemaking and narrow constitutional advisory role",
+      "court_composition": {
+        "chief_justices": 1,
+        "associate_justices": 6,
+        "simulation_roster_path": "planning/maine-sjc-2026-campaign.json"
+      },
+      "matter_types": [
+        "civil_appeal",
+        "criminal_appeal",
+        "probate_appeal",
+        "administrative_appeal",
+        "other_review"
+      ],
+      "hearing_kinds": [
+        "oral_argument",
+        "consideration_on_briefs"
+      ],
+      "location": "Portland chambers selected for player, Maine; arguments normally Cumberland County Courthouse unless announced otherwise",
+      "opinion_workflow": "Submitted record -> issue identification -> written submissions -> argument if ordered -> justice-only deliberation -> drafting and circulation -> separate votes and joins by opinion part -> review and issuance; specific assignment practices must be verified",
+      "ethical_boundaries": "Impartiality, conflicts/recusal, ex parte restrictions, court confidentiality: apply Maine judicial conduct rules after rule-specific review",
+      "law_policy": "verified_start_then_branch",
+      "legal_sources_checked_on": "2026-10-24",
+      "source_ids": [
+        "SRC-ME-SJC-OVERVIEW-20261024",
+        "SRC-ME-SJC-STATUTE-20261024",
+        "SRC-ME-CONSTITUTION-20261024",
+        "SRC-ME-JUDICIAL-BRANCH-20261024",
+        "SRC-ME-APPELLATE-CALENDAR-20261024",
+        "SRC-ME-APPEALS-GUIDE-20261024",
+        "SRC-ME-RULES-INDEX-20261024",
+        "SRC-ME-LAW-CLERKS-20261024",
+        "SRC-ME-COURT-OPINIONS-20261024"
+      ],
+      "checked_on": "2026-10-24",
+      "readiness_gaps": [
+        "Review rule-specific filing, service, deadline, oral argument and reconsideration provisions against official Maine Rules of Appellate Procedure text",
+        "Verify internal conference, panel allocation and opinion-assignment procedures; use labeled simulation conventions until verified",
+        "Prepare first fictional appellate case including actual initial filed briefs, trial order, docket record and appendix, with stable logical pages and verified law",
+        "Check simulated appointment timeline and oath basis; separate fictional branch from real judicial roster",
+        "Validate complete case package and operational profile before setting status ready; no automatic first-case assignment"
+      ]
+    }
+  }
 }
