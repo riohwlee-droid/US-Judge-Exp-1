@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "draft_record_inventory_for_legal_review",
+  "status": "ready_for_registration",
   "fictional": true,
   "case_id": "ME-CIV-2026-001",
   "title": "Harborlight Cold Storage, LLC v. Penobscot Power Systems, Inc.",
@@ -147,10 +147,22 @@
     "Published source law is real; first record maintained separately from current official save",
     "No case registered or assigned yet; judicial response should not be predetermined",
     "Appendix duplication and detailed local procedural checks remain before profile ready",
-    "Appellant's appendix reproduced from the existing immutable docket/complaint/order/agreement/evidence and Rule 56 papers; full content checked against source files"
+    "Appellant's appendix reproduced from the existing immutable docket/complaint/order/agreement/evidence and Rule 56 papers; full content checked against source files",
+    "Verified as self-contained simulation packet with 13 immutable originals and 51 stable logical pages, including appended mandatory Rule 56(h) statements and trial pleadings",
+    "Authentic authorities checked in court PDFs through 2026-10-24; subsequent citator history not certified",
+    "No predetermined legal conclusion; no official case assignment before accepted save"
   ],
   "checked_on": "2026-10-24",
   "total_logical_pages_original": 29,
   "total_logical_pages_including_appendix": 51,
-  "decision_made": false
+  "decision_made": false,
+  "court_profile_status": "ready",
+  "law_basis_source_ids": [
+    "SRC-ME-APP-2024-TEXT",
+    "SRC-ME-CIV-2026-TEXT",
+    "SRC-ME-JUD-ETHICS-2024",
+    "SRC-ME-KEEP-2024",
+    "SRC-ME-DAHLEM-2024",
+    "SRC-ME-ECOURTS-2026"
+  ]
 }

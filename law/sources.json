@@ -134,6 +134,72 @@
         "full text of individual precedent",
         "subsequent treatment of any cited case"
       ]
+    },
+    {
+      "id": "SRC-ME-APP-2024-TEXT",
+      "url": "https://www.courts.maine.gov/rules/text/mr_app_p_only_2024-11-01.pdf",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "Rule 2B, 7, 7A, 8, 11, 12, 12A; notice, briefs, appendix, composition, majority and decisions",
+      "not_verified": [
+        "comprehensive negative-history treatment",
+        "all exceptions or confidential internal court procedures"
+      ]
+    },
+    {
+      "id": "SRC-ME-CIV-2026-TEXT",
+      "url": "https://www.courts.maine.gov/rules/text/mr_civ_p_only_2026-06-01.pdf",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "Rule 56(c) and 56(h) summary judgment and fact statements",
+      "not_verified": [
+        "comprehensive negative-history treatment",
+        "all exceptions or confidential internal court procedures"
+      ]
+    },
+    {
+      "id": "SRC-ME-JUD-ETHICS-2024",
+      "url": "https://www.courts.maine.gov/rules/text/mc_jud_conduct_plus_2024-09-23.pdf",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "Rule 2.9 ex parte/independent factual inquiry and 2.11 disqualification",
+      "not_verified": [
+        "comprehensive negative-history treatment",
+        "all exceptions or confidential internal court procedures"
+      ]
+    },
+    {
+      "id": "SRC-ME-KEEP-2024",
+      "url": "https://www.courts.maine.gov/courts/sjc/lawcourt/2024/24me014.pdf",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "Official Keep v Indorf 2024 ME 14 ¶¶21–22 contract ambiguity and interpretation",
+      "not_verified": [
+        "comprehensive negative-history treatment",
+        "all exceptions or confidential internal court procedures"
+      ]
+    },
+    {
+      "id": "SRC-ME-DAHLEM-2024",
+      "url": "https://www.courts.maine.gov/courts/sjc/lawcourt/2024/24me032.pdf",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "Official Dahlem v City of Saco 2024 ME 32 ¶¶16,22 summary judgment and interpretation",
+      "not_verified": [
+        "comprehensive negative-history treatment",
+        "all exceptions or confidential internal court procedures"
+      ]
+    },
+    {
+      "id": "SRC-ME-ECOURTS-2026",
+      "url": "https://www.courts.maine.gov/ecourts/access.html",
+      "checked_on": "2026-10-24",
+      "review_depth": "court_specific",
+      "scope": "Cumberland County eCourts rollout September 28, 2026 and access limits",
+      "not_verified": [
+        "comprehensive negative-history treatment",
+        "all exceptions or confidential internal court procedures"
+      ]
     }
   ]
 }

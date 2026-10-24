@@ -2,7 +2,7 @@
   "schema_version": 1,
   "kind": "simulation_planning_not_official_save",
   "court_id": "ME-SJC-LAW-COURT",
-  "court_status": "research_required",
+  "court_status": "ready",
   "start_game_time_proposed": "2026-10-26T09:00:00-04:00",
   "legal_cutoff": "2026-10-24",
   "law_policy": "verified_start_then_branch",
@@ -236,9 +236,11 @@
       "P-ME-STAFF-PRICE"
     ],
     "status": "unplayed",
-    "pending_case_ids": [],
+    "pending_case_ids": [
+      "ME-CIV-2026-001"
+    ],
     "deadlines": []
   },
-  "current_status": "not_published_as_active_campaign",
-  "intended_next_action": "Complete court rule verification and initial appellate record; then submit campaign.configure and person.register save request; do not advance game time yet."
+  "current_status": "awaiting_active_save",
+  "intended_next_action": "Submit campaign.configure plus roster/complete case registration with server-computed original hashes; confirm acceptance before first played scene."
 }
