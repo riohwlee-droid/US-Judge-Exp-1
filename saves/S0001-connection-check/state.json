@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "campaign": {
+    "status": "setup_required",
+    "player": null,
+    "court_id": null,
+    "game_time": null,
+    "law_policy": "verified_start_then_branch",
+    "legal_cutoff": null,
+    "scene": "onboarding"
+  },
+  "cases": {},
+  "people": {},
+  "documents": {},
+  "tasks": {},
+  "deadlines": {},
+  "opinions": {},
+  "precedents": {},
+  "career": [],
+  "applied_events": {
+    "EV-0001-connection": "90874a8e3a360d4fc312dda1410cf119a81794252bd1e18b9122043004882425"
+  }
+}

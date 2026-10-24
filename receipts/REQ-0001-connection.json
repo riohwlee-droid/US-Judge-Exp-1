@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "request_id": "REQ-0001-connection",
+  "request_sha256": "da28db38432bcb9c95d4ed756c8a3fbfd9cb738b3cb85e09028d8f065d1c3456",
+  "status": "accepted",
+  "checkpoint": "S0001-connection-check",
+  "revision": 1
+}

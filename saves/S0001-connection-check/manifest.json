@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "S0001-connection-check",
+  "parent": "S0000-setup",
+  "parent_manifest_sha256": "cde68dfe6a9a94ea6a2fdc70661a3cbe56b2a419f19156d1dcb2414269b0d940",
+  "base_revision": 0,
+  "revision": 1,
+  "state_path": "saves/S0001-connection-check/state.json",
+  "events_path": "saves/S0001-connection-check/events.json",
+  "state_digest": "a6bacef5542f8ceca2f5f98b18adf07c654306148fa26d6f4a4d27a04c1ea259",
+  "events_digest": "fa29076f0093d795363bacf7ac55a5f9b0adb1c5ecbbe34f431c35e2d2a31c25"
+}

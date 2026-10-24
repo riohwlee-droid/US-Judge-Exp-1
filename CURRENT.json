@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checkpoint": "S0000-setup",
-  "revision": 0,
-  "manifest_sha256": "cde68dfe6a9a94ea6a2fdc70661a3cbe56b2a419f19156d1dcb2414269b0d940"
+  "checkpoint": "S0001-connection-check",
+  "revision": 1,
+  "manifest_sha256": "17dc0b7e8a914bbf610b589eb8d6849bf99db91f62c30b078aef3e364fed1b32"
 }

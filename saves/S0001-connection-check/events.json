@@ -1,0 +1,9 @@
+[
+  {
+    "id": "EV-0001-connection",
+    "type": "system.check",
+    "payload": {
+      "purpose": "connection_check"
+    }
+  }
+]
