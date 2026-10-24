@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "draft_record_inventory_not_registered",
+  "status": "draft_record_inventory_for_legal_review",
   "fictional": true,
   "case_id": "ME-CIV-2026-001",
   "title": "Harborlight Cold Storage, LLC v. Penobscot Power Systems, Inc.",
@@ -20,7 +20,8 @@
     "D-ME-009",
     "D-ME-010",
     "D-ME-011",
-    "D-ME-012"
+    "D-ME-012",
+    "D-ME-013"
   ],
   "document_inventory": [
     {
@@ -130,13 +131,26 @@
       "status": "filed",
       "access": "judge",
       "sha256": "server_computed_at_registration"
+    },
+    {
+      "id": "D-ME-013",
+      "title": "Appellant's Appendix — compiled original trial-court documents",
+      "path": "records/ME-CIV-2026-001/D-ME-013-appellants-appendix-v1.md",
+      "pages": 22,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
     }
   ],
   "status_notes": [
     "Invented case, litigants, counsel, statements and docket",
     "Published source law is real; first record maintained separately from current official save",
     "No case registered or assigned yet; judicial response should not be predetermined",
-    "Appendix duplication and detailed local procedural checks remain before profile ready"
+    "Appendix duplication and detailed local procedural checks remain before profile ready",
+    "Appellant's appendix reproduced from the existing immutable docket/complaint/order/agreement/evidence and Rule 56 papers; full content checked against source files"
   ],
-  "checked_on": "2026-10-24"
+  "checked_on": "2026-10-24",
+  "total_logical_pages_original": 29,
+  "total_logical_pages_including_appendix": 51,
+  "decision_made": false
 }
