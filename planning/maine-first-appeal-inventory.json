@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "status": "draft_record_inventory_not_registered",
+  "fictional": true,
+  "case_id": "ME-CIV-2026-001",
+  "title": "Harborlight Cold Storage, LLC v. Penobscot Power Systems, Inc.",
+  "court_id": "ME-SJC-LAW-COURT",
+  "matter_type": "civil_appeal",
+  "appeal_docket": "ME-LC-2026-147",
+  "trial_docket": "CV-2025-418",
+  "initial_document_ids": [
+    "D-ME-001",
+    "D-ME-002",
+    "D-ME-003",
+    "D-ME-004",
+    "D-ME-005",
+    "D-ME-006",
+    "D-ME-007",
+    "D-ME-008",
+    "D-ME-009",
+    "D-ME-010",
+    "D-ME-011",
+    "D-ME-012"
+  ],
+  "document_inventory": [
+    {
+      "id": "D-ME-001",
+      "title": "Fictional Cumberland County Superior Court Docket — CV-2025-418",
+      "path": "records/ME-CIV-2026-001/D-ME-001-trial-docket-v1.md",
+      "pages": 2,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
+    },
+    {
+      "id": "D-ME-002",
+      "title": "Complaint for Breach of Contract — Harborlight v. Penobscot",
+      "path": "records/ME-CIV-2026-001/D-ME-002-complaint-v1.md",
+      "pages": 2,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
+    },
+    {
+      "id": "D-ME-003",
+      "title": "Emergency Generation Support Agreement — May 17, 2024",
+      "path": "records/ME-CIV-2026-001/D-ME-003-service-agreement-v1.md",
+      "pages": 3,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
+    },
+    {
+      "id": "D-ME-004",
+      "title": "Defendant's Motion for Summary Judgment and Statement of Material Facts",
+      "path": "records/ME-CIV-2026-001/D-ME-004-defendant-sj-v1.md",
+      "pages": 3,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
+    },
+    {
+      "id": "D-ME-005",
+      "title": "Plaintiff's Rule 56 Opposition and Opposing Statement of Material Facts",
+      "path": "records/ME-CIV-2026-001/D-ME-005-plaintiff-sj-opposition-v1.md",
+      "pages": 3,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
+    },
+    {
+      "id": "D-ME-006",
+      "title": "Sworn Declarations, Dispatch Log and Road Bulletin Exhibits",
+      "path": "records/ME-CIV-2026-001/D-ME-006-sworn-record-v1.md",
+      "pages": 3,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
+    },
+    {
+      "id": "D-ME-007",
+      "title": "Superior Court Order Granting Summary Judgment and Final Judgment",
+      "path": "records/ME-CIV-2026-001/D-ME-007-trial-order-v1.md",
+      "pages": 2,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
+    },
+    {
+      "id": "D-ME-008",
+      "title": "Notice of Appeal and Transcript-Order Certification",
+      "path": "records/ME-CIV-2026-001/D-ME-008-notice-appeal-v1.md",
+      "pages": 1,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
+    },
+    {
+      "id": "D-ME-009",
+      "title": "Brief of Appellant Harborlight Cold Storage, LLC",
+      "path": "records/ME-CIV-2026-001/D-ME-009-appellants-brief-v1.md",
+      "pages": 4,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
+    },
+    {
+      "id": "D-ME-010",
+      "title": "Brief of Appellee Penobscot Power Systems, Inc.",
+      "path": "records/ME-CIV-2026-001/D-ME-010-appellees-brief-v1.md",
+      "pages": 4,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
+    },
+    {
+      "id": "D-ME-011",
+      "title": "Appellant's Reply Brief",
+      "path": "records/ME-CIV-2026-001/D-ME-011-reply-brief-v1.md",
+      "pages": 1,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
+    },
+    {
+      "id": "D-ME-012",
+      "title": "Law Court Clerk Briefing Notice and Post-Brief Status",
+      "path": "records/ME-CIV-2026-001/D-ME-012-lawcourt-notice-v1.md",
+      "pages": 1,
+      "status": "filed",
+      "access": "judge",
+      "sha256": "server_computed_at_registration"
+    }
+  ],
+  "status_notes": [
+    "Invented case, litigants, counsel, statements and docket",
+    "Published source law is real; first record maintained separately from current official save",
+    "No case registered or assigned yet; judicial response should not be predetermined",
+    "Appendix duplication and detailed local procedural checks remain before profile ready"
+  ],
+  "checked_on": "2026-10-24"
+}
