@@ -31,8 +31,8 @@ def draft(state):
             'author_id':'P-JUDGE','parts':['I','II']})])
 
 class EventTests(unittest.TestCase):
-    def test_live_campaign_unconfigured(self):
-        s=verify(ROOT)
+    def test_new_campaign_unconfigured(self):
+        s=initial_state()
         self.assertEqual(s['campaign']['status'],'setup_required')
         self.assertIsNone(s['campaign']['player']); self.assertFalse(s['cases'])
 
@@ -127,7 +127,13 @@ class EventTests(unittest.TestCase):
 class StorageTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory(); self.root=Path(self.temp.name)
-        shutil.copytree(ROOT,self.root,dirs_exist_ok=True,ignore=shutil.ignore_patterns('.git','__pycache__'))
+        # Tests must not depend on (or reset) the user's evolving campaign.
+        shutil.copytree(ROOT,self.root,dirs_exist_ok=True,ignore=shutil.ignore_patterns(
+            '.git','__pycache__','saves','receipts','requests','CURRENT.json'))
+        write_json(self.root/'courts/profiles.json',{'schema_version':1,'profiles':{}})
+        write_checkpoint(self.root,'S0000-setup',initial_state(),[])
+        write_json(self.root/'requests/REQ-0001-connection.json',
+                   read_json(ROOT/'requests/REQ-0001-connection.json'))
     def tearDown(self): self.temp.cleanup()
 
     def test_publish_and_new_session_restore(self):
