@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "request_id": "REQ-20261024-maine-start-01",
+  "request_sha256": "ec223c51d89a6144403f14dc2de98fd86973bc73293559e8381bed99c8c6c80e",
+  "status": "accepted",
+  "checkpoint": "S0002-maine-start-civil01",
+  "revision": 29
+}

@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "revision": 29,
+  "campaign": {
+    "status": "active",
+    "player": {
+      "id": "P-ME-J-WHITMORE",
+      "name": "Nathaniel James Whitmore",
+      "gender": "male",
+      "birth_year": 1973,
+      "fictional": true,
+      "starting_role": "Associate Justice",
+      "court_id": "ME-SJC-LAW-COURT",
+      "previous_career": "Maine Superior Court Justice 2015-2026"
+    },
+    "court_id": "ME-SJC-LAW-COURT",
+    "game_time": "2026-10-26T09:00:00-04:00",
+    "law_policy": "verified_start_then_branch",
+    "legal_cutoff": "2026-10-24",
+    "scene": "chambers_first_day_conflict_screen_before_merits"
+  },
+  "cases": {
+    "ME-CIV-2026-001": {
+      "id": "ME-CIV-2026-001",
+      "title": "Harborlight Cold Storage, LLC v. Penobscot Power Systems, Inc.",
+      "fictional": true,
+      "court_id": "ME-SJC-LAW-COURT",
+      "matter_type": "civil_appeal",
+      "record_status": "complete",
+      "initial_document_ids": [
+        "D-ME-001",
+        "D-ME-002",
+        "D-ME-003",
+        "D-ME-004",
+        "D-ME-005",
+        "D-ME-006",
+        "D-ME-007",
+        "D-ME-008",
+        "D-ME-009",
+        "D-ME-010",
+        "D-ME-011",
+        "D-ME-012",
+        "D-ME-013"
+      ],
+      "assigned_judges": [
+        "P-ME-CJ-HALE",
+        "P-ME-J-KENNETT",
+        "P-ME-J-ROSALES",
+        "P-ME-J-OKAFOR",
+        "P-ME-J-SLOANE",
+        "P-ME-J-CHEN",
+        "P-ME-J-WHITMORE"
+      ],
+      "appeal_docket": "ME-LC-2026-147",
+      "trial_docket": "CV-2025-418",
+      "brief_status": "complete",
+      "oral_argument_status": "not_scheduled",
+      "conflict_screen_status": "pending",
+      "description": "Civil appeal concerning enforcement of force-majeure mitigation language and summary judgment; no disposition preselected",
+      "hearings": {},
+      "writing_status": "not_started",
+      "status": "pending"
+    }
+  },
+  "people": {
+    "P-ME-CJ-HALE": {
+      "id": "P-ME-CJ-HALE",
+      "name": "Eleanor Hale",
+      "role": "judge",
+      "office": "Chief Justice",
+      "age": 62,
+      "fictional": true,
+      "active": true,
+      "location": "Augusta",
+      "experience": "Former appellate practitioner and trial judge",
+      "traits": [
+        "process-focused",
+        "calm facilitator",
+        "protective of institutional legitimacy"
+      ],
+      "dynamic": "Respects preparation, not seniority alone; open to persuasion"
+    },
+    "P-ME-J-KENNETT": {
+      "id": "P-ME-J-KENNETT",
+      "name": "Robert Kennett",
+      "role": "judge",
+      "office": "Senior Associate Justice",
+      "age": 64,
+      "fictional": true,
+      "active": true,
+      "location": "Portland",
+      "experience": "Former civil litigator and long-serving justice",
+      "traits": [
+        "precise with precedent",
+        "direct in conference",
+        "concise writer"
+      ],
+      "dynamic": "Questions Whitmore closely but without personal hostility"
+    },
+    "P-ME-J-ROSALES": {
+      "id": "P-ME-J-ROSALES",
+      "name": "Isabel Rosales",
+      "role": "judge",
+      "office": "Associate Justice",
+      "age": 55,
+      "fictional": true,
+      "active": true,
+      "location": "Portland",
+      "experience": "Former legal-aid advocate and District Court judge",
+      "traits": [
+        "attentive to procedure",
+        "emphasizes practical effects",
+        "careful listener"
+      ],
+      "dynamic": "Offers collegial help without promising votes"
+    },
+    "P-ME-J-OKAFOR": {
+      "id": "P-ME-J-OKAFOR",
+      "name": "David Okafor",
+      "role": "judge",
+      "office": "Associate Justice",
+      "age": 50,
+      "fictional": true,
+      "active": true,
+      "location": "Augusta",
+      "experience": "Former assistant attorney general and appellate advocate",
+      "traits": [
+        "strong statutory analysis",
+        "frequent hard questions",
+        "receptive to good records"
+      ],
+      "dynamic": "Professional curiosity about Whitmore's trial-court perspective"
+    },
+    "P-ME-J-SLOANE": {
+      "id": "P-ME-J-SLOANE",
+      "name": "Margaret Sloane",
+      "role": "judge",
+      "office": "Associate Justice",
+      "age": 58,
+      "fictional": true,
+      "active": true,
+      "location": "Bangor",
+      "experience": "Former probate and civil judge",
+      "traits": [
+        "methodical",
+        "values clear standards of review",
+        "guarded outside conferences"
+      ],
+      "dynamic": "Willing to collaborate on drafting once grounded in the record"
+    },
+    "P-ME-J-CHEN": {
+      "id": "P-ME-J-CHEN",
+      "name": "Rebecca Chen",
+      "role": "judge",
+      "office": "Associate Justice",
+      "age": 49,
+      "fictional": true,
+      "active": true,
+      "location": "Portland",
+      "experience": "Former criminal-defense attorney and law professor",
+      "traits": [
+        "careful constitutional reasoning",
+        "constructive questions",
+        "clear prose"
+      ],
+      "dynamic": "Potential intellectual ally or dissenter depending on the issue"
+    },
+    "P-ME-J-WHITMORE": {
+      "id": "P-ME-J-WHITMORE",
+      "name": "Nathaniel James Whitmore",
+      "role": "judge",
+      "office": "Associate Justice (player)",
+      "age": 53,
+      "fictional": true,
+      "active": true,
+      "location": "Portland",
+      "experience": "1998–99 Supreme Judicial Court law clerk; 1999–2008 civil litigator; 2008–15 Assistant Attorney General; 2015–26 Superior Court justice",
+      "traits": [
+        "measured",
+        "record-conscious",
+        "willing to revise views"
+      ],
+      "dynamic": "New member; professional relationships and conclusions are not predetermined"
+    },
+    "P-ME-LC-ELLIS": {
+      "id": "P-ME-LC-ELLIS",
+      "name": "Maya Ellis",
+      "role": "law_clerk",
+      "fictional": true,
+      "active": true,
+      "age": 28,
+      "office": "2026–27 court-wide law clerk assigned to Whitmore chambers",
+      "location": "Portland",
+      "traits": [
+        "meticulous source-checker",
+        "directly flags uncertain authority",
+        "reserved in large meetings"
+      ],
+      "duties": [
+        "research on instruction",
+        "bench memorandum",
+        "draft support"
+      ],
+      "limits": "No independent case decision; no access to private justice-only conference unless properly permitted"
+    },
+    "P-ME-LC-PIKE": {
+      "id": "P-ME-LC-PIKE",
+      "name": "Jordan Pike",
+      "role": "law_clerk",
+      "fictional": true,
+      "active": true,
+      "age": 29,
+      "office": "2026–27 court-wide law clerk assigned to Chief Justice chambers",
+      "location": "Augusta",
+      "traits": [
+        "fast issue-spotter",
+        "careful about preserving record distinctions"
+      ],
+      "duties": [
+        "research on instruction",
+        "draft support",
+        "cross-chambers collaboration when authorized"
+      ],
+      "limits": "Not Whitmore's subordinate; cannot share restricted drafts without authorization"
+    },
+    "P-ME-STAFF-PRICE": {
+      "id": "P-ME-STAFF-PRICE",
+      "name": "Hazel Price",
+      "role": "staff",
+      "fictional": true,
+      "active": true,
+      "age": 46,
+      "office": "Whitmore chambers administrative coordinator (simulation)",
+      "location": "Portland",
+      "traits": [
+        "organized",
+        "discreet",
+        "unflustered"
+      ],
+      "duties": [
+        "coordinate agenda",
+        "manage meeting logistics",
+        "route filings via proper office"
+      ],
+      "limits": "No legal opinions, voting, or creation of case evidence"
+    },
+    "P-ME-STAFF-BECKETT": {
+      "id": "P-ME-STAFF-BECKETT",
+      "name": "Simon Beckett",
+      "role": "staff",
+      "fictional": true,
+      "active": true,
+      "age": 52,
+      "office": "Law Court clerk's-office liaison (simulation; not actual officeholder)",
+      "location": "Portland",
+      "traits": [
+        "procedurally exact",
+        "neutral with counsel"
+      ],
+      "duties": [
+        "docket status updates",
+        "public argument calendar",
+        "formal communications"
+      ],
+      "limits": "No ex parte merits discussions or judicial deliberation"
+    }
+  },
+  "documents": {
+    "D-ME-001": {
+      "id": "D-ME-001",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Fictional Cumberland County Superior Court Docket — CV-2025-418",
+      "path": "records/ME-CIV-2026-001/D-ME-001-trial-docket-v1.md",
+      "sha256": "a1bd68af159d742bcbbedb12285234658758a0726840094c6238db9603820b15",
+      "pages": 2,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    },
+    "D-ME-002": {
+      "id": "D-ME-002",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Complaint for Breach of Contract — Harborlight v. Penobscot",
+      "path": "records/ME-CIV-2026-001/D-ME-002-complaint-v1.md",
+      "sha256": "15f49376fcac78db25f8c946013c60045316692bba2a4808a8060a8ec51a7978",
+      "pages": 2,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    },
+    "D-ME-003": {
+      "id": "D-ME-003",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Emergency Generation Support Agreement — May 17, 2024",
+      "path": "records/ME-CIV-2026-001/D-ME-003-service-agreement-v1.md",
+      "sha256": "b7df6ba4a0c6b1620fbf74adf1337a4a1bcf0071c522542b8c3deabe044a5eb5",
+      "pages": 3,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    },
+    "D-ME-004": {
+      "id": "D-ME-004",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Defendant's Motion for Summary Judgment and Statement of Material Facts",
+      "path": "records/ME-CIV-2026-001/D-ME-004-defendant-sj-v1.md",
+      "sha256": "0f064f19305f8d4015c66d3eed074a75ef6c2daa0cfddc5aa8f39994b7652f0d",
+      "pages": 3,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    },
+    "D-ME-005": {
+      "id": "D-ME-005",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Plaintiff's Rule 56 Opposition and Opposing Statement of Material Facts",
+      "path": "records/ME-CIV-2026-001/D-ME-005-plaintiff-sj-opposition-v1.md",
+      "sha256": "a579f03dc9f2e112cd6d645507b508424054626e780eb152d0aa77df853c4108",
+      "pages": 3,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    },
+    "D-ME-006": {
+      "id": "D-ME-006",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Sworn Declarations, Dispatch Log and Road Bulletin Exhibits",
+      "path": "records/ME-CIV-2026-001/D-ME-006-sworn-record-v1.md",
+      "sha256": "ce8a59f2838dd905f20c72dae97014d2f1bc4fec6a4536b894a92e117760ebfb",
+      "pages": 3,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    },
+    "D-ME-007": {
+      "id": "D-ME-007",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Superior Court Order Granting Summary Judgment and Final Judgment",
+      "path": "records/ME-CIV-2026-001/D-ME-007-trial-order-v1.md",
+      "sha256": "01e973e99fe83087966fb09e7ed9c2f9012001c122ba480635f304e5338f2325",
+      "pages": 2,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    },
+    "D-ME-008": {
+      "id": "D-ME-008",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Notice of Appeal and Transcript-Order Certification",
+      "path": "records/ME-CIV-2026-001/D-ME-008-notice-appeal-v1.md",
+      "sha256": "e5f4025676e16872b2bbe623a3ce786cdad20aeac15517b43ebfd2e74c8ff1a6",
+      "pages": 1,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    },
+    "D-ME-009": {
+      "id": "D-ME-009",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Brief of Appellant Harborlight Cold Storage, LLC",
+      "path": "records/ME-CIV-2026-001/D-ME-009-appellants-brief-v1.md",
+      "sha256": "dfd3dafbf464b968b7de49532585e09a1858c4c16bb0b8d0bf3eb1ee0f04d91f",
+      "pages": 4,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    },
+    "D-ME-010": {
+      "id": "D-ME-010",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Brief of Appellee Penobscot Power Systems, Inc.",
+      "path": "records/ME-CIV-2026-001/D-ME-010-appellees-brief-v1.md",
+      "sha256": "ab373804c67129d98802d5ed11af1e633e1c82d8a915a2ce761df06308acf0ae",
+      "pages": 4,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    },
+    "D-ME-011": {
+      "id": "D-ME-011",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Appellant's Reply Brief",
+      "path": "records/ME-CIV-2026-001/D-ME-011-reply-brief-v1.md",
+      "sha256": "565881c79afc2703fce368c4cf2e19c25e588c3611a7329d28b6ff79cc8e4444",
+      "pages": 1,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    },
+    "D-ME-012": {
+      "id": "D-ME-012",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Law Court Clerk Briefing Notice and Post-Brief Status",
+      "path": "records/ME-CIV-2026-001/D-ME-012-lawcourt-notice-v1.md",
+      "sha256": "161df6632217cadadd67a4c3eabdb1d981aff1690406f2eb10580ed493b1a46b",
+      "pages": 1,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    },
+    "D-ME-013": {
+      "id": "D-ME-013",
+      "case_id": "ME-CIV-2026-001",
+      "title": "Appellant's Appendix — compiled original trial-court documents",
+      "path": "records/ME-CIV-2026-001/D-ME-013-appellants-appendix-v1.md",
+      "sha256": "2d7a0920d704c2c6d82c18bcd9123dd9b942834988f302c442a80dcbec76eb8c",
+      "pages": 22,
+      "page_system": "stable_logical_pages",
+      "access": "judge",
+      "status": "filed",
+      "supersedes": null
+    }
+  },
+  "tasks": {},
+  "deadlines": {},
+  "opinions": {},
+  "precedents": {},
+  "career": [
+    {
+      "person_id": "P-ME-J-WHITMORE",
+      "title": "Associate Justice, Maine Supreme Judicial Court (fictional alternate-history appointment)",
+      "effective_at": "2026-10-26T08:30:00-04:00",
+      "basis": "In-simulation lawful appointment by fictional gubernatorial appointment, Senate confirmation and oath following hypothetical vacancy; real Maine officeholders unaffected",
+      "fictional": true
+    }
+  ],
+  "applied_events": {
+    "EV-0001-connection": "90874a8e3a360d4fc312dda1410cf119a81794252bd1e18b9122043004882425",
+    "EV-ME-20261024-CONFIGURE": "4b5f07629fae450692017794ee38c806165b3ccb4b205a0c1a8a04e1ee4d3254",
+    "EV-ME-20261024-REG-P-ME-CJ-HALE": "e90fed20deba43ede908bece768ad9f350d00186061618f32946d6b139ac22f0",
+    "EV-ME-20261024-REG-P-ME-J-KENNETT": "281d498390654a12db2fd8580b69f9e03e867902c9652dc3953fe11ee36dd7ea",
+    "EV-ME-20261024-REG-P-ME-J-ROSALES": "98518ae2282f77f7c5908d6ef6a4d359a37f6938b883e9f90d22559dcf5e9cb4",
+    "EV-ME-20261024-REG-P-ME-J-OKAFOR": "0114a3b162ac25969b4d59086f88eaec266febf338acc627269741042dff652a",
+    "EV-ME-20261024-REG-P-ME-J-SLOANE": "a98a3f72473ef4f1f66f988141aa6fd08c28de957896a735d15feecd0eafa75f",
+    "EV-ME-20261024-REG-P-ME-J-CHEN": "68f75843a802a6987679e9d82f0b0bfb631ccd37ffca5b4118543b11bb424317",
+    "EV-ME-20261024-REG-P-ME-J-WHITMORE": "e3fb59800457917131a9997cd39981647798995b4746b71063e8d08f951694b4",
+    "EV-ME-20261024-REG-P-ME-LC-ELLIS": "479f084d355a85de74c99a96cc5496906b2e15914a3b570a9640ae57da1344cb",
+    "EV-ME-20261024-REG-P-ME-LC-PIKE": "def01054259660a9306358660a8193a572abf31de99bf942f42188429ffe77d7",
+    "EV-ME-20261024-REG-P-ME-STAFF-PRICE": "4ebdffbb60b688aa5878b2084bf5b9d6c60ad07639e77e6803e1fb49946f8a7b",
+    "EV-ME-20261024-REG-P-ME-STAFF-BECKETT": "26b222b1081f5aa86dff195c7041b1f6f2e2a6dab2f8d45cda2a3136fe519ece",
+    "EV-ME-20261024-CASE1": "480bffd5b159341aee787d6535639de13093dddf96f4c04f9deec39a994df748",
+    "EV-ME-20261024-DOC-D-ME-001": "bddabc5e18f1cd38eb2cb396a552d32ab119f0e559d860ee8082619f7d5700b5",
+    "EV-ME-20261024-DOC-D-ME-002": "978bb28c8691d893bcc83260b4438c5b417e0040b06b149177f0d4bc3fc4d6d1",
+    "EV-ME-20261024-DOC-D-ME-003": "a52f87354d5aa21ab2e6435718909217d41d3efd3916e1a0e433aaddd962b70a",
+    "EV-ME-20261024-DOC-D-ME-004": "12338ad7fb4d036b49c9efb3e0f79ffae77e4b46bbe54d924ef707a23acb1596",
+    "EV-ME-20261024-DOC-D-ME-005": "a5cffdecbd682553ce0d1bcce130cd463a89673d1ef52f2d8e2ffa7899a67567",
+    "EV-ME-20261024-DOC-D-ME-006": "a7e8422b1e01990e96ff407b5043f9bbbd8e3aaa7fab040fcb5487f22bc93175",
+    "EV-ME-20261024-DOC-D-ME-007": "cde054e859b4e10287e38a788577971b5dd9291f80e0fe0a9fb2109b1c2ab468",
+    "EV-ME-20261024-DOC-D-ME-008": "9d08d17a4393430e7b3f513903a15a4e393856fc77d0fb94f1ea29ca00ddee78",
+    "EV-ME-20261024-DOC-D-ME-009": "bfb687552a4f89c2b5af87827aca411f77c2ccc785845deb34151b022ba561c9",
+    "EV-ME-20261024-DOC-D-ME-010": "e64fe666ce79ef8702650f2fbe11a94d6e7417eeaf3a1e213dadcb2ecb6b593a",
+    "EV-ME-20261024-DOC-D-ME-011": "06308e8cdef3770c7acac4a4ce3446a6c59b5ca422af9cc8b81d75a0a4b7b959",
+    "EV-ME-20261024-DOC-D-ME-012": "8f05f5e76ee83b63f51082e1d616143d52da94ba4922e18ec46dc0ba745b78a3",
+    "EV-ME-20261024-DOC-D-ME-013": "c8d30dbf78a2198873244718ad294b05c5456867993c36d22b8726cdd7e17b15",
+    "EV-ME-20261024-CAREER": "fb9989c737c3ff862d63afd0d08f97dfd411aa1dd4bed727afc753098de992a2",
+    "EV-ME-20261024-SCENE": "f967f7f97e0829dd057bccf773d072f48f40210603b61461d8c9ae6098366abe"
+  }
+}

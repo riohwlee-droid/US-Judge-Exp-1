@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "S0002-maine-start-civil01",
+  "parent": "S0001-connection-check",
+  "parent_manifest_sha256": "17dc0b7e8a914bbf610b589eb8d6849bf99db91f62c30b078aef3e364fed1b32",
+  "base_revision": 1,
+  "revision": 29,
+  "state_path": "saves/S0002-maine-start-civil01/state.json",
+  "events_path": "saves/S0002-maine-start-civil01/events.json",
+  "state_digest": "62572a593833eff3e668826b5fc9e629cc024be3f1830a2bdc28672c0aeccf3e",
+  "events_digest": "b998dac98dc65eeede62f8f244591e4b776155b4dfe43c5d79428aa09a7f308e"
+}
