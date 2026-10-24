@@ -1,0 +1,39 @@
+name: Publish chat save
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'requests/**'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: judge-save-main
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Check engine and existing records
+        run: |
+          python3 -m unittest discover -s tests -v
+          python3 -m judgesim verify
+          if git rev-parse HEAD^ >/dev/null 2>&1; then
+            python3 scripts/audit_history.py HEAD^
+          fi
+      - name: Process declarative chat requests
+        run: python3 scripts/process_requests.py
+      - name: Publish validated snapshots and receipts
+        run: |
+          git add CURRENT.json saves receipts
+          if ! git diff --cached --quiet; then
+            git -c user.name='judge-save[bot]' -c user.email='judge-save-bot@users.noreply.github.com' commit -m 'Persist validated chat save requests'
+            git push origin HEAD:main
+          fi
+      - name: Validate published candidate
+        run: python3 -m judgesim verify

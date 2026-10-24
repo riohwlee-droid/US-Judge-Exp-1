@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "request_id": "REQ-0001-connection",
+  "base_checkpoint": "S0000-setup",
+  "base_revision": 0,
+  "checkpoint": "S0001-connection-check",
+  "events": [
+    {
+      "id": "EV-0001-connection",
+      "type": "system.check",
+      "payload": {
+        "purpose": "connection_check"
+      }
+    }
+  ]
+}

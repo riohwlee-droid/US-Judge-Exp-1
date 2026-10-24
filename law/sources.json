@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "SRC-US-STRUCTURE",
+      "url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure",
+      "checked_on": "2026-10-24",
+      "review_depth": "overview_only",
+      "scope": "federal court-type overview",
+      "not_verified": [
+        "full local rules",
+        "case-specific doctrine",
+        "all subsequent legal developments"
+      ]
+    },
+    {
+      "id": "SRC-US-JUDGES",
+      "url": "https://www.uscourts.gov/about-federal-courts/types-federal-judges",
+      "checked_on": "2026-10-24",
+      "review_depth": "overview_only",
+      "scope": "federal judicial-role distinctions",
+      "not_verified": [
+        "full local rules",
+        "case-specific doctrine",
+        "all subsequent legal developments"
+      ]
+    },
+    {
+      "id": "SRC-CA3-RULES-INDEX",
+      "url": "https://www.ca3.uscourts.gov/rules-and-requirements",
+      "checked_on": "2026-10-24",
+      "review_depth": "overview_only",
+      "scope": "Third Circuit rules index requires FRAP, local rules and IOP",
+      "not_verified": [
+        "full local rules",
+        "case-specific doctrine",
+        "all subsequent legal developments"
+      ]
+    }
+  ]
+}

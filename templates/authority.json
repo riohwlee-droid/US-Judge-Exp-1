@@ -1,0 +1,16 @@
+{
+  "id": "AUTH-REPLACE",
+  "origin": "real",
+  "citation": null,
+  "url": null,
+  "jurisdiction": null,
+  "decided_at": null,
+  "verified_at": null,
+  "propositions": [],
+  "subsequent_treatment": {
+    "status": "not_checked",
+    "scope": null
+  },
+  "effective_from": null,
+  "effective_to": null
+}

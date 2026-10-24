@@ -1,0 +1,149 @@
+{
+  "training_only": true,
+  "events": [
+    {
+      "id": "SETUP",
+      "type": "campaign.configure",
+      "payload": {
+        "user_confirmed": true,
+        "player": {
+          "id": "P-JUDGE",
+          "name": "Alex Hart",
+          "fictional": true
+        },
+        "court_id": "TRAINING-APPEAL",
+        "game_time": "2026-01-05T09:00:00-05:00",
+        "legal_cutoff": "training-no-real-law"
+      }
+    },
+    {
+      "id": "REGISTER-P-JUDGE",
+      "type": "person.register",
+      "payload": {
+        "person": {
+          "id": "P-JUDGE",
+          "name": "Alex Hart",
+          "fictional": true,
+          "role": "judge",
+          "active": true
+        }
+      }
+    },
+    {
+      "id": "REGISTER-P-JUDGE2",
+      "type": "person.register",
+      "payload": {
+        "person": {
+          "id": "P-JUDGE2",
+          "name": "Lena Ortiz",
+          "fictional": true,
+          "role": "judge",
+          "active": true
+        }
+      }
+    },
+    {
+      "id": "REGISTER-P-JUDGE3",
+      "type": "person.register",
+      "payload": {
+        "person": {
+          "id": "P-JUDGE3",
+          "name": "Morgan Vale",
+          "fictional": true,
+          "role": "judge",
+          "active": true
+        }
+      }
+    },
+    {
+      "id": "REGISTER-P-CLERK",
+      "type": "person.register",
+      "payload": {
+        "person": {
+          "id": "P-CLERK",
+          "name": "Casey Reed",
+          "fictional": true,
+          "role": "law_clerk",
+          "active": true
+        }
+      }
+    },
+    {
+      "id": "REGISTER-CASE",
+      "type": "case.register",
+      "payload": {
+        "case": {
+          "id": "C-001",
+          "title": "Merrow v. Alderfield — training only",
+          "fictional": true,
+          "court_id": "TRAINING-APPEAL",
+          "matter_type": "training_civil",
+          "record_status": "complete",
+          "initial_document_ids": [
+            "D-001",
+            "D-002"
+          ],
+          "assigned_judges": [
+            "P-JUDGE",
+            "P-JUDGE2",
+            "P-JUDGE3"
+          ]
+        }
+      }
+    },
+    {
+      "id": "REGISTER-D-001",
+      "type": "document.register",
+      "payload": {
+        "document": {
+          "id": "D-001",
+          "case_id": "C-001",
+          "title": "Filed scheduling notice",
+          "path": "examples/record/D-001-v1.md",
+          "sha256": "6eb1fd391bfea56de7ddd0b70e6203430473f8d3d0730d26badc6220b13246ea",
+          "pages": 1,
+          "page_system": "stable_logical_pages",
+          "access": "judge",
+          "status": "filed",
+          "supersedes": null
+        }
+      }
+    },
+    {
+      "id": "REGISTER-D-002",
+      "type": "document.register",
+      "payload": {
+        "document": {
+          "id": "D-002",
+          "case_id": "C-001",
+          "title": "Joint acknowledgement",
+          "path": "examples/record/D-002-v1.md",
+          "sha256": "9acaf36850100727f53b631fdc97aaf565b3f3b28af47fce392191c878936091",
+          "pages": 1,
+          "page_system": "stable_logical_pages",
+          "access": "judge",
+          "status": "filed",
+          "supersedes": null
+        }
+      }
+    },
+    {
+      "id": "REGISTER-D-003",
+      "type": "document.register",
+      "payload": {
+        "document": {
+          "id": "D-003",
+          "case_id": "C-001",
+          "title": "Unfiled private correspondence",
+          "path": "examples/record/D-003-v1.md",
+          "sha256": "a58304fd52c4827a250eec6904f5239389cdc63d72663a9bf395ad7d601e4d9e",
+          "pages": 1,
+          "page_system": "stable_logical_pages",
+          "access": "world_only",
+          "status": "unfiled",
+          "supersedes": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "PERSON-REPLACE",
+  "fictional": true,
+  "role": "law_clerk",
+  "active": true,
+  "name": null,
+  "term": null,
+  "work_style": {},
+  "knowledge_limits": [],
+  "relationships": {},
+  "interaction_document_ids": []
+}

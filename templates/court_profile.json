@@ -1,0 +1,17 @@
+{
+  "id": "REPLACE-ME",
+  "status": "research_required",
+  "name": null,
+  "role": null,
+  "timezone": null,
+  "jurisdiction": null,
+  "appeal_route": null,
+  "appointment": null,
+  "staffing": null,
+  "rules": null,
+  "matter_types": [],
+  "hearing_kinds": [],
+  "source_ids": [],
+  "checked_on": null,
+  "unresolved": []
+}

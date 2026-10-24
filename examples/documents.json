@@ -1,0 +1,74 @@
+{
+  "D-001": {
+    "id": "D-001",
+    "case_id": "C-001",
+    "title": "Filed scheduling notice",
+    "path": "examples/record/D-001-v1.md",
+    "sha256": "6eb1fd391bfea56de7ddd0b70e6203430473f8d3d0730d26badc6220b13246ea",
+    "pages": 1,
+    "page_system": "stable_logical_pages",
+    "access": "judge",
+    "status": "filed",
+    "supersedes": null
+  },
+  "D-002": {
+    "id": "D-002",
+    "case_id": "C-001",
+    "title": "Joint acknowledgement",
+    "path": "examples/record/D-002-v1.md",
+    "sha256": "9acaf36850100727f53b631fdc97aaf565b3f3b28af47fce392191c878936091",
+    "pages": 1,
+    "page_system": "stable_logical_pages",
+    "access": "judge",
+    "status": "filed",
+    "supersedes": null
+  },
+  "D-003": {
+    "id": "D-003",
+    "case_id": "C-001",
+    "title": "Unfiled private correspondence",
+    "path": "examples/record/D-003-v1.md",
+    "sha256": "a58304fd52c4827a250eec6904f5239389cdc63d72663a9bf395ad7d601e4d9e",
+    "pages": 1,
+    "page_system": "stable_logical_pages",
+    "access": "world_only",
+    "status": "unfiled",
+    "supersedes": null
+  },
+  "D-004": {
+    "id": "D-004",
+    "case_id": "C-001",
+    "title": "Clerk record inventory memo",
+    "path": "examples/record/D-004-v1.md",
+    "sha256": "adfcb88e4767e2026b181b9a71e065035417986ff4fec8e774b440a68e75384d",
+    "pages": 1,
+    "page_system": "stable_logical_pages",
+    "access": "judge",
+    "status": "internal",
+    "supersedes": null
+  },
+  "D-005": {
+    "id": "D-005",
+    "case_id": "C-001",
+    "title": "Draft opinion version 1",
+    "path": "examples/record/D-005-v1.md",
+    "sha256": "7651451abf0feefdb6bd16df3ca3ed1f7880b8d5be9e1273faa9310eff4993db",
+    "pages": 2,
+    "page_system": "stable_logical_pages",
+    "access": "judge",
+    "status": "internal",
+    "supersedes": null
+  },
+  "D-006": {
+    "id": "D-006",
+    "case_id": "C-001",
+    "title": "Draft opinion version 2",
+    "path": "examples/record/D-006-v1.md",
+    "sha256": "23598fe7fe9cb68edf7f76a41d5448f13b53a9934dfc4eb02e9ffba9442b7007",
+    "pages": 2,
+    "page_system": "stable_logical_pages",
+    "access": "judge",
+    "status": "internal",
+    "supersedes": "D-005"
+  }
+}

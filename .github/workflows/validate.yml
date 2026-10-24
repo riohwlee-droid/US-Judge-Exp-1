@@ -1,0 +1,25 @@
+name: Validate records
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - name: Unit and integration checks
+        run: python3 -m unittest discover -s tests -v
+      - name: Check current save by replaying all events
+        run: python3 -m judgesim verify
+      - name: Detect changed historical files
+        run: |
+          if git rev-parse HEAD^ >/dev/null 2>&1; then
+            python3 scripts/audit_history.py HEAD^
+          fi

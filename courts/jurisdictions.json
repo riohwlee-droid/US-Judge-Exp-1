@@ -1,0 +1,420 @@
+{
+  "schema_version": 1,
+  "meaning": "Discovery scope only, not implemented court profiles",
+  "jurisdictions": [
+    {
+      "id": "AL",
+      "name": "Alabama",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "AK",
+      "name": "Alaska",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "AZ",
+      "name": "Arizona",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "AR",
+      "name": "Arkansas",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "CA",
+      "name": "California",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "CO",
+      "name": "Colorado",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "CT",
+      "name": "Connecticut",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "DE",
+      "name": "Delaware",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "FL",
+      "name": "Florida",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "GA",
+      "name": "Georgia",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "HI",
+      "name": "Hawaii",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "ID",
+      "name": "Idaho",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "IL",
+      "name": "Illinois",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "IN",
+      "name": "Indiana",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "IA",
+      "name": "Iowa",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "KS",
+      "name": "Kansas",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "KY",
+      "name": "Kentucky",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "LA",
+      "name": "Louisiana",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "ME",
+      "name": "Maine",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "MD",
+      "name": "Maryland",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "MA",
+      "name": "Massachusetts",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "MI",
+      "name": "Michigan",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "MN",
+      "name": "Minnesota",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "MS",
+      "name": "Mississippi",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "MO",
+      "name": "Missouri",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "MT",
+      "name": "Montana",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "NE",
+      "name": "Nebraska",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "NV",
+      "name": "Nevada",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "NH",
+      "name": "New Hampshire",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "NJ",
+      "name": "New Jersey",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "NM",
+      "name": "New Mexico",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "NY",
+      "name": "New York",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "NC",
+      "name": "North Carolina",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "ND",
+      "name": "North Dakota",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "OH",
+      "name": "Ohio",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "OK",
+      "name": "Oklahoma",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "OR",
+      "name": "Oregon",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "PA",
+      "name": "Pennsylvania",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "RI",
+      "name": "Rhode Island",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "SC",
+      "name": "South Carolina",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "SD",
+      "name": "South Dakota",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "TN",
+      "name": "Tennessee",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "TX",
+      "name": "Texas",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "UT",
+      "name": "Utah",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "VT",
+      "name": "Vermont",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "VA",
+      "name": "Virginia",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "WA",
+      "name": "Washington",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "WV",
+      "name": "West Virginia",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "WI",
+      "name": "Wisconsin",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "WY",
+      "name": "Wyoming",
+      "category": "state",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "DC",
+      "name": "District of Columbia",
+      "category": "district",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "PR",
+      "name": "Puerto Rico",
+      "category": "territory",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "GU",
+      "name": "Guam",
+      "category": "territory",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "VI",
+      "name": "U.S. Virgin Islands",
+      "category": "territory",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "MP",
+      "name": "Northern Mariana Islands",
+      "category": "territory",
+      "status": "research_required",
+      "court_profile_ids": []
+    },
+    {
+      "id": "AS",
+      "name": "American Samoa",
+      "category": "territory",
+      "status": "research_required",
+      "court_profile_ids": []
+    }
+  ],
+  "additional_systems": [
+    {
+      "id": "federal",
+      "status": "research_required"
+    },
+    {
+      "id": "tribal_sovereigns",
+      "status": "research_required"
+    },
+    {
+      "id": "military",
+      "status": "research_required"
+    },
+    {
+      "id": "agency_adjudication",
+      "status": "research_required"
+    },
+    {
+      "id": "immigration",
+      "status": "research_required"
+    }
+  ]
+}

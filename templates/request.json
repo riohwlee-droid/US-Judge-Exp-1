@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "request_id": "REQ-YYYYMMDD-UNIQUE",
+  "base_checkpoint": "READ-CURRENT",
+  "base_revision": 0,
+  "checkpoint": "SAVE-YYYYMMDD-UNIQUE",
+  "events": [
+    {
+      "id": "EV-UNIQUE",
+      "type": "scene.set",
+      "payload": {
+        "scene": "REPLACE-AFTER-ACTUAL-PLAY"
+      }
+    }
+  ]
+}

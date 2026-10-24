@@ -1,0 +1,14 @@
+{
+  "id": "DOC-REPLACE",
+  "case_id": "CASE-REPLACE",
+  "title": "Full original title",
+  "path": "records/CASE-REPLACE/DOC-REPLACE-v1.md",
+  "sha256": "server_computed",
+  "pages": 1,
+  "page_system": "stable_logical_pages",
+  "access": "judge",
+  "status": "filed",
+  "filed_at": "REPLACE-WITH-GAME-TIME",
+  "supersedes": null,
+  "citations": []
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "S0000-setup",
+  "parent": null,
+  "parent_manifest_sha256": null,
+  "base_revision": 0,
+  "revision": 0,
+  "state_path": "saves/S0000-setup/state.json",
+  "events_path": "saves/S0000-setup/events.json",
+  "state_digest": "3b49afe9cc672a0644bfeaa7476f7ad93130a8f072d6065987615ba0073f2e73",
+  "events_digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

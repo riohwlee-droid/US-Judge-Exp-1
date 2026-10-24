@@ -1,0 +1,14 @@
+{
+  "id": "CASE-REPLACE",
+  "fictional": true,
+  "court_id": "REPLACE-ME",
+  "title": "Fictional parties only",
+  "matter_type": "REPLACE-ME",
+  "record_status": "preparing",
+  "initial_document_ids": [],
+  "assigned_judges": [],
+  "jurisdiction_basis": null,
+  "procedure_stage": null,
+  "related_cases": [],
+  "unresolved": []
+}

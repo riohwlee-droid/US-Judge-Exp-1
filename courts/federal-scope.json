@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "status": "research_required",
+  "appeal_circuit_discovery": [
+    "First",
+    "Second",
+    "Third",
+    "Fourth",
+    "Fifth",
+    "Sixth",
+    "Seventh",
+    "Eighth",
+    "Ninth",
+    "Tenth",
+    "Eleventh",
+    "District of Columbia",
+    "Federal"
+  ],
+  "role_families": [
+    "Article III district judge",
+    "Article III circuit judge",
+    "Supreme Court justice",
+    "magistrate judge",
+    "bankruptcy judge",
+    "territorial district judge",
+    "specialized federal court judge",
+    "military judicial role",
+    "administrative adjudicator"
+  ],
+  "note": "These are discovery families. Geographic/subject jurisdiction, appointments and appeals are not interchangeable. No live profile is ready."
+}
