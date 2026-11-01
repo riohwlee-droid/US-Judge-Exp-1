@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "edition": "reconstruction-v2-review",
+  "source_commit": "709b09ee8c8772cf42d0f1b609ade22c31ab4674",
+  "generated_on": "2026-11-01",
+  "case_id": "ME-CIV-2026-001",
+  "title": "Harborlight Cold Storage, LLC v. Penobscot Power Systems, Inc.",
+  "docket": "ME-LC-2026-147",
+  "trial_docket": "CV-2025-418",
+  "status": "재작성 검토판 · 공식 진행 미반영",
+  "total_pages": 68,
+  "total_words": 13862,
+  "sources": [
+    {
+      "title": "Maine Rules of Appellate Procedure, Rule 7A and Rule 8",
+      "url": "https://www.courts.maine.gov/rules/text/mr_app_p_only_2024-11-01.pdf"
+    },
+    {
+      "title": "Maine Rules of Civil Procedure, Rule 56",
+      "url": "https://www.courts.maine.gov/rules/text/mr_civ_p_only_2026-06-01.pdf"
+    },
+    {
+      "title": "Keep v. Indorf, 2024 ME 14, paragraphs 21-22",
+      "url": "https://www.courts.maine.gov/courts/sjc/lawcourt/2024/24me014.pdf"
+    },
+    {
+      "title": "Dahlem v. City of Saco, 2024 ME 32, paragraphs 16 and 22",
+      "url": "https://www.courts.maine.gov/courts/sjc/lawcourt/2024/24me032.pdf"
+    }
+  ],
+  "viewer_url": "https://judge-casebook-20261101.basicmochi10.chatgpt.site",
+  "canonical_save_unchanged": true,
+  "documents": [
+    {
+      "id": "R-001",
+      "title": "Fictional Cumberland County Superior Court Docket — CV-2025-418",
+      "kind": "법원기록",
+      "group": "절차",
+      "words": 349,
+      "pdf": "pdf/R-001.pdf",
+      "references": [],
+      "sha256": "051f53e7f300638700e4a4f7775f5b021c760e763c4018aae777abc9d6ed7e09",
+      "bound_start": 1,
+      "status": "reconstruction_draft",
+      "pdf_pages": 2,
+      "source_path": "review/ME-CIV-2026-001/v2/R-001-trial-docket.md"
+    },
+    {
+      "id": "R-002",
+      "title": "COMPLAINT AND DEMAND FOR JURY TRIAL",
+      "kind": "소장",
+      "group": "원심 서면",
+      "words": 634,
+      "pdf": "pdf/R-002.pdf",
+      "references": [
+        "R-003"
+      ],
+      "sha256": "d03773f68361f9eb70a888106ca198366b7426aa40ca0c74c25a343a601431d8",
+      "bound_start": 3,
+      "status": "reconstruction_draft",
+      "pdf_pages": 3,
+      "source_path": "review/ME-CIV-2026-001/v2/R-002-complaint.md"
+    },
+    {
+      "id": "R-003",
+      "title": "EMERGENCY GENERATION SUPPORT AGREEMENT",
+      "kind": "계약·증거",
+      "group": "증거",
+      "words": 1391,
+      "pdf": "pdf/R-003.pdf",
+      "references": [],
+      "sha256": "32d18e72bf6e65b6cacc983f7b3f086a80a831c58b85a6acba33fb49c5f66df5",
+      "bound_start": 6,
+      "status": "reconstruction_draft",
+      "pdf_pages": 6,
+      "source_path": "review/ME-CIV-2026-001/v2/R-003-agreement.md"
+    },
+    {
+      "id": "R-004",
+      "title": "AFFIDAVIT OF LEILA FROST",
+      "kind": "진술서",
+      "group": "증거",
+      "words": 1010,
+      "pdf": "pdf/R-004.pdf",
+      "references": [
+        "R-003",
+        "R-005",
+        "R-008",
+        "R-009"
+      ],
+      "sha256": "e55fffc3da8ec1909db03b33eef99cfde42b39c9797903d422666cebd36306e5",
+      "bound_start": 12,
+      "status": "reconstruction_draft",
+      "pdf_pages": 4,
+      "source_path": "review/ME-CIV-2026-001/v2/R-004-frost-affidavit.md"
+    },
+    {
+      "id": "R-005",
+      "title": "AFFIDAVIT OF MORGAN BELL",
+      "kind": "진술서",
+      "group": "증거",
+      "words": 432,
+      "pdf": "pdf/R-005.pdf",
+      "references": [
+        "R-003"
+      ],
+      "sha256": "bce14cf47de11ac28e8033b7c96b44e3e3f1e5d996ba4b887983914ee28c6e70",
+      "bound_start": 16,
+      "status": "reconstruction_draft",
+      "pdf_pages": 2,
+      "source_path": "review/ME-CIV-2026-001/v2/R-005-bell-affidavit.md"
+    },
+    {
+      "id": "R-006",
+      "title": "AFFIDAVIT OF OWEN SUTHERLAND",
+      "kind": "진술서",
+      "group": "증거",
+      "words": 789,
+      "pdf": "pdf/R-006.pdf",
+      "references": [
+        "R-007",
+        "R-008"
+      ],
+      "sha256": "d129b69257d6448246cff4b78d177b46c74fe94888866f7dabcac9eeabe937e8",
+      "bound_start": 18,
+      "status": "reconstruction_draft",
+      "pdf_pages": 3,
+      "source_path": "review/ME-CIV-2026-001/v2/R-006-sutherland-affidavit.md"
+    },
+    {
+      "id": "R-007",
+      "title": "DISPATCH EVENT EXPORT",
+      "kind": "출동일지",
+      "group": "증거",
+      "words": 265,
+      "pdf": "pdf/R-007.pdf",
+      "references": [
+        "R-006"
+      ],
+      "sha256": "332195929a28e670da1a184efa7b0d13d8cefc83f1a9608def68ed63d1d305c7",
+      "bound_start": 21,
+      "status": "reconstruction_draft",
+      "pdf_pages": 2,
+      "source_path": "review/ME-CIV-2026-001/v2/R-007-dispatch-log.md"
+    },
+    {
+      "id": "R-008",
+      "title": "COMMUNICATION EXHIBITS",
+      "kind": "통신·공지",
+      "group": "증거",
+      "words": 257,
+      "pdf": "pdf/R-008.pdf",
+      "references": [],
+      "sha256": "9bb969c8fee6b02880f8a57e33fdcc99cc362fd5d379d55299ed1ea830381f93",
+      "bound_start": 23,
+      "status": "reconstruction_draft",
+      "pdf_pages": 2,
+      "source_path": "review/ME-CIV-2026-001/v2/R-008-correspondence.md"
+    },
+    {
+      "id": "R-009",
+      "title": "HARBORLIGHT - SUBMITTED LOSS SUMMARY",
+      "kind": "손실자료",
+      "group": "증거",
+      "words": 197,
+      "pdf": "pdf/R-009.pdf",
+      "references": [
+        "R-004"
+      ],
+      "sha256": "fb1b4fb105739b1bad95b6536ab886e5780de0208e69560042bfa028438f1010",
+      "bound_start": 25,
+      "status": "reconstruction_draft",
+      "pdf_pages": 1,
+      "source_path": "review/ME-CIV-2026-001/v2/R-009-loss-summary.md"
+    },
+    {
+      "id": "R-010",
+      "title": "DEFENDANT'S MOTION FOR SUMMARY JUDGMENT AND SUPPORTING MEMORANDUM",
+      "kind": "신청서",
+      "group": "원심 서면",
+      "words": 679,
+      "pdf": "pdf/R-010.pdf",
+      "references": [
+        "R-003",
+        "R-004",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-009"
+      ],
+      "sha256": "ea374f7a7ae17ed0af0125973ff04d661e112438fb630f84ac7917e4a5c777a4",
+      "bound_start": 26,
+      "status": "reconstruction_draft",
+      "pdf_pages": 3,
+      "source_path": "review/ME-CIV-2026-001/v2/R-010-summary-judgment-motion.md"
+    },
+    {
+      "id": "R-011",
+      "title": "SEPARATE STATEMENTS OF MATERIAL FACT",
+      "kind": "사실진술",
+      "group": "원심 서면",
+      "words": 963,
+      "pdf": "pdf/R-011.pdf",
+      "references": [
+        "R-003",
+        "R-004",
+        "R-005",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-009"
+      ],
+      "sha256": "629caae332cfe12a3b3d0e8c3c14329c51baa22e129ddadc7956f117b22600d5",
+      "bound_start": 29,
+      "status": "reconstruction_draft",
+      "pdf_pages": 5,
+      "source_path": "review/ME-CIV-2026-001/v2/R-011-material-facts.md"
+    },
+    {
+      "id": "R-012",
+      "title": "PLAINTIFF'S MEMORANDUM IN OPPOSITION TO SUMMARY JUDGMENT",
+      "kind": "반대서면",
+      "group": "원심 서면",
+      "words": 677,
+      "pdf": "pdf/R-012.pdf",
+      "references": [
+        "R-003",
+        "R-004",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-009",
+        "R-011"
+      ],
+      "sha256": "ae05d0c7f1e21bb95bc32821b346a8ba820bee9d21073da9c1720029675abaa4",
+      "bound_start": 34,
+      "status": "reconstruction_draft",
+      "pdf_pages": 3,
+      "source_path": "review/ME-CIV-2026-001/v2/R-012-opposition.md"
+    },
+    {
+      "id": "R-013",
+      "title": "ORDER ON DEFENDANT'S MOTION FOR SUMMARY JUDGMENT",
+      "kind": "원심결정",
+      "group": "결정·통지",
+      "words": 611,
+      "pdf": "pdf/R-013.pdf",
+      "references": [
+        "R-003",
+        "R-011"
+      ],
+      "sha256": "4a4a822bb12668d5bfc0570cc0e5216a49c848a9b2b0ac0b11cf7b2c92342fb9",
+      "bound_start": 37,
+      "status": "reconstruction_draft",
+      "pdf_pages": 3,
+      "source_path": "review/ME-CIV-2026-001/v2/R-013-trial-order.md"
+    },
+    {
+      "id": "R-014",
+      "title": "BRIEF OF APPELLANT HARBORLIGHT COLD STORAGE, LLC",
+      "kind": "항소서면",
+      "group": "항소심 서면",
+      "words": 1992,
+      "pdf": "pdf/R-014.pdf",
+      "references": [
+        "R-001",
+        "R-003",
+        "R-004",
+        "R-005",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-009",
+        "R-010",
+        "R-011",
+        "R-012",
+        "R-013",
+        "R-017"
+      ],
+      "sha256": "652169e59619989b9bb475b73083aca5902393d676cc2e7d8a9c3e36a82bc4d2",
+      "bound_start": 40,
+      "status": "reconstruction_draft",
+      "pdf_pages": 10,
+      "source_path": "review/ME-CIV-2026-001/v2/R-014-appellant-brief.md"
+    },
+    {
+      "id": "R-015",
+      "title": "BRIEF OF APPELLEE PENOBSCOT POWER SYSTEMS, INC.",
+      "kind": "항소서면",
+      "group": "항소심 서면",
+      "words": 1681,
+      "pdf": "pdf/R-015.pdf",
+      "references": [
+        "R-003",
+        "R-004",
+        "R-005",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-009",
+        "R-011",
+        "R-013"
+      ],
+      "sha256": "328dcf0c2077164d0da0ff2e6700ccd9a2e4a477e4f21b109b3082296798d51a",
+      "bound_start": 50,
+      "status": "reconstruction_draft",
+      "pdf_pages": 9,
+      "source_path": "review/ME-CIV-2026-001/v2/R-015-appellee-brief.md"
+    },
+    {
+      "id": "R-016",
+      "title": "REPLY BRIEF OF APPELLANT",
+      "kind": "답변서면",
+      "group": "항소심 서면",
+      "words": 561,
+      "pdf": "pdf/R-016.pdf",
+      "references": [
+        "R-006",
+        "R-007",
+        "R-013",
+        "R-014",
+        "R-015"
+      ],
+      "sha256": "e37cc40844868aa4ed26c5ecc0519ad0b94c6852c4a0aeb2993c3e31b1211cba",
+      "bound_start": 59,
+      "status": "reconstruction_draft",
+      "pdf_pages": 3,
+      "source_path": "review/ME-CIV-2026-001/v2/R-016-reply.md"
+    },
+    {
+      "id": "R-017",
+      "title": "Notice of Appeal and Transcript-Order Certification",
+      "kind": "항소통지",
+      "group": "결정·통지",
+      "words": 192,
+      "pdf": "pdf/R-017.pdf",
+      "references": [],
+      "sha256": "fc43b0e880ac5f3a85779c52768bfef93ed2beada79996ec5784c70c631ad012",
+      "bound_start": 62,
+      "status": "reconstruction_draft",
+      "pdf_pages": 1,
+      "source_path": "review/ME-CIV-2026-001/v2/R-017-notice-appeal.md"
+    },
+    {
+      "id": "R-018",
+      "title": "Law Court Clerk Briefing Notice and Post-Brief Status",
+      "kind": "서기통지",
+      "group": "결정·통지",
+      "words": 213,
+      "pdf": "pdf/R-018.pdf",
+      "references": [],
+      "sha256": "604813a4d9d8cb935a7899d8802edd92f48d47b610f6c086592930b68e720fee",
+      "bound_start": 63,
+      "status": "reconstruction_draft",
+      "pdf_pages": 1,
+      "source_path": "review/ME-CIV-2026-001/v2/R-018-clerk-notice.md"
+    },
+    {
+      "id": "R-019",
+      "title": "ANSWER AND AFFIRMATIVE DEFENSES",
+      "kind": "답변서",
+      "group": "원심 서면",
+      "words": 601,
+      "pdf": "pdf/R-019.pdf",
+      "references": [],
+      "sha256": "34a0f4a742b5ef68da05b410f4a1b1c2f6c7e0854f0e08f032cb8280a7e9d87f",
+      "bound_start": 64,
+      "status": "reconstruction_draft",
+      "pdf_pages": 3,
+      "source_path": "review/ME-CIV-2026-001/v2/R-019-answer.md"
+    },
+    {
+      "id": "R-020",
+      "title": "DEFENDANT'S REPLY IN SUPPORT OF SUMMARY JUDGMENT",
+      "kind": "재반박",
+      "group": "원심 서면",
+      "words": 368,
+      "pdf": "pdf/R-020.pdf",
+      "references": [
+        "R-003",
+        "R-004",
+        "R-005",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-011"
+      ],
+      "sha256": "f21b0e40d5e84c23941224842e0b8d21775b13cc0e1af1acb12d37992be9d2ca",
+      "bound_start": 67,
+      "status": "reconstruction_draft",
+      "pdf_pages": 2,
+      "source_path": "review/ME-CIV-2026-001/v2/R-020-defendant-reply.md"
+    }
+  ]
+}
