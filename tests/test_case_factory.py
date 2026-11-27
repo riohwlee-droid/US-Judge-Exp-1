@@ -123,6 +123,7 @@ class FactoryTests(unittest.TestCase):
             self.b["legal_uses"].append({"id":"LU-"+id,"document_id":id,"page":1,"quote":"Tolan v. Cotton, 572 U.S. 650 (2014)","authority_id":"TOLAN","pin_id":"IIA","use":"support","analysis":"synthetic integration test only"})
         # Ensure original words exceed production floor, not via copied excerpts.
         self.b["reviews"][0]["reviewer"]="second test review role"
+        self.prepare_research()
         self.save()
     def test_nonbrief_pin_required(self):
         self.production_fixture()
@@ -151,3 +152,34 @@ class FactoryTests(unittest.TestCase):
         self.assertEqual(len(s["documents"]),len(self.b["documents"]))
         self.put(self.rec+"COM.md","<!-- PAGE 1 -->\nTampered")
         with self.assertRaises(ValueError):verify(self.root)
+
+    def prepare_research(self):
+        a=self.b["authorities"][0];pin=a["pins"][0]
+        raw="@@ LOC "+pin["locator"]+"\n"+pin["quote"]+"\n"
+        self.put(a["source_path"],raw);a["source_sha256"]=hash_bytes(raw.encode())
+        co=self.b["legal_cutoff"]
+        r={"id":a["id"],"authority_id":a["id"],"citation":a["citation"],"decision_date":a["decided_at"],"cutoff":co,"reviewed_at":"2026-11-27","reviewer":"temporary synthetic fixture","identity_status":"verified","identity_basis":"synthetic test only","scope_note":"synthetic test only","source_kind":"courtlistener","opinion_text_reviewed":True,"original":{"path":a["source_path"],"sha256":a["source_sha256"],"url":a["url"]},"court_level":"scotus","opinion_kind":"per_curiam","publication":"published","panel_kind":"not_applicable","identity_lookup":{"provider":"courtlistener","status":"found","canonical_name":"Tolan v. Cotton","matched_citation":"572 U.S. 650","cluster_id":2672535,"opinion_id":2672535,"basis":"synthetic fixture only; not actual opinion ID verification"},"pin_reviews":[{"id":pin["id"],"locator":pin["locator"],"proposition":pin["proposition"],"character":"holding","status":"usable_limited","weight":"binding","reasoning":"test","applicability":"test","limitation":"test"}],"searches":[{"id":k,"kind":k,"provider":"fixture","query":"fixture","scope":"fixture","limitations":"fixture","searched_at":"2026-11-27","through":co,"hits_reviewed":0,"coverage":"partial","unresolved_material_candidates":[]} for k in ("direct_history","negative_treatment","later_citing")],"treatments":[]}
+        for u in self.b["legal_uses"]:u["claimed_weight"]="binding"
+        for arg in self.b["arguments"]:
+            for u in arg["authorities"]:u["claimed_weight"]="binding"
+        audits=[]
+        for d in self.b["documents"]:
+            if d["kind"] in {"er_volume","er_index","ser_volume","fer_volume"}:continue
+            text=pages((self.root/d["path"]).read_text());occ=[]
+            for n,txt in text.items():
+                if a["citation"] in txt:occ.append({"id":"O"+str(n),"page":n,"offset":txt.index(a["citation"]),"text":a["citation"],"authority_id":a["id"],"pin_id":pin["id"],"form":"full"})
+            audits.append({"id":d["id"],"reviewer":"synthetic fixture","method":"fixture","scope":"fixture","status":"passed","unresolved":[],"occurrences":occ})
+        self.b["research"]={"schema_version":1,"cutoff":co,"authority_reviews":[r],"document_audits":audits,"issue_searches":[{"issue_id":"I1","lane":k,"through":co,"query":"fixture","provider":"fixture","limitations":"fixture","findings":"fixture","unresolved":[]} for k in ("appellant","appellee","adverse")]}
+    def test_research_wrong_weight(self):
+        self.production_fixture();self.b["research"]["authority_reviews"][0]["opinion_kind"]="dissent";self.save()
+        with self.assertRaisesRegex(ValueError,"invalid binding"):compile_package(self.root,self.path)
+    def test_research_bad_locator(self):
+        self.production_fixture();self.b["authorities"][0]["pins"][0]["locator"]="another page";self.b["research"]["authority_reviews"][0]["pin_reviews"][0]["locator"]="another page";self.save()
+        with self.assertRaisesRegex(ValueError,"quote not at reviewed locator"):compile_package(self.root,self.path)
+    def test_research_unmapped_reporter(self):
+        self.production_fixture()
+        p=self.root/(self.rec+"B1.md");p.write_text(p.read_text()+"\n999 F.3d 123\n")
+        with self.assertRaisesRegex(ValueError,"unreviewed reporter"):compile_package(self.root,self.path)
+    def test_research_unresolved_candidate(self):
+        self.production_fixture();self.b["research"]["authority_reviews"][0]["searches"][0]["unresolved_material_candidates"]=["possible vacatur"];self.save()
+        with self.assertRaisesRegex(ValueError,"material treatment"):compile_package(self.root,self.path)

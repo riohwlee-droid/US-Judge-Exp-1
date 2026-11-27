@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "case_id": "CASE-REPLACE",
+  "document_id": "DOC-REPLACE",
+  "document_sha256": "server_computed",
+  "authorities": [],
+  "uses": [],
+  "no_authority_reason": "",
+  "research": {
+    "schema_version": 1,
+    "cutoff": "YYYY-MM-DD",
+    "authority_reviews": [],
+    "document_audits": [],
+    "issue_searches": []
+  }
+}

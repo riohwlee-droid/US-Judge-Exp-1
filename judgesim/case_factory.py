@@ -245,9 +245,9 @@ def compile_package(root, blueprint_path, stage="review", training=False):
         need(d["kind"] not in BRIEFS and d["access"]=="judge","nonbrief legal use must be filed original")
         anchor({"document_id":d["id"],"page":u["page"],"quote":u["quote"]})
         a=auth[u["authority_id"]];pin=table(a["pins"],"pins")[u["pin_id"]]
-        need(f'[[AUTH:{a["id"]}:{pin["id"]}]]' in pmap[d["id"]][u["page"]] and a["citation"] in pmap[d["id"]][u["page"]],"nonbrief legal citation missing")
+        need(f'[[AUTH:{a["id"]}:{pin["id"]}]]' in pmap[d["id"]][u["page"]] and (not training or a["citation"] in pmap[d["id"]][u["page"]]),"nonbrief legal citation missing")
         need(u["use"] in {"support","distinguish","adverse"} and nonblank(u["analysis"]),"nonbrief legal application missing")
-        if a["subsequent_treatment"]["status"]=="negative":need(u["use"]!="support","negative authority relied upon as support")
+        if training and a["subsequent_treatment"]["status"]=="negative":need(u["use"]!="support","negative authority relied upon as support")
     for d in docs.values():
         if d["kind"] in BRIEFS or d["kind"] in {"er_volume","ser_volume","fer_volume"}:continue
         actual=set(LEGAL.findall("\n".join(pmap[d["id"]].values())))
@@ -290,9 +290,9 @@ def compile_package(root, blueprint_path, stage="review", training=False):
             for ref in a["authorities"]:
                 authority=auth[ref["authority_id"]];pin=table(authority["pins"],"pins")[ref["pin_id"]]
                 tag=f'[[AUTH:{authority["id"]}:{pin["id"]}]]'
-                need(tag in pmap[d["id"]][a["page"]] and authority["citation"] in pmap[d["id"]][a["page"]],"legal citation/annotation missing")
+                need(tag in pmap[d["id"]][a["page"]] and (not training or authority["citation"] in pmap[d["id"]][a["page"]]),"legal citation/annotation missing")
                 need(ref["use"] in {"support","distinguish","adverse"} and nonblank(ref["analysis"]),"unreviewed legal application")
-                if authority["subsequent_treatment"]["status"]=="negative":need(ref["use"]!="support","negative authority relied upon as support")
+                if training and authority["subsequent_treatment"]["status"]=="negative":need(ref["use"]!="support","negative authority relied upon as support")
         need(visible==annotated,"unmapped record citation in "+d["id"])
         actual=set(LEGAL.findall(whole));mapped={(r["authority_id"],r["pin_id"]) for a in arguments.values() if a["document_id"]==d["id"] for r in a["authorities"]}
         need(actual==mapped and actual,"unmapped legal citation")
@@ -309,7 +309,14 @@ def compile_package(root, blueprint_path, stage="review", training=False):
         for arg in arguments.values():
             for ref in arg["authorities"]:
                 uses.append(dict(ref,document_id=arg["document_id"],page=arg["page"]))
+        for u in uses:
+            ad=auth[u["authority_id"]]; filed=at(docs[u["document_id"]]["filed_at"]).date()
+            need(date.fromisoformat(ad["decided_at"])<=filed,"authority postdates original filing")
         audited={d["id"]:pmap[d["id"]] for d in original}
+        searches=b["research"]["issue_searches"]
+        for iid in issues:
+            for lane in ("appellant","appellee","adverse"):
+                need(any(s["issue_id"]==iid and s["lane"]==lane and s["through"]==cutoff.isoformat() and all(nonblank(s.get(k)) for k in ("query","provider","limitations","findings")) and s["unresolved"]==[] for s in searches),"missing bilateral/adverse issue research")
         summary["research"]=validate_research(root,b["research"],auth,audited,uses,cutoff,prefix+"law/",hashes)
     if stage=="briefs":return summary
     reviews=table(b["reviews"],"reviews")

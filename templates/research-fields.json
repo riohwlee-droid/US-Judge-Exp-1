@@ -1,0 +1,120 @@
+{
+  "authority_review": {
+    "id": "AUTH1",
+    "authority_id": "AUTH1",
+    "citation": "full verified citation",
+    "decision_date": "YYYY-MM-DD",
+    "cutoff": "YYYY-MM-DD",
+    "reviewed_at": "YYYY-MM-DD",
+    "reviewer": "review role",
+    "identity_status": "verified",
+    "identity_basis": "source and duplicate resolution",
+    "scope_note": "limited, never universal clearance",
+    "source_kind": "courtlistener",
+    "opinion_text_reviewed": true,
+    "original": {
+      "path": "same source_path as authority",
+      "sha256": "actual hash",
+      "url": "https://www.courtlistener.com/"
+    },
+    "court_level": "ca9",
+    "opinion_kind": "majority",
+    "publication": "published",
+    "panel_kind": "en_banc",
+    "identity_lookup": {
+      "provider": "courtlistener",
+      "status": "found",
+      "canonical_name": "verified name",
+      "matched_citation": "verified reporter",
+      "cluster_id": 0,
+      "opinion_id": 0,
+      "alternate_clusters": [],
+      "basis": "actual lookup details"
+    },
+    "pin_reviews": [
+      {
+        "id": "P1",
+        "locator": "reporter page or section",
+        "proposition": "same as source authority",
+        "character": "holding",
+        "status": "usable_limited",
+        "weight": "binding",
+        "reasoning": "why holding",
+        "applicability": "scope",
+        "limitation": "limits"
+      }
+    ],
+    "searches": [
+      {
+        "id": "S1",
+        "kind": "direct_history",
+        "provider": "CourtListener or official",
+        "query": "actual query",
+        "scope": "actual scope",
+        "limitations": "actual limits",
+        "searched_at": "YYYY-MM-DD",
+        "through": "YYYY-MM-DD",
+        "hits_reviewed": 0,
+        "coverage": "partial",
+        "unresolved_material_candidates": []
+      }
+    ],
+    "treatments": [
+      {
+        "search_id": "S1",
+        "pin_id": "P1",
+        "date": "YYYY-MM-DD",
+        "citation": "actual citing case",
+        "court": "actual court",
+        "relation": "limited",
+        "operative": true,
+        "locator": "exact locator",
+        "quote": "verified text",
+        "analysis": "effect on this proposition",
+        "source": {
+          "path": "same law directory",
+          "sha256": "actual hash",
+          "url": "https://www.courtlistener.com/"
+        }
+      }
+    ]
+  },
+  "audit": {
+    "id": "DOC1",
+    "reviewer": "review role",
+    "method": "eyecite extract, verify, semantic review",
+    "scope": "full original",
+    "status": "passed",
+    "unresolved": [],
+    "occurrences": [
+      {
+        "id": "O1",
+        "page": 1,
+        "offset": 0,
+        "text": "actual full citation",
+        "authority_id": "AUTH1",
+        "pin_id": "P1",
+        "form": "full"
+      }
+    ]
+  },
+  "use": {
+    "document_id": "DOC1",
+    "page": 1,
+    "authority_id": "AUTH1",
+    "pin_id": "P1",
+    "use": "support",
+    "claimed_weight": "binding",
+    "analysis": "reasoned application"
+  },
+  "issue_search": {
+    "issue_id": "I1",
+    "lane": "adverse",
+    "through": "YYYY-MM-DD",
+    "provider": "CourtListener",
+    "query": "actual query",
+    "limitations": "scope",
+    "findings": "actual results and conclusions",
+    "unresolved": []
+  }
+}

@@ -38,6 +38,9 @@ def validate_authority(root,a,r,cutoff,prefix,hashes):
     if iscase:
         need(r["court_level"] in CASES and r["opinion_kind"] in {"majority","per_curiam","plurality","concurrence","dissent","order","combined_reviewed"},"opinion identity missing")
         need(r["publication"] in {"published","unpublished","unknown"} and r["panel_kind"] in {"panel","en_banc","full_court","not_applicable","unknown"},"publication/panel missing")
+        court=a["court"].lower()
+        if court in {"ca9","scotus"}:need(r["court_level"]==court,"court level inconsistent with authority")
+        if r["court_level"] in {"ca9","scotus"}:need(court==r["court_level"],"controlling court code required")
         ids=r["identity_lookup"]
         need(ids["provider"] in {"courtlistener","official"} and ids["status"]=="found","citation lookup not verified")
         required_text(ids,["basis","canonical_name","matched_citation"])
@@ -114,6 +117,7 @@ def audit_document(page_map, audit, authorities, reviews, uses):
     for ref in refs.values():
         n=ref["page"];txt=page_map[n];a=authorities[ref["authority_id"]];r=reviews[a["id"]]
         need(ref["pin_id"] in {p["id"] for p in a["pins"]},"audit pin unknown")
+        if ref["form"]=="full" and a["authority_type"]=="case":need(r["identity_lookup"]["matched_citation"] in ref["text"],"full case citation does not match verified reporter")
         need(nonblank(ref["text"]) and ref["text"] in txt and ref["form"] in {"full","short","id","supra","statute","rule","other"},"audit occurrence absent")
         need((n,a["id"],ref["pin_id"]) in mapped,"occurrence lacks page use")
         if ref["form"] in {"id","short","supra"}:
@@ -148,5 +152,5 @@ def validate_packet(root,path,digest,doc,cutoff):
     auth=table(p["authorities"],"packet authorities")
     hashes={}
     validate_research(root,p["research"],auth,{doc["id"]:pages(txt)},p["uses"],day(cutoff),prefix,hashes)
-    need(auth or p.get("no_authority_reason") and not p["uses"],"empty packet needs reviewed reason")
+    need(auth or nonblank(p.get("no_authority_reason")) and not p["uses"],"empty packet needs reviewed reason")
     return p
