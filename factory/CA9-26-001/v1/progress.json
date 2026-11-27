@@ -1,6 +1,6 @@
 {
   "case_id": "CA9-26-001",
-  "status": "excerpt_assembly_in_progress",
+  "status": "excerpts_assembled_briefs_pending",
   "authored_documents": [
     {
       "id": "CA9-26-001-COM",
@@ -163,6 +163,24 @@
       "path": "records/CA9-26-001/v1/ORDER.md",
       "pages": 8,
       "words": 1227
+    },
+    {
+      "id": "CA9-26-001-ER1",
+      "path": "records/CA9-26-001/v1/ER1.md",
+      "pages": 9,
+      "words": 1340
+    },
+    {
+      "id": "CA9-26-001-ER2",
+      "path": "records/CA9-26-001/v1/ER2.md",
+      "pages": 181,
+      "words": 23591
+    },
+    {
+      "id": "CA9-26-001-IDX",
+      "path": "records/CA9-26-001/v1/IDX.md",
+      "pages": 7,
+      "words": 550
     }
   ],
   "planned_documents": 33,
@@ -178,86 +196,6 @@
       "411 U.S. 792"
     ]
   },
-  "next_batch": "Complete lower record, depositions, motions/order, exact docket, excerpts, briefs, research packet and final review.",
-  "partial_excerpt_index": [
-    {
-      "id": "JUD",
-      "volume": 1,
-      "first": 1,
-      "last": 1
-    },
-    {
-      "id": "ORDER",
-      "volume": 1,
-      "first": 2,
-      "last": 9
-    },
-    {
-      "id": "HEAR",
-      "volume": 2,
-      "first": 10,
-      "last": 17
-    },
-    {
-      "id": "REPL",
-      "volume": 2,
-      "first": 18,
-      "last": 22
-    },
-    {
-      "id": "OPP",
-      "volume": 2,
-      "first": 23,
-      "last": 31
-    },
-    {
-      "id": "COMP",
-      "volume": 2,
-      "first": 32,
-      "last": 36
-    },
-    {
-      "id": "WDEP",
-      "volume": 2,
-      "first": 37,
-      "last": 49
-    },
-    {
-      "id": "CDEP",
-      "volume": 2,
-      "first": 50,
-      "last": 61
-    },
-    {
-      "id": "WARN",
-      "volume": 2,
-      "first": 62,
-      "last": 65
-    },
-    {
-      "id": "EEOC",
-      "volume": 2,
-      "first": 66,
-      "last": 68
-    },
-    {
-      "id": "MSJ",
-      "volume": 2,
-      "first": 69,
-      "last": 78
-    },
-    {
-      "id": "POL",
-      "volume": 2,
-      "first": 79,
-      "last": 83
-    },
-    {
-      "id": "REV",
-      "volume": 2,
-      "first": 84,
-      "last": 87
-    }
-  ],
-  "partial_excerpt_pages": 87
+  "next_batch": "Author appellate briefs and complete citations/review.",
+  "excerpt_pages": 190
 }

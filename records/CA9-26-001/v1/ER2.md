@@ -563,3 +563,1087 @@ HR filing category: coaching and development, retained with review materials.
 PERSONNEL FILE CERTIFICATION
 Employee hire record: start date August 16, 2021; position dispatch coordinator; location Oakland. The personnel file contains the annual review and the November 17 coaching note. It contains no formal written disciplinary warning for Maren before the May 2024 discharge. This certification concerns the personnel file, not every operational message or conversation. Informal instruction may have occurred without being recorded as formal discipline. The documents were exported from the personnel records system in connection with discovery and are reproduced here without home addresses, compensation account details or unrelated personal data. The parties have not stipulated to the inferences to be drawn from the review or coaching note.
 /s/ Nadia E. Bracken, HR director, May 4, 2026 (fictional).
+
+<!-- PAGE 79 -->
+EMAIL EXPORT — AQ QUALITY REVIEW
+From: Gavin R. Holtwell
+To: Derek L. Fenmore
+Date: April 4, 2024, 08:42 PDT
+Subject: Release exceptions — common review
+Derek,
+The customer called about AQ-4470 on Tuesday. The carrier was allowed to move the load before the destination confirmation was visible. Please pull the last fourteen days for all six coordinators on the Oakland roster. Include the account, event time, approval field and any manual log reference. Do not call the entries violations until we reconcile them. I want the common file by tomorrow so we can see whether the problem is isolated or whether our export is catching late updates. Please retain the underlying query and do not replace the first workbook when you make a correction.
+Gavin
+
+<!-- PAGE 80 -->
+From: Derek L. Fenmore
+To: Gavin R. Holtwell
+Date: April 5, 2024, 15:06 PDT
+Subject: Re: Release exceptions — common review
+The first file is saved as AQ-review-0405. The query covers March 21 through April 3 inclusive for all six accounts. The initial rows marked blank approval include entries where the manual reference has not populated. I have not contacted the shift leads. The file shows Maren three, Bellford four, and four other accounts a combined five flags. This is not a comparative discipline table: there is no severity coding, and the raw number is sensitive to number of releases. I will reconcile the blank fields against the manual log and the event history. The customer consignment AQ-4470 is included in Bellford's four flags. The attached workbook remains in the shared quality folder.
+
+<!-- PAGE 81 -->
+From: Gavin R. Holtwell
+To: Derek L. Fenmore
+Date: April 12, 2024, 09:18 PDT
+Subject: Review window — Maren
+Please extend Maren's query to sixty days ending April 3 and send a separate sheet rather than modifying the common file. I want to see whether the blank-approval entries are recurring. I have a coaching note about her manual documentation from last November. Do not expand the other accounts at this point; I need the corrected common review first. We can revisit scope if the reconciliation identifies a broader issue.
+
+From: Derek L. Fenmore
+To: Gavin R. Holtwell
+Date: April 12, 2024, 09:43 PDT
+Understood. The longer window will not be directly comparable to the fourteen-day counts. I will label it separately.
+
+<!-- PAGE 82 -->
+From: Derek L. Fenmore
+To: Gavin R. Holtwell; Nadia E. Bracken
+Date: April 15, 2024, 16:12 PDT
+Subject: Expanded review — preliminary
+The sixty-day Maren extract identifies twelve preliminary flags, including the three from the common window. Several have a manual log reference or a later approval update; I need the time history to determine which can be reconciled. AQ-4182 and AQ-4311 show no recorded approval at release and no complete manual approval entry in the export presently available. I have not determined whether oral authorization was given. Two other entries may be incomplete notes. Please do not use twelve as a final violation count. I will send a reconciliation sheet after reviewing the event history and any employee explanation.
+
+<!-- PAGE 83 -->
+From: Derek L. Fenmore
+To: Gavin R. Holtwell; Nadia E. Bracken
+Date: April 23, 2024, 11:27 PDT
+Subject: Maren reconciliation — corrected count
+Eight of the twelve flags are resolved by reference to the field history or the manual log. Four remain open. Two are incomplete documentation entries; two (AQ-4182 and AQ-4311) have disputed authorization and no complete timely approval record in the systems supplied to me. The data establish missing documentation; they do not establish what a lead said orally. The employee has identified a lead and approximate times. I cannot determine from the export whether the lead actually authorized either release. Please use four unresolved entries, not twelve violations, in any management summary. The initial extract and the corrections are retained separately.
+
+<!-- PAGE 84 -->
+WORKBOOK CHANGE HISTORY — quality shared folder
+AQ-review-0405: saved April 5, 15:02; common period March 21–April 3; six accounts; raw screen only.
+AQ-Maren-0415: saved April 15, 16:04; February 4–April 3; one account; twelve raw flags; separate file.
+AQ-Maren-0423: saved April 23, 11:20; same extended period; eight resolved, four open; open status not a finding of unauthorized conduct.
+The common workbook did not receive a sixty-day export for the other five accounts in this production. The change history records the files maintained by Quality, not every conversation about why management requested a particular scope. The corrected workbook does not delete or overwrite the first file. Export note: all dates local to Oakland; emails are reproduced in chronological order without unrelated headers.
+/s/ Derek L. Fenmore, May 4, 2026 (fictional).
+
+<!-- PAGE 85 -->
+ASTER QUAY LOGISTICS — DISPATCH RELEASE DATA EXPORT
+Custodian: Mina C. Velden. Export scope: Oakland facility, records retained for the common March 21–April 3, 2024 review and the separate Maren February 4–April 3 extended review. Prepared for discovery and reproduced in the May 4, 2026 filing. Times are local; dates before March 10 use PST and dates thereafter use PDT. A release row identifies an account and recorded release event, not the identity of a person who may have spoken to that account holder. The approval field history is stored independently. A blank at release does not by itself establish an unauthorized dispatch. The report below includes the exception rows selected by the audit queries, not all successful releases. No reliable denominator of total eligible transactions is included in this exhibit. The query definition, selected rows, later field changes, and manual note entries are distinct records.
+
+<!-- PAGE 86 -->
+QUERY LOG — COMMON WINDOW
+Run ID Q-0405, executed April 5, 2024, 14:48 PDT by analyst account DFENMORE. Facility OAK. Date range March 21 00:00 through April 3 23:59. Accounts: EMAREN, JBELLFORD, and four other coordinators identified as Q3, Q4, Q5, Q6 for privacy in this fictional record. Filter: release status sent, approval value absent at release, excluding system test transactions. Output: 12 preliminary rows. Counts: EMAREN 3, JBELLFORD 4, Q3 2, Q4 1, Q5 1, Q6 1. The output was exported to AQ-review-0405 at 15:02. The query did not filter by the later resolution of a flagged transaction, by customer impact, or by whether an oral approval was subsequently confirmed. The query is not a report of total releases. No disciplinary threshold is contained in this query.
+
+<!-- PAGE 87 -->
+QUERY LOG — EXTENDED WINDOW
+Run ID Q-0415, executed April 15, 2024, 15:39 PDT by DFENMORE. Facility OAK. Date range February 4 00:00 through April 3 23:59. Account: EMAREN only. Same release and absent-at-release filters as Q-0405. Output: 12 preliminary rows. Nine are outside the common window, three inside it. The workbook AQ-Maren-0415 is separately retained. Q-0423 reconciliation uses the same selected rows and does not add new transactions. It adds the analyst's resolution field and references to event-history or manual notes. No extended query for JBELLFORD or Q3–Q6 was located in the retained audit folder. This statement concerns the retained quality query logs, not whether someone could have examined individual records by other means.
+
+<!-- PAGE 88 -->
+MAREN — EXCEPTION ROWS 1–4
+AQ-3901 | Feb 6 08:52 PST | approval at release blank | manual reference M-206-04 | resolved Apr 23: timely manual approval; delayed field synchronization.
+AQ-3956 | Feb 12 14:13 PST | blank | M-212-08 | resolved: lead approval recorded in manual log before release.
+AQ-4027 | Feb 19 16:45 PST | blank | M-219-11 | resolved: approval-field event at 16:38; report joins omitted event until refresh.
+AQ-4099 | Feb 28 11:27 PST | blank | M-228-03 | resolved: manual log and lead confirmation.
+The listed times are the release timestamps. Manual entry time and later electronic refresh are different fields. These four rows appear in the expanded export only. The reconciliation codes do not establish that the employee had knowledge of the export defect at the time of each release.
+
+<!-- PAGE 89 -->
+MAREN — EXCEPTION ROWS 5–8
+AQ-4182 | Mar 7 15:42 PST | blank | no complete timely reference | open: disputed authorization.
+AQ-4210 | Mar 11 09:14 PDT | blank | M-311-01 | resolved: earlier approval event.
+AQ-4255 | Mar 14 13:05 PDT | blank | M-314-05 | resolved: timely manual note.
+AQ-4311 | Mar 20 16:28 PDT | blank | incomplete reference M-320-09 | open: disputed authorization.
+The screen contains no completed approval field for AQ-4182 or AQ-4311 in the release state. The field history does not contain a timely complete manual approval for either. The log does not contain audio or a transcript of any conversation at the dispatch desk. The analyst marked these two entries disputed rather than confirmed unauthorized. The status code describes the available documentation and employee explanation.
+
+<!-- PAGE 90 -->
+MAREN — EXCEPTION ROWS 9–12
+AQ-4338 | Mar 20 17:04 PDT | blank | M-320-12 | open: manual note lacks lead identity, no separate authorization dispute recorded.
+AQ-4402 | Mar 26 10:23 PDT | blank | M-326-03 | resolved: timely approval entry recovered in field history.
+AQ-4451 | Mar 29 15:17 PDT | blank | M-329-10 | open: reason field missing; lead identity entered.
+AQ-4498 | Apr 3 11:53 PDT | blank | M-403-06 | resolved: timely manual approval.
+The latter three entries were present in the common review. After reconciliation, the twelve preliminary rows consist of eight resolved and four open entries. Two open entries are coded disputed authorization and two incomplete documentation. The categorization is an analyst's record assessment, not a final HR finding. No numerical severity score was calculated.
+
+<!-- PAGE 91 -->
+BELLFORD — COMMON EXCEPTION ROWS
+AQ-4365 | Mar 22 08:31 PDT | blank | M-322-02 | resolved: approval event present before release.
+AQ-4418 | Mar 27 13:48 PDT | blank | M-327-04 | open: manual reason field absent.
+AQ-4470 | Apr 2 09:56 PDT | blank | M-402-07 | open: destination confirmation incomplete in release screen; later lead confirmation reported by manager.
+AQ-4486 | Apr 3 09:02 PDT | blank | M-403-02 | resolved: delayed update.
+The common query does not establish whether Bellford had other exceptions between February 4 and March 20. The record of lead confirmation for AQ-4470 is a management notation after the event rather than a contemporaneous recording of a conversation. Quality retained the original blank field in the export and did not backfill the value to represent a later explanation as an earlier approval.
+
+<!-- PAGE 92 -->
+OTHER COORDINATORS — COMMON EXCEPTION ROWS
+Q3: AQ-4371 Mar 22 10:16, resolved manual note; AQ-4444 Mar 29 08:05, open incomplete reason field.
+Q4: AQ-4409 Mar 26 14:39, resolved approval history.
+Q5: AQ-4464 Apr 1 16:21, resolved manual note.
+Q6: AQ-4491 Apr 3 10:47, resolved approval history.
+All times PDT. No employee demographic information is associated with these account labels in the export. The common query returned five flags for the other four accounts, of which four were resolved and one remained open. The file is not a comprehensive personnel discipline database. The fact that an entry remained open does not identify the final corrective action. The export includes the open entry for Q3 to prevent treating Maren and Bellford as the only accounts with incomplete documentation.
+
+<!-- PAGE 93 -->
+FIELD HISTORY — AQ-4182
+March 7, 15:38:11 PST — destination check complete, account EMAREN.
+15:39:02 — carrier identity check complete.
+15:42:17 — release message transmitted, approval field null.
+15:43:29 — departure scan not yet recorded.
+15:51:44 — departure scan entered at loading door.
+17:00:00 — shift closed; manual approval reference null in retained structured log.
+The export includes the status events available from the transaction and manual-reference tables. A scan after release is not approval. A missing structured note may indicate that a note was not made or that a note kept elsewhere was not retained. There is no recorded error code identifying a failed save for this particular reference. The custodian cannot reconstruct a conversation or a paper note that is not in the retained records.
+
+<!-- PAGE 94 -->
+FIELD HISTORY — AQ-4311
+March 20, 16:21:03 PDT — identity check complete, account EMAREN.
+16:24:10 — destination check complete.
+16:28:02 — release message transmitted, approval field null.
+16:35:50 — departure scan at loading door.
+16:57:12 — manual reference M-320-09 created; reason field: carrier waiting; lead field blank.
+17:00:00 — shift closed.
+A retained manual entry exists, but the entry does not identify the approving lead. A subsequent note was not inserted into the original record. The entry therefore does not meet the complete-note requirement under the January policy even if the employee obtained oral approval. The field history does not establish that the lead field was blank because of intentional omission. No recording of the claimed oral approval is contained in this system.
+
+<!-- PAGE 95 -->
+FIELD HISTORY — AQ-4470
+April 2, 09:50:21 PDT — carrier identity complete, account JBELLFORD.
+09:55:08 — destination field pending.
+09:56:41 — release message transmitted, approval field null.
+10:01:26 — destination field completed.
+10:06:02 — departure scan recorded.
+10:24:00 — manual reference M-402-07; reason field blank; lead name entered.
+11:15:00 — customer service ticket created concerning destination confirmation.
+April 3, 08:40 — operations note: lead reported telephone confirmation of destination before release. This is not a system event contemporaneous with release. The data show the field was pending at release and later completed; they do not establish whether the substantive destination check was completed by another method at the earlier time. The ticket and note are separate from the original field history.
+
+<!-- PAGE 96 -->
+CUSTODIAN CERTIFICATION
+The foregoing pages reproduce the retained audit query descriptions, selected exception rows and relevant field-history excerpts. The original electronic tables contain additional technical fields not material to the displayed exception statuses. The parties received machine-readable exports in discovery. I have not made a finding about the truth of a witness's account of oral instructions. The exception reports were generated by a missing-field screen and were later reconciled using the records described in the analyst's report. No extended comparator report is included in the produced quality folder. I certify that the displayed records identify the same accounts, times, status codes and shipment identifiers as the fictional records maintained by the company. These are not actual business records of a real entity.
+/s/ Mina C. Velden, May 4, 2026 (fictional).
+
+<!-- PAGE 97 -->
+UNITED STATES DISTRICT COURT
+NORTHERN DISTRICT OF CALIFORNIA — OAKLAND DIVISION
+Maren v. Aster Quay Logistics, Inc. | SIM-NDCA-25-001 (fictional)
+DEPOSITION TRANSCRIPT
+Deposition of Elena R. Maren
+October 6, 2025, Oakland, California. Commenced 9:30 a.m.
+Appearances: Alina V. Serrick for plaintiff; Matthew J. Corven for defendant. Simon E. Harwick, reporter (all fictional). The witness, having been duly sworn, testified as follows. Exhibits are identified by the descriptions used at examination and later filed as part of the summary judgment record. The page numbers in this transcript are stable simulation page numbers.
+EXAMINATION BY MR. CORVEN
+Q. Please state your name for the record.
+A. Elena R. Maren.
+Q. You understand that you are under oath and that you should distinguish what you recall personally from what a document tells you?
+A. Yes. If I cannot recall something, I will say so.
+Q. If a question is unclear, will you ask me to rephrase it rather than speculate?
+A. Yes.
+
+<!-- PAGE 98 -->
+Q. When did you start at Aster Quay?
+A. August 16, 2021.
+Q. Had you ever worked as a shift lead there?
+A. No permanent lead position. I asked to be trained. I covered portions of a shift when someone stepped away, but that is different from being assigned the lead shift.
+Q. Did you have authority to approve your own exceptions?
+A. No.
+Q. If an approval was missing, were you required to seek permission?
+A. Yes, from the lead. If it was urgent we could get approval by speaking to the lead, then record it.
+Q. Did the policy require a complete note by shift end?
+A. Yes. That is what I understood. I am not saying the policy allowed us to leave the note incomplete. I am saying incomplete documentation and releasing without permission are different things.
+
+<!-- PAGE 99 -->
+Q. I am showing you the February 2024 review. Is that your acknowledgment?
+A. Yes.
+Q. The overall rating says meets expectations. Did you receive any other rating in that document?
+A. The quality comments say I should be quicker with manual notes. I agreed that I should work on that.
+Q. Had you been coached about the issue before?
+A. In November. There was a note without a lead name. Gavin told me to include the name before the end of my shift.
+Q. Did you understand that future violations could result in discipline?
+A. Yes. I understood that. I did not understand the meeting to be a formal written warning. The lead had confirmed the approval on the transaction we discussed.
+Q. You did not dispute the note itself?
+A. I did not dispute that it had been incomplete.
+
+<!-- PAGE 100 -->
+Q. Describe the acting-lead shifts you complained about. What did you observe yourself?
+A. I saw the posted schedules for the rotation. On several occasions I had requested to be considered and another coordinator was assigned. I noticed men being assigned more often. I also heard two women ask how to get trained.
+Q. Did you have access to every coordinator's training history?
+A. No. That was why I asked HR to look at the criteria.
+Q. Did you know whether the company considered availability, experience or shift coverage?
+A. I knew they talked about experience and coverage. I did not know how they weighed those things.
+Q. You are not saying you had proved discrimination before April 8?
+A. Correct. I believed it might be discrimination and wanted it investigated.
+
+<!-- PAGE 101 -->
+Q. Your email to HR is dated April 8, 2024. Did you send it?
+A. Yes. It was the first written complaint I sent to HR about sex discrimination in lead assignments.
+Q. Did you tell Gavin you were going to send that email?
+A. No. I had raised the assignment process with him earlier. I did not tell him beforehand that I was writing to HR.
+Q. Did you see HR speak to him on April 9?
+A. No. I later learned that HR had spoken with him.
+Q. Did anyone threaten to fire you for sending the email?
+A. Nobody said those exact words.
+Q. Are you claiming there was a direct threat?
+A. No. I am describing what happened to the review and the way my explanations were handled.
+
+<!-- PAGE 102 -->
+Q. Let's discuss AQ-4182. You released it on March 7?
+A. Yes. I recognized the shipment number when the report was shown to me.
+Q. What precisely did the lead say?
+A. I remember telling Tessa that the identity and destination were checked but the approval box was not updating. I remember her saying to go ahead and make the manual note.
+Q. Where were you?
+A. At the dispatch desk or just beside it, near the loading-door monitor.
+Q. Was there anyone who you know heard that exchange?
+A. I cannot identify anyone who heard the entire exchange.
+Q. Can you give the exact time of the conversation?
+A. No. It was shortly before I released the load. The report gives the release time, not the conversation time.
+
+<!-- PAGE 103 -->
+Q. The retained record does not show a completed note for AQ-4182. Do you dispute that?
+A. I have not found a completed note for it in the records produced.
+Q. Did you write a note before leaving that day?
+A. I remember intending to. I cannot honestly say that I completed it. I might have started it, but I do not have a document to show that.
+Q. Then you cannot establish compliance with the note requirement from the record, correct?
+MS. SERRICK: Objection to the form; calls for a legal characterization.
+A. I can say I believe I had permission to release. I cannot show a complete note.
+Q. You understood that the missing note was itself an issue?
+A. Yes. I did not agree that it meant I had released without permission.
+
+<!-- PAGE 104 -->
+Q. Turning to AQ-4311 on March 20, what did you recall at the HR meeting?
+A. I was trying to get a late carrier through the door. I asked Tessa whether the load could go while the approval screen was pending. I remember hearing her tell me to release it and finish the entry before shift end.
+Q. Did she use the words finish the entry?
+A. That is my recollection of the meaning. I cannot give a word-for-word quotation.
+Q. Did you record her name?
+A. The entry we have shows a reason but no name.
+Q. Did you go back to the screen after release?
+A. I did. The entry was created before shift end. I cannot explain why the name was blank.
+
+<!-- PAGE 105 -->
+Q. Did the terminal ever fail to save an entry you typed?
+A. We sometimes had to refresh because fields did not appear right away.
+Q. Is that what happened with the lead-name field on AQ-4311?
+A. I don't know. I am not claiming that the records prove a failed save for that entry.
+Q. Did you ask IT to investigate it on March 20?
+A. No. I didn't realize it would be treated as a disputed authorization later.
+Q. Are you saying that the company had no reason to ask about the two loads?
+A. No. I would expect them to ask. I thought they should ask Tessa and distinguish an incomplete record from a release she had not authorized.
+
+<!-- PAGE 106 -->
+Q. At the April 18 interview, what did you learn about the audit?
+A. I was told twelve flags had been identified. I was surprised because some were entries I had made correctly. I asked what dates were involved and whether everyone had been checked the same way.
+Q. Were you told that all twelve were proven violations?
+A. I remember Gavin speaking of problems; Nadia said the review was preliminary. I do not remember the exact wording Gavin used.
+Q. Did you provide the names and shipment identifiers you could remember?
+A. I identified Tessa and the two loads. Some of the other issues could be checked against the manual logs.
+Q. Did you receive a copy of the corrected report during that meeting?
+A. No, the correction came later.
+
+<!-- PAGE 107 -->
+Q. Before the termination, did you personally see the extended query instruction?
+A. No. I learned the details during discovery.
+Q. Did you know exactly which other coordinators had exceptions?
+A. I knew there had been a customer problem but I did not have their personnel files.
+Q. Could Bellford have had different circumstances on his load?
+A. Yes. I am not saying I heard his conversation with the lead. I am saying the audit did not examine us over equal periods and he received a warning while I lost my job.
+Q. Is that based partly on information your lawyer showed you?
+A. The dates and warning are in discovery. I did not know all of that when I was fired.
+
+<!-- PAGE 108 -->
+Q. When did your employment end?
+A. May 17, 2024.
+Q. Did you receive a written explanation?
+A. Yes. It referred to recurring control and documentation failures after review and to the previous coaching.
+Q. Did the notice say twelve violations?
+A. No. It said the action was not based on twelve preliminary flags.
+Q. Did the notice state that you had complained to HR?
+A. No. It said they had considered my explanation about oral approval.
+Q. Do you deny that you had incomplete notes?
+A. No. I disagree that those problems justified discharge in the circumstances and I disagree with how the investigation was directed. I am not denying the blanks in the produced records.
+
+<!-- PAGE 109 -->
+EXAMINATION BY MS. SERRICK
+Q. What was the distinction you understood between a control violation and a documentation problem?
+A. A control violation is releasing a load without permission when permission is required. A documentation problem is failing to record something as required. Both matter. If someone really gave permission, the release is different from simply ignoring the lead.
+Q. Did the November coaching concern a release that had been unauthorized?
+A. The lead confirmed that I had approval. My note lacked the name.
+Q. Why did that matter to your explanation at the interview?
+A. I thought the same distinction applied to March. I wanted them to find out what Tessa remembered, not infer absence of approval just from the field.
+MR. CORVEN: Objection to form.
+A. I understood that the record requirement still applied.
+
+<!-- PAGE 110 -->
+Q. What did your HR complaint ask the company to do?
+A. Examine the criteria and schedules. I was not demanding that they give me a particular lead shift, and I did not accuse every person who had been selected of wrongdoing.
+Q. Did you raise the complaint to avoid the release audit?
+A. No. I did not know that the audit had started when I sent the complaint.
+Q. Did you send it because someone had notified you of a discipline decision?
+A. No. I had not received such a notice.
+Q. Would you have objected if they conducted the same ordinary review of every account?
+A. No. I expected normal quality review. I was concerned about being singled out after I had raised the complaint.
+
+<!-- PAGE 111 -->
+FURTHER EXAMINATION BY MR. CORVEN
+Q. You acknowledge that a company can discipline someone for documentation alone?
+A. Depending on the circumstances, yes. I know the policy requires it.
+Q. Is your testimony that Gavin could not have had a legitimate concern about your notes?
+A. No. My testimony is that I believe that concern was used differently in my case after the complaint.
+Q. You cannot testify about his private thoughts?
+A. Correct. I can testify to what I saw, heard, and learned from the produced records. I cannot testify to what he was thinking.
+Q. You understand that the court will decide what conclusions can be drawn from the evidence?
+A. Yes.
+
+<!-- PAGE 112 -->
+CONCLUSION OF DEPOSITION
+Q. Is there an answer you wish to clarify before we finish?
+A. I have tried to distinguish what I remember from what I learned by looking at these documents. I do not intend to say that I recall something merely because a timestamp appears on a report.
+Counsel: No further questions at this time.
+The deposition concluded at 12:14 p.m. The parties reserved objections other than those required to be made at examination and reserved the rights applicable to review of the transcript.
+REPORTER'S CERTIFICATION
+I, Simon E. Harwick, certify for purposes of this fictional proceeding that Elena R. Maren was sworn and that the foregoing pages constitute the transcript of the examination reproduced in this record. I have no interest in the outcome. Certified October 9, 2025, Oakland, California.
+/s/ Simon E. Harwick (fictional).
+
+<!-- PAGE 113 -->
+UNITED STATES DISTRICT COURT
+NORTHERN DISTRICT OF CALIFORNIA — OAKLAND DIVISION
+Maren v. Aster Quay Logistics, Inc. | SIM-NDCA-25-001 (fictional)
+DEPOSITION TRANSCRIPT
+Deposition of Gavin R. Holtwell
+October 8, 2025, Oakland, California. Commenced 9:30 a.m.
+Appearances: Alina V. Serrick for plaintiff; Matthew J. Corven for defendant. Simon E. Harwick, reporter (all fictional). The witness, having been duly sworn, testified as follows. Exhibits are identified by the descriptions used at examination and later filed as part of the summary judgment record. The page numbers in this transcript are stable simulation page numbers.
+EXAMINATION BY MS. SERRICK
+Q. Please state your name for the record.
+A. Gavin R. Holtwell.
+Q. You understand that you are under oath and that you should distinguish what you recall personally from what a document tells you?
+A. Yes. If I cannot recall something, I will say so.
+Q. If a question is unclear, will you ask me to rephrase it rather than speculate?
+A. Yes.
+
+<!-- PAGE 114 -->
+Q. What were your responsibilities in April 2024?
+A. I managed the dispatch function at Oakland, including schedules, training and corrective action recommendations. I did not approve terminations alone.
+Q. Who did approve them?
+A. HR reviewed the recommendation and the COO made the final approval.
+Q. Did you select the employees whose release activity was examined?
+A. I asked Quality for the common report and later for the longer report on Maren. Quality ran the queries.
+Q. Did HR tell you which employees to include?
+A. No. That was an operations matter.
+Q. How many coordinators were assigned to the relevant rotation?
+A. Six. That is why the common report covered six accounts.
+
+<!-- PAGE 115 -->
+Q. Why did you request the April 4 report?
+A. We had a customer complaint on April 2 involving AQ-4470. I wanted to see whether the missing approval fields reflected an isolated incident or a system issue.
+Q. Who handled the customer load?
+A. Bellford's account.
+Q. What period did you initially ask Quality to review?
+A. Fourteen days. All six coordinators.
+Q. Did you direct Quality to discipline anyone on April 4?
+A. No. I requested a screen and reconciliation, not disciplinary decisions.
+Q. Did you know that Maren would complain to HR four days later?
+A. No. I had heard her ask about assignments before, but not that she intended to make a sex-discrimination complaint.
+
+<!-- PAGE 116 -->
+Q. Did you receive the first workbook before the April 8 complaint?
+A. Yes, April 5.
+Q. Did the workbook show that Maren had the greatest number of preliminary flags?
+A. No. Bellford had four and Maren had three. I did not rank employees by the raw counts.
+Q. Why not?
+A. They had different numbers of releases, and some blanks were resolved. Severity matters more than the count.
+Q. Did you have a written plan on April 5 to expand Maren's review?
+A. No written plan that I recall. I was thinking about recurring control problems generally.
+Q. Can you identify a document created before April 8 that specifically calls for a sixty-day review of Maren?
+A. No, not a document in the production.
+
+<!-- PAGE 117 -->
+Q. When did HR inform you about the complaint?
+A. April 9.
+Q. Did Nadia tell you it was about sex discrimination?
+A. Yes, about lead assignments. She told me to preserve schedules and not let the complaint influence any operations decision.
+Q. How did you respond?
+A. I told her I thought the assignments were based on coverage and experience. I said I would provide the records.
+Q. Did you regard the complaint as unfair to you?
+A. I disagreed with it. I did not think I had discriminated.
+Q. Were you upset?
+A. I was concerned about the allegation, but I understood HR would review it. I did not think it should determine how I handled quality issues.
+
+<!-- PAGE 118 -->
+Q. Three days after that conversation, you requested a longer review?
+A. Yes. April 12. Sixty days for Maren.
+Q. Why only her account?
+A. I recalled her November coaching about the manual note. The three flags in the common report suggested I should see whether the issue had recurred.
+Q. Did you first ask Quality whether those three flags were genuine violations?
+A. Not before asking for the broader query. I knew the flags were preliminary.
+Q. Was there a written policy requiring you to expand her audit?
+A. No. The policy permits expansion when there is reason to examine recurrence. It does not prescribe a particular number of days.
+Q. Did you extend Bellford's review to sixty days?
+A. No.
+
+<!-- PAGE 119 -->
+Q. You were aware that the customer complaint concerned Bellford and that he had four preliminary flags?
+A. Yes.
+Q. Did he have a formal written warning before that time?
+A. Not to my knowledge.
+Q. Did Maren have a formal written warning?
+A. No. She had a coaching note.
+Q. Was that coaching for an unauthorized release?
+A. It was for an incomplete note. The lead had confirmed approval.
+Q. Why did that matter in April?
+A. It showed she had been reminded of the requirement. I viewed recurring incomplete documentation as a control issue.
+Q. Did you check whether Bellford had ever been orally instructed about the same policy?
+A. I did not conduct a separate historical interview on that point. The policy had been distributed to everyone.
+
+<!-- PAGE 120 -->
+Q. The preliminary report on April 15 identified twelve flags. Did you consider all twelve violations?
+A. No. I asked Quality to finish the reconciliation.
+Q. Did you tell Maren at the April 18 interview that she had twelve violations?
+A. I don't recall saying violations. I recall discussing twelve flags.
+Q. Did she tell you she had received oral approval from Tessa on two loads?
+A. Yes.
+Q. What did you do with that information?
+A. I spoke with Tessa briefly and waited for the correction from Quality.
+Q. Did you obtain a written statement from Tessa before recommending discharge?
+A. No.
+Q. Did you record the date of that conversation in a contemporaneous interview memorandum?
+A. No separate memorandum that I can identify.
+
+<!-- PAGE 121 -->
+Q. What did Tessa tell you about AQ-4182?
+A. She could not confirm a particular shipment number. I remember she said she sometimes gave oral approvals during congestion.
+Q. Did she deny telling Maren to proceed?
+A. I don't recall an express denial.
+Q. What about AQ-4311?
+A. Again, I did not get a confirmation that I regarded as sufficient for that specific transaction.
+Q. Did you ask her whether she remembered the exchange if you described the surrounding circumstances rather than the shipment number?
+A. I mentioned that the carrier was waiting. I don't remember every detail of the conversation.
+Q. You would agree that absence of a confirmation is different from a denial?
+A. In ordinary language, yes.
+
+<!-- PAGE 122 -->
+Q. On April 23 Quality sent you the correction. What remained?
+A. Four open entries, after eight were resolved. Two had incomplete notes, two had disputed authorization.
+Q. Did Quality determine that those last two were actually unauthorized?
+A. No. Quality could tell me what was or wasn't documented. It could not tell me what had been said.
+Q. Did you take that limitation into account in your April 25 recommendation?
+A. Yes. I described them as unresolved authorization and documentation exceptions. My concern was that we could not establish compliance from the available record.
+Q. Why did the recommendation mention the twelve initial flags?
+A. To identify the report that had been corrected, not to count them as twelve violations.
+
+<!-- PAGE 123 -->
+Q. If both oral approvals actually occurred, would you still have recommended discharge?
+A. I believe so because the repeated documentation failures were serious to me after prior coaching.
+Q. Is that a determination you wrote on April 25 in those precise words?
+A. The recommendation refers to the unresolved approvals and documentation. My April 30 response says I regarded the lack of a complete timely note as serious even if a conversation occurred.
+Q. Did the policy require termination for four documentation failures?
+A. No. The policy gives management discretion.
+Q. Have you recommended termination for another coordinator with four incomplete notes in a sixty-day period?
+A. I cannot identify a comparable sixty-day review in the materials before me.
+
+<!-- PAGE 124 -->
+Q. Why was Bellford given a warning?
+A. The customer load had a lead confirmation reported to me; the issue was an incomplete record. The other open entry also involved documentation. I thought a warning was appropriate.
+Q. Did Quality independently verify that the lead had authorized the load before release?
+A. Quality did not record the conversation. I relied on the lead's explanation.
+Q. Did you get a signed statement for Bellford's confirmation?
+A. No.
+Q. Did you require the same form of confirmation from Tessa for Maren?
+A. I wanted a clear confirmation of the specific load. I did not have a formal statement requirement for either one.
+Q. Was the Bellford decision yours?
+A. I issued the warning, with HR review.
+
+<!-- PAGE 125 -->
+Q. Did you tell the COO the exact reason you had expanded the audit?
+A. I explained that the common review and the coaching note raised a concern about recurrence.
+Q. Did you also explain that Maren had complained to HR in the intervening period?
+A. HR had addressed the separate complaint. I do not recall exactly who mentioned it at the meeting.
+Q. Did the COO personally speak to Tessa?
+A. Not to my knowledge.
+Q. Was the decision packet based partly on your judgment as the manager?
+A. Yes. I recommended the action and HR reviewed it.
+Q. Did the COO perform a new comparison of all six accounts over sixty days?
+A. No, not that I know of.
+
+<!-- PAGE 126 -->
+EXAMINATION BY MR. CORVEN
+Q. Was the customer complaint an actual operational problem before Maren wrote to HR?
+A. Yes. It was not created after the complaint.
+Q. Did the audit include employees other than Maren?
+A. The initial audit included all six.
+Q. Could you have recommended discharge for a serious documentation problem even if an oral approval had occurred?
+A. Yes, if the problem was repeated and the circumstances warranted it. We rely on the record to investigate a release after a dispute.
+Q. Did you ask Quality to retain the corrected file rather than destroy the initial record?
+A. Yes. Both were retained.
+Q. Did you direct Quality to add nonexistent violations to Maren's file?
+A. No.
+
+<!-- PAGE 127 -->
+Q. Did you consider the November coaching relevant before deciding what to recommend?
+A. Yes. It addressed the same documentation requirement. It mattered that she had already been reminded.
+Q. Did the warning to Bellford contain a requirement for future follow-up?
+A. Yes, a review of his next five urgent exceptions.
+Q. Are customer consequences the only factor in discipline?
+A. No. Recurrence, prior instruction, documentation and the nature of the control failure all matter.
+Q. Did you know how many of Bellford's transactions in February or early March had blank fields?
+A. No. That was outside his review window.
+Q. Can you say his extended record would have been better?
+A. No. I did not have that data.
+
+<!-- PAGE 128 -->
+FURTHER EXAMINATION BY MS. SERRICK
+Q. You just said that recurring failures were important. How could you assess recurrence for the other employees without using the same period?
+A. I had the common review and my knowledge of the employees. It was not a uniform sixty-day comparison.
+Q. You are not saying that a uniform comparison was impossible?
+A. No. It could have been done. I did not request it at that time.
+Q. Did the complaint to HR appear as a reason in your recommendation?
+A. No.
+Q. Can you point to a written record of your decision to expand the audit created before you learned of the complaint?
+A. No.
+MR. CORVEN: Objection, asked and answered.
+A. The April 12 email is the written request.
+
+<!-- PAGE 129 -->
+CONCLUSION OF DEPOSITION
+Q. Is there an answer you wish to clarify before we finish?
+A. I have tried to distinguish what I remember from what I learned by looking at these documents. I do not intend to say that I recall something merely because a timestamp appears on a report.
+Counsel: No further questions at this time.
+The deposition concluded at 12:14 p.m. The parties reserved objections other than those required to be made at examination and reserved the rights applicable to review of the transcript.
+REPORTER'S CERTIFICATION
+I, Simon E. Harwick, certify for purposes of this fictional proceeding that Gavin R. Holtwell was sworn and that the foregoing pages constitute the transcript of the examination reproduced in this record. I have no interest in the outcome. Certified October 13, 2025, Oakland, California.
+/s/ Simon E. Harwick (fictional).
+
+<!-- PAGE 130 -->
+UNITED STATES DISTRICT COURT
+NORTHERN DISTRICT OF CALIFORNIA — OAKLAND DIVISION
+Maren v. Aster Quay Logistics, Inc. | SIM-NDCA-25-001 (fictional)
+DEPOSITION TRANSCRIPT
+Deposition of Derek L. Fenmore
+October 10, 2025, Oakland, California. Commenced 9:30 a.m.
+Appearances: Alina V. Serrick for plaintiff; Matthew J. Corven for defendant. Simon E. Harwick, reporter (all fictional). The witness, having been duly sworn, testified as follows. Exhibits are identified by the descriptions used at examination and later filed as part of the summary judgment record. The page numbers in this transcript are stable simulation page numbers.
+EXAMINATION BY MS. SERRICK
+Q. Please state your name for the record.
+A. Derek L. Fenmore.
+Q. You understand that you are under oath and that you should distinguish what you recall personally from what a document tells you?
+A. Yes. If I cannot recall something, I will say so.
+Q. If a question is unclear, will you ask me to rephrase it rather than speculate?
+A. Yes.
+
+<!-- PAGE 131 -->
+Q. What does a quality analyst do in dispatch operations?
+A. We examine records for exceptions, reconcile reports and refer matters to management. We are not the people who determine discipline.
+Q. Did you supervise Maren?
+A. No. I worked with the dispatch manager and the systems custodian.
+Q. Can the release report determine whether an employee was authorized to dispatch a load?
+A. It can show what was entered in the approval field and in the linked records. It cannot reproduce a spoken instruction.
+Q. Is the absence of a field value always a control violation?
+A. No. In the common screen we sometimes see an approval that exists in the history but was absent in the reporting view.
+
+<!-- PAGE 132 -->
+Q. Who instructed you to run the first query in April 2024?
+A. Gavin Holtwell, by email on April 4.
+Q. What were the parameters?
+A. All six coordinators, fourteen days ending April 3. Release sent and approval field blank at the release event.
+Q. Why did you not calculate a violation rate?
+A. I did not have a verified denominator of eligible releases in that report. The report only selected flagged transactions.
+Q. What were the results for Maren and Bellford?
+A. Three for Maren and four for Bellford. Five across the other four accounts.
+Q. Would it be valid to conclude from those numbers alone that one employee was worse at compliance?
+A. No. You would need comparable exposure and the resolved statuses.
+
+<!-- PAGE 133 -->
+Q. Did you retain the first workbook?
+A. Yes. I was specifically instructed not to replace it with a corrected version.
+Q. When did you receive the expanded request?
+A. April 12.
+Q. What accounts were included in that request?
+A. Only Maren's. Sixty days ending April 3.
+Q. Did you recommend expanding only her report?
+A. No. I ran what I was asked to run. I noted in the email that it would not be comparable to the common-window counts.
+Q. Could you technically have extended the same query to other employees?
+A. Yes, subject to access to retained records. The query already accepted a list of account identifiers.
+
+<!-- PAGE 134 -->
+Q. Did you know that Maren had made an HR complaint at the time of the April 12 request?
+A. Not from the email. I was doing a quality review and was not involved in the assignment complaint inquiry.
+Q. Did Gavin tell you that the request was because of her HR complaint?
+A. No.
+Q. Did he tell you why he wanted the longer period?
+A. The email referred to recurring blank fields and an earlier coaching note. I had not reviewed her personnel file.
+Q. Did you assess whether that was a fair reason to select her alone?
+A. No. That was not my role. I did warn that the counts would not be directly comparable.
+
+<!-- PAGE 135 -->
+Q. Please explain the result of the expanded query.
+A. Twelve preliminary flags for Maren, including the three in the common period.
+Q. Did the twelve mean that twelve releases were unauthorized?
+A. No. It meant that the screen condition was met. I had to examine the field history and manual log.
+Q. Did you indicate that in the April 15 email?
+A. Yes. I wrote that I had not determined whether oral authorization had occurred and asked them not to use twelve as a final violation count.
+Q. Did you classify severity at that stage?
+A. Not in the preliminary report. The status was an exception requiring reconciliation.
+
+<!-- PAGE 136 -->
+Q. How did you resolve the eight entries?
+A. For some, the field history had an approval event before release even though the report showed blank. For others, a timely manual reference identified approval. I marked those resolved rather than treating the initial report as final.
+Q. Did you remove the original rows?
+A. No. The corrected file retained the original selection and added resolution information.
+Q. How many remained open after correction?
+A. Four remain open. That is the wording I used in the April 23 email.
+Q. Did you use the phrase four proven violations?
+A. No. I specifically separated documentation from the disputed authorization entries.
+
+<!-- PAGE 137 -->
+Q. What did the records show for AQ-4182?
+A. The identity and destination checks were recorded before release. The approval field was blank and there was no complete timely manual reference in the retained structured log.
+Q. Could you establish that no oral approval had been given?
+A. No.
+Q. Did you contact Tessa Lorne to ask what she remembered?
+A. I did not interview her as part of the reconciliation. I worked with the available records and the employee explanation that HR forwarded.
+Q. Did you see a failed-save error specifically for the missing note?
+A. No. The absence of that error does not establish that a conversation did not occur.
+
+<!-- PAGE 138 -->
+Q. What about AQ-4311?
+A. There was a manual entry with a reason, but the lead field was blank. It was created before shift end. The structured record did not satisfy the complete-note requirement.
+Q. Did you determine why the lead field was blank?
+A. No. I did not have a record showing the employee typed the name or a record showing a specific failed save.
+Q. Are you able to say it was intentionally left blank?
+A. No.
+Q. Was the entry categorized as disputed authorization rather than as an established absence of permission?
+A. Yes. The employee claimed a conversation, and the available records could not resolve it.
+
+<!-- PAGE 139 -->
+Q. What did the common review establish about Bellford?
+A. Four raw flags and two resolved through the field history. The remaining two were open. One involved the customer load and the other an incomplete reason field.
+Q. Did Quality establish contemporaneously that the lead had given permission on the customer load?
+A. There was a later management notation reporting that. The screen itself had been incomplete.
+Q. Did you have an extended report for Bellford?
+A. No.
+Q. Did the common file permit you to say how many open items he would have had in a sixty-day period?
+A. No. It would be speculation. I cannot calculate what a query not performed would return.
+
+<!-- PAGE 140 -->
+EXAMINATION BY MR. CORVEN
+Q. Is it important for a coordinator to complete the manual note?
+A. Yes. The record lets us verify an exception and investigate later concerns.
+Q. Are the four unresolved Maren entries fabricated entries?
+A. No. They correspond to actual selected transactions and the unresolved fields in the retained records.
+Q. Did you alter the selection to make Maren look worse?
+A. No. The query was the same condition over a longer period and one account.
+Q. Does the existence of a synchronization problem mean every blank field is a synchronization problem?
+A. No. You must reconcile each one. We found eight that could be resolved and four that could not on the information available.
+
+<!-- PAGE 141 -->
+FURTHER EXAMINATION BY MS. SERRICK
+Q. Is the description four open entries a disciplinary recommendation?
+A. No. It is a record status.
+Q. Could an operations manager decide the four warranted discipline even though you could not resolve oral permission?
+A. That would be a management decision. I cannot say what level of discipline is appropriate.
+Q. Did you advise the manager to use four rather than twelve in a management summary?
+A. Yes.
+Q. Did you compare Maren's performance to Bellford's performance after adjusting for the different periods?
+A. No. I did not produce that analysis. I would need a comparable dataset and a definition of the measure before making that comparison.
+
+<!-- PAGE 142 -->
+CONCLUSION OF DEPOSITION
+Q. Is there an answer you wish to clarify before we finish?
+A. I have tried to distinguish what I remember from what I learned by looking at these documents. I do not intend to say that I recall something merely because a timestamp appears on a report.
+Counsel: No further questions at this time.
+The deposition concluded at 12:14 p.m. The parties reserved objections other than those required to be made at examination and reserved the rights applicable to review of the transcript.
+REPORTER'S CERTIFICATION
+I, Simon E. Harwick, certify for purposes of this fictional proceeding that Derek L. Fenmore was sworn and that the foregoing pages constitute the transcript of the examination reproduced in this record. I have no interest in the outcome. Certified October 14, 2025, Oakland, California.
+/s/ Simon E. Harwick (fictional).
+
+<!-- PAGE 143 -->
+UNITED STATES DISTRICT COURT
+NORTHERN DISTRICT OF CALIFORNIA — OAKLAND DIVISION
+Maren v. Aster Quay Logistics, Inc. | SIM-NDCA-25-001 (fictional)
+DEPOSITION TRANSCRIPT
+Deposition of Nadia E. Bracken
+October 14, 2025, Oakland, California. Commenced 9:30 a.m.
+Appearances: Alina V. Serrick for plaintiff; Matthew J. Corven for defendant. Simon E. Harwick, reporter (all fictional). The witness, having been duly sworn, testified as follows. The exhibits referred to during examination are the documents separately filed with the parties' motion papers.
+EXAMINATION BY MS. SERRICK
+Q. Please state your name and your employment position at the time of the events.
+A. Nadia E. Bracken. I worked at the Oakland facility of Aster Quay Logistics.
+Q. Will you tell us if you need to see a record to refresh your recollection?
+A. Yes. I will distinguish what I remember personally from what the documents say.
+
+<!-- PAGE 144 -->
+Q. Were you the human resources director in April and May 2024?
+A. Yes. I handled employee complaints and reviewed proposed terminations. I was not a quality analyst or shift lead.
+Q. Did a manager need your review before discharging a coordinator?
+A. Yes. Operations made the recommendation; HR reviewed consistency and documentation; the COO approved the action.
+Q. Could you stop a recommendation?
+A. I could request more information or recommend that it not be approved. I was not the final approving official.
+Q. Did the company have a separate process for complaints of discrimination?
+A. Yes. We attempted to keep a complaint inquiry separate from ordinary personnel actions. That separation did not mean that the relevant manager could never be told the subject of a complaint.
+
+<!-- PAGE 145 -->
+Q. When did you receive Ms. Maren's written complaint?
+A. April 8, 2024.
+Q. What did you understand it to be about?
+A. Possible sex discrimination in acting-lead assignments. I understood her to be asking that we examine the assignment criteria and records.
+Q. Did you consider it a complaint about an employment practice rather than merely a request for promotion?
+A. Yes. She identified sex as the possible basis of the assignments.
+Q. Did you tell her she had to prove discrimination before you would investigate?
+A. No. We would obtain the information and review it.
+Q. Did you know of a planned discharge of Ms. Maren before the complaint?
+A. No. I did not have a discharge recommendation at that point.
+
+<!-- PAGE 146 -->
+Q. Did you speak to Holtwell the next day?
+A. Yes, April 9.
+Q. Did you identify Maren as the employee who had raised the complaint?
+A. Yes. I needed him to preserve the relevant records and explain the assignment process.
+Q. Did you tell him the substance of the complaint?
+A. Yes. Possible sex discrimination in acting-lead assignments.
+Q. Did he tell you about a quality review?
+A. He said a release audit had already begun after a customer concern. I told him to keep any operational review documented and separate.
+Q. Did he tell you that he had already decided to expand the audit of Maren personally?
+A. I do not recall that. My note of the conversation does not record an expanded review.
+
+<!-- PAGE 147 -->
+Q. When did you learn that twelve flags had been reported?
+A. I received the April 15 communication from Quality.
+Q. Was it presented as a final disciplinary assessment?
+A. No. Derek wrote that it was preliminary and that he had not determined whether oral permission had been given.
+Q. Did you obtain the report for the other employees over sixty days?
+A. No. I had the common review and the extended Maren report. I did not request the same extended extract for the others.
+Q. Why not?
+A. I was reviewing a recommendation concerning one employee and asked for relevant comparisons. At the time I did not treat a uniform sixty-day audit as a prerequisite for that review.
+
+<!-- PAGE 148 -->
+Q. You were present at the April 18 interview?
+A. Yes. Maren told us she had received oral approvals for two identified consignments. She also said that some of the other flags could be resolved from the logs.
+Q. Did you tell her she had twelve violations?
+A. I said the report was preliminary. I did not make a final finding at the interview.
+Q. Did she have the opportunity to identify the relevant lead?
+A. Yes. She identified Tessa Lorne.
+Q. Did you interview Lorne personally after that?
+A. No. I asked operations about what inquiry had been made. I did not conduct my own interview of the lead as part of the discharge review.
+
+<!-- PAGE 149 -->
+Q. What did Quality report on April 23?
+A. Eight were resolved and four remained open. Two involved incomplete documentation and two disputed authorization.
+Q. Did Quality determine that no permission had been given?
+A. No. The report specifically said the data did not determine what a lead said orally.
+Q. Did you tell the manager to distinguish the two categories?
+A. Yes. My April 26 email asked him to do that and asked what inquiry had been made of the lead.
+Q. Did you require a written statement from the lead?
+A. I requested information. I did not make a signed statement a condition of further review.
+Q. Did Quality revise the count again before discharge?
+A. Not to my knowledge.
+
+<!-- PAGE 150 -->
+Q. The November coaching note was not a formal written warning, was it?
+A. Correct. It was a record of coaching about incomplete documentation.
+Q. Did the lead confirm that earlier release had been authorized?
+A. That is what the note says.
+Q. Did you consider coaching irrelevant?
+A. No. I considered it evidence that she had been instructed about the procedure. I did not treat it as a formal prior warning.
+Q. Did you see a record of a previous discharge for a comparable documentation-only pattern?
+A. No such example was in this decision packet.
+Q. Is there a fixed number of incomplete notes that requires termination?
+A. Not under the policy we were applying.
+
+<!-- PAGE 151 -->
+Q. Did you review the Bellford warning dated May 2?
+A. Yes. I had requested information about comparator discipline. The warning was issued for the customer shipment and another incomplete documentation entry.
+Q. Was the customer shipment included in the ordinary audit?
+A. Yes, the common period.
+Q. Did the Bellford file include a sixty-day review?
+A. No.
+Q. Did you independently confirm the oral instruction for his customer shipment?
+A. No. Operations told me that a lead had confirmed permission. I relied on that information for the comparison.
+Q. Did you ask whether the same kind of confirmation had been sought from Lorne about the Maren shipments?
+A. I asked what inquiry had been made. The manager said he had not received a satisfactory specific confirmation.
+
+<!-- PAGE 152 -->
+Q. Did the decision packet contain a conclusion that Maren deliberately released a shipment in defiance of a lead?
+A. Not in those terms. The packet identified unresolved authorization and documentation exceptions.
+Q. Did you recommend that the COO disregard the initial twelve flags?
+A. I advised that the action should rest on the corrected record, not the preliminary count.
+Q. Did you tell the COO that the employee had raised an HR complaint?
+A. I told him a separate protected complaint existed and must not influence the decision. I do not recall repeating every detail of the complaint in that meeting.
+Q. Did the COO conduct a new audit?
+A. No. He reviewed the materials we presented.
+
+<!-- PAGE 153 -->
+Q. Did the underlying complaint investigation reach a finding of sex discrimination?
+A. It did not reach such a finding in the materials I reviewed. That was not a conclusion that the complaint was frivolous or that the employee had no right to raise it.
+Q. Did you discuss the assignment criteria with Holtwell?
+A. Yes. I sought the schedules and criteria. I did not resolve all questions before the discharge decision.
+Q. Did the existence of the investigation make you more cautious about the recommendation?
+A. Yes. I specifically asked for the corrected report, comparable discipline and the basis of the recommendation.
+Q. Did you obtain all the information you had initially requested?
+A. I obtained the documents described in the worksheet; I did not obtain a broader comparator report or a signed statement from Lorne.
+
+<!-- PAGE 154 -->
+EXAMINATION BY MR. CORVEN
+Q. Was the recommendation before you made up of genuine personnel and quality records?
+A. Yes. The underlying documentation problems had not been invented for the decision.
+Q. Did you advise that no discipline could be imposed because a complaint had been made?
+A. No. A complaint does not prevent an employer from addressing ordinary performance problems. I advised that the two matters must be kept separate.
+Q. Did you believe documentation itself mattered even if permission had been given orally?
+A. Yes. The policy requires the record so that disputes can be reviewed. That is distinct from the question of how severe discipline should be.
+Q. Was the final notice expressly based on twelve established violations?
+A. No. It expressly excluded that interpretation.
+
+<!-- PAGE 155 -->
+FURTHER EXAMINATION BY MS. SERRICK
+Q. Can you say from your personal knowledge that Holtwell would have ordered a sixty-day review of Maren if she had not made the April 8 complaint?
+A. No. I can tell you what he gave as his reason and what the documents show.
+Q. Did you have a document written before the complaint directing that extended review?
+A. No.
+Q. Is your testimony that it was impossible to seek additional comparator information?
+A. No. We did not seek it over the same period.
+Q. Did you personally observe the alleged authorization conversations in March?
+A. No. I learned about them from the interviews and records.
+Q. So your review depended in part on what operations reported?
+A. Yes.
+
+<!-- PAGE 156 -->
+CONCLUSION OF DEPOSITION
+Counsel for both parties: No further questions. The witness may review the transcript in accordance with applicable procedure. Objections reserved as provided by the governing rules. The examination concluded at 12:02 p.m..
+REPORTER'S CERTIFICATION
+I, Simon E. Harwick, certify that Nadia E. Bracken was duly sworn, that I recorded the questions, answers and objections in this fictional examination, and that the foregoing is the transcript prepared from my record. I am not related to the parties or their counsel and have no financial interest in the outcome. The logical page breaks are fixed for the simulation; no testimony has been intentionally omitted within these pages. Certified at Oakland, California, October 17, 2025.
+/s/ Simon E. Harwick, fictional reporter.
+
+<!-- PAGE 157 -->
+OPERATIONS RECOMMENDATION — April 25, 2024
+To: Nadia E. Bracken, Human Resources
+From: Gavin R. Holtwell, Dispatch Manager
+Re: Elena R. Maren — proposed discharge
+I recommend termination for recurring failure to comply with dispatch release controls. The expanded report initially identified twelve flags. Quality's reconciliation leaves four unresolved, two incomplete documentation entries and two for which the required authorization has not been established. The two disputed consignments are AQ-4182 and AQ-4311. Maren has said she obtained oral approval. The file contains no complete contemporaneous entry establishing it. In my judgment the earlier coaching about manual documentation and the recurring nature of the open entries warrant more than another coaching conversation. Please review for consistency with the policy before any decision is implemented. The count of twelve is included to identify the scope of the review and is not a final count.
+
+<!-- PAGE 158 -->
+HR RESPONSE — April 26, 2024
+Gavin,
+Before I take the recommendation to the COO, please provide the corrected Quality report, the November coaching note, the policy version in effect and information on recent comparable corrective action. The quality report says it cannot determine what was said orally. What inquiry has been made of the lead? Please distinguish an unauthorized release from an incomplete note. Also confirm the date the audit began and the basis for the extended review. Maren's complaint to HR must not form any part of this decision. I do not want the customer issue involving the other account to disappear from the comparison merely because it was investigated first. Please identify any objective distinction you believe warrants a different level of discipline.
+Nadia
+
+<!-- PAGE 159 -->
+OPERATIONS RESPONSE — April 30, 2024
+Nadia,
+Quality started the common review on April 4. I requested an extended review for Maren on April 12 because the initial exceptions, in light of the coaching note, made me concerned about recurrence. The common review of the other accounts has not been extended. I spoke briefly with Tessa about the two loads. She did not confirm a specific authorization to my satisfaction. I cannot say she affirmatively denied both conversations. I regard the lack of a timely complete note as a serious control problem even if a conversation occurred. Bellford's customer consignment and other common-window entries will be handled separately. My understanding is that the customer consignment had an incomplete destination field, and that subsequent review found a lead had given an instruction to release. I will forward the warning documentation.
+Gavin
+
+<!-- PAGE 160 -->
+HR REVIEW WORKSHEET — May 9, 2024
+Proposed action: discharge. Material reviewed: April 25 recommendation; corrected April 23 report; employee's April 18 interview; January policy; November coaching note; Bellford warning dated May 2. HR questions: (1) Does the evidence establish absence of oral authorization, or only absence of a completed record? Operations treats the four open items as recurrent control failures; Quality does not resolve the oral approval question. (2) Are the comparator circumstances identical? Bellford's review covered the shorter period and one customer complaint; manager reports lead confirmation on that transaction. No longer comparator audit is in the packet. (3) Is the prior coaching a formal warning? No. It is prior instruction concerning documentation. HR advised that the proposed action must rest on the unresolved control failures, not the twelve initial flags. No finding about the underlying sex-discrimination complaint is made here.
+
+<!-- PAGE 161 -->
+COO DECISION NOTE — May 13, 2024
+Tobin A. Fenn, Chief Operating Officer
+Reviewed recommendation and HR worksheet with Bracken and Holtwell. The controlled-release process is important to preventing improper collection. I accept the manager's recommendation based on the recurring unresolved items after correction and prior instruction concerning documentation. I understand that the initial twelve flags are not twelve established violations. I understand that the employee claims oral approvals and that the quality report alone cannot resolve that assertion. The manager considers the documentation failures material even if the conversations occurred. I have not independently interviewed the shift lead or re-run the audit. HR advised that the employee had raised a separate complaint that must not be considered. I approve discharge effective May 17, subject to HR communicating the corrected basis and providing final pay information.
+
+<!-- PAGE 162 -->
+NOTICE OF TERMINATION — May 17, 2024
+Elena R. Maren:
+Your employment with Aster Quay Logistics, Inc. ends today. This action is based on recurring failures to comply with controlled dispatch release requirements, including unresolved approval and documentation exceptions after review and prior coaching concerning manual notes. It is not based on the initial count of twelve preliminary flags. The company has considered your explanation that approval was given orally for certain loads. The required complete approval documentation remains unresolved, and management has determined that the control failures warrant termination. This notice does not determine your entitlement to unemployment benefits or waive any right you may have to raise a legal claim. HR will provide final pay and benefits information separately.
+/s/ Nadia E. Bracken, for the company. Receipt acknowledged by employee; acknowledgment not agreement.
+
+<!-- PAGE 163 -->
+UNITED STATES DISTRICT COURT
+NORTHERN DISTRICT OF CALIFORNIA — OAKLAND DIVISION
+Elena R. Maren v. Aster Quay Logistics, Inc.
+Simulation docket: SIM-NDCA-25-001 (fictional proceeding)
+
+CASE MANAGEMENT AND SCHEDULING ORDER
+Entered April 3, 2025. The Court has reviewed the joint case management statement and heard the parties at a scheduling conference. The sole claim is retaliation following the internal complaint. The Court does not determine whether the underlying assignment practice violated Title VII. The parties shall cooperate to identify custodians and preserve electronic release records, personnel files and contemporaneous correspondence. The discovery plan is directed to the decision process, relevant comparator transactions, the alleged protected activity, and damages. Discovery into unrelated employees shall be tailored to the issues and appropriate privacy protections; discovery disputes shall be presented through the procedures of this Court.
+
+<!-- PAGE 164 -->
+SCHEDULE
+Initial disclosures have been exchanged. Nonexpert discovery shall be completed by December 19, 2025. The parties shall arrange the depositions of Maren, Holtwell, Fenmore, Bracken, Lorne and Bellford by mutual agreement within the discovery period. Expert disclosures are not anticipated; any party seeking expert discovery must first confer and promptly seek modification of the schedule. Dispositive motions shall be filed by May 4, 2026. Any opposition shall be filed by May 18, 2026; reply by May 26, 2026; hearing set for June 11, 2026 at 10:00 a.m. These dates are fixed for this simulated docket. Requests to modify the order must identify the specific deadline and grounds. No trial date is set at this time; if claims remain, the Court will set a pretrial conference.
+
+<!-- PAGE 165 -->
+RECORD PRESERVATION AND PRESENTATION
+Counsel shall preserve native exports and ordinary records showing audit workbook revisions, approval-field histories and timestamps. A screenshot is not a substitute for an available authenticated underlying record. Any summary submitted on a motion shall identify the source records and method of calculation. The parties shall distinguish disputed facts from undisputed facts and identify the portions of depositions and exhibits relied upon. Nothing in this order resolves admissibility or the merits. Confidential discovery material must be handled in accordance with an appropriate protective order; a party seeking to file material under seal must comply with applicable procedures. The materials selected for the present fictional public record contain no real private information.
+IT IS SO ORDERED.
+April 3, 2025
+/s/ Rosa L. Vellum, United States District Judge (fictional).
+
+<!-- PAGE 166 -->
+UNITED STATES DISTRICT COURT
+NORTHERN DISTRICT OF CALIFORNIA — OAKLAND DIVISION
+Elena R. Maren v. Aster Quay Logistics, Inc.
+Simulation docket: SIM-NDCA-25-001 (fictional proceeding)
+
+ANSWER OF ASTER QUAY LOGISTICS, INC.
+Defendant, by counsel Matthew J. Corven, answers the numbered allegations of the Complaint. Except as expressly admitted, Defendant denies the allegations. Defendant does not seek dismissal on the basis that Plaintiff failed to identify the challenged termination in her administrative charge. Defendant maintains that Plaintiff's discharge resulted from release-control violations and that the same action would have been taken in the absence of any internal complaint.
+1. Defendant admits that Plaintiff worked at the Oakland facility from August 16, 2021, through May 17, 2024. Defendant lacks knowledge sufficient to admit Plaintiff's residence.
+2. Defendant admits its corporate status and employer coverage.
+3. Defendant does not contest subject-matter jurisdiction or venue for this action.
+
+<!-- PAGE 167 -->
+RESPONSES TO PARAGRAPHS 4 THROUGH 8
+4. Defendant admits receipt of notice of an EEOC charge and does not dispute for purposes of this case the pleaded charge and right-to-sue dates. Defendant denies that any investigation or notice constitutes a finding of unlawful conduct.
+5. Defendant admits that dispatch coordination included release procedures and that an urgent release could be authorized subject to specified controls. Defendant denies any implication that a coordinator could bypass a required approval merely because a carrier was waiting.
+6. Defendant admits the overall assessment of meets expectations. It denies that the assessment constituted a guarantee of continued employment or an assessment of every subsequent release.
+7. Defendant admits that Plaintiff raised concerns about acting-lead assignments. It denies that the assignment process was unlawful.
+8. Defendant admits receipt of a written communication on April 8, 2024. Defendant denies that it retaliated against Plaintiff for that communication.
+
+<!-- PAGE 168 -->
+RESPONSES TO PARAGRAPHS 9 THROUGH 12
+9. Defendant admits that a release review was initiated before the April 8 communication and that the immediate customer concern involved a consignment assigned to another coordinator. The review was not an investigation of the internal complaint.
+10. Defendant admits that the review of certain transactions associated with Plaintiff was expanded beyond the initial common reporting period. It denies that protected opposition caused the expansion. The review was directed to records that appeared to present recurring control problems and required examination of earlier activity.
+11. Defendant admits that Plaintiff was interviewed and offered explanations concerning the reported exceptions. Defendant admits that some entries were reconciled. It denies that every remaining exception was satisfactorily explained.
+12. Defendant admits the discharge date. It denies that it ignored corrected entries or that its stated grounds were pretextual.
+
+<!-- PAGE 169 -->
+RESPONSES TO COUNT ONE
+13. Defendant incorporates its responses above.
+14. Defendant admits that Plaintiff communicated a concern regarding sex-based allocation of lead shifts. Defendant reserves its response to the legal characterization but does not rely on the alleged falsity of the underlying discrimination complaint as a defense to termination.
+15. Defendant admits that the human resources director learned of the communication and informed the dispatch manager of its subject. Defendant denies that knowledge establishes causation.
+16. Defendant admits termination and denies retaliation and but-for causation. It denies that other coordinators were necessarily similarly situated with respect to release violations, prior notice, documentation or circumstances.
+17. Defendant denies liability for the claimed damages and lacks sufficient information about Plaintiff's subsequent employment, expenses, or alleged distress.
+
+<!-- PAGE 170 -->
+AFFIRMATIVE DEFENSES AND PRAYER
+First: Defendant denies that the challenged action was taken because of protected activity and asserts that the same action would have occurred independently of that activity.
+Second: To the extent damages are recoverable, Defendant asserts that any back-pay award must be reduced by amounts earned or reasonably earnable through mitigation, as established by evidence.
+Third: Defendant disputes entitlement to punitive damages and any equitable remedy not supported by the evidence and applicable legal standards.
+Defendant requests judgment in its favor on the sole claim, costs as permitted by law, and such further relief as is appropriate. Defendant joins the jury demand on triable issues without waiving its right to seek judgment as a matter of law.
+Dated: February 24, 2025
+/s/ Matthew J. Corven, counsel for Defendant (fictional).
+CERTIFICATE: Filed and served electronically on counsel for Plaintiff on the date above.
+
+<!-- PAGE 171 -->
+UNITED STATES DISTRICT COURT
+NORTHERN DISTRICT OF CALIFORNIA — OAKLAND DIVISION
+Elena R. Maren v. Aster Quay Logistics, Inc.
+Simulation docket: SIM-NDCA-25-001 (fictional proceeding)
+
+COMPLAINT FOR RETALIATION; DEMAND FOR JURY TRIAL
+
+Alina V. Serrick, counsel for Plaintiff Elena R. Maren, alleges as follows. This action concerns the termination of Plaintiff's employment after she raised an internal complaint about the allocation of acting-lead shifts. Plaintiff seeks relief for retaliation under Title VII of the Civil Rights Act of 1964. She does not assert a separate claim in this action for the underlying allocation of shifts. The allegations concerning that allocation are pleaded to explain the nature of her opposition and Defendant's knowledge. Allegations based on information held by Defendant are made on information and belief. Plaintiff reserves the right to rely on discovery of the employer's records rather than on her characterization of them at this pleading stage.
+
+<!-- PAGE 172 -->
+PARTIES, JURISDICTION AND VENUE
+1. Plaintiff is an individual residing in Alameda County, California. She was employed at Defendant's Oakland facility from August 16, 2021, until May 17, 2024.
+2. Defendant is a California corporation operating a regional commercial freight coordination business. It employed more than fifteen employees during the relevant period and is an employer within the meaning of Title VII.
+3. The claim arises under federal law. This Court has subject-matter jurisdiction over the federal retaliation claim. Venue lies in this district because the challenged employment practice occurred at the Oakland facility and the relevant employment records are maintained in this district.
+4. Plaintiff filed an EEOC charge on July 12, 2024. She received a notice of right to sue on December 16, 2024. This action is brought within ninety days of receipt. Plaintiff alleges that the charge identified the complaint to human resources and the subsequent discharge.
+
+<!-- PAGE 173 -->
+EMPLOYMENT AND OPPOSITION
+5. Plaintiff's position required coordination between customers, loading personnel and carriers. In circumstances requiring accelerated dispatch, shift leads could authorize a release before all electronic fields had synchronized; the written procedure required documentation before the end of the shift.
+6. Plaintiff received a performance assessment in February 2024 that rated her as meeting expectations. She does not allege that she had a perfect record or that the employer lacked authority to investigate genuine errors.
+7. During early 2024 Plaintiff observed what she believed was a pattern in the assignment of acting-lead shifts. She raised her concern internally, stating that qualified women were being passed over for shifts assigned to men. Plaintiff believed that the practice was discriminatory on the basis of sex.
+8. On April 8, 2024, Plaintiff submitted her concern in writing to human resources. She asked for an examination of assignment records and for her complaint to be handled without reprisals.
+
+<!-- PAGE 174 -->
+INVESTIGATION AND DISCHARGE
+9. On information and belief, a routine release review had begun in early April after a customer complaint about a shipment handled by a different coordinator. Plaintiff does not challenge the initiation of that general review.
+10. Plaintiff alleges that after her complaint came to the attention of her manager, the review of her own transactions was expanded to a substantially longer period, without a corresponding review of other coordinators over the same period.
+11. Plaintiff was told that a number of release exceptions were associated with her account. She explained that some reflected electronic synchronization or entries completed after the initial report. She also identified two consignments for which she recalled approval from a shift lead.
+12. Plaintiff alleges that Defendant later corrected several of its initial exceptions, but the investigation and recommendation did not fairly reflect the corrected information or the explanation for the disputed authorizations. Defendant discharged Plaintiff on May 17, 2024.
+
+<!-- PAGE 175 -->
+COUNT ONE — RETALIATION UNDER TITLE VII
+13. Plaintiff incorporates paragraphs 1 through 12.
+14. Plaintiff engaged in protected opposition by communicating to Defendant her good-faith, reasonable belief that the allocation of acting-lead shifts discriminated on the basis of sex.
+15. Defendant knew of that opposition through its human resources director and dispatch manager before the termination decision.
+16. Termination of employment constitutes an adverse action. Plaintiff alleges that her protected opposition was a but-for cause of the decision to discharge her. The audit, expansion of scope, handling of corrections, disciplinary treatment of other employees and the sequence of the recommendation are circumstances from which that inference may be drawn.
+17. As a consequence, Plaintiff lost wages, benefits and employment opportunities and experienced emotional distress. She has sought replacement employment and will account for mitigation in the calculation of relief.
+
+<!-- PAGE 176 -->
+PRAYER FOR RELIEF AND JURY DEMAND
+Plaintiff requests a declaration that Defendant violated Title VII; back pay and lost benefits, subject to proof and mitigation; reinstatement or front pay in lieu of reinstatement where warranted; compensatory damages and such other damages as the law permits; reasonable attorney fees, taxable costs and interest; and other appropriate relief. Plaintiff requests a trial by jury on all issues triable by jury.
+
+Dated: February 3, 2025
+/s/ Alina V. Serrick
+Counsel for Plaintiff (fictional)
+
+CERTIFICATE OF FILING
+I certify that on February 3, 2025, I filed this complaint through the simulated district court filing system. Service of the summons and complaint will be accomplished in accordance with the applicable civil rules; this certificate does not represent that service has already occurred.
+/s/ Alina V. Serrick
+
+<!-- PAGE 177 -->
+UNITED STATES DISTRICT COURT
+NORTHERN DISTRICT OF CALIFORNIA — OAKLAND DIVISION
+Elena R. Maren v. Aster Quay Logistics, Inc.
+Simulation docket: SIM-NDCA-25-001 (fictional proceeding)
+
+NOTICE OF APPEAL
+Notice is hereby given that Elena R. Maren, Plaintiff in the above-captioned action, appeals to the United States Court of Appeals for the Ninth Circuit from the final judgment entered August 21, 2026, including the order granting Defendant's motion for summary judgment entered on the same date. This notice is filed with the district clerk on September 3, 2026.
+Dated: September 3, 2026.
+/s/ Alina V. Serrick, counsel for Plaintiff (fictional).
+CERTIFICATE OF SERVICE: I certify service through the simulated electronic filing system on Matthew J. Corven, counsel for Defendant, on September 3, 2026.
+
+<!-- PAGE 178 -->
+UNITED STATES DISTRICT COURT, NORTHERN DISTRICT OF CALIFORNIA
+Maren v. Aster Quay Logistics, Inc. — SIM-NDCA-25-001
+DISTRICT DOCKET — certified through September 3, 2026
+Fictional proceeding; numbered rows identify retained record items and attachments, not asserted real PACER docket entries.
+
+1. 2025-02-03 — Complaint for damages and equitable relief.
+Record ID: CA9-26-001-COM | filed | complaint
+
+2. 2025-02-24 — Answer and affirmative defenses.
+Record ID: CA9-26-001-ANS | filed | answer
+
+3. 2025-04-03 — Scheduling and case management order.
+Record ID: CA9-26-001-SCHED | filed | other_lower
+
+4. 2026-05-04 — Exhibit A — controlled release policy and revision history.
+Record ID: CA9-26-001-POL | filed | exhibit
+
+5. 2026-05-04 — Exhibit B — personnel review and prior discipline.
+Record ID: CA9-26-001-REV | filed | exhibit
+
+6. 2026-05-04 — Exhibit C — audit correspondence and change log.
+Record ID: CA9-26-001-AUD | filed | exhibit
+
+<!-- PAGE 179 -->
+UNITED STATES DISTRICT COURT, NORTHERN DISTRICT OF CALIFORNIA
+Maren v. Aster Quay Logistics, Inc. — SIM-NDCA-25-001
+DISTRICT DOCKET — certified through September 3, 2026
+Fictional proceeding; numbered rows identify retained record items and attachments, not asserted real PACER docket entries.
+
+7. 2026-05-04 — Exhibit D — dispatch system and exception records.
+Record ID: CA9-26-001-LOG | filed | exhibit
+
+8. 2026-05-04 — Exhibit E — deposition of Elena Maren.
+Record ID: CA9-26-001-MDEP | filed | deposition
+
+9. 2026-05-04 — Exhibit F — deposition of Gavin Holtwell.
+Record ID: CA9-26-001-SDEP | filed | deposition
+
+10. 2026-05-04 — Exhibit G — deposition of Derek Fenmore.
+Record ID: CA9-26-001-ADEP | filed | deposition
+
+11. 2026-05-04 — Exhibit H — deposition of Nadia Bracken.
+Record ID: CA9-26-001-HDEP | filed | deposition
+
+12. 2026-05-04 — Exhibit I — recommendation, HR review and termination.
+Record ID: CA9-26-001-TERM | filed | exhibit
+
+<!-- PAGE 180 -->
+UNITED STATES DISTRICT COURT, NORTHERN DISTRICT OF CALIFORNIA
+Maren v. Aster Quay Logistics, Inc. — SIM-NDCA-25-001
+DISTRICT DOCKET — certified through September 3, 2026
+Fictional proceeding; numbered rows identify retained record items and attachments, not asserted real PACER docket entries.
+
+13. 2026-05-04 — Defendant motion for summary judgment.
+Record ID: CA9-26-001-MSJ | filed | motion_summary_judgment
+
+14. 2026-05-18 — Plaintiff Exhibit 1 — internal complaint and HR correspondence.
+Record ID: CA9-26-001-COMP | filed | exhibit
+
+15. 2026-05-18 — Plaintiff Exhibit 2 — deposition of Tessa Lorne.
+Record ID: CA9-26-001-WDEP | filed | deposition
+
+16. 2026-05-18 — Plaintiff Exhibit 3 — deposition of Jules Bellford.
+Record ID: CA9-26-001-CDEP | filed | deposition
+
+17. 2026-05-18 — Plaintiff Exhibit 4 — comparator discipline.
+Record ID: CA9-26-001-WARN | filed | exhibit
+
+18. 2026-05-18 — Plaintiff Exhibit 5 — EEOC charge and right-to-sue notice.
+Record ID: CA9-26-001-EEOC | filed | exhibit
+
+<!-- PAGE 181 -->
+UNITED STATES DISTRICT COURT, NORTHERN DISTRICT OF CALIFORNIA
+Maren v. Aster Quay Logistics, Inc. — SIM-NDCA-25-001
+DISTRICT DOCKET — certified through September 3, 2026
+Fictional proceeding; numbered rows identify retained record items and attachments, not asserted real PACER docket entries.
+
+19. 2026-05-18 — Plaintiff opposition to motion for summary judgment.
+Record ID: CA9-26-001-OPP | filed | opposition
+
+20. 2026-05-26 — Defendant reply in support of summary judgment.
+Record ID: CA9-26-001-REPL | filed | reply_motion
+
+21. 2026-06-18 — Transcript of oral argument on summary judgment motion.
+Record ID: CA9-26-001-HEAR | filed | other_lower
+
+22. 2026-08-21 — Order granting defendant summary judgment.
+Record ID: CA9-26-001-ORDER | filed | trial_order
+
+23. 2026-08-21 — Separate judgment.
+Record ID: CA9-26-001-JUD | filed | judgment
+
+24. 2026-09-03 — Notice of appeal.
+Record ID: CA9-26-001-NOA | filed | notice_appeal
+
+End of retained docket. Separate judgment entered; appeal notice transmitted; no postjudgment tolling motion recorded.
+/s/ Emmett D. Ralston (fictional clerk).
