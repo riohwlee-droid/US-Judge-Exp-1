@@ -238,6 +238,23 @@ def compile_package(root, blueprint_path, stage="review", training=False):
         need(t["status"]!="not_checked" and nonblank(t["checked_at"]) and nonblank(t["method"]),"unchecked subsequent treatment")
         pins=table(a["pins"],"pins");need(pins,"authority has no verified pinpoints")
         for pin in pins.values():source_pin(pin,raw.decode("utf-8"))
+    # Nonbrief legal citations are checked with a separate annotation ledger.
+    legal_uses=table(b.get("legal_uses",[]),"legal uses")
+    for u in legal_uses.values():
+        d=docs[u["document_id"]]
+        need(d["kind"] not in BRIEFS and d["access"]=="judge","nonbrief legal use must be filed original")
+        anchor({"document_id":d["id"],"page":u["page"],"quote":u["quote"]})
+        a=auth[u["authority_id"]];pin=table(a["pins"],"pins")[u["pin_id"]]
+        need(f'[[AUTH:{a["id"]}:{pin["id"]}]]' in pmap[d["id"]][u["page"]] and a["citation"] in pmap[d["id"]][u["page"]],"nonbrief legal citation missing")
+        need(u["use"] in {"support","distinguish","adverse"} and nonblank(u["analysis"]),"nonbrief legal application missing")
+        if a["subsequent_treatment"]["status"]=="negative":need(u["use"]!="support","negative authority relied upon as support")
+    for d in docs.values():
+        if d["kind"] in BRIEFS or d["kind"] in {"er_volume","ser_volume","fer_volume"}:continue
+        actual=set(LEGAL.findall("\n".join(pmap[d["id"]].values())))
+        mapped={(u["authority_id"],u["pin_id"]) for u in legal_uses.values() if u["document_id"]==d["id"]}
+        need(actual==mapped,"unmapped nonbrief legal citation "+d["id"])
+        if not training and d["kind"] in {"motion_summary_judgment","motion_suppress","opposition","reply_motion","trial_order"}:
+            need(mapped,"substantive lower-court legal document requires verified authority "+d["id"])
     arguments=table(b["arguments"],"arguments")
     for d in docs.values():
         if d["kind"] not in BRIEFS:continue

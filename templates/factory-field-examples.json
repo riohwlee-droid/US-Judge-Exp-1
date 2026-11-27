@@ -170,5 +170,15 @@
   },
   "excerpt_extra": {
     "volume": 1
+  },
+  "legal_use": {
+    "id": "LU1",
+    "document_id": "D1",
+    "page": 1,
+    "quote": "exact legal discussion text",
+    "authority_id": "AUTH1",
+    "pin_id": "P1",
+    "use": "support",
+    "analysis": "why this authority applies"
   }
 }

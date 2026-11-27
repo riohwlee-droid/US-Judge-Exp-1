@@ -4,6 +4,10 @@ from copy import deepcopy
 from judgesim.case_factory import compile_package,check_release,canonical,hash_bytes,REVIEW,pages
 from scripts.seal_factory import process
 from scripts.render_excerpts import render
+from judgesim.storage import read_json,write_json,verify,write_checkpoint
+from judgesim.engine import initial_state
+from scripts.process_requests import process as publish
+import shutil
 
 class FactoryTests(unittest.TestCase):
     def setUp(self):
@@ -105,3 +109,45 @@ class FactoryTests(unittest.TestCase):
     def test_production_floor(self):
         self.b["purpose"]="production";self.save()
         with self.assertRaises(ValueError):compile_package(self.root,self.path)
+
+    def production_fixture(self):
+        # Synthetic mechanical stress text only, generated in temp and never playable.
+        self.b["purpose"]="production";self.b["legal_uses"]=[]
+        d=next(x for x in self.b["documents"] if x["id"]=="COM");d["pages"]=225
+        self.put(d["path"],"".join(f"<!-- PAGE {i} -->\nSynthetic test section {i}. "+("fixture token "*60)+"\n" for i in range(1,226)))
+        for id in ["B1","B2"]:
+            p=self.root/(self.rec+id+".md")
+            p.write_text(p.read_text()+"\n"+("synthetic test content "*25)+"\n")
+        for id in ["MSJ","OPP","ORDER"]:
+            p=self.root/(self.rec+id+".md");p.write_text(p.read_text()+"\nTolan v. Cotton, 572 U.S. 650 (2014) [[AUTH:TOLAN:IIA]]\n")
+            self.b["legal_uses"].append({"id":"LU-"+id,"document_id":id,"page":1,"quote":"Tolan v. Cotton, 572 U.S. 650 (2014)","authority_id":"TOLAN","pin_id":"IIA","use":"support","analysis":"synthetic integration test only"})
+        # Ensure original words exceed production floor, not via copied excerpts.
+        self.b["reviews"][0]["reviewer"]="second test review role"
+        self.save()
+    def test_nonbrief_pin_required(self):
+        self.production_fixture()
+        self.b["legal_uses"].pop();self.save()
+        with self.assertRaisesRegex(ValueError,"unmapped nonbrief"):compile_package(self.root,self.path)
+    def test_production_admission_replay_in_temp(self):
+        self.production_fixture()
+        here=Path(__file__).resolve().parents[1]
+        for folder in ["courts","law"]:
+            shutil.copytree(here/folder,self.root/folder)
+        profile=read_json(self.root/"courts/profiles.json")
+        profile["profiles"]["CA9"]["status"]="ready"
+        write_json(self.root/"courts/profiles.json",profile)
+        write_checkpoint(self.root,"S0",initial_state(),[])
+        self.put(self.prefix+"seal-request.json",json.dumps({"schema_version":1,"blueprint_path":self.path,"action":"seal"}))
+        sealed=process(self.root);self.assertEqual(len(sealed),1)
+        player={"id":"J-CA9-PLAYER","name":"Temporary Test Judge","birth_date":"1980-05-01","commission_date":"2026-11-27","chambers_city":"San Francisco"}
+        packet={"schema_version":1,"request_id":"REQ-TEST","checkpoint":"S1","base_checkpoint":"S0","base_revision":0,"events":[
+            {"id":"E1","type":"campaign.configure","payload":{"court_id":"CA9","user_confirmed":True,"player":player,"game_time":"2026-11-27T10:00:00-08:00","legal_cutoff":"2026-01-01"}},
+            {"id":"E2","type":"ca9.organization_install","payload":{"roster_id":"CA9-ROSTER-V1","roster_digest":"server_computed","user_confirmed":True}},
+            {"id":"E3","type":"ca9.factory_admit","payload":{"release_path":self.prefix+"release.json","release_digest":"server_computed","conflict_review_completed":True}}]}
+        self.put("requests/REQ-TEST.json",json.dumps(packet))
+        result=publish(self.root)
+        self.assertEqual(result,[{"request_id":"REQ-TEST","status":"accepted"}],read_json(self.root/"receipts/REQ-TEST.json"))
+        s=verify(self.root);self.assertEqual(s["cases"]["TEST-CA9"]["phase"],"unassigned")
+        self.assertEqual(len(s["documents"]),len(self.b["documents"]))
+        self.put(self.rec+"COM.md","<!-- PAGE 1 -->\nTampered")
+        with self.assertRaises(ValueError):verify(self.root)
