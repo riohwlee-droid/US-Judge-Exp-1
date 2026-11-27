@@ -1,6 +1,6 @@
 {
   "case_id": "CA9-26-001",
-  "status": "cross_review_in_progress",
+  "status": "bounded_legal_review_complete_compiler_pending",
   "authored_documents": [
     {
       "id": "CA9-26-001-COM",
@@ -156,25 +156,25 @@
       "id": "CA9-26-001-REPL",
       "path": "records/CA9-26-001/v1/REPL.md",
       "pages": 5,
-      "words": 693
+      "words": 705
     },
     {
       "id": "CA9-26-001-ORDER",
       "path": "records/CA9-26-001/v1/ORDER.md",
       "pages": 8,
-      "words": 1487
+      "words": 1509
     },
     {
       "id": "CA9-26-001-ER1",
       "path": "records/CA9-26-001/v1/ER1.md",
       "pages": 9,
-      "words": 1600
+      "words": 1622
     },
     {
       "id": "CA9-26-001-ER2",
       "path": "records/CA9-26-001/v1/ER2.md",
       "pages": 181,
-      "words": 23959
+      "words": 23971
     },
     {
       "id": "CA9-26-001-IDX",
@@ -186,19 +186,19 @@
       "id": "CA9-26-001-OPEN",
       "path": "records/CA9-26-001/v1/OPEN.md",
       "pages": 16,
-      "words": 1963
+      "words": 1975
     },
     {
       "id": "CA9-26-001-ANSWER",
       "path": "records/CA9-26-001/v1/ANSWER.md",
       "pages": 16,
-      "words": 1775
+      "words": 1816
     },
     {
       "id": "CA9-26-001-REPLY",
       "path": "records/CA9-26-001/v1/REPLY.md",
       "pages": 8,
-      "words": 614
+      "words": 618
     }
   ],
   "planned_documents": 33,
@@ -214,13 +214,13 @@
       "411 U.S. 792"
     ]
   },
-  "next_batch": "Complete proposition-specific treatment and legal citation audit; verify formal record export; then seal.",
+  "next_batch": "Run full production briefs gate; correct any failures; review logical record compliance and seal only if gates satisfied.",
   "excerpt_pages": 190,
   "review": {
     "source_commit": "efe1b2f66bad0bd8abd7e5f5f01957434db44aaf",
     "edit_count": 25,
-    "record_reference_count": 80,
-    "scope": "all original pages reconstructed from validated excerpts and appellate originals; targeted substantive checks; not a full independent semantic certification",
+    "record_reference_count": 92,
+    "scope": "Bounded proposition-specific legal review; explicit substantive record citation corrections; full production compiler and independent semantic role review pending.",
     "legal_authorities": 13,
     "legal_occurrences": 61,
     "original_documents_audited": 30,
@@ -231,6 +231,8 @@
     "timeline_events": 42,
     "recorded_times": 18,
     "additional_assertions": 32,
-    "unmatched_optional_annotations": []
+    "unmatched_optional_annotations": [],
+    "legal_authority_reviews": 13,
+    "final_pass_edits": 22
   }
 }

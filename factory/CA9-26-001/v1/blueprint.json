@@ -1445,7 +1445,7 @@
           "heading": "CERTIFICATES"
         }
       },
-      "body_words_reviewed": 1963
+      "body_words_reviewed": 1975
     },
     {
       "id": "CA9-26-001-ANSWER",
@@ -1483,7 +1483,7 @@
           "heading": "CERTIFICATES"
         }
       },
-      "body_words_reviewed": 1775
+      "body_words_reviewed": 1816
     },
     {
       "id": "CA9-26-001-REPLY",
@@ -1521,7 +1521,7 @@
           "heading": "CERTIFICATES"
         }
       },
-      "body_words_reviewed": 614
+      "body_words_reviewed": 618
     }
   ],
   "docket": [
@@ -4758,12 +4758,12 @@
       "source_path": "factory/CA9-26-001/v1/law/NASSAR.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition. No exhaustive citator clearance.",
+      "source_review_note": "Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Identity and original pin checked; full case-specific treatment lanes remain incomplete.",
+        "scope": "Nassar overruled retaliation Babb; Babb addresses federal-sector language; no displacement of this private-sector proposition found in inspected sources.",
         "checked_at": "2026-11-27",
-        "method": "CourtListener citation lookup and targeted source searches"
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -4786,12 +4786,12 @@
       "source_path": "factory/CA9-26-001/v1/law/TOLAN.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition. No exhaustive citator clearance.",
+      "source_review_note": "Per curiam qualified-immunity decision applies general Rule 56 nonmovant rule; only reasonable inferences, not a ruling on Title VII liability. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Identity and original pin checked; full case-specific treatment lanes remain incomplete.",
+        "scope": "Tolan overruled abrogated superseded search; no material displacement of general Rule 56 principle in inspected results.",
         "checked_at": "2026-11-27",
-        "method": "CourtListener citation lookup and targeted source searches"
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -4814,12 +4814,12 @@
       "source_path": "factory/CA9-26-001/v1/law/KAMA.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Official Ninth Circuit opinion 23-55106, slip p. 13, visually checked against PDF; published majority, federal employee; use limited to pretext evidence. No exhaustive citator clearance.",
+      "source_review_note": "Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Identity and original pin checked; full case-specific treatment lanes remain incomplete.",
+        "scope": "Name plus rehearing/certiorari/amended and overruled search; inspected official opinion and later panel citations, no displacement of timing proposition identified.",
         "checked_at": "2026-11-27",
-        "method": "CourtListener citation lookup and targeted source searches"
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -4842,12 +4842,12 @@
       "source_path": "factory/CA9-26-001/v1/law/REEVES.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition. No exhaustive citator clearance.",
+      "source_review_note": "ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Identity and original pin checked; full case-specific treatment lanes remain incomplete.",
+        "scope": "Reeves overruled abrogated pretext search; no displacement of evidentiary proposition in inspected sources; distinguish statutory standards.",
         "checked_at": "2026-11-27",
-        "method": "CourtListener citation lookup and targeted source searches"
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -4870,12 +4870,12 @@
       "source_path": "factory/CA9-26-001/v1/law/JUR.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed. No exhaustive citator clearance.",
+      "source_review_note": "House U.S. Code §1291 source credit, 1982 amendment and effective-date note; 2024 GovInfo codification compared; ordinary district final decisions. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Official text inspected; version history pending",
+        "scope": "House U.S. Code §1291 source credit, 1982 amendment and effective-date note; 2024 GovInfo codification compared; ordinary district final decisions.",
         "checked_at": "2026-11-27",
-        "method": "Official code and court rule retrieval"
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -4898,12 +4898,12 @@
       "source_path": "factory/CA9-26-001/v1/law/FEDQ.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed. No exhaustive citator clearance.",
+      "source_review_note": "House U.S. Code §1331 source credit and 1980 amendment; 2024 GovInfo text; no amount-in-controversy requirement. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Official text inspected; version history pending",
+        "scope": "House U.S. Code §1331 source credit and 1980 amendment; 2024 GovInfo text; no amount-in-controversy requirement.",
         "checked_at": "2026-11-27",
-        "method": "Official code and court rule retrieval"
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -4919,19 +4919,19 @@
       "origin": "real",
       "authority_type": "statute",
       "citation": "42 U.S.C. § 2000e-3(a)",
-      "url": "https://uscode.house.gov/us/usc/119-142/t42/s2000e-3/",
+      "url": "https://uscode.house.gov/us/usc/119-118/t42/s2000e-3/",
       "court": "federal_law",
       "decided_at": "1972-03-24",
       "verified_at": "2026-11-27",
       "source_path": "factory/CA9-26-001/v1/law/TITLEVII.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed. No exhaustive citator clearance.",
+      "source_review_note": "House U.S. Code §2000e-3 source credit and 1972 amendment to subsection (a); 2024 GovInfo and October 2026 House text compared; private employer. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Official text inspected; version history pending",
+        "scope": "House U.S. Code §2000e-3 source credit and 1972 amendment to subsection (a); 2024 GovInfo and October 2026 House text compared; private employer.",
         "checked_at": "2026-11-27",
-        "method": "Official code and court rule retrieval"
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -4954,12 +4954,12 @@
       "source_path": "factory/CA9-26-001/v1/law/FRAP4.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "LII Rule 4(a)(1)(A) text checked; dates refer to selected handbook edition, not initial adoption of rule. No exhaustive citator clearance.",
+      "source_review_note": "Selected 2025 rules edition and current LII Rule 4(a)(1)(A), 30-day private civil period; date denotes edition, not original enactment. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Official text inspected; version history pending",
+        "scope": "Selected 2025 rules edition and current LII Rule 4(a)(1)(A), 30-day private civil period; date denotes edition, not original enactment.",
         "checked_at": "2026-11-27",
-        "method": "Official code and court rule retrieval"
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -4982,12 +4982,12 @@
       "source_path": "factory/CA9-26-001/v1/law/FRCP56.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Rule 56(a) text checked against Cornell LII and 2010 order; later version review pending. No exhaustive citator clearance.",
+      "source_review_note": "2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Rule text and 2010 amendment checked; version history remains to be certified.",
+        "scope": "2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard.",
         "checked_at": "2026-11-27",
-        "method": "LII current rule and 2010 rule amendment"
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -5010,12 +5010,12 @@
       "source_path": "factory/CA9-26-001/v1/law/MCD.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "CourtListener citation lookup job 6c6e7672, cluster 108786; original opinion language checked. Proposition and scope only; subsequent-treatment clearance pending.",
+      "source_review_note": "Production and pretext framework in Title VII disparate treatment; used as evidentiary tool under Ninth Circuit precedent; Rule 56 governs, no additional elements. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Citation identity and original passage; later-treatment candidate review remains incomplete.",
+        "scope": "Ames majority assumes without deciding use at summary judgment; Thomas concurrence and Hittle cert-denial dissent question framework, not overruling. Cross No. 26-100 denied Nov 16; Huber No.25-239 denied Dec 8 2025; Reyes No.26-448 petition challenging framework found, no merits decision identified. Pending challenges do not change current precedent.",
         "checked_at": "2026-11-27",
-        "method": "CourtListener lookup; public opinion text; Kama discusses Dawson and Curley."
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -5038,12 +5038,12 @@
       "source_path": "factory/CA9-26-001/v1/law/DAWSON.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "CourtListener citation lookup job 6c6e7672, cluster 182530; original opinion language checked. Proposition and scope only; subsequent-treatment clearance pending.",
+      "source_review_note": "Pre-Nassar published panel; circumstantial proximity and pretext; no replacement for ultimate private-sector but-for causation. Actual case involved less than 48 hours and explicit reference. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Citation identity and original passage; later-treatment candidate review remains incomplete.",
+        "scope": "Name overruled abrogated superseded search; Nassar changes causation strength not permissibility of timing evidence; Kama confirms scope.",
         "checked_at": "2026-11-27",
-        "method": "CourtListener lookup; public opinion text; Kama discusses Dawson and Curley."
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -5066,12 +5066,12 @@
       "source_path": "factory/CA9-26-001/v1/law/CURLEY.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "CourtListener citation lookup job 6c6e7672, cluster 2756584; original opinion language checked. Proposition and scope only; subsequent-treatment clearance pending.",
+      "source_review_note": "ADA case; case-specific intervening evidence, analogical only; does not foreclose claim when inquiry itself was allegedly influenced. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Citation identity and original passage; later-treatment candidate review remains incomplete.",
+        "scope": "Name overruled amended rehearing certiorari search and Kama comparison; no displacement identified in inspected sources.",
         "checked_at": "2026-11-27",
-        "method": "CourtListener lookup; public opinion text; Kama discusses Dawson and Curley."
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -5094,12 +5094,12 @@
       "source_path": "factory/CA9-26-001/v1/law/POLAND.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "CourtListener citation lookup job 6c6e7672, cluster 1426978; original opinion language checked. Proposition and scope only; subsequent-treatment clearance pending.",
+      "source_review_note": "Federal employee, subordinate influence. Actual bias and sufficient causal link necessary; post-Nassar use only compatible but-for theory, not automatic imputation. Reviewed against public original text, not merely reporter lookup. Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Citation identity and original passage; later-treatment candidate review remains incomplete.",
+        "scope": "Poland + Staub; Poland overruled abrogated; Acosta (2018) expressly reconciles cat's-paw with Nassar; Staub USERRA motivating-factor standard not controlling here.",
         "checked_at": "2026-11-27",
-        "method": "CourtListener lookup; public opinion text; Kama discusses Dawson and Curley."
+        "method": "Targeted public primary-source and case searches; see authority_reviews."
       },
       "pins": [
         {
@@ -5135,28 +5135,28 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "text",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: House U.S. Code §1331 source credit and 1980 amendment; 2024 GovInfo text; no amount-in-controversy requirement."
         },
         {
           "authority_id": "TITLEVII",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "text",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: House U.S. Code §2000e-3 source credit and 1972 amendment to subsection (a); 2024 GovInfo and October 2026 House text compared; private employer."
         },
         {
           "authority_id": "JUR",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "text",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: House U.S. Code §1291 source credit, 1982 amendment and effective-date note; 2024 GovInfo codification compared; ordinary district final decisions."
         },
         {
           "authority_id": "FRAP4",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "text",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: Selected 2025 rules edition and current LII Rule 4(a)(1)(A), 30-day private civil period; date denotes edition, not original enactment."
         }
       ]
     },
@@ -5174,28 +5174,28 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: Per curiam qualified-immunity decision applies general Rule 56 nonmovant rule; only reasonable inferences, not a ruling on Title VII liability."
         },
         {
           "authority_id": "NASSAR",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards."
         },
         {
           "authority_id": "FRCP56",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "text",
-          "analysis": "Rule 56(a) governs review of the district court's summary judgment."
+          "analysis": "Rule 56(a) governs review of the district court's summary judgment. Scope: 2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard."
         },
         {
           "authority_id": "MCD",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "The burden-shifting framework, McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973), does not require the employee at summary judgment to persuade the court that the employer's rationale is false; the question is whether the evidence permits the jury to do so and find the ultimate causal fact."
+          "analysis": "The burden-shifting framework, McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973), does not require the employee at summary judgment to persuade the court that the employer's rationale is false; the question is whether the evidence permits the jury to do so and find the ultimate causal fact. Scope: Production and pretext framework in Title VII disparate treatment; used as evidentiary tool under Ninth Circuit precedent; Rule 56 governs, no additional elements."
         }
       ]
     },
@@ -5226,7 +5226,7 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards."
         }
       ]
     },
@@ -5261,7 +5261,7 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: Per curiam qualified-immunity decision applies general Rule 56 nonmovant rule; only reasonable inferences, not a ruling on Title VII liability."
         }
       ]
     },
@@ -5319,8 +5319,8 @@
           "authority_id": "REEVES",
           "pin_id": "P1",
           "use": "support",
-          "claimed_weight": "binding",
-          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability."
+          "claimed_weight": "persuasive",
+          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability. Scope: ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only."
         }
       ]
     },
@@ -5355,21 +5355,21 @@
           "pin_id": "P1",
           "use": "distinguish",
           "claimed_weight": "binding",
-          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation."
+          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation. Scope: Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding."
         },
         {
           "authority_id": "DAWSON",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011) illustrates that timing together with other evidence of retaliatory motive can permit trial. Here the short interval is from notice to the challenged selection, not from notice to the discharge; Appellant relies on the relationship of that selection to the final action."
+          "analysis": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011) illustrates that timing together with other evidence of retaliatory motive can permit trial. Here the short interval is from notice to the challenged selection, not from notice to the discharge; Appellant relies on the relationship of that selection to the final action. Scope: Pre-Nassar published panel; circumstantial proximity and pretext; no replacement for ultimate private-sector but-for causation. Actual case involved less than 48 hours and explicit reference."
         },
         {
           "authority_id": "CURLEY",
           "pin_id": "P1",
           "use": "distinguish",
-          "claimed_weight": "binding",
-          "analysis": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014) involved genuinely intervening information from an investigation; the present dispute concerns whether the individual decision to expand the review itself was influenced by the complaint. Appellant does not contend that the resulting entries were fabricated."
+          "claimed_weight": "persuasive",
+          "analysis": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014) involved genuinely intervening information from an investigation; the present dispute concerns whether the individual decision to expand the review itself was influenced by the complaint. Appellant does not contend that the resulting entries were fabricated. Scope: ADA case; case-specific intervening evidence, analogical only; does not foreclose claim when inquiry itself was allegedly influenced."
         }
       ]
     },
@@ -5399,15 +5399,15 @@
           "authority_id": "REEVES",
           "pin_id": "P1",
           "use": "support",
-          "claimed_weight": "binding",
-          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability."
+          "claimed_weight": "persuasive",
+          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability. Scope: ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only."
         },
         {
           "authority_id": "POLAND",
           "pin_id": "P1",
           "use": "support",
-          "claimed_weight": "binding",
-          "analysis": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) recognizes that an independent decisionmaker's involvement is not dispositive if the subordinate's bias influenced the decision or process. Appellant must still prove the bias and the necessary causal connection; the contention is that the manager's role is material evidence on this record."
+          "claimed_weight": "persuasive",
+          "analysis": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) recognizes that an independent decisionmaker's involvement is not dispositive if the subordinate's bias influenced the decision or process. Appellant must still prove the bias and the necessary causal connection; the contention is that the manager's role is material evidence on this record. Scope: Federal employee, subordinate influence. Actual bias and sufficient causal link necessary; post-Nassar use only compatible but-for theory, not automatic imputation."
         }
       ]
     },
@@ -5425,42 +5425,42 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards."
         },
         {
           "authority_id": "TOLAN",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: Per curiam qualified-immunity decision applies general Rule 56 nonmovant rule; only reasonable inferences, not a ruling on Title VII liability."
         },
         {
           "authority_id": "KAMA",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation."
+          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation. Scope: Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding."
         },
         {
           "authority_id": "FRCP56",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "text",
-          "analysis": "Rule 56(a) governs review of the district court's summary judgment."
+          "analysis": "Rule 56(a) governs review of the district court's summary judgment. Scope: 2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard."
         },
         {
           "authority_id": "MCD",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "The employer's burden under McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973) is one of production. Once a legitimate reason is articulated, Appellant must identify evidence supporting the inference of pretext and the necessary causal relationship."
+          "analysis": "The employer's burden under McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973) is one of production. Once a legitimate reason is articulated, Appellant must identify evidence supporting the inference of pretext and the necessary causal relationship. Scope: Production and pretext framework in Title VII disparate treatment; used as evidentiary tool under Ninth Circuit precedent; Rule 56 governs, no additional elements."
         },
         {
           "authority_id": "DAWSON",
           "pin_id": "P1",
           "use": "distinguish",
           "claimed_weight": "binding",
-          "analysis": "In Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011), the employer expressly referred to the protected conduct at termination and the interval was two days. Neither fact is present in the same form here; the significance of the April review must be assessed on this record."
+          "analysis": "In Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011), the employer expressly referred to the protected conduct at termination and the interval was two days. Neither fact is present in the same form here; the significance of the April review must be assessed on this record. Scope: Pre-Nassar published panel; circumstantial proximity and pretext; no replacement for ultimate private-sector but-for causation. Actual case involved less than 48 hours and explicit reference."
         }
       ]
     },
@@ -5487,14 +5487,14 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation."
+          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation. Scope: Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding."
         },
         {
           "authority_id": "CURLEY",
           "pin_id": "P1",
           "use": "support",
-          "claimed_weight": "binding",
-          "analysis": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014), an ADA case, illustrates the relevance of independent information discovered during an investigation. Here the historical defects were actually found and corrected, and the earlier coaching supplied a documented operational reason."
+          "claimed_weight": "persuasive",
+          "analysis": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014), an ADA case, illustrates the relevance of independent information discovered during an investigation. Here the historical defects were actually found and corrected, and the earlier coaching supplied a documented operational reason. Scope: ADA case; case-specific intervening evidence, analogical only; does not foreclose claim when inquiry itself was allegedly influenced."
         }
       ]
     },
@@ -5524,8 +5524,8 @@
           "authority_id": "REEVES",
           "pin_id": "P1",
           "use": "support",
-          "claimed_weight": "binding",
-          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability."
+          "claimed_weight": "persuasive",
+          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability. Scope: ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only."
         }
       ]
     },
@@ -5556,7 +5556,7 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation."
+          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation. Scope: Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding."
         }
       ]
     },
@@ -5587,7 +5587,7 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: Per curiam qualified-immunity decision applies general Rule 56 nonmovant rule; only reasonable inferences, not a ruling on Title VII liability."
         }
       ]
     },
@@ -5629,22 +5629,22 @@
           "authority_id": "REEVES",
           "pin_id": "P1",
           "use": "support",
-          "claimed_weight": "binding",
-          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability."
+          "claimed_weight": "persuasive",
+          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability. Scope: ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only."
         },
         {
           "authority_id": "NASSAR",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards."
         },
         {
           "authority_id": "POLAND",
           "pin_id": "P1",
           "use": "distinguish",
-          "claimed_weight": "binding",
-          "analysis": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) does not impute bias merely because a manager supplied information. Appellee disputes the existence of retaliatory bias and the causal dependence of discharge on any such bias, and relies on the contemporaneous corrected record and review."
+          "claimed_weight": "persuasive",
+          "analysis": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) does not impute bias merely because a manager supplied information. Appellee disputes the existence of retaliatory bias and the causal dependence of discharge on any such bias, and relies on the contemporaneous corrected record and review. Scope: Federal employee, subordinate influence. Actual bias and sufficient causal link necessary; post-Nassar use only compatible but-for theory, not automatic imputation."
         }
       ]
     },
@@ -5671,14 +5671,14 @@
           "pin_id": "P1",
           "use": "distinguish",
           "claimed_weight": "binding",
-          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation."
+          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation. Scope: Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding."
         },
         {
           "authority_id": "NASSAR",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards."
         }
       ]
     },
@@ -5701,7 +5701,7 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: Per curiam qualified-immunity decision applies general Rule 56 nonmovant rule; only reasonable inferences, not a ruling on Title VII liability."
         }
       ]
     },
@@ -5723,15 +5723,15 @@
           "authority_id": "REEVES",
           "pin_id": "P1",
           "use": "support",
-          "claimed_weight": "binding",
-          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability."
+          "claimed_weight": "persuasive",
+          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability. Scope: ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only."
         },
         {
           "authority_id": "NASSAR",
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending. Scope: Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards."
         }
       ]
     }
@@ -5746,7 +5746,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending. Scope: Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards."
     },
     {
       "id": "LU-2",
@@ -5757,7 +5757,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending. Scope: Per curiam qualified-immunity decision applies general Rule 56 nonmovant rule; only reasonable inferences, not a ruling on Title VII liability."
     },
     {
       "id": "LU-3",
@@ -5768,7 +5768,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "Fact-specific pretext evidence; private-sector causation remains governed by Nassar."
+      "analysis": "Fact-specific pretext evidence; private-sector causation remains governed by Nassar. Scope: Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding."
     },
     {
       "id": "LU-4",
@@ -5778,8 +5778,8 @@
       "authority_id": "REEVES",
       "pin_id": "P1",
       "use": "support",
-      "claimed_weight": "binding",
-      "analysis": "General evidentiary principle from ADEA Rule 50 case, not Title VII causation."
+      "claimed_weight": "persuasive",
+      "analysis": "General evidentiary principle from ADEA Rule 50 case, not Title VII causation. Scope: ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only."
     },
     {
       "id": "LU-5",
@@ -5790,7 +5790,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending. Scope: Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards."
     },
     {
       "id": "LU-6",
@@ -5801,7 +5801,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending. Scope: Per curiam qualified-immunity decision applies general Rule 56 nonmovant rule; only reasonable inferences, not a ruling on Title VII liability."
     },
     {
       "id": "LU-7",
@@ -5812,7 +5812,7 @@
       "pin_id": "P1",
       "use": "distinguish",
       "claimed_weight": "binding",
-      "analysis": "Fact-specific pretext evidence; private-sector causation remains governed by Nassar."
+      "analysis": "Fact-specific pretext evidence; private-sector causation remains governed by Nassar. Scope: Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding."
     },
     {
       "id": "LU-8",
@@ -5822,8 +5822,8 @@
       "authority_id": "REEVES",
       "pin_id": "P1",
       "use": "support",
-      "claimed_weight": "binding",
-      "analysis": "General evidentiary principle from ADEA Rule 50 case, not Title VII causation."
+      "claimed_weight": "persuasive",
+      "analysis": "General evidentiary principle from ADEA Rule 50 case, not Title VII causation. Scope: ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only."
     },
     {
       "id": "LU-9",
@@ -5834,7 +5834,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending. Scope: Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards."
     },
     {
       "id": "LU-10",
@@ -5845,7 +5845,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "Fact-specific pretext evidence; private-sector causation remains governed by Nassar."
+      "analysis": "Fact-specific pretext evidence; private-sector causation remains governed by Nassar. Scope: Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding."
     },
     {
       "id": "LU-11",
@@ -5855,8 +5855,8 @@
       "authority_id": "REEVES",
       "pin_id": "P1",
       "use": "support",
-      "claimed_weight": "binding",
-      "analysis": "General evidentiary principle from ADEA Rule 50 case, not Title VII causation."
+      "claimed_weight": "persuasive",
+      "analysis": "General evidentiary principle from ADEA Rule 50 case, not Title VII causation. Scope: ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only."
     },
     {
       "id": "LU-12",
@@ -5867,7 +5867,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending. Scope: Per curiam qualified-immunity decision applies general Rule 56 nonmovant rule; only reasonable inferences, not a ruling on Title VII liability."
     },
     {
       "id": "LU-13",
@@ -5878,7 +5878,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending. Scope: Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards."
     },
     {
       "id": "LU-14",
@@ -5889,7 +5889,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "Fact-specific pretext evidence; private-sector causation remains governed by Nassar."
+      "analysis": "Fact-specific pretext evidence; private-sector causation remains governed by Nassar. Scope: Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding."
     },
     {
       "id": "LU-15",
@@ -5899,8 +5899,8 @@
       "authority_id": "REEVES",
       "pin_id": "P1",
       "use": "support",
-      "claimed_weight": "binding",
-      "analysis": "General evidentiary principle from ADEA Rule 50 case, not Title VII causation."
+      "claimed_weight": "persuasive",
+      "analysis": "General evidentiary principle from ADEA Rule 50 case, not Title VII causation. Scope: ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only."
     },
     {
       "id": "LU-16",
@@ -5911,7 +5911,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "text",
-      "analysis": "Rule 56(a) governs the sufficiency of the summary judgment record."
+      "analysis": "Rule 56(a) governs the sufficiency of the summary judgment record. Scope: 2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard."
     },
     {
       "id": "LU-17",
@@ -5922,7 +5922,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "text",
-      "analysis": "Rule 56(a) governs the sufficiency of the summary judgment record."
+      "analysis": "Rule 56(a) governs the sufficiency of the summary judgment record. Scope: 2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard."
     },
     {
       "id": "LU-18",
@@ -5933,7 +5933,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "text",
-      "analysis": "Rule 56(a) governs the sufficiency of the summary judgment record."
+      "analysis": "Rule 56(a) governs the sufficiency of the summary judgment record. Scope: 2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard."
     },
     {
       "id": "LU-19",
@@ -5944,7 +5944,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The parties may analyze circumstantial evidence through the McDonnell Douglas burden-shifting framework, McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973); the employer's intermediate obligation is to produce a legitimate reason, not to assume the ultimate burden of persuasion."
+      "analysis": "The parties may analyze circumstantial evidence through the McDonnell Douglas burden-shifting framework, McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973); the employer's intermediate obligation is to produce a legitimate reason, not to assume the ultimate burden of persuasion. Scope: Production and pretext framework in Title VII disparate treatment; used as evidentiary tool under Ninth Circuit precedent; Rule 56 governs, no additional elements."
     },
     {
       "id": "LU-20",
@@ -5955,7 +5955,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "Under McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973), once the employer articulates its legitimate explanation, the plaintiff has an opportunity to show pretext; the ultimate burden remains hers and the summary judgment question remains whether a reasonable jury could find causation."
+      "analysis": "Under McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973), once the employer articulates its legitimate explanation, the plaintiff has an opportunity to show pretext; the ultimate burden remains hers and the summary judgment question remains whether a reasonable jury could find causation. Scope: Production and pretext framework in Title VII disparate treatment; used as evidentiary tool under Ninth Circuit precedent; Rule 56 governs, no additional elements."
     },
     {
       "id": "LU-21",
@@ -5966,7 +5966,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The Court applies the familiar allocation of evidentiary burdens in McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973) without transferring the ultimate burden of persuasion to Defendant."
+      "analysis": "The Court applies the familiar allocation of evidentiary burdens in McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973) without transferring the ultimate burden of persuasion to Defendant. Scope: Production and pretext framework in Title VII disparate treatment; used as evidentiary tool under Ninth Circuit precedent; Rule 56 governs, no additional elements."
     },
     {
       "id": "LU-22",
@@ -5977,7 +5977,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011) recognizes that particularly close timing can support pretext; the record here adds evidence of the individual scope selection and comparator treatment. Nassar remains controlling on ultimate causation."
+      "analysis": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011) recognizes that particularly close timing can support pretext; the record here adds evidence of the individual scope selection and comparator treatment. Nassar remains controlling on ultimate causation. Scope: Pre-Nassar published panel; circumstantial proximity and pretext; no replacement for ultimate private-sector but-for causation. Actual case involved less than 48 hours and explicit reference."
     },
     {
       "id": "LU-23",
@@ -5987,8 +5987,8 @@
       "authority_id": "CURLEY",
       "pin_id": "P1",
       "use": "support",
-      "claimed_weight": "binding",
-      "analysis": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014) illustrates, in the ADA context, why newly discovered independent reasons can weaken an inference based on timing; Defendant relies on the actual corrected release records, not a categorical rule."
+      "claimed_weight": "persuasive",
+      "analysis": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014) illustrates, in the ADA context, why newly discovered independent reasons can weaken an inference based on timing; Defendant relies on the actual corrected release records, not a categorical rule. Scope: ADA case; case-specific intervening evidence, analogical only; does not foreclose claim when inquiry itself was allegedly influenced."
     },
     {
       "id": "LU-24",
@@ -5998,8 +5998,8 @@
       "authority_id": "CURLEY",
       "pin_id": "P1",
       "use": "support",
-      "claimed_weight": "binding",
-      "analysis": "The Court considers the illustration in Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014) that a genuinely independent investigation may weaken the inference from timing. It does not hold that discovery of actual defects always forecloses evidence that the investigation itself was retaliatorily directed."
+      "claimed_weight": "persuasive",
+      "analysis": "The Court considers the illustration in Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014) that a genuinely independent investigation may weaken the inference from timing. It does not hold that discovery of actual defects always forecloses evidence that the investigation itself was retaliatorily directed. Scope: ADA case; case-specific intervening evidence, analogical only; does not foreclose claim when inquiry itself was allegedly influenced."
     },
     {
       "id": "LU-25",
@@ -6009,8 +6009,8 @@
       "authority_id": "POLAND",
       "pin_id": "P1",
       "use": "support",
-      "claimed_weight": "binding",
-      "analysis": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) recognizes the potential attribution of a subordinate's bias where a supposedly independent decision is influenced by that subordinate. Plaintiff relies on the manager's selection and recommendation, not mere formal involvement; the ultimate private-sector causal standard remains Nassar."
+      "claimed_weight": "persuasive",
+      "analysis": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) recognizes the potential attribution of a subordinate's bias where a supposedly independent decision is influenced by that subordinate. Plaintiff relies on the manager's selection and recommendation, not mere formal involvement; the ultimate private-sector causal standard remains Nassar. Scope: Federal employee, subordinate influence. Actual bias and sufficient causal link necessary; post-Nassar use only compatible but-for theory, not automatic imputation."
     },
     {
       "id": "LU-26",
@@ -6020,8 +6020,8 @@
       "authority_id": "POLAND",
       "pin_id": "P1",
       "use": "support",
-      "claimed_weight": "binding",
-      "analysis": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) recognizes the relevance of a biased subordinate's influence. The Court does not adopt a categorical independence rule and assesses the sufficiency of evidence of retaliatory motive and causation on the whole record."
+      "claimed_weight": "persuasive",
+      "analysis": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) recognizes the relevance of a biased subordinate's influence. The Court does not adopt a categorical independence rule and assesses the sufficiency of evidence of retaliatory motive and causation on the whole record. Scope: Federal employee, subordinate influence. Actual bias and sufficient causal link necessary; post-Nassar use only compatible but-for theory, not automatic imputation."
     }
   ],
   "timeliness_review": {
@@ -6030,168 +6030,1279 @@
   },
   "reviews": [],
   "unresolved_blockers": [
-    "Authority direct history and proposition-specific subsequent treatment incomplete; named candidates require review",
-    "Literal citation inventory built; complete semantic coverage and independent adversarial review not certified",
-    "Formal filing format and physical PDF pagination (including ER covers) not yet validated",
-    "Player setup and final campaign legal cutoff not selected"
+    "Full production compiler briefs/review stage not yet executed on this revision",
+    "Physical filing-format export and independent semantic cross-review not yet certified; original logical-page format retained",
+    "Player setup and campaign cutoff confirmation are separate from record sealing"
   ],
   "research": {
     "schema_version": 1,
     "cutoff": "2026-11-27",
-    "authority_reviews": [],
+    "authority_reviews": [
+      {
+        "id": "NASSAR",
+        "authority_id": "NASSAR",
+        "citation": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+        "decision_date": "2013-06-24",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "Reporter, case name, court and decision date matched to https://www.govinfo.gov/app/details/USREPORTS-570/USREPORTS-570-338; CourtListener lookup previously recorded.",
+        "scope_note": "Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards.",
+        "source_kind": "other_reviewed",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/NASSAR.txt",
+          "sha256": "server_computed",
+          "url": "https://www.law.cornell.edu/supremecourt/text/12-484"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "360",
+            "proposition": "Retaliation requires but-for causation, not merely a motivating factor.",
+            "character": "holding",
+            "status": "usable_limited",
+            "weight": "binding",
+            "reasoning": "Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards.",
+            "applicability": "Private-sector Title VII §2000e-3(a): but-for causation, not sole cause; does not impose federal-sector or status-discrimination standards.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "direct_history",
+            "kind": "direct_history",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Supreme Court vacated Fifth Circuit judgment and remanded, not its own holding. Original disposition checked; search case name + remand 2014 Fifth Circuit.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "negative_treatment",
+            "kind": "negative_treatment",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Nassar overruled retaliation Babb; Babb addresses federal-sector language; no displacement of this private-sector proposition found in inspected sources.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 0,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "later_citing",
+            "kind": "later_citing",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Bostock (2020), Acosta (2018), Ninth Circuit model instructions; limited use.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [
+          {
+            "search_id": "later_citing",
+            "pin_id": "P1",
+            "date": "2020-06-15",
+            "citation": "Bostock v. Clayton County, 590 U.S. 644 (2020)",
+            "court": "scotus",
+            "relation": "followed",
+            "operative": false,
+            "locator": "656",
+            "quote": "Often, events have multiple but-for causes.",
+            "analysis": "General meaning of but-for; status discrimination context. Does not relax Nassar.",
+            "source": {
+              "path": "factory/CA9-26-001/v1/law/treatment-NASSAR-1.txt",
+              "sha256": "server_computed",
+              "url": "https://www.law.cornell.edu/supremecourt/text/17-1618"
+            }
+          }
+        ],
+        "court_level": "scotus",
+        "opinion_kind": "majority",
+        "publication": "published",
+        "panel_kind": "full_court",
+        "identity_lookup": {
+          "provider": "official",
+          "status": "found",
+          "canonical_name": "University of Tex. Southwestern Medical Center v. Nassar",
+          "matched_citation": "570 U.S. 338",
+          "basis": "Public original and reporter identity checked; earlier actual CourtListener lookup. Official/public record URL recorded.",
+          "official_url": "https://www.govinfo.gov/app/details/USREPORTS-570/USREPORTS-570-338"
+        }
+      },
+      {
+        "id": "TOLAN",
+        "authority_id": "TOLAN",
+        "citation": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+        "decision_date": "2014-05-05",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "Reporter, case name, court and decision date matched to https://www.govinfo.gov/app/details/USREPORTS-572/USREPORTS-572-650; CourtListener lookup previously recorded.",
+        "scope_note": "Per curiam qualified-immunity decision applies general Rule 56 nonmovant rule; only reasonable inferences, not a ruling on Title VII liability.",
+        "source_kind": "other_reviewed",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/TOLAN.txt",
+          "sha256": "server_computed",
+          "url": "https://www.law.cornell.edu/supremecourt/text/13-551"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "Part II.A; 656–57",
+            "proposition": "Credit the nonmovant's evidence and draw reasonable inferences without resolving genuine material factual disputes.",
+            "character": "holding",
+            "status": "usable_limited",
+            "weight": "binding",
+            "reasoning": "Per curiam qualified-immunity decision applies general Rule 56 nonmovant rule; only reasonable inferences, not a ruling on Title VII liability.",
+            "applicability": "Per curiam qualified-immunity decision applies general Rule 56 nonmovant rule; only reasonable inferences, not a ruling on Title VII liability.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "direct_history",
+            "kind": "direct_history",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Supreme Court vacated Fifth Circuit judgment and remanded; original disposition and name + rehearing/remand search inspected.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "negative_treatment",
+            "kind": "negative_treatment",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Tolan overruled abrogated superseded search; no material displacement of general Rule 56 principle in inspected results.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 0,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "later_citing",
+            "kind": "later_citing",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Zorn v. Linton (2026) majority footnote preserves nonmovant framing; dissent explicitly invokes Tolan; disagreement about application does not change standard.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 0,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [],
+        "court_level": "scotus",
+        "opinion_kind": "per_curiam",
+        "publication": "published",
+        "panel_kind": "full_court",
+        "identity_lookup": {
+          "provider": "official",
+          "status": "found",
+          "canonical_name": "Tolan v. Cotton",
+          "matched_citation": "572 U.S. 650",
+          "basis": "Public original and reporter identity checked; earlier actual CourtListener lookup. Official/public record URL recorded.",
+          "official_url": "https://www.govinfo.gov/app/details/USREPORTS-572/USREPORTS-572-650"
+        }
+      },
+      {
+        "id": "KAMA",
+        "authority_id": "KAMA",
+        "citation": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+        "decision_date": "2024-07-18",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "Reporter, case name, court and decision date matched to https://www.govinfo.gov/app/details/USCOURTS-ca9-23-55106/USCOURTS-ca9-23-55106-0; CourtListener lookup previously recorded.",
+        "scope_note": "Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding.",
+        "source_kind": "official",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/KAMA.txt",
+          "sha256": "server_computed",
+          "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/18/23-55106.pdf"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "slip op. 13",
+            "proposition": "Temporal proximity may be sufficient in some cases; in Kama, it was not sufficient on its own.",
+            "character": "holding",
+            "status": "usable_limited",
+            "weight": "binding",
+            "reasoning": "Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding.",
+            "applicability": "Published panel; federal employee, factual pretext assessment, not an absolute timing rule or private-sector causation holding.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "direct_history",
+            "kind": "direct_history",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "23-55106 July 18, 2024 published affirmance, government opinion entry. Name/docket + rehearing certiorari amended search; no superseding disposition located in inspected results.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "negative_treatment",
+            "kind": "negative_treatment",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Name plus rehearing/certiorari/amended and overruled search; inspected official opinion and later panel citations, no displacement of timing proposition identified.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 0,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "later_citing",
+            "kind": "later_citing",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Lewis (2025 unpublished) and Koch (2025 unpublished) use Kama. Neither constitutes binding subsequent precedent.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [
+          {
+            "search_id": "later_citing",
+            "pin_id": "P1",
+            "date": "2025-11-07",
+            "citation": "Koch v. Unum Group, No. 24-6634 (9th Cir. Nov. 7, 2025) (unpublished)",
+            "court": "ca9",
+            "relation": "followed",
+            "operative": false,
+            "locator": "numbered paragraph 3",
+            "quote": "the burden shifts back to the plaintiff to show that the asserted reason is merely a pretext for retaliation",
+            "analysis": "Unpublished memorandum uses Kama; no binding effect.",
+            "source": {
+              "path": "factory/CA9-26-001/v1/law/treatment-KAMA-1.txt",
+              "sha256": "server_computed",
+              "url": "https://cdn.ca9.uscourts.gov/datastore/memoranda/2025/11/07/24-6634.pdf"
+            }
+          }
+        ],
+        "court_level": "ca9",
+        "opinion_kind": "majority",
+        "publication": "published",
+        "panel_kind": "panel",
+        "identity_lookup": {
+          "provider": "official",
+          "status": "found",
+          "canonical_name": "Meyer Kama v. Alejandro Mayorkas",
+          "matched_citation": "107 F.4th 1054",
+          "basis": "Public original and reporter identity checked; earlier actual CourtListener lookup. Official/public record URL recorded.",
+          "official_url": "https://www.govinfo.gov/app/details/USCOURTS-ca9-23-55106/USCOURTS-ca9-23-55106-0"
+        }
+      },
+      {
+        "id": "REEVES",
+        "authority_id": "REEVES",
+        "citation": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+        "decision_date": "2000-06-12",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "Reporter, case name, court and decision date matched to https://www.govinfo.gov/app/details/USREPORTS-530/USREPORTS-530-133; CourtListener lookup previously recorded.",
+        "scope_note": "ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only.",
+        "source_kind": "other_reviewed",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/REEVES.txt",
+          "sha256": "server_computed",
+          "url": "https://www.law.cornell.edu/supremecourt/text/99-536"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "148; Part II",
+            "proposition": "Prima facie evidence plus sufficient evidence discrediting the employer's explanation may permit, but does not require, an inference of discrimination; consider whole record.",
+            "character": "holding",
+            "status": "usable_limited",
+            "weight": "persuasive",
+            "reasoning": "ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only.",
+            "applicability": "ADEA Rule 50 verdict; evidentiary inference from prima facie case plus evidence of falsity, not mandatory finding or substitute for Nassar. Analogy only.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "direct_history",
+            "kind": "direct_history",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Supreme Court reversed Fifth Circuit; original disposition and name + remand/rehearing search inspected.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "negative_treatment",
+            "kind": "negative_treatment",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Reeves overruled abrogated pretext search; no displacement of evidentiary proposition in inspected sources; distinguish statutory standards.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 0,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "later_citing",
+            "kind": "later_citing",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Opara v. Yellen (2023) applies limiting discussion; Brown (2026) concerns religious-status motivating factor, not private retaliation.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [
+          {
+            "search_id": "later_citing",
+            "pin_id": "P1",
+            "date": "2023-01-17",
+            "citation": "Opara v. Yellen, 57 F.4th 709 (9th Cir. 2023)",
+            "court": "ca9",
+            "relation": "followed",
+            "operative": false,
+            "locator": "discussion of weak issue and independent evidence",
+            "quote": "abundant and uncontroverted independent evidence that no discrimination has occurred",
+            "analysis": "Applies Reeves's qualification, not automatic jury trial.",
+            "source": {
+              "path": "factory/CA9-26-001/v1/law/treatment-REEVES-1.txt",
+              "sha256": "server_computed",
+              "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2023/01/17/21-55953.pdf"
+            }
+          }
+        ],
+        "court_level": "scotus",
+        "opinion_kind": "majority",
+        "publication": "published",
+        "panel_kind": "full_court",
+        "identity_lookup": {
+          "provider": "official",
+          "status": "found",
+          "canonical_name": "Reeves v. Sanderson Plumbing Products, Inc.",
+          "matched_citation": "530 U.S. 133",
+          "basis": "Public original and reporter identity checked; earlier actual CourtListener lookup. Official/public record URL recorded.",
+          "official_url": "https://www.govinfo.gov/app/details/USREPORTS-530/USREPORTS-530-133"
+        }
+      },
+      {
+        "id": "JUR",
+        "authority_id": "JUR",
+        "citation": "28 U.S.C. § 1291",
+        "decision_date": "1982-10-01",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "House U.S. Code §1291 source credit, 1982 amendment and effective-date note; 2024 GovInfo codification compared; ordinary district final decisions.",
+        "scope_note": "House U.S. Code §1291 source credit, 1982 amendment and effective-date note; 2024 GovInfo codification compared; ordinary district final decisions.",
+        "source_kind": "official",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/JUR.txt",
+          "sha256": "server_computed",
+          "url": "https://uscode.house.gov/us/usc/t28/s1291/"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "section 1291",
+            "proposition": "Final judgment appellate jurisdiction.",
+            "character": "text",
+            "status": "usable_limited",
+            "weight": "text",
+            "reasoning": "House U.S. Code §1291 source credit, 1982 amendment and effective-date note; 2024 GovInfo codification compared; ordinary district final decisions.",
+            "applicability": "Applicable to this private civil appeal and record date.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "version_history",
+            "kind": "version_history",
+            "provider": "U.S. Code House/GovInfo or LII rules and official rule materials",
+            "query": "House U.S. Code §1291 source credit, 1982 amendment and effective-date note; 2024 GovInfo codification compared; ordinary district final decisions.",
+            "scope": "Operative subsection at relevant filing and cutoff dates",
+            "limitations": "Public codification/current rule history, not an exhaustive legislative history.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "amendments",
+            "kind": "amendments",
+            "provider": "U.S. Code House/GovInfo or LII rules and official rule materials",
+            "query": "House U.S. Code §1291 source credit, 1982 amendment and effective-date note; 2024 GovInfo codification compared; ordinary district final decisions.",
+            "scope": "Operative subsection at relevant filing and cutoff dates",
+            "limitations": "Public codification/current rule history, not an exhaustive legislative history.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [],
+        "version_basis": "House U.S. Code §1291 source credit, 1982 amendment and effective-date note; 2024 GovInfo codification compared; ordinary district final decisions.",
+        "jurisdiction_basis": "Federal law applied to a private-sector Title VII civil case in NDCA and CA9.",
+        "effective_from": "1982-10-01",
+        "effective_to": null
+      },
+      {
+        "id": "FEDQ",
+        "authority_id": "FEDQ",
+        "citation": "28 U.S.C. § 1331",
+        "decision_date": "1980-12-01",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "House U.S. Code §1331 source credit and 1980 amendment; 2024 GovInfo text; no amount-in-controversy requirement.",
+        "scope_note": "House U.S. Code §1331 source credit and 1980 amendment; 2024 GovInfo text; no amount-in-controversy requirement.",
+        "source_kind": "official",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/FEDQ.txt",
+          "sha256": "server_computed",
+          "url": "https://uscode.house.gov/us/usc/t28/s1331/"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "section 1331",
+            "proposition": "Federal question jurisdiction.",
+            "character": "text",
+            "status": "usable_limited",
+            "weight": "text",
+            "reasoning": "House U.S. Code §1331 source credit and 1980 amendment; 2024 GovInfo text; no amount-in-controversy requirement.",
+            "applicability": "Applicable to this private civil appeal and record date.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "version_history",
+            "kind": "version_history",
+            "provider": "U.S. Code House/GovInfo or LII rules and official rule materials",
+            "query": "House U.S. Code §1331 source credit and 1980 amendment; 2024 GovInfo text; no amount-in-controversy requirement.",
+            "scope": "Operative subsection at relevant filing and cutoff dates",
+            "limitations": "Public codification/current rule history, not an exhaustive legislative history.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "amendments",
+            "kind": "amendments",
+            "provider": "U.S. Code House/GovInfo or LII rules and official rule materials",
+            "query": "House U.S. Code §1331 source credit and 1980 amendment; 2024 GovInfo text; no amount-in-controversy requirement.",
+            "scope": "Operative subsection at relevant filing and cutoff dates",
+            "limitations": "Public codification/current rule history, not an exhaustive legislative history.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [],
+        "version_basis": "House U.S. Code §1331 source credit and 1980 amendment; 2024 GovInfo text; no amount-in-controversy requirement.",
+        "jurisdiction_basis": "Federal law applied to a private-sector Title VII civil case in NDCA and CA9.",
+        "effective_from": "1980-12-01",
+        "effective_to": null
+      },
+      {
+        "id": "TITLEVII",
+        "authority_id": "TITLEVII",
+        "citation": "42 U.S.C. § 2000e-3(a)",
+        "decision_date": "1972-03-24",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "House U.S. Code §2000e-3 source credit and 1972 amendment to subsection (a); 2024 GovInfo and October 2026 House text compared; private employer.",
+        "scope_note": "House U.S. Code §2000e-3 source credit and 1972 amendment to subsection (a); 2024 GovInfo and October 2026 House text compared; private employer.",
+        "source_kind": "official",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/TITLEVII.txt",
+          "sha256": "server_computed",
+          "url": "https://uscode.house.gov/us/usc/119-118/t42/s2000e-3/"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "subsection (a)",
+            "proposition": "Opposition clause in Title VII's anti-retaliation provision.",
+            "character": "text",
+            "status": "usable_limited",
+            "weight": "text",
+            "reasoning": "House U.S. Code §2000e-3 source credit and 1972 amendment to subsection (a); 2024 GovInfo and October 2026 House text compared; private employer.",
+            "applicability": "Applicable to this private civil appeal and record date.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "version_history",
+            "kind": "version_history",
+            "provider": "U.S. Code House/GovInfo or LII rules and official rule materials",
+            "query": "House U.S. Code §2000e-3 source credit and 1972 amendment to subsection (a); 2024 GovInfo and October 2026 House text compared; private employer.",
+            "scope": "Operative subsection at relevant filing and cutoff dates",
+            "limitations": "Public codification/current rule history, not an exhaustive legislative history.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "amendments",
+            "kind": "amendments",
+            "provider": "U.S. Code House/GovInfo or LII rules and official rule materials",
+            "query": "House U.S. Code §2000e-3 source credit and 1972 amendment to subsection (a); 2024 GovInfo and October 2026 House text compared; private employer.",
+            "scope": "Operative subsection at relevant filing and cutoff dates",
+            "limitations": "Public codification/current rule history, not an exhaustive legislative history.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [],
+        "version_basis": "House U.S. Code §2000e-3 source credit and 1972 amendment to subsection (a); 2024 GovInfo and October 2026 House text compared; private employer.",
+        "jurisdiction_basis": "Federal law applied to a private-sector Title VII civil case in NDCA and CA9.",
+        "effective_from": "1972-03-24",
+        "effective_to": null
+      },
+      {
+        "id": "FRAP4",
+        "authority_id": "FRAP4",
+        "citation": "Fed. R. App. P. 4(a)(1)(A)",
+        "decision_date": "2025-12-01",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "Selected 2025 rules edition and current LII Rule 4(a)(1)(A), 30-day private civil period; date denotes edition, not original enactment.",
+        "scope_note": "Selected 2025 rules edition and current LII Rule 4(a)(1)(A), 30-day private civil period; date denotes edition, not original enactment.",
+        "source_kind": "other_reviewed",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/FRAP4.txt",
+          "sha256": "server_computed",
+          "url": "https://www.law.cornell.edu/rules/frap/rule_4"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "Rule 4(a)(1)(A)",
+            "proposition": "Ordinary private-party civil appeal deadline, subject to exceptions.",
+            "character": "text",
+            "status": "usable_limited",
+            "weight": "text",
+            "reasoning": "Selected 2025 rules edition and current LII Rule 4(a)(1)(A), 30-day private civil period; date denotes edition, not original enactment.",
+            "applicability": "Applicable to this private civil appeal and record date.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "version_history",
+            "kind": "version_history",
+            "provider": "U.S. Code House/GovInfo or LII rules and official rule materials",
+            "query": "Selected 2025 rules edition and current LII Rule 4(a)(1)(A), 30-day private civil period; date denotes edition, not original enactment.",
+            "scope": "Operative subsection at relevant filing and cutoff dates",
+            "limitations": "Public codification/current rule history, not an exhaustive legislative history.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "amendments",
+            "kind": "amendments",
+            "provider": "U.S. Code House/GovInfo or LII rules and official rule materials",
+            "query": "Selected 2025 rules edition and current LII Rule 4(a)(1)(A), 30-day private civil period; date denotes edition, not original enactment.",
+            "scope": "Operative subsection at relevant filing and cutoff dates",
+            "limitations": "Public codification/current rule history, not an exhaustive legislative history.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [],
+        "version_basis": "Selected 2025 rules edition and current LII Rule 4(a)(1)(A), 30-day private civil period; date denotes edition, not original enactment.",
+        "jurisdiction_basis": "Federal law applied to a private-sector Title VII civil case in NDCA and CA9.",
+        "effective_from": "2025-12-01",
+        "effective_to": null
+      },
+      {
+        "id": "FRCP56",
+        "authority_id": "FRCP56",
+        "citation": "Fed. R. Civ. P. 56(a)",
+        "decision_date": "2010-12-01",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard.",
+        "scope_note": "2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard.",
+        "source_kind": "other_reviewed",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/FRCP56.txt",
+          "sha256": "server_computed",
+          "url": "https://www.law.cornell.edu/rules/frcp/rule_56"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "Rule 56(a)",
+            "proposition": "Summary judgment requires no genuine material dispute and entitlement to judgment as a matter of law.",
+            "character": "text",
+            "status": "usable_limited",
+            "weight": "text",
+            "reasoning": "2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard.",
+            "applicability": "Applicable to this private civil appeal and record date.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "version_history",
+            "kind": "version_history",
+            "provider": "U.S. Code House/GovInfo or LII rules and official rule materials",
+            "query": "2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard.",
+            "scope": "Operative subsection at relevant filing and cutoff dates",
+            "limitations": "Public codification/current rule history, not an exhaustive legislative history.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "amendments",
+            "kind": "amendments",
+            "provider": "U.S. Code House/GovInfo or LII rules and official rule materials",
+            "query": "2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard.",
+            "scope": "Operative subsection at relevant filing and cutoff dates",
+            "limitations": "Public codification/current rule history, not an exhaustive legislative history.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [],
+        "version_basis": "2010 amendment and current LII and 2024 GovInfo text; Rule 56(a) operative no-genuine-dispute standard.",
+        "jurisdiction_basis": "Federal law applied to a private-sector Title VII civil case in NDCA and CA9.",
+        "effective_from": "2010-12-01",
+        "effective_to": null
+      },
+      {
+        "id": "MCD",
+        "authority_id": "MCD",
+        "citation": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
+        "decision_date": "1973-05-14",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "Reporter, case name, court and decision date matched to https://www.govinfo.gov/app/details/USREPORTS-411/USREPORTS-411-792; CourtListener lookup previously recorded.",
+        "scope_note": "Production and pretext framework in Title VII disparate treatment; used as evidentiary tool under Ninth Circuit precedent; Rule 56 governs, no additional elements.",
+        "source_kind": "other_reviewed",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/MCD.txt",
+          "sha256": "server_computed",
+          "url": "https://www.law.cornell.edu/supremecourt/text/411/792"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "802",
+            "proposition": "Burden of production shifts after prima facie case; final burden remains plaintiff's.",
+            "character": "holding",
+            "status": "usable_limited",
+            "weight": "binding",
+            "reasoning": "Production and pretext framework in Title VII disparate treatment; used as evidentiary tool under Ninth Circuit precedent; Rule 56 governs, no additional elements.",
+            "applicability": "Production and pretext framework in Title VII disparate treatment; used as evidentiary tool under Ninth Circuit precedent; Rule 56 governs, no additional elements.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "direct_history",
+            "kind": "direct_history",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Original Supreme Court vacated and remanded; name + remand 1975 search; no later reversal of production principle identified in inspected sources.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "negative_treatment",
+            "kind": "negative_treatment",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Ames majority assumes without deciding use at summary judgment; Thomas concurrence and Hittle cert-denial dissent question framework, not overruling. Cross No. 26-100 denied Nov 16; Huber No.25-239 denied Dec 8 2025; Reyes No.26-448 petition challenging framework found, no merits decision identified. Pending challenges do not change current precedent.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 0,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "later_citing",
+            "kind": "later_citing",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Kama (2024) applies framework to retaliation; Ames (2025) rejects extra majority-group background-circumstances burden. Burdine distinguishes production from persuasion.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [
+          {
+            "search_id": "later_citing",
+            "pin_id": "P1",
+            "date": "2025-06-05",
+            "citation": "Ames v. Ohio Department of Youth Services, 605 U.S. 303 (2025)",
+            "court": "scotus",
+            "relation": "limited",
+            "operative": false,
+            "locator": "majority footnote 2",
+            "quote": "we assume without deciding that the McDonnell Douglas framework applies at the summary-judgment stage of litigation",
+            "analysis": "No holding mandating or displacing the framework at summary judgment; rejects extra background circumstances requirement. Not operative displacement of the narrow burden-of-production proposition.",
+            "source": {
+              "path": "factory/CA9-26-001/v1/law/treatment-MCD-1.txt",
+              "sha256": "server_computed",
+              "url": "https://www.law.cornell.edu/supremecourt/text/23-1039"
+            }
+          }
+        ],
+        "court_level": "scotus",
+        "opinion_kind": "majority",
+        "publication": "published",
+        "panel_kind": "full_court",
+        "identity_lookup": {
+          "provider": "official",
+          "status": "found",
+          "canonical_name": "McDonnell Douglas Corp. v. Green",
+          "matched_citation": "411 U.S. 792",
+          "basis": "Public original and reporter identity checked; earlier actual CourtListener lookup. Official/public record URL recorded.",
+          "official_url": "https://www.govinfo.gov/app/details/USREPORTS-411/USREPORTS-411-792"
+        }
+      },
+      {
+        "id": "DAWSON",
+        "authority_id": "DAWSON",
+        "citation": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011)",
+        "decision_date": "2011-01-10",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "Reporter, case name, court and decision date matched to https://www.courtlistener.com/opinion/182530/dawson-v-entek-international/; CourtListener lookup previously recorded.",
+        "scope_note": "Pre-Nassar published panel; circumstantial proximity and pretext; no replacement for ultimate private-sector but-for causation. Actual case involved less than 48 hours and explicit reference.",
+        "source_kind": "official",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/DAWSON.txt",
+          "sha256": "server_computed",
+          "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2011/01/10/09-35844.pdf"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "937",
+            "proposition": "Close timing may support pretext depending on circumstances; pre-Nassar, no replacement for but-for causation.",
+            "character": "holding",
+            "status": "usable_limited",
+            "weight": "binding",
+            "reasoning": "Pre-Nassar published panel; circumstantial proximity and pretext; no replacement for ultimate private-sector but-for causation. Actual case involved less than 48 hours and explicit reference.",
+            "applicability": "Pre-Nassar published panel; circumstantial proximity and pretext; no replacement for ultimate private-sector but-for causation. Actual case involved less than 48 hours and explicit reference.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "direct_history",
+            "kind": "direct_history",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "09-35844 January 10, 2011 reversal and remand in relevant part; original disposition and docket/name + rehearing certiorari search.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "negative_treatment",
+            "kind": "negative_treatment",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Name overruled abrogated superseded search; Nassar changes causation strength not permissibility of timing evidence; Kama confirms scope.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 0,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "later_citing",
+            "kind": "later_citing",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Kama slip pp.11–13 discusses Dawson's proximity and explicit reference, distinguishes longer interval.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [
+          {
+            "search_id": "later_citing",
+            "pin_id": "P1",
+            "date": "2024-07-18",
+            "citation": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024)",
+            "court": "ca9",
+            "relation": "distinguished",
+            "operative": false,
+            "locator": "slip op. 11",
+            "quote": "proximity of two days combined with employer’s explicit reference to protected activity during termination established pretext",
+            "analysis": "Preserves timing proposition; contrasts facts.",
+            "source": {
+              "path": "factory/CA9-26-001/v1/law/treatment-DAWSON-1.txt",
+              "sha256": "server_computed",
+              "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/18/23-55106.pdf"
+            }
+          }
+        ],
+        "court_level": "ca9",
+        "opinion_kind": "majority",
+        "publication": "published",
+        "panel_kind": "panel",
+        "identity_lookup": {
+          "provider": "official",
+          "status": "found",
+          "canonical_name": "Dawson v. Entek International",
+          "matched_citation": "630 F.3d 928",
+          "basis": "Public original and reporter identity checked; earlier actual CourtListener lookup. Official/public record URL recorded.",
+          "official_url": "https://www.courtlistener.com/opinion/182530/dawson-v-entek-international/"
+        }
+      },
+      {
+        "id": "CURLEY",
+        "authority_id": "CURLEY",
+        "citation": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014)",
+        "decision_date": "2014-12-02",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "Reporter, case name, court and decision date matched to https://www.govinfo.gov/app/details/USCOURTS-ca9-12-16228/USCOURTS-ca9-12-16228-0; CourtListener lookup previously recorded.",
+        "scope_note": "ADA case; case-specific intervening evidence, analogical only; does not foreclose claim when inquiry itself was allegedly influenced.",
+        "source_kind": "official",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/CURLEY.txt",
+          "sha256": "server_computed",
+          "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2014/12/02/12-16228.pdf"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "634",
+            "proposition": "An independent intervening reason can undermine the inference from timing; ADA case, not a categorical rule.",
+            "character": "holding",
+            "status": "usable_limited",
+            "weight": "persuasive",
+            "reasoning": "ADA case; case-specific intervening evidence, analogical only; does not foreclose claim when inquiry itself was allegedly influenced.",
+            "applicability": "ADA case; case-specific intervening evidence, analogical only; does not foreclose claim when inquiry itself was allegedly influenced.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "direct_history",
+            "kind": "direct_history",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "12-16228 December 2, 2014 published affirmance; name/docket + rehearing certiorari search inspected.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "negative_treatment",
+            "kind": "negative_treatment",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Name overruled amended rehearing certiorari search and Kama comparison; no displacement identified in inspected sources.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 0,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "later_citing",
+            "kind": "later_citing",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Kama compares Curley as example of timing that cuts both ways.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [
+          {
+            "search_id": "later_citing",
+            "pin_id": "P1",
+            "date": "2024-07-18",
+            "citation": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024)",
+            "court": "ca9",
+            "relation": "followed",
+            "operative": false,
+            "locator": "slip op. 12",
+            "quote": "Curley illustrates that when temporal proximity cuts both ways",
+            "analysis": "Illustration, not categorical bar.",
+            "source": {
+              "path": "factory/CA9-26-001/v1/law/treatment-CURLEY-1.txt",
+              "sha256": "server_computed",
+              "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/18/23-55106.pdf"
+            }
+          }
+        ],
+        "court_level": "ca9",
+        "opinion_kind": "majority",
+        "publication": "published",
+        "panel_kind": "panel",
+        "identity_lookup": {
+          "provider": "official",
+          "status": "found",
+          "canonical_name": "Curley v. City of North Las Vegas",
+          "matched_citation": "772 F.3d 629",
+          "basis": "Public original and reporter identity checked; earlier actual CourtListener lookup. Official/public record URL recorded.",
+          "official_url": "https://www.govinfo.gov/app/details/USCOURTS-ca9-12-16228/USCOURTS-ca9-12-16228-0"
+        }
+      },
+      {
+        "id": "POLAND",
+        "authority_id": "POLAND",
+        "citation": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007)",
+        "decision_date": "2007-07-20",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-27",
+        "reviewer": "ChatGPT legal source review role",
+        "identity_status": "verified",
+        "identity_basis": "Reporter, case name, court and decision date matched to https://cdn.ca9.uscourts.gov/datastore/opinions/2007/07/20/0535508.pdf; CourtListener lookup previously recorded.",
+        "scope_note": "Federal employee, subordinate influence. Actual bias and sufficient causal link necessary; post-Nassar use only compatible but-for theory, not automatic imputation.",
+        "source_kind": "official",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-26-001/v1/law/POLAND.txt",
+          "sha256": "server_computed",
+          "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2007/07/20/0535508.pdf"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "1182",
+            "proposition": "Subordinate bias may be imputed where the supposedly independent decision was not independent; causation and actual bias must be proven.",
+            "character": "holding",
+            "status": "usable_limited",
+            "weight": "persuasive",
+            "reasoning": "Federal employee, subordinate influence. Actual bias and sufficient causal link necessary; post-Nassar use only compatible but-for theory, not automatic imputation.",
+            "applicability": "Federal employee, subordinate influence. Actual bias and sufficient causal link necessary; post-Nassar use only compatible but-for theory, not automatic imputation.",
+            "limitation": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition."
+          }
+        ],
+        "searches": [
+          {
+            "id": "direct_history",
+            "kind": "direct_history",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "05-35508 July 20, 2007 published opinion: retaliation affirmed, constructive discharge damages vacated/remand. Name + rehearing/certiorari search inspected.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "negative_treatment",
+            "kind": "negative_treatment",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Poland + Staub; Poland overruled abrogated; Acosta (2018) expressly reconciles cat's-paw with Nassar; Staub USERRA motivating-factor standard not controlling here.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 0,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "later_citing",
+            "kind": "later_citing",
+            "provider": "Public original and targeted web searches; earlier CourtListener results",
+            "query": "Acosta (2018) and Greisen (2019) discuss Poland after Staub and Nassar; distinct statutes, no automatic bias inference.",
+            "scope": "Specific proposition; public source returns inspected within stated limits.",
+            "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+            "searched_at": "2026-11-27",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "coverage": "bounded",
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [
+          {
+            "search_id": "later_citing",
+            "pin_id": "P1",
+            "date": "2018-12-04",
+            "citation": "Acosta v. Brain, 910 F.3d 502 (9th Cir. 2018)",
+            "court": "ca9",
+            "relation": "followed",
+            "operative": false,
+            "locator": "slip op. 23",
+            "quote": "Nassar did not eliminate the availability of the cat’s-paw theory",
+            "analysis": "ERISA case assumes but-for and discusses compatible attribution; actual causation still required.",
+            "source": {
+              "path": "factory/CA9-26-001/v1/law/treatment-POLAND-1.txt",
+              "sha256": "server_computed",
+              "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2018/12/04/16-56529.pdf"
+            }
+          }
+        ],
+        "court_level": "ca9",
+        "opinion_kind": "majority",
+        "publication": "published",
+        "panel_kind": "panel",
+        "identity_lookup": {
+          "provider": "official",
+          "status": "found",
+          "canonical_name": "Poland v. Chertoff",
+          "matched_citation": "494 F.3d 1174",
+          "basis": "Public original and reporter identity checked; earlier actual CourtListener lookup. Official/public record URL recorded.",
+          "official_url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2007/07/20/0535508.pdf"
+        }
+      }
+    ],
     "document_audits": [
       {
         "id": "CA9-26-001-TD",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-COM",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-ANS",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-SCHED",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-POL",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-REV",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-AUD",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-LOG",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-MDEP",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-SDEP",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-ADEP",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-HDEP",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-TERM",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-MSJ",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": [
           {
             "id": "O1",
@@ -6260,68 +7371,56 @@
       },
       {
         "id": "CA9-26-001-COMP",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-WDEP",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-CDEP",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-WARN",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-EEOC",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-OPP",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": [
           {
             "id": "O1",
@@ -6399,13 +7498,11 @@
       },
       {
         "id": "CA9-26-001-REPL",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": [
           {
             "id": "O1",
@@ -6438,24 +7535,20 @@
       },
       {
         "id": "CA9-26-001-HEAR",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-ORDER",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": [
           {
             "id": "O1",
@@ -6469,7 +7562,7 @@
           {
             "id": "O2",
             "page": 3,
-            "offset": 524,
+            "offset": 566,
             "text": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
             "authority_id": "NASSAR",
             "pin_id": "P1",
@@ -6478,7 +7571,7 @@
           {
             "id": "O3",
             "page": 3,
-            "offset": 1080,
+            "offset": 1122,
             "text": "Fed. R. Civ. P. 56(a)",
             "authority_id": "FRCP56",
             "pin_id": "P1",
@@ -6487,7 +7580,7 @@
           {
             "id": "O4",
             "page": 3,
-            "offset": 1190,
+            "offset": 1304,
             "text": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
             "authority_id": "MCD",
             "pin_id": "P1",
@@ -6533,57 +7626,47 @@
       },
       {
         "id": "CA9-26-001-JUD",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-NOA",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-AD",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-BRORD",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": []
       },
       {
         "id": "CA9-26-001-OPEN",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": [
           {
             "id": "O1",
@@ -6642,7 +7725,7 @@
           {
             "id": "O7",
             "page": 9,
-            "offset": 854,
+            "offset": 893,
             "text": "Fed. R. Civ. P. 56(a)",
             "authority_id": "FRCP56",
             "pin_id": "P1",
@@ -6651,7 +7734,7 @@
           {
             "id": "O8",
             "page": 9,
-            "offset": 927,
+            "offset": 978,
             "text": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
             "authority_id": "MCD",
             "pin_id": "P1",
@@ -6696,7 +7779,7 @@
           {
             "id": "O13",
             "page": 13,
-            "offset": 1092,
+            "offset": 1090,
             "text": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011)",
             "authority_id": "DAWSON",
             "pin_id": "P1",
@@ -6705,7 +7788,7 @@
           {
             "id": "O14",
             "page": 13,
-            "offset": 1447,
+            "offset": 1445,
             "text": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014)",
             "authority_id": "CURLEY",
             "pin_id": "P1",
@@ -6733,13 +7816,11 @@
       },
       {
         "id": "CA9-26-001-ANSWER",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": [
           {
             "id": "O1",
@@ -6753,7 +7834,7 @@
           {
             "id": "O2",
             "page": 9,
-            "offset": 250,
+            "offset": 292,
             "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
             "authority_id": "TOLAN",
             "pin_id": "P1",
@@ -6762,7 +7843,7 @@
           {
             "id": "O3",
             "page": 9,
-            "offset": 483,
+            "offset": 525,
             "text": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
             "authority_id": "KAMA",
             "pin_id": "P1",
@@ -6771,7 +7852,7 @@
           {
             "id": "O4",
             "page": 9,
-            "offset": 1129,
+            "offset": 1171,
             "text": "Fed. R. Civ. P. 56(a)",
             "authority_id": "FRCP56",
             "pin_id": "P1",
@@ -6780,7 +7861,7 @@
           {
             "id": "O5",
             "page": 9,
-            "offset": 1199,
+            "offset": 1274,
             "text": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
             "authority_id": "MCD",
             "pin_id": "P1",
@@ -6789,7 +7870,7 @@
           {
             "id": "O6",
             "page": 9,
-            "offset": 1451,
+            "offset": 1526,
             "text": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011)",
             "authority_id": "DAWSON",
             "pin_id": "P1",
@@ -6798,7 +7879,7 @@
           {
             "id": "O7",
             "page": 10,
-            "offset": 341,
+            "offset": 435,
             "text": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
             "authority_id": "KAMA",
             "pin_id": "P1",
@@ -6807,7 +7888,7 @@
           {
             "id": "O8",
             "page": 10,
-            "offset": 838,
+            "offset": 932,
             "text": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014)",
             "authority_id": "CURLEY",
             "pin_id": "P1",
@@ -6871,18 +7952,16 @@
       },
       {
         "id": "CA9-26-001-REPLY",
-        "reviewer": "ChatGPT occurrence inventory",
+        "reviewer": "ChatGPT source and citation review role",
         "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
-        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
-        "status": "pending",
-        "unresolved": [
-          "Semantic review and proposition treatment not fully certified"
-        ],
+        "scope": "All logical original pages: tagged conventional citations checked; narrative references to already identified authorities treated as discussion rather than new reporter citations; no claim of exhaustive automated extraction.",
+        "status": "passed",
+        "unresolved": [],
         "occurrences": [
           {
             "id": "O1",
             "page": 4,
-            "offset": 243,
+            "offset": 252,
             "text": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
             "authority_id": "KAMA",
             "pin_id": "P1",
@@ -6891,7 +7970,7 @@
           {
             "id": "O2",
             "page": 4,
-            "offset": 517,
+            "offset": 526,
             "text": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
             "authority_id": "NASSAR",
             "pin_id": "P1",
@@ -6900,7 +7979,7 @@
           {
             "id": "O3",
             "page": 5,
-            "offset": 394,
+            "offset": 403,
             "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
             "authority_id": "TOLAN",
             "pin_id": "P1",
@@ -6934,11 +8013,9 @@
         "through": "2026-11-27",
         "provider": "CourtListener and public opinion searches",
         "query": "Ninth Circuit Title VII retaliation selective enforcement pretext Dawson Miller; Poland subordinate manager influence; 530 U.S. 133 AND pretext (22fc8ac7)",
-        "limitations": "Bounded queries, no exhaustive citator; further review of 2026 Brown and remaining hits",
-        "findings": "Dawson and Poland passages identified; Reeves general evidentiary rule; Brown potential comparator/discipline analogue under status discrimination.",
-        "unresolved": [
-          "Full subsequent history and later treatment of cited cases"
-        ]
+        "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+        "findings": "Dawson and Poland passages identified; Reeves general evidentiary rule; Brown potential comparator/discipline analogue under status discrimination. Follow-up: reviewed original authorities and specifically Bostock, Babb, Ames, Hittle, Opara, Brown, Acosta, Kama's Dawson/Curley discussion and later nonprecedential use. Brown concerns status discrimination, not retaliation causation. Pending Reyes petition not operative law. No material contrary merits decision identified within bounded search; no universal clearance.",
+        "unresolved": []
       },
       {
         "issue_id": "I1",
@@ -6946,11 +8023,9 @@
         "through": "2026-11-27",
         "provider": "CourtListener and public opinion searches",
         "query": "107 F.4th 1054 AND pretext (7c2b6491); Curley 772 F.3d 629 634 independent investigation",
-        "limitations": "Exact reporter query yielded one result, incomplete citation index; official opinion and subsequent public opinions consulted.",
-        "findings": "Kama and Curley fact-specific independent rationale; distinguish federal/ADA setting from private Title VII.",
-        "unresolved": [
-          "Full subsequent history and later treatment of cited cases"
-        ]
+        "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+        "findings": "Kama and Curley fact-specific independent rationale; distinguish federal/ADA setting from private Title VII. Follow-up: reviewed original authorities and specifically Bostock, Babb, Ames, Hittle, Opara, Brown, Acosta, Kama's Dawson/Curley discussion and later nonprecedential use. Brown concerns status discrimination, not retaliation causation. Pending Reyes petition not operative law. No material contrary merits decision identified within bounded search; no universal clearance.",
+        "unresolved": []
       },
       {
         "issue_id": "I1",
@@ -6958,11 +8033,9 @@
         "through": "2026-11-27",
         "provider": "CourtListener and public opinion searches",
         "query": "570 U.S. 338 AND retaliation (75850c14); 572 U.S. 650 AND summary judgment (37d735a9); name plus overruled/abrogated/superseded; Kama rehearing/certiorari",
-        "limitations": "First page only and targeted negative searches; no comprehensive case history.",
-        "findings": "Babb distinct federal-sector statute; Zorn continues nonmovant framing; Mooney is FCA; no blanket conclusion about all treatment.",
-        "unresolved": [
-          "Unreviewed material candidate set; direct-history and negative treatment verification"
-        ]
+        "limitations": "Targeted public opinion, official publication and name/history/adverse searches; not a complete docket reconstruction or commercial citator. Search engine and CourtListener index limits, including HTTP 429. No known material contrary merits holding in inspected sources; newly discovered authority requires recheck. Review is limited to the stated proposition.",
+        "findings": "Babb distinct federal-sector statute; Zorn continues nonmovant framing; Mooney is FCA; no blanket conclusion about all treatment. Follow-up: reviewed original authorities and specifically Bostock, Babb, Ames, Hittle, Opara, Brown, Acosta, Kama's Dawson/Curley discussion and later nonprecedential use. Brown concerns status discrimination, not retaliation causation. Pending Reyes petition not operative law. No material contrary merits decision identified within bounded search; no universal clearance.",
+        "unresolved": []
       }
     ]
   },
@@ -7686,6 +8759,114 @@
       "source_document_id": "CA9-26-001-TERM",
       "source_page": 5,
       "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 5,
+      "cite": "2-ER-87",
+      "quote": "Employee hire record: start date August 16, 2021",
+      "source_document_id": "CA9-26-001-REV",
+      "source_page": 4,
+      "review_status": "material factual proposition linked to exact source"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 5,
+      "cite": "2-ER-10",
+      "quote": "We accept those elements for this motion.",
+      "source_document_id": "CA9-26-001-HEAR",
+      "source_page": 1,
+      "review_status": "material factual proposition linked to exact source"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 5,
+      "cite": "2-ER-82",
+      "quote": "No fixed number of exceptions automatically requires discharge.",
+      "source_document_id": "CA9-26-001-POL",
+      "source_page": 4,
+      "review_status": "material factual proposition linked to exact source"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 6,
+      "cite": "2-ER-149",
+      "quote": "No. They correspond to actual selected transactions and the unresolved fields in the retained records.",
+      "source_document_id": "CA9-26-001-ADEP",
+      "source_page": 11,
+      "review_status": "material factual proposition linked to exact source"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 6,
+      "cite": "2-ER-171",
+      "quote": "It is not based on the initial count of twelve preliminary flags.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 6,
+      "review_status": "material factual proposition linked to exact source"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 7,
+      "cite": "2-ER-168",
+      "quote": "The common review of the other accounts has not been extended.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 3,
+      "review_status": "material factual proposition linked to exact source"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 7,
+      "cite": "1-ER-5",
+      "quote": "The Court assumes for purposes of the motion that she received oral authorization for both disputed consignments.",
+      "source_document_id": "CA9-26-001-ORDER",
+      "source_page": 4,
+      "review_status": "material factual proposition linked to exact source"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 7,
+      "cite": "1-ER-8",
+      "quote": "the Court concludes that Plaintiff has not sufficiently undermined",
+      "source_document_id": "CA9-26-001-ORDER",
+      "source_page": 7,
+      "review_status": "material factual proposition linked to exact source"
+    },
+    {
+      "document_id": "CA9-26-001-REPLY",
+      "page": 4,
+      "cite": "2-ER-34",
+      "quote": "Bracken informed Holtwell that Maren had complained",
+      "source_document_id": "CA9-26-001-COMP",
+      "source_page": 3,
+      "review_status": "material factual proposition linked to exact source"
+    },
+    {
+      "document_id": "CA9-26-001-REPLY",
+      "page": 4,
+      "cite": "2-ER-86",
+      "quote": "Action: coaching, not written warning.",
+      "source_document_id": "CA9-26-001-REV",
+      "source_page": 3,
+      "review_status": "material factual proposition linked to exact source"
+    },
+    {
+      "document_id": "CA9-26-001-REPLY",
+      "page": 5,
+      "cite": "2-ER-65",
+      "quote": "The file does not include a sixty-day comparator extract.",
+      "source_document_id": "CA9-26-001-WARN",
+      "source_page": 4,
+      "review_status": "material factual proposition linked to exact source"
+    },
+    {
+      "document_id": "CA9-26-001-REPLY",
+      "page": 5,
+      "cite": "1-ER-5",
+      "quote": "The Court assumes for purposes of the motion that she received oral authorization for both disputed consignments.",
+      "source_document_id": "CA9-26-001-ORDER",
+      "source_page": 4,
+      "review_status": "material factual proposition linked to exact source"
     }
   ]
 }

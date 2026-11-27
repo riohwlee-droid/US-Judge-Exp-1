@@ -8,7 +8,7 @@ class FullPageAudit(unittest.TestCase):
         self.assertEqual(a["total_pages"],430)
         self.assertEqual(a["original_pages"],233)
         self.assertEqual(a["excerpt_pages"],190)
-        self.assertEqual(a["record_cite_page_occurrences"],80)
+        self.assertEqual(a["record_cite_page_occurrences"],92)
         self.assertGreater(a["legal_occurrences"],30)
         self.assertFalse(a["unmapped_common_reporter_or_short_citations"])
         self.assertFalse(a["release_ready"])
