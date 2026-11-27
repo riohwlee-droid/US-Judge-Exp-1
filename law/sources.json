@@ -256,6 +256,39 @@
         "case-specific exceptions",
         "effective rules at future case date"
       ]
+    },
+    {
+      "id": "SRC-CA9-MILLER",
+      "url": "https://www.courtlistener.com/opinion/8437592/miller-v-gammie/",
+      "scope": "intervening higher authority exception; lead opinion 8408008",
+      "checked_on": "2026-11-27",
+      "review_depth": "court_specific",
+      "not_verified": [
+        "exhaustive subsequent treatment",
+        "case-specific applicability"
+      ]
+    },
+    {
+      "id": "SRC-SCOTUS-LOPER",
+      "url": "https://www.supremecourt.gov/opinions/23pdf/603us1r54_o7jp.pdf",
+      "scope": "Chevron methodology overruled; prior statutory holdings distinct",
+      "checked_on": "2026-11-27",
+      "review_depth": "court_specific",
+      "not_verified": [
+        "exhaustive subsequent treatment",
+        "case-specific applicability"
+      ]
+    },
+    {
+      "id": "SRC-CL-LOOKUP",
+      "url": "https://wiki.free.law/c/courtlistener/help/api/rest/v4/citation-lookup/",
+      "scope": "lookup not comprehensive citator",
+      "checked_on": "2026-11-27",
+      "review_depth": "court_specific",
+      "not_verified": [
+        "exhaustive subsequent treatment",
+        "case-specific applicability"
+      ]
     }
   ]
 }

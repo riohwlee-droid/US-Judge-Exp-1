@@ -208,7 +208,9 @@
       "roster_path": "courts/ca9/roster-v1.json",
       "roster_status": "prepared_not_installed",
       "factory_path": "courts/ca9/CASE_FACTORY.md",
-      "factory_status": "compiler_v1_no_live_release"
+      "factory_status": "compiler_v1_no_live_release",
+      "legal_research_path": "courts/ca9/LEGAL_RESEARCH.md",
+      "legal_research_status": "v1_offline_gates_live_connector_smoke_no_production_case"
     },
     "CA10": {
       "id": "CA10",

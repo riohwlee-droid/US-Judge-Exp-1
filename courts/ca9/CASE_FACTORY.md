@@ -40,3 +40,6 @@ From ordinary Chat: after all files and review committed, create factory/CASE/v1
 Reviewed 2026-11-27; recheck effective rules for case dates.
 
 The production admission integration test uses synthetic stress text exclusively in a temporary test repository, never as a real or playable release. It checks the seal, expansion, replay and immutable-file rejection mechanically, not substantive legal realism.
+
+## Mandatory deeper research gate
+Production now requires the proposition-level research object, reviewed legal weight and per-page occurrence audit as described in [LEGAL_RESEARCH.md](LEGAL_RESEARCH.md). The earlier coarse subsequent_treatment field remains for training/metadata; production authority use is checked per proposition. See templates/research-fields.json.

@@ -24,9 +24,11 @@ def segment(text,locator,quote):
     marker="@@ LOC "+locator
     blocks=re.split(r"(?m)^@@ LOC ",text)
     found=[b.split("\n",1)[1] for b in blocks[1:] if "\n" in b and b.split("\n",1)[0]==locator]
-    need(len(found)==1 and nonblank(quote) and norm(quote) in norm(found[0]),"quote not at reviewed locator "+locator)
+    need(nonblank(locator) and len(found)==1 and nonblank(quote) and norm(quote) in norm(found[0]),"quote not at reviewed locator "+locator)
 def validate_authority(root,a,r,cutoff,prefix,hashes):
     need(r["authority_id"]==a["id"],"authority review mismatch")
+    need(a["origin"]=="real" and a["authority_type"] in {"case","statute","rule","regulation","constitution"} and approved_url(a["url"]) and nonblank(a["court"]) and nonblank(a["citation"]),"real authority metadata required")
+    need(day(a["decided_at"])<=cutoff and day(a["verified_at"])>=day(a["decided_at"]) and a["source_reviewed"] is True,"unreviewed authority date/source")
     required_text(r,["reviewer","identity_basis","scope_note"])
     need(r["cutoff"]==cutoff.isoformat() and day(r["reviewed_at"])>=cutoff,"review cutoff/date mismatch")
     need(r["identity_status"]=="verified","unverified or ambiguous authority")
@@ -55,6 +57,7 @@ def validate_authority(root,a,r,cutoff,prefix,hashes):
         start=day(r["effective_from"]);end=day(r["effective_to"]) if r.get("effective_to") else None
         need(start<=cutoff and (end is None or cutoff<end),"law version not effective at cutoff")
     pins=table(a["pins"],"authority pins");reviews=table(r["pin_reviews"],"pin reviews")
+    need(pins,"authority requires at least one proposition")
     need(set(pins)==set(reviews),"missing proposition review")
     for pid,pin in pins.items():
         pr=reviews[pid]
@@ -146,7 +149,7 @@ def validate_research(root,research,authorities,page_maps,uses,cutoff,prefix,has
 def validate_packet(root,path,digest,doc,cutoff):
     p=load(safe(root,path))
     prefix=f'law/research/{key(doc["case_id"])}/{key(doc["id"])}/'
-    need(path==prefix+"packet.json" and p["case_id"]==doc["case_id"] and p["document_id"]==doc["id"],"research packet scope mismatch")
+    need(p["schema_version"]==1 and path==prefix+"packet.json" and p["case_id"]==doc["case_id"] and p["document_id"]==doc["id"],"research packet scope mismatch")
     need(canonical(p)==digest and p["document_sha256"]==doc["sha256"],"research packet/document changed")
     txt=safe(root,doc["path"]).read_text(encoding="utf-8")
     auth=table(p["authorities"],"packet authorities")
