@@ -1,6 +1,6 @@
 {
   "case_id": "CA9-26-001",
-  "status": "draft_not_admissible",
+  "status": "excerpt_assembly_in_progress",
   "authored_documents": [
     {
       "id": "CA9-26-001-COM",
@@ -178,5 +178,86 @@
       "411 U.S. 792"
     ]
   },
-  "next_batch": "Complete lower record, depositions, motions/order, exact docket, excerpts, briefs, research packet and final review."
+  "next_batch": "Complete lower record, depositions, motions/order, exact docket, excerpts, briefs, research packet and final review.",
+  "partial_excerpt_index": [
+    {
+      "id": "JUD",
+      "volume": 1,
+      "first": 1,
+      "last": 1
+    },
+    {
+      "id": "ORDER",
+      "volume": 1,
+      "first": 2,
+      "last": 9
+    },
+    {
+      "id": "HEAR",
+      "volume": 2,
+      "first": 10,
+      "last": 17
+    },
+    {
+      "id": "REPL",
+      "volume": 2,
+      "first": 18,
+      "last": 22
+    },
+    {
+      "id": "OPP",
+      "volume": 2,
+      "first": 23,
+      "last": 31
+    },
+    {
+      "id": "COMP",
+      "volume": 2,
+      "first": 32,
+      "last": 36
+    },
+    {
+      "id": "WDEP",
+      "volume": 2,
+      "first": 37,
+      "last": 49
+    },
+    {
+      "id": "CDEP",
+      "volume": 2,
+      "first": 50,
+      "last": 61
+    },
+    {
+      "id": "WARN",
+      "volume": 2,
+      "first": 62,
+      "last": 65
+    },
+    {
+      "id": "EEOC",
+      "volume": 2,
+      "first": 66,
+      "last": 68
+    },
+    {
+      "id": "MSJ",
+      "volume": 2,
+      "first": 69,
+      "last": 78
+    },
+    {
+      "id": "POL",
+      "volume": 2,
+      "first": 79,
+      "last": 83
+    },
+    {
+      "id": "REV",
+      "volume": 2,
+      "first": 84,
+      "last": 87
+    }
+  ],
+  "partial_excerpt_pages": 87
 }
