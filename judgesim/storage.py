@@ -4,6 +4,7 @@ import hashlib
 import json
 import re
 from .case_factory import check_release
+from .legal_research import validate_packet
 from .engine import Invalid, apply_batch, digest, initial_state, require, validate_state, reference
 
 
@@ -54,6 +55,9 @@ def check_documents(root, state):
         require(markers == [str(n) for n in range(1, doc["pages"] + 1)], "invalid stable page markers")
         if doc.get("supersedes"):
             require(doc["supersedes"] in state["documents"], "missing original correction target")
+        if doc.get("research_packet"):
+            lock=doc["research_packet"]
+            validate_packet(root,lock["path"],lock["digest"],doc,state["campaign"]["legal_cutoff"])
         for citation in doc.get("citations", []):
             reference(state, citation)
     for case in state["cases"].values():

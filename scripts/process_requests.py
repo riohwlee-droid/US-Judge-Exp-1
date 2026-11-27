@@ -57,6 +57,9 @@ def process(root):
                     doc = event["payload"]["document"]
                     if doc["sha256"] == "server_computed":
                         doc["sha256"] = sha(safe(root, doc["path"]))
+                    lock=doc.get("research_packet")
+                    if lock and lock["digest"]=="server_computed":
+                        lock["digest"]=canonical(read_json(safe(root,lock["path"])))
             result = apply_batch(state, events, profiles(root))
             # Document/inventory checks happen before a production pointer is written.
             import shutil

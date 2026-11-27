@@ -303,6 +303,14 @@ def compile_package(root, blueprint_path, stage="review", training=False):
     total=sum(d["pages"] for d in original);total_words=sum(counts[d["id"]] for d in original)
     if not training:need(total>=200 and total_words>=24000,"production requires 200 original logical pages and 24,000 original words")
     summary.update(original_pages=total,original_words=total_words,excerpt_pages=len(ermap),authorities=len(auth))
+    if not training:
+        from .legal_research import validate_research
+        uses=[dict(u) for u in legal_uses.values()]
+        for arg in arguments.values():
+            for ref in arg["authorities"]:
+                uses.append(dict(ref,document_id=arg["document_id"],page=arg["page"]))
+        audited={d["id"]:pmap[d["id"]] for d in original}
+        summary["research"]=validate_research(root,b["research"],auth,audited,uses,cutoff,prefix+"law/",hashes)
     if stage=="briefs":return summary
     reviews=table(b["reviews"],"reviews")
     need(set(reviews)==REVIEW,"review checklist incomplete")

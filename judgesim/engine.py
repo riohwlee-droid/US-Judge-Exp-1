@@ -271,6 +271,8 @@ def apply_batch(state, events, profiles, allow_training=False):
                 require(doc["case_id"] == task["case_id"], "task output belongs to another case")
                 if campaign.get("organization"):
                     require(doc["status"]=="internal" or task["task_kind"]=="administration","substantive clerk work must remain internal")
+                if not allow_training and result["cases"][task["case_id"]].get("factory_release") and task.get("task_kind") in {"research","bench_memo","draft_assistance"}:
+                    require(doc.get("research_packet"),"verified research packet required for substantive clerk output")
                 task.update(status="completed", output_document_id=p["output_document_id"])
             elif kind == "conference.record":
                 c = entity(result["cases"], p["case_id"])
@@ -304,6 +306,8 @@ def apply_batch(state, events, profiles, allow_training=False):
                     require(old["case_id"] == obj["case_id"], "revision crosses cases")
                 if c["court_id"] == "CA9":
                     life.phase(c, "merits", require=require)
+                    if not allow_training and c.get("factory_release"):
+                        require(judge_document(result,obj["document_id"]).get("research_packet"),"opinion draft needs verified research packet")
                     obj.update(panel_epoch=c["panel_epoch"], panel_judges=list(c["assigned_judges"]))
                     if obj.get("supersedes"):
                         require(old["status"]=="circulating" and old.get("panel_epoch")==c["panel_epoch"] and old["author_id"]==obj["author_id"],"invalid current draft revision")
