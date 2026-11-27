@@ -1,5 +1,6 @@
 """External HTTP smoke check of published site and raw official data; not browser execution."""
-import hashlib, json, time, urllib.request
+import hashlib, json, time, urllib.request, re
+from urllib.parse import urljoin
 SITE="https://riohwlee-droid.github.io/US-Judge-Exp-1/"
 RAW="https://raw.githubusercontent.com/riohwlee-droid/US-Judge-Exp-1/main/"
 def get(url):
@@ -8,10 +9,13 @@ def get(url):
         return response.read()
 def check():
     page=get(SITE)
-    assert b"Ninth Circuit" in page
+    assert b"Ninth Circuit" in page, "public homepage is not the Ninth Circuit viewer"
     assert b"chambers.js" in page
-    assert b"refresh" in get(SITE+"chambers.js")
-    assert get(SITE+"chambers.css")
+    js=re.search(rb'src="([^"]*chambers\.js)"',page)
+    css=re.search(rb'href="([^"]*chambers\.css)"',page)
+    assert js and css, "missing asset links"
+    assert b"refresh" in get(urljoin(SITE,js.group(1).decode()))
+    assert get(urljoin(SITE,css.group(1).decode()))
     p=json.loads(get(RAW+"CURRENT.json"))
     m=get(RAW+"saves/"+p["checkpoint"]+"/manifest.json")
     assert hashlib.sha256(m).hexdigest()==p["manifest_sha256"]
