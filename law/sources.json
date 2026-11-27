@@ -168,6 +168,50 @@
         "case-specific subsequent treatment",
         "future effective amendments"
       ]
+    },
+    {
+      "id": "SRC-CA9-JUDGES",
+      "url": "https://www.ca9.uscourts.gov/about/judges",
+      "scope": "actual judge categories, chambers cities and commission seniority",
+      "checked_on": "2026-11-27",
+      "review_depth": "court_specific",
+      "not_verified": [
+        "exact real staffing counts",
+        "all appointment and delegation procedures"
+      ]
+    },
+    {
+      "id": "SRC-US-28-45",
+      "url": "https://uscode.house.gov/us/usc/t28/s45/",
+      "scope": "chief eligibility and seniority",
+      "checked_on": "2026-11-27",
+      "review_depth": "court_specific",
+      "not_verified": [
+        "exact real staffing counts",
+        "all appointment and delegation procedures"
+      ]
+    },
+    {
+      "id": "SRC-US-28-711",
+      "url": "https://uscode.house.gov/us/usc/t28/s711/",
+      "scope": "clerk and court employees",
+      "checked_on": "2026-11-27",
+      "review_depth": "court_specific",
+      "not_verified": [
+        "exact real staffing counts",
+        "all appointment and delegation procedures"
+      ]
+    },
+    {
+      "id": "SRC-CA9-CONTACT",
+      "url": "https://www.ca9.uscourts.gov/contact/",
+      "scope": "court services and contact roles",
+      "checked_on": "2026-11-27",
+      "review_depth": "court_specific",
+      "not_verified": [
+        "exact real staffing counts",
+        "all appointment and delegation procedures"
+      ]
     }
   ]
 }

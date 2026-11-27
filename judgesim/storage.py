@@ -94,6 +94,9 @@ def verify(root, pointer_path="CURRENT.json", allow_training=False):
         state = read_json(safe(root, manifest["state_path"]))
         events = read_json(safe(root, manifest["events_path"]))
         require(isinstance(events, list), "events must be a list")
+        for event in events:
+            if event["type"]=="ca9.organization_install":
+                require(event["payload"]["roster"]==read_json(root/"courts/ca9/roster-v1.json"),"roster differs from fixed approved package")
         require(digest(state) == manifest["state_digest"] and digest(events) == manifest["events_digest"],
                 "checkpoint digest mismatch")
         require(state["revision"] == manifest["revision"], "revision mismatch")

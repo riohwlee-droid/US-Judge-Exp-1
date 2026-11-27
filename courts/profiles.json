@@ -176,8 +176,8 @@
         "SRC-CA9-ACMS"
       ],
       "readiness_gaps": [
-        "fictional roster and player/date",
-        "first complete appeal and legal review",
+        "player identity/commission/game date",
+        "first complete appeal and case-specific legal review",
         "exception pathways in LIFECYCLE.md",
         "effective rules recheck for game date"
       ],
@@ -203,7 +203,10 @@
       "rules": "FRAP and Ninth Circuit Rules handbook effective 2026-06-01; General Orders revised 2026-10-27. Verify against game date.",
       "operating_rules_path": "courts/ca9/OPERATIONS.md",
       "machine_rules_path": "courts/ca9/rules.json",
-      "ordinary_panel_only": false
+      "ordinary_panel_only": false,
+      "organization_path": "courts/ca9/ORGANIZATION.md",
+      "roster_path": "courts/ca9/roster-v1.json",
+      "roster_status": "prepared_not_installed"
     },
     "CA10": {
       "id": "CA10",

@@ -1,6 +1,6 @@
 """Deterministic event reducer. This enforces storage/workflow, not legal correctness."""
 from copy import deepcopy
-from . import ca9, ca9_lifecycle as life
+from . import ca9, ca9_lifecycle as life, ca9_people as org
 from datetime import datetime, timedelta
 import hashlib
 import json
@@ -88,6 +88,8 @@ def view(state):
     result = deepcopy(state)
     result["documents"] = {k: v for k, v in result["documents"].items() if v["access"] == "judge"}
     result.pop("applied_events", None)
+    for case in result["cases"].values():
+        case.pop("independent_views",None)
     return result
 
 
@@ -110,6 +112,7 @@ def validate_state(state, profiles, allow_training=False):
         for key, obj in state[table_name].items():
             identifier(key)
             require(obj["id"] == key, "entity identifier mismatch")
+    org.validate_installed(state,require)
     for case in state["cases"].values():
         profile = court(profiles, case["court_id"], allow_training)
         require(case["matter_type"] in profile["matter_types"], "court lacks matter capability")
@@ -182,11 +185,21 @@ def apply_batch(state, events, profiles, allow_training=False):
                             game_time=p["game_time"], legal_cutoff=p["legal_cutoff"], scene="chambers")
         else:
             require(campaign["status"] == "active", "campaign is not active")
-            if kind == "person.register":
+            if kind == "ca9.organization_install":
+                org.install(result,p,require,moment,digest)
+            elif kind == "ca9.independent_view":
+                require(campaign.get("organization"),"CA9 roster required")
+                org.initial_view(result,p,require)
+            elif kind == "ca9.interaction":
+                require(campaign.get("organization"),"CA9 roster required")
+                org.interaction(result,p,require,judge_document)
+            elif kind == "person.register":
                 obj = deepcopy(p["person"])
                 fresh(result["people"], obj["id"])
                 require(obj["role"] in {"judge", "law_clerk", "staff", "counsel", "witness", "party"}, "bad role")
                 require(obj.get("fictional") is True, "simulation characters must be fictional")
+                if campaign.get("organization"):
+                    require(obj["role"] in {"counsel","witness","party"}, "court roster changes require dedicated reviewed personnel process")
                 result["people"][obj["id"]] = obj
             elif kind == "case.register":
                 obj = deepcopy(p["case"])
@@ -198,6 +211,7 @@ def apply_batch(state, events, profiles, allow_training=False):
                 require(obj.get("record_status") == "complete", "full initial record must be prepared before play")
                 obj.update(hearings={}, writing_status="not_started", status="pending")
                 if obj["court_id"] == "CA9":
+                    require(allow_training or campaign.get("organization"),"install CA9 organization before registering cases")
                     life.init_case(obj, require)
                 result["cases"][obj["id"]] = obj
             elif kind == "document.register":
@@ -238,10 +252,14 @@ def apply_batch(state, events, profiles, allow_training=False):
                 entity(result["cases"], p["case_id"])
                 person = entity(result["people"], p["assignee_id"])
                 require(person.get("active") is True, "assignee is inactive")
+                if campaign.get("organization"):
+                    org.task_guard(result,p,require)
                 require(moment(p["due_at"]) >= moment(campaign["game_time"]), "task due date is in the past")
                 result["tasks"][p["task_id"]] = {"id": p["task_id"], "case_id": p["case_id"],
                     "assignee_id": p["assignee_id"], "instructions": p["instructions"],
                     "due_at": p["due_at"], "status": "assigned", "output_document_id": None}
+                if campaign.get("organization"):
+                    result["tasks"][p["task_id"]].update(assigning_judge_id=p["assigning_judge_id"],task_kind=p["task_kind"])
             elif kind == "task.complete":
                 task = entity(result["tasks"], p["task_id"])
                 require(task["status"] == "assigned", "task is not pending")
@@ -253,6 +271,8 @@ def apply_batch(state, events, profiles, allow_training=False):
                 require(c["court_id"] == "CA9" and c["status"] == "pending", "conference rule only for CA9 pending case")
                 require(c["writing_status"] == "not_started", "initial conference already passed; use opinion positions for revisions")
                 life.phase(c, "merits", require=require)
+                if campaign.get("organization"):
+                    org.conference_guard(result,c,require)
                 conf = ca9.conference(c,p,require)
                 conf["panel_epoch"] = c["panel_epoch"]
                 if c["panel_kind"] == "limited_en_banc":

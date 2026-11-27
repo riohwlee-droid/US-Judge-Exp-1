@@ -14,9 +14,10 @@ const SITE="https://riohwlee-droid.github.io/US-Judge-Exp-1/";
     await page.waitForFunction(()=>document.getElementById("status").textContent.startsWith("Revision "),{},{timeout:45000});
     assert.match(await page.locator("#content").innerText(),/CA9|Ninth Circuit/);
     const first=await page.locator("#status").innerText();
-    for(const tab of ["Cases","Opinions","Deadlines","Tasks","Precedents","Dashboard"]){
+    for(const tab of ["Cases","Opinions","Deadlines","Tasks","Precedents","Directory","Dashboard"]){
       await page.getByRole("button",{name:tab,exact:true}).click();
       assert.equal(await page.locator("#heading").innerText(),tab);
+      if(tab==="Directory"){await page.getByText("Eleanor M. Whitaker",{exact:false}).first().waitFor({timeout:15000});}
     }
     await page.getByRole("button",{name:"Refresh",exact:true}).click();
     await page.waitForFunction(()=>document.getElementById("status").textContent.startsWith("Revision "),{},{timeout:45000});

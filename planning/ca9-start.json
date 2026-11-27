@@ -5,5 +5,7 @@
   "player": null,
   "game_time": null,
   "first_case": null,
-  "operating_rules": "courts/ca9/OPERATIONS.md"
+  "operating_rules": "courts/ca9/OPERATIONS.md",
+  "roster_path": "courts/ca9/roster-v1.json",
+  "roster_status": "prepared_not_installed"
 }
