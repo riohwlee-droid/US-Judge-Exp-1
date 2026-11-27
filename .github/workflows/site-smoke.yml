@@ -1,18 +1,31 @@
 name: CA9 public site smoke
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["pages build and deployment"]
-    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - 'docs/index.html'
+      - 'docs/chambers.js'
+      - 'docs/chambers.css'
+      - 'scripts/check_site*'
+      - '.github/workflows/site-smoke.yml'
 permissions:
   contents: read
 jobs:
   smoke:
-    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main')
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
-        with:
-          ref: main
       - run: python3 scripts/check_site.py
+      - name: Install browser test dependency
+        run: npm install --no-save --package-lock=false playwright@1.51.1
+      - name: Real public browser check
+        run: node scripts/check_site_browser.cjs
+      - name: Browser screenshots
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: ca9-public-site-screenshots
+          path: ca9-public-*.png
+          retention-days: 7
