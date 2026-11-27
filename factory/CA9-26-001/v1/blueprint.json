@@ -1017,7 +1017,7 @@
       "filed_at": "2026-05-04T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 18,
+      "pages": 10,
       "depends_on": [
         "CA9-26-001-POL",
         "CA9-26-001-REV",
@@ -1105,7 +1105,7 @@
       "filed_at": "2026-05-18T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 20,
+      "pages": 9,
       "depends_on": [
         "CA9-26-001-MSJ",
         "CA9-26-001-COMP",
@@ -1125,7 +1125,7 @@
       "filed_at": "2026-05-26T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 10,
+      "pages": 5,
       "depends_on": [
         "CA9-26-001-OPP"
       ]
@@ -1157,7 +1157,7 @@
       "filed_at": "2026-08-21T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 12,
+      "pages": 8,
       "depends_on": [
         "CA9-26-001-MSJ",
         "CA9-26-001-OPP",
@@ -2457,9 +2457,288 @@
     }
   ],
   "excerpts": [],
-  "authorities": [],
+  "authorities": [
+    {
+      "id": "NASSAR",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+      "url": "https://www.law.cornell.edu/supremecourt/text/12-484",
+      "court": "scotus",
+      "decided_at": "2013-06-24",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/NASSAR.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Identity and original pin checked; full case-specific treatment lanes remain incomplete.",
+        "checked_at": "2026-11-27",
+        "method": "CourtListener citation lookup and targeted source searches"
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "360",
+          "quote": "Title VII retaliation claims must be proved according to traditional principles of but-for causation",
+          "proposition": "Retaliation requires but-for causation, not merely a motivating factor."
+        }
+      ]
+    },
+    {
+      "id": "TOLAN",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "url": "https://www.law.cornell.edu/supremecourt/text/13-551",
+      "court": "scotus",
+      "decided_at": "2014-05-05",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/TOLAN.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Identity and original pin checked; full case-specific treatment lanes remain incomplete.",
+        "checked_at": "2026-11-27",
+        "method": "CourtListener citation lookup and targeted source searches"
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "Part II.A; 656–57",
+          "quote": "courts may not resolve genuine disputes of fact in favor of the party seeking summary judgment",
+          "proposition": "Credit the nonmovant's evidence and draw reasonable inferences without resolving genuine material factual disputes."
+        }
+      ]
+    },
+    {
+      "id": "KAMA",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/18/23-55106.pdf",
+      "court": "ca9",
+      "decided_at": "2024-07-18",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/KAMA.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Identity and original pin checked; full case-specific treatment lanes remain incomplete.",
+        "checked_at": "2026-11-27",
+        "method": "CourtListener citation lookup and targeted source searches"
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "slip op. 13",
+          "quote": "temporal proximity alone in this case is not sufficient to show pretext",
+          "proposition": "Temporal proximity may be sufficient in some cases; in Kama, it was not sufficient on its own."
+        }
+      ]
+    },
+    {
+      "id": "REEVES",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+      "url": "https://www.law.cornell.edu/supremecourt/text/99-536",
+      "court": "scotus",
+      "decided_at": "2000-06-12",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/REEVES.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Identity and original pin checked; full case-specific treatment lanes remain incomplete.",
+        "checked_at": "2026-11-27",
+        "method": "CourtListener citation lookup and targeted source searches"
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "148; Part II",
+          "quote": "may permit the trier of fact to conclude that the employer unlawfully discriminated",
+          "proposition": "Prima facie evidence plus sufficient evidence discrediting the employer's explanation may permit, but does not require, an inference of discrimination; consider whole record."
+        }
+      ]
+    }
+  ],
   "arguments": [],
-  "legal_uses": [],
+  "legal_uses": [
+    {
+      "id": "LU-1",
+      "document_id": "CA9-26-001-MSJ",
+      "page": 2,
+      "quote": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+      "authority_id": "NASSAR",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-2",
+      "document_id": "CA9-26-001-MSJ",
+      "page": 2,
+      "quote": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "authority_id": "TOLAN",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-3",
+      "document_id": "CA9-26-001-MSJ",
+      "page": 7,
+      "quote": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+      "authority_id": "KAMA",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-4",
+      "document_id": "CA9-26-001-MSJ",
+      "page": 9,
+      "quote": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+      "authority_id": "REEVES",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-5",
+      "document_id": "CA9-26-001-OPP",
+      "page": 2,
+      "quote": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+      "authority_id": "NASSAR",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-6",
+      "document_id": "CA9-26-001-OPP",
+      "page": 2,
+      "quote": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "authority_id": "TOLAN",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-7",
+      "document_id": "CA9-26-001-OPP",
+      "page": 8,
+      "quote": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+      "authority_id": "KAMA",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-8",
+      "document_id": "CA9-26-001-OPP",
+      "page": 8,
+      "quote": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+      "authority_id": "REEVES",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-9",
+      "document_id": "CA9-26-001-REPL",
+      "page": 2,
+      "quote": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+      "authority_id": "NASSAR",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-10",
+      "document_id": "CA9-26-001-REPL",
+      "page": 4,
+      "quote": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+      "authority_id": "KAMA",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-11",
+      "document_id": "CA9-26-001-REPL",
+      "page": 4,
+      "quote": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+      "authority_id": "REEVES",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-12",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 3,
+      "quote": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "authority_id": "TOLAN",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-13",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 3,
+      "quote": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+      "authority_id": "NASSAR",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-14",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 5,
+      "quote": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+      "authority_id": "KAMA",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    },
+    {
+      "id": "LU-15",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 7,
+      "quote": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+      "authority_id": "REEVES",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+    }
+  ],
   "timeliness_review": {
     "reviewed": true,
     "basis": "Private parties; August 21 separate final judgment, September 3 notice (13 days); FRAP 4(a)(1)(A), no postjudgment tolling motion planned. Verify actual docket on completion. EEOC receipt Dec 16 2024 to complaint Feb 3 2025 (49 days)."
