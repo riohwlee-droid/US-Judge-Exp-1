@@ -4,7 +4,7 @@ Status: pre-admission; **not sealed**. No appellate result selected or suggested
 ## Coverage
 - All 30 original documents (233 stable logical pages) and all 190 copied excerpt pages, plus 7 index pages, are in the page-level audit inventory. The two ER volumes are reproduced from the corresponding originals after each amendment. The prior compiler check validated every excerpt against its actual original file; the new test rechecks the actual files independently.
 - All 80 visible appellate record citation occurrences (per page/unique cite) are mapped to substantive source text rather than merely a title. The argument and assertion ledgers remain distinct. This establishes location and meaningful evidence passage, not that every inference is legally compelled.
-- The 22 canonical facts and 38 timeline entries are the current ledger; witness uncertainty and genuine disagreements are intentionally preserved. No finding of actual retaliatory motive or appellate result is added.
+- The 22 canonical facts and 42 timeline entries are the current ledger; witness uncertainty and genuine disagreements are intentionally preserved. No finding of actual retaliatory motive or appellate result is added.
 - All 30 originals scanned for legal indexing tags and exact visible citation offsets. Inventory is not a completed citator packet.
 - Previous main commit: 9260c523a07cc48487308eac5220ef3619dd2b41. See review-pass1.json for individual corrections.
 
@@ -45,3 +45,6 @@ Sources:
 
 ## Remaining gate
 Do not set unresolved blockers empty or create seal request until actual material treatment candidates and semantic review are resolved. No independent legal certification; public repository. Player not configured. No official state change.
+
+## Timeline and assertion follow-up
+18 event timestamps aligned with contemporaneous source timestamps or transcript commencement. All other stored times explicitly date-only, not evidentiary facts. The April 25 recommendation and April 26 HR request are separate; April 30 response, May 9 worksheet and May 10 HR follow-up recorded separately. All 22 defined canonical facts now have original-record annotations; added 32 annotations including appellate assertions with exact corresponding lower-record sources. 0 optional annotation candidates did not match exact text/source and were not entered; see progress.json. This is not a claim to annotate every narrative sentence. Witness uncertainty and unresolved comparator information remain unchanged.

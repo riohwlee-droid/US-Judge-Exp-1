@@ -224,6 +224,13 @@
     "legal_authorities": 13,
     "legal_occurrences": 61,
     "original_documents_audited": 30,
-    "status": "citation_inventory_complete_treatment_pending"
+    "status": "citation_inventory_complete_treatment_pending",
+    "canonical_fact_count": 22,
+    "canonical_facts_anchored": 22,
+    "assertion_count": 94,
+    "timeline_events": 42,
+    "recorded_times": 18,
+    "additional_assertions": 32,
+    "unmatched_optional_annotations": []
   }
 }

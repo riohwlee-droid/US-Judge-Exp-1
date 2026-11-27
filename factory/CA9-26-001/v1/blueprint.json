@@ -120,7 +120,9 @@
         "P",
         "D",
         "H"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T02",
@@ -132,7 +134,9 @@
         "C",
         "W",
         "A"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T03",
@@ -142,123 +146,171 @@
         "P",
         "S",
         "H"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T04",
-      "at": "2024-03-07T10:00:00-08:00",
+      "at": "2024-03-07T15:42:17-08:00",
       "description": "Maren dispatches consignment AQ-4182.",
       "actor_ids": [
         "P",
         "W",
         "A",
         "I"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "LOG:9 release event"
     },
     {
       "id": "T05",
-      "at": "2024-03-20T10:00:00-07:00",
+      "at": "2024-03-20T16:28:02-07:00",
       "description": "Maren dispatches consignment AQ-4311.",
       "actor_ids": [
         "P",
         "W",
         "A",
         "I"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "LOG:10 release event"
     },
     {
       "id": "T06",
-      "at": "2024-04-02T10:00:00-07:00",
-      "description": "Customer raises complaint about consignment AQ-4470, handled by Bellford.",
+      "at": "2024-04-02T11:15:00-07:00",
+      "description": "Customer service ticket recorded regarding consignment AQ-4470, handled by Bellford.",
       "actor_ids": [
         "C",
         "S",
         "A"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "LOG:11 customer service ticket; not inferred earlier call"
     },
     {
       "id": "T07",
-      "at": "2024-04-04T10:00:00-07:00",
+      "at": "2024-04-04T08:42:00-07:00",
       "description": "Holtwell requests common audit of six coordinators.",
       "actor_ids": [
         "S",
         "A"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "AUD:1 email"
     },
     {
       "id": "T08",
-      "at": "2024-04-05T10:00:00-07:00",
+      "at": "2024-04-05T15:02:00-07:00",
       "description": "Fenmore saves first audit workbook.",
       "actor_ids": [
         "A",
         "S"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "AUD:6 workbook save"
     },
     {
       "id": "T09",
-      "at": "2024-04-08T10:00:00-07:00",
+      "at": "2024-04-08T09:14:00-07:00",
       "description": "Maren emails HR complaint about sex-based allocation of lead shifts.",
       "actor_ids": [
         "P",
         "H"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "COMP:1 email"
     },
     {
       "id": "T10",
-      "at": "2024-04-09T10:00:00-07:00",
+      "at": "2024-04-09T10:20:00-07:00",
       "description": "Bracken tells Holtwell of the nature of the complaint and instructs preservation.",
       "actor_ids": [
         "H",
         "S"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "COMP:3 contact note"
     },
     {
       "id": "T11",
-      "at": "2024-04-12T10:00:00-07:00",
+      "at": "2024-04-12T09:18:00-07:00",
       "description": "Holtwell requests expanded lookback for Maren.",
       "actor_ids": [
         "S",
         "A"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "AUD:3 email"
     },
     {
       "id": "T12",
-      "at": "2024-04-15T10:00:00-07:00",
+      "at": "2024-04-15T16:12:00-07:00",
       "description": "Fenmore transmits revised exception report.",
       "actor_ids": [
         "A",
         "S",
         "H"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "AUD:4 email"
     },
     {
       "id": "T13",
-      "at": "2024-04-18T10:00:00-07:00",
+      "at": "2024-04-18T14:00:00-07:00",
       "description": "Maren interviewed with HR; identifies oral approvals and log defects.",
       "actor_ids": [
         "P",
         "H",
         "S"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "COMP:4 interview"
     },
     {
       "id": "T14",
-      "at": "2024-04-23T10:00:00-07:00",
+      "at": "2024-04-23T11:27:00-07:00",
       "description": "Fenmore sends correction note; eight of twelve flags resolved, four remain, two disputed authorization.",
       "actor_ids": [
         "A",
         "S",
         "H"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "AUD:5 email"
     },
     {
       "id": "T15",
       "at": "2024-04-25T10:00:00-07:00",
-      "description": "Holtwell proposes termination; HR seeks comparator information.",
+      "description": "Holtwell proposes termination.",
       "actor_ids": [
         "S",
         "H"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
+    },
+    {
+      "id": "T39",
+      "at": "2024-04-26T10:00:00-07:00",
+      "description": "HR requests corrected records, comparator information and clarification of permission versus documentation.",
+      "actor_ids": [
+        "H",
+        "S"
+      ],
+      "time_precision": "date_only",
+      "time_basis": "TERM:2; exact time not asserted."
+    },
+    {
+      "id": "T40",
+      "at": "2024-04-30T10:00:00-07:00",
+      "description": "Operations responds to HR and identifies documentation concerns even assuming oral permission.",
+      "actor_ids": [
+        "S",
+        "H"
+      ],
+      "time_precision": "date_only",
+      "time_basis": "TERM:3; exact time not asserted."
     },
     {
       "id": "T16",
@@ -268,7 +320,30 @@
         "S",
         "C",
         "H"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
+    },
+    {
+      "id": "T41",
+      "at": "2024-05-09T10:00:00-07:00",
+      "description": "HR prepares review worksheet.",
+      "actor_ids": [
+        "H"
+      ],
+      "time_precision": "date_only",
+      "time_basis": "TERM:4; exact time not asserted."
+    },
+    {
+      "id": "T42",
+      "at": "2024-05-10T10:00:00-07:00",
+      "description": "HR records assignment complaint follow-up without a finding of intentional discrimination.",
+      "actor_ids": [
+        "H",
+        "P"
+      ],
+      "time_precision": "date_only",
+      "time_basis": "COMP:5; exact time not asserted."
     },
     {
       "id": "T17",
@@ -278,7 +353,9 @@
         "O",
         "H",
         "S"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T18",
@@ -289,7 +366,9 @@
         "H",
         "S",
         "O"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T19",
@@ -299,7 +378,9 @@
         "P",
         "E",
         "D"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T20",
@@ -308,7 +389,9 @@
       "actor_ids": [
         "E",
         "P"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T21",
@@ -318,7 +401,9 @@
         "P",
         "PC",
         "K"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T22",
@@ -328,73 +413,87 @@
         "D",
         "DC",
         "K"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T23",
-      "at": "2025-10-06T10:00:00-07:00",
+      "at": "2025-10-06T09:30:00-07:00",
       "description": "Maren deposition.",
       "actor_ids": [
         "P",
         "PC",
         "DC",
         "REP"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "MDEP:1 commencement"
     },
     {
       "id": "T24",
-      "at": "2025-10-08T10:00:00-07:00",
+      "at": "2025-10-08T09:30:00-07:00",
       "description": "Holtwell deposition.",
       "actor_ids": [
         "S",
         "PC",
         "DC",
         "REP"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "SDEP:1 commencement"
     },
     {
       "id": "T25",
-      "at": "2025-10-10T10:00:00-07:00",
+      "at": "2025-10-10T09:30:00-07:00",
       "description": "Fenmore deposition.",
       "actor_ids": [
         "A",
         "PC",
         "DC",
         "REP"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "ADEP:1 commencement"
     },
     {
       "id": "T26",
-      "at": "2025-10-14T10:00:00-07:00",
+      "at": "2025-10-14T09:30:00-07:00",
       "description": "Bracken deposition.",
       "actor_ids": [
         "H",
         "PC",
         "DC",
         "REP"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "HDEP:1 commencement"
     },
     {
       "id": "T27",
-      "at": "2025-10-16T10:00:00-07:00",
+      "at": "2025-10-16T09:30:00-07:00",
       "description": "Lorne deposition.",
       "actor_ids": [
         "W",
         "PC",
         "DC",
         "REP"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "WDEP:1 commencement"
     },
     {
       "id": "T28",
-      "at": "2025-10-20T10:00:00-07:00",
+      "at": "2025-10-20T09:30:00-07:00",
       "description": "Bellford deposition.",
       "actor_ids": [
         "C",
         "PC",
         "DC",
         "REP"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "CDEP:1 commencement"
     },
     {
       "id": "T29",
@@ -404,7 +503,9 @@
         "D",
         "DC",
         "K"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T30",
@@ -414,7 +515,9 @@
         "P",
         "PC",
         "K"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T31",
@@ -424,7 +527,9 @@
         "D",
         "DC",
         "K"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T32",
@@ -435,7 +540,9 @@
         "PC",
         "DC",
         "REP"
-      ]
+      ],
+      "time_precision": "recorded",
+      "time_basis": "HEAR:1 commencement"
     },
     {
       "id": "T33",
@@ -444,7 +551,9 @@
       "actor_ids": [
         "R",
         "K"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T34",
@@ -454,7 +563,9 @@
         "P",
         "PC",
         "K"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T35",
@@ -462,7 +573,9 @@
       "description": "Appellate briefing schedule entered.",
       "actor_ids": [
         "AC"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T36",
@@ -472,7 +585,9 @@
         "P",
         "PC",
         "AC"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T37",
@@ -482,7 +597,9 @@
         "D",
         "DC",
         "AC"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     },
     {
       "id": "T38",
@@ -492,7 +609,9 @@
         "P",
         "PC",
         "AC"
-      ]
+      ],
+      "time_precision": "date_only",
+      "time_basis": "Date supported by record; stored time is a non-evidentiary ordering convention, not an asserted time."
     }
   ],
   "facts": [
@@ -2377,6 +2496,490 @@
         {
           "cite": "2-ER-90",
           "quote": "extend Maren's query to sixty days"
+        }
+      ]
+    },
+    {
+      "id": "A-63",
+      "document_id": "CA9-26-001-TD",
+      "page": 1,
+      "fact_id": "F20",
+      "quote": "2025-02-03 — Complaint for damages and equitable relief.",
+      "speaker_id": "K",
+      "mode": "canonical",
+      "asserted_value": "2025-02-03",
+      "unit": "date"
+    },
+    {
+      "id": "A-64",
+      "document_id": "CA9-26-001-TD",
+      "page": 4,
+      "fact_id": "F21",
+      "quote": "2026-08-21 — Separate judgment.",
+      "speaker_id": "K",
+      "mode": "canonical",
+      "asserted_value": "2026-08-21",
+      "unit": "date"
+    },
+    {
+      "id": "A-65",
+      "document_id": "CA9-26-001-TD",
+      "page": 4,
+      "fact_id": "F22",
+      "quote": "2026-09-03 — Notice of appeal.",
+      "speaker_id": "K",
+      "mode": "canonical",
+      "asserted_value": "2026-09-03",
+      "unit": "date"
+    },
+    {
+      "id": "A-66",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 4,
+      "fact_id": "F10",
+      "quote": "The manager learned of Plaintiff's complaint on April 9",
+      "speaker_id": "R",
+      "mode": "finding",
+      "asserted_value": "2024-04-09",
+      "unit": "date"
+    },
+    {
+      "id": "A-67",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 4,
+      "fact_id": "F11",
+      "quote": "requested a sixty-day review of her transactions on April 12",
+      "speaker_id": "R",
+      "mode": "finding",
+      "asserted_value": "60",
+      "unit": "days"
+    },
+    {
+      "id": "A-68",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 4,
+      "fact_id": "F12",
+      "quote": "eight of twelve raw flags",
+      "speaker_id": "R",
+      "mode": "finding",
+      "asserted_value": "12",
+      "unit": "flags"
+    },
+    {
+      "id": "A-69",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 4,
+      "fact_id": "F13",
+      "quote": "resolved eight of twelve raw flags",
+      "speaker_id": "R",
+      "mode": "finding",
+      "asserted_value": "8",
+      "unit": "flags"
+    },
+    {
+      "id": "A-70",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 4,
+      "fact_id": "F14",
+      "quote": "leaving four open",
+      "speaker_id": "R",
+      "mode": "finding",
+      "asserted_value": "4",
+      "unit": "flags"
+    },
+    {
+      "id": "A-71",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 4,
+      "fact_id": "F15",
+      "quote": "Two involve disputed authorization",
+      "speaker_id": "R",
+      "mode": "finding",
+      "asserted_value": "2",
+      "unit": "flags"
+    },
+    {
+      "id": "A-72",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 6,
+      "fact_id": "F16",
+      "quote": "received a warning after the common review",
+      "speaker_id": "R",
+      "mode": "finding",
+      "asserted_value": "written warning",
+      "unit": "text"
+    },
+    {
+      "id": "A-73",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 4,
+      "fact_id": "F21",
+      "quote": "Separate final judgment disposing of the sole claim was entered August 21, 2026.",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "2026-08-21",
+      "unit": "date",
+      "record_cites": [
+        {
+          "cite": "1-ER-1",
+          "quote": "Entered August 21, 2026."
+        }
+      ]
+    },
+    {
+      "id": "A-74",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 4,
+      "fact_id": "F22",
+      "quote": "Notice of appeal was filed September 3, 2026.",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "2026-09-03",
+      "unit": "date",
+      "record_cites": [
+        {
+          "cite": "2-ER-186",
+          "quote": "September 3, 2026."
+        }
+      ]
+    },
+    {
+      "id": "A-75",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 5,
+      "fact_id": "F02",
+      "quote": "The policy permits urgent oral approval but requires a complete record by shift end.",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "documented approval; oral approval allowed for qualifying urgent loads; record before shift end",
+      "unit": "text",
+      "record_cites": [
+        {
+          "cite": "2-ER-81",
+          "quote": "A shift lead may authorize an urgent release orally"
+        }
+      ]
+    },
+    {
+      "id": "A-76",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 5,
+      "fact_id": "F03",
+      "quote": "Her overall annual assessment was meets expectations.",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "meets expectations",
+      "unit": "text",
+      "record_cites": [
+        {
+          "cite": "2-ER-84",
+          "quote": "Overall rating: meets expectations."
+        }
+      ]
+    },
+    {
+      "id": "A-77",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 5,
+      "fact_id": "F09",
+      "quote": "possible sex discrimination in acting-lead assignments",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "sex-based allocation of lead shifts",
+      "unit": "text",
+      "record_cites": [
+        {
+          "cite": "2-ER-32",
+          "quote": "I believe the assignments may be based on sex"
+        }
+      ]
+    },
+    {
+      "id": "A-78",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 5,
+      "fact_id": "F10",
+      "quote": "HR told her manager the nature of the complaint on April 9",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "2024-04-09",
+      "unit": "date",
+      "record_cites": [
+        {
+          "cite": "2-ER-34",
+          "quote": "Bracken informed Holtwell that Maren had complained"
+        }
+      ]
+    },
+    {
+      "id": "A-79",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 6,
+      "fact_id": "F07",
+      "quote": "a common fourteen-day review of six coordinators requested April 4",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "six coordinators; fourteen-day window",
+      "unit": "text",
+      "record_cites": [
+        {
+          "cite": "2-ER-88",
+          "quote": "pull the last fourteen days for all six coordinators"
+        }
+      ]
+    },
+    {
+      "id": "A-80",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 6,
+      "fact_id": "F11",
+      "quote": "On April 12 Holtwell requested a sixty-day review of Maren alone.",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "60",
+      "unit": "days",
+      "record_cites": [
+        {
+          "cite": "2-ER-90",
+          "quote": "extend Maren's query to sixty days"
+        }
+      ]
+    },
+    {
+      "id": "A-81",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 6,
+      "fact_id": "F12",
+      "quote": "The April 15 report contained twelve raw flags.",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "12",
+      "unit": "flags",
+      "record_cites": [
+        {
+          "cite": "2-ER-91",
+          "quote": "identifies twelve preliminary flags"
+        }
+      ]
+    },
+    {
+      "id": "A-82",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 6,
+      "fact_id": "F13",
+      "quote": "On April 23 Quality resolved eight",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "8",
+      "unit": "flags",
+      "record_cites": [
+        {
+          "cite": "2-ER-92",
+          "quote": "Eight of the twelve flags are resolved"
+        }
+      ]
+    },
+    {
+      "id": "A-83",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 6,
+      "fact_id": "F14",
+      "quote": "left four open",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "4",
+      "unit": "flags",
+      "record_cites": [
+        {
+          "cite": "2-ER-92",
+          "quote": "Four remain open."
+        }
+      ]
+    },
+    {
+      "id": "A-84",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 6,
+      "fact_id": "F15",
+      "quote": "two involving disputed authorization",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "2",
+      "unit": "flags",
+      "record_cites": [
+        {
+          "cite": "2-ER-92",
+          "quote": "two (AQ-4182 and AQ-4311) have disputed authorization"
+        }
+      ]
+    },
+    {
+      "id": "A-85",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 7,
+      "fact_id": "F16",
+      "quote": "Bellford received a written warning on May 2.",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "written warning",
+      "unit": "text",
+      "record_cites": [
+        {
+          "cite": "2-ER-62",
+          "quote": "Action: written warning."
+        }
+      ]
+    },
+    {
+      "id": "A-86",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 7,
+      "fact_id": "F17",
+      "quote": "Maren was discharged May 17, 2024.",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "2024-05-17",
+      "unit": "date",
+      "record_cites": [
+        {
+          "cite": "2-ER-171",
+          "quote": "NOTICE OF TERMINATION — May 17, 2024"
+        }
+      ]
+    },
+    {
+      "id": "A-87",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 4,
+      "fact_id": "F21",
+      "quote": "the district court entered final judgment August 21, 2026",
+      "speaker_id": "DC",
+      "mode": "allegation",
+      "asserted_value": "2026-08-21",
+      "unit": "date",
+      "record_cites": [
+        {
+          "cite": "1-ER-1",
+          "quote": "Entered August 21, 2026."
+        }
+      ]
+    },
+    {
+      "id": "A-88",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 4,
+      "fact_id": "F22",
+      "quote": "the appeal notice was filed September 3, 2026",
+      "speaker_id": "DC",
+      "mode": "allegation",
+      "asserted_value": "2026-09-03",
+      "unit": "date",
+      "record_cites": [
+        {
+          "cite": "2-ER-186",
+          "quote": "September 3, 2026."
+        }
+      ]
+    },
+    {
+      "id": "A-89",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 6,
+      "fact_id": "F08",
+      "quote": "It preceded the April 8 complaint.",
+      "speaker_id": "DC",
+      "mode": "allegation",
+      "asserted_value": "2024-04-08",
+      "unit": "date",
+      "record_cites": [
+        {
+          "cite": "2-ER-32",
+          "quote": "Date: April 8, 2024"
+        }
+      ]
+    },
+    {
+      "id": "A-90",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 6,
+      "fact_id": "F13",
+      "quote": "Quality corrected twelve raw flags to four open entries.",
+      "speaker_id": "DC",
+      "mode": "allegation",
+      "asserted_value": "8",
+      "unit": "flags",
+      "record_cites": [
+        {
+          "cite": "2-ER-92",
+          "quote": "Eight of the twelve flags are resolved"
+        }
+      ]
+    },
+    {
+      "id": "A-91",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 6,
+      "fact_id": "F14",
+      "quote": "four open entries",
+      "speaker_id": "DC",
+      "mode": "allegation",
+      "asserted_value": "4",
+      "unit": "flags",
+      "record_cites": [
+        {
+          "cite": "2-ER-92",
+          "quote": "Four remain open."
+        }
+      ]
+    },
+    {
+      "id": "A-92",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 7,
+      "fact_id": "F16",
+      "quote": "Bellford received a written warning",
+      "speaker_id": "DC",
+      "mode": "allegation",
+      "asserted_value": "written warning",
+      "unit": "text",
+      "record_cites": [
+        {
+          "cite": "2-ER-62",
+          "quote": "Action: written warning."
+        }
+      ]
+    },
+    {
+      "id": "A-93",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 7,
+      "fact_id": "F17",
+      "quote": "Maren was discharged May 17, 2024.",
+      "speaker_id": "DC",
+      "mode": "allegation",
+      "asserted_value": "2024-05-17",
+      "unit": "date",
+      "record_cites": [
+        {
+          "cite": "2-ER-171",
+          "quote": "NOTICE OF TERMINATION — May 17, 2024"
+        }
+      ]
+    },
+    {
+      "id": "A-94",
+      "document_id": "CA9-26-001-REPLY",
+      "page": 5,
+      "fact_id": "F16",
+      "quote": "Bellford received a written warning.",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "written warning",
+      "unit": "text",
+      "record_cites": [
+        {
+          "cite": "2-ER-62",
+          "quote": "Action: written warning."
         }
       ]
     }
