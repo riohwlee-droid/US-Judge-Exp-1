@@ -8,6 +8,7 @@ const SITE="https://riohwlee-droid.github.io/US-Judge-Exp-1/";
     const page=await browser.newPage({viewport:{width:390,height:844}});
     const errors=[];
     page.on("pageerror",e=>errors.push(String(e)));
+    await page.route("**/chambers.js",route=>route.continue({url:route.request().url()+"?smoke=directory-v1"}));
     const response=await page.goto(SITE,{waitUntil:"domcontentloaded",timeout:45000});
     assert.equal(response.status(),200);
     await page.getByRole("heading",{name:"U.S. Court of Appeals for the Ninth Circuit"}).waitFor({timeout:30000});

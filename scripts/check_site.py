@@ -14,7 +14,8 @@ def check():
     js=re.search(rb'src="([^"]*chambers\.js)"',page)
     css=re.search(rb'href="([^"]*chambers\.css)"',page)
     assert js and css, "missing asset links"
-    assert b"refresh" in get(urljoin(SITE,js.group(1).decode()))
+    asset=get(urljoin(SITE,js.group(1).decode())+"?smoke=directory-v1")
+    assert b"refresh" in asset and b"Directory" in asset, "new directory asset not deployed"
     assert get(urljoin(SITE,css.group(1).decode()))
     p=json.loads(get(RAW+"CURRENT.json"))
     m=get(RAW+"saves/"+p["checkpoint"]+"/manifest.json")
@@ -23,11 +24,11 @@ def check():
     assert state["revision"]==p["revision"]
     print("PASS: public site HTML/CSS/JS and remote checkpoint revision",p["revision"])
 if __name__=="__main__":
-    for i in range(6):
+    for i in range(18):
         try:
             check()
             break
         except Exception as e:
-            if i==5: raise
+            if i==17: raise
             print("Retry:",e,flush=True)
             time.sleep(10)
