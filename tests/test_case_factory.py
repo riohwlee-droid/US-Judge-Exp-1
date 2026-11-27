@@ -183,3 +183,52 @@ class FactoryTests(unittest.TestCase):
     def test_research_unresolved_candidate(self):
         self.production_fixture();self.b["research"]["authority_reviews"][0]["searches"][0]["unresolved_material_candidates"]=["possible vacatur"];self.save()
         with self.assertRaisesRegex(ValueError,"material treatment"):compile_package(self.root,self.path)
+
+    def test_research_server_hash_seal(self):
+        self.production_fixture()
+        a=self.b["authorities"][0];a["source_sha256"]="server_computed"
+        self.b["research"]["authority_reviews"][0]["original"]["sha256"]="server_computed"
+        self.save()
+        r=compile_package(self.root,self.path)
+        self.assertNotEqual(r["files"][a["source_path"]],"server_computed")
+        rp=self.prefix+"release.json";self.put(rp,json.dumps(r))
+        self.put(a["source_path"],(self.root/a["source_path"]).read_text()+"Altered after seal.\n")
+        with self.assertRaisesRegex(ValueError,"release differs"):check_release(self.root,rp)
+    def test_research_overruled_proposition(self):
+        self.production_fixture()
+        pr=self.b["research"]["authority_reviews"][0]["pin_reviews"][0]
+        pr.update(status="overruled",weight="historical")
+        for u in self.b["legal_uses"]:u["claimed_weight"]="historical"
+        for arg in self.b["arguments"]:
+            for u in arg["authorities"]:u["claimed_weight"]="historical"
+        self.save()
+        with self.assertRaisesRegex(ValueError,"displaced proposition"):compile_package(self.root,self.path)
+    def test_research_unpublished_weight_and_citation(self):
+        self.production_fixture()
+        a=self.b["authorities"][0];a["court"]="ca9";a["decided_at"]="2001-01-01"
+        r=self.b["research"]["authority_reviews"][0];r.update(court_level="ca9",decision_date=a["decided_at"],publication="unpublished")
+        self.save()
+        with self.assertRaisesRegex(ValueError,"invalid binding"):compile_package(self.root,self.path)
+        r["pin_reviews"][0]["weight"]="nonprecedential"
+        for u in self.b["legal_uses"]:u["claimed_weight"]="nonprecedential"
+        for arg in self.b["arguments"]:
+            for u in arg["authorities"]:u["claimed_weight"]="nonprecedential"
+        self.save()
+        with self.assertRaisesRegex(ValueError,"pre-2007 CA9"):compile_package(self.root,self.path)
+    def test_research_packet_lock(self):
+        from judgesim.legal_research import validate_packet
+        self.production_fixture()
+        a=deepcopy(self.b["authorities"][0]);r=deepcopy(self.b["research"]["authority_reviews"][0])
+        prefix="law/research/TEST-CA9/B1/"
+        original=(self.root/a["source_path"]).read_text()
+        a["source_path"]=prefix+"A.txt";a["source_sha256"]="server_computed"
+        r["original"].update(path=a["source_path"],sha256="server_computed")
+        self.put(a["source_path"],original)
+        d=next(x for x in self.b["documents"] if x["id"]=="B1")
+        doc={"id":"B1","case_id":"TEST-CA9","path":d["path"],"sha256":hash_bytes((self.root/d["path"]).read_bytes())}
+        packet={"schema_version":1,"case_id":"TEST-CA9","document_id":"B1","document_sha256":"server_computed","authorities":[a],"uses":[dict(u,document_id="B1",page=arg["page"]) for arg in self.b["arguments"] if arg["document_id"]=="B1" for u in arg["authorities"]],"research":{"schema_version":1,"cutoff":self.b["legal_cutoff"],"authority_reviews":[r],"document_audits":[x for x in self.b["research"]["document_audits"] if x["id"]=="B1"]}}
+        p=prefix+"packet.json";self.put(p,json.dumps(packet));dig=canonical(packet)
+        lock=validate_packet(self.root,p,dig,doc,self.b["legal_cutoff"])
+        self.assertEqual(lock[a["source_path"]],hash_bytes(original.encode()))
+        self.put(a["source_path"],original+"Changed after registration.\n")
+        with self.assertRaisesRegex(ValueError,"research source inventory/hash changed"):validate_packet(self.root,p,dig,doc,self.b["legal_cutoff"],lock)

@@ -8,5 +8,5 @@ root=Path(__file__).resolve().parents[1]
 if __name__=="__main__":
     path,docpath,cutoff=sys.argv[1:4]
     p=load(root/path);d=load(root/docpath)
-    validate_packet(root,path,canonical(p),d,cutoff)
-    print(json.dumps({"status":"structurally_valid","digest":canonical(p),"authority_count":len(p["authorities"])}))
+    hashes=validate_packet(root,path,canonical(p),d,cutoff)
+    print(json.dumps({"status":"structurally_valid","digest":canonical(p),"source_hashes":hashes,"authority_count":len(p["authorities"])}))

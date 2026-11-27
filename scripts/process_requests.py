@@ -9,6 +9,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from judgesim.engine import Invalid, apply_batch, require, identifier, digest
 from judgesim.case_factory import check_release,canonical
+from judgesim.legal_research import validate_packet
 from judgesim.storage import read_json, write_json, verify, profiles, safe, sha, write_checkpoint
 
 
@@ -58,8 +59,14 @@ def process(root):
                     if doc["sha256"] == "server_computed":
                         doc["sha256"] = sha(safe(root, doc["path"]))
                     lock=doc.get("research_packet")
-                    if lock and lock["digest"]=="server_computed":
-                        lock["digest"]=canonical(read_json(safe(root,lock["path"])))
+                    if lock:
+                        if lock["digest"]=="server_computed":
+                            lock["digest"]=canonical(read_json(safe(root,lock["path"])))
+                        cutoff=state["campaign"]["legal_cutoff"] or next((e["payload"]["legal_cutoff"] for e in events if e["type"]=="campaign.configure"),None)
+                        require(cutoff,"campaign legal cutoff required")
+                        actual=validate_packet(root,lock["path"],lock["digest"],doc,cutoff)
+                        if "source_hashes" in lock:require(lock["source_hashes"]==actual,"research source lock mismatch")
+                        lock["source_hashes"]=actual
             result = apply_batch(state, events, profiles(root))
             # Document/inventory checks happen before a production pointer is written.
             import shutil

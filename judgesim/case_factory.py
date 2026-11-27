@@ -230,7 +230,7 @@ def compile_package(root, blueprint_path, stage="review", training=False):
         need(date.fromisoformat(a["decided_at"])<=cutoff and date.fromisoformat(a["verified_at"])>=date.fromisoformat(a["decided_at"]),"authority date invalid")
         need(a["source_path"].startswith(prefix+"law/"),"source snapshot path")
         raw=safe(root,a["source_path"]).read_bytes()
-        need(hash_bytes(raw)==a["source_sha256"],"authority snapshot changed")
+        need(a["source_sha256"] in {"server_computed",hash_bytes(raw)},"authority snapshot changed")
         hashes[a["source_path"]]=hash_bytes(raw)
         need(a["source_reviewed"] is True and nonblank(a["source_review_note"]),"authority original review required")
         t=a["subsequent_treatment"]

@@ -57,7 +57,8 @@ def check_documents(root, state):
             require(doc["supersedes"] in state["documents"], "missing original correction target")
         if doc.get("research_packet"):
             lock=doc["research_packet"]
-            validate_packet(root,lock["path"],lock["digest"],doc,state["campaign"]["legal_cutoff"])
+            require(isinstance(lock.get("source_hashes"),dict),"research sources not locked")
+            validate_packet(root,lock["path"],lock["digest"],doc,state["campaign"]["legal_cutoff"],lock["source_hashes"])
         for citation in doc.get("citations", []):
             reference(state, citation)
     for case in state["cases"].values():

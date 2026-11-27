@@ -16,7 +16,7 @@ def required_text(o,keys):
 def source(root,ref,prefix,hashes):
     need(ref["path"].startswith(prefix) and approved_url(ref["url"]),"unapproved research source")
     raw=safe(root,ref["path"]).read_bytes()
-    need(hash_bytes(raw)==ref["sha256"],"research source hash mismatch")
+    need(ref["sha256"] in {"server_computed",hash_bytes(raw)},"research source hash mismatch")
     hashes[ref["path"]]=hash_bytes(raw)
     return raw.decode("utf-8")
 def segment(text,locator,quote):
@@ -98,6 +98,7 @@ def validate_authority(root,a,r,cutoff,prefix,hashes):
 
 def validate_use(a,r,pr,u):
     purpose=u.get("purpose",u.get("use"))
+    need(not (u.get("use")=="support" and purpose!="support"),"support cannot be disguised as historical use")
     need(purpose in USE and nonblank(u.get("analysis")),"unreviewed authority use")
     weight=u.get("claimed_weight")
     need(weight==pr["weight"],"citation misstates reviewed weight")
@@ -113,6 +114,7 @@ def audit_document(page_map, audit, authorities, reviews, uses):
     required_text(audit,["reviewer","method","scope"])
     need(audit["status"]=="passed" and audit["unresolved"]==[],"citation audit unresolved")
     refs=table(audit["occurrences"],"citation occurrences")
+    need(len({(r["page"],r["offset"]) for r in refs.values()})==len(refs),"duplicate citation occurrence offset")
     tagged={(n,x,y) for n,t in page_map.items() for x,y in LEGAL.findall(t)}
     mapped={(u["page"],u["authority_id"],u["pin_id"]) for u in uses}
     need(tagged==mapped,"page-level authority annotations mismatch")
@@ -146,14 +148,15 @@ def validate_research(root,research,authorities,page_maps,uses,cutoff,prefix,has
     for d,m in page_maps.items():audit_document(m,audits[d],authorities,reviews,[u for u in uses if u["document_id"]==d])
     return {"authorities":len(authorities),"audited_documents":len(audits),"uses":len(uses)}
 
-def validate_packet(root,path,digest,doc,cutoff):
+def validate_packet(root,path,digest,doc,cutoff,expected_hashes=None):
     p=load(safe(root,path))
     prefix=f'law/research/{key(doc["case_id"])}/{key(doc["id"])}/'
     need(p["schema_version"]==1 and path==prefix+"packet.json" and p["case_id"]==doc["case_id"] and p["document_id"]==doc["id"],"research packet scope mismatch")
-    need(canonical(p)==digest and p["document_sha256"]==doc["sha256"],"research packet/document changed")
+    need(canonical(p)==digest and p["document_sha256"] in {"server_computed",doc["sha256"]},"research packet/document changed")
     txt=safe(root,doc["path"]).read_text(encoding="utf-8")
     auth=table(p["authorities"],"packet authorities")
     hashes={}
     validate_research(root,p["research"],auth,{doc["id"]:pages(txt)},p["uses"],day(cutoff),prefix,hashes)
     need(auth or nonblank(p.get("no_authority_reason")) and not p["uses"],"empty packet needs reviewed reason")
-    return p
+    if expected_hashes is not None:need(hashes==expected_hashes,"research source inventory/hash changed")
+    return hashes
