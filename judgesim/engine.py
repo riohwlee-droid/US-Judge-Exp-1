@@ -146,6 +146,8 @@ def validate_state(state, profiles, allow_training=False):
         require(doc["case_id"] == case["id"], "opinion document belongs to another case")
         require(opinion["parts"] and len(set(opinion["parts"])) == len(opinion["parts"]), "invalid opinion parts")
         panel = opinion.get("panel_judges", case["assigned_judges"])
+        if case["court_id"] == "CA9":
+            require(any(h["epoch"]==opinion.get("panel_epoch") and h["judges"]==panel for h in case["panel_history"]), "opinion panel snapshot invalid")
         require(opinion["author_id"] in panel, "author is outside panel")
         for judge_id, position in opinion["positions"].items():
             require(judge_id in panel, "voter is outside panel")
@@ -304,6 +306,8 @@ def apply_batch(state, events, profiles, allow_training=False):
                 if c["court_id"] == "CA9":
                     life.phase(c, "merits", require=require)
                     require(opinion.get("panel_epoch")==c["panel_epoch"],"old panel draft")
+                    if p["opinion_kind"] in {"majority","plurality","order"}:
+                        require(not any(o["id"]!=opinion["id"] and o["case_id"]==c["id"] and o.get("panel_epoch")==c["panel_epoch"] and o["status"]=="issued" and o.get("opinion_kind") in {"majority","plurality","order"} for o in result["opinions"].values()),"controlling disposition already issued")
                     opinion.update(ca9.issuance(c, opinion, p, require))
                 opinion.update(status="issued", issued_at=campaign["game_time"],
                     opinion_kind=p["opinion_kind"], rule_basis=p["rule_basis"])

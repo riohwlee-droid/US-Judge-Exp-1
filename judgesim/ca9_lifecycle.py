@@ -126,6 +126,7 @@ def handle(s, kind, p, now, require, moment, judge_document):
         phase(c,"unassigned",require=require)
         # Clerk provides preconstituted sitting slots, not a hand-picked judge for a case.
         seed=p["seed"];require(isinstance(seed,str) and len(seed)>=8,"record draw seed")
+        require(type(p["case_weight"]) is int and p["case_weight"]>0,"invalid case weight")
         require(p.get("calendar_review_completed") is True,"calendar availability and conflict review required")
         slots=p["slots"];require(isinstance(slots,list) and slots,"calendar slots required")
         from .ca9 import check_panel
@@ -148,6 +149,7 @@ def handle(s, kind, p, now, require, moment, judge_document):
     elif kind=="ca9.panel_change":
         phase(c,"merits",require=require)
         require(c["panel_kind"]!="quorum","second loss from quorum requires special review")
+        require(not any(o["case_id"]==c["id"] and o.get("panel_epoch")==c["panel_epoch"] and o["status"]=="issued" for o in s["opinions"].values()),"panel loss after opinion issuance requires separate review")
         old=c["assigned_judges"];out=p["outgoing_judge_id"]
         require(out in old and p["reason"] in {"recusal","disqualification","death","disability","retirement","unavailability"},"invalid panel loss")
         remaining=[j for j in old if j!=out]
@@ -165,6 +167,7 @@ def handle(s, kind, p, now, require, moment, judge_document):
             mode=p.get("mode")
             require(mode in {"same_location_switch","lot"},"replacement mode required")
             require(p.get("parties_notified") is True,"clerk notice required")
+            if mode=="lot":require(isinstance(p["seed"],str) and len(p["seed"])>=8,"record draw seed")
             if c["panel_kind"]=="limited_en_banc":
                 require(mode=="lot","en banc replacement by alternate or lot")
                 pool=[j for j in eligible(s,c) if j not in remaining]
@@ -206,6 +209,8 @@ def handle(s, kind, p, now, require, moment, judge_document):
     elif kind=="ca9.rehearing_file":
         phase(c,"judgment",require=require)
         require(today<=date.fromisoformat(r["petition_due"]),"late petition; special relief not implemented")
+        require(r["en_banc"]["status"] in {"open","called","voting"},"review already cleared")
+        require(c["panel_kind"]!="limited_en_banc" or p["kind"]=="panel","full court rehearing not implemented")
         key=doc(s,c,p,"petition_document_id",require,judge_document)
         require(key not in r["petitions"] and p["kind"] in {"panel","en_banc","both"},"invalid petition")
         r["petitions"][key]={"kind":p["kind"],"panel":"pending" if p["kind"] in {"panel","both"} else "not_requested","en_banc":"pending" if p["kind"] in {"en_banc","both"} else "not_requested","filed_at":now,"response":"not_requested"}
@@ -221,7 +226,7 @@ def handle(s, kind, p, now, require, moment, judge_document):
             q.update(response="filed",response_document=doc(s,c,p,"response_document_id",require,judge_document))
     elif kind=="ca9.panel_rehearing":
         phase(c,"judgment",require=require)
-        require(r["en_banc"]["status"]=="open","active en banc call requires coordinator handling")
+        require(r["en_banc"]["status"] in {"open","called","voting"},"en banc disposition already resolved")
         q=r["petitions"][p["petition_document_id"]];require(q["panel"]=="pending","no panel petition pending")
         votes=p["votes"];require(set(votes)==set(c["assigned_judges"]) and all(type(v) is bool for v in votes.values()),"complete panel vote required")
         grant=sum(votes.values())>=majority(c)
@@ -229,6 +234,7 @@ def handle(s, kind, p, now, require, moment, judge_document):
         doc(s,c,p,"order_document_id",require,judge_document)
         q.update(panel="granted" if grant else "denied",panel_votes=votes)
         if grant:
+            require(r["en_banc"]["status"]=="open","grant during en banc call requires coordinator handling")
             require(not any(x["en_banc"]=="pending" for x in r["petitions"].values()),"combined grant/amendment with pending en banc petition requires special review")
             require(p.get("withdraw_prior_judgment") is True,"withdrawal path only; amended disposition exception not automated")
             archived_round(s,c,now,"panel_rehearing",True)
@@ -237,6 +243,7 @@ def handle(s, kind, p, now, require, moment, judge_document):
     elif kind=="ca9.en_banc_call":
         phase(c,"judgment",require=require)
         e=r["en_banc"];require(e["status"]=="open","call already active")
+        require(c["panel_kind"]!="limited_en_banc","full court rehearing not implemented")
         caller=p["judge_id"];require(member(s["people"][caller]) and caller not in c["excluded_judges"],"ineligible calling judge")
         # Petition/notice deadlines can vary; use reviewed absolute deadline with source.
         due=date.fromisoformat(p.get("call_due",e["call_due"]))
@@ -286,6 +293,7 @@ def handle(s, kind, p, now, require, moment, judge_document):
             require(j in c["assigned_judges"] and j not in c["excluded_judges"] and member(s["people"][j]) and s["people"][j]["judicial_status"]=="senior_circuit","ineligible senior election")
             if j not in pool:pool.append(j)
         require(len(pool)>=11,"insufficient eligible en banc judges")
+        require(isinstance(p["seed"],str) and len(p["seed"])>=8,"record draw seed")
         chiefs=[j for j in pool if active(s["people"][j]) and s["people"][j].get("chief_judge") is True]
         require(len(chiefs)<=1,"multiple chiefs")
         ranked=draw(p["seed"],[j for j in pool if j not in chiefs],c["id"]+"en_banc")
@@ -297,7 +305,8 @@ def handle(s, kind, p, now, require, moment, judge_document):
     elif kind=="ca9.en_banc_clear":
         phase(c,"judgment",require=require)
         e=r["en_banc"];require(e["status"]=="open" and p.get("all_notice_call_periods_checked") is True,"coordinator clearance required")
-        require(today>date.fromisoformat(e["call_due"]) and today>date.fromisoformat(r["petition_due"]),"call period not expired")
+        require(today>=date.fromisoformat(e["call_due"]) and today>date.fromisoformat(r["petition_due"]),"call period not expired")
+        if today==date.fromisoformat(e["call_due"]):require(p.get("same_day_call_window_closed") is True,"coordinator must confirm actual call window closed")
         require(not any(q["panel"]=="pending" for q in r["petitions"].values()),"panel petition pending")
         pending=[q for q in r["petitions"].values() if q["en_banc"]=="pending"]
         if pending:
