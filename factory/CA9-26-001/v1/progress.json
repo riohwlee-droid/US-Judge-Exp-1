@@ -144,13 +144,13 @@
       "id": "CA9-26-001-MSJ",
       "path": "records/CA9-26-001/v1/MSJ.md",
       "pages": 10,
-      "words": 1535
+      "words": 1627
     },
     {
       "id": "CA9-26-001-OPP",
       "path": "records/CA9-26-001/v1/OPP.md",
       "pages": 9,
-      "words": 1444
+      "words": 1586
     },
     {
       "id": "CA9-26-001-REPL",
@@ -162,19 +162,19 @@
       "id": "CA9-26-001-ORDER",
       "path": "records/CA9-26-001/v1/ORDER.md",
       "pages": 8,
-      "words": 1353
+      "words": 1487
     },
     {
       "id": "CA9-26-001-ER1",
       "path": "records/CA9-26-001/v1/ER1.md",
       "pages": 9,
-      "words": 1466
+      "words": 1600
     },
     {
       "id": "CA9-26-001-ER2",
       "path": "records/CA9-26-001/v1/ER2.md",
       "pages": 181,
-      "words": 23725
+      "words": 23959
     },
     {
       "id": "CA9-26-001-IDX",
@@ -186,13 +186,13 @@
       "id": "CA9-26-001-OPEN",
       "path": "records/CA9-26-001/v1/OPEN.md",
       "pages": 16,
-      "words": 1720
+      "words": 1963
     },
     {
       "id": "CA9-26-001-ANSWER",
       "path": "records/CA9-26-001/v1/ANSWER.md",
       "pages": 16,
-      "words": 1557
+      "words": 1775
     },
     {
       "id": "CA9-26-001-REPLY",
@@ -220,6 +220,10 @@
     "source_commit": "efe1b2f66bad0bd8abd7e5f5f01957434db44aaf",
     "edit_count": 25,
     "record_reference_count": 80,
-    "scope": "all original pages reconstructed from validated excerpts and appellate originals; targeted substantive checks; not a full independent semantic certification"
+    "scope": "all original pages reconstructed from validated excerpts and appellate originals; targeted substantive checks; not a full independent semantic certification",
+    "legal_authorities": 13,
+    "legal_occurrences": 61,
+    "original_documents_audited": 30,
+    "status": "citation_inventory_complete_treatment_pending"
   }
 }

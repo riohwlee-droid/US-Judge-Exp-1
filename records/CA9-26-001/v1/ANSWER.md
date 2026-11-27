@@ -22,6 +22,10 @@ Nassar — 9, 14
 Reeves — 11, 14
 Tolan — 9, 13
 Federal Rule of Civil Procedure 56(a) — 9
+McDonnell Douglas Corp. v. Green — 9
+Dawson v. Entek International — 9
+Curley v. City of North Las Vegas — 10
+Poland v. Chertoff — 14
 
 <!-- PAGE 4 -->
 JURISDICTION AND ISSUE
@@ -47,10 +51,13 @@ Appellant mistakes possible imperfections in the investigation for sufficient ev
 ARGUMENT — I. THE GOVERNING STANDARDS
 University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013) [[AUTH:NASSAR:P1]]. The record must permit a finding that the discharge would not have occurred absent the protected opposition. Tolan v. Cotton, 572 U.S. 650, 656–57 (2014) [[AUTH:TOLAN:P1]]. The Court credits the nonmovant's evidence and reasonable inferences without weighing testimony, but need not accept speculation or deem every disputed matter material. Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13 [[AUTH:KAMA:P1]]. Kama involved a federal employee and an independent noncooperation rationale. Its evidentiary analysis of pretext is relevant here, while the private-sector causation requirement is governed by Nassar. Timing may contribute to pretext and must be evaluated with independent evidence and the actual reason for the adverse action. Appellee does not contend that timing is irrelevant or that direct evidence is required. Its contention is that the evidence combined is insufficient to support the necessary causal finding.
 The summary judgment standard derives from Fed. R. Civ. P. 56(a) [[AUTH:FRCP56:P1]].
+The employer's burden under McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973) [[AUTH:MCD:P1]] is one of production. Once a legitimate reason is articulated, Appellant must identify evidence supporting the inference of pretext and the necessary causal relationship.
+In Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011) [[AUTH:DAWSON:P1]], the employer expressly referred to the protected conduct at termination and the interval was two days. Neither fact is present in the same form here; the significance of the April review must be assessed on this record.
 
 <!-- PAGE 10 -->
 II. THE INDIVIDUAL EXTENSION HAD A DOCUMENTED BASIS
 The April 12 request identified the earlier coaching note and concern about recurrence. 2-ER-90. The coaching was documented months before the complaint and concerned the same requirement. 2-ER-86. A preliminary flag can justify further review without already being a confirmed violation. Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13 [[AUTH:KAMA:P1]]. The absence of a written precomplaint individual review plan does not refute the stated reason. The manager had an operational basis for investigating recurrence, and the independent initial review was not generated in response to the complaint. Appellant points to the unequal scope but identifies no policy prescribing equal windows, or contemporaneous evidence that the stated concern was knowingly fabricated.
+Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014) [[AUTH:CURLEY:P1]], an ADA case, illustrates the relevance of independent information discovered during an investigation. Here the historical defects were actually found and corrected, and the earlier coaching supplied a documented operational reason.
 
 <!-- PAGE 11 -->
 III. THE CORRECTED FILE IS CONSISTENT WITH THE RECOMMENDATION
@@ -67,6 +74,7 @@ Lorne recalled circumstances consistent with the claimed approvals but could not
 <!-- PAGE 14 -->
 VI. THE WHOLE RECORD SUPPORTS THE INDEPENDENT EXPLANATION
 HR asked for comparison and correction, and the COO understood the limits of the corrected report. 2-ER-167, 2-ER-169, 2-ER-170. The order considered the selection, comparison, disputed authorization and approval together. 1-ER-6, 1-ER-7, 1-ER-8. Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000) [[AUTH:REEVES:P1]]. The review is not an automatic insulation from an improper recommendation. It is evidence of the basis actually stated and considered. University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013) [[AUTH:NASSAR:P1]]. Appellant's alternative causal account cannot rest merely on a manager's opportunity to retaliate and the possibility that a different personnel process would have produced a different outcome. The actual independent reasons are supported by contemporaneous evidence.
+Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) [[AUTH:POLAND:P1]] does not impute bias merely because a manager supplied information. Appellee disputes the existence of retaliatory bias and the causal dependence of discharge on any such bias, and relies on the contemporaneous corrected record and review.
 
 <!-- PAGE 15 -->
 CONCLUSION

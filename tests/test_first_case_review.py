@@ -1,0 +1,13 @@
+import unittest
+from scripts.audit_first_case import audit
+class FullPageAudit(unittest.TestCase):
+    def test_all_actual_pages_and_citation_anchors(self):
+        a=audit()
+        self.assertEqual(a["total_pages"],430)
+        self.assertEqual(a["original_pages"],233)
+        self.assertEqual(a["excerpt_pages"],190)
+        self.assertEqual(a["record_cite_page_occurrences"],80)
+        self.assertGreater(a["legal_occurrences"],30)
+        self.assertFalse(a["unmapped_common_reporter_or_short_citations"])
+        self.assertFalse(a["release_ready"])
+        print("Full-page review summary:",{k:v for k,v in a.items() if k not in {"file_sha256","material_blockers"}})

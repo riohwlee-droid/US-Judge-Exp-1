@@ -1326,7 +1326,7 @@
           "heading": "CERTIFICATES"
         }
       },
-      "body_words_reviewed": 1720
+      "body_words_reviewed": 1963
     },
     {
       "id": "CA9-26-001-ANSWER",
@@ -1364,7 +1364,7 @@
           "heading": "CERTIFICATES"
         }
       },
-      "body_words_reviewed": 1557
+      "body_words_reviewed": 1775
     },
     {
       "id": "CA9-26-001-REPLY",
@@ -4394,6 +4394,118 @@
           "proposition": "Summary judgment requires no genuine material dispute and entitlement to judgment as a matter of law."
         }
       ]
+    },
+    {
+      "id": "MCD",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
+      "url": "https://www.law.cornell.edu/supremecourt/text/411/792",
+      "court": "scotus",
+      "decided_at": "1973-05-14",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/MCD.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "CourtListener citation lookup job 6c6e7672, cluster 108786; original opinion language checked. Proposition and scope only; subsequent-treatment clearance pending.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Citation identity and original passage; later-treatment candidate review remains incomplete.",
+        "checked_at": "2026-11-27",
+        "method": "CourtListener lookup; public opinion text; Kama discusses Dawson and Curley."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "802",
+          "quote": "articulate some legitimate, nondiscriminatory reason for the employee's rejection",
+          "proposition": "Burden of production shifts after prima facie case; final burden remains plaintiff's."
+        }
+      ]
+    },
+    {
+      "id": "DAWSON",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011)",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2011/01/10/09-35844.pdf",
+      "court": "ca9",
+      "decided_at": "2011-01-10",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/DAWSON.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "CourtListener citation lookup job 6c6e7672, cluster 182530; original opinion language checked. Proposition and scope only; subsequent-treatment clearance pending.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Citation identity and original passage; later-treatment candidate review remains incomplete.",
+        "checked_at": "2026-11-27",
+        "method": "CourtListener lookup; public opinion text; Kama discusses Dawson and Curley."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "937",
+          "quote": "temporal proximity can by itself constitute sufficient circumstantial evidence of retaliation",
+          "proposition": "Close timing may support pretext depending on circumstances; pre-Nassar, no replacement for but-for causation."
+        }
+      ]
+    },
+    {
+      "id": "CURLEY",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014)",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2014/12/02/12-16228.pdf",
+      "court": "ca9",
+      "decided_at": "2014-12-02",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/CURLEY.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "CourtListener citation lookup job 6c6e7672, cluster 2756584; original opinion language checked. Proposition and scope only; subsequent-treatment clearance pending.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Citation identity and original passage; later-treatment candidate review remains incomplete.",
+        "checked_at": "2026-11-27",
+        "method": "CourtListener lookup; public opinion text; Kama discusses Dawson and Curley."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "634",
+          "quote": "the new information revealed by the City’s investigation defeats any causal inference",
+          "proposition": "An independent intervening reason can undermine the inference from timing; ADA case, not a categorical rule."
+        }
+      ]
+    },
+    {
+      "id": "POLAND",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007)",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2007/07/20/0535508.pdf",
+      "court": "ca9",
+      "decided_at": "2007-07-20",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/POLAND.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "CourtListener citation lookup job 6c6e7672, cluster 1426978; original opinion language checked. Proposition and scope only; subsequent-treatment clearance pending.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Citation identity and original passage; later-treatment candidate review remains incomplete.",
+        "checked_at": "2026-11-27",
+        "method": "CourtListener lookup; public opinion text; Kama discusses Dawson and Curley."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "1182",
+          "quote": "the biased subordinate influenced or was involved in the decision or decisionmaking process",
+          "proposition": "Subordinate bias may be imputed where the supposedly independent decision was not independent; causation and actual bias must be proven."
+        }
+      ]
     }
   ],
   "arguments": [
@@ -4474,6 +4586,13 @@
           "use": "support",
           "claimed_weight": "text",
           "analysis": "Rule 56(a) governs review of the district court's summary judgment."
+        },
+        {
+          "authority_id": "MCD",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "The burden-shifting framework, McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973), does not require the employee at summary judgment to persuade the court that the employer's rationale is false; the question is whether the evidence permits the jury to do so and find the ultimate causal fact."
         }
       ]
     },
@@ -4634,6 +4753,20 @@
           "use": "distinguish",
           "claimed_weight": "binding",
           "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation."
+        },
+        {
+          "authority_id": "DAWSON",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011) illustrates that timing together with other evidence of retaliatory motive can permit trial. Here the short interval is from notice to the challenged selection, not from notice to the discharge; Appellant relies on the relationship of that selection to the final action."
+        },
+        {
+          "authority_id": "CURLEY",
+          "pin_id": "P1",
+          "use": "distinguish",
+          "claimed_weight": "binding",
+          "analysis": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014) involved genuinely intervening information from an investigation; the present dispute concerns whether the individual decision to expand the review itself was influenced by the complaint. Appellant does not contend that the resulting entries were fabricated."
         }
       ]
     },
@@ -4665,6 +4798,13 @@
           "use": "support",
           "claimed_weight": "binding",
           "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability."
+        },
+        {
+          "authority_id": "POLAND",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) recognizes that an independent decisionmaker's involvement is not dispositive if the subordinate's bias influenced the decision or process. Appellant must still prove the bias and the necessary causal connection; the contention is that the manager's role is material evidence on this record."
         }
       ]
     },
@@ -4704,6 +4844,20 @@
           "use": "support",
           "claimed_weight": "text",
           "analysis": "Rule 56(a) governs review of the district court's summary judgment."
+        },
+        {
+          "authority_id": "MCD",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "The employer's burden under McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973) is one of production. Once a legitimate reason is articulated, Appellant must identify evidence supporting the inference of pretext and the necessary causal relationship."
+        },
+        {
+          "authority_id": "DAWSON",
+          "pin_id": "P1",
+          "use": "distinguish",
+          "claimed_weight": "binding",
+          "analysis": "In Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011), the employer expressly referred to the protected conduct at termination and the interval was two days. Neither fact is present in the same form here; the significance of the April review must be assessed on this record."
         }
       ]
     },
@@ -4731,6 +4885,13 @@
           "use": "support",
           "claimed_weight": "binding",
           "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation."
+        },
+        {
+          "authority_id": "CURLEY",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014), an ADA case, illustrates the relevance of independent information discovered during an investigation. Here the historical defects were actually found and corrected, and the earlier coaching supplied a documented operational reason."
         }
       ]
     },
@@ -4874,6 +5035,13 @@
           "use": "support",
           "claimed_weight": "binding",
           "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        },
+        {
+          "authority_id": "POLAND",
+          "pin_id": "P1",
+          "use": "distinguish",
+          "claimed_weight": "binding",
+          "analysis": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) does not impute bias merely because a manager supplied information. Appellee disputes the existence of retaliatory bias and the causal dependence of discharge on any such bias, and relies on the contemporaneous corrected record and review."
         }
       ]
     },
@@ -5163,6 +5331,94 @@
       "use": "support",
       "claimed_weight": "text",
       "analysis": "Rule 56(a) governs the sufficiency of the summary judgment record."
+    },
+    {
+      "id": "LU-19",
+      "document_id": "CA9-26-001-MSJ",
+      "page": 2,
+      "quote": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
+      "authority_id": "MCD",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The parties may analyze circumstantial evidence through the McDonnell Douglas burden-shifting framework, McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973); the employer's intermediate obligation is to produce a legitimate reason, not to assume the ultimate burden of persuasion."
+    },
+    {
+      "id": "LU-20",
+      "document_id": "CA9-26-001-OPP",
+      "page": 2,
+      "quote": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
+      "authority_id": "MCD",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Under McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973), once the employer articulates its legitimate explanation, the plaintiff has an opportunity to show pretext; the ultimate burden remains hers and the summary judgment question remains whether a reasonable jury could find causation."
+    },
+    {
+      "id": "LU-21",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 3,
+      "quote": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
+      "authority_id": "MCD",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The Court applies the familiar allocation of evidentiary burdens in McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973) without transferring the ultimate burden of persuasion to Defendant."
+    },
+    {
+      "id": "LU-22",
+      "document_id": "CA9-26-001-OPP",
+      "page": 8,
+      "quote": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011)",
+      "authority_id": "DAWSON",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011) recognizes that particularly close timing can support pretext; the record here adds evidence of the individual scope selection and comparator treatment. Nassar remains controlling on ultimate causation."
+    },
+    {
+      "id": "LU-23",
+      "document_id": "CA9-26-001-MSJ",
+      "page": 7,
+      "quote": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014)",
+      "authority_id": "CURLEY",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014) illustrates, in the ADA context, why newly discovered independent reasons can weaken an inference based on timing; Defendant relies on the actual corrected release records, not a categorical rule."
+    },
+    {
+      "id": "LU-24",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 5,
+      "quote": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014)",
+      "authority_id": "CURLEY",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "The Court considers the illustration in Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014) that a genuinely independent investigation may weaken the inference from timing. It does not hold that discovery of actual defects always forecloses evidence that the investigation itself was retaliatorily directed."
+    },
+    {
+      "id": "LU-25",
+      "document_id": "CA9-26-001-OPP",
+      "page": 8,
+      "quote": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007)",
+      "authority_id": "POLAND",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) recognizes the potential attribution of a subordinate's bias where a supposedly independent decision is influenced by that subordinate. Plaintiff relies on the manager's selection and recommendation, not mere formal involvement; the ultimate private-sector causal standard remains Nassar."
+    },
+    {
+      "id": "LU-26",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 7,
+      "quote": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007)",
+      "authority_id": "POLAND",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) recognizes the relevance of a biased subordinate's influence. The Court does not adopt a categorical independence rule and assesses the sufficiency of evidence of retaliatory motive and causation on the whole record."
     }
   ],
   "timeliness_review": {
@@ -5171,17 +5427,941 @@
   },
   "reviews": [],
   "unresolved_blockers": [
-    "Bounded later-citation searches started; direct history, negative treatment and full relevant candidate review remain incomplete",
-    "Complete occurrence audit and review of every material factual assertion not yet certified",
-    "Actual PDF pagination, covers and formal filing compliance remain pending",
-    "Player start date and legal cutoff not selected"
+    "Authority direct history and proposition-specific subsequent treatment incomplete; named candidates require review",
+    "Literal citation inventory built; complete semantic coverage and independent adversarial review not certified",
+    "Formal filing format and physical PDF pagination (including ER covers) not yet validated",
+    "Player setup and final campaign legal cutoff not selected"
   ],
   "research": {
     "schema_version": 1,
     "cutoff": "2026-11-27",
     "authority_reviews": [],
-    "document_audits": [],
-    "issue_searches": []
+    "document_audits": [
+      {
+        "id": "CA9-26-001-TD",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-COM",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-ANS",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-SCHED",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-POL",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-REV",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-AUD",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-LOG",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-MDEP",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-SDEP",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-ADEP",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-HDEP",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-TERM",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-MSJ",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": [
+          {
+            "id": "O1",
+            "page": 2,
+            "offset": 96,
+            "text": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+            "authority_id": "NASSAR",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O2",
+            "page": 2,
+            "offset": 522,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOLAN",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O3",
+            "page": 2,
+            "offset": 1069,
+            "text": "Fed. R. Civ. P. 56(a)",
+            "authority_id": "FRCP56",
+            "pin_id": "P1",
+            "form": "rule"
+          },
+          {
+            "id": "O4",
+            "page": 2,
+            "offset": 1216,
+            "text": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
+            "authority_id": "MCD",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O5",
+            "page": 7,
+            "offset": 211,
+            "text": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+            "authority_id": "KAMA",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O6",
+            "page": 7,
+            "offset": 1140,
+            "text": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014)",
+            "authority_id": "CURLEY",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O7",
+            "page": 9,
+            "offset": 498,
+            "text": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+            "authority_id": "REEVES",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-26-001-COMP",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-WDEP",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-CDEP",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-WARN",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-EEOC",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-OPP",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": [
+          {
+            "id": "O1",
+            "page": 2,
+            "offset": 81,
+            "text": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+            "authority_id": "NASSAR",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O2",
+            "page": 2,
+            "offset": 476,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOLAN",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O3",
+            "page": 2,
+            "offset": 1084,
+            "text": "Fed. R. Civ. P. 56(a)",
+            "authority_id": "FRCP56",
+            "pin_id": "P1",
+            "form": "rule"
+          },
+          {
+            "id": "O4",
+            "page": 2,
+            "offset": 1132,
+            "text": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
+            "authority_id": "MCD",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O5",
+            "page": 8,
+            "offset": 51,
+            "text": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+            "authority_id": "KAMA",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O6",
+            "page": 8,
+            "offset": 634,
+            "text": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+            "authority_id": "REEVES",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O7",
+            "page": 8,
+            "offset": 1096,
+            "text": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011)",
+            "authority_id": "DAWSON",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O8",
+            "page": 8,
+            "offset": 1383,
+            "text": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007)",
+            "authority_id": "POLAND",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-26-001-REPL",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": [
+          {
+            "id": "O1",
+            "page": 2,
+            "offset": 76,
+            "text": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+            "authority_id": "NASSAR",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O2",
+            "page": 4,
+            "offset": 80,
+            "text": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+            "authority_id": "KAMA",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O3",
+            "page": 4,
+            "offset": 701,
+            "text": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+            "authority_id": "REEVES",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-26-001-HEAR",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-ORDER",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": [
+          {
+            "id": "O1",
+            "page": 3,
+            "offset": 199,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOLAN",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O2",
+            "page": 3,
+            "offset": 524,
+            "text": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+            "authority_id": "NASSAR",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O3",
+            "page": 3,
+            "offset": 1080,
+            "text": "Fed. R. Civ. P. 56(a)",
+            "authority_id": "FRCP56",
+            "pin_id": "P1",
+            "form": "rule"
+          },
+          {
+            "id": "O4",
+            "page": 3,
+            "offset": 1190,
+            "text": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
+            "authority_id": "MCD",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O5",
+            "page": 5,
+            "offset": 510,
+            "text": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+            "authority_id": "KAMA",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O6",
+            "page": 5,
+            "offset": 1347,
+            "text": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014)",
+            "authority_id": "CURLEY",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O7",
+            "page": 7,
+            "offset": 526,
+            "text": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+            "authority_id": "REEVES",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O8",
+            "page": 7,
+            "offset": 1331,
+            "text": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007)",
+            "authority_id": "POLAND",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-26-001-JUD",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-NOA",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-AD",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-BRORD",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-26-001-OPEN",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": [
+          {
+            "id": "O1",
+            "page": 4,
+            "offset": 73,
+            "text": "28 U.S.C. § 1331",
+            "authority_id": "FEDQ",
+            "pin_id": "P1",
+            "form": "statute"
+          },
+          {
+            "id": "O2",
+            "page": 4,
+            "offset": 141,
+            "text": "42 U.S.C. § 2000e-3(a)",
+            "authority_id": "TITLEVII",
+            "pin_id": "P1",
+            "form": "statute"
+          },
+          {
+            "id": "O3",
+            "page": 4,
+            "offset": 220,
+            "text": "28 U.S.C. § 1291",
+            "authority_id": "JUR",
+            "pin_id": "P1",
+            "form": "statute"
+          },
+          {
+            "id": "O4",
+            "page": 4,
+            "offset": 472,
+            "text": "Fed. R. App. P. 4(a)(1)(A)",
+            "authority_id": "FRAP4",
+            "pin_id": "P1",
+            "form": "rule"
+          },
+          {
+            "id": "O5",
+            "page": 9,
+            "offset": 198,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOLAN",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O6",
+            "page": 9,
+            "offset": 312,
+            "text": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+            "authority_id": "NASSAR",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O7",
+            "page": 9,
+            "offset": 854,
+            "text": "Fed. R. Civ. P. 56(a)",
+            "authority_id": "FRCP56",
+            "pin_id": "P1",
+            "form": "rule"
+          },
+          {
+            "id": "O8",
+            "page": 9,
+            "offset": 927,
+            "text": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
+            "authority_id": "MCD",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O9",
+            "page": 10,
+            "offset": 52,
+            "text": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+            "authority_id": "NASSAR",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O10",
+            "page": 11,
+            "offset": 605,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOLAN",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O11",
+            "page": 12,
+            "offset": 604,
+            "text": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+            "authority_id": "REEVES",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O12",
+            "page": 13,
+            "offset": 67,
+            "text": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+            "authority_id": "KAMA",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O13",
+            "page": 13,
+            "offset": 1092,
+            "text": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011)",
+            "authority_id": "DAWSON",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O14",
+            "page": 13,
+            "offset": 1447,
+            "text": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014)",
+            "authority_id": "CURLEY",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O15",
+            "page": 14,
+            "offset": 495,
+            "text": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+            "authority_id": "REEVES",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O16",
+            "page": 14,
+            "offset": 923,
+            "text": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007)",
+            "authority_id": "POLAND",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-26-001-ANSWER",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": [
+          {
+            "id": "O1",
+            "page": 9,
+            "offset": 38,
+            "text": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+            "authority_id": "NASSAR",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O2",
+            "page": 9,
+            "offset": 250,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOLAN",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O3",
+            "page": 9,
+            "offset": 483,
+            "text": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+            "authority_id": "KAMA",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O4",
+            "page": 9,
+            "offset": 1129,
+            "text": "Fed. R. Civ. P. 56(a)",
+            "authority_id": "FRCP56",
+            "pin_id": "P1",
+            "form": "rule"
+          },
+          {
+            "id": "O5",
+            "page": 9,
+            "offset": 1199,
+            "text": "McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973)",
+            "authority_id": "MCD",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O6",
+            "page": 9,
+            "offset": 1451,
+            "text": "Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011)",
+            "authority_id": "DAWSON",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O7",
+            "page": 10,
+            "offset": 341,
+            "text": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+            "authority_id": "KAMA",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O8",
+            "page": 10,
+            "offset": 838,
+            "text": "Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014)",
+            "authority_id": "CURLEY",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O9",
+            "page": 11,
+            "offset": 322,
+            "text": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+            "authority_id": "REEVES",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O10",
+            "page": 12,
+            "offset": 355,
+            "text": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+            "authority_id": "KAMA",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O11",
+            "page": 13,
+            "offset": 272,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOLAN",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O12",
+            "page": 14,
+            "offset": 305,
+            "text": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+            "authority_id": "REEVES",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O13",
+            "page": 14,
+            "offset": 530,
+            "text": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+            "authority_id": "NASSAR",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O14",
+            "page": 14,
+            "offset": 901,
+            "text": "Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007)",
+            "authority_id": "POLAND",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-26-001-REPLY",
+        "reviewer": "ChatGPT occurrence inventory",
+        "method": "Exact conventional citation immediately preceding each tag; all original pages scanned",
+        "scope": "All pages; untagged short/paraphrased cites still require semantic review",
+        "status": "pending",
+        "unresolved": [
+          "Semantic review and proposition treatment not fully certified"
+        ],
+        "occurrences": [
+          {
+            "id": "O1",
+            "page": 4,
+            "offset": 243,
+            "text": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+            "authority_id": "KAMA",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O2",
+            "page": 4,
+            "offset": 517,
+            "text": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+            "authority_id": "NASSAR",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O3",
+            "page": 5,
+            "offset": 394,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOLAN",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O4",
+            "page": 6,
+            "offset": 305,
+            "text": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+            "authority_id": "REEVES",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "O5",
+            "page": 6,
+            "offset": 515,
+            "text": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+            "authority_id": "NASSAR",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      }
+    ],
+    "issue_searches": [
+      {
+        "issue_id": "I1",
+        "lane": "appellant",
+        "through": "2026-11-27",
+        "provider": "CourtListener and public opinion searches",
+        "query": "Ninth Circuit Title VII retaliation selective enforcement pretext Dawson Miller; Poland subordinate manager influence; 530 U.S. 133 AND pretext (22fc8ac7)",
+        "limitations": "Bounded queries, no exhaustive citator; further review of 2026 Brown and remaining hits",
+        "findings": "Dawson and Poland passages identified; Reeves general evidentiary rule; Brown potential comparator/discipline analogue under status discrimination.",
+        "unresolved": [
+          "Full subsequent history and later treatment of cited cases"
+        ]
+      },
+      {
+        "issue_id": "I1",
+        "lane": "appellee",
+        "through": "2026-11-27",
+        "provider": "CourtListener and public opinion searches",
+        "query": "107 F.4th 1054 AND pretext (7c2b6491); Curley 772 F.3d 629 634 independent investigation",
+        "limitations": "Exact reporter query yielded one result, incomplete citation index; official opinion and subsequent public opinions consulted.",
+        "findings": "Kama and Curley fact-specific independent rationale; distinguish federal/ADA setting from private Title VII.",
+        "unresolved": [
+          "Full subsequent history and later treatment of cited cases"
+        ]
+      },
+      {
+        "issue_id": "I1",
+        "lane": "adverse",
+        "through": "2026-11-27",
+        "provider": "CourtListener and public opinion searches",
+        "query": "570 U.S. 338 AND retaliation (75850c14); 572 U.S. 650 AND summary judgment (37d735a9); name plus overruled/abrogated/superseded; Kama rehearing/certiorari",
+        "limitations": "First page only and targeted negative searches; no comprehensive case history.",
+        "findings": "Babb distinct federal-sector statute; Zorn continues nonmovant framing; Mooney is FCA; no blanket conclusion about all treatment.",
+        "unresolved": [
+          "Unreviewed material candidate set; direct-history and negative treatment verification"
+        ]
+      }
+    ]
   },
   "brief_record_refs": [
     {

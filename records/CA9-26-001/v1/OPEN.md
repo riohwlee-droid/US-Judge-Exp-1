@@ -28,6 +28,10 @@ Title VII opposition provision — 4
 Federal question and final judgment jurisdiction — 4
 Appellate filing time — 4
 Federal Rule of Civil Procedure 56(a) — 9
+McDonnell Douglas Corp. v. Green — 9
+Dawson v. Entek International — 13
+Curley v. City of North Las Vegas — 13
+Poland v. Chertoff — 14
 
 <!-- PAGE 4 -->
 JURISDICTIONAL STATEMENT
@@ -55,6 +59,7 @@ The order identifies the correct ultimate causation standard but removes a reaso
 STANDARD OF REVIEW
 Review of summary judgment is de novo. The Court must credit the nonmovant's evidence and reasonable inferences rather than resolve genuine material factual disputes against her. Tolan v. Cotton, 572 U.S. 650, 656–57 (2014) [[AUTH:TOLAN:P1]]. Materiality is determined by the substantive law: University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013) [[AUTH:NASSAR:P1]] requires proof that protected activity made the necessary difference to the adverse action. Appellant accepts that ultimate burden. At this stage the Court asks whether a reasonable jury could draw that inference, not whether the employer's alternative explanation appears more persuasive. Judgment for an employer remains proper if no reasonable jury could find the required causal relationship.
 The summary judgment standard derives from Fed. R. Civ. P. 56(a) [[AUTH:FRCP56:P1]].
+The burden-shifting framework, McDonnell Douglas Corp. v. Green, 411 U.S. 792, 802–04 (1973) [[AUTH:MCD:P1]], does not require the employee at summary judgment to persuade the court that the employer's rationale is false; the question is whether the evidence permits the jury to do so and find the ultimate causal fact.
 
 <!-- PAGE 10 -->
 ARGUMENT — I. THE COUNTERFACTUAL CONCERNS DISCHARGE
@@ -71,10 +76,13 @@ The field history does not establish complete notes for the disputed loads. 2-ER
 <!-- PAGE 13 -->
 IV. THE COMPARATOR AND TIMING EVIDENCE MUST BE CONSIDERED TOGETHER
 Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13 [[AUTH:KAMA:P1]]. That decision assessed a federal employee's retaliation claim, a 56-day interval, and independently documented noncooperation. Appellant relies on its evidentiary treatment of pretext, not any assumption that federal- and private-sector causation standards are identical. It did not make temporal proximity categorically irrelevant. Here the individual review followed notice of the complaint by three days. The customer problem involved Bellford, whose later lead confirmation was accepted without a signed statement. 2-ER-88, 2-ER-90, 2-ER-133. His documentation remained incomplete and the destination field was pending at release. 2-ER-104. Maren's earlier coaching and the different specificity of the accounts are relevant distinctions. A jury could consider their significance alongside the selective investigation and different inquiry into permission. Appellant does not contend that identical jobs alone compel identical sanctions.
+Dawson v. Entek International, 630 F.3d 928, 937 (9th Cir. 2011) [[AUTH:DAWSON:P1]] illustrates that timing together with other evidence of retaliatory motive can permit trial. Here the short interval is from notice to the challenged selection, not from notice to the discharge; Appellant relies on the relationship of that selection to the final action.
+Curley v. City of North Las Vegas, 772 F.3d 629, 634 (9th Cir. 2014) [[AUTH:CURLEY:P1]] involved genuinely intervening information from an investigation; the present dispute concerns whether the individual decision to expand the review itself was influenced by the complaint. Appellant does not contend that the resulting entries were fabricated.
 
 <!-- PAGE 14 -->
 V. THE COO'S REVIEW DOES NOT MAKE THE MANAGER'S MOTIVE IMMATERIAL
 The manager supplied the operational recommendation. The COO considered the corrected file but did not independently interview Lorne or rerun the audit. 2-ER-169, 2-ER-170. HR asked about the distinction between absence of permission and absence of a record and about comparable treatment. 2-ER-167. Those documents are substantial evidence for Appellee; they also demonstrate that the questions were not independently resolved. Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000) [[AUTH:REEVES:P1]]. The approving official's involvement does not categorically answer whether the manager's selection and recommendation made the necessary difference. A jury might accept the independent rationale in full. Because it could reasonably draw the opposite causal inference from the combined circumstances, the order should not foreclose trial.
+Poland v. Chertoff, 494 F.3d 1174, 1182 (9th Cir. 2007) [[AUTH:POLAND:P1]] recognizes that an independent decisionmaker's involvement is not dispositive if the subordinate's bias influenced the decision or process. Appellant must still prove the bias and the necessary causal connection; the contention is that the manager's role is material evidence on this record.
 
 <!-- PAGE 15 -->
 CONCLUSION
