@@ -102,6 +102,7 @@ A reasonable jury could find that the protected complaint was a but-for cause of
 <!-- PAGE 15 -->
 I. THE APPLICABLE STANDARD
 Plaintiff accepts the but-for standard articulated in University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013) [[AUTH:NASSAR:P1]]. A reasonable inference that the employee would not have been discharged absent retaliation satisfies the factual question at trial; it does not require Plaintiff to establish that no operational concern existed. The question today is whether that inference is available to a reasonable jury. Tolan v. Cotton, 572 U.S. 650, 656–57 (2014) [[AUTH:TOLAN:P1]]. A court may not select the employer's explanation because it considers it more convincing when the record supports a contrary reasonable inference. The company's proof of the existence of documentation defects does not by itself answer the distinct question whether those defects actually led to discharge absent the complaint. A decision can have multiple factual inputs and still depend on an unlawful one. Plaintiff does not seek a motivating-factor instruction or a reversal of the ultimate burden of persuasion.
+The procedural standard is Fed. R. Civ. P. 56(a) [[AUTH:FRCP56:P1]].
 
 <!-- PAGE 16 -->
 II. THE COMMON REVIEW AND THE SELECTIVE EXPANSION ARE DIFFERENT DECISIONS
@@ -125,7 +126,7 @@ The April 25 recommendation mentioned both disputed authorization and documentat
 
 <!-- PAGE 21 -->
 VII. PRETEXT MUST BE EVALUATED ON THE WHOLE RECORD
-Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13 [[AUTH:KAMA:P1]] does not establish that timing can never contribute to pretext, nor does Plaintiff rely on timing alone. The distinctive evidence here concerns a manager who was informed of the complaint, made the individualized review request shortly thereafter and supplied the recommendation that became the basis of discharge. The independent initial audit is relevant, but unlike a documented individual termination process already underway, it does not resolve the later choice. Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000) [[AUTH:REEVES:P1]] illustrates why evidence undermining an asserted explanation can support an inference of an unlawful motive while leaving the ultimate decision to the factfinder. Plaintiff does not treat an age-discrimination case as modifying the Title VII retaliation causation standard. She invokes the evidentiary reasoning in combination with the specific standard imposed by Nassar.
+Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13 [[AUTH:KAMA:P1]] concerns federal employment and does not establish that timing can never contribute to pretext, nor does Plaintiff rely on timing alone. The distinctive evidence here concerns a manager who was informed of the complaint, made the individualized review request shortly thereafter and supplied the recommendation that became the basis of discharge. The independent initial audit is relevant, but unlike a documented individual termination process already underway, it does not resolve the later choice. Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000) [[AUTH:REEVES:P1]] illustrates why evidence undermining an asserted explanation can support an inference of an unlawful motive while leaving the ultimate decision to the factfinder. Plaintiff does not treat an age-discrimination case as modifying the Title VII retaliation causation standard. She invokes the evidentiary reasoning in combination with the specific standard imposed by Nassar.
 
 <!-- PAGE 22 -->
 VIII. NO REQUEST TO TRY THE CASE ON THIS MOTION
@@ -484,6 +485,7 @@ Hearing June 11, 2026, 10:00 a.m., before Judge Rosa L. Vellum. Defendant moves 
 <!-- PAGE 61 -->
 MEMORANDUM — I. STANDARD AND QUESTION PRESENTED
 The substantive causation requirement is set by University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013) [[AUTH:NASSAR:P1]]. Plaintiff must establish that her protected conduct made the difference to the adverse action, rather than merely identifying an impermissible consideration that may have been present without affecting the result. On summary judgment the Court must not decide genuine material factual disputes against the nonmoving party. Tolan v. Cotton, 572 U.S. 650, 656–57 (2014) [[AUTH:TOLAN:P1]]. Defendant accepts that distinction and does not ask the Court to determine whether Maren or the lead has the more accurate memory. For this motion, assume the oral approval conversations occurred. The documents still show incomplete contemporaneous records. The relevant question is whether evidence permits a reasonable inference that the company would have retained her absent the complaint, not whether a different manager could have imposed a warning.
+The procedural standard is Fed. R. Civ. P. 56(a) [[AUTH:FRCP56:P1]].
 
 <!-- PAGE 62 -->
 II. THE CONTROL REQUIREMENT WAS KNOWN AND PREEXISTING
@@ -503,7 +505,7 @@ AQ-4182 lacks a complete timely reference. AQ-4311 contains a manual reference w
 
 <!-- PAGE 66 -->
 VI. TEMPORAL SEQUENCE DOES NOT ESTABLISH PRETEXT ON THIS RECORD
-The Court of Appeals has recognized that timing can be probative but held that timing alone was insufficient on the particular record before it in Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13 [[AUTH:KAMA:P1]]. Its reasoning requires attention to evidence of an independent basis for the action. Here the customer concern, common review, prior coaching and actual open entries are independent evidence, not solely a retrospective justification. Plaintiff cannot erase those facts by observing that her individual review was expanded after the complaint. Defendant does not urge a bright-line rule based on the number of days. Rather, it submits that the timing fits an ongoing operational review, and the other circumstances alleged do not materially undermine the explanation. A jury could disagree with the scope of a discretionary audit without reasonably finding that the protected complaint caused the resulting discharge.
+The Court of Appeals has recognized that timing can be probative but held that timing alone was insufficient on the particular record before it in Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13 [[AUTH:KAMA:P1]]. Its reasoning concerning pretext is relevant to a private-sector claim without treating the federal-sector statutory standard as identical. It requires attention to evidence of an independent basis for the action. Here the customer concern, common review, prior coaching and actual open entries are independent evidence, not solely a retrospective justification. Plaintiff cannot erase those facts by observing that her individual review was expanded after the complaint. Defendant does not urge a bright-line rule based on the number of days. Rather, it submits that the timing fits an ongoing operational review, and the other circumstances alleged do not materially undermine the explanation. A jury could disagree with the scope of a discretionary audit without reasonably finding that the protected complaint caused the resulting discharge.
 
 <!-- PAGE 67 -->
 VII. COMPARISON DOES NOT ESTABLISH EQUIVALENT CIRCUMSTANCES
@@ -1432,7 +1434,7 @@ Entered April 3, 2025. The Court has reviewed the joint case management statemen
 
 <!-- PAGE 164 -->
 SCHEDULE
-Initial disclosures have been exchanged. Nonexpert discovery shall be completed by December 19, 2025. The parties shall arrange the depositions of Maren, Holtwell, Fenmore, Bracken, Lorne and Bellford by mutual agreement within the discovery period. Expert disclosures are not anticipated; any party seeking expert discovery must first confer and promptly seek modification of the schedule. Dispositive motions shall be filed by May 4, 2026. Any opposition shall be filed by May 18, 2026; reply by May 26, 2026; hearing set for June 11, 2026 at 10:00 a.m. These dates are fixed for this simulated docket. Requests to modify the order must identify the specific deadline and grounds. No trial date is set at this time; if claims remain, the Court will set a pretrial conference.
+Initial disclosures have been exchanged. Nonexpert discovery shall be completed by December 19, 2025. The parties shall arrange the depositions of Maren, Holtwell, Fenmore, Bracken, Lorne and Bellford by mutual agreement within the discovery period. Expert disclosures are not anticipated; any party seeking expert discovery must first confer and promptly seek modification of the schedule. Dispositive motions shall be filed by May 4, 2026. Any opposition shall be filed by May 18, 2026; reply by May 26, 2026 (May 25 is Memorial Day); hearing set for June 11, 2026 at 10:00 a.m. These dates are fixed for this simulated docket. Requests to modify the order must identify the specific deadline and grounds. No trial date is set at this time; if claims remain, the Court will set a pretrial conference.
 
 <!-- PAGE 165 -->
 RECORD PRESERVATION AND PRESENTATION
@@ -1499,7 +1501,7 @@ Alina V. Serrick, counsel for Plaintiff Elena R. Maren, alleges as follows. This
 <!-- PAGE 172 -->
 PARTIES, JURISDICTION AND VENUE
 1. Plaintiff is an individual residing in Alameda County, California. She was employed at Defendant's Oakland facility from August 16, 2021, until May 17, 2024.
-2. Defendant is a California corporation operating a regional commercial freight coordination business. It employed more than fifteen employees during the relevant period and is an employer within the meaning of Title VII.
+2. Defendant is a California corporation operating a regional commercial freight coordination business. It was engaged in an industry affecting commerce and employed at least fifteen employees for each working day in at least twenty calendar weeks in the relevant calendar year or preceding calendar year and is an employer within the meaning of Title VII.
 3. The claim arises under federal law. This Court has subject-matter jurisdiction over the federal retaliation claim. Venue lies in this district because the challenged employment practice occurred at the Oakland facility and the relevant employment records are maintained in this district.
 4. Plaintiff filed an EEOC charge on July 12, 2024. She received a notice of right to sue on December 16, 2024. This action is brought within ninety days of receipt. Plaintiff alleges that the charge identified the complaint to human resources and the subsequent discharge.
 
@@ -1553,7 +1555,7 @@ CERTIFICATE OF SERVICE: I certify service through the simulated electronic filin
 UNITED STATES DISTRICT COURT, NORTHERN DISTRICT OF CALIFORNIA
 Maren v. Aster Quay Logistics, Inc. — SIM-NDCA-25-001
 DISTRICT DOCKET — certified through September 3, 2026
-Fictional proceeding; numbered rows identify retained record items and attachments, not asserted real PACER docket entries.
+Fictional proceeding; numbered rows identify simulated district docket entries and retained attachments, not real PACER entries. Exhibits A–I are attachments to entry 13; Plaintiff Exhibits 1–5 are attachments to entry 19.
 
 1. 2025-02-03 — Complaint for damages and equitable relief.
 Record ID: CA9-26-001-COM | filed | complaint
@@ -1565,13 +1567,13 @@ Record ID: CA9-26-001-ANS | filed | answer
 Record ID: CA9-26-001-SCHED | filed | other_lower
 
 4. 2026-05-04 — Exhibit A — controlled release policy and revision history.
-Record ID: CA9-26-001-POL | filed | exhibit
+Record ID: CA9-26-001-POL | filed | exhibit | simulated attachment 13-1
 
 5. 2026-05-04 — Exhibit B — personnel review and prior discipline.
-Record ID: CA9-26-001-REV | filed | exhibit
+Record ID: CA9-26-001-REV | filed | exhibit | simulated attachment 13-2
 
 6. 2026-05-04 — Exhibit C — audit correspondence and change log.
-Record ID: CA9-26-001-AUD | filed | exhibit
+Record ID: CA9-26-001-AUD | filed | exhibit | simulated attachment 13-3
 
 <!-- PAGE 179 -->
 UNITED STATES DISTRICT COURT, NORTHERN DISTRICT OF CALIFORNIA
@@ -1580,22 +1582,22 @@ DISTRICT DOCKET — certified through September 3, 2026
 Fictional proceeding; numbered rows identify retained record items and attachments, not asserted real PACER docket entries.
 
 7. 2026-05-04 — Exhibit D — dispatch system and exception records.
-Record ID: CA9-26-001-LOG | filed | exhibit
+Record ID: CA9-26-001-LOG | filed | exhibit | simulated attachment 13-4
 
 8. 2026-05-04 — Exhibit E — deposition of Elena Maren.
-Record ID: CA9-26-001-MDEP | filed | deposition
+Record ID: CA9-26-001-MDEP | filed | deposition | simulated attachment 13-5
 
 9. 2026-05-04 — Exhibit F — deposition of Gavin Holtwell.
-Record ID: CA9-26-001-SDEP | filed | deposition
+Record ID: CA9-26-001-SDEP | filed | deposition | simulated attachment 13-6
 
 10. 2026-05-04 — Exhibit G — deposition of Derek Fenmore.
-Record ID: CA9-26-001-ADEP | filed | deposition
+Record ID: CA9-26-001-ADEP | filed | deposition | simulated attachment 13-7
 
 11. 2026-05-04 — Exhibit H — deposition of Nadia Bracken.
-Record ID: CA9-26-001-HDEP | filed | deposition
+Record ID: CA9-26-001-HDEP | filed | deposition | simulated attachment 13-8
 
 12. 2026-05-04 — Exhibit I — recommendation, HR review and termination.
-Record ID: CA9-26-001-TERM | filed | exhibit
+Record ID: CA9-26-001-TERM | filed | exhibit | simulated attachment 13-9
 
 <!-- PAGE 180 -->
 UNITED STATES DISTRICT COURT, NORTHERN DISTRICT OF CALIFORNIA
@@ -1607,19 +1609,19 @@ Fictional proceeding; numbered rows identify retained record items and attachmen
 Record ID: CA9-26-001-MSJ | filed | motion_summary_judgment
 
 14. 2026-05-18 — Plaintiff Exhibit 1 — internal complaint and HR correspondence.
-Record ID: CA9-26-001-COMP | filed | exhibit
+Record ID: CA9-26-001-COMP | filed | exhibit | simulated attachment 19-1
 
 15. 2026-05-18 — Plaintiff Exhibit 2 — deposition of Tessa Lorne.
-Record ID: CA9-26-001-WDEP | filed | deposition
+Record ID: CA9-26-001-WDEP | filed | deposition | simulated attachment 19-2
 
 16. 2026-05-18 — Plaintiff Exhibit 3 — deposition of Jules Bellford.
-Record ID: CA9-26-001-CDEP | filed | deposition
+Record ID: CA9-26-001-CDEP | filed | deposition | simulated attachment 19-3
 
 17. 2026-05-18 — Plaintiff Exhibit 4 — comparator discipline.
-Record ID: CA9-26-001-WARN | filed | exhibit
+Record ID: CA9-26-001-WARN | filed | exhibit | simulated attachment 19-4
 
 18. 2026-05-18 — Plaintiff Exhibit 5 — EEOC charge and right-to-sue notice.
-Record ID: CA9-26-001-EEOC | filed | exhibit
+Record ID: CA9-26-001-EEOC | filed | exhibit | simulated attachment 19-5
 
 <!-- PAGE 181 -->
 UNITED STATES DISTRICT COURT, NORTHERN DISTRICT OF CALIFORNIA

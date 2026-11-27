@@ -1326,7 +1326,7 @@
           "heading": "CERTIFICATES"
         }
       },
-      "body_words_reviewed": 1645
+      "body_words_reviewed": 1720
     },
     {
       "id": "CA9-26-001-ANSWER",
@@ -1364,7 +1364,7 @@
           "heading": "CERTIFICATES"
         }
       },
-      "body_words_reviewed": 1487
+      "body_words_reviewed": 1557
     },
     {
       "id": "CA9-26-001-REPLY",
@@ -1412,7 +1412,8 @@
       "court": "district",
       "filed_at": "2025-02-03T10:00:00-08:00",
       "docket_page": 1,
-      "entry_text": "1. 2025-02-03 — Complaint for damages and equitable relief."
+      "entry_text": "1. 2025-02-03 — Complaint for damages and equitable relief.",
+      "district_locator": "1"
     },
     {
       "id": "DK-D-2",
@@ -1420,7 +1421,8 @@
       "court": "district",
       "filed_at": "2025-02-24T10:00:00-08:00",
       "docket_page": 1,
-      "entry_text": "2. 2025-02-24 — Answer and affirmative defenses."
+      "entry_text": "2. 2025-02-24 — Answer and affirmative defenses.",
+      "district_locator": "2"
     },
     {
       "id": "DK-D-3",
@@ -1428,7 +1430,8 @@
       "court": "district",
       "filed_at": "2025-04-03T10:00:00-07:00",
       "docket_page": 1,
-      "entry_text": "3. 2025-04-03 — Scheduling and case management order."
+      "entry_text": "3. 2025-04-03 — Scheduling and case management order.",
+      "district_locator": "3"
     },
     {
       "id": "DK-D-4",
@@ -1436,7 +1439,8 @@
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
       "docket_page": 1,
-      "entry_text": "4. 2026-05-04 — Exhibit A — controlled release policy and revision history."
+      "entry_text": "4. 2026-05-04 — Exhibit A — controlled release policy and revision history.",
+      "district_locator": "13-1"
     },
     {
       "id": "DK-D-5",
@@ -1444,7 +1448,8 @@
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
       "docket_page": 1,
-      "entry_text": "5. 2026-05-04 — Exhibit B — personnel review and prior discipline."
+      "entry_text": "5. 2026-05-04 — Exhibit B — personnel review and prior discipline.",
+      "district_locator": "13-2"
     },
     {
       "id": "DK-D-6",
@@ -1452,7 +1457,8 @@
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
       "docket_page": 1,
-      "entry_text": "6. 2026-05-04 — Exhibit C — audit correspondence and change log."
+      "entry_text": "6. 2026-05-04 — Exhibit C — audit correspondence and change log.",
+      "district_locator": "13-3"
     },
     {
       "id": "DK-D-7",
@@ -1460,7 +1466,8 @@
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
       "docket_page": 2,
-      "entry_text": "7. 2026-05-04 — Exhibit D — dispatch system and exception records."
+      "entry_text": "7. 2026-05-04 — Exhibit D — dispatch system and exception records.",
+      "district_locator": "13-4"
     },
     {
       "id": "DK-D-8",
@@ -1468,7 +1475,8 @@
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
       "docket_page": 2,
-      "entry_text": "8. 2026-05-04 — Exhibit E — deposition of Elena Maren."
+      "entry_text": "8. 2026-05-04 — Exhibit E — deposition of Elena Maren.",
+      "district_locator": "13-5"
     },
     {
       "id": "DK-D-9",
@@ -1476,7 +1484,8 @@
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
       "docket_page": 2,
-      "entry_text": "9. 2026-05-04 — Exhibit F — deposition of Gavin Holtwell."
+      "entry_text": "9. 2026-05-04 — Exhibit F — deposition of Gavin Holtwell.",
+      "district_locator": "13-6"
     },
     {
       "id": "DK-D-10",
@@ -1484,7 +1493,8 @@
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
       "docket_page": 2,
-      "entry_text": "10. 2026-05-04 — Exhibit G — deposition of Derek Fenmore."
+      "entry_text": "10. 2026-05-04 — Exhibit G — deposition of Derek Fenmore.",
+      "district_locator": "13-7"
     },
     {
       "id": "DK-D-11",
@@ -1492,7 +1502,8 @@
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
       "docket_page": 2,
-      "entry_text": "11. 2026-05-04 — Exhibit H — deposition of Nadia Bracken."
+      "entry_text": "11. 2026-05-04 — Exhibit H — deposition of Nadia Bracken.",
+      "district_locator": "13-8"
     },
     {
       "id": "DK-D-12",
@@ -1500,7 +1511,8 @@
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
       "docket_page": 2,
-      "entry_text": "12. 2026-05-04 — Exhibit I — recommendation, HR review and termination."
+      "entry_text": "12. 2026-05-04 — Exhibit I — recommendation, HR review and termination.",
+      "district_locator": "13-9"
     },
     {
       "id": "DK-D-13",
@@ -1508,7 +1520,8 @@
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
       "docket_page": 3,
-      "entry_text": "13. 2026-05-04 — Defendant motion for summary judgment."
+      "entry_text": "13. 2026-05-04 — Defendant motion for summary judgment.",
+      "district_locator": "13"
     },
     {
       "id": "DK-D-14",
@@ -1516,7 +1529,8 @@
       "court": "district",
       "filed_at": "2026-05-18T10:00:00-07:00",
       "docket_page": 3,
-      "entry_text": "14. 2026-05-18 — Plaintiff Exhibit 1 — internal complaint and HR correspondence."
+      "entry_text": "14. 2026-05-18 — Plaintiff Exhibit 1 — internal complaint and HR correspondence.",
+      "district_locator": "19-1"
     },
     {
       "id": "DK-D-15",
@@ -1524,7 +1538,8 @@
       "court": "district",
       "filed_at": "2026-05-18T10:00:00-07:00",
       "docket_page": 3,
-      "entry_text": "15. 2026-05-18 — Plaintiff Exhibit 2 — deposition of Tessa Lorne."
+      "entry_text": "15. 2026-05-18 — Plaintiff Exhibit 2 — deposition of Tessa Lorne.",
+      "district_locator": "19-2"
     },
     {
       "id": "DK-D-16",
@@ -1532,7 +1547,8 @@
       "court": "district",
       "filed_at": "2026-05-18T10:00:00-07:00",
       "docket_page": 3,
-      "entry_text": "16. 2026-05-18 — Plaintiff Exhibit 3 — deposition of Jules Bellford."
+      "entry_text": "16. 2026-05-18 — Plaintiff Exhibit 3 — deposition of Jules Bellford.",
+      "district_locator": "19-3"
     },
     {
       "id": "DK-D-17",
@@ -1540,7 +1556,8 @@
       "court": "district",
       "filed_at": "2026-05-18T10:00:00-07:00",
       "docket_page": 3,
-      "entry_text": "17. 2026-05-18 — Plaintiff Exhibit 4 — comparator discipline."
+      "entry_text": "17. 2026-05-18 — Plaintiff Exhibit 4 — comparator discipline.",
+      "district_locator": "19-4"
     },
     {
       "id": "DK-D-18",
@@ -1548,7 +1565,8 @@
       "court": "district",
       "filed_at": "2026-05-18T10:00:00-07:00",
       "docket_page": 3,
-      "entry_text": "18. 2026-05-18 — Plaintiff Exhibit 5 — EEOC charge and right-to-sue notice."
+      "entry_text": "18. 2026-05-18 — Plaintiff Exhibit 5 — EEOC charge and right-to-sue notice.",
+      "district_locator": "19-5"
     },
     {
       "id": "DK-D-19",
@@ -1556,7 +1574,8 @@
       "court": "district",
       "filed_at": "2026-05-18T10:00:00-07:00",
       "docket_page": 4,
-      "entry_text": "19. 2026-05-18 — Plaintiff opposition to motion for summary judgment."
+      "entry_text": "19. 2026-05-18 — Plaintiff opposition to motion for summary judgment.",
+      "district_locator": "19"
     },
     {
       "id": "DK-D-20",
@@ -1564,7 +1583,8 @@
       "court": "district",
       "filed_at": "2026-05-26T10:00:00-07:00",
       "docket_page": 4,
-      "entry_text": "20. 2026-05-26 — Defendant reply in support of summary judgment."
+      "entry_text": "20. 2026-05-26 — Defendant reply in support of summary judgment.",
+      "district_locator": "20"
     },
     {
       "id": "DK-D-21",
@@ -1572,7 +1592,8 @@
       "court": "district",
       "filed_at": "2026-06-18T10:00:00-07:00",
       "docket_page": 4,
-      "entry_text": "21. 2026-06-18 — Transcript of oral argument on summary judgment motion."
+      "entry_text": "21. 2026-06-18 — Transcript of oral argument on summary judgment motion.",
+      "district_locator": "21"
     },
     {
       "id": "DK-D-22",
@@ -1580,7 +1601,8 @@
       "court": "district",
       "filed_at": "2026-08-21T10:00:00-07:00",
       "docket_page": 4,
-      "entry_text": "22. 2026-08-21 — Order granting defendant summary judgment."
+      "entry_text": "22. 2026-08-21 — Order granting defendant summary judgment.",
+      "district_locator": "22"
     },
     {
       "id": "DK-D-23",
@@ -1588,7 +1610,8 @@
       "court": "district",
       "filed_at": "2026-08-21T10:00:00-07:00",
       "docket_page": 4,
-      "entry_text": "23. 2026-08-21 — Separate judgment."
+      "entry_text": "23. 2026-08-21 — Separate judgment.",
+      "district_locator": "23"
     },
     {
       "id": "DK-D-24",
@@ -1596,7 +1619,8 @@
       "court": "district",
       "filed_at": "2026-09-03T10:00:00-07:00",
       "docket_page": 4,
-      "entry_text": "24. 2026-09-03 — Notice of appeal."
+      "entry_text": "24. 2026-09-03 — Notice of appeal.",
+      "district_locator": "24"
     },
     {
       "id": "DK-A-1",
@@ -4131,7 +4155,7 @@
       "source_path": "factory/CA9-26-001/v1/law/NASSAR.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition.",
+      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition. No exhaustive citator clearance.",
       "subsequent_treatment": {
         "status": "limited_check",
         "scope": "Identity and original pin checked; full case-specific treatment lanes remain incomplete.",
@@ -4159,7 +4183,7 @@
       "source_path": "factory/CA9-26-001/v1/law/TOLAN.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition.",
+      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition. No exhaustive citator clearance.",
       "subsequent_treatment": {
         "status": "limited_check",
         "scope": "Identity and original pin checked; full case-specific treatment lanes remain incomplete.",
@@ -4187,7 +4211,7 @@
       "source_path": "factory/CA9-26-001/v1/law/KAMA.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition.",
+      "source_review_note": "Official Ninth Circuit opinion 23-55106, slip p. 13, visually checked against PDF; published majority, federal employee; use limited to pretext evidence. No exhaustive citator clearance.",
       "subsequent_treatment": {
         "status": "limited_check",
         "scope": "Identity and original pin checked; full case-specific treatment lanes remain incomplete.",
@@ -4215,7 +4239,7 @@
       "source_path": "factory/CA9-26-001/v1/law/REEVES.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition.",
+      "source_review_note": "Actual opinion passage verified through CourtListener and/or opinion text; source excerpt limited to stated proposition. No exhaustive citator clearance.",
       "subsequent_treatment": {
         "status": "limited_check",
         "scope": "Identity and original pin checked; full case-specific treatment lanes remain incomplete.",
@@ -4243,7 +4267,7 @@
       "source_path": "factory/CA9-26-001/v1/law/JUR.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed.",
+      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed. No exhaustive citator clearance.",
       "subsequent_treatment": {
         "status": "limited_check",
         "scope": "Official text inspected; version history pending",
@@ -4271,7 +4295,7 @@
       "source_path": "factory/CA9-26-001/v1/law/FEDQ.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed.",
+      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed. No exhaustive citator clearance.",
       "subsequent_treatment": {
         "status": "limited_check",
         "scope": "Official text inspected; version history pending",
@@ -4292,14 +4316,14 @@
       "origin": "real",
       "authority_type": "statute",
       "citation": "42 U.S.C. § 2000e-3(a)",
-      "url": "https://uscode.house.gov/us/usc/119-118/t42/s2000e-3/",
+      "url": "https://uscode.house.gov/us/usc/119-142/t42/s2000e-3/",
       "court": "federal_law",
       "decided_at": "1972-03-24",
       "verified_at": "2026-11-27",
       "source_path": "factory/CA9-26-001/v1/law/TITLEVII.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed.",
+      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed. No exhaustive citator clearance.",
       "subsequent_treatment": {
         "status": "limited_check",
         "scope": "Official text inspected; version history pending",
@@ -4320,14 +4344,14 @@
       "origin": "real",
       "authority_type": "rule",
       "citation": "Fed. R. App. P. 4(a)(1)(A)",
-      "url": "https://www.ca4.uscourts.gov/Rules/Rule04.html",
+      "url": "https://www.law.cornell.edu/rules/frap/rule_4",
       "court": "federal_law",
       "decided_at": "2025-12-01",
       "verified_at": "2026-11-27",
       "source_path": "factory/CA9-26-001/v1/law/FRAP4.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed.",
+      "source_review_note": "LII Rule 4(a)(1)(A) text checked; dates refer to selected handbook edition, not initial adoption of rule. No exhaustive citator clearance.",
       "subsequent_treatment": {
         "status": "limited_check",
         "scope": "Official text inspected; version history pending",
@@ -4340,6 +4364,34 @@
           "locator": "Rule 4(a)(1)(A)",
           "quote": "must be filed with the district clerk within 30 days after entry of the judgment or order appealed from",
           "proposition": "Ordinary private-party civil appeal deadline, subject to exceptions."
+        }
+      ]
+    },
+    {
+      "id": "FRCP56",
+      "origin": "real",
+      "authority_type": "rule",
+      "citation": "Fed. R. Civ. P. 56(a)",
+      "url": "https://www.law.cornell.edu/rules/frcp/rule_56",
+      "court": "federal_law",
+      "decided_at": "2010-12-01",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/FRCP56.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Rule 56(a) text checked against Cornell LII and 2010 order; later version review pending. No exhaustive citator clearance.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Rule text and 2010 amendment checked; version history remains to be certified.",
+        "checked_at": "2026-11-27",
+        "method": "LII current rule and 2010 rule amendment"
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "Rule 56(a)",
+          "quote": "no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law",
+          "proposition": "Summary judgment requires no genuine material dispute and entitlement to judgment as a matter of law."
         }
       ]
     }
@@ -4355,11 +4407,11 @@
       "record_cites": [
         {
           "cite": "1-ER-1",
-          "quote": "UNITED STATES DISTRICT COURT"
+          "quote": "judgment is entered in favor of Defendant"
         },
         {
           "cite": "2-ER-186",
-          "quote": "UNITED STATES DISTRICT COURT"
+          "quote": "appeals to the United States Court of Appeals for the Ninth Circuit from the final judgment entered August 21, 2026"
         }
       ],
       "authorities": [
@@ -4415,6 +4467,13 @@
           "use": "support",
           "claimed_weight": "binding",
           "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        },
+        {
+          "authority_id": "FRCP56",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Rule 56(a) governs review of the district court's summary judgment."
         }
       ]
     },
@@ -4428,15 +4487,15 @@
       "record_cites": [
         {
           "cite": "2-ER-88",
-          "quote": "EMAIL EXPORT — AQ QUALITY REVIEW"
+          "quote": "pull the last fourteen days for all six coordinators"
         },
         {
           "cite": "2-ER-125",
-          "quote": "Q. Did you receive the first workbook before the April 8 complaint?"
+          "quote": "No, not a document in the production."
         },
         {
           "cite": "2-ER-137",
-          "quote": "FURTHER EXAMINATION BY MS. SERRICK"
+          "quote": "The April 12 email is the written request."
         }
       ],
       "authorities": [
@@ -4459,19 +4518,19 @@
       "record_cites": [
         {
           "cite": "2-ER-125",
-          "quote": "Q. Did you receive the first workbook before the April 8 complaint?"
+          "quote": "No, not a document in the production."
         },
         {
           "cite": "2-ER-127",
-          "quote": "Q. Three days after that conversation, you requested a longer review?"
+          "quote": "Not before asking for the broader query."
         },
         {
           "cite": "2-ER-82",
-          "quote": "4. Review and discipline. Quality staff may select a sample of transactions, reconcile suspected synchronization defects and refer unresolved items to operations. The initial exception count must not be used as the final count without reconciliation. Review may be expanded where a documented recurring problem suggests a broader pattern. An expanded review should identify its reason and time window. Operations may counsel, warn, suspend or recommend discharge depending on seriousness, recurrence, prior notice and surrounding circumstances. No fixed number of exceptions automatically requires discharge. HR reviews proposed discharge for policy consistency and relevant comparable discipline. Management retains discretion subject to applicable law and the obligation not to retaliate for a protected complaint. The review and discipline decisions should be documented separately from any complaint investigation."
+          "quote": "No fixed number of exceptions automatically requires discharge."
         },
         {
           "cite": "2-ER-90",
-          "quote": "Date: April 12, 2024, 09:18 PDT"
+          "quote": "Please extend Maren's query to sixty days ending April 3"
         }
       ],
       "authorities": [
@@ -4494,43 +4553,43 @@
       "record_cites": [
         {
           "cite": "2-ER-102",
-          "quote": "March 7, 15:38:11 PST — destination check complete, account EMAREN."
+          "quote": "manual approval reference null in retained structured log"
         },
         {
           "cite": "2-ER-103",
-          "quote": "March 20, 16:21:03 PDT — identity check complete, account EMAREN."
+          "quote": "reason field: carrier waiting; lead field blank."
         },
         {
           "cite": "2-ER-112",
-          "quote": "Q. The retained record does not show a completed note for AQ-4182. Do you dispute that?"
+          "quote": "I have not found a completed note for it in the records produced."
         },
         {
           "cite": "2-ER-113",
-          "quote": "Q. Turning to AQ-4311 on March 20, what did you recall at the HR meeting?"
+          "quote": "The entry we have shows a reason but no name."
         },
         {
           "cite": "2-ER-81",
-          "quote": "3. Urgent exception. A shift lead may authorize an urgent release orally when the ordinary electronic approval cannot be entered at the time of release and the identity and destination checks are complete. The coordinator must record the lead's identity, the time and the reason before the end of the shift. The lead should confirm that record during the next available review period. A delay in the subsequent synchronization of a timely manual entry is not itself an unauthorized release. An oral instruction not documented before the end of the shift is a documentation exception even if approval was actually given. A release made without required authorization is a substantive control violation. A request from a carrier or customer is not authorization. The coordinator must not treat silence by a lead as affirmative permission."
+          "quote": "A shift lead may authorize an urgent release orally"
         },
         {
           "cite": "2-ER-40",
-          "quote": "Q. Look at the record for AQ-4182. What does it tell you?"
+          "quote": "The circumstances are consistent with my memory, but I cannot be certain."
         },
         {
           "cite": "2-ER-42",
-          "quote": "Q. What do you remember about March 20 and AQ-4311?"
+          "quote": "I cannot identify the exact transaction from memory alone."
         },
         {
           "cite": "2-ER-44",
-          "quote": "Q. Did Holtwell speak to you during the April review?"
+          "quote": "No. I did not deny it."
         },
         {
           "cite": "2-ER-166",
-          "quote": "OPERATIONS RECOMMENDATION — April 25, 2024"
+          "quote": "Quality's reconciliation leaves four unresolved, two incomplete documentation entries and two for which the required authorization has not been established."
         },
         {
           "cite": "2-ER-168",
-          "quote": "OPERATIONS RESPONSE — April 30, 2024"
+          "quote": "I regard the lack of a timely complete note as a serious control problem even if a conversation occurred."
         }
       ],
       "authorities": [
@@ -4539,7 +4598,7 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability."
         }
       ]
     },
@@ -4553,28 +4612,28 @@
       "record_cites": [
         {
           "cite": "2-ER-88",
-          "quote": "EMAIL EXPORT — AQ QUALITY REVIEW"
+          "quote": "pull the last fourteen days for all six coordinators"
         },
         {
           "cite": "2-ER-90",
-          "quote": "Date: April 12, 2024, 09:18 PDT"
+          "quote": "Please extend Maren's query to sixty days ending April 3"
         },
         {
           "cite": "2-ER-133",
-          "quote": "Q. Why was Bellford given a warning?"
+          "quote": "I did not have a formal statement requirement for either one."
         },
         {
           "cite": "2-ER-104",
-          "quote": "April 2, 09:50:21 PDT — carrier identity complete, account JBELLFORD."
+          "quote": "destination field pending."
         }
       ],
       "authorities": [
         {
           "authority_id": "KAMA",
           "pin_id": "P1",
-          "use": "support",
+          "use": "distinguish",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation."
         }
       ]
     },
@@ -4588,15 +4647,15 @@
       "record_cites": [
         {
           "cite": "2-ER-169",
-          "quote": "HR REVIEW WORKSHEET — May 9, 2024"
+          "quote": "No longer comparator audit is in the packet."
         },
         {
           "cite": "2-ER-170",
-          "quote": "COO DECISION NOTE — May 13, 2024"
+          "quote": "I have not independently interviewed the shift lead or re-run the audit."
         },
         {
           "cite": "2-ER-167",
-          "quote": "HR RESPONSE — April 26, 2024"
+          "quote": "Please distinguish an unauthorized release from an incomplete note."
         }
       ],
       "authorities": [
@@ -4605,7 +4664,7 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability."
         }
       ]
     },
@@ -4637,7 +4696,14 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation."
+        },
+        {
+          "authority_id": "FRCP56",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Rule 56(a) governs review of the district court's summary judgment."
         }
       ]
     },
@@ -4651,11 +4717,11 @@
       "record_cites": [
         {
           "cite": "2-ER-90",
-          "quote": "Date: April 12, 2024, 09:18 PDT"
+          "quote": "Please extend Maren's query to sixty days ending April 3"
         },
         {
           "cite": "2-ER-86",
-          "quote": "COACHING NOTE — NOVEMBER 17, 2023"
+          "quote": "Action: coaching, not written warning."
         }
       ],
       "authorities": [
@@ -4664,7 +4730,7 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation."
         }
       ]
     },
@@ -4678,15 +4744,15 @@
       "record_cites": [
         {
           "cite": "2-ER-92",
-          "quote": "To: Gavin R. Holtwell; Nadia E. Bracken"
+          "quote": "Eight of the twelve flags are resolved by reference to the field history or the manual log. Four remain open."
         },
         {
           "cite": "2-ER-166",
-          "quote": "OPERATIONS RECOMMENDATION — April 25, 2024"
+          "quote": "Quality's reconciliation leaves four unresolved, two incomplete documentation entries and two for which the required authorization has not been established."
         },
         {
           "cite": "2-ER-168",
-          "quote": "OPERATIONS RESPONSE — April 30, 2024"
+          "quote": "I regard the lack of a timely complete note as a serious control problem even if a conversation occurred."
         }
       ],
       "authorities": [
@@ -4695,7 +4761,7 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability."
         }
       ]
     },
@@ -4709,15 +4775,15 @@
       "record_cites": [
         {
           "cite": "2-ER-63",
-          "quote": "CORRECTIVE ACTION CONTINUED"
+          "quote": "This warning also concerns one other incomplete documentation entry in the common review."
         },
         {
           "cite": "2-ER-133",
-          "quote": "Q. Why was Bellford given a warning?"
+          "quote": "I did not have a formal statement requirement for either one."
         },
         {
           "cite": "2-ER-56",
-          "quote": "Q. Did anyone tell you your transactions had been examined back to February 4?"
+          "quote": "No. I do not remember every transaction."
         }
       ],
       "authorities": [
@@ -4726,7 +4792,7 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation."
         }
       ]
     },
@@ -4740,15 +4806,15 @@
       "record_cites": [
         {
           "cite": "2-ER-40",
-          "quote": "Q. Look at the record for AQ-4182. What does it tell you?"
+          "quote": "The circumstances are consistent with my memory, but I cannot be certain."
         },
         {
           "cite": "2-ER-42",
-          "quote": "Q. What do you remember about March 20 and AQ-4311?"
+          "quote": "I cannot identify the exact transaction from memory alone."
         },
         {
           "cite": "2-ER-43",
-          "quote": "Q. Does the manual reference M-320-09 bear your name?"
+          "quote": "It shows there is no complete note naming me."
         }
       ],
       "authorities": [
@@ -4771,27 +4837,27 @@
       "record_cites": [
         {
           "cite": "2-ER-167",
-          "quote": "HR RESPONSE — April 26, 2024"
+          "quote": "Please distinguish an unauthorized release from an incomplete note."
         },
         {
           "cite": "2-ER-169",
-          "quote": "HR REVIEW WORKSHEET — May 9, 2024"
+          "quote": "No longer comparator audit is in the packet."
         },
         {
           "cite": "2-ER-170",
-          "quote": "COO DECISION NOTE — May 13, 2024"
+          "quote": "I have not independently interviewed the shift lead or re-run the audit."
         },
         {
           "cite": "1-ER-6",
-          "quote": "IV. SCOPE OF REVIEW AND TEMPORAL PROXIMITY"
+          "quote": "The Court accepts that sequence as evidence favorable to Plaintiff."
         },
         {
           "cite": "1-ER-7",
-          "quote": "V. COMPARATOR AND AUTHORIZATION EVIDENCE"
+          "quote": "The common and expanded windows are not quantitatively comparable"
         },
         {
           "cite": "1-ER-8",
-          "quote": "VI. THE DECISION PROCESS AND THE WHOLE RECORD"
+          "quote": "Even considering timing, differential scope, comparator discipline and the authorization evidence together"
         }
       ],
       "authorities": [
@@ -4800,7 +4866,7 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability."
         },
         {
           "authority_id": "NASSAR",
@@ -4821,20 +4887,20 @@
       "record_cites": [
         {
           "cite": "2-ER-88",
-          "quote": "EMAIL EXPORT — AQ QUALITY REVIEW"
+          "quote": "pull the last fourteen days for all six coordinators"
         },
         {
           "cite": "2-ER-90",
-          "quote": "Date: April 12, 2024, 09:18 PDT"
+          "quote": "Please extend Maren's query to sixty days ending April 3"
         }
       ],
       "authorities": [
         {
           "authority_id": "KAMA",
           "pin_id": "P1",
-          "use": "support",
+          "use": "distinguish",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Use concerns fact-specific pretext evidence; federal-sector case distinguished from private-sector Nassar causation."
         },
         {
           "authority_id": "NASSAR",
@@ -4855,7 +4921,7 @@
       "record_cites": [
         {
           "cite": "2-ER-62",
-          "quote": "CORRECTIVE ACTION — May 2, 2024"
+          "quote": "Action: written warning."
         }
       ],
       "authorities": [
@@ -4878,7 +4944,7 @@
       "record_cites": [
         {
           "cite": "2-ER-170",
-          "quote": "COO DECISION NOTE — May 13, 2024"
+          "quote": "I have not independently interviewed the shift lead or re-run the audit."
         }
       ],
       "authorities": [
@@ -4887,7 +4953,7 @@
           "pin_id": "P1",
           "use": "support",
           "claimed_weight": "binding",
-          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+          "analysis": "Use general evidentiary inference, not an ADEA causation standard or automatic liability."
         },
         {
           "authority_id": "NASSAR",
@@ -4931,7 +4997,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "Fact-specific pretext evidence; private-sector causation remains governed by Nassar."
     },
     {
       "id": "LU-4",
@@ -4942,7 +5008,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "General evidentiary principle from ADEA Rule 50 case, not Title VII causation."
     },
     {
       "id": "LU-5",
@@ -4973,9 +5039,9 @@
       "quote": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
       "authority_id": "KAMA",
       "pin_id": "P1",
-      "use": "support",
+      "use": "distinguish",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "Fact-specific pretext evidence; private-sector causation remains governed by Nassar."
     },
     {
       "id": "LU-8",
@@ -4986,7 +5052,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "General evidentiary principle from ADEA Rule 50 case, not Title VII causation."
     },
     {
       "id": "LU-9",
@@ -5008,7 +5074,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "Fact-specific pretext evidence; private-sector causation remains governed by Nassar."
     },
     {
       "id": "LU-11",
@@ -5019,7 +5085,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "General evidentiary principle from ADEA Rule 50 case, not Title VII causation."
     },
     {
       "id": "LU-12",
@@ -5052,7 +5118,7 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "Fact-specific pretext evidence; private-sector causation remains governed by Nassar."
     },
     {
       "id": "LU-15",
@@ -5063,7 +5129,40 @@
       "pin_id": "P1",
       "use": "support",
       "claimed_weight": "binding",
-      "analysis": "The surrounding original paragraph explains the cited legal principle and its application; case-specific treatment review pending."
+      "analysis": "General evidentiary principle from ADEA Rule 50 case, not Title VII causation."
+    },
+    {
+      "id": "LU-16",
+      "document_id": "CA9-26-001-MSJ",
+      "page": 2,
+      "quote": "Fed. R. Civ. P. 56(a)",
+      "authority_id": "FRCP56",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "text",
+      "analysis": "Rule 56(a) governs the sufficiency of the summary judgment record."
+    },
+    {
+      "id": "LU-17",
+      "document_id": "CA9-26-001-OPP",
+      "page": 2,
+      "quote": "Fed. R. Civ. P. 56(a)",
+      "authority_id": "FRCP56",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "text",
+      "analysis": "Rule 56(a) governs the sufficiency of the summary judgment record."
+    },
+    {
+      "id": "LU-18",
+      "document_id": "CA9-26-001-ORDER",
+      "page": 3,
+      "quote": "Fed. R. Civ. P. 56(a)",
+      "authority_id": "FRCP56",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "text",
+      "analysis": "Rule 56(a) governs the sufficiency of the summary judgment record."
     }
   ],
   "timeliness_review": {
@@ -5072,9 +5171,9 @@
   },
   "reviews": [],
   "unresolved_blockers": [
-    "Case-specific subsequent treatment review and all citation occurrence audits incomplete",
-    "Semantic review of every factual and legal statement and complete record consistency pending",
-    "Local filing-format and docket attachment review pending",
+    "Bounded later-citation searches started; direct history, negative treatment and full relevant candidate review remain incomplete",
+    "Complete occurrence audit and review of every material factual assertion not yet certified",
+    "Actual PDF pagination, covers and formal filing compliance remain pending",
     "Player start date and legal cutoff not selected"
   ],
   "research": {
@@ -5089,554 +5188,721 @@
       "document_id": "CA9-26-001-OPEN",
       "page": 4,
       "cite": "1-ER-1",
-      "quote": "UNITED STATES DISTRICT COURT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "judgment is entered in favor of Defendant",
+      "source_document_id": "CA9-26-001-JUD",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 4,
       "cite": "2-ER-186",
-      "quote": "UNITED STATES DISTRICT COURT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "appeals to the United States Court of Appeals for the Ninth Circuit from the final judgment entered August 21, 2026",
+      "source_document_id": "CA9-26-001-NOA",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 4,
+      "cite": "2-ER-190",
+      "quote": "no postjudgment tolling motion recorded",
+      "source_document_id": "CA9-26-001-TD",
+      "source_page": 4,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 5,
       "cite": "2-ER-81",
-      "quote": "3. Urgent exception. A shift lead may authorize an urgent release orally when the ordinary electronic approval cannot be entered at the time of release and the identity and destination checks are complete. The coordinator must record the lead's identity, the time and the reason before the end of the shift. The lead should confirm that record during the next available review period. A delay in the subsequent synchronization of a timely manual entry is not itself an unauthorized release. An oral instruction not documented before the end of the shift is a documentation exception even if approval was actually given. A release made without required authorization is a substantive control violation. A request from a carrier or customer is not authorization. The coordinator must not treat silence by a lead as affirmative permission.",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "A shift lead may authorize an urgent release orally",
+      "source_document_id": "CA9-26-001-POL",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 5,
       "cite": "2-ER-86",
-      "quote": "COACHING NOTE — NOVEMBER 17, 2023",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Action: coaching, not written warning.",
+      "source_document_id": "CA9-26-001-REV",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 5,
       "cite": "2-ER-84",
-      "quote": "ASTER QUAY LOGISTICS — ANNUAL PERFORMANCE REVIEW",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Overall rating: meets expectations.",
+      "source_document_id": "CA9-26-001-REV",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 5,
       "cite": "2-ER-32",
-      "quote": "EMAIL — HUMAN RESOURCES INTAKE",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I believe the assignments may be based on sex",
+      "source_document_id": "CA9-26-001-COMP",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 5,
       "cite": "2-ER-34",
-      "quote": "HR CASE CONTACT NOTE — April 9, 2024, 10:20 PDT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Bracken informed Holtwell that Maren had complained about possible sex discrimination in acting-lead assignments.",
+      "source_document_id": "CA9-26-001-COMP",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 6,
       "cite": "2-ER-88",
-      "quote": "EMAIL EXPORT — AQ QUALITY REVIEW",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "pull the last fourteen days for all six coordinators",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 6,
       "cite": "2-ER-89",
-      "quote": "Date: April 5, 2024, 15:06 PDT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "The file shows Maren three, Bellford four, and four other accounts a combined five flags.",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 2,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 6,
       "cite": "2-ER-90",
-      "quote": "Date: April 12, 2024, 09:18 PDT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Please extend Maren's query to sixty days ending April 3",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 6,
       "cite": "2-ER-91",
-      "quote": "To: Gavin R. Holtwell; Nadia E. Bracken",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "identifies twelve preliminary flags",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 4,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 6,
       "cite": "2-ER-92",
-      "quote": "To: Gavin R. Holtwell; Nadia E. Bracken",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Eight of the twelve flags are resolved by reference to the field history or the manual log. Four remain open.",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 5,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 7,
       "cite": "2-ER-62",
-      "quote": "CORRECTIVE ACTION — May 2, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Action: written warning.",
+      "source_document_id": "CA9-26-001-WARN",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 7,
       "cite": "2-ER-170",
-      "quote": "COO DECISION NOTE — May 13, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I have not independently interviewed the shift lead or re-run the audit.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 5,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 7,
       "cite": "2-ER-171",
-      "quote": "NOTICE OF TERMINATION — May 17, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Your employment with Aster Quay Logistics, Inc. ends today.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 6,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 7,
       "cite": "1-ER-5",
-      "quote": "III. THE UNDISPUTED AND DISPUTED RECORD",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "The Court assumes for purposes of the motion that she received oral authorization for both disputed consignments.",
+      "source_document_id": "CA9-26-001-ORDER",
+      "source_page": 4,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 7,
       "cite": "1-ER-8",
-      "quote": "VI. THE DECISION PROCESS AND THE WHOLE RECORD",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Even considering timing, differential scope, comparator discipline and the authorization evidence together",
+      "source_document_id": "CA9-26-001-ORDER",
+      "source_page": 7,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 7,
       "cite": "2-ER-23",
-      "quote": "UNITED STATES DISTRICT COURT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "A reasonable jury could find that the protected complaint was a but-for cause of discharge.",
+      "source_document_id": "CA9-26-001-OPP",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 7,
       "cite": "2-ER-13",
-      "quote": "THE COURT: Ms. Serrick, why does the comparator evidence matter given that the record of Bellford's authorization was different?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Our point is not that he necessarily had the same number of problems",
+      "source_document_id": "CA9-26-001-HEAR",
+      "source_page": 4,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 10,
       "cite": "2-ER-88",
-      "quote": "EMAIL EXPORT — AQ QUALITY REVIEW",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "pull the last fourteen days for all six coordinators",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 10,
       "cite": "2-ER-125",
-      "quote": "Q. Did you receive the first workbook before the April 8 complaint?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "No, not a document in the production.",
+      "source_document_id": "CA9-26-001-SDEP",
+      "source_page": 4,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 10,
       "cite": "2-ER-137",
-      "quote": "FURTHER EXAMINATION BY MS. SERRICK",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "The April 12 email is the written request.",
+      "source_document_id": "CA9-26-001-SDEP",
+      "source_page": 16,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 11,
       "cite": "2-ER-125",
-      "quote": "Q. Did you receive the first workbook before the April 8 complaint?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "No, not a document in the production.",
+      "source_document_id": "CA9-26-001-SDEP",
+      "source_page": 4,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 11,
       "cite": "2-ER-127",
-      "quote": "Q. Three days after that conversation, you requested a longer review?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Not before asking for the broader query.",
+      "source_document_id": "CA9-26-001-SDEP",
+      "source_page": 6,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 11,
       "cite": "2-ER-82",
-      "quote": "4. Review and discipline. Quality staff may select a sample of transactions, reconcile suspected synchronization defects and refer unresolved items to operations. The initial exception count must not be used as the final count without reconciliation. Review may be expanded where a documented recurring problem suggests a broader pattern. An expanded review should identify its reason and time window. Operations may counsel, warn, suspend or recommend discharge depending on seriousness, recurrence, prior notice and surrounding circumstances. No fixed number of exceptions automatically requires discharge. HR reviews proposed discharge for policy consistency and relevant comparable discipline. Management retains discretion subject to applicable law and the obligation not to retaliate for a protected complaint. The review and discipline decisions should be documented separately from any complaint investigation.",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "No fixed number of exceptions automatically requires discharge.",
+      "source_document_id": "CA9-26-001-POL",
+      "source_page": 4,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 11,
       "cite": "2-ER-90",
-      "quote": "Date: April 12, 2024, 09:18 PDT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Please extend Maren's query to sixty days ending April 3",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 12,
       "cite": "2-ER-102",
-      "quote": "March 7, 15:38:11 PST — destination check complete, account EMAREN.",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "manual approval reference null in retained structured log",
+      "source_document_id": "CA9-26-001-LOG",
+      "source_page": 9,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 12,
       "cite": "2-ER-103",
-      "quote": "March 20, 16:21:03 PDT — identity check complete, account EMAREN.",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "reason field: carrier waiting; lead field blank.",
+      "source_document_id": "CA9-26-001-LOG",
+      "source_page": 10,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 12,
       "cite": "2-ER-112",
-      "quote": "Q. The retained record does not show a completed note for AQ-4182. Do you dispute that?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I have not found a completed note for it in the records produced.",
+      "source_document_id": "CA9-26-001-MDEP",
+      "source_page": 7,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 12,
       "cite": "2-ER-113",
-      "quote": "Q. Turning to AQ-4311 on March 20, what did you recall at the HR meeting?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "The entry we have shows a reason but no name.",
+      "source_document_id": "CA9-26-001-MDEP",
+      "source_page": 8,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 12,
       "cite": "2-ER-81",
-      "quote": "3. Urgent exception. A shift lead may authorize an urgent release orally when the ordinary electronic approval cannot be entered at the time of release and the identity and destination checks are complete. The coordinator must record the lead's identity, the time and the reason before the end of the shift. The lead should confirm that record during the next available review period. A delay in the subsequent synchronization of a timely manual entry is not itself an unauthorized release. An oral instruction not documented before the end of the shift is a documentation exception even if approval was actually given. A release made without required authorization is a substantive control violation. A request from a carrier or customer is not authorization. The coordinator must not treat silence by a lead as affirmative permission.",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "A shift lead may authorize an urgent release orally",
+      "source_document_id": "CA9-26-001-POL",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 12,
       "cite": "2-ER-40",
-      "quote": "Q. Look at the record for AQ-4182. What does it tell you?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "The circumstances are consistent with my memory, but I cannot be certain.",
+      "source_document_id": "CA9-26-001-WDEP",
+      "source_page": 4,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 12,
       "cite": "2-ER-42",
-      "quote": "Q. What do you remember about March 20 and AQ-4311?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I cannot identify the exact transaction from memory alone.",
+      "source_document_id": "CA9-26-001-WDEP",
+      "source_page": 6,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 12,
       "cite": "2-ER-44",
-      "quote": "Q. Did Holtwell speak to you during the April review?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "No. I did not deny it.",
+      "source_document_id": "CA9-26-001-WDEP",
+      "source_page": 8,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 12,
       "cite": "2-ER-166",
-      "quote": "OPERATIONS RECOMMENDATION — April 25, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Quality's reconciliation leaves four unresolved, two incomplete documentation entries and two for which the required authorization has not been established.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 12,
       "cite": "2-ER-168",
-      "quote": "OPERATIONS RESPONSE — April 30, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I regard the lack of a timely complete note as a serious control problem even if a conversation occurred.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 13,
       "cite": "2-ER-88",
-      "quote": "EMAIL EXPORT — AQ QUALITY REVIEW",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "pull the last fourteen days for all six coordinators",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 13,
       "cite": "2-ER-90",
-      "quote": "Date: April 12, 2024, 09:18 PDT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Please extend Maren's query to sixty days ending April 3",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 13,
       "cite": "2-ER-133",
-      "quote": "Q. Why was Bellford given a warning?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I did not have a formal statement requirement for either one.",
+      "source_document_id": "CA9-26-001-SDEP",
+      "source_page": 12,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 13,
       "cite": "2-ER-104",
-      "quote": "April 2, 09:50:21 PDT — carrier identity complete, account JBELLFORD.",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "destination field pending.",
+      "source_document_id": "CA9-26-001-LOG",
+      "source_page": 11,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 14,
       "cite": "2-ER-169",
-      "quote": "HR REVIEW WORKSHEET — May 9, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "No longer comparator audit is in the packet.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 4,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 14,
       "cite": "2-ER-170",
-      "quote": "COO DECISION NOTE — May 13, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I have not independently interviewed the shift lead or re-run the audit.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 5,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-OPEN",
       "page": 14,
       "cite": "2-ER-167",
-      "quote": "HR RESPONSE — April 26, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Please distinguish an unauthorized release from an incomplete note.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 2,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 4,
       "cite": "1-ER-1",
-      "quote": "UNITED STATES DISTRICT COURT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "judgment is entered in favor of Defendant",
+      "source_document_id": "CA9-26-001-JUD",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 4,
       "cite": "2-ER-186",
-      "quote": "UNITED STATES DISTRICT COURT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "appeals to the United States Court of Appeals for the Ninth Circuit from the final judgment entered August 21, 2026",
+      "source_document_id": "CA9-26-001-NOA",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 5,
       "cite": "2-ER-81",
-      "quote": "3. Urgent exception. A shift lead may authorize an urgent release orally when the ordinary electronic approval cannot be entered at the time of release and the identity and destination checks are complete. The coordinator must record the lead's identity, the time and the reason before the end of the shift. The lead should confirm that record during the next available review period. A delay in the subsequent synchronization of a timely manual entry is not itself an unauthorized release. An oral instruction not documented before the end of the shift is a documentation exception even if approval was actually given. A release made without required authorization is a substantive control violation. A request from a carrier or customer is not authorization. The coordinator must not treat silence by a lead as affirmative permission.",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "A shift lead may authorize an urgent release orally",
+      "source_document_id": "CA9-26-001-POL",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 5,
       "cite": "2-ER-86",
-      "quote": "COACHING NOTE — NOVEMBER 17, 2023",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Action: coaching, not written warning.",
+      "source_document_id": "CA9-26-001-REV",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 5,
       "cite": "2-ER-108",
-      "quote": "Q. I am showing you the February 2024 review. Is that your acknowledgment?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I did not understand the meeting to be a formal written warning.",
+      "source_document_id": "CA9-26-001-MDEP",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 6,
       "cite": "2-ER-88",
-      "quote": "EMAIL EXPORT — AQ QUALITY REVIEW",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "pull the last fourteen days for all six coordinators",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 6,
       "cite": "2-ER-32",
-      "quote": "EMAIL — HUMAN RESOURCES INTAKE",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I believe the assignments may be based on sex",
+      "source_document_id": "CA9-26-001-COMP",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 6,
       "cite": "2-ER-90",
-      "quote": "Date: April 12, 2024, 09:18 PDT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Please extend Maren's query to sixty days ending April 3",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 6,
       "cite": "2-ER-92",
-      "quote": "To: Gavin R. Holtwell; Nadia E. Bracken",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Eight of the twelve flags are resolved by reference to the field history or the manual log. Four remain open.",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 5,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 6,
       "cite": "2-ER-102",
-      "quote": "March 7, 15:38:11 PST — destination check complete, account EMAREN.",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "manual approval reference null in retained structured log",
+      "source_document_id": "CA9-26-001-LOG",
+      "source_page": 9,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 6,
       "cite": "2-ER-103",
-      "quote": "March 20, 16:21:03 PDT — identity check complete, account EMAREN.",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "reason field: carrier waiting; lead field blank.",
+      "source_document_id": "CA9-26-001-LOG",
+      "source_page": 10,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 7,
       "cite": "2-ER-62",
-      "quote": "CORRECTIVE ACTION — May 2, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Action: written warning.",
+      "source_document_id": "CA9-26-001-WARN",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 7,
       "cite": "2-ER-169",
-      "quote": "HR REVIEW WORKSHEET — May 9, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "No longer comparator audit is in the packet.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 4,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 7,
       "cite": "2-ER-170",
-      "quote": "COO DECISION NOTE — May 13, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I have not independently interviewed the shift lead or re-run the audit.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 5,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 7,
       "cite": "2-ER-171",
-      "quote": "NOTICE OF TERMINATION — May 17, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Your employment with Aster Quay Logistics, Inc. ends today.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 6,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 10,
       "cite": "2-ER-90",
-      "quote": "Date: April 12, 2024, 09:18 PDT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Please extend Maren's query to sixty days ending April 3",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 10,
       "cite": "2-ER-86",
-      "quote": "COACHING NOTE — NOVEMBER 17, 2023",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Action: coaching, not written warning.",
+      "source_document_id": "CA9-26-001-REV",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 11,
       "cite": "2-ER-92",
-      "quote": "To: Gavin R. Holtwell; Nadia E. Bracken",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Eight of the twelve flags are resolved by reference to the field history or the manual log. Four remain open.",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 5,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 11,
       "cite": "2-ER-166",
-      "quote": "OPERATIONS RECOMMENDATION — April 25, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Quality's reconciliation leaves four unresolved, two incomplete documentation entries and two for which the required authorization has not been established.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 11,
       "cite": "2-ER-168",
-      "quote": "OPERATIONS RESPONSE — April 30, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I regard the lack of a timely complete note as a serious control problem even if a conversation occurred.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 12,
       "cite": "2-ER-63",
-      "quote": "CORRECTIVE ACTION CONTINUED",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "This warning also concerns one other incomplete documentation entry in the common review.",
+      "source_document_id": "CA9-26-001-WARN",
+      "source_page": 2,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 12,
       "cite": "2-ER-133",
-      "quote": "Q. Why was Bellford given a warning?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I did not have a formal statement requirement for either one.",
+      "source_document_id": "CA9-26-001-SDEP",
+      "source_page": 12,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 12,
       "cite": "2-ER-56",
-      "quote": "Q. Did anyone tell you your transactions had been examined back to February 4?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "No. I do not remember every transaction.",
+      "source_document_id": "CA9-26-001-CDEP",
+      "source_page": 7,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 13,
       "cite": "2-ER-40",
-      "quote": "Q. Look at the record for AQ-4182. What does it tell you?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "The circumstances are consistent with my memory, but I cannot be certain.",
+      "source_document_id": "CA9-26-001-WDEP",
+      "source_page": 4,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 13,
       "cite": "2-ER-42",
-      "quote": "Q. What do you remember about March 20 and AQ-4311?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I cannot identify the exact transaction from memory alone.",
+      "source_document_id": "CA9-26-001-WDEP",
+      "source_page": 6,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 13,
       "cite": "2-ER-43",
-      "quote": "Q. Does the manual reference M-320-09 bear your name?",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "It shows there is no complete note naming me.",
+      "source_document_id": "CA9-26-001-WDEP",
+      "source_page": 7,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 14,
       "cite": "2-ER-167",
-      "quote": "HR RESPONSE — April 26, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Please distinguish an unauthorized release from an incomplete note.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 2,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 14,
       "cite": "2-ER-169",
-      "quote": "HR REVIEW WORKSHEET — May 9, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "No longer comparator audit is in the packet.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 4,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 14,
       "cite": "2-ER-170",
-      "quote": "COO DECISION NOTE — May 13, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I have not independently interviewed the shift lead or re-run the audit.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 5,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 14,
       "cite": "1-ER-6",
-      "quote": "IV. SCOPE OF REVIEW AND TEMPORAL PROXIMITY",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "The Court accepts that sequence as evidence favorable to Plaintiff.",
+      "source_document_id": "CA9-26-001-ORDER",
+      "source_page": 5,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 14,
       "cite": "1-ER-7",
-      "quote": "V. COMPARATOR AND AUTHORIZATION EVIDENCE",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "The common and expanded windows are not quantitatively comparable",
+      "source_document_id": "CA9-26-001-ORDER",
+      "source_page": 6,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-ANSWER",
       "page": 14,
       "cite": "1-ER-8",
-      "quote": "VI. THE DECISION PROCESS AND THE WHOLE RECORD",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Even considering timing, differential scope, comparator discipline and the authorization evidence together",
+      "source_document_id": "CA9-26-001-ORDER",
+      "source_page": 7,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-REPLY",
       "page": 4,
       "cite": "2-ER-88",
-      "quote": "EMAIL EXPORT — AQ QUALITY REVIEW",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "pull the last fourteen days for all six coordinators",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-REPLY",
       "page": 4,
       "cite": "2-ER-90",
-      "quote": "Date: April 12, 2024, 09:18 PDT",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Please extend Maren's query to sixty days ending April 3",
+      "source_document_id": "CA9-26-001-AUD",
+      "source_page": 3,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-REPLY",
       "page": 5,
       "cite": "2-ER-62",
-      "quote": "CORRECTIVE ACTION — May 2, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "Action: written warning.",
+      "source_document_id": "CA9-26-001-WARN",
+      "source_page": 1,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     },
     {
       "document_id": "CA9-26-001-REPLY",
       "page": 6,
       "cite": "2-ER-170",
-      "quote": "COO DECISION NOTE — May 13, 2024",
-      "review_status": "source page linked; semantic review pending"
+      "quote": "I have not independently interviewed the shift lead or re-run the audit.",
+      "source_document_id": "CA9-26-001-TERM",
+      "source_page": 5,
+      "review_status": "substantive source passage checked; whole-sentence semantic review remains separate"
     }
   ]
 }

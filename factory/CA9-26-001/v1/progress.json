@@ -1,12 +1,12 @@
 {
   "case_id": "CA9-26-001",
-  "status": "all_planned_originals_authored_not_sealed",
+  "status": "cross_review_in_progress",
   "authored_documents": [
     {
       "id": "CA9-26-001-COM",
       "path": "records/CA9-26-001/v1/COM.md",
       "pages": 6,
-      "words": 880
+      "words": 903
     },
     {
       "id": "CA9-26-001-ANS",
@@ -18,7 +18,7 @@
       "id": "CA9-26-001-SCHED",
       "path": "records/CA9-26-001/v1/SCHED.md",
       "pages": 3,
-      "words": 390
+      "words": 395
     },
     {
       "id": "CA9-26-001-POL",
@@ -78,7 +78,7 @@
       "id": "CA9-26-001-BRORD",
       "path": "records/CA9-26-001/v1/BRORD.md",
       "pages": 1,
-      "words": 130
+      "words": 147
     },
     {
       "id": "CA9-26-001-LOG",
@@ -132,25 +132,25 @@
       "id": "CA9-26-001-TD",
       "path": "records/CA9-26-001/v1/TD.md",
       "pages": 4,
-      "words": 488
+      "words": 547
     },
     {
       "id": "CA9-26-001-AD",
       "path": "records/CA9-26-001/v1/AD.md",
       "pages": 2,
-      "words": 170
+      "words": 199
     },
     {
       "id": "CA9-26-001-MSJ",
       "path": "records/CA9-26-001/v1/MSJ.md",
       "pages": 10,
-      "words": 1505
+      "words": 1535
     },
     {
       "id": "CA9-26-001-OPP",
       "path": "records/CA9-26-001/v1/OPP.md",
       "pages": 9,
-      "words": 1427
+      "words": 1444
     },
     {
       "id": "CA9-26-001-REPL",
@@ -162,37 +162,37 @@
       "id": "CA9-26-001-ORDER",
       "path": "records/CA9-26-001/v1/ORDER.md",
       "pages": 8,
-      "words": 1227
+      "words": 1353
     },
     {
       "id": "CA9-26-001-ER1",
       "path": "records/CA9-26-001/v1/ER1.md",
       "pages": 9,
-      "words": 1340
+      "words": 1466
     },
     {
       "id": "CA9-26-001-ER2",
       "path": "records/CA9-26-001/v1/ER2.md",
       "pages": 181,
-      "words": 23591
+      "words": 23725
     },
     {
       "id": "CA9-26-001-IDX",
       "path": "records/CA9-26-001/v1/IDX.md",
       "pages": 7,
-      "words": 550
+      "words": 653
     },
     {
       "id": "CA9-26-001-OPEN",
       "path": "records/CA9-26-001/v1/OPEN.md",
       "pages": 16,
-      "words": 1645
+      "words": 1720
     },
     {
       "id": "CA9-26-001-ANSWER",
       "path": "records/CA9-26-001/v1/ANSWER.md",
       "pages": 16,
-      "words": 1487
+      "words": 1557
     },
     {
       "id": "CA9-26-001-REPLY",
@@ -214,6 +214,12 @@
       "411 U.S. 792"
     ]
   },
-  "next_batch": "Run structural compiler through excerpts, then complete case-specific authority treatment and citation audit; semantic cross-review; seal only when ready.",
-  "excerpt_pages": 190
+  "next_batch": "Complete proposition-specific treatment and legal citation audit; verify formal record export; then seal.",
+  "excerpt_pages": 190,
+  "review": {
+    "source_commit": "efe1b2f66bad0bd8abd7e5f5f01957434db44aaf",
+    "edit_count": 25,
+    "record_reference_count": 80,
+    "scope": "all original pages reconstructed from validated excerpts and appellate originals; targeted substantive checks; not a full independent semantic certification"
+  }
 }

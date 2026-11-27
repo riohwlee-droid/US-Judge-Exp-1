@@ -11,7 +11,7 @@ Alina V. Serrick, counsel for Plaintiff Elena R. Maren, alleges as follows. This
 <!-- PAGE 2 -->
 PARTIES, JURISDICTION AND VENUE
 1. Plaintiff is an individual residing in Alameda County, California. She was employed at Defendant's Oakland facility from August 16, 2021, until May 17, 2024.
-2. Defendant is a California corporation operating a regional commercial freight coordination business. It employed more than fifteen employees during the relevant period and is an employer within the meaning of Title VII.
+2. Defendant is a California corporation operating a regional commercial freight coordination business. It was engaged in an industry affecting commerce and employed at least fifteen employees for each working day in at least twenty calendar weeks in the relevant calendar year or preceding calendar year and is an employer within the meaning of Title VII.
 3. The claim arises under federal law. This Court has subject-matter jurisdiction over the federal retaliation claim. Venue lies in this district because the challenged employment practice occurred at the Oakland facility and the relevant employment records are maintained in this district.
 4. Plaintiff filed an EEOC charge on July 12, 2024. She received a notice of right to sue on December 16, 2024. This action is brought within ninety days of receipt. Plaintiff alleges that the charge identified the complaint to human resources and the subsequent discharge.
 

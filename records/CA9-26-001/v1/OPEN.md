@@ -27,10 +27,11 @@ Tolan — 9, 11
 Title VII opposition provision — 4
 Federal question and final judgment jurisdiction — 4
 Appellate filing time — 4
+Federal Rule of Civil Procedure 56(a) — 9
 
 <!-- PAGE 4 -->
 JURISDICTIONAL STATEMENT
-The district court exercised jurisdiction under 28 U.S.C. § 1331 [[AUTH:FEDQ:P1]] over Appellant's Title VII claim, 42 U.S.C. § 2000e-3(a) [[AUTH:TITLEVII:P1]]. This Court has jurisdiction under 28 U.S.C. § 1291 [[AUTH:JUR:P1]]. Separate final judgment disposing of the sole claim was entered August 21, 2026. 1-ER-1. Notice of appeal was filed September 3, 2026. 2-ER-186. The thirteen-day interval is within the ordinary thirty-day period under Fed. R. App. P. 4(a)(1)(A) [[AUTH:FRAP4:P1]]; no tolling motion is recorded.
+The district court exercised jurisdiction under 28 U.S.C. § 1331 [[AUTH:FEDQ:P1]] over Appellant's Title VII claim, 42 U.S.C. § 2000e-3(a) [[AUTH:TITLEVII:P1]]. This Court has jurisdiction under 28 U.S.C. § 1291 [[AUTH:JUR:P1]]. Separate final judgment disposing of the sole claim was entered August 21, 2026. 1-ER-1. Notice of appeal was filed September 3, 2026. 2-ER-186. The thirteen-day interval is within the ordinary thirty-day period under Fed. R. App. P. 4(a)(1)(A) [[AUTH:FRAP4:P1]]; no tolling motion is recorded. 2-ER-190.
 ISSUE PRESENTED
 Whether the record, viewed in Appellant's favor, would permit a reasonable jury to find that her opposition to perceived sex discrimination was a but-for cause of discharge, considering the altered audit scope, comparative discipline and the employer's evaluation of disputed oral authorizations.
 
@@ -53,6 +54,7 @@ The order identifies the correct ultimate causation standard but removes a reaso
 <!-- PAGE 9 -->
 STANDARD OF REVIEW
 Review of summary judgment is de novo. The Court must credit the nonmovant's evidence and reasonable inferences rather than resolve genuine material factual disputes against her. Tolan v. Cotton, 572 U.S. 650, 656–57 (2014) [[AUTH:TOLAN:P1]]. Materiality is determined by the substantive law: University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013) [[AUTH:NASSAR:P1]] requires proof that protected activity made the necessary difference to the adverse action. Appellant accepts that ultimate burden. At this stage the Court asks whether a reasonable jury could draw that inference, not whether the employer's alternative explanation appears more persuasive. Judgment for an employer remains proper if no reasonable jury could find the required causal relationship.
+The summary judgment standard derives from Fed. R. Civ. P. 56(a) [[AUTH:FRCP56:P1]].
 
 <!-- PAGE 10 -->
 ARGUMENT — I. THE COUNTERFACTUAL CONCERNS DISCHARGE
@@ -64,11 +66,11 @@ The common report did not identify Maren as having the most raw flags. The manag
 
 <!-- PAGE 12 -->
 III. THE DOCUMENTATION DEFECTS AND THE SANCTION ARE DISTINCT
-The field history does not establish complete notes for the disputed loads. 2-ER-102, 2-ER-103. Maren acknowledges those blanks. 2-ER-112, 2-ER-113. But the policy distinguishes an incomplete record from an unauthorized release. 2-ER-81. Lorne recalled circumstances consistent with permission and did not affirmatively deny the two approvals. 2-ER-40, 2-ER-42, 2-ER-44. The manager's recommendation referred to both authorization and documentation; later he emphasized documentation even assuming a conversation occurred. 2-ER-166, 2-ER-168. Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000) [[AUTH:REEVES:P1]]. Evidence undermining the explanation for a particular sanction can be probative even though an employer identifies an actual concern. Appellant does not ask a jury to find the defects fabricated.
+The field history does not establish complete notes for the disputed loads. 2-ER-102, 2-ER-103. Maren acknowledges those blanks. 2-ER-112, 2-ER-113. But the policy distinguishes an incomplete record from an unauthorized release. 2-ER-81. Lorne recalled circumstances consistent with permission and did not affirmatively deny the two approvals. 2-ER-40, 2-ER-42, 2-ER-44. The manager's recommendation referred to both authorization and documentation; later he emphasized documentation even assuming a conversation occurred. 2-ER-166, 2-ER-168. Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000) [[AUTH:REEVES:P1]]. Reeves addressed an ADEA verdict under Rule 50. Its evidentiary reasoning is invoked here by analogy; it does not displace Nassar's causation rule or compel a finding of liability. Evidence undermining the explanation for a particular sanction can be probative even though an employer identifies an actual concern. Appellant does not ask a jury to find the defects fabricated.
 
 <!-- PAGE 13 -->
 IV. THE COMPARATOR AND TIMING EVIDENCE MUST BE CONSIDERED TOGETHER
-Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13 [[AUTH:KAMA:P1]]. That decision assessed the particular timing and independent reason in its record; it did not make temporal proximity categorically irrelevant. Here the individual review followed notice of the complaint by three days. The customer problem involved Bellford, whose later lead confirmation was accepted without a signed statement. 2-ER-88, 2-ER-90, 2-ER-133. His documentation remained incomplete and the destination field was pending at release. 2-ER-104. Maren's earlier coaching and the different specificity of the accounts are relevant distinctions. A jury could consider their significance alongside the selective investigation and different inquiry into permission. Appellant does not contend that identical jobs alone compel identical sanctions.
+Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13 [[AUTH:KAMA:P1]]. That decision assessed a federal employee's retaliation claim, a 56-day interval, and independently documented noncooperation. Appellant relies on its evidentiary treatment of pretext, not any assumption that federal- and private-sector causation standards are identical. It did not make temporal proximity categorically irrelevant. Here the individual review followed notice of the complaint by three days. The customer problem involved Bellford, whose later lead confirmation was accepted without a signed statement. 2-ER-88, 2-ER-90, 2-ER-133. His documentation remained incomplete and the destination field was pending at release. 2-ER-104. Maren's earlier coaching and the different specificity of the accounts are relevant distinctions. A jury could consider their significance alongside the selective investigation and different inquiry into permission. Appellant does not contend that identical jobs alone compel identical sanctions.
 
 <!-- PAGE 14 -->
 V. THE COO'S REVIEW DOES NOT MAKE THE MANAGER'S MOTIVE IMMATERIAL

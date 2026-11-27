@@ -9,7 +9,7 @@ Entered April 3, 2025. The Court has reviewed the joint case management statemen
 
 <!-- PAGE 2 -->
 SCHEDULE
-Initial disclosures have been exchanged. Nonexpert discovery shall be completed by December 19, 2025. The parties shall arrange the depositions of Maren, Holtwell, Fenmore, Bracken, Lorne and Bellford by mutual agreement within the discovery period. Expert disclosures are not anticipated; any party seeking expert discovery must first confer and promptly seek modification of the schedule. Dispositive motions shall be filed by May 4, 2026. Any opposition shall be filed by May 18, 2026; reply by May 26, 2026; hearing set for June 11, 2026 at 10:00 a.m. These dates are fixed for this simulated docket. Requests to modify the order must identify the specific deadline and grounds. No trial date is set at this time; if claims remain, the Court will set a pretrial conference.
+Initial disclosures have been exchanged. Nonexpert discovery shall be completed by December 19, 2025. The parties shall arrange the depositions of Maren, Holtwell, Fenmore, Bracken, Lorne and Bellford by mutual agreement within the discovery period. Expert disclosures are not anticipated; any party seeking expert discovery must first confer and promptly seek modification of the schedule. Dispositive motions shall be filed by May 4, 2026. Any opposition shall be filed by May 18, 2026; reply by May 26, 2026 (May 25 is Memorial Day); hearing set for June 11, 2026 at 10:00 a.m. These dates are fixed for this simulated docket. Requests to modify the order must identify the specific deadline and grounds. No trial date is set at this time; if claims remain, the Court will set a pretrial conference.
 
 <!-- PAGE 3 -->
 RECORD PRESERVATION AND PRESENTATION

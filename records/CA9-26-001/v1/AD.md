@@ -3,6 +3,7 @@ UNITED STATES COURT OF APPEALS FOR THE NINTH CIRCUIT
 Maren v. Aster Quay Logistics, Inc. — SIM-26-001
 APPELLATE DOCKET — through November 24, 2026
 Fictional proceeding; numbered rows identify retained record items and attachments, not asserted real PACER docket entries.
+Opening brief served October 16, 2026; answering brief deadline November 16, 2026 (November 15 is Sunday). Answer served November 12, 2026; optional reply deadline December 3, 2026. Both timely.
 
 1. 2026-09-09 — Briefing schedule.
 Record ID: CA9-26-001-BRORD | filed | order_appeal

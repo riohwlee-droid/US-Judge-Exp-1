@@ -21,6 +21,7 @@ Kama v. Mayorkas — 9, 10, 12
 Nassar — 9, 14
 Reeves — 11, 14
 Tolan — 9, 13
+Federal Rule of Civil Procedure 56(a) — 9
 
 <!-- PAGE 4 -->
 JURISDICTION AND ISSUE
@@ -44,7 +45,8 @@ Appellant mistakes possible imperfections in the investigation for sufficient ev
 
 <!-- PAGE 9 -->
 ARGUMENT — I. THE GOVERNING STANDARDS
-University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013) [[AUTH:NASSAR:P1]]. The record must permit a finding that the discharge would not have occurred absent the protected opposition. Tolan v. Cotton, 572 U.S. 650, 656–57 (2014) [[AUTH:TOLAN:P1]]. The Court credits the nonmovant's evidence and reasonable inferences without weighing testimony, but need not accept speculation or deem every disputed matter material. Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13 [[AUTH:KAMA:P1]]. Timing may contribute to pretext; it must be evaluated in light of independent evidence and the actual reason given for the adverse action. Appellee does not contend that timing is irrelevant or that direct evidence is required. Its contention is that the evidence combined is insufficient to support the necessary causal finding.
+University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013) [[AUTH:NASSAR:P1]]. The record must permit a finding that the discharge would not have occurred absent the protected opposition. Tolan v. Cotton, 572 U.S. 650, 656–57 (2014) [[AUTH:TOLAN:P1]]. The Court credits the nonmovant's evidence and reasonable inferences without weighing testimony, but need not accept speculation or deem every disputed matter material. Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13 [[AUTH:KAMA:P1]]. Kama involved a federal employee and an independent noncooperation rationale. Its evidentiary analysis of pretext is relevant here, while the private-sector causation requirement is governed by Nassar. Timing may contribute to pretext and must be evaluated with independent evidence and the actual reason for the adverse action. Appellee does not contend that timing is irrelevant or that direct evidence is required. Its contention is that the evidence combined is insufficient to support the necessary causal finding.
+The summary judgment standard derives from Fed. R. Civ. P. 56(a) [[AUTH:FRCP56:P1]].
 
 <!-- PAGE 10 -->
 II. THE INDIVIDUAL EXTENSION HAD A DOCUMENTED BASIS
@@ -52,7 +54,7 @@ The April 12 request identified the earlier coaching note and concern about recu
 
 <!-- PAGE 11 -->
 III. THE CORRECTED FILE IS CONSISTENT WITH THE RECOMMENDATION
-Eight flags were resolved and four remained open. 2-ER-92. The recommendation recognized the corrected count and disputed approval. 2-ER-166. Before the decision, the manager explained that complete notes mattered even if the conversations occurred. 2-ER-168. Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000) [[AUTH:REEVES:P1]]. Disbelief of an employer's reason can be probative, but the record must supply a rational basis to disbelieve the actual explanation. No inconsistency arises merely from distinguishing disputed permission from a documentation failure and treating the latter as serious. The employer did not need the district court to find that permission never occurred. Appellant's criticism concerns the severity of discipline, not sufficient evidence that the documented concern was not honestly held.
+Eight flags were resolved and four remained open. 2-ER-92. The recommendation recognized the corrected count and disputed approval. 2-ER-166. Before the decision, the manager explained that complete notes mattered even if the conversations occurred. 2-ER-168. Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000) [[AUTH:REEVES:P1]]. Reeves addressed the sufficiency of an ADEA jury verdict and does not create a categorical rule of liability on this Title VII appeal. Disbelief of an employer's reason can be probative, but the record must supply a rational basis to disbelieve the actual explanation. No inconsistency arises merely from distinguishing disputed permission from a documentation failure and treating the latter as serious. The employer did not need the district court to find that permission never occurred. Appellant's criticism concerns the severity of discipline, not sufficient evidence that the documented concern was not honestly held.
 
 <!-- PAGE 12 -->
 IV. THE COMPARATOR DOES NOT ESTABLISH EQUIVALENT CIRCUMSTANCES

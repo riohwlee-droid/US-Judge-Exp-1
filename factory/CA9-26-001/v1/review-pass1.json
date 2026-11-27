@@ -1,0 +1,159 @@
+{
+  "status": "partial_review_not_sealed",
+  "source_commit": "efe1b2f66bad0bd8abd7e5f5f01957434db44aaf",
+  "edits": [
+    {
+      "document": "COM",
+      "page": 2,
+      "reason": "Title VII statutory coverage allegation, consistent with admitted coverage"
+    },
+    {
+      "document": "BRORD",
+      "page": 1,
+      "reason": "Clarify alternative due date under FRAP 31 and 26"
+    },
+    {
+      "document": "SCHED",
+      "page": 2,
+      "reason": "NDCA opposition/reply timetable and holiday"
+    },
+    {
+      "document": "TD",
+      "page": 1,
+      "reason": "Map filing and attachment relationship"
+    },
+    {
+      "document": "AD",
+      "page": 1,
+      "reason": "Compute actual FRAP 26/31 deadlines"
+    },
+    {
+      "document": "OPEN",
+      "page": 4,
+      "reason": "Support procedural fact with docket pinpoint"
+    },
+    {
+      "document": "OPEN",
+      "page": 13,
+      "reason": "Distinguish Kama's facts and federal-sector context"
+    },
+    {
+      "document": "ANSWER",
+      "page": 9,
+      "reason": "Limit authority to applicable proposition"
+    },
+    {
+      "document": "ORDER",
+      "page": 5,
+      "reason": "Clarify binding law vs evidentiary analogy"
+    },
+    {
+      "document": "OPP",
+      "page": 8,
+      "reason": "Recognize scope of precedent"
+    },
+    {
+      "document": "MSJ",
+      "page": 7,
+      "reason": "Recognize scope of precedent"
+    },
+    {
+      "document": "OPEN",
+      "page": 12,
+      "reason": "Avoid overstatement of Reeves"
+    },
+    {
+      "document": "ANSWER",
+      "page": 11,
+      "reason": "Same scope for both parties"
+    },
+    {
+      "document": "ORDER",
+      "page": 7,
+      "reason": "Limit Reeves to actual procedural context"
+    },
+    {
+      "document": "ORDER",
+      "page": 4,
+      "reason": "District order original-record pinpoint"
+    },
+    {
+      "document": "ORDER",
+      "page": 5,
+      "reason": "District order original-record pinpoint"
+    },
+    {
+      "document": "ORDER",
+      "page": 6,
+      "reason": "District order original-record pinpoint"
+    },
+    {
+      "document": "ORDER",
+      "page": 7,
+      "reason": "District order original-record pinpoint"
+    },
+    {
+      "document": "MSJ",
+      "page": 2,
+      "reason": "Add operative summary judgment rule"
+    },
+    {
+      "document": "OPP",
+      "page": 2,
+      "reason": "Add operative summary judgment rule"
+    },
+    {
+      "document": "ORDER",
+      "page": 3,
+      "reason": "Add operative summary judgment rule"
+    },
+    {
+      "document": "OPEN",
+      "page": 9,
+      "reason": "Add operative summary judgment rule"
+    },
+    {
+      "document": "ANSWER",
+      "page": 9,
+      "reason": "Add operative summary judgment rule"
+    },
+    {
+      "document": "OPEN",
+      "page": 3,
+      "reason": "Table of authorities updated"
+    },
+    {
+      "document": "ANSWER",
+      "page": 3,
+      "reason": "Table of authorities updated"
+    }
+  ],
+  "reviewed_record_refs": 80,
+  "law_searches": [
+    {
+      "authority": "NASSAR",
+      "query_id": "75850c14",
+      "returned_count": 12,
+      "first_page_results": 5
+    },
+    {
+      "authority": "TOLAN",
+      "query_id": "37d735a9",
+      "returned_count": 32,
+      "first_page_results": 5
+    },
+    {
+      "authority": "REEVES",
+      "query_id": "22fc8ac7",
+      "returned_count": 90,
+      "first_page_results": 5
+    },
+    {
+      "authority": "KAMA",
+      "query_id": "7c2b6491",
+      "returned_count": 1,
+      "first_page_results": 1
+    }
+  ],
+  "limitations": "Returned candidates are not all reviewed opinions; no direct-history or negative-treatment certification."
+}
