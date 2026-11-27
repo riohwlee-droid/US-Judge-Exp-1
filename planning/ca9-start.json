@@ -8,10 +8,17 @@
     "id": "CA9-26-001",
     "title": "Elena R. Maren v. Aster Quay Logistics, Inc.",
     "blueprint_path": "factory/CA9-26-001/v1/blueprint.json",
-    "status": "review_complete_seal_requested",
+    "status": "sealed_not_admitted",
     "provisional_legal_cutoff": "2026-11-27",
     "release_path": "factory/CA9-26-001/v1/release.json",
-    "release_scope": "stable_logical_pages_simulation_only"
+    "release_scope": "stable_logical_pages_simulation_only",
+    "seal": {
+      "commit": "a9bc8c6ba1e7f3fc282131508c922e59f2356dba",
+      "workflow_run": 46016075062,
+      "digest": "a5dbeba3b2708d2049edee93bacba5c1825aebbe709a5f43021cd9559f246fc6",
+      "files": 54,
+      "tests_passed": 75
+    }
   },
   "operating_rules": "courts/ca9/OPERATIONS.md",
   "roster_path": "courts/ca9/roster-v1.json",

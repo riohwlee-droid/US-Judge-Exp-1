@@ -1,6 +1,6 @@
 {
   "case_id": "CA9-26-001",
-  "status": "review_complete_seal_requested",
+  "status": "sealed_not_admitted",
   "authored_documents": [
     {
       "id": "CA9-26-001-COM",
@@ -203,7 +203,7 @@
   ],
   "planned_documents": 33,
   "legal_lookup": {
-    "status": "six citations verified for identity; treatment and full original pin review pending",
+    "status": "bounded proposition-specific review completed; see FINAL-LEGAL-REVIEW.md; no comprehensive citator clearance",
     "job_id": "116ddacb",
     "authorities": [
       "570 U.S. 338",
@@ -214,13 +214,13 @@
       "411 U.S. 792"
     ]
   },
-  "next_batch": "Verify actual release.json and workflow seal; no game admission without campaign setup.",
+  "next_batch": "Campaign setup, roster installation, conflicts review, admission and panel assignment; no outcome predetermined.",
   "excerpt_pages": 190,
   "review": {
     "source_commit": "efe1b2f66bad0bd8abd7e5f5f01957434db44aaf",
     "edit_count": 25,
     "record_reference_count": 92,
-    "scope": "Bounded proposition-specific legal review; explicit substantive record citation corrections; full production compiler and independent semantic role review pending.",
+    "scope": "Bounded proposition-specific public-source legal review and same-model separate-role semantic review completed for logical simulation record.",
     "legal_authorities": 13,
     "legal_occurrences": 61,
     "original_documents_audited": 30,
@@ -237,5 +237,12 @@
     "semantic_anchor_checks": 15,
     "review_roles": 12,
     "format_scope": "Simulation logical record only, not a representation of actual ECF filing, official certified transcript, or PDF typography. Bounded public-source research as of 2026-11-27; no comprehensive citator or independent external legal reviewer. Separate review roles are performed by the same ChatGPT. Later authoritative developments or lawful corrections are separate, not silent changes."
+  },
+  "seal": {
+    "commit": "a9bc8c6ba1e7f3fc282131508c922e59f2356dba",
+    "workflow_run": 46016075062,
+    "digest": "a5dbeba3b2708d2049edee93bacba5c1825aebbe709a5f43021cd9559f246fc6",
+    "files": 54,
+    "tests_passed": 75
   }
 }
