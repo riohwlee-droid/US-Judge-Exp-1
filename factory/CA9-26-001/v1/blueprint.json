@@ -843,7 +843,7 @@
       "filed_at": "2026-09-03T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 5,
+      "pages": 4,
       "depends_on": []
     },
     {
@@ -991,7 +991,7 @@
       "filed_at": "2026-05-04T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 20,
+      "pages": 14,
       "depends_on": []
     },
     {
@@ -1053,7 +1053,7 @@
       "filed_at": "2026-05-18T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 18,
+      "pages": 13,
       "depends_on": []
     },
     {
@@ -1066,7 +1066,7 @@
       "filed_at": "2026-05-18T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 16,
+      "pages": 12,
       "depends_on": []
     },
     {
@@ -1140,7 +1140,7 @@
       "filed_at": "2026-06-18T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 12,
+      "pages": 8,
       "depends_on": [
         "CA9-26-001-MSJ",
         "CA9-26-001-OPP",
@@ -1370,7 +1370,7 @@
       "document_id": "CA9-26-001-LOG",
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 2,
       "entry_text": "7. 2026-05-04 — Exhibit D — dispatch system and exception records."
     },
     {
@@ -1378,7 +1378,7 @@
       "document_id": "CA9-26-001-MDEP",
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 2,
       "entry_text": "8. 2026-05-04 — Exhibit E — deposition of Elena Maren."
     },
     {
@@ -1386,7 +1386,7 @@
       "document_id": "CA9-26-001-SDEP",
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 2,
       "entry_text": "9. 2026-05-04 — Exhibit F — deposition of Gavin Holtwell."
     },
     {
@@ -1394,7 +1394,7 @@
       "document_id": "CA9-26-001-ADEP",
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 2,
       "entry_text": "10. 2026-05-04 — Exhibit G — deposition of Derek Fenmore."
     },
     {
@@ -1402,7 +1402,7 @@
       "document_id": "CA9-26-001-HDEP",
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 2,
       "entry_text": "11. 2026-05-04 — Exhibit H — deposition of Nadia Bracken."
     },
     {
@@ -1410,7 +1410,7 @@
       "document_id": "CA9-26-001-TERM",
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 2,
       "entry_text": "12. 2026-05-04 — Exhibit I — recommendation, HR review and termination."
     },
     {
@@ -1418,7 +1418,7 @@
       "document_id": "CA9-26-001-MSJ",
       "court": "district",
       "filed_at": "2026-05-04T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 3,
       "entry_text": "13. 2026-05-04 — Defendant motion for summary judgment."
     },
     {
@@ -1426,7 +1426,7 @@
       "document_id": "CA9-26-001-COMP",
       "court": "district",
       "filed_at": "2026-05-18T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 3,
       "entry_text": "14. 2026-05-18 — Plaintiff Exhibit 1 — internal complaint and HR correspondence."
     },
     {
@@ -1434,7 +1434,7 @@
       "document_id": "CA9-26-001-WDEP",
       "court": "district",
       "filed_at": "2026-05-18T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 3,
       "entry_text": "15. 2026-05-18 — Plaintiff Exhibit 2 — deposition of Tessa Lorne."
     },
     {
@@ -1442,7 +1442,7 @@
       "document_id": "CA9-26-001-CDEP",
       "court": "district",
       "filed_at": "2026-05-18T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 3,
       "entry_text": "16. 2026-05-18 — Plaintiff Exhibit 3 — deposition of Jules Bellford."
     },
     {
@@ -1450,7 +1450,7 @@
       "document_id": "CA9-26-001-WARN",
       "court": "district",
       "filed_at": "2026-05-18T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 3,
       "entry_text": "17. 2026-05-18 — Plaintiff Exhibit 4 — comparator discipline."
     },
     {
@@ -1458,7 +1458,7 @@
       "document_id": "CA9-26-001-EEOC",
       "court": "district",
       "filed_at": "2026-05-18T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 3,
       "entry_text": "18. 2026-05-18 — Plaintiff Exhibit 5 — EEOC charge and right-to-sue notice."
     },
     {
@@ -1466,7 +1466,7 @@
       "document_id": "CA9-26-001-OPP",
       "court": "district",
       "filed_at": "2026-05-18T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 4,
       "entry_text": "19. 2026-05-18 — Plaintiff opposition to motion for summary judgment."
     },
     {
@@ -1474,7 +1474,7 @@
       "document_id": "CA9-26-001-REPL",
       "court": "district",
       "filed_at": "2026-05-26T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 4,
       "entry_text": "20. 2026-05-26 — Defendant reply in support of summary judgment."
     },
     {
@@ -1482,7 +1482,7 @@
       "document_id": "CA9-26-001-HEAR",
       "court": "district",
       "filed_at": "2026-06-18T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 4,
       "entry_text": "21. 2026-06-18 — Transcript of oral argument on summary judgment motion."
     },
     {
@@ -1490,7 +1490,7 @@
       "document_id": "CA9-26-001-ORDER",
       "court": "district",
       "filed_at": "2026-08-21T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 4,
       "entry_text": "22. 2026-08-21 — Order granting defendant summary judgment."
     },
     {
@@ -1498,7 +1498,7 @@
       "document_id": "CA9-26-001-JUD",
       "court": "district",
       "filed_at": "2026-08-21T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 4,
       "entry_text": "23. 2026-08-21 — Separate judgment."
     },
     {
@@ -1506,7 +1506,7 @@
       "document_id": "CA9-26-001-NOA",
       "court": "district",
       "filed_at": "2026-09-03T10:00:00-07:00",
-      "docket_page": 1,
+      "docket_page": 4,
       "entry_text": "24. 2026-09-03 — Notice of appeal."
     },
     {
@@ -1562,7 +1562,7 @@
       "document_id": "CA9-26-001-REPLY",
       "court": "appeals",
       "filed_at": "2026-11-24T10:00:00-08:00",
-      "docket_page": 1,
+      "docket_page": 2,
       "entry_text": "7. 2026-11-24 — Appellant's reply brief."
     }
   ],
@@ -1771,7 +1771,7 @@
       "page": 1,
       "fact_id": "F22",
       "quote": "September 3, 2026.",
-      "speaker_id": "P",
+      "speaker_id": "PC",
       "mode": "allegation",
       "asserted_value": "2026-09-03",
       "unit": "date"
@@ -2105,6 +2105,116 @@
       "mode": "testimony",
       "asserted_value": "AQ-4311",
       "unit": "id"
+    },
+    {
+      "id": "A-50",
+      "document_id": "CA9-26-001-HDEP",
+      "page": 3,
+      "fact_id": "F08",
+      "quote": "April 8, 2024.",
+      "speaker_id": "H",
+      "mode": "testimony",
+      "asserted_value": "2024-04-08",
+      "unit": "date"
+    },
+    {
+      "id": "A-51",
+      "document_id": "CA9-26-001-HDEP",
+      "page": 4,
+      "fact_id": "F10",
+      "quote": "Yes, April 9.",
+      "speaker_id": "H",
+      "mode": "testimony",
+      "asserted_value": "2024-04-09",
+      "unit": "date"
+    },
+    {
+      "id": "A-52",
+      "document_id": "CA9-26-001-HDEP",
+      "page": 7,
+      "fact_id": "F13",
+      "quote": "Eight were resolved",
+      "speaker_id": "H",
+      "mode": "testimony",
+      "asserted_value": "8",
+      "unit": "flags"
+    },
+    {
+      "id": "A-53",
+      "document_id": "CA9-26-001-HDEP",
+      "page": 7,
+      "fact_id": "F14",
+      "quote": "four remained open",
+      "speaker_id": "H",
+      "mode": "testimony",
+      "asserted_value": "4",
+      "unit": "flags"
+    },
+    {
+      "id": "A-54",
+      "document_id": "CA9-26-001-HDEP",
+      "page": 7,
+      "fact_id": "F15",
+      "quote": "two disputed authorization",
+      "speaker_id": "H",
+      "mode": "testimony",
+      "asserted_value": "2",
+      "unit": "flags"
+    },
+    {
+      "id": "A-55",
+      "document_id": "CA9-26-001-HDEP",
+      "page": 9,
+      "fact_id": "F16",
+      "quote": "Bellford warning dated May 2",
+      "speaker_id": "H",
+      "mode": "testimony",
+      "asserted_value": "written warning",
+      "unit": "text"
+    },
+    {
+      "id": "A-56",
+      "document_id": "CA9-26-001-WDEP",
+      "page": 4,
+      "fact_id": "F04",
+      "quote": "AQ-4182.",
+      "speaker_id": "W",
+      "mode": "testimony",
+      "asserted_value": "AQ-4182",
+      "unit": "id"
+    },
+    {
+      "id": "A-57",
+      "document_id": "CA9-26-001-WDEP",
+      "page": 6,
+      "fact_id": "F05",
+      "quote": "AQ-4311?",
+      "speaker_id": "W",
+      "mode": "testimony",
+      "asserted_value": "AQ-4311",
+      "unit": "id"
+    },
+    {
+      "id": "A-58",
+      "document_id": "CA9-26-001-CDEP",
+      "page": 3,
+      "fact_id": "F06",
+      "quote": "customer shipment AQ-4470 on April 2.",
+      "speaker_id": "C",
+      "mode": "testimony",
+      "asserted_value": "AQ-4470",
+      "unit": "id"
+    },
+    {
+      "id": "A-59",
+      "document_id": "CA9-26-001-CDEP",
+      "page": 6,
+      "fact_id": "F16",
+      "quote": "A written warning.",
+      "speaker_id": "C",
+      "mode": "testimony",
+      "asserted_value": "written warning",
+      "unit": "text"
     }
   ],
   "evidence": [
@@ -2295,6 +2405,55 @@
       "provenance": "Fictional record produced in discovery; exact retained content and witness testimony, contested inferences reserved.",
       "page": 7,
       "quote": "Four remain open."
+    },
+    {
+      "id": "EV-12",
+      "document_id": "CA9-26-001-HDEP",
+      "event_id": "T26",
+      "custodian_id": "REP",
+      "fact_ids": [
+        "F08",
+        "F10",
+        "F13",
+        "F14",
+        "F15",
+        "F16"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional sworn deposition reproduced by reporter; competing inferences reserved.",
+      "page": 7,
+      "quote": "Eight were resolved"
+    },
+    {
+      "id": "EV-13",
+      "document_id": "CA9-26-001-WDEP",
+      "event_id": "T27",
+      "custodian_id": "REP",
+      "fact_ids": [
+        "F04",
+        "F05"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional sworn deposition reproduced by reporter; competing inferences reserved.",
+      "page": 4,
+      "quote": "The circumstances are consistent with my memory"
+    },
+    {
+      "id": "EV-14",
+      "document_id": "CA9-26-001-CDEP",
+      "event_id": "T28",
+      "custodian_id": "REP",
+      "fact_ids": [
+        "F06",
+        "F16"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional sworn deposition reproduced by reporter; competing inferences reserved.",
+      "page": 6,
+      "quote": "A written warning."
     }
   ],
   "excerpts": [],

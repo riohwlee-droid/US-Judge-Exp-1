@@ -103,6 +103,42 @@
       "path": "records/CA9-26-001/v1/ADEP.md",
       "pages": 13,
       "words": 1559
+    },
+    {
+      "id": "CA9-26-001-HDEP",
+      "path": "records/CA9-26-001/v1/HDEP.md",
+      "pages": 14,
+      "words": 1747
+    },
+    {
+      "id": "CA9-26-001-WDEP",
+      "path": "records/CA9-26-001/v1/WDEP.md",
+      "pages": 13,
+      "words": 1585
+    },
+    {
+      "id": "CA9-26-001-CDEP",
+      "path": "records/CA9-26-001/v1/CDEP.md",
+      "pages": 12,
+      "words": 1428
+    },
+    {
+      "id": "CA9-26-001-HEAR",
+      "path": "records/CA9-26-001/v1/HEAR.md",
+      "pages": 8,
+      "words": 1075
+    },
+    {
+      "id": "CA9-26-001-TD",
+      "path": "records/CA9-26-001/v1/TD.md",
+      "pages": 4,
+      "words": 488
+    },
+    {
+      "id": "CA9-26-001-AD",
+      "path": "records/CA9-26-001/v1/AD.md",
+      "pages": 2,
+      "words": 170
     }
   ],
   "planned_documents": 33,
