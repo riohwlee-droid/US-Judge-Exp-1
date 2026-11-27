@@ -6419,9 +6419,9 @@
     {
       "id": "U-STAFF-ATTORNEYS",
       "name": "Staff Attorney's Office",
-      "parent_id": null,
+      "parent_id": "U-CLERK",
       "category": "court",
-      "function": "screening, procedural motions research and legal memoranda",
+      "function": "court-wide research, motions, case management and pro se litigation; reports administratively to Clerk",
       "staff_ids": [
         "U-STAFF-ATTORNEYS-01",
         "U-STAFF-ATTORNEYS-02",
@@ -6429,14 +6429,20 @@
         "U-STAFF-ATTORNEYS-04",
         "U-STAFF-ATTORNEYS-05"
       ],
-      "simulation_staffing": true
+      "simulation_staffing": true,
+      "subfunctions": [
+        "research",
+        "motions",
+        "case management",
+        "pro se litigation"
+      ]
     },
     {
       "id": "U-COMMISSIONER",
       "name": "Appellate Commissioner",
-      "parent_id": null,
+      "parent_id": "U-CLERK",
       "category": "court",
-      "function": "reviewed delegated matters only; no merits vote",
+      "function": "CJA voucher review and reviewed delegated procedural matters; no merits vote",
       "staff_ids": [
         "U-COMMISSIONER-01",
         "U-COMMISSIONER-02"
@@ -6446,7 +6452,7 @@
     {
       "id": "U-MEDIATION",
       "name": "Circuit Mediation Office",
-      "parent_id": null,
+      "parent_id": "U-CLERK",
       "category": "court",
       "function": "settlement and mediation separated from merits deliberations",
       "staff_ids": [
