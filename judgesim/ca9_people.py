@@ -110,6 +110,7 @@ def initial_view(s,p,require):
     require(c["phase"]=="merits" and j in c["assigned_judges"] and j!=s["campaign"]["player"]["id"],"NPC current panel only")
     require(d["case_id"]==c["id"] and d["access"]=="npc_private" and d["status"]=="internal","private preliminary memo required")
     require(nonblank(p.get("disposition")),"independent disposition required")
+    require(any(h["status"]=="completed" and h.get("panel_epoch")==c["panel_epoch"] for h in c["hearings"].values()),"review submitted case before preliminary position")
     key=str(c["panel_epoch"]); views=c.setdefault("independent_views",{}).setdefault(key,{})
     require(j not in views and not any(x.get("panel_epoch")==c["panel_epoch"] for x in c.get("conferences",[])),"initial view already recorded or conference occurred")
     views[j]={"document_id":d["id"],"disposition":p["disposition"],"recorded_at":s["campaign"]["game_time"]}

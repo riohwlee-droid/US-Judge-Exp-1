@@ -7,7 +7,7 @@ from copy import deepcopy
 from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from judgesim.engine import Invalid, apply_batch, require, identifier
+from judgesim.engine import Invalid, apply_batch, require, identifier, digest
 from judgesim.storage import read_json, write_json, verify, profiles, safe, sha, write_checkpoint
 
 
@@ -33,6 +33,12 @@ def process(root):
             require(isinstance(packet["events"], list) and packet["events"], "empty or invalid event batch")
             events = deepcopy(packet["events"])
             for event in events:
+                if event["type"] == "ca9.organization_install":
+                    payload=event["payload"]
+                    if payload.get("roster_id")=="CA9-ROSTER-V1" and payload.get("roster_digest")=="server_computed":
+                        require("roster" not in payload,"ambiguous roster input")
+                        payload["roster"]=read_json(root/"courts/ca9/roster-v1.json")
+                        payload["roster_digest"]=digest(payload["roster"])
                 if event["type"] == "document.register":
                     doc = event["payload"]["document"]
                     if doc["sha256"] == "server_computed":
