@@ -4,7 +4,7 @@
 
 ## 목표
 
-활성 법원은 사용자 선택으로 제9순회항소법원(CA9)이다. courts/ca9/OPERATIONS.md와 rules.json을 읽고 일반 3인 합의부 규칙을 적용한다. 특수 패널과 en banc은 구현 전 실제 진행하지 않는다. 메인주 캠페인은 종료되었으며 archive/maine-law-court의 자료를 새 사건으로 사용하거나 복원하지 않는다. 선택된 순회의 지역규칙·IOP와 사건 관할 검증 없이 부임하지 않는다.
+활성 법원은 사용자 선택으로 제9순회항소법원(CA9)이다. courts/ca9/OPERATIONS.md와 rules.json을 읽고 일반 3인 합의부 규칙을 적용한다. courts/ca9/LIFECYCLE.md의 v2 이벤트를 적용한다. 일반 합의부 및 제한적 전원합의체 외 특수 절차는 검증 없이 진행하지 않는다. 메인주 캠페인은 종료되었으며 archive/maine-law-court의 자료를 새 사건으로 사용하거나 복원하지 않는다. 선택된 순회의 지역규칙·IOP와 사건 관할 검증 없이 부임하지 않는다.
 
 대화가 플레이 공간, GitHub가 원문과 상태의 공식 저장소다. 사용자는 상태 칸을 수정하지 않는다. 의미 있는 새 내용과 NPC 연기는 ChatGPT가 맡고 Python/GitHub Actions는 기계 검증만 수행한다. 유료 AI API를 추가하지 않는다. PC가 필요한 사용 흐름을 요구하지 않는다.
 

@@ -177,9 +177,9 @@
       ],
       "readiness_gaps": [
         "fictional roster and player/date",
-        "first complete appeal record and case-specific jurisdiction/authorities",
-        "special panels, recusal replacement, rehearing/en banc and mandate transitions",
-        "effective rules recheck for selected game date"
+        "first complete appeal and legal review",
+        "exception pathways in LIFECYCLE.md",
+        "effective rules recheck for game date"
       ],
       "matter_types": [
         "civil_appeal",
@@ -194,7 +194,7 @@
         "consideration_on_briefs"
       ],
       "selected": true,
-      "implementation_status": "ordinary_panel_core",
+      "implementation_status": "lifecycle_v2",
       "checked_on": "2026-11-27",
       "jurisdiction": "Federal district court appeals from 15 districts in nine western states and Guam/Northern Mariana Islands; agency, Tax Court, bankruptcy and writ jurisdiction only when separately established.",
       "appeal_route": "Panel rehearing or rehearing en banc under FRAP 40; Supreme Court review by certiorari when available; mandate under FRAP 41.",
@@ -203,7 +203,7 @@
       "rules": "FRAP and Ninth Circuit Rules handbook effective 2026-06-01; General Orders revised 2026-10-27. Verify against game date.",
       "operating_rules_path": "courts/ca9/OPERATIONS.md",
       "machine_rules_path": "courts/ca9/rules.json",
-      "ordinary_panel_only": true
+      "ordinary_panel_only": false
     },
     "CA10": {
       "id": "CA10",

@@ -1,6 +1,6 @@
 """Deterministic event reducer. This enforces storage/workflow, not legal correctness."""
 from copy import deepcopy
-from . import ca9
+from . import ca9, ca9_lifecycle as life
 from datetime import datetime, timedelta
 import hashlib
 import json
@@ -117,10 +117,10 @@ def validate_state(state, profiles, allow_training=False):
         for person in case["assigned_judges"]:
             require(entity(state["people"], person)["role"] == "judge", "panel member is not a judge")
         if case["court_id"] == "CA9":
-            ca9.check_panel(state, case, require)
+            life.validate(state, case, require)
         for hearing in case["hearings"].values():
             require(hearing["kind"] in profile["hearing_kinds"] and
-                    hearing["status"] in {"scheduled", "in_progress", "completed"}, "bad hearing")
+                    hearing["status"] in {"scheduled", "in_progress", "completed", "cancelled"}, "bad hearing")
     for doc in state["documents"].values():
         entity(state["cases"], doc["case_id"])
         require(doc["access"] in {"judge", "world_only", "npc_private"}, "bad document access")
@@ -145,9 +145,10 @@ def validate_state(state, profiles, allow_training=False):
         doc = judge_document(state, opinion["document_id"])
         require(doc["case_id"] == case["id"], "opinion document belongs to another case")
         require(opinion["parts"] and len(set(opinion["parts"])) == len(opinion["parts"]), "invalid opinion parts")
-        require(opinion["author_id"] in case["assigned_judges"], "author is outside panel")
+        panel = opinion.get("panel_judges", case["assigned_judges"])
+        require(opinion["author_id"] in panel, "author is outside panel")
         for judge_id, position in opinion["positions"].items():
-            require(judge_id in case["assigned_judges"], "voter is outside panel")
+            require(judge_id in panel, "voter is outside panel")
             require(set(position["joined_parts"]) <= set(opinion["parts"]), "unknown joined part")
             require(position["stance"] in {"join", "concur", "dissent", "pending"}, "bad position")
     for precedent in state["precedents"].values():
@@ -194,6 +195,8 @@ def apply_batch(state, events, profiles, allow_training=False):
                 require(obj.get("fictional") is True, "case must be fictional")
                 require(obj.get("record_status") == "complete", "full initial record must be prepared before play")
                 obj.update(hearings={}, writing_status="not_started", status="pending")
+                if obj["court_id"] == "CA9":
+                    life.init_case(obj, require)
                 result["cases"][obj["id"]] = obj
             elif kind == "document.register":
                 obj = deepcopy(p["document"])
@@ -202,20 +205,30 @@ def apply_batch(state, events, profiles, allow_training=False):
                     old = entity(result["documents"], obj["supersedes"])
                     require(old["case_id"] == obj["case_id"], "correction crosses cases")
                 result["documents"][obj["id"]] = obj
+            elif kind in life.EVENTS:
+                life.handle(result, kind, p, campaign["game_time"], require, moment, judge_document)
             elif kind == "hearing.start":
                 c = entity(result["cases"], p["case_id"])
                 require(c["status"] == "pending", "case is closed")
+                if c["court_id"] == "CA9":
+                    life.phase(c, "merits", require=require)
+                    require(c["panel_kind"] != "quorum", "quorum continues submitted case")
                 fresh(c["hearings"], p["hearing_id"])
                 if c["court_id"] == "CA9" and p["kind"] == "consideration_on_briefs":
                     ca9.no_argument(c, p, require)
                 c["hearings"][p["hearing_id"]] = {"id": p["hearing_id"], "kind": p["kind"],
                     "status": "in_progress", "started_at": campaign["game_time"], "ended_at": None}
+                if c["court_id"] == "CA9":
+                    c["hearings"][p["hearing_id"]]["panel_epoch"] = c["panel_epoch"]
                 if c["court_id"] == "CA9" and p["kind"] == "consideration_on_briefs":
                     c["hearings"][p["hearing_id"]].update(no_argument_votes=deepcopy(p["no_argument_votes"]), no_argument_reason=p["no_argument_reason"], briefs_and_record_reviewed=True)
             elif kind == "hearing.complete":
                 c = entity(result["cases"], p["case_id"])
                 h = entity(c["hearings"], p["hearing_id"])
                 require(h["status"] == "in_progress", "hearing is not in progress")
+                if c["court_id"] == "CA9":
+                    life.phase(c, "merits", require=require)
+                    require(h.get("panel_epoch") == c["panel_epoch"], "old panel hearing")
                 h.update(status="completed", ended_at=campaign["game_time"])
                 # Deliberation, record closing and drafting are deliberately independent.
             elif kind == "task.assign":
@@ -237,13 +250,21 @@ def apply_batch(state, events, profiles, allow_training=False):
                 c = entity(result["cases"], p["case_id"])
                 require(c["court_id"] == "CA9" and c["status"] == "pending", "conference rule only for CA9 pending case")
                 require(c["writing_status"] == "not_started", "initial conference already passed; use opinion positions for revisions")
-                c.setdefault("conferences", []).append(ca9.conference(c,p,require))
+                life.phase(c, "merits", require=require)
+                conf = ca9.conference(c,p,require)
+                conf["panel_epoch"] = c["panel_epoch"]
+                if c["panel_kind"] == "limited_en_banc":
+                    coalition = [j for j,v in conf["votes"].items() if v == conf["majority_disposition"]]
+                    require(all(type(result["people"][j].get("seniority_rank")) is int for j in coalition), "en banc seniority missing")
+                    require(p.get("assigning_judge_id") == min(coalition,key=lambda j:result["people"][j]["seniority_rank"]), "GO 5.7 senior majority judge assigns")
+                c.setdefault("conferences", []).append(conf)
             elif kind == "draft.start":
                 c = entity(result["cases"], p["case_id"])
                 require(c["status"] == "pending" and c["writing_status"] == "not_started", "cannot start draft")
                 require(p["author_id"] in c["assigned_judges"], "author is outside panel")
                 if c["court_id"] == "CA9":
-                    require(c.get("conferences") and c["conferences"][-1]["author_id"] == p["author_id"], "CA9 conference author required")
+                    life.phase(c, "merits", require=require)
+                    require(c.get("conferences") and c["conferences"][-1]["author_id"] == p["author_id"] and c["conferences"][-1]["panel_epoch"] == c["panel_epoch"], "CA9 current conference author required")
                 c["writing_status"] = "drafting"
             elif kind == "opinion.circulate":
                 obj = deepcopy(p["opinion"])
@@ -253,12 +274,22 @@ def apply_batch(state, events, profiles, allow_training=False):
                 if obj.get("supersedes"):
                     old = entity(result["opinions"], obj["supersedes"])
                     require(old["case_id"] == obj["case_id"], "revision crosses cases")
+                if c["court_id"] == "CA9":
+                    life.phase(c, "merits", require=require)
+                    obj.update(panel_epoch=c["panel_epoch"], panel_judges=list(c["assigned_judges"]))
+                    if obj.get("supersedes"):
+                        require(old["status"]=="circulating" and old.get("panel_epoch")==c["panel_epoch"] and old["author_id"]==obj["author_id"],"invalid current draft revision")
+                        old["status"]="superseded"
                 obj.update(positions={}, status="circulating")
                 result["opinions"][obj["id"]] = obj
                 c["writing_status"] = "circulating"
             elif kind == "opinion.position":
                 opinion = entity(result["opinions"], p["opinion_id"])
                 require(opinion["status"] == "circulating", "opinion is not circulating")
+                c = entity(result["cases"], opinion["case_id"])
+                if c["court_id"] == "CA9":
+                    life.phase(c, "merits", require=require)
+                    require(opinion.get("panel_epoch")==c["panel_epoch"],"old panel draft")
                 opinion["positions"][p["judge_id"]] = {"disposition": p["disposition"],
                     "stance": p["stance"], "joined_parts": p["joined_parts"], "comment": p.get("comment", "")}
             elif kind == "opinion.issue":
@@ -271,6 +302,8 @@ def apply_batch(state, events, profiles, allow_training=False):
                 require(p["opinion_kind"] in {"majority", "plurality", "concurrence", "dissent", "order"},
                         "invalid opinion kind")
                 if c["court_id"] == "CA9":
+                    life.phase(c, "merits", require=require)
+                    require(opinion.get("panel_epoch")==c["panel_epoch"],"old panel draft")
                     opinion.update(ca9.issuance(c, opinion, p, require))
                 opinion.update(status="issued", issued_at=campaign["game_time"],
                     opinion_kind=p["opinion_kind"], rule_basis=p["rule_basis"])
@@ -284,7 +317,7 @@ def apply_batch(state, events, profiles, allow_training=False):
                 require(obj["authority_status"] in {"binding", "persuasive", "nonprecedential", "undetermined"}
                         and obj.get("scope") and obj.get("rule_basis"), "precedent needs scope and rule basis")
                 if result["cases"][opinion["case_id"]]["court_id"] == "CA9" and obj["authority_status"] == "binding":
-                    require(opinion.get("publication_form") == "OPINION" and opinion["opinion_kind"] == "majority", "CA9 binding precedent requires published majority opinion in v1")
+                    require(opinion.get("publication_form") == "OPINION" and opinion["opinion_kind"] == "majority", "CA9 binding precedent requires published majority opinion")
                 moment(obj["issued_at"])
                 result["precedents"][obj["id"]] = obj
             elif kind == "deadline.add":

@@ -1,0 +1,15 @@
+{
+  "id": "CA9-REPLACE",
+  "fictional": true,
+  "court_id": "CA9",
+  "title": "Fictional case",
+  "matter_type": "civil_appeal",
+  "record_status": "complete",
+  "initial_document_ids": [],
+  "assigned_judges": [],
+  "panel_kind": "ordinary_merits",
+  "origin_district": "REPLACE",
+  "calendar_location": "REPLACE",
+  "jurisdiction_basis": "REVIEW",
+  "conflict_review_completed": false
+}

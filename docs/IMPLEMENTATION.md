@@ -48,3 +48,6 @@ CI는 실패를 탐지하지만 main 쓰기 자체를 막는 branch protection�
 
 ## CA9 ordinary merits panel v1
 See courts/ca9/OPERATIONS.md. New conference.record payload: case_id, votes mapping judge ID to disposition, majority_disposition, author_id. Case metadata: panel_kind=ordinary_merits, presiding_judge_id, conflict_review_completed, jurisdiction_basis. Judge metadata: court_id, judicial_status, seniority_rank, optional chief_judge. For consideration_on_briefs include no_argument_votes, no_argument_reason, briefs_and_record_reviewed. Opinion issue requires publication_form, certified, disposition for controlling disposition, publication_reason for OPINION. Author explicitly records own position. Special panels, recusal changes, mandate and en banc not executable. Full legal validation not automated.
+
+## CA9 lifecycle v2
+See courts/ca9/LIFECYCLE.md; this supersedes the v1 restrictions. Replay preserves panel history and vacated opinions. New CA9 cases must register unassigned, then ca9.assign. No current live campaign changed.

@@ -3,13 +3,13 @@
   "court_id": "CA9",
   "selected": true,
   "verified_as_of": "2026-11-27",
-  "coverage": "ordinary merits panel only; exceptions blocked until implemented",
+  "coverage": "ordinary merits, post-submission quorum, limited en banc rehearing, judgment and mandate v2; exceptions listed in LIFECYCLE.md",
   "ordinary_panel": {
     "size": 3,
     "min_ninth_members": 2,
     "min_active_ninth": 1,
     "presiding": "chief judge if on panel; otherwise seniority among active Ninth judges",
-    "assignment": "clerk calendar and case assignment; randomized subject to workload, location and recusal; manual reviewed assignment for now",
+    "assignment": "reviewed calendar slots with deterministic logged lottery; priority review input",
     "source": "GO 3.2–3.3"
   },
   "submission_without_argument": {
@@ -48,10 +48,30 @@
     "chief_plus_ten_by_lot": true,
     "grant_electorate": "eligible active judges, majority; no senior judge vote",
     "source": "Circuit Rule 40-3; GO 5.1",
-    "implementation": "documented_only"
+    "implementation": "postjudgment call, vote, tally, draw and merits"
   },
   "mandate": {
     "source": "FRAP 41; GO 4.6",
-    "implementation": "documented_only"
-  }
+    "implementation": "judgment, review clearance, stay, mandate and recall"
+  },
+  "events": [
+    "ca9.assign",
+    "ca9.panel_change",
+    "ca9.judgment",
+    "ca9.rehearing_file",
+    "ca9.response_request",
+    "ca9.response_file",
+    "ca9.panel_rehearing",
+    "ca9.en_banc_call",
+    "ca9.en_banc_open",
+    "ca9.en_banc_vote",
+    "ca9.en_banc_tally",
+    "ca9.en_banc_draw",
+    "ca9.en_banc_clear",
+    "ca9.stay_file",
+    "ca9.stay_decide",
+    "ca9.stay_end",
+    "ca9.mandate",
+    "ca9.mandate_recall"
+  ]
 }
