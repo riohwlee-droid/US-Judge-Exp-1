@@ -157,7 +157,7 @@
     },
     {
       "id": "T05",
-      "at": "2024-03-20T10:00:00-08:00",
+      "at": "2024-03-20T10:00:00-07:00",
       "description": "Maren dispatches consignment AQ-4311.",
       "actor_ids": [
         "P",
@@ -952,7 +952,7 @@
       "filed_at": "2026-05-04T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 26,
+      "pages": 16,
       "depends_on": []
     },
     {
@@ -965,7 +965,7 @@
       "filed_at": "2026-05-04T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 26,
+      "pages": 17,
       "depends_on": []
     },
     {
@@ -978,7 +978,7 @@
       "filed_at": "2026-05-04T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 20,
+      "pages": 13,
       "depends_on": []
     },
     {
@@ -1775,6 +1775,336 @@
       "mode": "allegation",
       "asserted_value": "2026-09-03",
       "unit": "date"
+    },
+    {
+      "id": "A-20",
+      "document_id": "CA9-26-001-LOG",
+      "page": 2,
+      "fact_id": "F07",
+      "quote": "Accounts: EMAREN, JBELLFORD, and four other coordinators",
+      "speaker_id": "A",
+      "mode": "finding",
+      "asserted_value": "six coordinators; fourteen-day window",
+      "unit": "text"
+    },
+    {
+      "id": "A-21",
+      "document_id": "CA9-26-001-LOG",
+      "page": 3,
+      "fact_id": "F11",
+      "quote": "Account: EMAREN only.",
+      "speaker_id": "I",
+      "mode": "finding",
+      "asserted_value": "60",
+      "unit": "days"
+    },
+    {
+      "id": "A-22",
+      "document_id": "CA9-26-001-LOG",
+      "page": 3,
+      "fact_id": "F12",
+      "quote": "Output: 12 preliminary rows.",
+      "speaker_id": "I",
+      "mode": "finding",
+      "asserted_value": "12",
+      "unit": "flags"
+    },
+    {
+      "id": "A-23",
+      "document_id": "CA9-26-001-LOG",
+      "page": 5,
+      "fact_id": "F04",
+      "quote": "AQ-4182 | Mar 7",
+      "speaker_id": "I",
+      "mode": "canonical",
+      "asserted_value": "AQ-4182",
+      "unit": "id"
+    },
+    {
+      "id": "A-24",
+      "document_id": "CA9-26-001-LOG",
+      "page": 5,
+      "fact_id": "F05",
+      "quote": "AQ-4311 | Mar 20",
+      "speaker_id": "I",
+      "mode": "canonical",
+      "asserted_value": "AQ-4311",
+      "unit": "id"
+    },
+    {
+      "id": "A-25",
+      "document_id": "CA9-26-001-LOG",
+      "page": 6,
+      "fact_id": "F13",
+      "quote": "eight resolved",
+      "speaker_id": "A",
+      "mode": "finding",
+      "asserted_value": "8",
+      "unit": "flags"
+    },
+    {
+      "id": "A-26",
+      "document_id": "CA9-26-001-LOG",
+      "page": 6,
+      "fact_id": "F14",
+      "quote": "four open entries",
+      "speaker_id": "A",
+      "mode": "finding",
+      "asserted_value": "4",
+      "unit": "flags"
+    },
+    {
+      "id": "A-27",
+      "document_id": "CA9-26-001-LOG",
+      "page": 6,
+      "fact_id": "F15",
+      "quote": "Two open entries are coded disputed authorization",
+      "speaker_id": "A",
+      "mode": "finding",
+      "asserted_value": "2",
+      "unit": "flags"
+    },
+    {
+      "id": "A-28",
+      "document_id": "CA9-26-001-LOG",
+      "page": 7,
+      "fact_id": "F06",
+      "quote": "AQ-4470 | Apr 2",
+      "speaker_id": "A",
+      "mode": "finding",
+      "asserted_value": "AQ-4470",
+      "unit": "id"
+    },
+    {
+      "id": "A-29",
+      "document_id": "CA9-26-001-MDEP",
+      "page": 2,
+      "fact_id": "F01",
+      "quote": "August 16, 2021.",
+      "speaker_id": "P",
+      "mode": "testimony",
+      "asserted_value": "2021-08-16",
+      "unit": "date"
+    },
+    {
+      "id": "A-30",
+      "document_id": "CA9-26-001-MDEP",
+      "page": 3,
+      "fact_id": "F03",
+      "quote": "The overall rating says meets expectations.",
+      "speaker_id": "P",
+      "mode": "testimony",
+      "asserted_value": "meets expectations",
+      "unit": "text"
+    },
+    {
+      "id": "A-31",
+      "document_id": "CA9-26-001-MDEP",
+      "page": 5,
+      "fact_id": "F08",
+      "quote": "April 8, 2024.",
+      "speaker_id": "P",
+      "mode": "testimony",
+      "asserted_value": "2024-04-08",
+      "unit": "date"
+    },
+    {
+      "id": "A-32",
+      "document_id": "CA9-26-001-MDEP",
+      "page": 6,
+      "fact_id": "F04",
+      "quote": "You released it on March 7?",
+      "speaker_id": "P",
+      "mode": "testimony",
+      "asserted_value": "AQ-4182",
+      "unit": "id"
+    },
+    {
+      "id": "A-33",
+      "document_id": "CA9-26-001-MDEP",
+      "page": 8,
+      "fact_id": "F05",
+      "quote": "AQ-4311 on March 20",
+      "speaker_id": "P",
+      "mode": "testimony",
+      "asserted_value": "AQ-4311",
+      "unit": "id"
+    },
+    {
+      "id": "A-34",
+      "document_id": "CA9-26-001-MDEP",
+      "page": 12,
+      "fact_id": "F17",
+      "quote": "May 17, 2024.",
+      "speaker_id": "P",
+      "mode": "testimony",
+      "asserted_value": "2024-05-17",
+      "unit": "date"
+    },
+    {
+      "id": "A-35",
+      "document_id": "CA9-26-001-SDEP",
+      "page": 3,
+      "fact_id": "F06",
+      "quote": "customer complaint on April 2 involving AQ-4470",
+      "speaker_id": "S",
+      "mode": "testimony",
+      "asserted_value": "AQ-4470",
+      "unit": "id"
+    },
+    {
+      "id": "A-36",
+      "document_id": "CA9-26-001-SDEP",
+      "page": 3,
+      "fact_id": "F07",
+      "quote": "Fourteen days. All six coordinators.",
+      "speaker_id": "S",
+      "mode": "testimony",
+      "asserted_value": "six coordinators; fourteen-day window",
+      "unit": "text"
+    },
+    {
+      "id": "A-37",
+      "document_id": "CA9-26-001-SDEP",
+      "page": 5,
+      "fact_id": "F10",
+      "quote": "April 9.",
+      "speaker_id": "S",
+      "mode": "testimony",
+      "asserted_value": "2024-04-09",
+      "unit": "date"
+    },
+    {
+      "id": "A-38",
+      "document_id": "CA9-26-001-SDEP",
+      "page": 6,
+      "fact_id": "F11",
+      "quote": "Sixty days for Maren.",
+      "speaker_id": "S",
+      "mode": "testimony",
+      "asserted_value": "60",
+      "unit": "days"
+    },
+    {
+      "id": "A-39",
+      "document_id": "CA9-26-001-SDEP",
+      "page": 10,
+      "fact_id": "F14",
+      "quote": "Four open entries",
+      "speaker_id": "S",
+      "mode": "testimony",
+      "asserted_value": "4",
+      "unit": "flags"
+    },
+    {
+      "id": "A-40",
+      "document_id": "CA9-26-001-SDEP",
+      "page": 10,
+      "fact_id": "F13",
+      "quote": "eight were resolved",
+      "speaker_id": "S",
+      "mode": "testimony",
+      "asserted_value": "8",
+      "unit": "flags"
+    },
+    {
+      "id": "A-41",
+      "document_id": "CA9-26-001-SDEP",
+      "page": 10,
+      "fact_id": "F15",
+      "quote": "two had disputed authorization",
+      "speaker_id": "S",
+      "mode": "testimony",
+      "asserted_value": "2",
+      "unit": "flags"
+    },
+    {
+      "id": "A-42",
+      "document_id": "CA9-26-001-SDEP",
+      "page": 12,
+      "fact_id": "F16",
+      "quote": "I issued the warning",
+      "speaker_id": "S",
+      "mode": "testimony",
+      "asserted_value": "written warning",
+      "unit": "text"
+    },
+    {
+      "id": "A-43",
+      "document_id": "CA9-26-001-ADEP",
+      "page": 3,
+      "fact_id": "F07",
+      "quote": "All six coordinators, fourteen days ending April 3.",
+      "speaker_id": "A",
+      "mode": "testimony",
+      "asserted_value": "six coordinators; fourteen-day window",
+      "unit": "text"
+    },
+    {
+      "id": "A-44",
+      "document_id": "CA9-26-001-ADEP",
+      "page": 4,
+      "fact_id": "F11",
+      "quote": "Sixty days ending April 3.",
+      "speaker_id": "A",
+      "mode": "testimony",
+      "asserted_value": "60",
+      "unit": "days"
+    },
+    {
+      "id": "A-45",
+      "document_id": "CA9-26-001-ADEP",
+      "page": 6,
+      "fact_id": "F12",
+      "quote": "Twelve preliminary flags for Maren",
+      "speaker_id": "A",
+      "mode": "testimony",
+      "asserted_value": "12",
+      "unit": "flags"
+    },
+    {
+      "id": "A-46",
+      "document_id": "CA9-26-001-ADEP",
+      "page": 7,
+      "fact_id": "F13",
+      "quote": "resolve the eight entries",
+      "speaker_id": "A",
+      "mode": "testimony",
+      "asserted_value": "8",
+      "unit": "flags"
+    },
+    {
+      "id": "A-47",
+      "document_id": "CA9-26-001-ADEP",
+      "page": 7,
+      "fact_id": "F14",
+      "quote": "Four remain open.",
+      "speaker_id": "A",
+      "mode": "testimony",
+      "asserted_value": "4",
+      "unit": "flags"
+    },
+    {
+      "id": "A-48",
+      "document_id": "CA9-26-001-ADEP",
+      "page": 8,
+      "fact_id": "F04",
+      "quote": "AQ-4182",
+      "speaker_id": "A",
+      "mode": "testimony",
+      "asserted_value": "AQ-4182",
+      "unit": "id"
+    },
+    {
+      "id": "A-49",
+      "document_id": "CA9-26-001-ADEP",
+      "page": 9,
+      "fact_id": "F05",
+      "quote": "AQ-4311",
+      "speaker_id": "A",
+      "mode": "testimony",
+      "asserted_value": "AQ-4311",
+      "unit": "id"
     }
   ],
   "evidence": [
@@ -1884,6 +2214,87 @@
       "provenance": "Fictional original reproduced from the identified custodian's retained records; authentication and inferences to be reviewed.",
       "page": 1,
       "quote": "Filed July 12, 2024."
+    },
+    {
+      "id": "EV-8",
+      "document_id": "CA9-26-001-LOG",
+      "event_id": "T12",
+      "custodian_id": "I",
+      "fact_ids": [
+        "F04",
+        "F05",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F15",
+        "F06"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional record produced in discovery; exact retained content and witness testimony, contested inferences reserved.",
+      "page": 5,
+      "quote": "AQ-4182 | Mar 7"
+    },
+    {
+      "id": "EV-9",
+      "document_id": "CA9-26-001-MDEP",
+      "event_id": "T23",
+      "custodian_id": "REP",
+      "fact_ids": [
+        "F01",
+        "F03",
+        "F08",
+        "F04",
+        "F05",
+        "F17"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional record produced in discovery; exact retained content and witness testimony, contested inferences reserved.",
+      "page": 5,
+      "quote": "It was the first written complaint"
+    },
+    {
+      "id": "EV-10",
+      "document_id": "CA9-26-001-SDEP",
+      "event_id": "T24",
+      "custodian_id": "REP",
+      "fact_ids": [
+        "F06",
+        "F07",
+        "F10",
+        "F11",
+        "F14",
+        "F13",
+        "F15",
+        "F16"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional record produced in discovery; exact retained content and witness testimony, contested inferences reserved.",
+      "page": 6,
+      "quote": "Sixty days for Maren."
+    },
+    {
+      "id": "EV-11",
+      "document_id": "CA9-26-001-ADEP",
+      "event_id": "T25",
+      "custodian_id": "REP",
+      "fact_ids": [
+        "F07",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F04",
+        "F05"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional record produced in discovery; exact retained content and witness testimony, contested inferences reserved.",
+      "page": 7,
+      "quote": "Four remain open."
     }
   ],
   "excerpts": [],

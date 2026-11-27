@@ -79,6 +79,30 @@
       "path": "records/CA9-26-001/v1/BRORD.md",
       "pages": 1,
       "words": 130
+    },
+    {
+      "id": "CA9-26-001-LOG",
+      "path": "records/CA9-26-001/v1/LOG.md",
+      "pages": 12,
+      "words": 1535
+    },
+    {
+      "id": "CA9-26-001-MDEP",
+      "path": "records/CA9-26-001/v1/MDEP.md",
+      "pages": 16,
+      "words": 2101
+    },
+    {
+      "id": "CA9-26-001-SDEP",
+      "path": "records/CA9-26-001/v1/SDEP.md",
+      "pages": 17,
+      "words": 2125
+    },
+    {
+      "id": "CA9-26-001-ADEP",
+      "path": "records/CA9-26-001/v1/ADEP.md",
+      "pages": 13,
+      "words": 1559
     }
   ],
   "planned_documents": 33,
