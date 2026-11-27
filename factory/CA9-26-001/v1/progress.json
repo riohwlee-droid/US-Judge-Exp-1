@@ -1,6 +1,6 @@
 {
   "case_id": "CA9-26-001",
-  "status": "bounded_legal_review_complete_compiler_pending",
+  "status": "review_complete_seal_requested",
   "authored_documents": [
     {
       "id": "CA9-26-001-COM",
@@ -214,7 +214,7 @@
       "411 U.S. 792"
     ]
   },
-  "next_batch": "Run full production briefs gate; correct any failures; review logical record compliance and seal only if gates satisfied.",
+  "next_batch": "Verify actual release.json and workflow seal; no game admission without campaign setup.",
   "excerpt_pages": 190,
   "review": {
     "source_commit": "efe1b2f66bad0bd8abd7e5f5f01957434db44aaf",
@@ -224,7 +224,7 @@
     "legal_authorities": 13,
     "legal_occurrences": 61,
     "original_documents_audited": 30,
-    "status": "citation_inventory_complete_treatment_pending",
+    "status": "logical_record_review_complete",
     "canonical_fact_count": 22,
     "canonical_facts_anchored": 22,
     "assertion_count": 94,
@@ -233,6 +233,9 @@
     "additional_assertions": 32,
     "unmatched_optional_annotations": [],
     "legal_authority_reviews": 13,
-    "final_pass_edits": 22
+    "final_pass_edits": 22,
+    "semantic_anchor_checks": 15,
+    "review_roles": 12,
+    "format_scope": "Simulation logical record only, not a representation of actual ECF filing, official certified transcript, or PDF typography. Bounded public-source research as of 2026-11-27; no comprehensive citator or independent external legal reviewer. Separate review roles are performed by the same ChatGPT. Later authoritative developments or lawful corrections are separate, not silent changes."
   }
 }

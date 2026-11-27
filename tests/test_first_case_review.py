@@ -11,7 +11,7 @@ class FullPageAudit(unittest.TestCase):
         self.assertEqual(a["record_cite_page_occurrences"],92)
         self.assertGreater(a["legal_occurrences"],30)
         self.assertFalse(a["unmapped_common_reporter_or_short_citations"])
-        self.assertFalse(a["release_ready"])
+        self.assertEqual(a["release_ready"],not load(ROOT/BP)["unresolved_blockers"])
         b=load(ROOT/BP)
         self.assertEqual({f['id'] for f in b['facts']},{x['fact_id'] for x in b['assertions']})
         self.assertEqual(len(b['timeline']),42)

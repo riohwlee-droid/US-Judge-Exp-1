@@ -1,2 +1,2 @@
-# First production case — draft originals complete, not sealed
-Fictional represented Title VII retaliation appeal, NDCA. Provisional real-law cutoff November 27, 2026. All planned documents are drafted, excerpts indexed, and appellate briefs linked. Case-specific subsequent treatment, complete occurrence audits, semantic review and local format review are pending. No outcome fixed; no official admission or assignment. The repository is public; do not inspect creator-only blueprint if playing.
+# First CA9 production case
+Logical record review complete; seal requested. Verify release.json and successful seal workflow before admission. This is a fictional English record with stable logical pages, not a real court filing. No appellate result set. See FINAL-LEGAL-REVIEW.md and FINAL-RECORD-REVIEW.md. Campaign setup, conflicts review, admission and panel assignment are separate.

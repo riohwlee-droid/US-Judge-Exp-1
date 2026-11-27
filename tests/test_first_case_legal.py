@@ -8,3 +8,10 @@ class ActualLegalReview(unittest.TestCase):
         result=compile_package(ROOT,BP,stage="briefs")
         self.assertEqual(result["research"]["authorities"],13)
         print("Production legal review:",result["research"])
+    def test_full_review_and_seal_if_present(self):
+        from judgesim.case_factory import check_release
+        result=compile_package(ROOT,BP)
+        self.assertEqual(result["case_id"],"CA9-26-001")
+        self.assertEqual(len(result["documents"]),33)
+        rp=str(Path(BP).with_name("release.json"))
+        if (ROOT/rp).exists():self.assertEqual(check_release(ROOT,rp),result)

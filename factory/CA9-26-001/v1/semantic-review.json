@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "source_commit": "0544b03ff597337e4c3ca28d18b04ca3d36db556",
+  "scope": "Simulation logical record only, not a representation of actual ECF filing, official certified transcript, or PDF typography. Bounded public-source research as of 2026-11-27; no comprehensive citator or independent external legal reviewer. Separate review roles are performed by the same ChatGPT. Later authoritative developments or lawful corrections are separate, not silent changes.",
+  "checks": [
+    {
+      "id": "S01",
+      "basis": "Policy distinguishes authorization and complete documentation; disciplinary sanction is discretionary.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S02",
+      "basis": "Original 14-day audit predates protected complaint; later scope must not be conflated.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S03",
+      "basis": "Original report counts were preliminary; corrected report controls record of open items.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S04",
+      "basis": "No completed timely note does not prove no oral authorization; oral permission remains disputed.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S05",
+      "basis": "Prior coaching not formal written discipline; do not treat it as proof of unauthorized release.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S06",
+      "basis": "Comparator's review window shorter; no hypothetical comparator count supplied.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S07",
+      "basis": "COO did not independently interview lead or rerun audit; neither innocence nor bias established by that alone.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S08",
+      "basis": "Protected opposition and adverse action conceded only for motion; no ruling on underlying discrimination.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S09",
+      "basis": "Separate judgment and preserved issue; no appellate factual finding set.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S10",
+      "basis": "Plaintiff seeks remand for trial, employer affirmance; reply no new claim.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S11",
+      "basis": "Rule 56 evidence sufficiency and statutory causation separate; no sole cause requirement.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S12",
+      "basis": "No trial testimony fabricated; deposition and summary judgment argument only.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S13",
+      "basis": "Charge filed within 180 days; suit within 90 days after receipt; appeal 13 days after separate judgment; answer and reply timely.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S14",
+      "basis": "All 24 filed lower record items and seven appellate entries are indexed; no merits panel preassignment.",
+      "status": "anchor_checked"
+    },
+    {
+      "id": "S15",
+      "basis": "Both parties use existing record and distinct favorable/adverse cases; no new issue in reply.",
+      "status": "anchor_checked"
+    }
+  ],
+  "review_roles": [
+    {
+      "id": "chronology",
+      "reviewer": "ChatGPT record continuity role",
+      "basis": "42 dated events; 18 recorded times aligned; other times date-only convention. April 25 recommendation and April 26 HR request separated; May 13 decision and May 17 termination distinguished. S02, S13."
+    },
+    {
+      "id": "identity_amounts_units",
+      "reviewer": "ChatGPT record continuity role",
+      "basis": "22 canonical facts, 94 exact source annotations, fixed parties, shipment IDs, counts and units; 12 initial, 8 resolved, 4 open, 2 disputed. Comparator count unknown. S01–S07."
+    },
+    {
+      "id": "knowledge_and_access",
+      "reviewer": "ChatGPT record continuity role",
+      "basis": "Witness knowledge limited to recollection/record access; no actual oral conversation or hidden motive adjudicated; creator blueprint not player record, public repository not confidentiality. S04, S07."
+    },
+    {
+      "id": "docket_and_evidence",
+      "reviewer": "ChatGPT record continuity role",
+      "basis": "31 indexed filed items, 2 docket originals; 190 excerpts equal filed lower originals. No trial assumed; discovery deposition and argument status distinct. S12, S14."
+    },
+    {
+      "id": "jurisdiction_and_timeliness",
+      "reviewer": "ChatGPT procedure review role",
+      "basis": "Private Title VII claim; 28 USC 1331/1291, final separate judgment; exhaustion 56/49 days, appeal 13 days; 27-day answer, 12-day reply; no tolling recorded. S13."
+    },
+    {
+      "id": "preservation_and_review_standard",
+      "reviewer": "ChatGPT procedure review role",
+      "basis": "Sole causation issue argued and ruled on at summary judgment; no new reply issue; de novo review, Rule 56 not credibility determination. S08–S12."
+    },
+    {
+      "id": "record_pinpoints",
+      "reviewer": "ChatGPT record continuity role",
+      "basis": "92 page-level record citation mappings with exact source text and 94 canonical fact annotations; all 190 excerpts checked against original; new factual pinpoints added. S01–S10."
+    },
+    {
+      "id": "legal_pinpoints_and_treatment",
+      "reviewer": "ChatGPT legal source review role",
+      "basis": "13 authorities, 61 uses, 30 document audits; production briefs gate passed in workflow 46015847446. Bounded proposition-level search including Bostock, Babb, Ames, Hittle, Opara, Brown, Acosta, later Kama applications; pending petitions not law. No comprehensive clearance."
+    },
+    {
+      "id": "adversarial_balance",
+      "reviewer": "ChatGPT adversarial review role",
+      "basis": "Appellant argues differential scrutiny and motive; appellee argues actual documentation and independent reason; both acknowledge opposing evidence and uncertainty. S02–S07, S10–S11, S15. Advocacy positions are not canonical facts."
+    },
+    {
+      "id": "no_predetermined_appellate_result",
+      "reviewer": "ChatGPT adversarial review role",
+      "basis": "Lower judgment fixed as procedural history; no answer key, correct disposition, panel vote or appellate winner. S09, S10, S15."
+    },
+    {
+      "id": "length_and_originality",
+      "reviewer": "ChatGPT record continuity role",
+      "basis": "30 originals, 233 logical pages, 30,348 words at prior passing run; copied 190 pages and 7 index pages excluded from original minimum. No duplicate substantive page under compiler."
+    },
+    {
+      "id": "local_rule_compliance",
+      "reviewer": "ChatGPT procedure review role",
+      "basis": "Reviewed CA9 Rule 30-1/FRAP 28/32 and June 2026 procedure at simulation logical level: optional multivolume, separate index with docket locations, challenged decision first, reverse lower chronology, NOA/docket last, logical consecutive citations, sections and certificates. No claim of physical caption pagination, typography, real filing, or PDF certification. PDF rendering is a separate derivative export, not part of v1 locked logical originals. Real filing would require final physical-page crosswalk and certificates. Simulation logical record only, not a representation of actual ECF filing, official certified transcript, or PDF typography. Bounded public-source research as of 2026-11-27; no comprehensive citator or independent external legal reviewer. Separate review roles are performed by the same ChatGPT. Later authoritative developments or lawful corrections are separate, not silent changes."
+    }
+  ],
+  "limitations": [
+    "Anchor checks do not establish universal semantic truth; narrative review performed within same model.",
+    "PDF formatting not certified; future derivative export.",
+    "No comprehensive subsequent treatment database."
+  ]
+}

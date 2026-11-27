@@ -3,7 +3,7 @@ from pathlib import Path
 import sys,json,re
 from collections import Counter
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from judgesim.case_factory import compile_package,load,pages,safe,words,hash_bytes,LEGAL,ER,norm
+from judgesim.case_factory import compile_package,check_release,load,pages,safe,words,hash_bytes,LEGAL,ER,norm
 from judgesim.legal_research import REPORTER,SHORT
 ROOT=Path(__file__).resolve().parents[1]
 BP="factory/CA9-26-001/v1/blueprint.json"
@@ -53,6 +53,13 @@ def audit(root=ROOT):
     assert sum("disputed authorization" in x for x in maren)==2
     bell=[x for x in log[7].splitlines() if re.match(r"AQ-\d+ \|",x)]
     assert len(bell)==4 and sum("open:" in x for x in bell)==2
-    # No claims of semantic, legal or formal filing clearance.
-    return {"original_docs":len(original),"original_pages":sum(len(maps[i]) for i in original),"original_words":sum(words(t) for i in original for t in maps[i].values()),"excerpt_pages":len(ex),"index_pages":len(maps["CA9-26-001-IDX"]),"total_pages":sum(map(len,maps.values())),"record_cite_page_occurrences":len(actual),"legal_occurrences":occcount,"unmapped_common_reporter_or_short_citations":unmapped,"file_sha256":hashes,"material_blockers":b["unresolved_blockers"],"release_ready":False}
+    # A compiled candidate and an actual immutable release are different states.
+    ready=False
+    if not b["unresolved_blockers"]:
+        compile_package(root,BP,stage="review")
+        ready=True
+    rp=str(Path(BP).with_name("release.json"))
+    sealed=(root/rp).exists()
+    if sealed:check_release(root,rp)
+    return {"original_docs":len(original),"original_pages":sum(len(maps[i]) for i in original),"original_words":sum(words(t) for i in original for t in maps[i].values()),"excerpt_pages":len(ex),"index_pages":len(maps["CA9-26-001-IDX"]),"total_pages":sum(map(len,maps.values())),"record_cite_page_occurrences":len(actual),"legal_occurrences":occcount,"unmapped_common_reporter_or_short_citations":unmapped,"file_sha256":hashes,"material_blockers":b["unresolved_blockers"],"release_ready":ready,"sealed":sealed}
 if __name__=="__main__":print(json.dumps(audit(),indent=2))
