@@ -65,6 +65,7 @@ def check_documents(root, state):
             require(set(case["initial_document_ids"])=={d["id"] for d in release["documents"]},"factory inventory mismatch")
             require(all(state["documents"].get(d["id"])==d for d in release["documents"]),"factory original registration mismatch")
             require(release["legal_cutoff"]==state["campaign"]["legal_cutoff"],"factory legal cutoff mismatch")
+            require(release["record_as_of"]==case.get("factory_record_as_of"),"factory record date mismatch")
         for key in case["initial_document_ids"]:
             require(key in state["documents"] and state["documents"][key]["case_id"] == case["id"],
                     "initial record is incomplete")

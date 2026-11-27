@@ -22,7 +22,7 @@ REVIEW={"chronology","identity_amounts_units","knowledge_and_access","docket_and
 FORBIDDEN={"expected_winner","correct_disposition","canonical_appellate_result","target_verdict","answer_key","winning_party","preferred_appellate_outcome"}
 ID=re.compile(r"^[A-Za-z0-9][A-Za-z0-9_.-]{0,119}$")
 MARK=re.compile(r"^<!-- PAGE ([1-9][0-9]*) -->\s*$",re.M)
-ER=re.compile(r"\b([1-9][0-9]*)-(ER|SER|FER)-([1-9][0-9]*)\b")
+ER=re.compile(r"\b(?:[1-9][0-9]*-)?(?:ER|SER|FER)-[1-9][0-9]*\b")
 LEGAL=re.compile(r"\[\[AUTH:([A-Za-z0-9_.-]+):([A-Za-z0-9_.-]+)\]\]")
 DISTRICTS={"AK","AZ","CDCA","EDCA","NDCA","SDCA","HI","ID","MT","NV","OR","EDWA","WDWA","GU","NMI"}
 def need(v,msg):
@@ -108,8 +108,9 @@ def compile_package(root, blueprint_path, stage="review", training=False):
     need(docs and len({d["path"] for d in docs.values()})==len(docs),"document inventory/path collision")
     kinds={d["kind"] for d in docs.values()}
     need(TRACKS[b["track"]]|COMMON <= kinds,"mandatory record category missing")
+    need(b.get("appeal_shape")=="single_represented_appeal","cross appeals, pro se, administrative and special cases require later profiles")
     for d in docs.values():
-        need(d["kind"] in LOWER|BRIEFS|{"appellate_docket","er_index","er_volume","ser_volume","fer_volume","amicus","order_appeal","other_appeal","world_evidence"},"unknown document kind")
+        need(d["kind"] in LOWER|BRIEFS|{"appellate_docket","er_index","er_volume","ser_volume","fer_volume","order_appeal","other_appeal","world_evidence"},"unknown document kind")
         need(d["path"].startswith(f"records/{cid}/{rev}/") and d["path"].endswith(".md"),"record path not version-scoped")
         need(d["actor_id"] in actors and at(d["created_at"])<=at(d["filed_at"])<=ready,"document chronology")
         need(d["access"] in {"judge","world_only"} and d["status"]==("filed" if d["access"]=="judge" else "unfiled"),"initial record visibility mismatch")
@@ -190,6 +191,18 @@ def compile_package(root, blueprint_path, stage="review", training=False):
         for k in ("ruling","preservation"):
             if i[k+"_document_id"] in pmap:
                 anchor({"document_id":i[k+"_document_id"],"page":i[k+"_page"],"quote":i[k+"_quote"]},LOWER)
+    evidence=table(b["evidence"],"evidence")
+    for e in evidence.values():
+        d=docs[e["document_id"]]
+        need(d["kind"] in {"exhibit","deposition","affidavit","trial_transcript","suppression_transcript","sentencing_transcript","world_evidence"},"invalid evidence source type")
+        need(e["event_id"] in timeline and e["custodian_id"] in actors and e["fact_ids"] and set(e["fact_ids"])<=facts.keys(),"evidence provenance missing")
+        need(at(timeline[e["event_id"]]["at"])<=at(d["created_at"]),"evidence before source event")
+        need(e["record_status"]==("filed" if d["access"]=="judge" else "unfiled") and nonblank(e["provenance"]),"evidence status/provenance")
+        need(e["admission_status"] in {"admitted","excluded","submitted_not_admitted","not_applicable","unfiled"},"evidence admission status")
+        if e["record_status"]=="unfiled":need(e["admission_status"]=="unfiled","unfiled evidence status")
+        anchor({"document_id":d["id"],"page":e["page"],"quote":e["quote"]})
+        need(all(any(a["document_id"]==d["id"] and a["fact_id"]==f for a in assertions.values()) for f in e["fact_ids"]),"evidence facts missing source assertions")
+    need(evidence and any(docs[e["document_id"]]["access"]=="judge" for e in evidence.values()),"no filed evidence")
     if stage=="record":return dict(summary,originals_checked=len(pmap))
     ermap={}
     for e in b["excerpts"]:
@@ -198,7 +211,8 @@ def compile_package(root, blueprint_path, stage="review", training=False):
         n=e["excerpt_page"];sn=e["source_page"];need(type(n) is int and type(sn) is int,"bad excerpt page")
         typ={"er_volume":"ER","ser_volume":"SER","fer_volume":"FER"}[d["kind"]]
         need(type(e["volume"]) is int and e["volume"]>=1 and e["volume"]==d["volume"],"volume mismatch")
-        cite=f'{e["volume"]}-{typ}-{n}';need(cite not in ermap,"duplicate excerpt citation")
+        single=typ=="ER" and sum(x["kind"]=="er_volume" for x in docs.values())==1
+        cite=f"ER-{n}" if single else f'{e["volume"]}-{typ}-{n}';need(cite not in ermap,"duplicate excerpt citation")
         need(norm(pmap[d["id"]][n])==norm(pmap[src["id"]][sn]),"excerpt differs from original "+cite)
         ermap[cite]=e
     for d in docs.values():
@@ -211,7 +225,7 @@ def compile_package(root, blueprint_path, stage="review", training=False):
     auth=table(b["authorities"],"authorities")
     need(auth,"no authorities")
     for a in auth.values():
-        need(a["origin"]=="real" and approved_url(a["url"]) and nonblank(a["citation"]) and nonblank(a["court"]),"unverified authority identity/source")
+        need(a["origin"]=="real" and a["authority_type"] in {"case","statute","rule","regulation","constitution"} and approved_url(a["url"]) and nonblank(a["citation"]) and nonblank(a["court"]),"unverified authority identity/source")
         need(date.fromisoformat(a["decided_at"])<=cutoff and date.fromisoformat(a["verified_at"])>=date.fromisoformat(a["decided_at"]),"authority date invalid")
         need(a["source_path"].startswith(prefix+"law/"),"source snapshot path")
         raw=safe(root,a["source_path"]).read_bytes()
@@ -221,7 +235,8 @@ def compile_package(root, blueprint_path, stage="review", training=False):
         t=a["subsequent_treatment"]
         need(t["status"] in {"checked_no_negative_found","limited_check","negative","not_checked"} and nonblank(t["scope"]),"treatment review required")
         need(t["status"]!="not_checked" and nonblank(t["checked_at"]) and nonblank(t["method"]),"unchecked subsequent treatment")
-        for pin in table(a["pins"],"pins").values():source_pin(pin,raw.decode("utf-8"))
+        pins=table(a["pins"],"pins");need(pins,"authority has no verified pinpoints")
+        for pin in pins.values():source_pin(pin,raw.decode("utf-8"))
     arguments=table(b["arguments"],"arguments")
     for d in docs.values():
         if d["kind"] not in BRIEFS:continue
@@ -229,10 +244,10 @@ def compile_package(root, blueprint_path, stage="review", training=False):
         if d["kind"]=="opening_brief":required|={"jurisdiction","issues","statement_of_case","summary","standard_of_review"}
         need(required<=set(d["sections"]),"missing brief sections "+d["id"])
         whole="\n".join(pmap[d["id"]].values())
-        limit=6500 if d["kind"]=="reply_brief" else 13000
+        limit=7000 if d["kind"]=="reply_brief" else 14000
         need(type(d["body_words_reviewed"]) is int and 0<d["body_words_reviewed"]<=counts[d["id"]],"invalid reviewed body words")
         need(d["body_words_reviewed"]<=limit or nonblank(d.get("length_order_basis")),"brief exceeds ordinary word limit")
-        visible={f"{v}-{t}-{n}" for v,t,n in ER.findall(whole)}
+        visible=set(ER.findall(whole))
         annotated=set()
         for a in assertions.values():
             if a["document_id"]!=d["id"]:continue
@@ -240,6 +255,7 @@ def compile_package(root, blueprint_path, stage="review", training=False):
             for ref in a["record_cites"]:
                 cite=ref["cite"];need(cite in ermap and cite in pmap[d["id"]][a["page"]],"brief record cite missing")
                 e=ermap[cite];anchor({"document_id":e["source_document_id"],"page":e["source_page"],"quote":ref["quote"]},LOWER)
+                need(any(x["document_id"]==e["source_document_id"] and x["page"]==e["source_page"] and x["fact_id"]==a["fact_id"] for x in assertions.values()),"brief citation has no matching lower-record fact annotation")
                 annotated.add(cite)
         for a in arguments.values():
             if a["document_id"]!=d["id"]:continue
@@ -270,6 +286,8 @@ def compile_package(root, blueprint_path, stage="review", training=False):
     need(set(reviews)==REVIEW,"review checklist incomplete")
     for r in reviews.values():need(r["status"]=="passed" and nonblank(r["reviewer"]) and nonblank(r["basis"]) and nonblank(r["checked_at"]),"review not passed")
     need(b["unresolved_blockers"]==[],"unresolved blockers")
+    if not training:
+        need(len({r["reviewer"] for r in reviews.values()})>=2,"separate review roles required (not proof of independent agents)")
     hashes[blueprint_path]=hash_bytes(safe(root,blueprint_path).read_bytes())
     registrations=[]
     for d in docs.values():

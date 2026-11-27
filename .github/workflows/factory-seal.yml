@@ -1,0 +1,30 @@
+name: Seal CA9 factory releases
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'factory/**/seal-request.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: judge-save-main
+  cancel-in-progress: false
+jobs:
+  seal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          fetch-depth: 0
+      - run: python3 -m unittest discover -s tests -v
+      - run: python3 scripts/seal_factory.py
+      - name: Publish releases
+        run: |
+          git add -- 'factory/**/release.json'
+          if ! git diff --cached --quiet; then
+            git -c user.name='judge-save[bot]' -c user.email='judge-save-bot@users.noreply.github.com' commit -m 'Seal reviewed CA9 case package'
+            git push origin HEAD:main
+          fi

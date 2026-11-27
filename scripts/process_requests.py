@@ -40,7 +40,7 @@ def process(root):
                     require(p.get("conflict_review_completed") is True,"admission conflict review required")
                     require(p.get("release_digest") in {"server_computed",canonical(r)},"release digest mismatch")
                     require(r["legal_cutoff"]==state["campaign"]["legal_cutoff"] or any(e["type"]=="campaign.configure" and e["payload"]["legal_cutoff"]==r["legal_cutoff"] for e in events),"factory cutoff mismatch")
-                    case=dict(r["case_fields"],id=r["case_id"],fictional=True,record_status="complete",initial_document_ids=[d["id"] for d in r["documents"]],assigned_judges=[],panel_kind="ordinary_merits",conflict_review_completed=True,factory_release={"path":p["release_path"],"digest":canonical(r)})
+                    case=dict(r["case_fields"],factory_record_as_of=r["record_as_of"],id=r["case_id"],fictional=True,record_status="complete",initial_document_ids=[d["id"] for d in r["documents"]],assigned_judges=[],panel_kind="ordinary_merits",conflict_review_completed=True,factory_release={"path":p["release_path"],"digest":canonical(r)})
                     expanded.append({"id":event["id"],"type":"case.register","payload":{"case":case}})
                     for i,d in enumerate(r["documents"]):
                         expanded.append({"id":event["id"]+"-D"+str(i+1),"type":"document.register","payload":{"document":d}})
