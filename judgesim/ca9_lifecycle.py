@@ -8,7 +8,9 @@ EVENTS = {
     "ca9.assign", "ca9.panel_change", "ca9.judgment", "ca9.rehearing_file",
     "ca9.response_request", "ca9.response_file", "ca9.panel_rehearing",
     "ca9.en_banc_call", "ca9.en_banc_open", "ca9.en_banc_vote", "ca9.en_banc_tally",
-    "ca9.en_banc_draw", "ca9.en_banc_clear", "ca9.stay_file", "ca9.stay_decide",
+    "ca9.en_banc_draw", "ca9.en_banc_clear", "ca9.en_banc_recusal",
+    "ca9.en_banc_notice_request", "ca9.en_banc_notice_circulate", "ca9.en_banc_memo", "ca9.en_banc_withdraw",
+    "ca9.stay_file", "ca9.stay_decide", "ca9.stay_extend",
     "ca9.stay_end", "ca9.mandate", "ca9.mandate_recall"
 }
 
@@ -70,6 +72,11 @@ def reviewed(p,require):
 def doc(s,c,p,key,require,judge_document):
     d=judge_document(s,p[key])
     require(d["case_id"]==c["id"] and d["status"]=="filed","filed same-case document required")
+    return d["id"]
+
+def internal_doc(s,c,p,key,require,judge_document):
+    d=judge_document(s,p[key])
+    require(d["case_id"]==c["id"] and d["status"]=="internal","same-case internal document required")
     return d["id"]
 
 def phase(c,*allowed,require):
@@ -171,6 +178,7 @@ def handle(s, kind, p, now, require, moment, judge_document):
             if c["panel_kind"]=="limited_en_banc":
                 require(mode=="lot","en banc replacement by alternate or lot")
                 pool=[j for j in eligible(s,c) if j not in remaining]
+                pool += [j for j in c.get("en_banc_draw",{}).get("pool",[]) if j not in pool+remaining+c["excluded_judges"] and member(s["people"][j]) and s["people"][j].get("judicial_status")=="senior_circuit"]
                 alts=[j for j in c.get("en_banc_alternates",[]) if j in pool]
                 incoming=alts[0] if alts else draw(p["seed"],pool,c["id"]+"replacement")[0] if pool else None
                 require(incoming,"no eligible replacement")
@@ -214,6 +222,10 @@ def handle(s, kind, p, now, require, moment, judge_document):
         key=doc(s,c,p,"petition_document_id",require,judge_document)
         require(key not in r["petitions"] and p["kind"] in {"panel","en_banc","both"},"invalid petition")
         r["petitions"][key]={"kind":p["kind"],"panel":"pending" if p["kind"] in {"panel","both"} else "not_requested","en_banc":"pending" if p["kind"] in {"en_banc","both"} else "not_requested","filed_at":now,"response":"not_requested"}
+        if p["kind"] in {"en_banc","both"}:
+            require(p.get("circulated_to_judges") is True,"GO 5.4(a) circulation required")
+            r["en_banc"]["last_petition_circulated"]=today.isoformat()
+            r["en_banc"]["call_due"]=max(r["en_banc"]["call_due"],date_due(today,21,r["holidays"]).isoformat())
     elif kind in {"ca9.response_request","ca9.response_file"}:
         phase(c,"judgment",require=require)
         q=r["petitions"][p["petition_document_id"]]
@@ -224,6 +236,9 @@ def handle(s, kind, p, now, require, moment, judge_document):
         else:
             require(q["response"]=="requested","unsolicited response prohibited")
             q.update(response="filed",response_document=doc(s,c,p,"response_document_id",require,judge_document))
+            if q["en_banc"]=="pending":
+                require(p.get("circulated_to_judges") is True,"response circulation required")
+                r["en_banc"]["call_due"]=max(r["en_banc"]["call_due"],date_due(today,14,r["holidays"]).isoformat())
     elif kind=="ca9.panel_rehearing":
         phase(c,"judgment",require=require)
         require(r["en_banc"]["status"] in {"open","called","voting"},"en banc disposition already resolved")
@@ -240,6 +255,44 @@ def handle(s, kind, p, now, require, moment, judge_document):
             archived_round(s,c,now,"panel_rehearing",True)
             set_panel(s,c,c["assigned_judges"],c["panel_kind"],"panel_rehearing",now,require);c["phase"]="merits"
         else:r["denials"].append(today.isoformat())
+    elif kind=="ca9.en_banc_recusal":
+        phase(c,"judgment",require=require)
+        j=p["judge_id"];require(member(s["people"][j]) and j not in c["assigned_judges"] and j not in c["excluded_judges"],"off-panel recusal only; sitting panel changes require separate review")
+        require(p.get("full_court_notified") is True,"GO 5.1 notice required")
+        require(r["en_banc"]["status"] in {"open","called","voting"},"review already resolved")
+        c["excluded_judges"].append(j)
+        r["en_banc"].setdefault("recusals",[]).append({"judge_id":j,"at":now,"reason":p.get("reason","recusal")})
+    elif kind=="ca9.en_banc_notice_request":
+        phase(c,"judgment",require=require)
+        e=r["en_banc"];j=p["judge_id"]
+        require(e["status"]=="open" and member(s["people"][j]) and j not in c["assigned_judges"]+c["excluded_judges"],"off-panel notice request required")
+        require(r["petitions"] and today<=date.fromisoformat(e["call_due"]),"notice request outside reviewed period")
+        if e.get("last_petition_circulated"):
+            require(today<=date_due(date.fromisoformat(e["last_petition_circulated"]),21,r["holidays"]),"GO 5.4(b) notice period expired")
+        requests=e.setdefault("notice_requests",{})
+        require(j not in requests,"duplicate notice request")
+        requests[j]={"document_id":internal_doc(s,c,p,"memo_document_id",require,judge_document),"at":now,"status":"pending"}
+    elif kind=="ca9.en_banc_notice_circulate":
+        phase(c,"judgment",require=require)
+        e=r["en_banc"]
+        require(e["status"]=="open" and any(v["status"]=="pending" for v in e.get("notice_requests",{}).values()),"no notice request")
+        require(p.get("all_judges_notified") is True,"GO 5.4(b) circulation required")
+        require(not any(q["panel"]=="pending" for q in r["petitions"].values()),"panel rehearing vote not resolved")
+        notice=internal_doc(s,c,p,"memo_document_id",require,judge_document)
+        for v in e["notice_requests"].values():
+            if v["status"]=="pending":v.update(status="answered",notice_document_id=notice,answered_at=now)
+        e["call_due"]=max(e["call_due"],date_due(today,14,r["holidays"]).isoformat())
+    elif kind=="ca9.en_banc_memo":
+        phase(c,"judgment",require=require)
+        e=r["en_banc"];j=p["judge_id"]
+        require(e["status"]=="called" and member(s["people"][j]) and j not in c["excluded_judges"],"memo exchange closed or judge ineligible")
+        e.setdefault("memoranda",[]).append({"judge_id":j,"document_id":internal_doc(s,c,p,"memo_document_id",require,judge_document),"circulated_at":now})
+    elif kind=="ca9.en_banc_withdraw":
+        phase(c,"judgment",require=require)
+        e=r["en_banc"];require(e["status"]=="called" and e["caller"]==p["judge_id"],"withdrawal by calling judge before voting only")
+        require(p.get("coordinator_and_judges_notified") is True,"withdrawal notice required")
+        e.setdefault("withdrawn_calls",[]).append({"caller":e["caller"],"called_at":e["called_at"],"withdrawn_at":now,"document_id":internal_doc(s,c,p,"memo_document_id",require,judge_document),"memoranda":e.pop("memoranda",[])})
+        e.update(status="open",call_due=max(e["call_due"],date_due(today,7,r["holidays"]).isoformat()))
     elif kind=="ca9.en_banc_call":
         phase(c,"judgment",require=require)
         e=r["en_banc"];require(e["status"]=="open","call already active")
@@ -247,6 +300,8 @@ def handle(s, kind, p, now, require, moment, judge_document):
         caller=p["judge_id"];require(member(s["people"][caller]) and caller not in c["excluded_judges"],"ineligible calling judge")
         # Petition/notice deadlines can vary; use reviewed absolute deadline with source.
         due=date.fromisoformat(p.get("call_due",e["call_due"]))
+        if "call_due" in p:require(p.get("adjusted_call_basis"),"reviewed altered call period basis required")
+        require(not any(v["status"]=="pending" for v in e.get("notice_requests",{}).values()),"await panel notice")
         require(today<=due and p.get("call_timing_reviewed") is True,"en banc call timing review required")
         require(p["ground"] in {"circuit_conflict","supreme_court_conflict","other_circuit_conflict","exceptional_importance"},"FRAP 40 ground required")
         e.update(status="called",caller=caller,called_at=now,call_due=due.isoformat(),ground=p["ground"])
@@ -270,6 +325,8 @@ def handle(s, kind, p, now, require, moment, judge_document):
         phase(c,"judgment",require=require)
         e=r["en_banc"];require(e["status"]=="voting" and e["electorate"]==eligible(s,c,True),"electorate changed or vote inactive")
         require(today>date.fromisoformat(e["vote_due"]),"voting period not expired")
+        # Conservative simulator: do not finalize before parties' filing window expires.
+        require(today>date.fromisoformat(r["petition_due"]),"petition filing window not expired")
         yes=sum(e["votes"].values());grant=yes>len(e["electorate"])/2
         require(not any(q["panel"]=="pending" for q in r["petitions"].values()),"resolve panel petitions before tally")
         doc(s,c,p,"order_document_id",require,judge_document)
@@ -308,6 +365,7 @@ def handle(s, kind, p, now, require, moment, judge_document):
         require(today>=date.fromisoformat(e["call_due"]) and today>date.fromisoformat(r["petition_due"]),"call period not expired")
         if today==date.fromisoformat(e["call_due"]):require(p.get("same_day_call_window_closed") is True,"coordinator must confirm actual call window closed")
         require(not any(q["panel"]=="pending" for q in r["petitions"].values()),"panel petition pending")
+        require(not any(v["status"]=="pending" for v in e.get("notice_requests",{}).values()),"panel notice pending")
         pending=[q for q in r["petitions"].values() if q["en_banc"]=="pending"]
         if pending:
             doc(s,c,p,"order_document_id",require,judge_document)
@@ -327,11 +385,24 @@ def handle(s, kind, p, now, require, moment, judge_document):
             until=date.fromisoformat(p["until"]);require(today<=until<=today+timedelta(days=90),"ordinary stay up to 90 days")
             stay.update(status="active",until=until.isoformat())
         else:stay["status"]="denied";r["denials"].append(today.isoformat())
+    elif kind=="ca9.stay_extend":
+        phase(c,"judgment",require=require)
+        stay=r["stay"];require(stay and stay["status"]=="active","no active stay")
+        require(stay.get("until") and today<=date.fromisoformat(stay["until"]),"stay already expired")
+        reason=p["reason"]
+        require(reason in {"good_cause_order","cert_time_extended","cert_filed"},"invalid FRAP 41(d)(2) extension")
+        d=doc(s,c,p,"notice_or_order_document_id",require,judge_document)
+        if reason=="cert_filed":
+            stay.update(until=None,cert_pending=True,continuation_document=d)
+        else:
+            require(reason!="good_cause_order" or p.get("good_cause") is True,"good cause required")
+            until=date.fromisoformat(p["until"]);require(until>date.fromisoformat(stay["until"]),"extension must extend")
+            stay.update(until=until.isoformat(),continuation_document=d)
     elif kind=="ca9.stay_end":
         phase(c,"judgment",require=require)
         stay=r["stay"];require(stay and stay["status"]=="active","no active stay")
         require(p["reason"] in {"expired","court_order","certiorari_denied"},"invalid stay end")
-        if p["reason"]=="expired":require(today>date.fromisoformat(stay["until"]) and p.get("no_extension_or_cert_notice") is True,"stay may continue")
+        if p["reason"]=="expired":require(stay.get("until") and today>date.fromisoformat(stay["until"]) and p.get("no_extension_or_cert_notice") is True,"stay may continue")
         else:doc(s,c,p,"order_document_id",require,judge_document)
         stay.update(status="ended",reason=p["reason"])
     elif kind=="ca9.mandate":

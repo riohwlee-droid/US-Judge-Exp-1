@@ -72,6 +72,12 @@
     "ca9.stay_decide",
     "ca9.stay_end",
     "ca9.mandate",
-    "ca9.mandate_recall"
+    "ca9.mandate_recall",
+    "ca9.en_banc_recusal",
+    "ca9.en_banc_notice_request",
+    "ca9.en_banc_notice_circulate",
+    "ca9.en_banc_memo",
+    "ca9.en_banc_withdraw",
+    "ca9.stay_extend"
   ]
 }
