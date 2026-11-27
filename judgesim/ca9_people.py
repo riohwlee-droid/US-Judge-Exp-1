@@ -103,6 +103,7 @@ def task_guard(s,p,require):
         require(target.get("unit_id") in {"U-CLERK","U-STAFF-ATTORNEYS","U-LIBRARY","U-COMMISSIONER","U-ENBANC","U-IT"} and p.get("unit_referral_reviewed") is True,"shared unit referral requires authority review")
         if target.get("unit_id") in {"U-CLERK","U-ENBANC","U-IT"}:require(p["task_kind"]=="administration","administrative referral only")
     require(c["phase"]!="mandate_issued","case closed")
+    require(target["role"] in {"staff","law_clerk"},"only staff may receive delegated work")
 
 def initial_view(s,p,require):
     c=s["cases"][p["case_id"]];j=p["judge_id"];d=s["documents"][p["document_id"]]

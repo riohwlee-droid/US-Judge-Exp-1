@@ -265,6 +265,8 @@ def apply_batch(state, events, profiles, allow_training=False):
                 require(task["status"] == "assigned", "task is not pending")
                 doc = judge_document(result, p["output_document_id"])
                 require(doc["case_id"] == task["case_id"], "task output belongs to another case")
+                if campaign.get("organization"):
+                    require(doc["status"]=="internal" or task["task_kind"]=="administration","substantive clerk work must remain internal")
                 task.update(status="completed", output_document_id=p["output_document_id"])
             elif kind == "conference.record":
                 c = entity(result["cases"], p["case_id"])
