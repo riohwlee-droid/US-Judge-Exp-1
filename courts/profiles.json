@@ -1,69 +1,265 @@
 {
   "schema_version": 1,
   "profiles": {
-    "ME-SJC-LAW-COURT": {
-      "id": "ME-SJC-LAW-COURT",
-      "status": "ready",
-      "name": "Maine Supreme Judicial Court — Law Court (simulated alternate-history bench)",
-      "jurisdiction": "Maine statewide; court of last resort; appeals from Superior, District, Probate and certain administrative actions; case-specific review required",
-      "role": "Associate Justice of the Maine Supreme Judicial Court, appellate Law Court capacity",
-      "appeal_route": "State court of last resort; further federal judicial review only where legally available and independently verified",
-      "appointment": "Maine Governor appointment; Senate confirmation; seven-year term; assumed fictional oath/start must be supported before active campaign",
-      "staffing": "Seven judicial seats (one Chief Justice, six Associate Justices); law clerks serve full Court but have chamber assignments; clerk of the Law Court manages appellate docket",
-      "rules": "Maine Rules of Appellate Procedure effective November 2024 (2B,7,7A,8,11,12,12A), Maine Rules of Civil Procedure effective June 2026 (56), Code of Judicial Conduct September 2024 (2.9,2.11), applicable court orders and eCourts requirements; check fact-specific exceptions",
-      "judicial_power": "Questions of law on appeals; published decisions bind Maine lower courts; administrative rulemaking and narrow constitutional advisory role",
-      "court_composition": {
-        "chief_justices": 1,
-        "associate_justices": 6,
-        "simulation_roster_path": "planning/maine-sjc-2026-campaign.json"
-      },
-      "matter_types": [
-        "civil_appeal",
-        "criminal_appeal",
-        "probate_appeal",
-        "administrative_appeal",
-        "other_review"
-      ],
-      "hearing_kinds": [
-        "oral_argument",
-        "consideration_on_briefs"
-      ],
-      "location": "Portland chambers selected for player, Maine; arguments normally Cumberland County Courthouse unless announced otherwise",
-      "opinion_workflow": "Record and briefing -> oral argument only if ordered, otherwise consideration on briefs -> qualified justices consider the appeal under Rule 12 (majority of qualified sitting justices) -> draft/revisions/positions tracked separately -> signed or per curiam opinion, or nonprecedential memorandum; simulated internal assignment not asserted as real practice",
-      "ethical_boundaries": "Rule 2.9 prohibits unauthorized ex parte communications and independent factual inquiry; Rule 2.11 requires recusal for qualifying impartiality concerns; counsel conflicts review prior to case consideration",
-      "law_policy": "verified_start_then_branch",
-      "legal_sources_checked_on": "2026-10-24",
+    "CA1": {
+      "id": "CA1",
+      "name": "U.S. Court of Appeals for the First Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal",
+      "role": "Article III circuit judge",
       "source_ids": [
-        "SRC-ME-SJC-OVERVIEW-20261024",
-        "SRC-ME-SJC-STATUTE-20261024",
-        "SRC-ME-CONSTITUTION-20261024",
-        "SRC-ME-JUDICIAL-BRANCH-20261024",
-        "SRC-ME-APPELLATE-CALENDAR-20261024",
-        "SRC-ME-APPEALS-GUIDE-20261024",
-        "SRC-ME-RULES-INDEX-20261024",
-        "SRC-ME-LAW-CLERKS-20261024",
-        "SRC-ME-COURT-OPINIONS-20261024",
-        "SRC-ME-APP-2024-TEXT",
-        "SRC-ME-CIV-2026-TEXT",
-        "SRC-ME-JUD-ETHICS-2024",
-        "SRC-ME-KEEP-2024",
-        "SRC-ME-DAHLEM-2024",
-        "SRC-ME-ECOURTS-2026"
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
       ],
-      "checked_on": "2026-10-24",
-      "readiness_gaps": [],
-      "court_research_completion": {
-        "completed_on": "2026-10-24",
-        "scope": "Law Court appellate operations and initial civil contract-interpretation appeal only",
-        "initial_case": "ME-CIV-2026-001",
-        "case_inventory": "planning/maine-first-appeal-inventory.json",
-        "limitations": [
-          "entire in-simulation roster fictitious and alternate-history; no real vacancy represented",
-          "confidential internal vote and opinion assignment methods not publicly verified; simulation mechanics are not claims about actual procedures",
-          "case-specific conflicts, jurisdiction and legal developments must be reviewed before merits activity",
-          "no comprehensive subsequent-treatment search for cited precedents"
-        ]
-      }
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
+    },
+    "CA2": {
+      "id": "CA2",
+      "name": "U.S. Court of Appeals for the Second Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal",
+      "role": "Article III circuit judge",
+      "source_ids": [
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
+      ],
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
+    },
+    "CA3": {
+      "id": "CA3",
+      "name": "U.S. Court of Appeals for the Third Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal",
+      "role": "Article III circuit judge",
+      "source_ids": [
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
+      ],
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
+    },
+    "CA4": {
+      "id": "CA4",
+      "name": "U.S. Court of Appeals for the Fourth Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal",
+      "role": "Article III circuit judge",
+      "source_ids": [
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
+      ],
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
+    },
+    "CA5": {
+      "id": "CA5",
+      "name": "U.S. Court of Appeals for the Fifth Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal",
+      "role": "Article III circuit judge",
+      "source_ids": [
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
+      ],
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
+    },
+    "CA6": {
+      "id": "CA6",
+      "name": "U.S. Court of Appeals for the Sixth Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal",
+      "role": "Article III circuit judge",
+      "source_ids": [
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
+      ],
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
+    },
+    "CA7": {
+      "id": "CA7",
+      "name": "U.S. Court of Appeals for the Seventh Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal",
+      "role": "Article III circuit judge",
+      "source_ids": [
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
+      ],
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
+    },
+    "CA8": {
+      "id": "CA8",
+      "name": "U.S. Court of Appeals for the Eighth Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal",
+      "role": "Article III circuit judge",
+      "source_ids": [
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
+      ],
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
+    },
+    "CA9": {
+      "id": "CA9",
+      "name": "U.S. Court of Appeals for the Ninth Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal",
+      "role": "Article III circuit judge",
+      "source_ids": [
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
+      ],
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
+    },
+    "CA10": {
+      "id": "CA10",
+      "name": "U.S. Court of Appeals for the Tenth Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal",
+      "role": "Article III circuit judge",
+      "source_ids": [
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
+      ],
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
+    },
+    "CA11": {
+      "id": "CA11",
+      "name": "U.S. Court of Appeals for the Eleventh Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal",
+      "role": "Article III circuit judge",
+      "source_ids": [
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
+      ],
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
+    },
+    "CADC": {
+      "id": "CADC",
+      "name": "U.S. Court of Appeals for the District of Columbia Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal",
+      "role": "Article III circuit judge",
+      "source_ids": [
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
+      ],
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
+    },
+    "CAFC": {
+      "id": "CAFC",
+      "name": "U.S. Court of Appeals for the Federal Circuit",
+      "status": "research_required",
+      "category": "specialized_federal_appeal",
+      "role": "Article III circuit judge",
+      "source_ids": [
+        "SRC-US-APPEALS",
+        "SRC-US-FRAP",
+        "SRC-US-28-46"
+      ],
+      "readiness_gaps": [
+        "circuit-specific rules and IOPs",
+        "jurisdiction and panel/en banc rules",
+        "fictional roster and chambers",
+        "first complete appeal record"
+      ],
+      "matter_types": [],
+      "hearing_kinds": []
     }
   }
 }

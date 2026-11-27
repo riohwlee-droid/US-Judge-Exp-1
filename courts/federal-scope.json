@@ -1,31 +1,89 @@
 {
   "schema_version": 1,
   "status": "research_required",
-  "appeal_circuit_discovery": [
-    "First",
-    "Second",
-    "Third",
-    "Fourth",
-    "Fifth",
-    "Sixth",
-    "Seventh",
-    "Eighth",
-    "Ninth",
-    "Tenth",
-    "Eleventh",
-    "District of Columbia",
-    "Federal"
+  "scope": "US Courts of Appeals only",
+  "circuits": [
+    {
+      "id": "CA1",
+      "name": "U.S. Court of Appeals for the First Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal"
+    },
+    {
+      "id": "CA2",
+      "name": "U.S. Court of Appeals for the Second Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal"
+    },
+    {
+      "id": "CA3",
+      "name": "U.S. Court of Appeals for the Third Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal"
+    },
+    {
+      "id": "CA4",
+      "name": "U.S. Court of Appeals for the Fourth Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal"
+    },
+    {
+      "id": "CA5",
+      "name": "U.S. Court of Appeals for the Fifth Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal"
+    },
+    {
+      "id": "CA6",
+      "name": "U.S. Court of Appeals for the Sixth Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal"
+    },
+    {
+      "id": "CA7",
+      "name": "U.S. Court of Appeals for the Seventh Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal"
+    },
+    {
+      "id": "CA8",
+      "name": "U.S. Court of Appeals for the Eighth Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal"
+    },
+    {
+      "id": "CA9",
+      "name": "U.S. Court of Appeals for the Ninth Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal"
+    },
+    {
+      "id": "CA10",
+      "name": "U.S. Court of Appeals for the Tenth Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal"
+    },
+    {
+      "id": "CA11",
+      "name": "U.S. Court of Appeals for the Eleventh Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal"
+    },
+    {
+      "id": "CADC",
+      "name": "U.S. Court of Appeals for the District of Columbia Circuit",
+      "status": "research_required",
+      "category": "regional_federal_appeal"
+    },
+    {
+      "id": "CAFC",
+      "name": "U.S. Court of Appeals for the Federal Circuit",
+      "status": "research_required",
+      "category": "specialized_federal_appeal"
+    }
   ],
   "role_families": [
-    "Article III district judge",
-    "Article III circuit judge",
-    "Supreme Court justice",
-    "magistrate judge",
-    "bankruptcy judge",
-    "territorial district judge",
-    "specialized federal court judge",
-    "military judicial role",
-    "administrative adjudicator"
+    "Article III circuit judge"
   ],
-  "note": "These are discovery families. Geographic/subject jurisdiction, appointments and appeals are not interchangeable. No live profile is ready."
+  "note": "Federal Circuit has specialized jurisdiction; no profile ready. State courts and other judicial careers are outside the active campaign."
 }

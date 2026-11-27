@@ -1,420 +1,123 @@
 {
   "schema_version": 1,
-  "meaning": "Discovery scope only, not implemented court profiles",
+  "meaning": "Federal appellate simulation discovery scope only",
   "jurisdictions": [
     {
-      "id": "AL",
-      "name": "Alabama",
-      "category": "state",
+      "id": "CA1",
+      "name": "U.S. Court of Appeals for the First Circuit",
       "status": "research_required",
-      "court_profile_ids": []
+      "category": "regional_federal_appeal",
+      "court_profile_ids": [
+        "CA1"
+      ]
     },
     {
-      "id": "AK",
-      "name": "Alaska",
-      "category": "state",
+      "id": "CA2",
+      "name": "U.S. Court of Appeals for the Second Circuit",
       "status": "research_required",
-      "court_profile_ids": []
+      "category": "regional_federal_appeal",
+      "court_profile_ids": [
+        "CA2"
+      ]
     },
     {
-      "id": "AZ",
-      "name": "Arizona",
-      "category": "state",
+      "id": "CA3",
+      "name": "U.S. Court of Appeals for the Third Circuit",
       "status": "research_required",
-      "court_profile_ids": []
+      "category": "regional_federal_appeal",
+      "court_profile_ids": [
+        "CA3"
+      ]
     },
     {
-      "id": "AR",
-      "name": "Arkansas",
-      "category": "state",
+      "id": "CA4",
+      "name": "U.S. Court of Appeals for the Fourth Circuit",
       "status": "research_required",
-      "court_profile_ids": []
+      "category": "regional_federal_appeal",
+      "court_profile_ids": [
+        "CA4"
+      ]
     },
     {
-      "id": "CA",
-      "name": "California",
-      "category": "state",
+      "id": "CA5",
+      "name": "U.S. Court of Appeals for the Fifth Circuit",
       "status": "research_required",
-      "court_profile_ids": []
+      "category": "regional_federal_appeal",
+      "court_profile_ids": [
+        "CA5"
+      ]
     },
     {
-      "id": "CO",
-      "name": "Colorado",
-      "category": "state",
+      "id": "CA6",
+      "name": "U.S. Court of Appeals for the Sixth Circuit",
       "status": "research_required",
-      "court_profile_ids": []
+      "category": "regional_federal_appeal",
+      "court_profile_ids": [
+        "CA6"
+      ]
     },
     {
-      "id": "CT",
-      "name": "Connecticut",
-      "category": "state",
+      "id": "CA7",
+      "name": "U.S. Court of Appeals for the Seventh Circuit",
       "status": "research_required",
-      "court_profile_ids": []
+      "category": "regional_federal_appeal",
+      "court_profile_ids": [
+        "CA7"
+      ]
     },
     {
-      "id": "DE",
-      "name": "Delaware",
-      "category": "state",
+      "id": "CA8",
+      "name": "U.S. Court of Appeals for the Eighth Circuit",
       "status": "research_required",
-      "court_profile_ids": []
+      "category": "regional_federal_appeal",
+      "court_profile_ids": [
+        "CA8"
+      ]
     },
     {
-      "id": "FL",
-      "name": "Florida",
-      "category": "state",
+      "id": "CA9",
+      "name": "U.S. Court of Appeals for the Ninth Circuit",
       "status": "research_required",
-      "court_profile_ids": []
+      "category": "regional_federal_appeal",
+      "court_profile_ids": [
+        "CA9"
+      ]
     },
     {
-      "id": "GA",
-      "name": "Georgia",
-      "category": "state",
+      "id": "CA10",
+      "name": "U.S. Court of Appeals for the Tenth Circuit",
       "status": "research_required",
-      "court_profile_ids": []
+      "category": "regional_federal_appeal",
+      "court_profile_ids": [
+        "CA10"
+      ]
     },
     {
-      "id": "HI",
-      "name": "Hawaii",
-      "category": "state",
+      "id": "CA11",
+      "name": "U.S. Court of Appeals for the Eleventh Circuit",
       "status": "research_required",
-      "court_profile_ids": []
+      "category": "regional_federal_appeal",
+      "court_profile_ids": [
+        "CA11"
+      ]
     },
     {
-      "id": "ID",
-      "name": "Idaho",
-      "category": "state",
+      "id": "CADC",
+      "name": "U.S. Court of Appeals for the District of Columbia Circuit",
       "status": "research_required",
-      "court_profile_ids": []
+      "category": "regional_federal_appeal",
+      "court_profile_ids": [
+        "CADC"
+      ]
     },
     {
-      "id": "IL",
-      "name": "Illinois",
-      "category": "state",
+      "id": "CAFC",
+      "name": "U.S. Court of Appeals for the Federal Circuit",
       "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "IN",
-      "name": "Indiana",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "IA",
-      "name": "Iowa",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "KS",
-      "name": "Kansas",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "KY",
-      "name": "Kentucky",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "LA",
-      "name": "Louisiana",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "ME",
-      "name": "Maine",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "MD",
-      "name": "Maryland",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "MA",
-      "name": "Massachusetts",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "MI",
-      "name": "Michigan",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "MN",
-      "name": "Minnesota",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "MS",
-      "name": "Mississippi",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "MO",
-      "name": "Missouri",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "MT",
-      "name": "Montana",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "NE",
-      "name": "Nebraska",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "NV",
-      "name": "Nevada",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "NH",
-      "name": "New Hampshire",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "NJ",
-      "name": "New Jersey",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "NM",
-      "name": "New Mexico",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "NY",
-      "name": "New York",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "NC",
-      "name": "North Carolina",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "ND",
-      "name": "North Dakota",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "OH",
-      "name": "Ohio",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "OK",
-      "name": "Oklahoma",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "OR",
-      "name": "Oregon",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "PA",
-      "name": "Pennsylvania",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "RI",
-      "name": "Rhode Island",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "SC",
-      "name": "South Carolina",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "SD",
-      "name": "South Dakota",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "TN",
-      "name": "Tennessee",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "TX",
-      "name": "Texas",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "UT",
-      "name": "Utah",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "VT",
-      "name": "Vermont",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "VA",
-      "name": "Virginia",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "WA",
-      "name": "Washington",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "WV",
-      "name": "West Virginia",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "WI",
-      "name": "Wisconsin",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "WY",
-      "name": "Wyoming",
-      "category": "state",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "DC",
-      "name": "District of Columbia",
-      "category": "district",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "PR",
-      "name": "Puerto Rico",
-      "category": "territory",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "GU",
-      "name": "Guam",
-      "category": "territory",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "VI",
-      "name": "U.S. Virgin Islands",
-      "category": "territory",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "MP",
-      "name": "Northern Mariana Islands",
-      "category": "territory",
-      "status": "research_required",
-      "court_profile_ids": []
-    },
-    {
-      "id": "AS",
-      "name": "American Samoa",
-      "category": "territory",
-      "status": "research_required",
-      "court_profile_ids": []
-    }
-  ],
-  "additional_systems": [
-    {
-      "id": "federal",
-      "status": "research_required"
-    },
-    {
-      "id": "tribal_sovereigns",
-      "status": "research_required"
-    },
-    {
-      "id": "military",
-      "status": "research_required"
-    },
-    {
-      "id": "agency_adjudication",
-      "status": "research_required"
-    },
-    {
-      "id": "immigration",
-      "status": "research_required"
+      "category": "specialized_federal_appeal",
+      "court_profile_ids": [
+        "CAFC"
+      ]
     }
   ]
 }

@@ -38,167 +38,63 @@
       ]
     },
     {
-      "id": "SRC-ME-SJC-OVERVIEW-20261024",
-      "url": "https://www.courts.maine.gov/courts/sjc/",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "court of last resort, Law Court appellate function, rulemaking, seven-member structure, clerk office",
+      "id": "SRC-US-APPEALS",
+      "url": "https://www.uscourts.gov/about-federal-courts/court-role-and-structure/about-us-courts-appeals",
+      "scope": "13 courts; ordinary three-judge panels; appellate review",
+      "checked_on": "2026-11-27",
+      "review_depth": "overview_only",
       "not_verified": [
-        "all internal deliberation and assignment procedures",
-        "case-specific doctrine"
+        "full effective rules and amendments",
+        "circuit-specific internal procedures",
+        "case-specific jurisdiction and subsequent precedent"
       ]
     },
     {
-      "id": "SRC-ME-SJC-STATUTE-20261024",
-      "url": "https://www.legislature.maine.gov/legis/statutes/4/title4sec1.html",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "Title 4 section 1 composition and administrative authority",
+      "id": "SRC-US-FRAP",
+      "url": "https://www.uscourts.gov/forms-rules/current-rules-practice-procedure/federal-rules-appellate-procedure",
+      "scope": "official FRAP landing page; verify effective version and local rules",
+      "checked_on": "2026-11-27",
+      "review_depth": "overview_only",
       "not_verified": [
-        "full rules text",
-        "constitutional questions in individual cases"
+        "full effective rules and amendments",
+        "circuit-specific internal procedures",
+        "case-specific jurisdiction and subsequent precedent"
       ]
     },
     {
-      "id": "SRC-ME-CONSTITUTION-20261024",
-      "url": "https://legislature.maine.gov/doc/9050",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "Article VI judicial power, seven-year judicial terms and solemn occasion advisory function",
+      "id": "SRC-US-28-46",
+      "url": "https://uscode.house.gov/us/usc/t28/s46/",
+      "scope": "panel composition and en banc statutory framework",
+      "checked_on": "2026-11-27",
+      "review_depth": "overview_only",
       "not_verified": [
-        "full appointment confirmation procedure in each case"
+        "full effective rules and amendments",
+        "circuit-specific internal procedures",
+        "case-specific jurisdiction and subsequent precedent"
       ]
     },
     {
-      "id": "SRC-ME-JUDICIAL-BRANCH-20261024",
-      "url": "https://www.courts.maine.gov/about/",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "Governor appointment, Senate confirmation, seven-year term",
+      "id": "SRC-US-28-1291",
+      "url": "https://uscode.house.gov/us/usc/t28/s1291/",
+      "scope": "final decisions jurisdiction; Federal Circuit exceptions",
+      "checked_on": "2026-11-27",
+      "review_depth": "overview_only",
       "not_verified": [
-        "specific fictional appointment feasibility"
+        "full effective rules and amendments",
+        "circuit-specific internal procedures",
+        "case-specific jurisdiction and subsequent precedent"
       ]
     },
     {
-      "id": "SRC-ME-APPELLATE-CALENDAR-20261024",
-      "url": "https://www.courts.maine.gov/courts/sjc/calendar.html",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "hearing calendar, Portland courthouse customary venue, next published argument dates November 3–5 2026, subject to change",
+      "id": "SRC-US-28-1292",
+      "url": "https://uscode.house.gov/us/usc/t28/s1292/",
+      "scope": "interlocutory jurisdiction and exceptions",
+      "checked_on": "2026-11-27",
+      "review_depth": "overview_only",
       "not_verified": [
-        "fictional docket assignments",
-        "future calendar modifications"
-      ]
-    },
-    {
-      "id": "SRC-ME-APPEALS-GUIDE-20261024",
-      "url": "https://www.courts.maine.gov/help/appeals.html",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "appellate written record, briefs, appendix and oral argument not a new evidence hearing",
-      "not_verified": [
-        "all actual filing deadlines",
-        "all rule exceptions"
-      ]
-    },
-    {
-      "id": "SRC-ME-RULES-INDEX-20261024",
-      "url": "https://www.courts.maine.gov/rules/",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "identification of Maine Rules of Appellate Procedure (November 2024), judicial ethics code (September 2024), and recent amendments",
-      "not_verified": [
-        "rule-by-rule interpretation",
-        "all filing deadlines and exceptions",
-        "all rule changes post-cutoff"
-      ]
-    },
-    {
-      "id": "SRC-ME-LAW-CLERKS-20261024",
-      "url": "https://www.courts.maine.gov/about/sjc-clerkship-2026-2027.pdf",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "2026–2027 term August 17 2026 to August 13 2027; law clerks serve whole court while assigned to chambers; bench memos, research, opinion drafting",
-      "not_verified": [
-        "number of clerks per justice",
-        "specific real staffing assignments"
-      ]
-    },
-    {
-      "id": "SRC-ME-COURT-OPINIONS-20261024",
-      "url": "https://courts.maine.gov/courts/sjc/opinions.html",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "published opinions, review for reconsideration and correction",
-      "not_verified": [
-        "full text of individual precedent",
-        "subsequent treatment of any cited case"
-      ]
-    },
-    {
-      "id": "SRC-ME-APP-2024-TEXT",
-      "url": "https://www.courts.maine.gov/rules/text/mr_app_p_only_2024-11-01.pdf",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "Rule 2B, 7, 7A, 8, 11, 12, 12A; notice, briefs, appendix, composition, majority and decisions",
-      "not_verified": [
-        "comprehensive negative-history treatment",
-        "all exceptions or confidential internal court procedures"
-      ]
-    },
-    {
-      "id": "SRC-ME-CIV-2026-TEXT",
-      "url": "https://www.courts.maine.gov/rules/text/mr_civ_p_only_2026-06-01.pdf",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "Rule 56(c) and 56(h) summary judgment and fact statements",
-      "not_verified": [
-        "comprehensive negative-history treatment",
-        "all exceptions or confidential internal court procedures"
-      ]
-    },
-    {
-      "id": "SRC-ME-JUD-ETHICS-2024",
-      "url": "https://www.courts.maine.gov/rules/text/mc_jud_conduct_plus_2024-09-23.pdf",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "Rule 2.9 ex parte/independent factual inquiry and 2.11 disqualification",
-      "not_verified": [
-        "comprehensive negative-history treatment",
-        "all exceptions or confidential internal court procedures"
-      ]
-    },
-    {
-      "id": "SRC-ME-KEEP-2024",
-      "url": "https://www.courts.maine.gov/courts/sjc/lawcourt/2024/24me014.pdf",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "Official Keep v Indorf 2024 ME 14 ¶¶21–22 contract ambiguity and interpretation",
-      "not_verified": [
-        "comprehensive negative-history treatment",
-        "all exceptions or confidential internal court procedures"
-      ]
-    },
-    {
-      "id": "SRC-ME-DAHLEM-2024",
-      "url": "https://www.courts.maine.gov/courts/sjc/lawcourt/2024/24me032.pdf",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "Official Dahlem v City of Saco 2024 ME 32 ¶¶16,22 summary judgment and interpretation",
-      "not_verified": [
-        "comprehensive negative-history treatment",
-        "all exceptions or confidential internal court procedures"
-      ]
-    },
-    {
-      "id": "SRC-ME-ECOURTS-2026",
-      "url": "https://www.courts.maine.gov/ecourts/access.html",
-      "checked_on": "2026-10-24",
-      "review_depth": "court_specific",
-      "scope": "Cumberland County eCourts rollout September 28, 2026 and access limits",
-      "not_verified": [
-        "comprehensive negative-history treatment",
-        "all exceptions or confidential internal court procedures"
+        "full effective rules and amendments",
+        "circuit-specific internal procedures",
+        "case-specific jurisdiction and subsequent precedent"
       ]
     }
   ]
