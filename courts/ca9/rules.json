@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "court_id": "CA9",
+  "selected": true,
+  "verified_as_of": "2026-11-27",
+  "coverage": "ordinary merits panel only; exceptions blocked until implemented",
+  "ordinary_panel": {
+    "size": 3,
+    "min_ninth_members": 2,
+    "min_active_ninth": 1,
+    "presiding": "chief judge if on panel; otherwise seniority among active Ninth judges",
+    "assignment": "clerk calendar and case assignment; randomized subject to workload, location and recusal; manual reviewed assignment for now",
+    "source": "GO 3.2–3.3"
+  },
+  "submission_without_argument": {
+    "unanimous": true,
+    "reasons": [
+      "frivolous",
+      "authoritatively_decided",
+      "argument_not_helpful"
+    ],
+    "source": "FRAP 34(a)(2)"
+  },
+  "publication": {
+    "types": [
+      "OPINION",
+      "MEMORANDUM",
+      "ORDER"
+    ],
+    "criteria": [
+      "federal_rule",
+      "overlooked_rule",
+      "criticism",
+      "unique_or_public_importance",
+      "published_below",
+      "separate_expression_request"
+    ],
+    "source": "Circuit Rules 36-1 to 36-3"
+  },
+  "conference": {
+    "private": true,
+    "positions_separate_from_join": true,
+    "majority_required": 2,
+    "source": "GO 4.4–4.5; simulated conference mechanics"
+  },
+  "en_banc": {
+    "ordinary_limited_size": 11,
+    "chief_plus_ten_by_lot": true,
+    "grant_electorate": "eligible active judges, majority; no senior judge vote",
+    "source": "Circuit Rule 40-3; GO 5.1",
+    "implementation": "documented_only"
+  },
+  "mandate": {
+    "source": "FRAP 41; GO 4.6",
+    "implementation": "documented_only"
+  }
+}

@@ -9,7 +9,8 @@
       "category": "regional_federal_appeal",
       "court_profile_ids": [
         "CA1"
-      ]
+      ],
+      "selected": false
     },
     {
       "id": "CA2",
@@ -18,7 +19,8 @@
       "category": "regional_federal_appeal",
       "court_profile_ids": [
         "CA2"
-      ]
+      ],
+      "selected": false
     },
     {
       "id": "CA3",
@@ -27,7 +29,8 @@
       "category": "regional_federal_appeal",
       "court_profile_ids": [
         "CA3"
-      ]
+      ],
+      "selected": false
     },
     {
       "id": "CA4",
@@ -36,7 +39,8 @@
       "category": "regional_federal_appeal",
       "court_profile_ids": [
         "CA4"
-      ]
+      ],
+      "selected": false
     },
     {
       "id": "CA5",
@@ -45,7 +49,8 @@
       "category": "regional_federal_appeal",
       "court_profile_ids": [
         "CA5"
-      ]
+      ],
+      "selected": false
     },
     {
       "id": "CA6",
@@ -54,7 +59,8 @@
       "category": "regional_federal_appeal",
       "court_profile_ids": [
         "CA6"
-      ]
+      ],
+      "selected": false
     },
     {
       "id": "CA7",
@@ -63,7 +69,8 @@
       "category": "regional_federal_appeal",
       "court_profile_ids": [
         "CA7"
-      ]
+      ],
+      "selected": false
     },
     {
       "id": "CA8",
@@ -72,7 +79,8 @@
       "category": "regional_federal_appeal",
       "court_profile_ids": [
         "CA8"
-      ]
+      ],
+      "selected": false
     },
     {
       "id": "CA9",
@@ -81,7 +89,8 @@
       "category": "regional_federal_appeal",
       "court_profile_ids": [
         "CA9"
-      ]
+      ],
+      "selected": true
     },
     {
       "id": "CA10",
@@ -90,7 +99,8 @@
       "category": "regional_federal_appeal",
       "court_profile_ids": [
         "CA10"
-      ]
+      ],
+      "selected": false
     },
     {
       "id": "CA11",
@@ -99,7 +109,8 @@
       "category": "regional_federal_appeal",
       "court_profile_ids": [
         "CA11"
-      ]
+      ],
+      "selected": false
     },
     {
       "id": "CADC",
@@ -108,7 +119,8 @@
       "category": "regional_federal_appeal",
       "court_profile_ids": [
         "CADC"
-      ]
+      ],
+      "selected": false
     },
     {
       "id": "CAFC",
@@ -117,7 +129,8 @@
       "category": "specialized_federal_appeal",
       "court_profile_ids": [
         "CAFC"
-      ]
+      ],
+      "selected": false
     }
   ]
 }

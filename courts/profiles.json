@@ -168,18 +168,42 @@
       "category": "regional_federal_appeal",
       "role": "Article III circuit judge",
       "source_ids": [
-        "SRC-US-APPEALS",
-        "SRC-US-FRAP",
-        "SRC-US-28-46"
+        "SRC-CA9-ABOUT",
+        "SRC-CA9-HANDBOOK-20260601",
+        "SRC-CA9-GO-20261027",
+        "SRC-CA9-JURISDICTION",
+        "SRC-CA9-HEARINGS",
+        "SRC-CA9-ACMS"
       ],
       "readiness_gaps": [
-        "circuit-specific rules and IOPs",
-        "jurisdiction and panel/en banc rules",
-        "fictional roster and chambers",
-        "first complete appeal record"
+        "fictional roster and player/date",
+        "first complete appeal record and case-specific jurisdiction/authorities",
+        "special panels, recusal replacement, rehearing/en banc and mandate transitions",
+        "effective rules recheck for selected game date"
       ],
-      "matter_types": [],
-      "hearing_kinds": []
+      "matter_types": [
+        "civil_appeal",
+        "criminal_appeal",
+        "agency_review",
+        "tax_appeal",
+        "bankruptcy_appeal",
+        "original_writ"
+      ],
+      "hearing_kinds": [
+        "oral_argument",
+        "consideration_on_briefs"
+      ],
+      "selected": true,
+      "implementation_status": "ordinary_panel_core",
+      "checked_on": "2026-11-27",
+      "jurisdiction": "Federal district court appeals from 15 districts in nine western states and Guam/Northern Mariana Islands; agency, Tax Court, bankruptcy and writ jurisdiction only when separately established.",
+      "appeal_route": "Panel rehearing or rehearing en banc under FRAP 40; Supreme Court review by certiorari when available; mandate under FRAP 41.",
+      "appointment": "Article III; presidential nomination and Senate confirmation; good-behavior tenure; fictional appointment not yet configured.",
+      "staffing": "29 authorized circuit judgeships; chief judge, active and senior circuit judges, visiting judges, chambers clerks and court staff. Actual roster not used as fictional roster.",
+      "rules": "FRAP and Ninth Circuit Rules handbook effective 2026-06-01; General Orders revised 2026-10-27. Verify against game date.",
+      "operating_rules_path": "courts/ca9/OPERATIONS.md",
+      "machine_rules_path": "courts/ca9/rules.json",
+      "ordinary_panel_only": true
     },
     "CA10": {
       "id": "CA10",

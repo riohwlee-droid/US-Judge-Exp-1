@@ -1,0 +1,9 @@
+{
+  "selected_court_id": "CA9",
+  "user_selected_on": "2026-11-27",
+  "campaign_status": "setup_required",
+  "player": null,
+  "game_time": null,
+  "first_case": null,
+  "operating_rules": "courts/ca9/OPERATIONS.md"
+}

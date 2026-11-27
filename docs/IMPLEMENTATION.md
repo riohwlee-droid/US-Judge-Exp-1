@@ -45,3 +45,6 @@ Python 표준 라이브러리만 사용한다. 사용자의 PC는 필요하지 �
 자연어의 완전한 해석, 실질 관할·증거능력, 법률 주장/기한/선례의 정확성, 원문 인용의 의미상 지지, page 분량의 현실성, 인물의 지식 누출이 전혀 없음, 모든 지역규칙의 최신성, 법적 정당한 다수의견 여부. 이 부분은 출처 조사·사건 제작·사람의 판단을 요구한다. opinion.issue의 legal_review_completed는 검토 기록 표시이지 법률 검증 AI가 아니다.
 
 CI는 실패를 탐지하지만 main 쓰기 자체를 막는 branch protection을 설정하지 않았다. 누군가 과거 상태와 검사 코드를 모두 바꾸면 논리적 보호를 우회할 수 있다. Git 커밋 이력이 복구 근거다. 비밀 GM 시스템이나 독립 법률 검증기로 표현하지 않는다.
+
+## CA9 ordinary merits panel v1
+See courts/ca9/OPERATIONS.md. New conference.record payload: case_id, votes mapping judge ID to disposition, majority_disposition, author_id. Case metadata: panel_kind=ordinary_merits, presiding_judge_id, conflict_review_completed, jurisdiction_basis. Judge metadata: court_id, judicial_status, seniority_rank, optional chief_judge. For consideration_on_briefs include no_argument_votes, no_argument_reason, briefs_and_record_reviewed. Opinion issue requires publication_form, certified, disposition for controlling disposition, publication_reason for OPINION. Author explicitly records own position. Special panels, recusal changes, mandate and en banc not executable. Full legal validation not automated.
