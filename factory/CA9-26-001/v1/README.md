@@ -1,0 +1,2 @@
+# First production case — drafting in progress
+Fictional single represented civil appeal; Title VII retaliation; NDCA. Provisional legal cutoff November 27, 2026; no player or start date configured. No appellate outcome selected. This is not a sealed release and must not be admitted or assigned. The blueprint describes both completed and planned records; document plans are not filed originals until seal. See progress.json. Do not disclose creator-only material during play.

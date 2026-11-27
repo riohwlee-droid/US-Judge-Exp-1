@@ -1,0 +1,1911 @@
+{
+  "schema_version": 1,
+  "case_id": "CA9-26-001",
+  "version": "v1",
+  "purpose": "production",
+  "fictional": true,
+  "court_id": "CA9",
+  "track": "civil_summary_judgment",
+  "appeal_shape": "single_represented_appeal",
+  "title": "Elena R. Maren v. Aster Quay Logistics, Inc.",
+  "origin_district": "NDCA",
+  "calendar_location": "San Francisco",
+  "jurisdiction_basis": "28 U.S.C. §§ 1331, 1291; Title VII retaliation; final judgment disposing of sole claim; represented private parties",
+  "legal_cutoff": "2026-11-27",
+  "record_as_of": "2026-11-27T10:00:00-08:00",
+  "actors": [
+    {
+      "id": "P",
+      "name": "Elena R. Maren",
+      "role": "plaintiff, former dispatch coordinator",
+      "fictional": true
+    },
+    {
+      "id": "D",
+      "name": "Aster Quay Logistics, Inc.",
+      "role": "defendant, fictional California corporation",
+      "fictional": true
+    },
+    {
+      "id": "PC",
+      "name": "Alina V. Serrick",
+      "role": "plaintiff counsel",
+      "fictional": true
+    },
+    {
+      "id": "DC",
+      "name": "Matthew J. Corven",
+      "role": "defense counsel",
+      "fictional": true
+    },
+    {
+      "id": "S",
+      "name": "Gavin R. Holtwell",
+      "role": "dispatch manager",
+      "fictional": true
+    },
+    {
+      "id": "H",
+      "name": "Nadia E. Bracken",
+      "role": "HR director",
+      "fictional": true
+    },
+    {
+      "id": "A",
+      "name": "Derek L. Fenmore",
+      "role": "quality analyst",
+      "fictional": true
+    },
+    {
+      "id": "C",
+      "name": "Jules T. Bellford",
+      "role": "dispatch coordinator",
+      "fictional": true
+    },
+    {
+      "id": "W",
+      "name": "Tessa M. Lorne",
+      "role": "shift lead",
+      "fictional": true
+    },
+    {
+      "id": "I",
+      "name": "Mina C. Velden",
+      "role": "IT custodian",
+      "fictional": true
+    },
+    {
+      "id": "R",
+      "name": "Rosa L. Vellum",
+      "role": "fictional district judge",
+      "fictional": true
+    },
+    {
+      "id": "K",
+      "name": "Emmett D. Ralston",
+      "role": "fictional district clerk",
+      "fictional": true
+    },
+    {
+      "id": "AC",
+      "name": "Faye N. Corliss",
+      "role": "fictional appellate clerk",
+      "fictional": true
+    },
+    {
+      "id": "E",
+      "name": "Miriam C. Dovell",
+      "role": "fictional EEOC investigator",
+      "fictional": true
+    },
+    {
+      "id": "REP",
+      "name": "Simon E. Harwick",
+      "role": "court reporter",
+      "fictional": true
+    },
+    {
+      "id": "O",
+      "name": "Tobin A. Fenn",
+      "role": "chief operating officer",
+      "fictional": true
+    }
+  ],
+  "timeline": [
+    {
+      "id": "T01",
+      "at": "2021-08-16T10:00:00-07:00",
+      "description": "Maren starts as dispatch coordinator at Oakland facility.",
+      "actor_ids": [
+        "P",
+        "D",
+        "H"
+      ]
+    },
+    {
+      "id": "T02",
+      "at": "2024-01-08T10:00:00-08:00",
+      "description": "Release policy revision distributed to dispatch and shift leads.",
+      "actor_ids": [
+        "P",
+        "S",
+        "C",
+        "W",
+        "A"
+      ]
+    },
+    {
+      "id": "T03",
+      "at": "2024-02-09T10:00:00-08:00",
+      "description": "2023 performance review delivered.",
+      "actor_ids": [
+        "P",
+        "S",
+        "H"
+      ]
+    },
+    {
+      "id": "T04",
+      "at": "2024-03-07T10:00:00-08:00",
+      "description": "Maren dispatches consignment AQ-4182.",
+      "actor_ids": [
+        "P",
+        "W",
+        "A",
+        "I"
+      ]
+    },
+    {
+      "id": "T05",
+      "at": "2024-03-20T10:00:00-08:00",
+      "description": "Maren dispatches consignment AQ-4311.",
+      "actor_ids": [
+        "P",
+        "W",
+        "A",
+        "I"
+      ]
+    },
+    {
+      "id": "T06",
+      "at": "2024-04-02T10:00:00-07:00",
+      "description": "Customer raises complaint about consignment AQ-4470, handled by Bellford.",
+      "actor_ids": [
+        "C",
+        "S",
+        "A"
+      ]
+    },
+    {
+      "id": "T07",
+      "at": "2024-04-04T10:00:00-07:00",
+      "description": "Holtwell requests common audit of six coordinators.",
+      "actor_ids": [
+        "S",
+        "A"
+      ]
+    },
+    {
+      "id": "T08",
+      "at": "2024-04-05T10:00:00-07:00",
+      "description": "Fenmore saves first audit workbook.",
+      "actor_ids": [
+        "A",
+        "S"
+      ]
+    },
+    {
+      "id": "T09",
+      "at": "2024-04-08T10:00:00-07:00",
+      "description": "Maren emails HR complaint about sex-based allocation of lead shifts.",
+      "actor_ids": [
+        "P",
+        "H"
+      ]
+    },
+    {
+      "id": "T10",
+      "at": "2024-04-09T10:00:00-07:00",
+      "description": "Bracken tells Holtwell of the nature of the complaint and instructs preservation.",
+      "actor_ids": [
+        "H",
+        "S"
+      ]
+    },
+    {
+      "id": "T11",
+      "at": "2024-04-12T10:00:00-07:00",
+      "description": "Holtwell requests expanded lookback for Maren.",
+      "actor_ids": [
+        "S",
+        "A"
+      ]
+    },
+    {
+      "id": "T12",
+      "at": "2024-04-15T10:00:00-07:00",
+      "description": "Fenmore transmits revised exception report.",
+      "actor_ids": [
+        "A",
+        "S",
+        "H"
+      ]
+    },
+    {
+      "id": "T13",
+      "at": "2024-04-18T10:00:00-07:00",
+      "description": "Maren interviewed with HR; identifies oral approvals and log defects.",
+      "actor_ids": [
+        "P",
+        "H",
+        "S"
+      ]
+    },
+    {
+      "id": "T14",
+      "at": "2024-04-23T10:00:00-07:00",
+      "description": "Fenmore sends correction note; eight of twelve flags resolved, four remain, two disputed authorization.",
+      "actor_ids": [
+        "A",
+        "S",
+        "H"
+      ]
+    },
+    {
+      "id": "T15",
+      "at": "2024-04-25T10:00:00-07:00",
+      "description": "Holtwell proposes termination; HR seeks comparator information.",
+      "actor_ids": [
+        "S",
+        "H"
+      ]
+    },
+    {
+      "id": "T16",
+      "at": "2024-05-02T10:00:00-07:00",
+      "description": "Holtwell issues written warning to Bellford.",
+      "actor_ids": [
+        "S",
+        "C",
+        "H"
+      ]
+    },
+    {
+      "id": "T17",
+      "at": "2024-05-13T10:00:00-07:00",
+      "description": "COO reviews recommendation and HR packet.",
+      "actor_ids": [
+        "O",
+        "H",
+        "S"
+      ]
+    },
+    {
+      "id": "T18",
+      "at": "2024-05-17T10:00:00-07:00",
+      "description": "Maren discharged.",
+      "actor_ids": [
+        "P",
+        "H",
+        "S",
+        "O"
+      ]
+    },
+    {
+      "id": "T19",
+      "at": "2024-07-12T10:00:00-07:00",
+      "description": "EEOC charge filed.",
+      "actor_ids": [
+        "P",
+        "E",
+        "D"
+      ]
+    },
+    {
+      "id": "T20",
+      "at": "2024-12-16T10:00:00-08:00",
+      "description": "Right-to-sue notice received by Maren.",
+      "actor_ids": [
+        "E",
+        "P"
+      ]
+    },
+    {
+      "id": "T21",
+      "at": "2025-02-03T10:00:00-08:00",
+      "description": "Complaint filed.",
+      "actor_ids": [
+        "P",
+        "PC",
+        "K"
+      ]
+    },
+    {
+      "id": "T22",
+      "at": "2025-02-24T10:00:00-08:00",
+      "description": "Answer filed.",
+      "actor_ids": [
+        "D",
+        "DC",
+        "K"
+      ]
+    },
+    {
+      "id": "T23",
+      "at": "2025-10-06T10:00:00-07:00",
+      "description": "Maren deposition.",
+      "actor_ids": [
+        "P",
+        "PC",
+        "DC",
+        "REP"
+      ]
+    },
+    {
+      "id": "T24",
+      "at": "2025-10-08T10:00:00-07:00",
+      "description": "Holtwell deposition.",
+      "actor_ids": [
+        "S",
+        "PC",
+        "DC",
+        "REP"
+      ]
+    },
+    {
+      "id": "T25",
+      "at": "2025-10-10T10:00:00-07:00",
+      "description": "Fenmore deposition.",
+      "actor_ids": [
+        "A",
+        "PC",
+        "DC",
+        "REP"
+      ]
+    },
+    {
+      "id": "T26",
+      "at": "2025-10-14T10:00:00-07:00",
+      "description": "Bracken deposition.",
+      "actor_ids": [
+        "H",
+        "PC",
+        "DC",
+        "REP"
+      ]
+    },
+    {
+      "id": "T27",
+      "at": "2025-10-16T10:00:00-07:00",
+      "description": "Lorne deposition.",
+      "actor_ids": [
+        "W",
+        "PC",
+        "DC",
+        "REP"
+      ]
+    },
+    {
+      "id": "T28",
+      "at": "2025-10-20T10:00:00-07:00",
+      "description": "Bellford deposition.",
+      "actor_ids": [
+        "C",
+        "PC",
+        "DC",
+        "REP"
+      ]
+    },
+    {
+      "id": "T29",
+      "at": "2026-05-04T10:00:00-07:00",
+      "description": "Defendant moves for summary judgment.",
+      "actor_ids": [
+        "D",
+        "DC",
+        "K"
+      ]
+    },
+    {
+      "id": "T30",
+      "at": "2026-05-18T10:00:00-07:00",
+      "description": "Plaintiff opposition filed.",
+      "actor_ids": [
+        "P",
+        "PC",
+        "K"
+      ]
+    },
+    {
+      "id": "T31",
+      "at": "2026-05-26T10:00:00-07:00",
+      "description": "Defendant reply filed.",
+      "actor_ids": [
+        "D",
+        "DC",
+        "K"
+      ]
+    },
+    {
+      "id": "T32",
+      "at": "2026-06-11T10:00:00-07:00",
+      "description": "Summary judgment hearing; no live testimony.",
+      "actor_ids": [
+        "R",
+        "PC",
+        "DC",
+        "REP"
+      ]
+    },
+    {
+      "id": "T33",
+      "at": "2026-08-21T10:00:00-07:00",
+      "description": "Order and separate final judgment entered.",
+      "actor_ids": [
+        "R",
+        "K"
+      ]
+    },
+    {
+      "id": "T34",
+      "at": "2026-09-03T10:00:00-07:00",
+      "description": "Notice of appeal filed.",
+      "actor_ids": [
+        "P",
+        "PC",
+        "K"
+      ]
+    },
+    {
+      "id": "T35",
+      "at": "2026-09-09T10:00:00-07:00",
+      "description": "Appellate briefing schedule entered.",
+      "actor_ids": [
+        "AC"
+      ]
+    },
+    {
+      "id": "T36",
+      "at": "2026-10-16T10:00:00-07:00",
+      "description": "Opening brief and excerpts filed.",
+      "actor_ids": [
+        "P",
+        "PC",
+        "AC"
+      ]
+    },
+    {
+      "id": "T37",
+      "at": "2026-11-12T10:00:00-08:00",
+      "description": "Answering brief filed.",
+      "actor_ids": [
+        "D",
+        "DC",
+        "AC"
+      ]
+    },
+    {
+      "id": "T38",
+      "at": "2026-11-24T10:00:00-08:00",
+      "description": "Reply filed.",
+      "actor_ids": [
+        "P",
+        "PC",
+        "AC"
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "subject_id": "P",
+      "event_id": "T01",
+      "field": "start_date",
+      "value": "2021-08-16",
+      "unit": "date",
+      "known_by": [
+        "P",
+        "D",
+        "H"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F02",
+      "subject_id": "D",
+      "event_id": "T02",
+      "field": "release_policy",
+      "value": "documented approval; oral approval allowed for qualifying urgent loads; record before shift end",
+      "unit": "text",
+      "known_by": [
+        "P",
+        "S",
+        "C",
+        "W",
+        "A",
+        "H"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F03",
+      "subject_id": "P",
+      "event_id": "T03",
+      "field": "overall_rating",
+      "value": "meets expectations",
+      "unit": "text",
+      "known_by": [
+        "P",
+        "S",
+        "H"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F04",
+      "subject_id": "P",
+      "event_id": "T04",
+      "field": "shipment_id",
+      "value": "AQ-4182",
+      "unit": "id",
+      "known_by": [
+        "P",
+        "W",
+        "A",
+        "I"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F05",
+      "subject_id": "P",
+      "event_id": "T05",
+      "field": "shipment_id",
+      "value": "AQ-4311",
+      "unit": "id",
+      "known_by": [
+        "P",
+        "W",
+        "A",
+        "I"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F06",
+      "subject_id": "C",
+      "event_id": "T06",
+      "field": "customer_complaint_shipment",
+      "value": "AQ-4470",
+      "unit": "id",
+      "known_by": [
+        "C",
+        "S",
+        "A"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F07",
+      "subject_id": "S",
+      "event_id": "T07",
+      "field": "audit_scope",
+      "value": "six coordinators; fourteen-day window",
+      "unit": "text",
+      "known_by": [
+        "S",
+        "A"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F08",
+      "subject_id": "P",
+      "event_id": "T09",
+      "field": "complaint_date",
+      "value": "2024-04-08",
+      "unit": "date",
+      "known_by": [
+        "P",
+        "H",
+        "S"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F09",
+      "subject_id": "P",
+      "event_id": "T09",
+      "field": "complaint_subject",
+      "value": "sex-based allocation of lead shifts",
+      "unit": "text",
+      "known_by": [
+        "P",
+        "H",
+        "S"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F10",
+      "subject_id": "S",
+      "event_id": "T10",
+      "field": "notice_date",
+      "value": "2024-04-09",
+      "unit": "date",
+      "known_by": [
+        "S",
+        "H"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F11",
+      "subject_id": "S",
+      "event_id": "T11",
+      "field": "expanded_window",
+      "value": "60",
+      "unit": "days",
+      "known_by": [
+        "S",
+        "A",
+        "H"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F12",
+      "subject_id": "P",
+      "event_id": "T12",
+      "field": "initial_flags",
+      "value": "12",
+      "unit": "flags",
+      "known_by": [
+        "P",
+        "A",
+        "S",
+        "H"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F13",
+      "subject_id": "P",
+      "event_id": "T14",
+      "field": "resolved_flags",
+      "value": "8",
+      "unit": "flags",
+      "known_by": [
+        "P",
+        "A",
+        "S",
+        "H"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F14",
+      "subject_id": "P",
+      "event_id": "T14",
+      "field": "remaining_flags",
+      "value": "4",
+      "unit": "flags",
+      "known_by": [
+        "P",
+        "A",
+        "S",
+        "H"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F15",
+      "subject_id": "P",
+      "event_id": "T14",
+      "field": "disputed_authorization",
+      "value": "2",
+      "unit": "flags",
+      "known_by": [
+        "P",
+        "A",
+        "S",
+        "H"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F16",
+      "subject_id": "C",
+      "event_id": "T16",
+      "field": "discipline",
+      "value": "written warning",
+      "unit": "text",
+      "known_by": [
+        "C",
+        "S",
+        "H"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F17",
+      "subject_id": "P",
+      "event_id": "T18",
+      "field": "termination_date",
+      "value": "2024-05-17",
+      "unit": "date",
+      "known_by": [
+        "P",
+        "H",
+        "S",
+        "O"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F18",
+      "subject_id": "P",
+      "event_id": "T19",
+      "field": "charge_date",
+      "value": "2024-07-12",
+      "unit": "date",
+      "known_by": [
+        "P",
+        "E",
+        "D"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F19",
+      "subject_id": "P",
+      "event_id": "T20",
+      "field": "right_to_sue_receipt",
+      "value": "2024-12-16",
+      "unit": "date",
+      "known_by": [
+        "P",
+        "E"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F20",
+      "subject_id": "P",
+      "event_id": "T21",
+      "field": "complaint_filed",
+      "value": "2025-02-03",
+      "unit": "date",
+      "known_by": [
+        "P",
+        "PC",
+        "K"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F21",
+      "subject_id": "D",
+      "event_id": "T33",
+      "field": "judgment_date",
+      "value": "2026-08-21",
+      "unit": "date",
+      "known_by": [
+        "D",
+        "R",
+        "K",
+        "PC",
+        "DC"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F22",
+      "subject_id": "P",
+      "event_id": "T34",
+      "field": "appeal_date",
+      "value": "2026-09-03",
+      "unit": "date",
+      "known_by": [
+        "P",
+        "PC",
+        "K"
+      ],
+      "visibility": "record_possible"
+    }
+  ],
+  "issues": [
+    {
+      "id": "I1",
+      "question": "Whether the summary judgment record permits a reasonable jury to find that the protected opposition was a but-for cause of discharge, considering the audit chronology, comparator and disciplinary process.",
+      "standard_of_review": "de novo; reasonable inferences for nonmovant",
+      "preservation_status": "raised in opposition; exact pages to be checked after drafting",
+      "ruling_document_id": "CA9-26-001-ORDER",
+      "ruling_page": 1,
+      "ruling_quote": "The motion for summary judgment is granted.",
+      "preservation_document_id": "CA9-26-001-OPP",
+      "preservation_page": 1,
+      "preservation_quote": "A reasonable jury could find that the protected complaint was a but-for cause of discharge.",
+      "appellant_theory": "Cumulative evidence of selective investigation, disputed explanations and comparator treatment permits inference of but-for causation.",
+      "appellee_theory": "Precomplaint audit and documented release violations justified the same discharge; distinctions and incomplete logs do not permit a causal inference.",
+      "appellant_relief": "Vacate judgment and remand for trial.",
+      "appellee_relief": "Affirm final judgment."
+    }
+  ],
+  "documents": [
+    {
+      "id": "CA9-26-001-TD",
+      "kind": "trial_docket",
+      "title": "District court docket",
+      "path": "records/CA9-26-001/v1/TD.md",
+      "actor_id": "K",
+      "created_at": "2026-09-03T10:00:00-07:00",
+      "filed_at": "2026-09-03T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 5,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-COM",
+      "kind": "complaint",
+      "title": "Complaint for damages and equitable relief",
+      "path": "records/CA9-26-001/v1/COM.md",
+      "actor_id": "PC",
+      "created_at": "2025-02-03T10:00:00-08:00",
+      "filed_at": "2025-02-03T10:00:00-08:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 6,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-ANS",
+      "kind": "answer",
+      "title": "Answer and affirmative defenses",
+      "path": "records/CA9-26-001/v1/ANS.md",
+      "actor_id": "DC",
+      "created_at": "2025-02-24T10:00:00-08:00",
+      "filed_at": "2025-02-24T10:00:00-08:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 5,
+      "depends_on": [
+        "CA9-26-001-COM"
+      ]
+    },
+    {
+      "id": "CA9-26-001-SCHED",
+      "kind": "other_lower",
+      "title": "Scheduling and case management order",
+      "path": "records/CA9-26-001/v1/SCHED.md",
+      "actor_id": "R",
+      "created_at": "2025-04-03T10:00:00-07:00",
+      "filed_at": "2025-04-03T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 3,
+      "depends_on": [
+        "CA9-26-001-COM",
+        "CA9-26-001-ANS"
+      ]
+    },
+    {
+      "id": "CA9-26-001-POL",
+      "kind": "exhibit",
+      "title": "Exhibit A — controlled release policy and revision history",
+      "path": "records/CA9-26-001/v1/POL.md",
+      "actor_id": "I",
+      "created_at": "2026-05-04T10:00:00-07:00",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 5,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-REV",
+      "kind": "exhibit",
+      "title": "Exhibit B — personnel review and prior discipline",
+      "path": "records/CA9-26-001/v1/REV.md",
+      "actor_id": "H",
+      "created_at": "2026-05-04T10:00:00-07:00",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 4,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-AUD",
+      "kind": "exhibit",
+      "title": "Exhibit C — audit correspondence and change log",
+      "path": "records/CA9-26-001/v1/AUD.md",
+      "actor_id": "A",
+      "created_at": "2026-05-04T10:00:00-07:00",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 6,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-LOG",
+      "kind": "exhibit",
+      "title": "Exhibit D — dispatch system and exception records",
+      "path": "records/CA9-26-001/v1/LOG.md",
+      "actor_id": "I",
+      "created_at": "2026-05-04T10:00:00-07:00",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 12,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-MDEP",
+      "kind": "deposition",
+      "title": "Exhibit E — deposition of Elena Maren",
+      "path": "records/CA9-26-001/v1/MDEP.md",
+      "actor_id": "REP",
+      "created_at": "2026-05-04T10:00:00-07:00",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 26,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-SDEP",
+      "kind": "deposition",
+      "title": "Exhibit F — deposition of Gavin Holtwell",
+      "path": "records/CA9-26-001/v1/SDEP.md",
+      "actor_id": "REP",
+      "created_at": "2026-05-04T10:00:00-07:00",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 26,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-ADEP",
+      "kind": "deposition",
+      "title": "Exhibit G — deposition of Derek Fenmore",
+      "path": "records/CA9-26-001/v1/ADEP.md",
+      "actor_id": "REP",
+      "created_at": "2026-05-04T10:00:00-07:00",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 20,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-HDEP",
+      "kind": "deposition",
+      "title": "Exhibit H — deposition of Nadia Bracken",
+      "path": "records/CA9-26-001/v1/HDEP.md",
+      "actor_id": "REP",
+      "created_at": "2026-05-04T10:00:00-07:00",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 20,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-TERM",
+      "kind": "exhibit",
+      "title": "Exhibit I — recommendation, HR review and termination",
+      "path": "records/CA9-26-001/v1/TERM.md",
+      "actor_id": "H",
+      "created_at": "2026-05-04T10:00:00-07:00",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 6,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-MSJ",
+      "kind": "motion_summary_judgment",
+      "title": "Defendant motion for summary judgment",
+      "path": "records/CA9-26-001/v1/MSJ.md",
+      "actor_id": "DC",
+      "created_at": "2026-05-04T10:00:00-07:00",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 18,
+      "depends_on": [
+        "CA9-26-001-POL",
+        "CA9-26-001-REV",
+        "CA9-26-001-AUD",
+        "CA9-26-001-LOG",
+        "CA9-26-001-MDEP",
+        "CA9-26-001-SDEP",
+        "CA9-26-001-ADEP",
+        "CA9-26-001-HDEP",
+        "CA9-26-001-TERM"
+      ]
+    },
+    {
+      "id": "CA9-26-001-COMP",
+      "kind": "exhibit",
+      "title": "Plaintiff Exhibit 1 — internal complaint and HR correspondence",
+      "path": "records/CA9-26-001/v1/COMP.md",
+      "actor_id": "H",
+      "created_at": "2026-05-18T10:00:00-07:00",
+      "filed_at": "2026-05-18T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 5,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-WDEP",
+      "kind": "deposition",
+      "title": "Plaintiff Exhibit 2 — deposition of Tessa Lorne",
+      "path": "records/CA9-26-001/v1/WDEP.md",
+      "actor_id": "REP",
+      "created_at": "2026-05-18T10:00:00-07:00",
+      "filed_at": "2026-05-18T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 18,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-CDEP",
+      "kind": "deposition",
+      "title": "Plaintiff Exhibit 3 — deposition of Jules Bellford",
+      "path": "records/CA9-26-001/v1/CDEP.md",
+      "actor_id": "REP",
+      "created_at": "2026-05-18T10:00:00-07:00",
+      "filed_at": "2026-05-18T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 16,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-WARN",
+      "kind": "exhibit",
+      "title": "Plaintiff Exhibit 4 — comparator discipline",
+      "path": "records/CA9-26-001/v1/WARN.md",
+      "actor_id": "H",
+      "created_at": "2026-05-18T10:00:00-07:00",
+      "filed_at": "2026-05-18T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 4,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-EEOC",
+      "kind": "exhibit",
+      "title": "Plaintiff Exhibit 5 — EEOC charge and right-to-sue notice",
+      "path": "records/CA9-26-001/v1/EEOC.md",
+      "actor_id": "P",
+      "created_at": "2026-05-18T10:00:00-07:00",
+      "filed_at": "2026-05-18T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 3,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-OPP",
+      "kind": "opposition",
+      "title": "Plaintiff opposition to motion for summary judgment",
+      "path": "records/CA9-26-001/v1/OPP.md",
+      "actor_id": "PC",
+      "created_at": "2026-05-18T10:00:00-07:00",
+      "filed_at": "2026-05-18T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 20,
+      "depends_on": [
+        "CA9-26-001-MSJ",
+        "CA9-26-001-COMP",
+        "CA9-26-001-WDEP",
+        "CA9-26-001-CDEP",
+        "CA9-26-001-WARN",
+        "CA9-26-001-EEOC"
+      ]
+    },
+    {
+      "id": "CA9-26-001-REPL",
+      "kind": "reply_motion",
+      "title": "Defendant reply in support of summary judgment",
+      "path": "records/CA9-26-001/v1/REPL.md",
+      "actor_id": "DC",
+      "created_at": "2026-05-26T10:00:00-07:00",
+      "filed_at": "2026-05-26T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 10,
+      "depends_on": [
+        "CA9-26-001-OPP"
+      ]
+    },
+    {
+      "id": "CA9-26-001-HEAR",
+      "kind": "other_lower",
+      "title": "Transcript of oral argument on summary judgment motion",
+      "path": "records/CA9-26-001/v1/HEAR.md",
+      "actor_id": "REP",
+      "created_at": "2026-06-18T10:00:00-07:00",
+      "filed_at": "2026-06-18T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 12,
+      "depends_on": [
+        "CA9-26-001-MSJ",
+        "CA9-26-001-OPP",
+        "CA9-26-001-REPL"
+      ]
+    },
+    {
+      "id": "CA9-26-001-ORDER",
+      "kind": "trial_order",
+      "title": "Order granting defendant summary judgment",
+      "path": "records/CA9-26-001/v1/ORDER.md",
+      "actor_id": "R",
+      "created_at": "2026-08-21T10:00:00-07:00",
+      "filed_at": "2026-08-21T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 12,
+      "depends_on": [
+        "CA9-26-001-MSJ",
+        "CA9-26-001-OPP",
+        "CA9-26-001-REPL",
+        "CA9-26-001-HEAR"
+      ]
+    },
+    {
+      "id": "CA9-26-001-JUD",
+      "kind": "judgment",
+      "title": "Separate judgment",
+      "path": "records/CA9-26-001/v1/JUD.md",
+      "actor_id": "K",
+      "created_at": "2026-08-21T10:00:00-07:00",
+      "filed_at": "2026-08-21T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 1,
+      "depends_on": [
+        "CA9-26-001-ORDER"
+      ]
+    },
+    {
+      "id": "CA9-26-001-NOA",
+      "kind": "notice_appeal",
+      "title": "Notice of appeal",
+      "path": "records/CA9-26-001/v1/NOA.md",
+      "actor_id": "PC",
+      "created_at": "2026-09-03T10:00:00-07:00",
+      "filed_at": "2026-09-03T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 1,
+      "depends_on": [
+        "CA9-26-001-JUD"
+      ]
+    },
+    {
+      "id": "CA9-26-001-AD",
+      "kind": "appellate_docket",
+      "title": "Court of appeals docket",
+      "path": "records/CA9-26-001/v1/AD.md",
+      "actor_id": "AC",
+      "created_at": "2026-11-24T10:00:00-08:00",
+      "filed_at": "2026-11-24T10:00:00-08:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 2,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-BRORD",
+      "kind": "order_appeal",
+      "title": "Briefing schedule",
+      "path": "records/CA9-26-001/v1/BRORD.md",
+      "actor_id": "AC",
+      "created_at": "2026-09-09T10:00:00-07:00",
+      "filed_at": "2026-09-09T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 1,
+      "depends_on": [
+        "CA9-26-001-NOA"
+      ]
+    },
+    {
+      "id": "CA9-26-001-ER1",
+      "kind": "er_volume",
+      "title": "Excerpts of Record, volume 1",
+      "path": "records/CA9-26-001/v1/ER1.md",
+      "actor_id": "PC",
+      "created_at": "2026-10-16T10:00:00-07:00",
+      "filed_at": "2026-10-16T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 50,
+      "depends_on": [],
+      "volume": 1
+    },
+    {
+      "id": "CA9-26-001-ER2",
+      "kind": "er_volume",
+      "title": "Excerpts of Record, volume 2",
+      "path": "records/CA9-26-001/v1/ER2.md",
+      "actor_id": "PC",
+      "created_at": "2026-10-16T10:00:00-07:00",
+      "filed_at": "2026-10-16T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 140,
+      "depends_on": [],
+      "volume": 2
+    },
+    {
+      "id": "CA9-26-001-IDX",
+      "kind": "er_index",
+      "title": "Index of Excerpts of Record",
+      "path": "records/CA9-26-001/v1/IDX.md",
+      "actor_id": "PC",
+      "created_at": "2026-10-16T10:00:00-07:00",
+      "filed_at": "2026-10-16T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 8,
+      "depends_on": []
+    },
+    {
+      "id": "CA9-26-001-OPEN",
+      "kind": "opening_brief",
+      "title": "Appellant's opening brief",
+      "path": "records/CA9-26-001/v1/OPEN.md",
+      "actor_id": "PC",
+      "created_at": "2026-10-16T10:00:00-07:00",
+      "filed_at": "2026-10-16T10:00:00-07:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 30,
+      "depends_on": [
+        "CA9-26-001-ORDER",
+        "CA9-26-001-JUD",
+        "CA9-26-001-NOA",
+        "CA9-26-001-BRORD",
+        "CA9-26-001-ER1",
+        "CA9-26-001-ER2",
+        "CA9-26-001-IDX"
+      ]
+    },
+    {
+      "id": "CA9-26-001-ANSWER",
+      "kind": "answering_brief",
+      "title": "Appellee's answering brief",
+      "path": "records/CA9-26-001/v1/ANSWER.md",
+      "actor_id": "DC",
+      "created_at": "2026-11-12T10:00:00-08:00",
+      "filed_at": "2026-11-12T10:00:00-08:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 30,
+      "depends_on": [
+        "CA9-26-001-OPEN"
+      ]
+    },
+    {
+      "id": "CA9-26-001-REPLY",
+      "kind": "reply_brief",
+      "title": "Appellant's reply brief",
+      "path": "records/CA9-26-001/v1/REPLY.md",
+      "actor_id": "PC",
+      "created_at": "2026-11-24T10:00:00-08:00",
+      "filed_at": "2026-11-24T10:00:00-08:00",
+      "access": "judge",
+      "status": "filed",
+      "pages": 14,
+      "depends_on": [
+        "CA9-26-001-ANSWER"
+      ]
+    }
+  ],
+  "docket": [
+    {
+      "id": "DK-D-1",
+      "document_id": "CA9-26-001-COM",
+      "court": "district",
+      "filed_at": "2025-02-03T10:00:00-08:00",
+      "docket_page": 1,
+      "entry_text": "1. 2025-02-03 — Complaint for damages and equitable relief."
+    },
+    {
+      "id": "DK-D-2",
+      "document_id": "CA9-26-001-ANS",
+      "court": "district",
+      "filed_at": "2025-02-24T10:00:00-08:00",
+      "docket_page": 1,
+      "entry_text": "2. 2025-02-24 — Answer and affirmative defenses."
+    },
+    {
+      "id": "DK-D-3",
+      "document_id": "CA9-26-001-SCHED",
+      "court": "district",
+      "filed_at": "2025-04-03T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "3. 2025-04-03 — Scheduling and case management order."
+    },
+    {
+      "id": "DK-D-4",
+      "document_id": "CA9-26-001-POL",
+      "court": "district",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "4. 2026-05-04 — Exhibit A — controlled release policy and revision history."
+    },
+    {
+      "id": "DK-D-5",
+      "document_id": "CA9-26-001-REV",
+      "court": "district",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "5. 2026-05-04 — Exhibit B — personnel review and prior discipline."
+    },
+    {
+      "id": "DK-D-6",
+      "document_id": "CA9-26-001-AUD",
+      "court": "district",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "6. 2026-05-04 — Exhibit C — audit correspondence and change log."
+    },
+    {
+      "id": "DK-D-7",
+      "document_id": "CA9-26-001-LOG",
+      "court": "district",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "7. 2026-05-04 — Exhibit D — dispatch system and exception records."
+    },
+    {
+      "id": "DK-D-8",
+      "document_id": "CA9-26-001-MDEP",
+      "court": "district",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "8. 2026-05-04 — Exhibit E — deposition of Elena Maren."
+    },
+    {
+      "id": "DK-D-9",
+      "document_id": "CA9-26-001-SDEP",
+      "court": "district",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "9. 2026-05-04 — Exhibit F — deposition of Gavin Holtwell."
+    },
+    {
+      "id": "DK-D-10",
+      "document_id": "CA9-26-001-ADEP",
+      "court": "district",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "10. 2026-05-04 — Exhibit G — deposition of Derek Fenmore."
+    },
+    {
+      "id": "DK-D-11",
+      "document_id": "CA9-26-001-HDEP",
+      "court": "district",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "11. 2026-05-04 — Exhibit H — deposition of Nadia Bracken."
+    },
+    {
+      "id": "DK-D-12",
+      "document_id": "CA9-26-001-TERM",
+      "court": "district",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "12. 2026-05-04 — Exhibit I — recommendation, HR review and termination."
+    },
+    {
+      "id": "DK-D-13",
+      "document_id": "CA9-26-001-MSJ",
+      "court": "district",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "13. 2026-05-04 — Defendant motion for summary judgment."
+    },
+    {
+      "id": "DK-D-14",
+      "document_id": "CA9-26-001-COMP",
+      "court": "district",
+      "filed_at": "2026-05-18T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "14. 2026-05-18 — Plaintiff Exhibit 1 — internal complaint and HR correspondence."
+    },
+    {
+      "id": "DK-D-15",
+      "document_id": "CA9-26-001-WDEP",
+      "court": "district",
+      "filed_at": "2026-05-18T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "15. 2026-05-18 — Plaintiff Exhibit 2 — deposition of Tessa Lorne."
+    },
+    {
+      "id": "DK-D-16",
+      "document_id": "CA9-26-001-CDEP",
+      "court": "district",
+      "filed_at": "2026-05-18T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "16. 2026-05-18 — Plaintiff Exhibit 3 — deposition of Jules Bellford."
+    },
+    {
+      "id": "DK-D-17",
+      "document_id": "CA9-26-001-WARN",
+      "court": "district",
+      "filed_at": "2026-05-18T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "17. 2026-05-18 — Plaintiff Exhibit 4 — comparator discipline."
+    },
+    {
+      "id": "DK-D-18",
+      "document_id": "CA9-26-001-EEOC",
+      "court": "district",
+      "filed_at": "2026-05-18T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "18. 2026-05-18 — Plaintiff Exhibit 5 — EEOC charge and right-to-sue notice."
+    },
+    {
+      "id": "DK-D-19",
+      "document_id": "CA9-26-001-OPP",
+      "court": "district",
+      "filed_at": "2026-05-18T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "19. 2026-05-18 — Plaintiff opposition to motion for summary judgment."
+    },
+    {
+      "id": "DK-D-20",
+      "document_id": "CA9-26-001-REPL",
+      "court": "district",
+      "filed_at": "2026-05-26T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "20. 2026-05-26 — Defendant reply in support of summary judgment."
+    },
+    {
+      "id": "DK-D-21",
+      "document_id": "CA9-26-001-HEAR",
+      "court": "district",
+      "filed_at": "2026-06-18T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "21. 2026-06-18 — Transcript of oral argument on summary judgment motion."
+    },
+    {
+      "id": "DK-D-22",
+      "document_id": "CA9-26-001-ORDER",
+      "court": "district",
+      "filed_at": "2026-08-21T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "22. 2026-08-21 — Order granting defendant summary judgment."
+    },
+    {
+      "id": "DK-D-23",
+      "document_id": "CA9-26-001-JUD",
+      "court": "district",
+      "filed_at": "2026-08-21T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "23. 2026-08-21 — Separate judgment."
+    },
+    {
+      "id": "DK-D-24",
+      "document_id": "CA9-26-001-NOA",
+      "court": "district",
+      "filed_at": "2026-09-03T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "24. 2026-09-03 — Notice of appeal."
+    },
+    {
+      "id": "DK-A-1",
+      "document_id": "CA9-26-001-BRORD",
+      "court": "appeals",
+      "filed_at": "2026-09-09T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "1. 2026-09-09 — Briefing schedule."
+    },
+    {
+      "id": "DK-A-2",
+      "document_id": "CA9-26-001-ER1",
+      "court": "appeals",
+      "filed_at": "2026-10-16T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "2. 2026-10-16 — Excerpts of Record, volume 1."
+    },
+    {
+      "id": "DK-A-3",
+      "document_id": "CA9-26-001-ER2",
+      "court": "appeals",
+      "filed_at": "2026-10-16T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "3. 2026-10-16 — Excerpts of Record, volume 2."
+    },
+    {
+      "id": "DK-A-4",
+      "document_id": "CA9-26-001-IDX",
+      "court": "appeals",
+      "filed_at": "2026-10-16T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "4. 2026-10-16 — Index of Excerpts of Record."
+    },
+    {
+      "id": "DK-A-5",
+      "document_id": "CA9-26-001-OPEN",
+      "court": "appeals",
+      "filed_at": "2026-10-16T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "5. 2026-10-16 — Appellant's opening brief."
+    },
+    {
+      "id": "DK-A-6",
+      "document_id": "CA9-26-001-ANSWER",
+      "court": "appeals",
+      "filed_at": "2026-11-12T10:00:00-08:00",
+      "docket_page": 1,
+      "entry_text": "6. 2026-11-12 — Appellee's answering brief."
+    },
+    {
+      "id": "DK-A-7",
+      "document_id": "CA9-26-001-REPLY",
+      "court": "appeals",
+      "filed_at": "2026-11-24T10:00:00-08:00",
+      "docket_page": 1,
+      "entry_text": "7. 2026-11-24 — Appellant's reply brief."
+    }
+  ],
+  "assertions": [
+    {
+      "id": "A-1",
+      "document_id": "CA9-26-001-POL",
+      "page": 3,
+      "fact_id": "F02",
+      "quote": "A shift lead may authorize an urgent release orally",
+      "speaker_id": "I",
+      "mode": "finding",
+      "asserted_value": "documented approval; oral approval allowed for qualifying urgent loads; record before shift end",
+      "unit": "text"
+    },
+    {
+      "id": "A-2",
+      "document_id": "CA9-26-001-REV",
+      "page": 1,
+      "fact_id": "F03",
+      "quote": "Overall rating: meets expectations.",
+      "speaker_id": "S",
+      "mode": "canonical",
+      "asserted_value": "meets expectations",
+      "unit": "text"
+    },
+    {
+      "id": "A-3",
+      "document_id": "CA9-26-001-REV",
+      "page": 4,
+      "fact_id": "F01",
+      "quote": "start date August 16, 2021",
+      "speaker_id": "H",
+      "mode": "canonical",
+      "asserted_value": "2021-08-16",
+      "unit": "date"
+    },
+    {
+      "id": "A-4",
+      "document_id": "CA9-26-001-AUD",
+      "page": 1,
+      "fact_id": "F07",
+      "quote": "pull the last fourteen days for all six coordinators",
+      "speaker_id": "S",
+      "mode": "canonical",
+      "asserted_value": "six coordinators; fourteen-day window",
+      "unit": "text"
+    },
+    {
+      "id": "A-5",
+      "document_id": "CA9-26-001-AUD",
+      "page": 2,
+      "fact_id": "F06",
+      "quote": "The customer consignment AQ-4470 is included in Bellford's four flags.",
+      "speaker_id": "A",
+      "mode": "canonical",
+      "asserted_value": "AQ-4470",
+      "unit": "id"
+    },
+    {
+      "id": "A-6",
+      "document_id": "CA9-26-001-AUD",
+      "page": 3,
+      "fact_id": "F11",
+      "quote": "extend Maren's query to sixty days",
+      "speaker_id": "S",
+      "mode": "canonical",
+      "asserted_value": "60",
+      "unit": "days"
+    },
+    {
+      "id": "A-7",
+      "document_id": "CA9-26-001-AUD",
+      "page": 4,
+      "fact_id": "F12",
+      "quote": "identifies twelve preliminary flags",
+      "speaker_id": "A",
+      "mode": "canonical",
+      "asserted_value": "12",
+      "unit": "flags"
+    },
+    {
+      "id": "A-8",
+      "document_id": "CA9-26-001-AUD",
+      "page": 5,
+      "fact_id": "F13",
+      "quote": "Eight of the twelve flags are resolved",
+      "speaker_id": "A",
+      "mode": "canonical",
+      "asserted_value": "8",
+      "unit": "flags"
+    },
+    {
+      "id": "A-9",
+      "document_id": "CA9-26-001-AUD",
+      "page": 5,
+      "fact_id": "F14",
+      "quote": "Four remain open.",
+      "speaker_id": "A",
+      "mode": "canonical",
+      "asserted_value": "4",
+      "unit": "flags"
+    },
+    {
+      "id": "A-10",
+      "document_id": "CA9-26-001-AUD",
+      "page": 5,
+      "fact_id": "F15",
+      "quote": "two (AQ-4182 and AQ-4311) have disputed authorization",
+      "speaker_id": "A",
+      "mode": "canonical",
+      "asserted_value": "2",
+      "unit": "flags"
+    },
+    {
+      "id": "A-11",
+      "document_id": "CA9-26-001-COMP",
+      "page": 1,
+      "fact_id": "F08",
+      "quote": "Date: April 8, 2024",
+      "speaker_id": "P",
+      "mode": "canonical",
+      "asserted_value": "2024-04-08",
+      "unit": "date"
+    },
+    {
+      "id": "A-12",
+      "document_id": "CA9-26-001-COMP",
+      "page": 1,
+      "fact_id": "F09",
+      "quote": "I believe the assignments may be based on sex",
+      "speaker_id": "P",
+      "mode": "canonical",
+      "asserted_value": "sex-based allocation of lead shifts",
+      "unit": "text"
+    },
+    {
+      "id": "A-13",
+      "document_id": "CA9-26-001-COMP",
+      "page": 3,
+      "fact_id": "F10",
+      "quote": "Bracken informed Holtwell that Maren had complained",
+      "speaker_id": "H",
+      "mode": "canonical",
+      "asserted_value": "2024-04-09",
+      "unit": "date"
+    },
+    {
+      "id": "A-14",
+      "document_id": "CA9-26-001-WARN",
+      "page": 1,
+      "fact_id": "F16",
+      "quote": "Action: written warning.",
+      "speaker_id": "H",
+      "mode": "canonical",
+      "asserted_value": "written warning",
+      "unit": "text"
+    },
+    {
+      "id": "A-15",
+      "document_id": "CA9-26-001-TERM",
+      "page": 6,
+      "fact_id": "F17",
+      "quote": "NOTICE OF TERMINATION — May 17, 2024",
+      "speaker_id": "H",
+      "mode": "canonical",
+      "asserted_value": "2024-05-17",
+      "unit": "date"
+    },
+    {
+      "id": "A-16",
+      "document_id": "CA9-26-001-EEOC",
+      "page": 1,
+      "fact_id": "F18",
+      "quote": "Filed July 12, 2024.",
+      "speaker_id": "P",
+      "mode": "canonical",
+      "asserted_value": "2024-07-12",
+      "unit": "date"
+    },
+    {
+      "id": "A-17",
+      "document_id": "CA9-26-001-EEOC",
+      "page": 3,
+      "fact_id": "F19",
+      "quote": "I received the notice of right to sue on December 16, 2024.",
+      "speaker_id": "P",
+      "mode": "canonical",
+      "asserted_value": "2024-12-16",
+      "unit": "date"
+    },
+    {
+      "id": "A-18",
+      "document_id": "CA9-26-001-JUD",
+      "page": 1,
+      "fact_id": "F21",
+      "quote": "Entered August 21, 2026.",
+      "speaker_id": "K",
+      "mode": "canonical",
+      "asserted_value": "2026-08-21",
+      "unit": "date"
+    },
+    {
+      "id": "A-19",
+      "document_id": "CA9-26-001-NOA",
+      "page": 1,
+      "fact_id": "F22",
+      "quote": "September 3, 2026.",
+      "speaker_id": "P",
+      "mode": "allegation",
+      "asserted_value": "2026-09-03",
+      "unit": "date"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV-1",
+      "document_id": "CA9-26-001-POL",
+      "event_id": "T02",
+      "custodian_id": "I",
+      "fact_ids": [
+        "F02"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional original reproduced from the identified custodian's retained records; authentication and inferences to be reviewed.",
+      "page": 3,
+      "quote": "A shift lead may authorize an urgent release orally"
+    },
+    {
+      "id": "EV-2",
+      "document_id": "CA9-26-001-REV",
+      "event_id": "T03",
+      "custodian_id": "H",
+      "fact_ids": [
+        "F03"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional original reproduced from the identified custodian's retained records; authentication and inferences to be reviewed.",
+      "page": 1,
+      "quote": "Overall rating: meets expectations."
+    },
+    {
+      "id": "EV-3",
+      "document_id": "CA9-26-001-AUD",
+      "event_id": "T07",
+      "custodian_id": "A",
+      "fact_ids": [
+        "F07",
+        "F06",
+        "F11",
+        "F12",
+        "F13",
+        "F14",
+        "F15"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional original reproduced from the identified custodian's retained records; authentication and inferences to be reviewed.",
+      "page": 1,
+      "quote": "pull the last fourteen days for all six coordinators"
+    },
+    {
+      "id": "EV-4",
+      "document_id": "CA9-26-001-COMP",
+      "event_id": "T09",
+      "custodian_id": "H",
+      "fact_ids": [
+        "F08",
+        "F09",
+        "F10"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional original reproduced from the identified custodian's retained records; authentication and inferences to be reviewed.",
+      "page": 1,
+      "quote": "I believe the assignments may be based on sex"
+    },
+    {
+      "id": "EV-5",
+      "document_id": "CA9-26-001-WARN",
+      "event_id": "T16",
+      "custodian_id": "H",
+      "fact_ids": [
+        "F16"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional original reproduced from the identified custodian's retained records; authentication and inferences to be reviewed.",
+      "page": 1,
+      "quote": "Action: written warning."
+    },
+    {
+      "id": "EV-6",
+      "document_id": "CA9-26-001-TERM",
+      "event_id": "T18",
+      "custodian_id": "H",
+      "fact_ids": [
+        "F17"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional original reproduced from the identified custodian's retained records; authentication and inferences to be reviewed.",
+      "page": 6,
+      "quote": "NOTICE OF TERMINATION — May 17, 2024"
+    },
+    {
+      "id": "EV-7",
+      "document_id": "CA9-26-001-EEOC",
+      "event_id": "T19",
+      "custodian_id": "P",
+      "fact_ids": [
+        "F18",
+        "F19"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional original reproduced from the identified custodian's retained records; authentication and inferences to be reviewed.",
+      "page": 1,
+      "quote": "Filed July 12, 2024."
+    }
+  ],
+  "excerpts": [],
+  "authorities": [],
+  "arguments": [],
+  "legal_uses": [],
+  "timeliness_review": {
+    "reviewed": true,
+    "basis": "Private parties; August 21 separate final judgment, September 3 notice (13 days); FRAP 4(a)(1)(A), no postjudgment tolling motion planned. Verify actual docket on completion. EEOC receipt Dec 16 2024 to complaint Feb 3 2025 (49 days)."
+  },
+  "reviews": [],
+  "unresolved_blockers": [
+    "Remaining lower court records and depositions not yet authored",
+    "Actual excerpts and briefs not yet authored",
+    "Authority source and subsequent treatment review pending",
+    "Final cross-review and word/page counts pending"
+  ],
+  "research": {
+    "schema_version": 1,
+    "cutoff": "2026-11-27",
+    "authority_reviews": [],
+    "document_audits": [],
+    "issue_searches": []
+  }
+}

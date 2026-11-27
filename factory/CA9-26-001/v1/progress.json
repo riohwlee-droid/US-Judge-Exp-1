@@ -1,0 +1,98 @@
+{
+  "case_id": "CA9-26-001",
+  "status": "draft_not_admissible",
+  "authored_documents": [
+    {
+      "id": "CA9-26-001-COM",
+      "path": "records/CA9-26-001/v1/COM.md",
+      "pages": 6,
+      "words": 880
+    },
+    {
+      "id": "CA9-26-001-ANS",
+      "path": "records/CA9-26-001/v1/ANS.md",
+      "pages": 5,
+      "words": 702
+    },
+    {
+      "id": "CA9-26-001-SCHED",
+      "path": "records/CA9-26-001/v1/SCHED.md",
+      "pages": 3,
+      "words": 390
+    },
+    {
+      "id": "CA9-26-001-POL",
+      "path": "records/CA9-26-001/v1/POL.md",
+      "pages": 5,
+      "words": 651
+    },
+    {
+      "id": "CA9-26-001-REV",
+      "path": "records/CA9-26-001/v1/REV.md",
+      "pages": 4,
+      "words": 494
+    },
+    {
+      "id": "CA9-26-001-AUD",
+      "path": "records/CA9-26-001/v1/AUD.md",
+      "pages": 6,
+      "words": 756
+    },
+    {
+      "id": "CA9-26-001-TERM",
+      "path": "records/CA9-26-001/v1/TERM.md",
+      "pages": 6,
+      "words": 816
+    },
+    {
+      "id": "CA9-26-001-COMP",
+      "path": "records/CA9-26-001/v1/COMP.md",
+      "pages": 5,
+      "words": 658
+    },
+    {
+      "id": "CA9-26-001-WARN",
+      "path": "records/CA9-26-001/v1/WARN.md",
+      "pages": 4,
+      "words": 485
+    },
+    {
+      "id": "CA9-26-001-EEOC",
+      "path": "records/CA9-26-001/v1/EEOC.md",
+      "pages": 3,
+      "words": 371
+    },
+    {
+      "id": "CA9-26-001-JUD",
+      "path": "records/CA9-26-001/v1/JUD.md",
+      "pages": 1,
+      "words": 113
+    },
+    {
+      "id": "CA9-26-001-NOA",
+      "path": "records/CA9-26-001/v1/NOA.md",
+      "pages": 1,
+      "words": 120
+    },
+    {
+      "id": "CA9-26-001-BRORD",
+      "path": "records/CA9-26-001/v1/BRORD.md",
+      "pages": 1,
+      "words": 130
+    }
+  ],
+  "planned_documents": 33,
+  "legal_lookup": {
+    "status": "six citations verified for identity; treatment and full original pin review pending",
+    "job_id": "116ddacb",
+    "authorities": [
+      "570 U.S. 338",
+      "548 U.S. 53",
+      "572 U.S. 650",
+      "107 F.4th 1054",
+      "530 U.S. 133",
+      "411 U.S. 792"
+    ]
+  },
+  "next_batch": "Complete lower record, depositions, motions/order, exact docket, excerpts, briefs, research packet and final review."
+}
