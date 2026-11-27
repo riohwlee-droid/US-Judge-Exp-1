@@ -14,6 +14,8 @@
 
 ## 진행
 
+- 새 CA9 본안 사건은 courts/ca9/CASE_FACTORY.md 및 templates/factory-blueprint.json을 따른다. 단계별 원문 제작, 실제 법률 출처와 인용 검토, 양측 논증, seal-request, release 검증과 ca9.factory_admit를 거치기 전 배당 금지. 생산용 기록을 요약이나 복제 쪽수로 대체하지 않는다. 세계 진실과 제출 증거를 구분하고 정답을 사전 지정하지 않는다.
+
 - CA9 인물·조직은 courts/ca9/ORGANIZATION.md와 roster-v1.json에 고정된다. 준비 명단을 공식 부임으로 표현하지 않는다. 설치 후 독립 NPC 사전 의견을 현재 panel epoch별로 기록하고, 상대 판사의 수정 요청·입장 변경은 실제 원문과 이벤트로 보존한다. 과거 판결을 지어내지 않는다. 
 
 - 실제 법원·관할·직무를 조사하기 전 부임/사건 배당을 하지 않는다. research_required는 선택 후보일 뿐 플레이 준비 완료가 아니다.

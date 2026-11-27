@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "case_id": "REPLACE",
+  "version": "v1",
+  "purpose": "production",
+  "fictional": true,
+  "court_id": "CA9",
+  "track": "civil_summary_judgment",
+  "appeal_shape": "single_represented_appeal",
+  "title": "REPLACE",
+  "origin_district": "NDCA",
+  "calendar_location": "SF",
+  "jurisdiction_basis": "REVIEW",
+  "legal_cutoff": "YYYY-MM-DD",
+  "record_as_of": "ISO timestamp with offset",
+  "actors": [],
+  "timeline": [],
+  "facts": [],
+  "issues": [],
+  "documents": [],
+  "docket": [],
+  "assertions": [],
+  "evidence": [],
+  "excerpts": [],
+  "authorities": [],
+  "arguments": [],
+  "timeliness_review": {
+    "reviewed": false,
+    "basis": ""
+  },
+  "reviews": [],
+  "unresolved_blockers": [
+    "draft"
+  ]
+}

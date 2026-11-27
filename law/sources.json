@@ -223,6 +223,39 @@
         "exact current staffing and full organization chart",
         "PDF screenshot unavailable due to size"
       ]
+    },
+    {
+      "id": "SRC-CA9-ER",
+      "url": "https://www.ca9.uscourts.gov/filing/excerpts/",
+      "scope": "lower record and excerpts",
+      "checked_on": "2026-11-27",
+      "review_depth": "court_specific",
+      "not_verified": [
+        "case-specific exceptions",
+        "effective rules at future case date"
+      ]
+    },
+    {
+      "id": "SRC-CA9-ER-CITE",
+      "url": "https://www.ca9.uscourts.gov/filing/excerpts/citing-excerpts/",
+      "scope": "ER/SER/FER citation format",
+      "checked_on": "2026-11-27",
+      "review_depth": "court_specific",
+      "not_verified": [
+        "case-specific exceptions",
+        "effective rules at future case date"
+      ]
+    },
+    {
+      "id": "SRC-CA9-BRIEFS",
+      "url": "https://www.ca9.uscourts.gov/filing/briefs/",
+      "scope": "opening and answering 14,000; reply 7,000 words",
+      "checked_on": "2026-11-27",
+      "review_depth": "court_specific",
+      "not_verified": [
+        "case-specific exceptions",
+        "effective rules at future case date"
+      ]
     }
   ]
 }

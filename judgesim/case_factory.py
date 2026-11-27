@@ -167,6 +167,7 @@ def compile_package(root, blueprint_path, stage="review", training=False):
         need(nonblank(ref["quote"]) and norm(ref["quote"]) in norm(pmap[d["id"]][n]),"anchor text not on cited page "+d["id"])
         return d
     assertions=table(b["assertions"],"assertions")
+    need(assertions,"fact assertion ledger empty")
     for a in assertions.values():
         d=docs[a["document_id"]]
         if d["id"] not in pmap:continue
@@ -243,10 +244,14 @@ def compile_package(root, blueprint_path, stage="review", training=False):
         required={"table_of_contents","table_of_authorities","argument","conclusion","certificate"}
         if d["kind"]=="opening_brief":required|={"jurisdiction","issues","statement_of_case","summary","standard_of_review"}
         need(required<=set(d["sections"]),"missing brief sections "+d["id"])
+        need(any(a["document_id"]==d["id"] for a in assertions.values()),"brief lacks factual assertion annotations")
+        for section, locator in d["sections"].items():
+            need(type(locator["page"]) is int and locator["page"] in pmap[d["id"]] and nonblank(locator["heading"]) and locator["heading"] in pmap[d["id"]][locator["page"]],"brief section locator missing: "+section)
         whole="\n".join(pmap[d["id"]].values())
         limit=7000 if d["kind"]=="reply_brief" else 14000
         need(type(d["body_words_reviewed"]) is int and 0<d["body_words_reviewed"]<=counts[d["id"]],"invalid reviewed body words")
         need(d["body_words_reviewed"]<=limit or nonblank(d.get("length_order_basis")),"brief exceeds ordinary word limit")
+        if d.get("length_order_basis"):need(d.get("length_order_document_id") in docs and docs[d["length_order_document_id"]]["kind"]=="order_appeal","length exception needs filed order")
         visible=set(ER.findall(whole))
         annotated=set()
         for a in assertions.values():

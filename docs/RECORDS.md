@@ -19,7 +19,7 @@
 | world_only/unfiled | 세계에는 있으나 재판부에 제출되지 않은 자료 |
 | npc_private/internal | 인물의 사적 정보·작업 자료 |
 
-판사의 접근 권한이 있더라도 공개 문서라는 의미는 아니다. 봉인·보호명령·변호사 비밀 등은 별도 필드와 법원별 검토를 추가한다. 한 private 저장소에 저장하므로 사용자·모델에 대한 기술적 비밀 장벽은 없다. 운영상 누출 방지이며 독립 비밀 GM 서버가 아니다.
+판사의 접근 권한이 있더라도 공개 문서라는 의미는 아니다. 봉인·보호명령·변호사 비밀 등은 별도 필드와 법원별 검토를 추가한다. 현재 공개 저장소에 저장하므로 사용자·모델에 대한 기술적 비밀 장벽은 없다. 운영상 누출 방지이며 독립 비밀 GM 서버가 아니다.
 
 ## 제작 순서
 
@@ -36,3 +36,6 @@
 ## 정정
 
 원문 파일을 덮어쓰지 않는다. 새 ID·경로·버전으로 등록하고 supersedes에 기존 ID를 적는다. 정정 제출의 원인과 시점을 기록한다. 과거 원문과 인용을 보존한다. 오류 정정으로도 이미 내려진 판결이 조용히 소급 변경되지는 않는다.
+
+## CA9 production factory
+See courts/ca9/CASE_FACTORY.md. The release compiler, mandatory 200-page/24,000-word floor, staged checks, sealed manifest and ca9.factory_admit request are required for new production cases. Prior training fixtures remain isolated.

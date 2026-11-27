@@ -206,7 +206,9 @@
       "ordinary_panel_only": false,
       "organization_path": "courts/ca9/ORGANIZATION.md",
       "roster_path": "courts/ca9/roster-v1.json",
-      "roster_status": "prepared_not_installed"
+      "roster_status": "prepared_not_installed",
+      "factory_path": "courts/ca9/CASE_FACTORY.md",
+      "factory_status": "compiler_v1_no_live_release"
     },
     "CA10": {
       "id": "CA10",

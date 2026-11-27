@@ -1,0 +1,174 @@
+{
+  "note": "Field shapes only, not a case or legal authority. Replace every value with reviewed actual content.",
+  "actor": {
+    "id": "P1",
+    "fictional": true,
+    "name": "Fictional name",
+    "role": "party"
+  },
+  "timeline": {
+    "id": "T1",
+    "at": "2026-01-01T09:00:00-08:00",
+    "description": "Event description",
+    "actor_ids": [
+      "P1"
+    ]
+  },
+  "fact": {
+    "id": "F1",
+    "subject_id": "P1",
+    "event_id": "T1",
+    "field": "invoice_amount",
+    "value": "1000.00",
+    "unit": "USD",
+    "visibility": "record_possible",
+    "known_by": [
+      "P1"
+    ]
+  },
+  "issue": {
+    "id": "I1",
+    "question": "Legal question",
+    "standard_of_review": "verified standard",
+    "preservation_status": "reviewed",
+    "ruling_document_id": "D1",
+    "ruling_page": 1,
+    "ruling_quote": "exact quote",
+    "preservation_document_id": "D2",
+    "preservation_page": 1,
+    "preservation_quote": "exact quote",
+    "appellant_theory": "argument",
+    "appellee_theory": "counterargument",
+    "appellant_relief": "requested relief",
+    "appellee_relief": "requested relief"
+  },
+  "document": {
+    "id": "D1",
+    "kind": "trial_order",
+    "title": "Full title",
+    "path": "records/CASE/v1/D1.md",
+    "actor_id": "P1",
+    "created_at": "2026-02-01T09:00:00-08:00",
+    "filed_at": "2026-02-01T09:00:00-08:00",
+    "access": "judge",
+    "status": "filed",
+    "pages": 1,
+    "depends_on": []
+  },
+  "docket": {
+    "id": "DK1",
+    "document_id": "D1",
+    "court": "district",
+    "filed_at": "2026-02-01T09:00:00-08:00",
+    "docket_page": 1,
+    "entry_text": "exact docket text"
+  },
+  "assertion": {
+    "id": "A1",
+    "document_id": "D1",
+    "page": 1,
+    "quote": "actual page text",
+    "fact_id": "F1",
+    "speaker_id": "P1",
+    "asserted_value": "1000.00",
+    "unit": "USD",
+    "mode": "finding",
+    "dispute_basis": "required if differing from canonical value",
+    "record_cites": [
+      {
+        "cite": "1-ER-1",
+        "quote": "exact source text"
+      }
+    ]
+  },
+  "evidence": {
+    "id": "E1",
+    "document_id": "D3",
+    "event_id": "T1",
+    "custodian_id": "P1",
+    "fact_ids": [
+      "F1"
+    ],
+    "record_status": "filed",
+    "admission_status": "admitted",
+    "provenance": "verified chain",
+    "page": 1,
+    "quote": "exact text"
+  },
+  "excerpt": {
+    "excerpt_document_id": "ER1",
+    "excerpt_page": 1,
+    "volume": 1,
+    "source_document_id": "D1",
+    "source_page": 1
+  },
+  "authority": {
+    "id": "AUTH1",
+    "origin": "real",
+    "authority_type": "case",
+    "citation": "verified citation",
+    "url": "https://www.govinfo.gov/",
+    "court": "verified court",
+    "decided_at": "YYYY-MM-DD",
+    "verified_at": "YYYY-MM-DD",
+    "source_path": "factory/CASE/v1/law/AUTH1.txt",
+    "source_sha256": "actual SHA256",
+    "source_reviewed": false,
+    "source_review_note": "scope and source type",
+    "subsequent_treatment": {
+      "status": "not_checked",
+      "scope": "",
+      "checked_at": "",
+      "method": ""
+    },
+    "pins": [
+      {
+        "id": "P1",
+        "locator": "actual reporter page or section",
+        "quote": "verbatim source text",
+        "proposition": "reviewed proposition"
+      }
+    ]
+  },
+  "argument": {
+    "id": "ARG1",
+    "document_id": "B1",
+    "page": 1,
+    "quote": "exact argument text",
+    "issue_id": "I1",
+    "side": "appellant",
+    "record_cites": [
+      {
+        "cite": "1-ER-1",
+        "quote": "exact source text"
+      }
+    ],
+    "authorities": [
+      {
+        "authority_id": "AUTH1",
+        "pin_id": "P1",
+        "use": "support",
+        "analysis": "why authority applies"
+      }
+    ]
+  },
+  "review": {
+    "id": "chronology",
+    "status": "pending",
+    "reviewer": "review role",
+    "basis": "actual findings",
+    "checked_at": "YYYY-MM-DD"
+  },
+  "brief_extra": {
+    "sections": {
+      "argument": {
+        "page": 1,
+        "heading": "Argument"
+      }
+    },
+    "body_words_reviewed": 1
+  },
+  "excerpt_extra": {
+    "volume": 1
+  }
+}

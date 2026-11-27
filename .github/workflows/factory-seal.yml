@@ -23,7 +23,7 @@ jobs:
       - run: python3 scripts/seal_factory.py
       - name: Publish releases
         run: |
-          git add -- 'factory/**/release.json'
+          git add -A -- factory
           if ! git diff --cached --quiet; then
             git -c user.name='judge-save[bot]' -c user.email='judge-save-bot@users.noreply.github.com' commit -m 'Seal reviewed CA9 case package'
             git push origin HEAD:main
