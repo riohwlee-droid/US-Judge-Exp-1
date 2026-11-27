@@ -212,6 +212,9 @@ def apply_batch(state, events, profiles, allow_training=False):
                 obj.update(hearings={}, writing_status="not_started", status="pending")
                 if obj["court_id"] == "CA9":
                     require(allow_training or campaign.get("organization"),"install CA9 organization before registering cases")
+                    if not allow_training:
+                        release=obj.get("factory_release",{})
+                        require(release.get("path") and re.fullmatch(r"[a-f0-9]{64}",release.get("digest","")),"validated factory release required")
                     life.init_case(obj, require)
                 result["cases"][obj["id"]] = obj
             elif kind == "document.register":

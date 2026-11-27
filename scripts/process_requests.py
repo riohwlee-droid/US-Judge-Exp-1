@@ -8,6 +8,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from judgesim.engine import Invalid, apply_batch, require, identifier, digest
+from judgesim.case_factory import check_release,canonical
 from judgesim.storage import read_json, write_json, verify, profiles, safe, sha, write_checkpoint
 
 
@@ -32,6 +33,19 @@ def process(root):
                     packet["base_revision"] == state["revision"], "stale base: reload CURRENT and rebase events")
             require(isinstance(packet["events"], list) and packet["events"], "empty or invalid event batch")
             events = deepcopy(packet["events"])
+            expanded=[]
+            for event in events:
+                if event["type"]=="ca9.factory_admit":
+                    p=event["payload"];r=check_release(root,p["release_path"])
+                    require(p.get("conflict_review_completed") is True,"admission conflict review required")
+                    require(p.get("release_digest") in {"server_computed",canonical(r)},"release digest mismatch")
+                    require(r["legal_cutoff"]==state["campaign"]["legal_cutoff"] or any(e["type"]=="campaign.configure" and e["payload"]["legal_cutoff"]==r["legal_cutoff"] for e in events),"factory cutoff mismatch")
+                    case=dict(r["case_fields"],id=r["case_id"],fictional=True,record_status="complete",initial_document_ids=[d["id"] for d in r["documents"]],assigned_judges=[],panel_kind="ordinary_merits",conflict_review_completed=True,factory_release={"path":p["release_path"],"digest":canonical(r)})
+                    expanded.append({"id":event["id"],"type":"case.register","payload":{"case":case}})
+                    for i,d in enumerate(r["documents"]):
+                        expanded.append({"id":event["id"]+"-D"+str(i+1),"type":"document.register","payload":{"document":d}})
+                else:expanded.append(event)
+            events=expanded
             for event in events:
                 if event["type"] == "ca9.organization_install":
                     payload=event["payload"]

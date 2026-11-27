@@ -1,0 +1,3 @@
+# CA9 case production workspace
+
+Every fictional case uses factory/<case-id>/<version>/blueprint.json, law snapshots under that version, and originals under records/<case-id>/<version>/. No released case yet. A release is immutable after admission; future corrections use a new document and lawful correction event, never regenerate original facts. Training data cannot enter official play. See courts/ca9/CASE_FACTORY.md.
