@@ -1,6 +1,6 @@
 {
   "case_id": "CA9-26-001",
-  "status": "excerpts_assembled_briefs_pending",
+  "status": "all_planned_originals_authored_not_sealed",
   "authored_documents": [
     {
       "id": "CA9-26-001-COM",
@@ -181,6 +181,24 @@
       "path": "records/CA9-26-001/v1/IDX.md",
       "pages": 7,
       "words": 550
+    },
+    {
+      "id": "CA9-26-001-OPEN",
+      "path": "records/CA9-26-001/v1/OPEN.md",
+      "pages": 16,
+      "words": 1645
+    },
+    {
+      "id": "CA9-26-001-ANSWER",
+      "path": "records/CA9-26-001/v1/ANSWER.md",
+      "pages": 16,
+      "words": 1487
+    },
+    {
+      "id": "CA9-26-001-REPLY",
+      "path": "records/CA9-26-001/v1/REPLY.md",
+      "pages": 8,
+      "words": 614
     }
   ],
   "planned_documents": 33,
@@ -196,6 +214,6 @@
       "411 U.S. 792"
     ]
   },
-  "next_batch": "Author appellate briefs and complete citations/review.",
+  "next_batch": "Run structural compiler through excerpts, then complete case-specific authority treatment and citation audit; semantic cross-review; seal only when ready.",
   "excerpt_pages": 190
 }

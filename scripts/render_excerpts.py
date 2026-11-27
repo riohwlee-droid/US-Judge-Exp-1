@@ -15,7 +15,8 @@ def render(root,path):
         sets[d["id"]][n]=pages(safe(root,src["path"]).read_text(encoding="utf-8"))[e["source_page"]]
         typ={"er_volume":"ER","ser_volume":"SER","fer_volume":"FER"}[d["kind"]]
         single=typ=="ER" and sum(x["kind"]=="er_volume" for x in docs.values())==1
-        cite=f"ER-{n}" if single else f'{e["volume"]}-{typ}-{n}'
+        citation_page=e.get("citation_page",n)
+        cite=f"ER-{citation_page}" if single else f'{e["volume"]}-{typ}-{citation_page}'
         index.append(f'{cite} — {src["title"]}, source page {e["source_page"]}')
     for id,rows in sets.items():
         need(set(rows)==set(range(1,docs[id]["pages"]+1)),"excerpt inventory mismatch")

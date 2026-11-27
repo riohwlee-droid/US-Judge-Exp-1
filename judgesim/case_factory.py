@@ -213,9 +213,15 @@ def compile_package(root, blueprint_path, stage="review", training=False):
         typ={"er_volume":"ER","ser_volume":"SER","fer_volume":"FER"}[d["kind"]]
         need(type(e["volume"]) is int and e["volume"]>=1 and e["volume"]==d["volume"],"volume mismatch")
         single=typ=="ER" and sum(x["kind"]=="er_volume" for x in docs.values())==1
-        cite=f"ER-{n}" if single else f'{e["volume"]}-{typ}-{n}';need(cite not in ermap,"duplicate excerpt citation")
+        citation_page=e.get("citation_page",n)
+        need(type(citation_page) is int and citation_page>=1,"invalid citation page")
+        cite=f"ER-{citation_page}" if single else f'{e["volume"]}-{typ}-{citation_page}';need(cite not in ermap,"duplicate excerpt citation")
         need(norm(pmap[d["id"]][n])==norm(pmap[src["id"]][sn]),"excerpt differs from original "+cite)
         ermap[cite]=e
+    if any("citation_page" in e for e in b["excerpts"]):
+        for typ in ("er_volume","ser_volume","fer_volume"):
+            seq=sorted((e for e in b["excerpts"] if docs[e["excerpt_document_id"]]["kind"]==typ),key=lambda e:(e["volume"],e["excerpt_page"]))
+            need([e.get("citation_page") for e in seq]==list(range(1,len(seq)+1)),"nonconsecutive cross-volume citation pages")
     for d in docs.values():
         if d["kind"] in {"er_volume","ser_volume","fer_volume"}:
             need({e["excerpt_page"] for e in ermap.values() if e["excerpt_document_id"]==d["id"]}==set(pmap[d["id"]]),"unmapped excerpt pages")
@@ -293,6 +299,11 @@ def compile_package(root, blueprint_path, stage="review", training=False):
                 need(tag in pmap[d["id"]][a["page"]] and (not training or authority["citation"] in pmap[d["id"]][a["page"]]),"legal citation/annotation missing")
                 need(ref["use"] in {"support","distinguish","adverse"} and nonblank(ref["analysis"]),"unreviewed legal application")
                 if training and authority["subsequent_treatment"]["status"]=="negative":need(ref["use"]!="support","negative authority relied upon as support")
+        for ref in b.get("brief_record_refs",[]):
+            if ref["document_id"]!=d["id"]:continue
+            cite=ref["cite"];need(cite in ermap and cite in pmap[d["id"]][ref["page"]],"brief record reference missing")
+            e=ermap[cite];anchor({"document_id":e["source_document_id"],"page":e["source_page"],"quote":ref["quote"]},LOWER)
+            annotated.add(cite)
         need(visible==annotated,"unmapped record citation in "+d["id"])
         actual=set(LEGAL.findall(whole));mapped={(r["authority_id"],r["pin_id"]) for a in arguments.values() if a["document_id"]==d["id"] for r in a["authorities"]}
         need(actual==mapped and actual,"unmapped legal citation")

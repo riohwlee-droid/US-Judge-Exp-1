@@ -1274,7 +1274,7 @@
       "filed_at": "2026-10-16T10:00:00-07:00",
       "access": "judge",
       "status": "filed",
-      "pages": 30,
+      "pages": 16,
       "depends_on": [
         "CA9-26-001-ORDER",
         "CA9-26-001-JUD",
@@ -1283,7 +1283,50 @@
         "CA9-26-001-ER1",
         "CA9-26-001-ER2",
         "CA9-26-001-IDX"
-      ]
+      ],
+      "sections": {
+        "table_of_contents": {
+          "page": 2,
+          "heading": "TABLE OF CONTENTS"
+        },
+        "table_of_authorities": {
+          "page": 3,
+          "heading": "TABLE OF AUTHORITIES"
+        },
+        "jurisdiction": {
+          "page": 4,
+          "heading": "JURISDICTIONAL STATEMENT"
+        },
+        "issues": {
+          "page": 4,
+          "heading": "ISSUE PRESENTED"
+        },
+        "statement_of_case": {
+          "page": 5,
+          "heading": "STATEMENT OF THE CASE"
+        },
+        "summary": {
+          "page": 8,
+          "heading": "SUMMARY OF ARGUMENT"
+        },
+        "standard_of_review": {
+          "page": 9,
+          "heading": "STANDARD OF REVIEW"
+        },
+        "argument": {
+          "page": 10,
+          "heading": "ARGUMENT"
+        },
+        "conclusion": {
+          "page": 15,
+          "heading": "CONCLUSION"
+        },
+        "certificate": {
+          "page": 16,
+          "heading": "CERTIFICATES"
+        }
+      },
+      "body_words_reviewed": 1645
     },
     {
       "id": "CA9-26-001-ANSWER",
@@ -1295,10 +1338,33 @@
       "filed_at": "2026-11-12T10:00:00-08:00",
       "access": "judge",
       "status": "filed",
-      "pages": 30,
+      "pages": 16,
       "depends_on": [
         "CA9-26-001-OPEN"
-      ]
+      ],
+      "sections": {
+        "table_of_contents": {
+          "page": 2,
+          "heading": "TABLE OF CONTENTS"
+        },
+        "table_of_authorities": {
+          "page": 3,
+          "heading": "TABLE OF AUTHORITIES"
+        },
+        "argument": {
+          "page": 9,
+          "heading": "ARGUMENT"
+        },
+        "conclusion": {
+          "page": 15,
+          "heading": "CONCLUSION"
+        },
+        "certificate": {
+          "page": 16,
+          "heading": "CERTIFICATES"
+        }
+      },
+      "body_words_reviewed": 1487
     },
     {
       "id": "CA9-26-001-REPLY",
@@ -1310,10 +1376,33 @@
       "filed_at": "2026-11-24T10:00:00-08:00",
       "access": "judge",
       "status": "filed",
-      "pages": 14,
+      "pages": 8,
       "depends_on": [
         "CA9-26-001-ANSWER"
-      ]
+      ],
+      "sections": {
+        "table_of_contents": {
+          "page": 2,
+          "heading": "TABLE OF CONTENTS"
+        },
+        "table_of_authorities": {
+          "page": 3,
+          "heading": "TABLE OF AUTHORITIES"
+        },
+        "argument": {
+          "page": 4,
+          "heading": "ARGUMENT"
+        },
+        "conclusion": {
+          "page": 7,
+          "heading": "CONCLUSION"
+        },
+        "certificate": {
+          "page": 8,
+          "heading": "CERTIFICATES"
+        }
+      },
+      "body_words_reviewed": 614
     }
   ],
   "docket": [
@@ -2215,6 +2304,57 @@
       "mode": "testimony",
       "asserted_value": "written warning",
       "unit": "text"
+    },
+    {
+      "id": "A-60",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 5,
+      "fact_id": "F08",
+      "quote": "April 8, 2024",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "2024-04-08",
+      "unit": "date",
+      "record_cites": [
+        {
+          "cite": "2-ER-32",
+          "quote": "Date: April 8, 2024"
+        }
+      ]
+    },
+    {
+      "id": "A-61",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 6,
+      "fact_id": "F07",
+      "quote": "The common review was requested April 4",
+      "speaker_id": "DC",
+      "mode": "allegation",
+      "asserted_value": "six coordinators; fourteen-day window",
+      "unit": "text",
+      "record_cites": [
+        {
+          "cite": "2-ER-88",
+          "quote": "pull the last fourteen days for all six coordinators"
+        }
+      ]
+    },
+    {
+      "id": "A-62",
+      "document_id": "CA9-26-001-REPLY",
+      "page": 4,
+      "fact_id": "F11",
+      "quote": "the extension April 12",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "60",
+      "unit": "days",
+      "record_cites": [
+        {
+          "cite": "2-ER-90",
+          "quote": "extend Maren's query to sixty days"
+        }
+      ]
     }
   ],
   "evidence": [
@@ -4090,9 +4230,675 @@
           "proposition": "Prima facie evidence plus sufficient evidence discrediting the employer's explanation may permit, but does not require, an inference of discrimination; consider whole record."
         }
       ]
+    },
+    {
+      "id": "JUR",
+      "origin": "real",
+      "authority_type": "statute",
+      "citation": "28 U.S.C. § 1291",
+      "url": "https://uscode.house.gov/us/usc/t28/s1291/",
+      "court": "federal_law",
+      "decided_at": "1982-10-01",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/JUR.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Official text inspected; version history pending",
+        "checked_at": "2026-11-27",
+        "method": "Official code and court rule retrieval"
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "section 1291",
+          "quote": "shall have jurisdiction of appeals from all final decisions of the district courts of the United States",
+          "proposition": "Final judgment appellate jurisdiction."
+        }
+      ]
+    },
+    {
+      "id": "FEDQ",
+      "origin": "real",
+      "authority_type": "statute",
+      "citation": "28 U.S.C. § 1331",
+      "url": "https://uscode.house.gov/us/usc/t28/s1331/",
+      "court": "federal_law",
+      "decided_at": "1980-12-01",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/FEDQ.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Official text inspected; version history pending",
+        "checked_at": "2026-11-27",
+        "method": "Official code and court rule retrieval"
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "section 1331",
+          "quote": "The district courts shall have original jurisdiction of all civil actions arising under the Constitution, laws, or treaties of the United States.",
+          "proposition": "Federal question jurisdiction."
+        }
+      ]
+    },
+    {
+      "id": "TITLEVII",
+      "origin": "real",
+      "authority_type": "statute",
+      "citation": "42 U.S.C. § 2000e-3(a)",
+      "url": "https://uscode.house.gov/us/usc/119-118/t42/s2000e-3/",
+      "court": "federal_law",
+      "decided_at": "1972-03-24",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/TITLEVII.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Official text inspected; version history pending",
+        "checked_at": "2026-11-27",
+        "method": "Official code and court rule retrieval"
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "subsection (a)",
+          "quote": "because he has opposed any practice made an unlawful employment practice by this subchapter",
+          "proposition": "Opposition clause in Title VII's anti-retaliation provision."
+        }
+      ]
+    },
+    {
+      "id": "FRAP4",
+      "origin": "real",
+      "authority_type": "rule",
+      "citation": "Fed. R. App. P. 4(a)(1)(A)",
+      "url": "https://www.ca4.uscourts.gov/Rules/Rule04.html",
+      "court": "federal_law",
+      "decided_at": "2025-12-01",
+      "verified_at": "2026-11-27",
+      "source_path": "factory/CA9-26-001/v1/law/FRAP4.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Official statutory/rule excerpt confirmed; exact historical version start date still to be reviewed.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Official text inspected; version history pending",
+        "checked_at": "2026-11-27",
+        "method": "Official code and court rule retrieval"
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "Rule 4(a)(1)(A)",
+          "quote": "must be filed with the district clerk within 30 days after entry of the judgment or order appealed from",
+          "proposition": "Ordinary private-party civil appeal deadline, subject to exceptions."
+        }
+      ]
     }
   ],
-  "arguments": [],
+  "arguments": [
+    {
+      "id": "ARG-1",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 4,
+      "quote": "28 U.S.C. § 1331",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [
+        {
+          "cite": "1-ER-1",
+          "quote": "UNITED STATES DISTRICT COURT"
+        },
+        {
+          "cite": "2-ER-186",
+          "quote": "UNITED STATES DISTRICT COURT"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "FEDQ",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        },
+        {
+          "authority_id": "TITLEVII",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        },
+        {
+          "authority_id": "JUR",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        },
+        {
+          "authority_id": "FRAP4",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-2",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 9,
+      "quote": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "TOLAN",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        },
+        {
+          "authority_id": "NASSAR",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-3",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 10,
+      "quote": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [
+        {
+          "cite": "2-ER-88",
+          "quote": "EMAIL EXPORT — AQ QUALITY REVIEW"
+        },
+        {
+          "cite": "2-ER-125",
+          "quote": "Q. Did you receive the first workbook before the April 8 complaint?"
+        },
+        {
+          "cite": "2-ER-137",
+          "quote": "FURTHER EXAMINATION BY MS. SERRICK"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "NASSAR",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-4",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 11,
+      "quote": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [
+        {
+          "cite": "2-ER-125",
+          "quote": "Q. Did you receive the first workbook before the April 8 complaint?"
+        },
+        {
+          "cite": "2-ER-127",
+          "quote": "Q. Three days after that conversation, you requested a longer review?"
+        },
+        {
+          "cite": "2-ER-82",
+          "quote": "4. Review and discipline. Quality staff may select a sample of transactions, reconcile suspected synchronization defects and refer unresolved items to operations. The initial exception count must not be used as the final count without reconciliation. Review may be expanded where a documented recurring problem suggests a broader pattern. An expanded review should identify its reason and time window. Operations may counsel, warn, suspend or recommend discharge depending on seriousness, recurrence, prior notice and surrounding circumstances. No fixed number of exceptions automatically requires discharge. HR reviews proposed discharge for policy consistency and relevant comparable discipline. Management retains discretion subject to applicable law and the obligation not to retaliate for a protected complaint. The review and discipline decisions should be documented separately from any complaint investigation."
+        },
+        {
+          "cite": "2-ER-90",
+          "quote": "Date: April 12, 2024, 09:18 PDT"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "TOLAN",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-5",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 12,
+      "quote": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [
+        {
+          "cite": "2-ER-102",
+          "quote": "March 7, 15:38:11 PST — destination check complete, account EMAREN."
+        },
+        {
+          "cite": "2-ER-103",
+          "quote": "March 20, 16:21:03 PDT — identity check complete, account EMAREN."
+        },
+        {
+          "cite": "2-ER-112",
+          "quote": "Q. The retained record does not show a completed note for AQ-4182. Do you dispute that?"
+        },
+        {
+          "cite": "2-ER-113",
+          "quote": "Q. Turning to AQ-4311 on March 20, what did you recall at the HR meeting?"
+        },
+        {
+          "cite": "2-ER-81",
+          "quote": "3. Urgent exception. A shift lead may authorize an urgent release orally when the ordinary electronic approval cannot be entered at the time of release and the identity and destination checks are complete. The coordinator must record the lead's identity, the time and the reason before the end of the shift. The lead should confirm that record during the next available review period. A delay in the subsequent synchronization of a timely manual entry is not itself an unauthorized release. An oral instruction not documented before the end of the shift is a documentation exception even if approval was actually given. A release made without required authorization is a substantive control violation. A request from a carrier or customer is not authorization. The coordinator must not treat silence by a lead as affirmative permission."
+        },
+        {
+          "cite": "2-ER-40",
+          "quote": "Q. Look at the record for AQ-4182. What does it tell you?"
+        },
+        {
+          "cite": "2-ER-42",
+          "quote": "Q. What do you remember about March 20 and AQ-4311?"
+        },
+        {
+          "cite": "2-ER-44",
+          "quote": "Q. Did Holtwell speak to you during the April review?"
+        },
+        {
+          "cite": "2-ER-166",
+          "quote": "OPERATIONS RECOMMENDATION — April 25, 2024"
+        },
+        {
+          "cite": "2-ER-168",
+          "quote": "OPERATIONS RESPONSE — April 30, 2024"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "REEVES",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-6",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 13,
+      "quote": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [
+        {
+          "cite": "2-ER-88",
+          "quote": "EMAIL EXPORT — AQ QUALITY REVIEW"
+        },
+        {
+          "cite": "2-ER-90",
+          "quote": "Date: April 12, 2024, 09:18 PDT"
+        },
+        {
+          "cite": "2-ER-133",
+          "quote": "Q. Why was Bellford given a warning?"
+        },
+        {
+          "cite": "2-ER-104",
+          "quote": "April 2, 09:50:21 PDT — carrier identity complete, account JBELLFORD."
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "KAMA",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-7",
+      "document_id": "CA9-26-001-OPEN",
+      "page": 14,
+      "quote": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [
+        {
+          "cite": "2-ER-169",
+          "quote": "HR REVIEW WORKSHEET — May 9, 2024"
+        },
+        {
+          "cite": "2-ER-170",
+          "quote": "COO DECISION NOTE — May 13, 2024"
+        },
+        {
+          "cite": "2-ER-167",
+          "quote": "HR RESPONSE — April 26, 2024"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "REEVES",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-8",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 9,
+      "quote": "University of Tex. Southwestern Medical Center v. Nassar, 570 U.S. 338, 360 (2013)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "NASSAR",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        },
+        {
+          "authority_id": "TOLAN",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        },
+        {
+          "authority_id": "KAMA",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-9",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 10,
+      "quote": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [
+        {
+          "cite": "2-ER-90",
+          "quote": "Date: April 12, 2024, 09:18 PDT"
+        },
+        {
+          "cite": "2-ER-86",
+          "quote": "COACHING NOTE — NOVEMBER 17, 2023"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "KAMA",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-10",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 11,
+      "quote": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [
+        {
+          "cite": "2-ER-92",
+          "quote": "To: Gavin R. Holtwell; Nadia E. Bracken"
+        },
+        {
+          "cite": "2-ER-166",
+          "quote": "OPERATIONS RECOMMENDATION — April 25, 2024"
+        },
+        {
+          "cite": "2-ER-168",
+          "quote": "OPERATIONS RESPONSE — April 30, 2024"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "REEVES",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-11",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 12,
+      "quote": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [
+        {
+          "cite": "2-ER-63",
+          "quote": "CORRECTIVE ACTION CONTINUED"
+        },
+        {
+          "cite": "2-ER-133",
+          "quote": "Q. Why was Bellford given a warning?"
+        },
+        {
+          "cite": "2-ER-56",
+          "quote": "Q. Did anyone tell you your transactions had been examined back to February 4?"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "KAMA",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-12",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 13,
+      "quote": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [
+        {
+          "cite": "2-ER-40",
+          "quote": "Q. Look at the record for AQ-4182. What does it tell you?"
+        },
+        {
+          "cite": "2-ER-42",
+          "quote": "Q. What do you remember about March 20 and AQ-4311?"
+        },
+        {
+          "cite": "2-ER-43",
+          "quote": "Q. Does the manual reference M-320-09 bear your name?"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "TOLAN",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-13",
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 14,
+      "quote": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [
+        {
+          "cite": "2-ER-167",
+          "quote": "HR RESPONSE — April 26, 2024"
+        },
+        {
+          "cite": "2-ER-169",
+          "quote": "HR REVIEW WORKSHEET — May 9, 2024"
+        },
+        {
+          "cite": "2-ER-170",
+          "quote": "COO DECISION NOTE — May 13, 2024"
+        },
+        {
+          "cite": "1-ER-6",
+          "quote": "IV. SCOPE OF REVIEW AND TEMPORAL PROXIMITY"
+        },
+        {
+          "cite": "1-ER-7",
+          "quote": "V. COMPARATOR AND AUTHORIZATION EVIDENCE"
+        },
+        {
+          "cite": "1-ER-8",
+          "quote": "VI. THE DECISION PROCESS AND THE WHOLE RECORD"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "REEVES",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        },
+        {
+          "authority_id": "NASSAR",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-14",
+      "document_id": "CA9-26-001-REPLY",
+      "page": 4,
+      "quote": "Kama v. Mayorkas, 107 F.4th 1054 (9th Cir. 2024), slip op. at 13",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [
+        {
+          "cite": "2-ER-88",
+          "quote": "EMAIL EXPORT — AQ QUALITY REVIEW"
+        },
+        {
+          "cite": "2-ER-90",
+          "quote": "Date: April 12, 2024, 09:18 PDT"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "KAMA",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        },
+        {
+          "authority_id": "NASSAR",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-15",
+      "document_id": "CA9-26-001-REPLY",
+      "page": 5,
+      "quote": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [
+        {
+          "cite": "2-ER-62",
+          "quote": "CORRECTIVE ACTION — May 2, 2024"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "TOLAN",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    },
+    {
+      "id": "ARG-16",
+      "document_id": "CA9-26-001-REPLY",
+      "page": 6,
+      "quote": "Reeves v. Sanderson Plumbing Products, Inc., 530 U.S. 133, 148 (2000)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [
+        {
+          "cite": "2-ER-170",
+          "quote": "COO DECISION NOTE — May 13, 2024"
+        }
+      ],
+      "authorities": [
+        {
+          "authority_id": "REEVES",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        },
+        {
+          "authority_id": "NASSAR",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Application in the surrounding original argument; final case-specific treatment review pending."
+        }
+      ]
+    }
+  ],
   "legal_uses": [
     {
       "id": "LU-1",
@@ -4266,10 +5072,10 @@
   },
   "reviews": [],
   "unresolved_blockers": [
-    "Remaining lower court records and depositions not yet authored",
-    "Actual excerpts and briefs not yet authored",
-    "Authority source and subsequent treatment review pending",
-    "Final cross-review and word/page counts pending"
+    "Case-specific subsequent treatment review and all citation occurrence audits incomplete",
+    "Semantic review of every factual and legal statement and complete record consistency pending",
+    "Local filing-format and docket attachment review pending",
+    "Player start date and legal cutoff not selected"
   ],
   "research": {
     "schema_version": 1,
@@ -4277,5 +5083,560 @@
     "authority_reviews": [],
     "document_audits": [],
     "issue_searches": []
-  }
+  },
+  "brief_record_refs": [
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 4,
+      "cite": "1-ER-1",
+      "quote": "UNITED STATES DISTRICT COURT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 4,
+      "cite": "2-ER-186",
+      "quote": "UNITED STATES DISTRICT COURT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 5,
+      "cite": "2-ER-81",
+      "quote": "3. Urgent exception. A shift lead may authorize an urgent release orally when the ordinary electronic approval cannot be entered at the time of release and the identity and destination checks are complete. The coordinator must record the lead's identity, the time and the reason before the end of the shift. The lead should confirm that record during the next available review period. A delay in the subsequent synchronization of a timely manual entry is not itself an unauthorized release. An oral instruction not documented before the end of the shift is a documentation exception even if approval was actually given. A release made without required authorization is a substantive control violation. A request from a carrier or customer is not authorization. The coordinator must not treat silence by a lead as affirmative permission.",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 5,
+      "cite": "2-ER-86",
+      "quote": "COACHING NOTE — NOVEMBER 17, 2023",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 5,
+      "cite": "2-ER-84",
+      "quote": "ASTER QUAY LOGISTICS — ANNUAL PERFORMANCE REVIEW",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 5,
+      "cite": "2-ER-32",
+      "quote": "EMAIL — HUMAN RESOURCES INTAKE",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 5,
+      "cite": "2-ER-34",
+      "quote": "HR CASE CONTACT NOTE — April 9, 2024, 10:20 PDT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 6,
+      "cite": "2-ER-88",
+      "quote": "EMAIL EXPORT — AQ QUALITY REVIEW",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 6,
+      "cite": "2-ER-89",
+      "quote": "Date: April 5, 2024, 15:06 PDT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 6,
+      "cite": "2-ER-90",
+      "quote": "Date: April 12, 2024, 09:18 PDT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 6,
+      "cite": "2-ER-91",
+      "quote": "To: Gavin R. Holtwell; Nadia E. Bracken",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 6,
+      "cite": "2-ER-92",
+      "quote": "To: Gavin R. Holtwell; Nadia E. Bracken",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 7,
+      "cite": "2-ER-62",
+      "quote": "CORRECTIVE ACTION — May 2, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 7,
+      "cite": "2-ER-170",
+      "quote": "COO DECISION NOTE — May 13, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 7,
+      "cite": "2-ER-171",
+      "quote": "NOTICE OF TERMINATION — May 17, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 7,
+      "cite": "1-ER-5",
+      "quote": "III. THE UNDISPUTED AND DISPUTED RECORD",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 7,
+      "cite": "1-ER-8",
+      "quote": "VI. THE DECISION PROCESS AND THE WHOLE RECORD",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 7,
+      "cite": "2-ER-23",
+      "quote": "UNITED STATES DISTRICT COURT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 7,
+      "cite": "2-ER-13",
+      "quote": "THE COURT: Ms. Serrick, why does the comparator evidence matter given that the record of Bellford's authorization was different?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 10,
+      "cite": "2-ER-88",
+      "quote": "EMAIL EXPORT — AQ QUALITY REVIEW",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 10,
+      "cite": "2-ER-125",
+      "quote": "Q. Did you receive the first workbook before the April 8 complaint?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 10,
+      "cite": "2-ER-137",
+      "quote": "FURTHER EXAMINATION BY MS. SERRICK",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 11,
+      "cite": "2-ER-125",
+      "quote": "Q. Did you receive the first workbook before the April 8 complaint?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 11,
+      "cite": "2-ER-127",
+      "quote": "Q. Three days after that conversation, you requested a longer review?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 11,
+      "cite": "2-ER-82",
+      "quote": "4. Review and discipline. Quality staff may select a sample of transactions, reconcile suspected synchronization defects and refer unresolved items to operations. The initial exception count must not be used as the final count without reconciliation. Review may be expanded where a documented recurring problem suggests a broader pattern. An expanded review should identify its reason and time window. Operations may counsel, warn, suspend or recommend discharge depending on seriousness, recurrence, prior notice and surrounding circumstances. No fixed number of exceptions automatically requires discharge. HR reviews proposed discharge for policy consistency and relevant comparable discipline. Management retains discretion subject to applicable law and the obligation not to retaliate for a protected complaint. The review and discipline decisions should be documented separately from any complaint investigation.",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 11,
+      "cite": "2-ER-90",
+      "quote": "Date: April 12, 2024, 09:18 PDT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 12,
+      "cite": "2-ER-102",
+      "quote": "March 7, 15:38:11 PST — destination check complete, account EMAREN.",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 12,
+      "cite": "2-ER-103",
+      "quote": "March 20, 16:21:03 PDT — identity check complete, account EMAREN.",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 12,
+      "cite": "2-ER-112",
+      "quote": "Q. The retained record does not show a completed note for AQ-4182. Do you dispute that?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 12,
+      "cite": "2-ER-113",
+      "quote": "Q. Turning to AQ-4311 on March 20, what did you recall at the HR meeting?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 12,
+      "cite": "2-ER-81",
+      "quote": "3. Urgent exception. A shift lead may authorize an urgent release orally when the ordinary electronic approval cannot be entered at the time of release and the identity and destination checks are complete. The coordinator must record the lead's identity, the time and the reason before the end of the shift. The lead should confirm that record during the next available review period. A delay in the subsequent synchronization of a timely manual entry is not itself an unauthorized release. An oral instruction not documented before the end of the shift is a documentation exception even if approval was actually given. A release made without required authorization is a substantive control violation. A request from a carrier or customer is not authorization. The coordinator must not treat silence by a lead as affirmative permission.",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 12,
+      "cite": "2-ER-40",
+      "quote": "Q. Look at the record for AQ-4182. What does it tell you?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 12,
+      "cite": "2-ER-42",
+      "quote": "Q. What do you remember about March 20 and AQ-4311?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 12,
+      "cite": "2-ER-44",
+      "quote": "Q. Did Holtwell speak to you during the April review?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 12,
+      "cite": "2-ER-166",
+      "quote": "OPERATIONS RECOMMENDATION — April 25, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 12,
+      "cite": "2-ER-168",
+      "quote": "OPERATIONS RESPONSE — April 30, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 13,
+      "cite": "2-ER-88",
+      "quote": "EMAIL EXPORT — AQ QUALITY REVIEW",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 13,
+      "cite": "2-ER-90",
+      "quote": "Date: April 12, 2024, 09:18 PDT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 13,
+      "cite": "2-ER-133",
+      "quote": "Q. Why was Bellford given a warning?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 13,
+      "cite": "2-ER-104",
+      "quote": "April 2, 09:50:21 PDT — carrier identity complete, account JBELLFORD.",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 14,
+      "cite": "2-ER-169",
+      "quote": "HR REVIEW WORKSHEET — May 9, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 14,
+      "cite": "2-ER-170",
+      "quote": "COO DECISION NOTE — May 13, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-OPEN",
+      "page": 14,
+      "cite": "2-ER-167",
+      "quote": "HR RESPONSE — April 26, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 4,
+      "cite": "1-ER-1",
+      "quote": "UNITED STATES DISTRICT COURT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 4,
+      "cite": "2-ER-186",
+      "quote": "UNITED STATES DISTRICT COURT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 5,
+      "cite": "2-ER-81",
+      "quote": "3. Urgent exception. A shift lead may authorize an urgent release orally when the ordinary electronic approval cannot be entered at the time of release and the identity and destination checks are complete. The coordinator must record the lead's identity, the time and the reason before the end of the shift. The lead should confirm that record during the next available review period. A delay in the subsequent synchronization of a timely manual entry is not itself an unauthorized release. An oral instruction not documented before the end of the shift is a documentation exception even if approval was actually given. A release made without required authorization is a substantive control violation. A request from a carrier or customer is not authorization. The coordinator must not treat silence by a lead as affirmative permission.",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 5,
+      "cite": "2-ER-86",
+      "quote": "COACHING NOTE — NOVEMBER 17, 2023",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 5,
+      "cite": "2-ER-108",
+      "quote": "Q. I am showing you the February 2024 review. Is that your acknowledgment?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 6,
+      "cite": "2-ER-88",
+      "quote": "EMAIL EXPORT — AQ QUALITY REVIEW",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 6,
+      "cite": "2-ER-32",
+      "quote": "EMAIL — HUMAN RESOURCES INTAKE",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 6,
+      "cite": "2-ER-90",
+      "quote": "Date: April 12, 2024, 09:18 PDT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 6,
+      "cite": "2-ER-92",
+      "quote": "To: Gavin R. Holtwell; Nadia E. Bracken",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 6,
+      "cite": "2-ER-102",
+      "quote": "March 7, 15:38:11 PST — destination check complete, account EMAREN.",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 6,
+      "cite": "2-ER-103",
+      "quote": "March 20, 16:21:03 PDT — identity check complete, account EMAREN.",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 7,
+      "cite": "2-ER-62",
+      "quote": "CORRECTIVE ACTION — May 2, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 7,
+      "cite": "2-ER-169",
+      "quote": "HR REVIEW WORKSHEET — May 9, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 7,
+      "cite": "2-ER-170",
+      "quote": "COO DECISION NOTE — May 13, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 7,
+      "cite": "2-ER-171",
+      "quote": "NOTICE OF TERMINATION — May 17, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 10,
+      "cite": "2-ER-90",
+      "quote": "Date: April 12, 2024, 09:18 PDT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 10,
+      "cite": "2-ER-86",
+      "quote": "COACHING NOTE — NOVEMBER 17, 2023",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 11,
+      "cite": "2-ER-92",
+      "quote": "To: Gavin R. Holtwell; Nadia E. Bracken",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 11,
+      "cite": "2-ER-166",
+      "quote": "OPERATIONS RECOMMENDATION — April 25, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 11,
+      "cite": "2-ER-168",
+      "quote": "OPERATIONS RESPONSE — April 30, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 12,
+      "cite": "2-ER-63",
+      "quote": "CORRECTIVE ACTION CONTINUED",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 12,
+      "cite": "2-ER-133",
+      "quote": "Q. Why was Bellford given a warning?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 12,
+      "cite": "2-ER-56",
+      "quote": "Q. Did anyone tell you your transactions had been examined back to February 4?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 13,
+      "cite": "2-ER-40",
+      "quote": "Q. Look at the record for AQ-4182. What does it tell you?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 13,
+      "cite": "2-ER-42",
+      "quote": "Q. What do you remember about March 20 and AQ-4311?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 13,
+      "cite": "2-ER-43",
+      "quote": "Q. Does the manual reference M-320-09 bear your name?",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 14,
+      "cite": "2-ER-167",
+      "quote": "HR RESPONSE — April 26, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 14,
+      "cite": "2-ER-169",
+      "quote": "HR REVIEW WORKSHEET — May 9, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 14,
+      "cite": "2-ER-170",
+      "quote": "COO DECISION NOTE — May 13, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 14,
+      "cite": "1-ER-6",
+      "quote": "IV. SCOPE OF REVIEW AND TEMPORAL PROXIMITY",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 14,
+      "cite": "1-ER-7",
+      "quote": "V. COMPARATOR AND AUTHORIZATION EVIDENCE",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-ANSWER",
+      "page": 14,
+      "cite": "1-ER-8",
+      "quote": "VI. THE DECISION PROCESS AND THE WHOLE RECORD",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-REPLY",
+      "page": 4,
+      "cite": "2-ER-88",
+      "quote": "EMAIL EXPORT — AQ QUALITY REVIEW",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-REPLY",
+      "page": 4,
+      "cite": "2-ER-90",
+      "quote": "Date: April 12, 2024, 09:18 PDT",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-REPLY",
+      "page": 5,
+      "cite": "2-ER-62",
+      "quote": "CORRECTIVE ACTION — May 2, 2024",
+      "review_status": "source page linked; semantic review pending"
+    },
+    {
+      "document_id": "CA9-26-001-REPLY",
+      "page": 6,
+      "cite": "2-ER-170",
+      "quote": "COO DECISION NOTE — May 13, 2024",
+      "review_status": "source page linked; semantic review pending"
+    }
+  ]
 }
