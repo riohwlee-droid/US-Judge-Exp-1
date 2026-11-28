@@ -20,7 +20,8 @@ class Preflight(unittest.TestCase):
     def test_production_end_to_end(self):
         with TemporaryDirectory() as tmp:
             root=Path(tmp)
-            for folder in ("courts","law","factory","records","supply","saves","requests","receipts"):
+            # The test publishes its own requests. Keep live requests and receipts out of the fixture.
+            for folder in ("courts","law","factory","records","supply","saves"):
                 if (ROOT/folder).exists():shutil.copytree(ROOT/folder,root/folder)
             shutil.copy2(ROOT/"CURRENT.json",root/"CURRENT.json")
             baseline=read_json(root/"CURRENT.json")
