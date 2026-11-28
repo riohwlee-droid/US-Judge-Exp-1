@@ -72,13 +72,27 @@
       "path": "records/CA9-SUP-000002/v1/AD.md",
       "pages": 1,
       "words": 89
+    },
+    {
+      "id": "CA9-SUP-000002-PDEP",
+      "path": "records/CA9-SUP-000002/v1/PDEP.md",
+      "pages": 32,
+      "words": 4367,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000002-SDEP",
+      "path": "records/CA9-SUP-000002/v1/SDEP.md",
+      "pages": 28,
+      "words": 3721,
+      "complete": true
     }
   ],
-  "original_pages": 37,
-  "original_words": 4543,
+  "original_pages": 97,
+  "original_words": 12631,
   "planned_documents": 28,
   "planned_original_pages": 258,
-  "next_batch": "Author remaining original lower-court documents; reconcile filed dates/attachments and citations; complete record, excerpts, actual legal research, briefs and review. No seal.",
+  "next_batch": "Author payroll, system custodian and coworker depositions, then summary-judgment briefing/hearing/order. No record gate request yet.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [
