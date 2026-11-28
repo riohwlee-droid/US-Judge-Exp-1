@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "request_id": "SUPREQ-20261128-107",
+  "action": "advance",
+  "job_id": "CA9-SUP-000001",
+  "expected_status": "working",
+  "stage": "excerpts",
+  "note": "Both volumes and index complete; verify exact source page linkage."
+}
