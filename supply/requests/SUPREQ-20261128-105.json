@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "request_id": "SUPREQ-20261128-105",
+  "action": "retry",
+  "job_id": "CA9-SUP-000001",
+  "expected_status": "rework",
+  "note": "Date-only creation metadata corrected; retry actual record stage."
+}

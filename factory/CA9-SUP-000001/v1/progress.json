@@ -157,7 +157,7 @@
   "original_words": 26066,
   "planned_documents": 29,
   "planned_original_pages": 230,
-  "next_batch": "Complete exact ER assembly and adversarial appellate briefs; expand necessary full original records to reach production floor without filler; complete authority research and all semantic reviews.",
+  "next_batch": "Finish excerpts with pretrial orders, indictment, notice and district docket; draft appellate briefs. Rework requested on source-event timestamps.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [
@@ -193,5 +193,99 @@
       ]
     ],
     "remaining": "Obtain circuit opinions, pinpoint full text, adverse and subsequent treatment review; check speedy trial exclusions, actual jury instructions and sentence. No legal review certification."
-  }
+  },
+  "rework_notes": [
+    {
+      "stage": "record",
+      "reason": "evidence before source event",
+      "fix": "Same-date metadata ordering corrected for CA9-SUP-000001-GRANT, CA9-SUP-000001-VENDOR, CA9-SUP-000001-INT; no actual wall-clock creation time asserted."
+    }
+  ],
+  "partial_excerpt_index": [
+    {
+      "short": "JUD",
+      "volume": 1,
+      "first": 1,
+      "last": 4
+    },
+    {
+      "short": "ORDER",
+      "volume": 1,
+      "first": 5,
+      "last": 11
+    },
+    {
+      "short": "SENT",
+      "volume": 2,
+      "first": 12,
+      "last": 23
+    },
+    {
+      "short": "GOPP",
+      "volume": 2,
+      "first": 24,
+      "last": 31
+    },
+    {
+      "short": "R29",
+      "volume": 2,
+      "first": 32,
+      "last": 39
+    },
+    {
+      "short": "VER",
+      "volume": 2,
+      "first": 40,
+      "last": 40
+    },
+    {
+      "short": "INSTR",
+      "volume": 2,
+      "first": 41,
+      "last": 47
+    },
+    {
+      "short": "TRIAL",
+      "volume": 2,
+      "first": 48,
+      "last": 142
+    },
+    {
+      "short": "INT",
+      "volume": 2,
+      "first": 143,
+      "last": 148
+    },
+    {
+      "short": "EMAIL",
+      "volume": 2,
+      "first": 149,
+      "last": 152
+    },
+    {
+      "short": "VENDOR",
+      "volume": 2,
+      "first": 153,
+      "last": 155
+    },
+    {
+      "short": "SHEET",
+      "volume": 2,
+      "first": 156,
+      "last": 159
+    },
+    {
+      "short": "GRANT",
+      "volume": 2,
+      "first": 160,
+      "last": 163
+    },
+    {
+      "short": "STIP",
+      "volume": 2,
+      "first": 164,
+      "last": 165
+    }
+  ],
+  "partial_excerpt_pages": 165
 }

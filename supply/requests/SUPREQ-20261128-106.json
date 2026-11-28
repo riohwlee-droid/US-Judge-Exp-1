@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "request_id": "SUPREQ-20261128-106",
+  "action": "advance",
+  "job_id": "CA9-SUP-000001",
+  "expected_status": "working",
+  "stage": "record",
+  "note": "Date-only creation metadata corrected; retry actual record stage."
+}
