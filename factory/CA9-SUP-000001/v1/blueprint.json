@@ -102,7 +102,7 @@
   "timeline": [
     {
       "id": "T01",
-      "at": "2024-10-01T10:00:00-08:00",
+      "at": "2024-10-01T10:00:00-07:00",
       "description": "Fictional federal equipment award enters performance period.",
       "actor_ids": [
         "A",
@@ -191,6 +191,42 @@
         "D",
         "B",
         "G"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "CONT1",
+      "at": "2026-01-12T10:00:00-08:00",
+      "description": "Court enters reasoned ends-of-justice continuance to 2026-03-09.",
+      "actor_ids": [
+        "J",
+        "B",
+        "G",
+        "D"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "CONT2",
+      "at": "2026-03-09T10:00:00-07:00",
+      "description": "Court enters reasoned ends-of-justice continuance to 2026-05-04.",
+      "actor_ids": [
+        "J",
+        "B",
+        "G",
+        "D"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "CONT3",
+      "at": "2026-05-04T10:00:00-07:00",
+      "description": "Court enters reasoned ends-of-justice continuance to 2026-07-13.",
+      "actor_ids": [
+        "J",
+        "B",
+        "G",
+        "D"
       ],
       "time_precision": "date_only"
     },
@@ -614,7 +650,7 @@
       "kind": "exhibit",
       "title": "Government Exhibit 1 — property award terms",
       "actor_id": "A",
-      "created_at": "2024-10-01T09:00:00-08:00",
+      "created_at": "2024-10-01T09:00:00-07:00",
       "filed_at": "2026-07-13T16:00:00-07:00",
       "pages": 4,
       "path": "records/CA9-SUP-000001/v1/GRANT.md",
@@ -668,7 +704,7 @@
       "actor_id": "L",
       "created_at": "2025-04-07T09:00:00-07:00",
       "filed_at": "2026-07-14T16:00:00-07:00",
-      "pages": 12,
+      "pages": 6,
       "path": "records/CA9-SUP-000001/v1/INT.md",
       "depends_on": [],
       "access": "judge",
@@ -922,6 +958,51 @@
       "depends_on": [],
       "access": "judge",
       "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-CONT1",
+      "kind": "other_lower",
+      "title": "Continuance order — 2026-01-12",
+      "actor_id": "J",
+      "created_at": "2026-01-12T10:00:00-08:00",
+      "filed_at": "2026-01-12T10:00:00-08:00",
+      "pages": 1,
+      "path": "records/CA9-SUP-000001/v1/CONT1.md",
+      "depends_on": [
+        "CA9-SUP-000001-ARR"
+      ],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-CONT2",
+      "kind": "other_lower",
+      "title": "Continuance order — 2026-03-09",
+      "actor_id": "J",
+      "created_at": "2026-03-09T10:00:00-07:00",
+      "filed_at": "2026-03-09T10:00:00-07:00",
+      "pages": 1,
+      "path": "records/CA9-SUP-000001/v1/CONT2.md",
+      "depends_on": [
+        "CA9-SUP-000001-ARR"
+      ],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-CONT3",
+      "kind": "other_lower",
+      "title": "Continuance order — 2026-05-04",
+      "actor_id": "J",
+      "created_at": "2026-05-04T10:00:00-07:00",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "pages": 1,
+      "path": "records/CA9-SUP-000001/v1/CONT3.md",
+      "depends_on": [
+        "CA9-SUP-000001-ARR"
+      ],
+      "access": "judge",
+      "status": "filed"
     }
   ],
   "docket": [
@@ -943,123 +1024,147 @@
     },
     {
       "id": "D03",
+      "document_id": "CA9-SUP-000001-CONT1",
+      "court": "district",
+      "filed_at": "2026-01-12T10:00:00-08:00",
+      "docket_page": 1,
+      "entry_text": "3. 2026-01-12 — Continuance order — 2026-01-12. Record ID CA9-SUP-000001-CONT1."
+    },
+    {
+      "id": "D04",
+      "document_id": "CA9-SUP-000001-CONT2",
+      "court": "district",
+      "filed_at": "2026-03-09T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "4. 2026-03-09 — Continuance order — 2026-03-09. Record ID CA9-SUP-000001-CONT2."
+    },
+    {
+      "id": "D05",
+      "document_id": "CA9-SUP-000001-CONT3",
+      "court": "district",
+      "filed_at": "2026-05-04T10:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "5. 2026-05-04 — Continuance order — 2026-05-04. Record ID CA9-SUP-000001-CONT3."
+    },
+    {
+      "id": "D06",
+      "document_id": "CA9-SUP-000001-STIP",
+      "court": "district",
+      "filed_at": "2026-06-26T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "6. 2026-06-26 — Joint stipulations and pretrial conference order. Record ID CA9-SUP-000001-STIP."
+    },
+    {
+      "id": "D07",
       "document_id": "CA9-SUP-000001-GRANT",
       "court": "district",
       "filed_at": "2026-07-13T16:00:00-07:00",
       "docket_page": 1,
-      "entry_text": "3. 2026-07-13 — Government Exhibit 1 — property award terms. Record ID CA9-SUP-000001-GRANT."
-    },
-    {
-      "id": "D04",
-      "document_id": "CA9-SUP-000001-SHEET",
-      "court": "district",
-      "filed_at": "2026-07-13T16:00:00-07:00",
-      "docket_page": 1,
-      "entry_text": "4. 2026-07-13 — Joint Exhibit 2 — property review and certification. Record ID CA9-SUP-000001-SHEET."
-    },
-    {
-      "id": "D05",
-      "document_id": "CA9-SUP-000001-VENDOR",
-      "court": "district",
-      "filed_at": "2026-07-13T16:00:00-07:00",
-      "docket_page": 1,
-      "entry_text": "5. 2026-07-13 — Joint Exhibit 3 — calibration transfer records. Record ID CA9-SUP-000001-VENDOR."
-    },
-    {
-      "id": "D06",
-      "document_id": "CA9-SUP-000001-EMAIL",
-      "court": "district",
-      "filed_at": "2026-07-13T16:00:00-07:00",
-      "docket_page": 1,
-      "entry_text": "6. 2026-07-13 — Government Exhibit 4 — monitoring correspondence. Record ID CA9-SUP-000001-EMAIL."
-    },
-    {
-      "id": "D07",
-      "document_id": "CA9-SUP-000001-INT",
-      "court": "district",
-      "filed_at": "2026-07-14T16:00:00-07:00",
-      "docket_page": 1,
-      "entry_text": "7. 2026-07-14 — Joint Exhibit 5 — recorded interview transcript. Record ID CA9-SUP-000001-INT."
+      "entry_text": "7. 2026-07-13 — Government Exhibit 1 — property award terms. Record ID CA9-SUP-000001-GRANT."
     },
     {
       "id": "D08",
-      "document_id": "CA9-SUP-000001-STIP",
+      "document_id": "CA9-SUP-000001-SHEET",
       "court": "district",
-      "filed_at": "2026-06-26T16:00:00-07:00",
+      "filed_at": "2026-07-13T16:00:00-07:00",
       "docket_page": 2,
-      "entry_text": "8. 2026-06-26 — Joint stipulations and pretrial conference order. Record ID CA9-SUP-000001-STIP."
+      "entry_text": "8. 2026-07-13 — Joint Exhibit 2 — property review and certification. Record ID CA9-SUP-000001-SHEET."
     },
     {
       "id": "D09",
+      "document_id": "CA9-SUP-000001-VENDOR",
+      "court": "district",
+      "filed_at": "2026-07-13T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "9. 2026-07-13 — Joint Exhibit 3 — calibration transfer records. Record ID CA9-SUP-000001-VENDOR."
+    },
+    {
+      "id": "D10",
+      "document_id": "CA9-SUP-000001-EMAIL",
+      "court": "district",
+      "filed_at": "2026-07-13T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "10. 2026-07-13 — Government Exhibit 4 — monitoring correspondence. Record ID CA9-SUP-000001-EMAIL."
+    },
+    {
+      "id": "D11",
+      "document_id": "CA9-SUP-000001-INT",
+      "court": "district",
+      "filed_at": "2026-07-14T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "11. 2026-07-14 — Joint Exhibit 5 — recorded interview transcript. Record ID CA9-SUP-000001-INT."
+    },
+    {
+      "id": "D12",
       "document_id": "CA9-SUP-000001-TRIAL",
       "court": "district",
       "filed_at": "2026-07-16T16:00:00-07:00",
       "docket_page": 2,
-      "entry_text": "9. 2026-07-16 — Trial transcript — July 13–16. Record ID CA9-SUP-000001-TRIAL."
+      "entry_text": "12. 2026-07-16 — Trial transcript — July 13–16. Record ID CA9-SUP-000001-TRIAL."
     },
     {
-      "id": "D10",
+      "id": "D13",
       "document_id": "CA9-SUP-000001-INSTR",
       "court": "district",
       "filed_at": "2026-07-16T16:00:00-07:00",
       "docket_page": 2,
-      "entry_text": "10. 2026-07-16 — Final jury instructions. Record ID CA9-SUP-000001-INSTR."
+      "entry_text": "13. 2026-07-16 — Final jury instructions. Record ID CA9-SUP-000001-INSTR."
     },
     {
-      "id": "D11",
+      "id": "D14",
       "document_id": "CA9-SUP-000001-VER",
       "court": "district",
       "filed_at": "2026-07-16T16:00:00-07:00",
       "docket_page": 2,
-      "entry_text": "11. 2026-07-16 — Jury verdict. Record ID CA9-SUP-000001-VER."
-    },
-    {
-      "id": "D12",
-      "document_id": "CA9-SUP-000001-R29",
-      "court": "district",
-      "filed_at": "2026-07-20T16:00:00-07:00",
-      "docket_page": 2,
-      "entry_text": "12. 2026-07-20 — Renewed motion for judgment of acquittal. Record ID CA9-SUP-000001-R29."
-    },
-    {
-      "id": "D13",
-      "document_id": "CA9-SUP-000001-GOPP",
-      "court": "district",
-      "filed_at": "2026-07-27T16:00:00-07:00",
-      "docket_page": 2,
-      "entry_text": "13. 2026-07-27 — Government opposition to Rule 29 motion. Record ID CA9-SUP-000001-GOPP."
-    },
-    {
-      "id": "D14",
-      "document_id": "CA9-SUP-000001-ORDER",
-      "court": "district",
-      "filed_at": "2026-08-04T16:00:00-07:00",
-      "docket_page": 2,
-      "entry_text": "14. 2026-08-04 — Order denying renewed motion. Record ID CA9-SUP-000001-ORDER."
+      "entry_text": "14. 2026-07-16 — Jury verdict. Record ID CA9-SUP-000001-VER."
     },
     {
       "id": "D15",
+      "document_id": "CA9-SUP-000001-R29",
+      "court": "district",
+      "filed_at": "2026-07-20T16:00:00-07:00",
+      "docket_page": 3,
+      "entry_text": "15. 2026-07-20 — Renewed motion for judgment of acquittal. Record ID CA9-SUP-000001-R29."
+    },
+    {
+      "id": "D16",
+      "document_id": "CA9-SUP-000001-GOPP",
+      "court": "district",
+      "filed_at": "2026-07-27T16:00:00-07:00",
+      "docket_page": 3,
+      "entry_text": "16. 2026-07-27 — Government opposition to Rule 29 motion. Record ID CA9-SUP-000001-GOPP."
+    },
+    {
+      "id": "D17",
+      "document_id": "CA9-SUP-000001-ORDER",
+      "court": "district",
+      "filed_at": "2026-08-04T16:00:00-07:00",
+      "docket_page": 3,
+      "entry_text": "17. 2026-08-04 — Order denying renewed motion. Record ID CA9-SUP-000001-ORDER."
+    },
+    {
+      "id": "D18",
       "document_id": "CA9-SUP-000001-SENT",
       "court": "district",
       "filed_at": "2026-09-01T16:00:00-07:00",
       "docket_page": 3,
-      "entry_text": "15. 2026-09-01 — Sentencing transcript. Record ID CA9-SUP-000001-SENT."
+      "entry_text": "18. 2026-09-01 — Sentencing transcript. Record ID CA9-SUP-000001-SENT."
     },
     {
-      "id": "D16",
+      "id": "D19",
       "document_id": "CA9-SUP-000001-JUD",
       "court": "district",
       "filed_at": "2026-09-01T16:00:00-07:00",
       "docket_page": 3,
-      "entry_text": "16. 2026-09-01 — Judgment in a criminal case. Record ID CA9-SUP-000001-JUD."
+      "entry_text": "19. 2026-09-01 — Judgment in a criminal case. Record ID CA9-SUP-000001-JUD."
     },
     {
-      "id": "D17",
+      "id": "D20",
       "document_id": "CA9-SUP-000001-NOA",
       "court": "district",
       "filed_at": "2026-09-10T16:00:00-07:00",
       "docket_page": 3,
-      "entry_text": "17. 2026-09-10 — Notice of appeal. Record ID CA9-SUP-000001-NOA."
+      "entry_text": "20. 2026-09-10 — Notice of appeal. Record ID CA9-SUP-000001-NOA."
     },
     {
       "id": "A01",
@@ -1261,6 +1366,17 @@
       "mode": "canonical",
       "asserted_value": "2026-09-10",
       "unit": "date"
+    },
+    {
+      "id": "AS14",
+      "document_id": "CA9-SUP-000001-INT",
+      "page": 4,
+      "fact_id": "F06",
+      "quote": "I checked all six before I signed.",
+      "speaker_id": "D",
+      "mode": "testimony",
+      "asserted_value": "I checked all six before I signed.",
+      "unit": "verbatim"
     }
   ],
   "evidence": [
@@ -1321,6 +1437,20 @@
       "provenance": "Fictional original maintained by identified custodian; see source document and future testimony.",
       "page": 1,
       "quote": "The monitoring item remains open."
+    },
+    {
+      "id": "EV5",
+      "document_id": "CA9-SUP-000001-INT",
+      "event_id": "T06",
+      "custodian_id": "L",
+      "fact_ids": [
+        "F06"
+      ],
+      "record_status": "filed",
+      "admission_status": "admitted",
+      "provenance": "Fictional retained recording and trial authentication, exact words in agreed transcript.",
+      "page": 4,
+      "quote": "I checked all six before I signed."
     }
   ],
   "excerpts": [],
@@ -1328,7 +1458,7 @@
   "arguments": [],
   "timeliness_review": {
     "reviewed": true,
-    "basis": "Final judgment September 1, notice September 10 (9 days, within FRAP 4(b)(1)(A)); renewed Rule 29 July 20 after July 16 verdict (4 days). Opening served Oct 15, answer Nov 12 (28 days), reply Nov 23 (11 days). Trial exclusions and final local schedule still require record review."
+    "basis": "Final judgment September 1, notice September 10 (9 days, within FRAP 4(b)(1)(A)); renewed Rule 29 July 20 after July 16 verdict (4 days). Opening served Oct 15, answer Nov 12 (28 days), reply Nov 23 (11 days). Trial exclusions and final local schedule still require record review. Actual continuance orders entered Jan 12, Mar 9 and May 4 after later-of indictment/first appearance Dec 8; each includes case-specific ends-of-justice findings, continuous exclusion through July 13 setting. Pre-exclusion elapsed days 34 (Dec 9–Jan 11). Final Speedy Trial Act and transcript review pending."
   },
   "reviews": [],
   "unresolved_blockers": [

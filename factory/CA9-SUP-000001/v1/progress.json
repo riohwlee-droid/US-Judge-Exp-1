@@ -68,23 +68,60 @@
       "words": 128
     },
     {
+      "id": "CA9-SUP-000001-CONT1",
+      "path": "records/CA9-SUP-000001/v1/CONT1.md",
+      "pages": 1,
+      "words": 247,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-CONT2",
+      "path": "records/CA9-SUP-000001/v1/CONT2.md",
+      "pages": 1,
+      "words": 243,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-CONT3",
+      "path": "records/CA9-SUP-000001/v1/CONT3.md",
+      "pages": 1,
+      "words": 249,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-INT",
+      "path": "records/CA9-SUP-000001/v1/INT.md",
+      "pages": 6,
+      "words": 851,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-TRIAL",
+      "path": "records/CA9-SUP-000001/v1/TRIAL.md",
+      "pages": 38,
+      "words": 5757,
+      "complete": false
+    },
+    {
       "id": "CA9-SUP-000001-TD",
       "path": "records/CA9-SUP-000001/v1/TD.md",
       "pages": 3,
-      "words": 259
+      "words": 283,
+      "complete": true
     },
     {
       "id": "CA9-SUP-000001-AD",
       "path": "records/CA9-SUP-000001/v1/AD.md",
       "pages": 1,
-      "words": 88
+      "words": 88,
+      "complete": true
     }
   ],
-  "original_pages": 30,
-  "original_words": 3703,
-  "planned_documents": 26,
-  "planned_original_pages": 233,
-  "next_batch": "Author remaining original lower-court documents; reconcile filed dates/attachments and citations; complete record, excerpts, actual legal research, briefs and review. No seal.",
+  "original_pages": 77,
+  "original_words": 11074,
+  "planned_documents": 29,
+  "planned_original_pages": 230,
+  "next_batch": "Complete trial transcript from government rest, Rule 29, defense witnesses, closing, jury instructions and verdict; then posttrial motions, sentencing, appellate briefs and research. Current trial file is partial and not record-stage certified.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [
