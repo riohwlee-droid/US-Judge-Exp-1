@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "court_id": "CA9",
+  "provisional_cutoff": "2026-11-27",
+  "low_watermark": 1,
+  "target_stock": 3,
+  "max_open_jobs": 3,
+  "max_intake_per_turn": 2,
+  "track_weights": {
+    "civil_summary_judgment": 40,
+    "civil_trial": 25,
+    "criminal_trial": 25,
+    "criminal_suppression": 10
+  },
+  "district_rotation": [
+    "NDCA",
+    "CDCA",
+    "AZ",
+    "WDWA",
+    "EDCA",
+    "OR",
+    "SDCA",
+    "NV",
+    "EDWA",
+    "ID",
+    "MT",
+    "AK",
+    "HI",
+    "GU",
+    "NMI"
+  ],
+  "legacy_release": "factory/CA9-26-001/v1/release.json",
+  "seed": "CA9-supply-policy-v1",
+  "limits": "Simulation design weights, not actual court statistics. Exact common legal cutoff; reviewed calendars and conflicts required. No external AI invocation."
+}

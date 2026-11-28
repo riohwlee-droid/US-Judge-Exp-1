@@ -21,9 +21,10 @@ jobs:
           fetch-depth: 0
       - run: python3 -m unittest discover -s tests -v
       - run: python3 scripts/seal_factory.py
+      - run: python3 scripts/sync_supply.py
       - name: Publish releases
         run: |
-          git add -A -- factory
+          git add -A -- factory supply
           if ! git diff --cached --quiet; then
             git -c user.name='judge-save[bot]' -c user.email='judge-save-bot@users.noreply.github.com' commit -m 'Seal reviewed CA9 case package'
             git push origin HEAD:main
