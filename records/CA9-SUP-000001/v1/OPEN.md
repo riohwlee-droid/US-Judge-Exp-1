@@ -65,7 +65,7 @@ The government presented the coordinator, technician, specialist, and records cu
 <!-- PAGE 9 -->
 
 SUMMARY OF ARGUMENT
-The immediate exchange places an important limit on what can reasonably be inferred from the first affirmative answer. The government was free to prove an knowingly false assertion of personal inspection, but not to convert poor terminology into a crime by excising the explanation that followed. The physical location of the two instruments is undisputed; the asserted method of checking is the issue. The mental state must attach to that asserted meaning. Finally, materiality concerns the actual monitoring function: a hypothetical tendency to influence cannot be divorced from the particular information already disclosed and the steps the specialist had identified. No actual reliance is required, but there must be an evidentiary basis for capability.
+The immediate exchange places an important limit on what can reasonably be inferred from the first affirmative answer. The government was free to prove a knowingly false assertion of personal inspection, but not to convert poor terminology into a crime by excising the explanation that followed. The physical location of the two instruments is undisputed; the asserted method of checking is the issue. The mental state must attach to that asserted meaning. Finally, materiality concerns the actual monitoring function: a hypothetical tendency to influence cannot be divorced from the particular information already disclosed and the steps the specialist had identified. No actual reliance is required, but there must be an evidentiary basis for capability.
 
 <!-- PAGE 10 -->
 

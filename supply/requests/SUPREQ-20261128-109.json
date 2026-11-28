@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "request_id": "SUPREQ-20261128-109",
+  "action": "advance",
+  "job_id": "CA9-SUP-000001",
+  "expected_status": "working",
+  "stage": "review",
+  "note": "Final bounded simulation review and immutable release requested; no official admission."
+}

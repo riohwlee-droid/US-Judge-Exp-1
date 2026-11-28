@@ -1,5 +1,5 @@
 {
-  "status": "briefs_authored_research_reviewed_gate_pending",
+  "status": "final_review_submitted",
   "authored_documents": [
     {
       "id": "CA9-SUP-000001-IND",
@@ -178,7 +178,7 @@
   "original_words": 30461,
   "planned_documents": 29,
   "planned_original_pages": 230,
-  "next_batch": "Run briefs gate; audit semantic and local rule review before requesting release.",
+  "next_batch": "Await review and seal receipts; stock not counted until valid release.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [

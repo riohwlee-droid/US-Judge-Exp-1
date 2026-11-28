@@ -1583,8 +1583,7 @@
       "event_id": "T05",
       "custodian_id": "A",
       "fact_ids": [
-        "F07",
-        "F08"
+        "F07"
       ],
       "record_status": "filed",
       "admission_status": "admitted",
@@ -3695,12 +3694,93 @@
     "reviewed": true,
     "basis": "Final judgment September 1, notice September 10 (9 days, within FRAP 4(b)(1)(A)); renewed Rule 29 July 20 after July 16 verdict (4 days). Opening served Oct 15, answer Nov 12 (28 days), reply Nov 23 (11 days). Trial exclusions and final local schedule still require record review. Actual continuance orders entered Jan 12, Mar 9 and May 4 after later-of indictment/first appearance Dec 8; each includes case-specific ends-of-justice findings, continuous exclusion through July 13 setting. Pre-exclusion elapsed days 34 (Dec 9–Jan 11). Final Speedy Trial Act and transcript review pending."
   },
-  "reviews": [],
-  "unresolved_blockers": [
-    "Original documents not all authored",
-    "Actual evidence annotations, excerpts, briefs and citation audits incomplete",
-    "Subsequent-treatment and semantic review pending"
+  "reviews": [
+    {
+      "id": "chronology",
+      "status": "passed",
+      "reviewer": "ChatGPT record continuity review role",
+      "basis": "25 dated ledger events including three continuances; award, transfer, worksheet, certification, interview, later receipt, indictment, arraignment, trial, verdict, motion, order, judgment, appeal and briefing in chronological order. Date-only times are ordering conventions; evidence creation mismatch repaired and record gate passed.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "identity_amounts_units",
+      "status": "passed",
+      "reviewer": "ChatGPT record continuity review role",
+      "basis": "15 canonical facts, 18 exact fact annotations; six serials, four onsite/two offsite, custody dates, single count, verdict, six-month term and one-year supervision. No disputed mental state set as canonical.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "knowledge_and_access",
+      "status": "passed",
+      "reviewer": "ChatGPT record continuity review role",
+      "basis": "Witness testimony is limited to each participant's observations, documents and recollection. The speaker's claimed meaning and agency understanding remain competing inferences. No hidden actual mental state is supplied.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "docket_and_evidence",
+      "status": "passed",
+      "reviewer": "ChatGPT record continuity review role",
+      "basis": "27 indexed filings plus two docket originals; five trial exhibits, stipulations, 95-page trial transcript, instructions, verdict, reasoned continuance orders, posttrial filings, sentencing and final judgment. ER sources verified against originals. Disclosure is simulated public record only.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "jurisdiction_and_timeliness",
+      "status": "passed",
+      "reviewer": "ChatGPT procedure review role",
+      "basis": "18 USC 3231 and 28 USC 1291, final criminal judgment; 34 nonexcluded calendar days before three documented ends-of-justice continuances; renewed Rule 29 motion 4 days after verdict, NOA 9 days after judgment; answering brief 28 days after opening, reply 11 days later. No tolling motion remains unresolved. Time precision limited to recorded or logical date.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "preservation_and_review_standard",
+      "status": "passed",
+      "reviewer": "ChatGPT procedure review role",
+      "basis": "Trial pp.39 and 64, renewed written Rule 29, order p.1; only sufficiency, no new instructional or sentencing claim. De novo and rational trier test favoring verdict, no appellate reweighing.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "record_pinpoints",
+      "status": "passed",
+      "reviewer": "ChatGPT record continuity review role",
+      "basis": "54 page-level appellate record references and 3 exact quoted assertions linked to interview; 176 excerpt pages checked. Rechecked trial pp.6,15,24,26–28,31,39,51,55–56,58,64 against actual argument propositions. No reliance on unfiled creator material.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "legal_pinpoints_and_treatment",
+      "status": "passed",
+      "reviewer": "ChatGPT legal source review role",
+      "basis": "Eight actual authorities, 56 citation occurrences across 26 original document audits. Briefs gate passed; original case/rule excerpts, reporter identity and bounded subsequent-treatment review including limits of Charley instruction concession, Atalig, Lee and Neder. No commercial clearance; see research records.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "adversarial_balance",
+      "status": "passed",
+      "reviewer": "ChatGPT adversarial review role",
+      "basis": "Appellant challenges meaning, mental-state evidence and capacity in context; government invokes specific question, recorded clarification and corroborating facts. Both address strongest adverse points, same record and burden; verdict below not independent evidence.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "no_predetermined_appellate_result",
+      "status": "passed",
+      "reviewer": "ChatGPT adversarial review role",
+      "basis": "Only lower court verdict and ruling are fixed procedural history; no appellate decision, winner, bench memo, score, panel vote or answer key. Relief sought separately for both sides.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "length_and_originality",
+      "status": "passed",
+      "reviewer": "ChatGPT record continuity review role",
+      "basis": "26 original documents, 219 logical pages; approximately 30,461 authored words per progress ledger, actual word count determined by compiler. 176 duplicate excerpt pages and six index pages excluded. All brief and original-record gates passed.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "local_rule_compliance",
+      "status": "passed",
+      "reviewer": "ChatGPT procedure review role",
+      "basis": "CA9 Rule 30-1 current court excerpts guidance https://www.ca9.uscourts.gov/filing/excerpts/ and citing-excerpts guidance, FRAP 28/32; volume one challenged rulings, remaining volume groups trial/exhibits, notice and docket last, separate index with docket entry locations. Briefs include required logical sections, authorities, record cites and certificates. Logical simulation format only, no physical PDF, real ECF/typography or certified transcript compliance claimed. Stable logical-page simulation record, not certified physical PDF/ECF filing or official transcript. Bounded legal source and subsequent treatment search; no comprehensive commercial citator and no external independent reviewer. Creator and review roles performed by same ChatGPT. Later law/corrections must be handled separately without silent alteration.",
+      "checked_at": "2026-11-28"
+    }
   ],
+  "unresolved_blockers": [],
   "legal_uses": [
     {
       "id": "LU1",
@@ -5876,5 +5956,14 @@
       "source_page": 28,
       "review_status": "Page anchor linked; merits and full-sentence review pending."
     }
-  ]
+  ],
+  "release_scope": {
+    "format": "stable_logical_pages",
+    "purpose": "simulation_only",
+    "legal_cutoff": "2026-11-27",
+    "physical_pdf_certified": false,
+    "external_independent_review": false,
+    "commercial_citator_clearance": false,
+    "limitations": "Stable logical-page simulation record, not certified physical PDF/ECF filing or official transcript. Bounded legal source and subsequent treatment search; no comprehensive commercial citator and no external independent reviewer. Creator and review roles performed by same ChatGPT. Later law/corrections must be handled separately without silent alteration."
+  }
 }
