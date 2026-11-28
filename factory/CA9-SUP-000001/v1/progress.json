@@ -1,5 +1,5 @@
 {
-  "status": "working_originals_partial",
+  "status": "authored_all_originals_legal_review_pending",
   "authored_documents": [
     {
       "id": "CA9-SUP-000001-IND",
@@ -151,13 +151,34 @@
       "pages": 4,
       "words": 539,
       "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-OPEN",
+      "path": "records/CA9-SUP-000001/v1/OPEN.md",
+      "pages": 17,
+      "words": 1875,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-ANSWER",
+      "path": "records/CA9-SUP-000001/v1/ANSWER.md",
+      "pages": 17,
+      "words": 1807,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-REPLY",
+      "path": "records/CA9-SUP-000001/v1/REPLY.md",
+      "pages": 7,
+      "words": 713,
+      "complete": true
     }
   ],
-  "original_pages": 178,
-  "original_words": 26066,
+  "original_pages": 219,
+  "original_words": 30461,
   "planned_documents": 29,
   "planned_original_pages": 230,
-  "next_batch": "Author opening, answering and reply briefs; source-specific research and independent-role review remain.",
+  "next_batch": "Complete proposition-specific legal research, citation audit and review; do not seal until every gate passes.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [

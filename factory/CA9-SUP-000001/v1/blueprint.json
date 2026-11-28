@@ -876,11 +876,54 @@
       "actor_id": "B",
       "created_at": "2026-10-15T09:00:00-07:00",
       "filed_at": "2026-10-15T16:00:00-07:00",
-      "pages": 18,
+      "pages": 17,
       "path": "records/CA9-SUP-000001/v1/OPEN.md",
       "depends_on": [],
       "access": "judge",
-      "status": "filed"
+      "status": "filed",
+      "sections": {
+        "table_of_contents": {
+          "page": 2,
+          "heading": "TABLE OF CONTENTS"
+        },
+        "table_of_authorities": {
+          "page": 3,
+          "heading": "TABLE OF AUTHORITIES"
+        },
+        "jurisdiction": {
+          "page": 4,
+          "heading": "JURISDICTIONAL STATEMENT"
+        },
+        "issues": {
+          "page": 4,
+          "heading": "ISSUE PRESENTED"
+        },
+        "statement_of_case": {
+          "page": 5,
+          "heading": "STATEMENT OF THE CASE"
+        },
+        "summary": {
+          "page": 9,
+          "heading": "SUMMARY OF ARGUMENT"
+        },
+        "standard_of_review": {
+          "page": 10,
+          "heading": "STANDARD OF REVIEW"
+        },
+        "argument": {
+          "page": 11,
+          "heading": "ARGUMENT"
+        },
+        "conclusion": {
+          "page": 16,
+          "heading": "CONCLUSION"
+        },
+        "certificate": {
+          "page": 17,
+          "heading": "CERTIFICATES"
+        }
+      },
+      "body_words_reviewed": 1500
     },
     {
       "id": "CA9-SUP-000001-ER1",
@@ -930,11 +973,34 @@
       "actor_id": "G",
       "created_at": "2026-11-12T09:00:00-08:00",
       "filed_at": "2026-11-12T16:00:00-08:00",
-      "pages": 18,
+      "pages": 17,
       "path": "records/CA9-SUP-000001/v1/ANSWER.md",
       "depends_on": [],
       "access": "judge",
-      "status": "filed"
+      "status": "filed",
+      "sections": {
+        "table_of_contents": {
+          "page": 2,
+          "heading": "TABLE OF CONTENTS"
+        },
+        "table_of_authorities": {
+          "page": 3,
+          "heading": "TABLE OF AUTHORITIES"
+        },
+        "argument": {
+          "page": 11,
+          "heading": "ARGUMENT"
+        },
+        "conclusion": {
+          "page": 16,
+          "heading": "CONCLUSION"
+        },
+        "certificate": {
+          "page": 17,
+          "heading": "CERTIFICATES"
+        }
+      },
+      "body_words_reviewed": 1445
     },
     {
       "id": "CA9-SUP-000001-REPLY",
@@ -943,11 +1009,34 @@
       "actor_id": "B",
       "created_at": "2026-11-23T09:00:00-08:00",
       "filed_at": "2026-11-23T16:00:00-08:00",
-      "pages": 8,
+      "pages": 7,
       "path": "records/CA9-SUP-000001/v1/REPLY.md",
       "depends_on": [],
       "access": "judge",
-      "status": "filed"
+      "status": "filed",
+      "sections": {
+        "table_of_contents": {
+          "page": 2,
+          "heading": "TABLE OF CONTENTS"
+        },
+        "table_of_authorities": {
+          "page": 3,
+          "heading": "TABLE OF AUTHORITIES"
+        },
+        "argument": {
+          "page": 4,
+          "heading": "ARGUMENT"
+        },
+        "conclusion": {
+          "page": 7,
+          "heading": "CONCLUSION"
+        },
+        "certificate": {
+          "page": 7,
+          "heading": "CERTIFICATES"
+        }
+      },
+      "body_words_reviewed": 570
     },
     {
       "id": "CA9-SUP-000001-AD",
@@ -1391,6 +1480,57 @@
       "mode": "finding",
       "asserted_value": "denied",
       "unit": "ruling"
+    },
+    {
+      "id": "AS16",
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 7,
+      "fact_id": "F06",
+      "quote": "I checked all six before I signed.",
+      "speaker_id": "B",
+      "mode": "allegation",
+      "asserted_value": "I checked all six before I signed.",
+      "unit": "verbatim",
+      "record_cites": [
+        {
+          "cite": "2-ER-146",
+          "quote": "I checked all six before I signed."
+        }
+      ]
+    },
+    {
+      "id": "AS17",
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 7,
+      "fact_id": "F06",
+      "quote": "I checked all six before I signed.",
+      "speaker_id": "G",
+      "mode": "allegation",
+      "asserted_value": "I checked all six before I signed.",
+      "unit": "verbatim",
+      "record_cites": [
+        {
+          "cite": "2-ER-146",
+          "quote": "I checked all six before I signed."
+        }
+      ]
+    },
+    {
+      "id": "AS18",
+      "document_id": "CA9-SUP-000001-REPLY",
+      "page": 4,
+      "fact_id": "F06",
+      "quote": "I checked all six before I signed.",
+      "speaker_id": "B",
+      "mode": "allegation",
+      "asserted_value": "I checked all six before I signed.",
+      "unit": "verbatim",
+      "record_cites": [
+        {
+          "cite": "2-ER-146",
+          "quote": "I checked all six before I signed."
+        }
+      ]
     }
   ],
   "evidence": [
@@ -3109,7 +3249,448 @@
       "lookup_cluster_id": 4891025
     }
   ],
-  "arguments": [],
+  "arguments": [
+    {
+      "id": "ARG-1",
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 4,
+      "quote": "18 U.S.C. § 1001(a)(2)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "STAT",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Proposition used subject to contextual limitations: The charged subsection requires a materially false representation made knowingly and willfully in a federal matter."
+        }
+      ]
+    },
+    {
+      "id": "ARG-2",
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 8,
+      "quote": "Fed. R. Crim. P. 29(c)(1)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "R29",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Proposition used subject to contextual limitations: Renewed acquittal motion within 14 days of verdict/discharge."
+        }
+      ]
+    },
+    {
+      "id": "ARG-3",
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 10,
+      "quote": "Musacchio v. United States, 577 U.S. 237, 243 (2016)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "MUS",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Sufficiency review asks whether a rational factfinder could find the statutory elements beyond reasonable doubt, favorably to prosecution."
+        },
+        {
+          "authority_id": "STAT",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Proposition used subject to contextual limitations: The charged subsection requires a materially false representation made knowingly and willfully in a federal matter."
+        }
+      ]
+    },
+    {
+      "id": "ARG-4",
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 11,
+      "quote": "United States v. Jiang, 476 F.3d 1026, 1029–31 (9th Cir. 2007)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "JIANG",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: In sufficiency review of false statements, actual context and extrinsic evidence bearing on defendant's understanding matter; reversal on particular insufficient record."
+        },
+        {
+          "authority_id": "MUS",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Sufficiency review asks whether a rational factfinder could find the statutory elements beyond reasonable doubt, favorably to prosecution."
+        }
+      ]
+    },
+    {
+      "id": "ARG-5",
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 12,
+      "quote": "United States v. Camper, 384 F.3d 1073, 1076–77 (9th Cir. 2004)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "CAMP",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Some ambiguity need not preclude a conviction if evidence supports the defendant's actual understanding and knowing false response."
+        },
+        {
+          "authority_id": "JIANG",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: In sufficiency review of false statements, actual context and extrinsic evidence bearing on defendant's understanding matter; reversal on particular insufficient record."
+        }
+      ]
+    },
+    {
+      "id": "ARG-6",
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 13,
+      "quote": "United States v. Charley, 1 F.4th 637, 643–45 (9th Cir. 2021)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "CHAR",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Knowledge that false statement conduct is unlawful is required; circumstantial proof can establish it; specific facts matter."
+        },
+        {
+          "authority_id": "STAT",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Proposition used subject to contextual limitations: The charged subsection requires a materially false representation made knowingly and willfully in a federal matter."
+        },
+        {
+          "authority_id": "JIANG",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: In sufficiency review of false statements, actual context and extrinsic evidence bearing on defendant's understanding matter; reversal on particular insufficient record."
+        }
+      ]
+    },
+    {
+      "id": "ARG-7",
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 14,
+      "quote": "United States v. Gaudin, 515 U.S. 506, 522–23 (1995)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "GAUD",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Jury, not judge, must decide materiality as an element beyond reasonable doubt."
+        },
+        {
+          "authority_id": "PETER",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Objective materiality capability standard, not actual influence; Peterson considered plain error in instruction and sufficiency in its context."
+        }
+      ]
+    },
+    {
+      "id": "ARG-8",
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 15,
+      "quote": "United States v. Peterson, 538 F.3d 1064, 1072 (9th Cir. 2008)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "PETER",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Objective materiality capability standard, not actual influence; Peterson considered plain error in instruction and sufficiency in its context."
+        }
+      ]
+    },
+    {
+      "id": "ARG-9",
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 4,
+      "quote": "18 U.S.C. § 1001(a)(2)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "STAT",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Proposition used subject to contextual limitations: The charged subsection requires a materially false representation made knowingly and willfully in a federal matter."
+        }
+      ]
+    },
+    {
+      "id": "ARG-10",
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 8,
+      "quote": "Fed. R. Crim. P. 29(c)(1)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "R29",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Proposition used subject to contextual limitations: Renewed acquittal motion within 14 days of verdict/discharge."
+        }
+      ]
+    },
+    {
+      "id": "ARG-11",
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 10,
+      "quote": "Musacchio v. United States, 577 U.S. 237, 243 (2016)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "MUS",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Sufficiency review asks whether a rational factfinder could find the statutory elements beyond reasonable doubt, favorably to prosecution."
+        },
+        {
+          "authority_id": "STAT",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Proposition used subject to contextual limitations: The charged subsection requires a materially false representation made knowingly and willfully in a federal matter."
+        }
+      ]
+    },
+    {
+      "id": "ARG-12",
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 11,
+      "quote": "United States v. Camper, 384 F.3d 1073, 1076–77 (9th Cir. 2004)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "CAMP",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Some ambiguity need not preclude a conviction if evidence supports the defendant's actual understanding and knowing false response."
+        },
+        {
+          "authority_id": "MUS",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Sufficiency review asks whether a rational factfinder could find the statutory elements beyond reasonable doubt, favorably to prosecution."
+        }
+      ]
+    },
+    {
+      "id": "ARG-13",
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 12,
+      "quote": "United States v. Jiang, 476 F.3d 1026, 1029–31 (9th Cir. 2007)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "JIANG",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: In sufficiency review of false statements, actual context and extrinsic evidence bearing on defendant's understanding matter; reversal on particular insufficient record."
+        },
+        {
+          "authority_id": "CAMP",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Some ambiguity need not preclude a conviction if evidence supports the defendant's actual understanding and knowing false response."
+        }
+      ]
+    },
+    {
+      "id": "ARG-14",
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 13,
+      "quote": "United States v. Charley, 1 F.4th 637, 643–45 (9th Cir. 2021)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "CHAR",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Knowledge that false statement conduct is unlawful is required; circumstantial proof can establish it; specific facts matter."
+        },
+        {
+          "authority_id": "STAT",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Proposition used subject to contextual limitations: The charged subsection requires a materially false representation made knowingly and willfully in a federal matter."
+        }
+      ]
+    },
+    {
+      "id": "ARG-15",
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 14,
+      "quote": "United States v. Gaudin, 515 U.S. 506, 522–23 (1995)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "GAUD",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Jury, not judge, must decide materiality as an element beyond reasonable doubt."
+        },
+        {
+          "authority_id": "PETER",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Objective materiality capability standard, not actual influence; Peterson considered plain error in instruction and sufficiency in its context."
+        }
+      ]
+    },
+    {
+      "id": "ARG-16",
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 15,
+      "quote": "United States v. Peterson, 538 F.3d 1064, 1072 (9th Cir. 2008)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "PETER",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Objective materiality capability standard, not actual influence; Peterson considered plain error in instruction and sufficiency in its context."
+        }
+      ]
+    },
+    {
+      "id": "ARG-17",
+      "document_id": "CA9-SUP-000001-REPLY",
+      "page": 4,
+      "quote": "United States v. Camper, 384 F.3d 1073, 1076–77 (9th Cir. 2004)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "CAMP",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Some ambiguity need not preclude a conviction if evidence supports the defendant's actual understanding and knowing false response."
+        },
+        {
+          "authority_id": "JIANG",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: In sufficiency review of false statements, actual context and extrinsic evidence bearing on defendant's understanding matter; reversal on particular insufficient record."
+        },
+        {
+          "authority_id": "MUS",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Sufficiency review asks whether a rational factfinder could find the statutory elements beyond reasonable doubt, favorably to prosecution."
+        }
+      ]
+    },
+    {
+      "id": "ARG-18",
+      "document_id": "CA9-SUP-000001-REPLY",
+      "page": 5,
+      "quote": "United States v. Charley, 1 F.4th 637, 643–45 (9th Cir. 2021)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "CHAR",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Knowledge that false statement conduct is unlawful is required; circumstantial proof can establish it; specific facts matter."
+        },
+        {
+          "authority_id": "JIANG",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: In sufficiency review of false statements, actual context and extrinsic evidence bearing on defendant's understanding matter; reversal on particular insufficient record."
+        }
+      ]
+    },
+    {
+      "id": "ARG-19",
+      "document_id": "CA9-SUP-000001-REPLY",
+      "page": 6,
+      "quote": "United States v. Peterson, 538 F.3d 1064, 1072 (9th Cir. 2008)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "PETER",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Proposition used subject to contextual limitations: Objective materiality capability standard, not actual influence; Peterson considered plain error in instruction and sufficiency in its context."
+        }
+      ]
+    }
+  ],
   "timeliness_review": {
     "reviewed": true,
     "basis": "Final judgment September 1, notice September 10 (9 days, within FRAP 4(b)(1)(A)); renewed Rule 29 July 20 after July 16 verdict (4 days). Opening served Oct 15, answer Nov 12 (28 days), reply Nov 23 (11 days). Trial exclusions and final local schedule still require record review. Actual continuance orders entered Jan 12, Mar 9 and May 4 after later-of indictment/first appearance Dec 8; each includes case-specific ends-of-justice findings, continuous exclusion through July 13 setting. Pre-exclusion elapsed days 34 (Dec 9–Jan 11). Final Speedy Trial Act and transcript review pending."
@@ -3381,5 +3962,493 @@
     "authority_reviews": [],
     "document_audits": [],
     "issue_searches": []
-  }
+  },
+  "brief_record_refs": [
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 4,
+      "cite": "1-ER-1",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-JUD",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 4,
+      "cite": "2-ER-173",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-NOA",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 5,
+      "cite": "2-ER-171",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-IND",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 5,
+      "cite": "2-ER-48",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 5,
+      "cite": "2-ER-164",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-STIP",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 6,
+      "cite": "2-ER-156",
+      "quote": "JOINT EXHIBIT 2 — PROPERTY VERIFICATION WORKSHEET",
+      "source_document_id": "CA9-SUP-000001-SHEET",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 6,
+      "cite": "2-ER-158",
+      "quote": "I have reviewed the attached property verification worksheet and associated records for the six listed instruments. To the best of my knowledge, the listed locations and custody information accurately reflect the property records reviewed. The basis of verification is identified on the worksheet; unresolved documentation is subject to follow-up.",
+      "source_document_id": "CA9-SUP-000001-SHEET",
+      "source_page": 3,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 6,
+      "cite": "2-ER-161",
+      "quote": "The cooperative shall prepare a periodic property verification record for the award file. A physical check may be combined with reliable third-party custody records for equipment temporarily at a service vendor, provided that the basis of verification is identified accurately. The record should distinguish direct observation from documentary confirmation. The individual signing the verification record is responsible for reviewing the supporting material and identifying exceptions that require follow-up. The signature does not convert a vendor receipt into a personal observation. The agency may request additional records to clarify a location or verification method. A request for clarification is not, by itself, a finding that the item is missing. The agency specialist may close a monitoring item, request additional supporting records or refer an unresolved discrepancy for further review.",
+      "source_document_id": "CA9-SUP-000001-GRANT",
+      "source_page": 2,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 6,
+      "cite": "2-ER-62",
+      "quote": "Q. Please look at Joint Exhibit 3. Do you recognize the transfer ticket?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 15,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 7,
+      "cite": "2-ER-149",
+      "quote": "GOVERNMENT EXHIBIT 4 — MONITORING CORRESPONDENCE",
+      "source_document_id": "CA9-SUP-000001-EMAIL",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 7,
+      "cite": "2-ER-150",
+      "quote": "I can make time Monday. The coordinator and technician compiled the sheet. I reviewed the six entries before signing. The last two were listed at calibration, not missing. I will ask whether the acknowledgment is available. I understand that you want to distinguish what we checked in the room from what is in the supporting file. I do not have the technician's complete email folder. Please let me know whether you want the original worksheet or a new copy with the service record attached. I have not amended the certification.",
+      "source_document_id": "CA9-SUP-000001-EMAIL",
+      "source_page": 2,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 7,
+      "cite": "2-ER-146",
+      "quote": "SOREN: Let me separate the records from the actual instruments. I know Nora checked the four in the room. As to you, did you personally check the six instruments themselves before signing the certification?",
+      "source_document_id": "CA9-SUP-000001-INT",
+      "source_page": 4,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 8,
+      "cite": "2-ER-86",
+      "quote": "THE COURT: Counsel, are there other government witnesses today?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 39,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 8,
+      "cite": "2-ER-111",
+      "quote": "MR. CARROW: Defense renews the Rule 29 motion on falsity, knowledge and materiality. The testimony now confirms the review of the worksheet and transfer list. There is no dispute that the two instruments were at the vendor and that the defendant did not personally inspect them there before the signature. What is disputed is whether his answer represented that he did. The complete recording does not merely supply an after-the-fact excuse; it contains the clarification at the moment of the statement. The government must prove beyond a reasonable doubt both the false representation and that he knowingly and willfully made it. The actual monitoring process continued along the course already indicated by the April second email. The government has not established materiality of the charged words in their context.",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 64,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 8,
+      "cite": "2-ER-40",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-VER",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 8,
+      "cite": "2-ER-32",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-R29",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 8,
+      "cite": "1-ER-5",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-ORDER",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 11,
+      "cite": "2-ER-146",
+      "quote": "SOREN: Let me separate the records from the actual instruments. I know Nora checked the four in the room. As to you, did you personally check the six instruments themselves before signing the certification?",
+      "source_document_id": "CA9-SUP-000001-INT",
+      "source_page": 4,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 12,
+      "cite": "2-ER-75",
+      "quote": "Q. The original worksheet you received before April seventh disclosed that Nora had visually inspected four instruments and the other two were at a vendor, correct?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 28,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 13,
+      "cite": "2-ER-102",
+      "quote": "Q. Did you hear yourself say on the recording that you were not saying you did Nora's inventory for her?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 55,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 13,
+      "cite": "2-ER-103",
+      "quote": "Q. Mr. Denslow, you were not a new employee who had never seen the award attachment, correct?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 56,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 14,
+      "cite": "2-ER-73",
+      "quote": "Q. Explain what the initial answer could have meant for your monitoring work.",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 26,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 14,
+      "cite": "2-ER-75",
+      "quote": "Q. The original worksheet you received before April seventh disclosed that Nora had visually inspected four instruments and the other two were at a vendor, correct?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 28,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 14,
+      "cite": "2-ER-78",
+      "quote": "Q. Did you have a written award term requiring the administrator to personally look at every tag?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 31,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-OPEN",
+      "page": 15,
+      "cite": "2-ER-74",
+      "quote": "Q. Did you receive a vendor receipt on April nine?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 27,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 4,
+      "cite": "1-ER-1",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-JUD",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 4,
+      "cite": "2-ER-173",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-NOA",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 5,
+      "cite": "2-ER-156",
+      "quote": "JOINT EXHIBIT 2 — PROPERTY VERIFICATION WORKSHEET",
+      "source_document_id": "CA9-SUP-000001-SHEET",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 5,
+      "cite": "2-ER-161",
+      "quote": "The cooperative shall prepare a periodic property verification record for the award file. A physical check may be combined with reliable third-party custody records for equipment temporarily at a service vendor, provided that the basis of verification is identified accurately. The record should distinguish direct observation from documentary confirmation. The individual signing the verification record is responsible for reviewing the supporting material and identifying exceptions that require follow-up. The signature does not convert a vendor receipt into a personal observation. The agency may request additional records to clarify a location or verification method. A request for clarification is not, by itself, a finding that the item is missing. The agency specialist may close a monitoring item, request additional supporting records or refer an unresolved discrepancy for further review.",
+      "source_document_id": "CA9-SUP-000001-GRANT",
+      "source_page": 2,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 5,
+      "cite": "2-ER-53",
+      "quote": "A. I went through the cabinets and read the serial labels. Four instruments were in the cabinets. The two reference instruments had gone out for calibration the day before.",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 6,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 5,
+      "cite": "2-ER-62",
+      "quote": "Q. Please look at Joint Exhibit 3. Do you recognize the transfer ticket?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 15,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 6,
+      "cite": "2-ER-149",
+      "quote": "GOVERNMENT EXHIBIT 4 — MONITORING CORRESPONDENCE",
+      "source_document_id": "CA9-SUP-000001-EMAIL",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 6,
+      "cite": "2-ER-150",
+      "quote": "I can make time Monday. The coordinator and technician compiled the sheet. I reviewed the six entries before signing. The last two were listed at calibration, not missing. I will ask whether the acknowledgment is available. I understand that you want to distinguish what we checked in the room from what is in the supporting file. I do not have the technician's complete email folder. Please let me know whether you want the original worksheet or a new copy with the service record attached. I have not amended the certification.",
+      "source_document_id": "CA9-SUP-000001-EMAIL",
+      "source_page": 2,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 6,
+      "cite": "2-ER-151",
+      "quote": "Please retain the existing certification unchanged. The purpose of our discussion is to understand the verification, not to produce a replacement document during the call. I would like to review how you used the worksheet and whether you personally checked the items before certifying. I will ask about the two service entries in particular. The item will remain open until the documentation and verification questions are resolved. We can take the remaining records by email after the discussion. The parties have agreed to record the discussion for accuracy.",
+      "source_document_id": "CA9-SUP-000001-EMAIL",
+      "source_page": 3,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 6,
+      "cite": "2-ER-71",
+      "quote": "Q. Did you ask what he normally looked at before signing?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 24,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 7,
+      "cite": "2-ER-146",
+      "quote": "SOREN: Let me separate the records from the actual instruments. I know Nora checked the four in the room. As to you, did you personally check the six instruments themselves before signing the certification?",
+      "source_document_id": "CA9-SUP-000001-INT",
+      "source_page": 4,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 8,
+      "cite": "2-ER-98",
+      "quote": "Q. What was the process when you signed on March thirteen?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 51,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 8,
+      "cite": "2-ER-103",
+      "quote": "Q. Mr. Denslow, you were not a new employee who had never seen the award attachment, correct?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 56,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 8,
+      "cite": "2-ER-102",
+      "quote": "Q. Did you hear yourself say on the recording that you were not saying you did Nora's inventory for her?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 55,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 8,
+      "cite": "2-ER-111",
+      "quote": "MR. CARROW: Defense renews the Rule 29 motion on falsity, knowledge and materiality. The testimony now confirms the review of the worksheet and transfer list. There is no dispute that the two instruments were at the vendor and that the defendant did not personally inspect them there before the signature. What is disputed is whether his answer represented that he did. The complete recording does not merely supply an after-the-fact excuse; it contains the clarification at the moment of the statement. The government must prove beyond a reasonable doubt both the false representation and that he knowingly and willfully made it. The actual monitoring process continued along the course already indicated by the April second email. The government has not established materiality of the charged words in their context.",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 64,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 8,
+      "cite": "2-ER-40",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-VER",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 8,
+      "cite": "2-ER-32",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-R29",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 8,
+      "cite": "1-ER-5",
+      "quote": "United States v. Avery R. Denslow — SIM-NDCA-25-CR-014 (fictional)",
+      "source_document_id": "CA9-SUP-000001-ORDER",
+      "source_page": 1,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 11,
+      "cite": "2-ER-146",
+      "quote": "SOREN: Let me separate the records from the actual instruments. I know Nora checked the four in the room. As to you, did you personally check the six instruments themselves before signing the certification?",
+      "source_document_id": "CA9-SUP-000001-INT",
+      "source_page": 4,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 11,
+      "cite": "2-ER-103",
+      "quote": "Q. Mr. Denslow, you were not a new employee who had never seen the award attachment, correct?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 56,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 12,
+      "cite": "2-ER-105",
+      "quote": "Q. When he asked whether that included the two at calibration, you answered, \"Those were checked too,\" correct?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 58,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 13,
+      "cite": "2-ER-102",
+      "quote": "Q. Did you hear yourself say on the recording that you were not saying you did Nora's inventory for her?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 55,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 13,
+      "cite": "2-ER-103",
+      "quote": "Q. Mr. Denslow, you were not a new employee who had never seen the award attachment, correct?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 56,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 14,
+      "cite": "2-ER-73",
+      "quote": "Q. Explain what the initial answer could have meant for your monitoring work.",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 26,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 15,
+      "cite": "2-ER-71",
+      "quote": "Q. Did you ask what he normally looked at before signing?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 24,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "page": 15,
+      "cite": "2-ER-74",
+      "quote": "Q. Did you receive a vendor receipt on April nine?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 27,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-REPLY",
+      "page": 4,
+      "cite": "2-ER-146",
+      "quote": "SOREN: Let me separate the records from the actual instruments. I know Nora checked the four in the room. As to you, did you personally check the six instruments themselves before signing the certification?",
+      "source_document_id": "CA9-SUP-000001-INT",
+      "source_page": 4,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-REPLY",
+      "page": 5,
+      "cite": "2-ER-102",
+      "quote": "Q. Did you hear yourself say on the recording that you were not saying you did Nora's inventory for her?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 55,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    },
+    {
+      "document_id": "CA9-SUP-000001-REPLY",
+      "page": 6,
+      "cite": "2-ER-75",
+      "quote": "Q. The original worksheet you received before April seventh disclosed that Nora had visually inspected four instruments and the other two were at a vendor, correct?",
+      "source_document_id": "CA9-SUP-000001-TRIAL",
+      "source_page": 28,
+      "review_status": "Page anchor linked; merits and full-sentence review pending."
+    }
+  ]
 }
