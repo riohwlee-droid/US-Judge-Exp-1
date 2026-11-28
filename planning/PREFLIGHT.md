@@ -11,3 +11,6 @@ Existing CA9 lifecycle tests cover panel replacement, quorum, petition/rehearing
 
 ## Proposed player and prior employment
 The exact proposed fictional player biography is stored separately from official state in planning/ca9-start.json. Prior NDCA district judgeship ends with circuit appointment; do not set visiting district judge field district_judge_district for a former district judge. Former firm, prior government participation, prior judicial involvement, financial and family interests require case-by-case review under 28 USC 455. No blanket clearance or disqualification from former employment alone. Do not use temporary test conflict attestations or slots in live play.
+
+## Acceptance
+The complete production-path preflight passed in GitHub Actions run 46141522752 (87 tests; official revision 1 and history audit pass). CA9 profile ready for verified ordinary represented civil/criminal appeals only. Unsupported matter types blocked by profile. The proposed Whitmore biography and start time remain proposals, not official appointment; confirmation and live setup are separate. All test outcomes remained in temporary directories.

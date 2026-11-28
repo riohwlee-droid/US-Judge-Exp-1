@@ -164,7 +164,7 @@
     "CA9": {
       "id": "CA9",
       "name": "U.S. Court of Appeals for the Ninth Circuit",
-      "status": "research_required",
+      "status": "ready",
       "category": "regional_federal_appeal",
       "role": "Article III circuit judge",
       "source_ids": [
@@ -177,19 +177,10 @@
         "SRC-CA9-HOLIDAY-202611",
         "SRC-US-28-455"
       ],
-      "readiness_gaps": [
-        "preflight integration test acceptance",
-        "live user-confirmed configure/roster install",
-        "case-specific conflict, jurisdiction and calendar review",
-        "unsupported exceptional pathways remain blocked"
-      ],
+      "readiness_gaps": [],
       "matter_types": [
         "civil_appeal",
-        "criminal_appeal",
-        "agency_review",
-        "tax_appeal",
-        "bankruptcy_appeal",
-        "original_writ"
+        "criminal_appeal"
       ],
       "hearing_kinds": [
         "oral_argument",
@@ -214,7 +205,22 @@
       "legal_research_path": "courts/ca9/LEGAL_RESEARCH.md",
       "legal_research_status": "bounded_production_review_complete_for_three_sealed_cases",
       "supply_path": "courts/ca9/SUPPLY.md",
-      "preflight_path": "planning/PREFLIGHT.md"
+      "preflight_path": "planning/PREFLIGHT.md",
+      "unsupported_matter_types": [
+        "agency_review",
+        "tax_appeal",
+        "bankruptcy_appeal",
+        "original_writ"
+      ],
+      "readiness_scope": "Verified ordinary represented civil and criminal appeals, with implemented panel replacement, rehearing and limited en banc paths. No live roster or case admission until confirmed; review conflicts, calendar and legal issues per case; unsupported exceptions stop for review.",
+      "preflight": {
+        "status": "passed",
+        "workflow_run": 46141522752,
+        "verified_commit": "6c86c57bdd943be4286648898e1cf217805359a8",
+        "tests_passed": 87,
+        "legal_cutoff": "2026-11-27",
+        "official_checkpoint": "S0001-connection-check"
+      }
     },
     "CA10": {
       "id": "CA10",

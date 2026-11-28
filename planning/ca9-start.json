@@ -85,10 +85,13 @@
   "proposed_game_time": "2026-11-30T08:30:00-08:00",
   "proposed_legal_cutoff": "2026-11-27",
   "preflight": {
-    "status": "tests_submitted_not_yet_certified",
+    "status": "passed_ready_for_confirmed_setup",
     "scope": "ordinary represented civil and criminal appeals only; no live configuration",
     "sealed_inventory": 3,
     "rule_recheck": "2026-11-28",
-    "first_workday_reason": "CA9 Clerk's Office closed Nov 26–27; weekend Nov 28–29."
+    "first_workday_reason": "CA9 Clerk's Office closed Nov 26–27; weekend Nov 28–29.",
+    "workflow_run": 46141522752,
+    "verified_commit": "6c86c57bdd943be4286648898e1cf217805359a8",
+    "tests_passed": 87
   }
 }
