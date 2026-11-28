@@ -108,7 +108,7 @@
       "origin_district": "CDCA",
       "legal_cutoff": "2026-11-27",
       "status": "working",
-      "stage_index": 1,
+      "stage_index": 2,
       "attempt": 1,
       "blueprint_path": "factory/CA9-SUP-000002/v1/blueprint.json",
       "release_path": null,
@@ -134,6 +134,11 @@
         {
           "action": "advance",
           "note": "Creator authored actual partial package; validate only completed world/procedure stage.",
+          "revision": 1
+        },
+        {
+          "action": "advance",
+          "note": "Complete lower record and chronological docket. Check date-only source provenance.",
           "revision": 1
         }
       ]
@@ -244,6 +249,20 @@
       "job_id": "CA9-SUP-000001",
       "job_status": "sealed",
       "stage_index": 5
+    },
+    "SUPREQ-20261128-204": {
+      "request_id": "SUPREQ-20261128-204",
+      "request_sha256": "ae788a85c04522c69fd462d542173356ccd12ea2c2760af6f5826e4b3059106d",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000002",
+      "job_status": "working",
+      "stage_index": 2
+    },
+    "SUPREQ-20261128-204R": {
+      "request_id": "SUPREQ-20261128-204R",
+      "request_sha256": "8c76dcc22f9767545a620ff7588eff0154be846ee2b65b8ab985aa1ff2428998",
+      "status": "rejected",
+      "reason": "'job_id'"
     }
   },
   "as_of_checkpoint": "S0001-connection-check",
