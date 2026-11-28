@@ -101,7 +101,7 @@
       "id": "SRC-CA9-ABOUT",
       "url": "https://www.ca9.uscourts.gov/about",
       "scope": "29 authorized judgeships; 15 district courts and geography",
-      "checked_on": "2026-11-27",
+      "checked_on": "2026-11-28",
       "review_depth": "court_specific",
       "not_verified": [
         "full clause-by-clause review",
@@ -113,7 +113,7 @@
       "id": "SRC-CA9-HANDBOOK-20260601",
       "url": "https://cdn.ca9.uscourts.gov/datastore/uploads/frap-June%201%202026.pdf",
       "scope": "FRAP 10, 28, 30, 34, 36, 40, 41; Circuit Rules 30-1, 34-4, 36-1 to 36-3, 40-2 to 40-3; targeted not exhaustive",
-      "checked_on": "2026-11-27",
+      "checked_on": "2026-11-28",
       "review_depth": "court_specific",
       "not_verified": [
         "full clause-by-clause review",
@@ -125,7 +125,7 @@
       "id": "SRC-CA9-GO-20261027",
       "url": "https://cdn.ca9.uscourts.gov/datastore/uploads/General%20Orders%20Effective%2010.27.2026.pdf",
       "scope": "GO 3.2, 3.3, 4.2–4.6, 5.1, 5.7, 6.3; targeted not exhaustive",
-      "checked_on": "2026-11-27",
+      "checked_on": "2026-11-28",
       "review_depth": "court_specific",
       "not_verified": [
         "full clause-by-clause review",
@@ -137,7 +137,7 @@
       "id": "SRC-CA9-JURISDICTION",
       "url": "https://www.ca9.uscourts.gov/guides-resources/researching-appeal/overview-appellate-jurisdiction/",
       "scope": "jurisdiction research entry point",
-      "checked_on": "2026-11-27",
+      "checked_on": "2026-11-28",
       "review_depth": "court_specific",
       "not_verified": [
         "full clause-by-clause review",
@@ -149,7 +149,7 @@
       "id": "SRC-CA9-HEARINGS",
       "url": "https://www.ca9.uscourts.gov/cases/about-oral-arguments/hearing-guidelines/",
       "scope": "oral argument guidance",
-      "checked_on": "2026-11-27",
+      "checked_on": "2026-11-28",
       "review_depth": "court_specific",
       "not_verified": [
         "full clause-by-clause review",
@@ -161,7 +161,7 @@
       "id": "SRC-CA9-ACMS",
       "url": "https://www.ca9.uscourts.gov/filing/efiling/acms/",
       "scope": "electronic filing overview",
-      "checked_on": "2026-11-27",
+      "checked_on": "2026-11-28",
       "review_depth": "court_specific",
       "not_verified": [
         "full clause-by-clause review",
@@ -288,6 +288,36 @@
       "not_verified": [
         "exhaustive subsequent treatment",
         "case-specific applicability"
+      ]
+    },
+    {
+      "id": "SRC-CA9-HOLIDAY-202611",
+      "url": "https://www.ca9.uscourts.gov/news/court-closure-for-thanksgiving-holiday/",
+      "checked_on": "2026-11-28",
+      "review_depth": "court_specific",
+      "scope": "Nov 26–27 2026 Clerk's Office closure; emergency filing procedure",
+      "not_verified": [
+        "all future holidays"
+      ]
+    },
+    {
+      "id": "SRC-US-28-455",
+      "url": "https://uscode.house.gov/us/usc/119-136/t28/s455/",
+      "checked_on": "2026-11-28",
+      "review_depth": "court_specific",
+      "scope": "Case-specific disqualification, former private practice or government participation, financial/family interests",
+      "not_verified": [
+        "case-specific conflicts"
+      ]
+    },
+    {
+      "id": "SRC-US-FRAP-202612",
+      "url": "https://www.uscourts.gov/sites/default/files/document/2026_congressional_package_final.pdf",
+      "checked_on": "2026-11-28",
+      "review_depth": "court_specific",
+      "scope": "April 8 2026 Supreme Court order: Form 4 amendment effective Dec 1, 2026; outside baseline cutoff, review transition as needed",
+      "not_verified": [
+        "future amendments"
       ]
     }
   ]

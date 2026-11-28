@@ -22,5 +22,73 @@
   },
   "operating_rules": "courts/ca9/OPERATIONS.md",
   "roster_path": "courts/ca9/roster-v1.json",
-  "roster_status": "prepared_not_installed"
+  "roster_status": "prepared_not_installed",
+  "player_proposal": {
+    "id": "J-CA9-PLAYER",
+    "name": "Michael Kay Whitmore",
+    "birth_date": "1981-12-29",
+    "commission_date": "2026-11-27",
+    "chambers_city": "San Francisco",
+    "fictional": true,
+    "education": [
+      {
+        "school": "University of California, Los Angeles",
+        "degree": "B.A.",
+        "major": "Economics",
+        "from": "2000-09",
+        "to": "2004-06"
+      },
+      {
+        "school": "UCLA School of Law",
+        "degree": "J.D.",
+        "from": "2004-08",
+        "to": "2007-05"
+      }
+    ],
+    "career_history": [
+      {
+        "from": "2007",
+        "to": "2008",
+        "position": "Judicial Law Clerk",
+        "employer": "U.S. District Court for the Northern District of California"
+      },
+      {
+        "from": "2008",
+        "to": "2013",
+        "position": "Associate Attorney",
+        "employer": "Redwood Vale & Ash LLP (fictional)",
+        "practice": "Federal civil litigation, commercial disputes and economic regulation"
+      },
+      {
+        "from": "2013",
+        "to": "2019",
+        "position": "Assistant United States Attorney",
+        "employer": "U.S. Attorney's Office, Northern District of California",
+        "practice": "Economic crime and criminal appeals"
+      },
+      {
+        "from": "2019",
+        "to": "2026-11-27",
+        "position": "United States District Judge",
+        "employer": "U.S. District Court for the Northern District of California"
+      }
+    ],
+    "appointment_basis": "Fictional presidential nomination, Senate confirmation and commission; prior district judgeship relinquished upon circuit appointment.",
+    "judicial_approach": "User-controlled; no preset ideology or merits votes",
+    "conflict_screening": {
+      "former_firm": "Redwood Vale & Ash LLP (fictional)",
+      "former_government_office": "USAO NDCA",
+      "former_district": "NDCA",
+      "prior_participation": "Review each proceeding, counsel, parties, prior rulings, financial and family interests before assignment; no presumed clearance."
+    }
+  },
+  "proposed_game_time": "2026-11-30T08:30:00-08:00",
+  "proposed_legal_cutoff": "2026-11-27",
+  "preflight": {
+    "status": "tests_submitted_not_yet_certified",
+    "scope": "ordinary represented civil and criminal appeals only; no live configuration",
+    "sealed_inventory": 3,
+    "rule_recheck": "2026-11-28",
+    "first_workday_reason": "CA9 Clerk's Office closed Nov 26–27; weekend Nov 28–29."
+  }
 }

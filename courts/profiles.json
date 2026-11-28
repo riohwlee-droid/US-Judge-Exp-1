@@ -173,13 +173,15 @@
         "SRC-CA9-GO-20261027",
         "SRC-CA9-JURISDICTION",
         "SRC-CA9-HEARINGS",
-        "SRC-CA9-ACMS"
+        "SRC-CA9-ACMS",
+        "SRC-CA9-HOLIDAY-202611",
+        "SRC-US-28-455"
       ],
       "readiness_gaps": [
-        "player identity/commission/game date",
-        "first complete appeal and case-specific legal review",
-        "exception pathways in LIFECYCLE.md",
-        "effective rules recheck for game date"
+        "preflight integration test acceptance",
+        "live user-confirmed configure/roster install",
+        "case-specific conflict, jurisdiction and calendar review",
+        "unsupported exceptional pathways remain blocked"
       ],
       "matter_types": [
         "civil_appeal",
@@ -195,12 +197,12 @@
       ],
       "selected": true,
       "implementation_status": "lifecycle_v2",
-      "checked_on": "2026-11-27",
+      "checked_on": "2026-11-28",
       "jurisdiction": "Federal district court appeals from 15 districts in nine western states and Guam/Northern Mariana Islands; agency, Tax Court, bankruptcy and writ jurisdiction only when separately established.",
       "appeal_route": "Panel rehearing or rehearing en banc under FRAP 40; Supreme Court review by certiorari when available; mandate under FRAP 41.",
       "appointment": "Article III; presidential nomination and Senate confirmation; good-behavior tenure; fictional appointment not yet configured.",
       "staffing": "29 authorized circuit judgeships; chief judge, active and senior circuit judges, visiting judges, chambers clerks and court staff. Actual roster not used as fictional roster.",
-      "rules": "FRAP and Ninth Circuit Rules handbook effective 2026-06-01; General Orders revised 2026-10-27. Verify against game date.",
+      "rules": "FRAP and CA9 handbook effective 2026-06-01; General Orders revised 2026-10-27, reconfirmed 2026-11-28; baseline cutoff 2026-11-27, later amendments separate review.",
       "operating_rules_path": "courts/ca9/OPERATIONS.md",
       "machine_rules_path": "courts/ca9/rules.json",
       "ordinary_panel_only": false,
@@ -208,9 +210,11 @@
       "roster_path": "courts/ca9/roster-v1.json",
       "roster_status": "prepared_not_installed",
       "factory_path": "courts/ca9/CASE_FACTORY.md",
-      "factory_status": "compiler_v1_no_live_release",
+      "factory_status": "three_sealed_production_releases_not_admitted",
       "legal_research_path": "courts/ca9/LEGAL_RESEARCH.md",
-      "legal_research_status": "v1_offline_gates_live_connector_smoke_no_production_case"
+      "legal_research_status": "bounded_production_review_complete_for_three_sealed_cases",
+      "supply_path": "courts/ca9/SUPPLY.md",
+      "preflight_path": "planning/PREFLIGHT.md"
     },
     "CA10": {
       "id": "CA10",

@@ -42,10 +42,11 @@ class Preflight(unittest.TestCase):
             if s["campaign"]["status"]!="setup_required":
                 self.skipTest("initial campaign already launched; launch fixture no longer applies")
             self.assertEqual(sync(root)["inventory"]["ready"],3)
-            player={"id":PLAYER,"name":"Fictional Preflight Judge","birth_date":"1981-12-29","commission_date":"2026-11-27","chambers_city":"San Francisco"}
+            player=read_json(ROOT/"planning/ca9-start.json")["player_proposal"]
             s=publish([event("PF-C","campaign.configure",court_id="CA9",player=player,user_confirmed=True,game_time="2026-11-30T08:30:00-08:00",legal_cutoff=CUTOFF),event("PF-O","ca9.organization_install",roster_id="CA9-ROSTER-V1",roster_digest="server_computed",user_confirmed=True)])
             self.assertEqual(len(s["people"]),201)
             self.assertEqual(s["people"][PLAYER]["seniority_rank"],29)
+            self.assertEqual(s["people"][PLAYER]["career_history"],player["career_history"])
             self.assertEqual(len([p for p in s["people"].values() if p.get("judicial_status")=="active_circuit"]),29)
             sync(root)
             jobs=candidates(root,s); self.assertEqual(len(jobs),3)
