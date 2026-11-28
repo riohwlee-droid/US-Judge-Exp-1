@@ -35,9 +35,9 @@
       "track": "criminal_trial",
       "origin_district": "NDCA",
       "legal_cutoff": "2026-11-27",
-      "status": "rework",
-      "stage_index": 1,
-      "attempt": 1,
+      "status": "working",
+      "stage_index": 2,
+      "attempt": 2,
       "blueprint_path": "factory/CA9-SUP-000001/v1/blueprint.json",
       "release_path": null,
       "release_digest": null,
@@ -67,6 +67,16 @@
         {
           "action": "validation_failed",
           "note": "record: evidence before source event",
+          "revision": 1
+        },
+        {
+          "action": "retry",
+          "note": "Date-only creation metadata corrected; retry actual record stage.",
+          "revision": 1
+        },
+        {
+          "action": "advance",
+          "note": "Date-only creation metadata corrected; retry actual record stage.",
           "revision": 1
         }
       ]
@@ -166,6 +176,22 @@
       "job_status": "rework",
       "stage_index": 1,
       "reason": "record: evidence before source event"
+    },
+    "SUPREQ-20261128-105": {
+      "request_id": "SUPREQ-20261128-105",
+      "request_sha256": "6c70cd56470f38283229285229a0aa57ce8d9a431c90314562c174612258cf4c",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000001",
+      "job_status": "working",
+      "stage_index": 1
+    },
+    "SUPREQ-20261128-106": {
+      "request_id": "SUPREQ-20261128-106",
+      "request_sha256": "7d4e232809c65d813ab03a646a07938fa5acc758c77ce4bd260bce3d2c9bf8c6",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000001",
+      "job_status": "working",
+      "stage_index": 2
     }
   },
   "as_of_checkpoint": "S0001-connection-check",
