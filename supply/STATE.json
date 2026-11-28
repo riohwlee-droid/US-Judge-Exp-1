@@ -35,9 +35,9 @@
       "track": "criminal_trial",
       "origin_district": "NDCA",
       "legal_cutoff": "2026-11-27",
-      "status": "queued",
-      "stage_index": -1,
-      "attempt": 0,
+      "status": "working",
+      "stage_index": 1,
+      "attempt": 1,
       "blueprint_path": "factory/CA9-SUP-000001/v1/blueprint.json",
       "release_path": null,
       "release_digest": null,
@@ -48,6 +48,21 @@
           "action": "request",
           "note": "automatic stock replenishment",
           "revision": 1
+        },
+        {
+          "action": "start",
+          "note": "Creator authored actual partial package; validate only completed world/procedure stage.",
+          "revision": 1
+        },
+        {
+          "action": "advance",
+          "note": "Creator authored actual partial package; validate only completed world/procedure stage.",
+          "revision": 1
+        },
+        {
+          "action": "advance",
+          "note": "Creator authored actual partial package; validate only completed world/procedure stage.",
+          "revision": 1
         }
       ]
     },
@@ -57,9 +72,9 @@
       "track": "civil_summary_judgment",
       "origin_district": "CDCA",
       "legal_cutoff": "2026-11-27",
-      "status": "queued",
-      "stage_index": -1,
-      "attempt": 0,
+      "status": "working",
+      "stage_index": 1,
+      "attempt": 1,
       "blueprint_path": "factory/CA9-SUP-000002/v1/blueprint.json",
       "release_path": null,
       "release_digest": null,
@@ -70,11 +85,75 @@
           "action": "request",
           "note": "automatic stock replenishment",
           "revision": 1
+        },
+        {
+          "action": "start",
+          "note": "Creator authored actual partial package; validate only completed world/procedure stage.",
+          "revision": 1
+        },
+        {
+          "action": "advance",
+          "note": "Creator authored actual partial package; validate only completed world/procedure stage.",
+          "revision": 1
+        },
+        {
+          "action": "advance",
+          "note": "Creator authored actual partial package; validate only completed world/procedure stage.",
+          "revision": 1
         }
       ]
     }
   },
-  "receipts": {},
+  "receipts": {
+    "SUPREQ-20261128-101": {
+      "request_id": "SUPREQ-20261128-101",
+      "request_sha256": "162286acb31e97dc569f9efb7013bd0c099dccef4455d82ec7c18695fcdcb1fd",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000001",
+      "job_status": "working",
+      "stage_index": -1
+    },
+    "SUPREQ-20261128-102": {
+      "request_id": "SUPREQ-20261128-102",
+      "request_sha256": "2c116eef9117aea1cc56736f288842a11742a6495aec6c1ac32eed13e4d2be5e",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000001",
+      "job_status": "working",
+      "stage_index": 0
+    },
+    "SUPREQ-20261128-103": {
+      "request_id": "SUPREQ-20261128-103",
+      "request_sha256": "bba01141a338b7a599dfc2e390c358787669bb75920c80464636241bac2eb532",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000001",
+      "job_status": "working",
+      "stage_index": 1
+    },
+    "SUPREQ-20261128-201": {
+      "request_id": "SUPREQ-20261128-201",
+      "request_sha256": "236784e1af880a467202cc20bfbde3dd844e8784ac773e5bf6b25b59fd7279c7",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000002",
+      "job_status": "working",
+      "stage_index": -1
+    },
+    "SUPREQ-20261128-202": {
+      "request_id": "SUPREQ-20261128-202",
+      "request_sha256": "ab184cd385b6c8cdc9f33ec7644b63f6cbb692538fb479d80ed89aa87457eb5d",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000002",
+      "job_status": "working",
+      "stage_index": 0
+    },
+    "SUPREQ-20261128-203": {
+      "request_id": "SUPREQ-20261128-203",
+      "request_sha256": "f9f1268bc8535885e6f21ee778de792fa1fb2f16777fc712d3a2cea5d6942a3b",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000002",
+      "job_status": "working",
+      "stage_index": 1
+    }
+  },
   "as_of_checkpoint": "S0001-connection-check",
   "as_of_revision": 1
 }
