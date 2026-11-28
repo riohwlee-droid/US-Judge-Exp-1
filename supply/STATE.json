@@ -35,13 +35,13 @@
       "track": "criminal_trial",
       "origin_district": "NDCA",
       "legal_cutoff": "2026-11-27",
-      "status": "working",
-      "stage_index": 4,
+      "status": "sealed",
+      "stage_index": 5,
       "attempt": 2,
       "blueprint_path": "factory/CA9-SUP-000001/v1/blueprint.json",
-      "release_path": null,
-      "release_digest": null,
-      "record_as_of": null,
+      "release_path": "factory/CA9-SUP-000001/v1/release.json",
+      "release_digest": "9a6ded4ca23f1983ca2ca0dda4198b462762d9a15bc40c8bce5c156c175507ed",
+      "record_as_of": "2026-11-27T10:00:00-08:00",
       "requested_revision": 1,
       "history": [
         {
@@ -87,6 +87,16 @@
         {
           "action": "advance",
           "note": "Verify all authored briefs, record pinpoints, actual source research and citation occurrence audits; final semantic review remains.",
+          "revision": 1
+        },
+        {
+          "action": "advance",
+          "note": "Final bounded simulation review and immutable release requested; no official admission.",
+          "revision": 1
+        },
+        {
+          "action": "seal",
+          "note": "Final bounded simulation review and immutable release requested; no official admission.",
           "revision": 1
         }
       ]
@@ -218,6 +228,22 @@
       "job_id": "CA9-SUP-000001",
       "job_status": "working",
       "stage_index": 4
+    },
+    "SUPREQ-20261128-109": {
+      "request_id": "SUPREQ-20261128-109",
+      "request_sha256": "56495a6fbdb22b4735025f7a1468f43edc77c2c17d1bb900eaff1d56084c5403",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000001",
+      "job_status": "reviewed",
+      "stage_index": 5
+    },
+    "SUPREQ-20261128-110": {
+      "request_id": "SUPREQ-20261128-110",
+      "request_sha256": "a8056b1de333629b5b6a4a23c6c4572016ba890e46260b45b7ac70638d52ad92",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000001",
+      "job_status": "sealed",
+      "stage_index": 5
     }
   },
   "as_of_checkpoint": "S0001-connection-check",

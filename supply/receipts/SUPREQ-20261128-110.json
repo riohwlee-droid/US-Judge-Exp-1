@@ -1,0 +1,8 @@
+{
+  "request_id": "SUPREQ-20261128-110",
+  "request_sha256": "a8056b1de333629b5b6a4a23c6c4572016ba890e46260b45b7ac70638d52ad92",
+  "status": "accepted",
+  "job_id": "CA9-SUP-000001",
+  "job_status": "sealed",
+  "stage_index": 5
+}
