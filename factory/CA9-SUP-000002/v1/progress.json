@@ -148,7 +148,7 @@
   "original_words": 23732,
   "planned_documents": 28,
   "planned_original_pages": 258,
-  "next_batch": "Lower originals complete; correct timestamp ordering and request record gate, then assemble excerpts.",
+  "next_batch": "Record submitted; complete remaining excerpt pages and index.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [
@@ -178,5 +178,83 @@
       ]
     ],
     "remaining": "Verify direct opinion text, pins and later treatment; review FLSA damages, Mt. Clemens, local CDCA rules, FRAP."
+  },
+  "excerpts_partial": {
+    "n": 93,
+    "idx": [
+      {
+        "k": "JUD",
+        "v": 1,
+        "start": 1,
+        "end": 1,
+        "title": "Separate judgment",
+        "docket": "D18"
+      },
+      {
+        "k": "ORDER",
+        "v": 1,
+        "start": 2,
+        "end": 8,
+        "title": "Order granting summary judgment",
+        "docket": "D17"
+      },
+      {
+        "k": "HEAR",
+        "v": 2,
+        "start": 9,
+        "end": 16,
+        "title": "Summary judgment hearing transcript",
+        "docket": "D16"
+      },
+      {
+        "k": "REPL",
+        "v": 2,
+        "start": 17,
+        "end": 20,
+        "title": "Reply",
+        "docket": "D15"
+      },
+      {
+        "k": "OPP",
+        "v": 2,
+        "start": 21,
+        "end": 28,
+        "title": "Opposition",
+        "docket": "D14"
+      },
+      {
+        "k": "MSJ",
+        "v": 2,
+        "start": 29,
+        "end": 35,
+        "title": "Motion for summary judgment",
+        "docket": "D11"
+      },
+      {
+        "k": "WDEP",
+        "v": 2,
+        "start": 36,
+        "end": 54,
+        "title": "Deposition of Venn",
+        "docket": "D13"
+      },
+      {
+        "k": "IDEP",
+        "v": 2,
+        "start": 55,
+        "end": 74,
+        "title": "Deposition of Ewan",
+        "docket": "D10"
+      },
+      {
+        "k": "HDEP",
+        "v": 2,
+        "start": 75,
+        "end": 93,
+        "title": "Deposition of Vossler",
+        "docket": "D09"
+      }
+    ],
+    "vol2": 85
   }
 }

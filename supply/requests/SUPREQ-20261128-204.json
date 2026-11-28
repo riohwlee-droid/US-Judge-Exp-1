@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "request_id": "SUPREQ-20261128-204",
+  "action": "advance",
+  "job_id": "CA9-SUP-000002",
+  "expected_status": "working",
+  "stage": "record",
+  "note": "Complete lower record and chronological docket. Check date-only source provenance."
+}
