@@ -249,7 +249,9 @@
         "G",
         "B",
         "Y",
-        "R"
+        "R",
+        "S",
+        "T"
       ],
       "time_precision": "date_only"
     },
@@ -260,7 +262,6 @@
       "actor_ids": [
         "A",
         "L",
-        "T",
         "R"
       ],
       "time_precision": "date_only"
@@ -271,7 +272,6 @@
       "description": "Defense evidence and Rule 29 argument.",
       "actor_ids": [
         "D",
-        "S",
         "M",
         "J",
         "B",
@@ -612,7 +612,7 @@
       "ruling_page": 1,
       "ruling_quote": "The renewed motion for judgment of acquittal is denied.",
       "preservation_document_id": "CA9-SUP-000001-TRIAL",
-      "preservation_page": 90,
+      "preservation_page": 64,
       "preservation_quote": "Defense renews the Rule 29 motion on falsity, knowledge and materiality."
     }
   ],

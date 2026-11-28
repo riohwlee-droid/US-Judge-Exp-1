@@ -96,13 +96,6 @@
       "complete": true
     },
     {
-      "id": "CA9-SUP-000001-TRIAL",
-      "path": "records/CA9-SUP-000001/v1/TRIAL.md",
-      "pages": 38,
-      "words": 5757,
-      "complete": false
-    },
-    {
       "id": "CA9-SUP-000001-TD",
       "path": "records/CA9-SUP-000001/v1/TD.md",
       "pages": 3,
@@ -115,13 +108,20 @@
       "pages": 1,
       "words": 88,
       "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-TRIAL",
+      "path": "records/CA9-SUP-000001/v1/TRIAL.md",
+      "pages": 80,
+      "words": 12053,
+      "complete": false
     }
   ],
-  "original_pages": 77,
-  "original_words": 11074,
+  "original_pages": 119,
+  "original_words": 17370,
   "planned_documents": 29,
   "planned_original_pages": 230,
-  "next_batch": "Complete trial transcript from government rest, Rule 29, defense witnesses, closing, jury instructions and verdict; then posttrial motions, sentencing, appellate briefs and research. Current trial file is partial and not record-stage certified.",
+  "next_batch": "Finalize trial instructions, deliberation and verdict transcript, renewed Rule 29 briefs/order, sentencing, remaining appellate documents. Trial still partial, no record stage validation.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [

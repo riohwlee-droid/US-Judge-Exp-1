@@ -517,3 +517,397 @@ A. It records the statement. I do not determine whether it was true.
 MR. CARROW: No further questions.
 MS. RENWICK: No redirect.
 THE COURT: The witness is excused. The parties will confer about the remaining exhibits before we resume.
+
+<!-- PAGE 39 -->
+DAY TWO — GOVERNMENT RESTS
+THE COURT: Counsel, are there other government witnesses today?
+MS. RENWICK: No. The United States rests, subject to the stipulations already read.
+THE COURT: Members of the jury, we will excuse you until tomorrow morning. Do not discuss the case. Counsel, remain for the motion outside the jury's presence.
+[Jury exits.]
+MR. CARROW: Under Rule 29, I move for judgment of acquittal on Count One. The government has established the literal sequence of words and the location of the instruments. It has not established that the sentence charged is false as understood in the full exchange. There is also insufficient evidence of knowing and willful falsity and materiality. We recognize the Court must draw reasonable inferences in the government's favor on this motion. But an inference must be tied to the statement actually made. The question is not whether a different certification would have been preferable.
+
+<!-- PAGE 40 -->
+THE COURT: Identify the particular deficiencies you contend remain after the government's case.
+MR. CARROW: First, Mr. Soren asked several related questions about review of the worksheet. The charged answer used the same general verb, "checked," without asserting a location. His next answers expressly referred to the transfer list and disclaimed a recollection of a visit to the lab. The government has not shown that the words were a representation of direct observation rather than review of records. Second, even assuming the government can identify a false reading, it needs evidence of knowing falsity and willfulness, not merely evidence that the signer should have answered more precisely. Third, the agency already had the worksheet and wanted the receipt. The same conversation provided the clarifying information before any decision. The question is whether this particular answer, in context, was capable of influencing the relevant function.
+THE COURT: United States?
+
+<!-- PAGE 41 -->
+MS. RENWICK: The question immediately preceding the statement explicitly separated the records from the instruments and asked whether he personally checked the six instruments themselves. A jury may reasonably infer that an unqualified affirmative response to that question represented personal checking. The stipulations and vendor records establish the location of two items. The coordinator's testimony, the routing record, the missing personal inspection record, the defendant's own follow-up and the earlier communications permit the jury to infer that he knew what the verification consisted of. The grant specialist described a decision he could make concerning the adequacy of verification. The fact that the receipt remained necessary is evidence to weigh, but does not necessarily deprive a statement concerning the source of verification of its capacity to influence that process. We are not asking the Court to take materiality from the jury.
+THE COURT: Is the government relying on the signed certification as a second false statement?
+MS. RENWICK: No. It is context and evidence of knowledge. Only the April answer is charged.
+
+<!-- PAGE 42 -->
+THE COURT: The motion is denied at this stage. The Court does not make a finding of guilt. A reasonable jury could consider the immediately preceding question and the complete exchange and determine what representation was made. The evidence concerning the location and the prior records, viewed with the statement and responses, is sufficient to submit the disputed mental-state elements. Mr. Soren described the monitoring functions and the kinds of decisions potentially affected by verification information. The Court will instruct the jury that materiality is an element to be established beyond a reasonable doubt. The defense may renew its motion after all the evidence. The denial is confined to legal sufficiency at the close of the government's case; no credibility determination is made. The defense may present evidence or elect not to. Mr. Carrow, you may confer with your client overnight.
+MR. CARROW: Thank you, Your Honor. We will be ready tomorrow.
+[Adjourned.]
+
+<!-- PAGE 43 -->
+TRIAL TRANSCRIPT — DAY THREE, JULY 15, 2026
+THE COURT: The jury is present. Counsel may proceed.
+MR. CARROW: The defense calls Dana Pell.
+THE WITNESS: [Sworn.]
+DIRECT EXAMINATION BY MR. CARROW
+Q. What did you do for the cooperative in 2025?
+A. I was operations director. I supervised scheduling and approved service transfers for the instruments. I was not the person who physically inventoried them.
+Q. Did the cooperative have an arrangement with the vendor for the two reference instruments in March?
+A. Yes. The service dates depended on the lab's availability. We approved sending them on March eleven.
+Q. Was the service transfer unusual?
+A. No. Calibration is ordinary maintenance. The instrument remains on our register.
+Q. Did you direct the property administrator to go to the lab to inspect those two instruments before the certification?
+A. No. I did not give such an instruction.
+
+<!-- PAGE 44 -->
+Q. What was your understanding of the award's verification requirement?
+MS. RENWICK: Objection to a legal interpretation by this witness.
+MR. CARROW: I am asking about her responsibilities and practice, not the statute.
+THE COURT: She may describe the cooperative's practice and her communications, not instruct the jury on the meaning of law.
+A. Our practice was to keep the serial-level record, have the coordinator check the equipment at the facility and use service records when an item was temporarily out. The administrator reviewed the supporting material and signed the report. If support was missing, we followed up.
+Q. Did you receive the signed March thirteen certification?
+A. Yes. It came through the shared file routing. I could see the worksheet with the verification source column.
+Q. Did you ask that the transfer entries be removed?
+A. No. We wanted the location to be clear.
+
+<!-- PAGE 45 -->
+Q. When you received the April second email, did you understand that the specialist was asking for a better explanation of the two service entries?
+A. Yes. The email specifically mentioned the missing receipt and the verification source.
+Q. Did the operations office tell the defendant to say he had physically inspected equipment when he had not?
+A. No. I did not direct him to make such a statement.
+Q. Did you attend the April seven meeting?
+A. No. I was working in another part of the facility that morning.
+Q. Did you hear the recorded conversation before this case?
+A. I heard it when counsel showed it to me later.
+Q. Can you tell the jury what he was thinking at the meeting?
+A. No.
+Q. Did the cooperative amend the March certification afterward?
+A. We retained it and supplied the vendor receipt separately, as the specialist requested.
+MR. CARROW: No further questions.
+
+<!-- PAGE 46 -->
+CROSS-EXAMINATION BY MS. RENWICK
+Q. Ms. Pell, you approved the transfer, but you did not review every item in the administrator's folder before he signed, correct?
+A. Correct.
+Q. You were not with him during the March review?
+A. No.
+Q. You were not at the calibration lab during the service period?
+A. No.
+Q. You don't know whether he checked a serial tag in person before signing?
+A. I don't know which items he looked at personally.
+Q. The award did distinguish between an observation and a document?
+A. Yes.
+Q. Your practice of reviewing documents did not authorize anyone to describe a document check as a physical observation if asked to distinguish the two?
+A. No. We should identify the source accurately.
+Q. The specialist's April fourth email indicated he wanted to ask whether the signer personally checked the items?
+A. That is what it said.
+
+<!-- PAGE 47 -->
+Q. You said you did not instruct the defendant to make a false statement. Does that establish that he could not have done so on his own?
+MR. CARROW: Objection, asks witness to speculate.
+THE COURT: Sustained.
+Q. Did the defendant discuss the wording of his answers with you before the interview?
+A. Not the particular wording. We discussed where the supporting records were.
+Q. Did he express a desire to close the monitoring item?
+A. We wanted outstanding requests addressed. I do not recall a particular statement by him about closing this item.
+Q. The specialist, not you, decided whether the monitoring item was ready to close?
+A. Correct.
+Q. You do not have authority to say what evidence the specialist could consider sufficient for that decision?
+A. Correct. I could supply the records and answer questions.
+MS. RENWICK: Thank you. No further questions.
+
+<!-- PAGE 48 -->
+REDIRECT BY MR. CARROW
+Q. Did the cooperative have a written instruction requiring the signer to replace the coordinator's own observations with new observations of every item?
+A. No, not that I know of. We had a review and certification process.
+Q. Does a statement that someone reviewed the worksheet imply that person created the worksheet?
+A. No. The roles were separate.
+Q. Have you seen any amended March thirteen certification claiming personal inspection of all six?
+A. No.
+MR. CARROW: Thank you.
+THE COURT: The witness is excused. Counsel, your next witness?
+MR. CARROW: Mr. Denslow elects to testify. We have discussed that decision.
+THE COURT: The defendant may take the stand. Members of the jury, the burden of proof remains on the government. The defendant's testimony is considered under the same general credibility instructions as other testimony.
+THE CLERK: Please raise your right hand.
+THE WITNESS: [Sworn.]
+
+<!-- PAGE 49 -->
+DIRECT EXAMINATION OF AVERY DENSLOW BY MR. CARROW
+Q. Please describe your role at the cooperative in March 2025.
+A. I was the property administrator. I reviewed the records that the property coordinator and instrument technician provided, signed periodic reports, and responded to requests about the award. I did not do the laboratory work.
+Q. Did you have responsibility for the accuracy of the information you certified?
+A. Yes. I needed to make sure the locations and identifiers matched the records we had and identify anything that still needed support.
+Q. Were you familiar with the six instruments on the award schedule?
+A. Yes. I had seen them at the facility in the course of work. The two reference units were sent away periodically for service.
+Q. Did you know that CS-105 and CS-106 were listed at a calibration vendor in March?
+A. Yes. That was on the worksheet and transfer list.
+
+<!-- PAGE 50 -->
+Q. What did you receive from Nora on March twelve?
+A. She told me the worksheet was in the shared folder. It had six entries. I looked at the serial identifiers and the source column, and the last two were transfers.
+Q. Did you understand that she had personally looked at four and used the records for the other two?
+A. Yes. That was what the column showed.
+Q. Did you go to the laboratory in Oakland between March eleven and March thirteen?
+A. No, not that I recall. I do not believe I did.
+Q. Did you personally inspect the two reference instruments at the lab before you signed?
+A. No. I checked the transfer information. I had seen the instruments before they were sent out, but I cannot tell you the date when I last looked at their tags.
+Q. Did your certification say you had gone to the lab?
+A. No.
+
+<!-- PAGE 51 -->
+Q. What was the process when you signed on March thirteen?
+A. I opened the folder and compared the worksheet to the register and transfer list. I wanted to check the six entries. I saw the four visual entries and the two transfer entries. I signed the report with the worksheet attached.
+Q. Did you possess the original vendor acknowledgment at that time?
+A. I don't remember having it. I had the transfer list. If the receipt had been attached I would expect to see it in the file, and it is not attached.
+Q. Why did you sign before obtaining the receipt?
+A. The worksheet showed the basis for the entries and the certification described the records reviewed. I thought the transfer list was enough to record the location for that review, with the receipt to follow. I did not think I was representing that I had made a second inventory.
+Q. Did anyone direct you to omit the source column?
+A. No.
+
+<!-- PAGE 52 -->
+Q. Did you receive Mr. Soren's April second message?
+A. Yes. He was asking about the verification source and wanted the receipt.
+Q. What did you tell him in your response?
+A. That I reviewed the six entries and that the two were at calibration. I offered to ask Evan for the receipt.
+Q. Did you see the April fourth follow-up?
+A. Yes.
+Q. What did you understand he wanted to know?
+A. I understood he wanted to know what I had done myself as opposed to what Nora put on the sheet. I also knew he was interested in the source for the last two entries.
+Q. Did you think he wanted to know whether you had gone to the laboratory?
+A. I thought that was one of the questions. When he asked it directly I told him I didn't think I went that week.
+Q. Did you agree that the conversation could be recorded?
+A. Yes.
+
+<!-- PAGE 53 -->
+Q. Please listen to the portion of Joint Exhibit 5 beginning with the question about records and instruments themselves.
+[Recording played.]
+Q. You said, "I checked all six before I signed." Do you dispute that you said those words?
+A. No.
+Q. What did you mean by them?
+A. I meant that I had checked the six entries before signing. I had gone through the list and the information we had for each one. I was still talking about the review process. I should have said "entries" rather than "all six."
+Q. Did you intend to say that you personally went to the laboratory and inspected two items there?
+A. No.
+Q. Why did you refer to the sheet and transfer list in the next answer?
+A. Because that was how I checked those entries. I was trying to explain what I had reviewed.
+Q. Were you trying to obtain money from the agency through that answer?
+A. No.
+
+<!-- PAGE 54 -->
+Q. Did you understand that Mr. Soren might decide whether to ask for more support based on what you said?
+A. Yes. He was asking for more support already, and I wanted him to understand what we had. I knew he was reviewing the file.
+Q. Did you want the monitoring item closed?
+A. I wanted our documentation to be complete, and if it could be closed that was fine. I did not believe the receipt was going to be a problem. I told him I would ask Evan for it.
+Q. Did you ask Evan to send it after the meeting?
+A. Yes.
+Q. Did you tell him to change anything about it?
+A. No. I told him to forward the vendor acknowledgment.
+Q. Did you send a new certification in place of the March one?
+A. No. Mr. Soren had asked us to leave the original unchanged.
+Q. What did you tell Mr. Soren about the laboratory visit in the meeting itself?
+A. That I did not think I had gone that week.
+
+<!-- PAGE 55 -->
+Q. Did you hear yourself say on the recording that you were not saying you did Nora's inventory for her?
+A. Yes. That was what I was trying to explain. I had a different role from her.
+Q. Were you aware on April seven that a false representation to the federal agency could be unlawful?
+A. I understood that we needed to give accurate information. I wasn't thinking about a criminal charge. I intended to explain the review and get the supporting documents.
+Q. Is your testimony that every answer you gave was phrased as clearly as it could have been?
+A. No. I can see that the question was more specific than my answer. I should have been more precise.
+Q. Is your testimony that you actually made a second physical inventory of all six before signing?
+A. No. My testimony is that I reviewed the six entries and the supporting records.
+MR. CARROW: Thank you. No further questions.
+
+<!-- PAGE 56 -->
+CROSS-EXAMINATION BY MS. RENWICK
+Q. Mr. Denslow, you were not a new employee who had never seen the award attachment, correct?
+A. Correct.
+Q. The attachment distinguished direct observation from documentary confirmation?
+A. Yes.
+Q. You understood that difference in March 2025?
+A. Yes.
+Q. You understood that a vendor transfer list did not show that you had looked at a tag at the vendor?
+A. Yes.
+Q. You knew the last two instruments were not at the cooperative during the spring verification round?
+A. Yes.
+Q. You did not inspect the two at the laboratory before you signed, as you just testified?
+A. Correct.
+Q. You had reviewed the source column before signing?
+A. Yes.
+Q. The April fourth email told you the specialist wanted to ask whether you personally checked the items before certifying?
+A. Yes.
+
+<!-- PAGE 57 -->
+Q. Please look at the transcript. Mr. Soren says, "Let me separate the records from the actual instruments." Did you hear that sentence?
+A. Yes, that is what the recording says.
+Q. At the time, did you understand the word "separate"?
+A. I understand the word. I was thinking about the two kinds of verification.
+Q. He then said, "I know Nora checked the four in the room." He asked about you, not Nora, correct?
+A. Yes.
+Q. He asked whether you personally checked the six instruments themselves before signing?
+A. Yes.
+Q. You did not respond, "No, I checked the records," did you?
+A. I did not use those exact words in that first answer.
+Q. You said, "I checked all six before I signed."
+A. Yes.
+Q. No word "entries" appears in that sentence?
+A. Correct.
+
+<!-- PAGE 58 -->
+Q. When he asked whether that included the two at calibration, you answered, "Those were checked too," correct?
+A. Yes, and I said I had the sheet and transfer list.
+Q. Your first words in response to the question were another affirmative statement?
+A. They were about the verification. I then explained the sources.
+Q. You did not immediately begin with a negative answer to either question?
+A. Not in those words.
+Q. The question about whether you went to the laboratory was even more specific, and then you said you didn't think you went that week?
+A. Yes.
+Q. In other words, the first two responses could have suggested that you had done something beyond reviewing documents?
+MR. CARROW: Objection, asks witness to speculate how someone else would interpret his words.
+THE COURT: Sustained. The jury has the recording and may draw its own conclusions.
+
+<!-- PAGE 59 -->
+Q. You knew the monitoring specialist could ask for additional records or close the item?
+A. Yes.
+Q. You knew the receipt had not been supplied to him when he asked the question?
+A. Yes.
+Q. You wanted to explain that there was no missing equipment?
+A. Yes. There wasn't.
+Q. Would it have been more reassuring to the specialist if you had actually inspected all six yourself?
+MR. CARROW: Objection, speculation as to the specialist's reaction.
+THE COURT: Sustained as phrased.
+Q. Did you believe that telling him you personally checked an item would describe a different source than telling him you checked a transfer list?
+A. It would, yes.
+Q. Did you consider that distinction important to a property review?
+A. Yes, but I thought my answers explained the sources.
+Q. The distinction mattered enough that the source column was kept in the worksheet?
+A. Correct.
+
+<!-- PAGE 60 -->
+Q. You said you had seen the reference units before the service trip. Can you identify an actual date on which you checked their tags?
+A. No, not an exact date.
+Q. Do you have a record of a personal check for those items before March thirteen?
+A. Not a separate one in my name.
+Q. Did you make an entry in the worksheet marking a personal observation by you?
+A. No. Nora prepared it.
+Q. Did you tell Mr. Soren in the initial answer that you were relying on something you had seen before the service trip?
+A. No. I mentioned I might have seen them earlier when he asked about the lab.
+Q. The certification was made March thirteen. Your earlier observation, if any, was not a check recorded in the spring worksheet?
+A. Correct.
+Q. You have no record fixing the date of that observation?
+A. Correct.
+
+<!-- PAGE 61 -->
+Q. You signed a document saying you had reviewed the six entries. You agree that the document itself does not say you personally inspected all six?
+A. Yes.
+Q. Mr. Soren already had that document. His question was intended to learn whether you did something that the document did not show?
+A. I think he was trying to find out more about the review, yes.
+Q. Did you understand that distinction when you heard the question?
+A. I understood he was asking about my role. I answered what I did with the six entries.
+Q. You agree that the phrasing of your answer did not precisely answer the question about the instruments themselves?
+A. I can see that it wasn't precise.
+Q. But you maintain you did not intend to claim personal physical checking?
+A. Correct.
+MS. RENWICK: No further questions.
+THE COURT: Redirect.
+
+<!-- PAGE 62 -->
+REDIRECT EXAMINATION BY MR. CARROW
+Q. The April second email wanted to distinguish information sources?
+A. Yes.
+Q. Did you attempt to conceal the two service entries in your April third response?
+A. No. I specifically mentioned them.
+Q. When Mr. Soren asked about the two at calibration during the meeting, did you say that you had visited the lab?
+A. No. I said I had the sheet and transfer list.
+Q. Did you wait until a later day, after an investigation, to explain that you didn't think you visited the lab that week?
+A. No. I explained it in the same conversation.
+Q. Do you dispute that the immediately preceding question was specific?
+A. No. I dispute the meaning and intention of my response. I should have answered more clearly.
+Q. Are you asking the jury to accept that the equipment could be checked by records under the award attachment?
+A. That is how we performed the review.
+
+<!-- PAGE 63 -->
+Q. Did you supply the receipt after the conversation?
+A. I asked Evan to send it. He did.
+Q. Was there ever a request by you to create a different version of the original worksheet showing all six as visually checked?
+A. No.
+Q. Did you have authority to close the specialist's monitoring item yourself?
+A. No.
+Q. Did you know whether he would close it after receiving the receipt?
+A. No.
+Q. Do you agree that the government has presented the actual recording and the actual worksheet in this trial?
+A. Yes. Those are the records of the review and the conversation.
+MR. CARROW: Nothing further.
+MS. RENWICK: No recross.
+THE COURT: The witness may step down. Counsel, any additional evidence?
+MR. CARROW: Defense rests.
+MS. RENWICK: No rebuttal witnesses.
+THE COURT: We will excuse the jury briefly for the parties' motions and final instruction conference.
+
+<!-- PAGE 64 -->
+RULE 29 — CLOSE OF ALL EVIDENCE
+[Jury absent.]
+MR. CARROW: Defense renews the Rule 29 motion on falsity, knowledge and materiality. The testimony now confirms the review of the worksheet and transfer list. There is no dispute that the two instruments were at the vendor and that the defendant did not personally inspect them there before the signature. What is disputed is whether his answer represented that he did. The complete recording does not merely supply an after-the-fact excuse; it contains the clarification at the moment of the statement. The government must prove beyond a reasonable doubt both the false representation and that he knowingly and willfully made it. The actual monitoring process continued along the course already indicated by the April second email. The government has not established materiality of the charged words in their context.
+THE COURT: I understand the motion as directed to those elements, not jurisdiction or venue.
+
+<!-- PAGE 65 -->
+MS. RENWICK: The record is sufficient for the jury to determine that the answer was false in light of the specific question. The defendant's own testimony confirms his understanding of the difference between reviewing a list and observing equipment, his knowledge of the transfer, and his lack of a personal inspection at the lab. His explanation of the answer is for the jury to consider. The government does not submit that every imprecise answer is a crime. It asks the jury to infer a knowing and willful false representation from these particular circumstances. The grant specialist testified that a personal check could be considered when deciding the adequacy of the verification and additional requests. The actual continuation of the review does not foreclose the element. The Court should deny the motion.
+THE COURT: I deny the renewed motion at the close of all evidence for the reasons stated earlier and on the entire evidence. I will not direct a finding on any element. The parties have preserved their contentions.
+
+<!-- PAGE 66 -->
+FINAL INSTRUCTION CONFERENCE — OUTSIDE JURY PRESENCE
+THE COURT: We have the proposed final instructions. The parties agree that the charged statement is the April seventh sentence, and that materiality is for the jury. The instructions will require knowledge of falsity and willful making of the statement, not merely a mistake or negligent answer. I will include a paragraph telling the jury to consider the words in the context of the question and surrounding exchange. Government?
+MS. RENWICK: Agreed, provided the instruction does not require the government to negate every conceivable interpretation. We submit a rational factual interpretation is for the jury.
+MR. CARROW: We request that the jury be told that a statement that is actually true in the context in which it was made cannot support conviction even if it was imprecise or the questioner misunderstood it.
+THE COURT: I will say that. The burden of proving the representation false and the defendant's knowledge remains with the government.
+
+<!-- PAGE 67 -->
+MR. CARROW: On materiality, we request the jury consider the agency's actual functions and the entire exchange, not a hypothetical statement of a different kind. We recognize actual influence is not required.
+MS. RENWICK: We agree the test is capability of influencing the decision or function, not actual success. The proposed standard language is sufficient.
+THE COURT: I will use the capability formulation and identify the decision or function as the monitoring of property verification under the award. The jury may consider the circumstances including actual actions as evidence but not as a necessary element. I will not tell the jury that the initial answer was material as a matter of law.
+MR. CARROW: With the language as revised, the defense has no further instruction objection. We preserve the sufficiency motion.
+MS. RENWICK: The United States has no further objection.
+THE COURT: The final written instructions will be provided. We will proceed with closings tomorrow morning.
+
+<!-- PAGE 68 -->
+TRIAL TRANSCRIPT — DAY FOUR, JULY 16, 2026
+THE COURT: Members of the jury, you have heard the evidence. Counsel will give their closing arguments. As I have said, argument is not evidence. The government has the burden of proof and will argue first and may reply after the defense. You must not take my rulings or questions as an indication of how you should decide the case. The instructions will identify the legal elements, including the disputed issues of falsity, knowledge, willfulness and materiality. You may assess the credibility of all the witnesses. The parties stipulated to the recording's accuracy and certain custody and jurisdiction facts; the stipulations do not determine the meaning of the answer. The United States may proceed.
+MS. RENWICK: Thank you, Your Honor.
+
+<!-- PAGE 69 -->
+CLOSING ARGUMENT — UNITED STATES
+MS. RENWICK: This case begins with the difference between a record and the thing the record describes. The coordinator testified that she looked at four instruments and used a transfer entry for two. The technician testified that the two reference units were at the laboratory from March eleven through March twenty-one. There is no accusation of missing property. The award attachment tells you why the source of information matters. The defendant knew the source column. He reviewed the sheet and signed the certification. He had been told the last two were at calibration. He told you himself that he did not inspect them at the laboratory before signing. The question on April seventh was not merely whether he reviewed a sheet. You heard the specialist separate the records from the actual instruments and ask whether the defendant personally checked the six instruments themselves.
+
+<!-- PAGE 70 -->
+MS. RENWICK: The answer was, "I checked all six before I signed." You may determine what that answer represented by considering the question it answered. When asked whether that included the two at calibration, he said those were checked too. He then referred to the list. The defense says the reference to the list explains everything and establishes an innocent interpretation. It is evidence you should consider. But you may also conclude that the initial answer represented personal verification, and that the later answers came as the specialist pressed for specifics. The defendant was aware of the distinction. He had received a message telling him in advance what the specialist wanted to discuss. His role and the prior records are relevant to what he knew. You are not required to conclude that he did not understand a question simply because his answer omitted the word "personally."
+
+<!-- PAGE 71 -->
+MS. RENWICK: Remember also what the government is not arguing. We are not asking you to convict him for signing the March document. The signed document disclosed the verification sources. It is relevant because it shows the circumstances he reviewed and what the agency already had. It is not itself the charge. We are not asking you to infer a crime merely because he was responsible for the report, or because a receipt was not attached. If you believe he meant only the entries and made no false representation in the full context, you must acquit. We submit that the specific question, the two affirmations, the knowledge he admitted and the timing of the follow-up support a finding beyond a reasonable doubt that he knowingly and willfully gave a false representation. That finding is yours, not mine.
+
+<!-- PAGE 72 -->
+MS. RENWICK: The monitoring specialist explained the function affected by the statement. He had to decide whether he had adequate verification information, what additional support to request, whether the item could close or whether it should be referred. The claim of an additional personal check could affect that assessment. You heard the defense establish that the receipt was already requested and that the specialist did not close the item. Those facts are real. But the law does not require that a false statement succeed. A person's direct observation can be information relevant to deciding whether other documents are adequate, whether further questions are needed, and whether an item remains unresolved. The specialist considered the answer and the later discussion when making his note. You should determine whether the representation, if made as the government contends, was capable of influencing that function. We submit the evidence proves that element beyond a reasonable doubt.
+
+<!-- PAGE 73 -->
+MS. RENWICK: Each element must be proved. The Department of Commerce's administration of the award and the location of the interview have been stipulated. There is no dispute about the recorded words. The essential disputed questions are what those words communicated, whether that representation was false and knowingly and willfully made, and whether it was material. Consider the evidence as a whole. It is not the government's burden to prove a financial loss or an actual closure, because that is not charged or required by the elements. It is the government's burden to prove the charged false statement. We ask you to return a verdict of guilty on Count One because the evidence meets that burden.
+THE COURT: Thank you. Defense counsel.
+
+<!-- PAGE 74 -->
+CLOSING ARGUMENT — DEFENSE
+MR. CARROW: The government's case is about a sentence that lasts a few seconds in a conversation that lasted several minutes. The indictment alleges a representation of personal physical verification. The recording is your evidence of whether that representation was actually made. Do not replace the words with a different sentence. My client did not say "I went to the lab" or "I saw the tags at the lab." He said "I checked all six before I signed." You have the certification he signed, and it says he reviewed the worksheet and associated records. You have his April third email, which said he reviewed the six entries. You heard the coordinator and technician describe the distinction between the roles. He was reviewing a list, including transfer information. That was permitted by the award attachment if accurately identified. The last two rows were never concealed.
+
+<!-- PAGE 75 -->
+MR. CARROW: When the specialist used the words "instruments themselves," the answer should have been clearer. The defendant has admitted that. But the next words matter. "Those were checked too. I had the sheet and the transfer list." When asked whether he went to the lab, he said he didn't think he went that week. He told the specialist in the same conversation he was not saying he did Nora's inventory. The government suggests these are retreats from an initial false claim. You may consider that interpretation, but you may also conclude that the speaker was explaining the same review process he had already described in his email. The government must prove a false statement and the defendant's knowledge of its falsity, not simply that the answer was less precise than the question. If the record leaves a reasonable doubt on that point, the verdict must be not guilty.
+
+<!-- PAGE 76 -->
+MR. CARROW: No witness said he saw the defendant pretending to inspect a tag. The coordinator did not know his movements. The technician did not know whether he had visited the vendor. The defendant says he did not do that. The problem with the government's inference is not a dispute about where the two instruments were. It is whether he claimed he personally checked them in the physical sense alleged. The file log shows that his account accessed the worksheet folder. It does not read a person's mind. The worksheet and signature show what he certified, and they expressly identify the sources. The government itself says the certification is not charged. It cannot turn a truthful record of documentary verification into proof of a knowingly false oral statement simply because he later answered a question imprecisely.
+
+<!-- PAGE 77 -->
+MR. CARROW: The agency had the two service entries before the meeting. It had already asked for the vendor receipt. The specialist acknowledged that the full follow-up was available to him before he made a decision, and he continued to request the receipt. There was no claim of an award loss, no closure on the basis of personal inspection, no change in the award amount. We agree the law does not require actual influence. But capability is not an abstraction detached from the words and the function. You may consider that the answer was immediately explained and the monitoring question was the same before and afterward. The specialist could not identify a rule under which a claimed personal check would replace a vendor receipt. He would have asked for more support either way. If you have a reasonable doubt that the statement in its actual context was capable of influencing the relevant decision, that too requires acquittal.
+
+<!-- PAGE 78 -->
+MR. CARROW: The defendant did not have to testify. He did so, and you may evaluate his credibility like any witness. You do not have to accept his explanation. But even if you reject an explanation, the government still must prove each element beyond a reasonable doubt from the evidence. It is not enough to conclude that he should have used better words or that a monitoring specialist was confused. This criminal case is not about improving a cooperative's recordkeeping. The only charge is the April answer. We submit that the surrounding statements and documents leave reasonable doubt about the claimed false representation and its knowing and willful character, and about the materiality of that representation. We ask you to return a verdict of not guilty.
+THE COURT: United States, rebuttal.
+
+<!-- PAGE 79 -->
+REBUTTAL — UNITED STATES
+MS. RENWICK: Defense counsel is right that the full conversation matters. Look at the change in the questions. The specialist first asked about records. He then explicitly said, "Let me separate the records from the actual instruments." He asked what the signer personally did. A jury is not required to treat the answer as though that question had not been asked. The fact that the records were accurate does not make a different statement about personal observation accurate. Nor does the government's theory require you to find that he concealed the transfer altogether. A person may disclose some facts and still make a false representation about another. The question was the source and method of verification. The government submits that the direct question and answer, the follow-up and the defendant's admitted knowledge establish the charged representation and its mental state. Consider his later explanation with all the evidence, as the instructions require.
+
+<!-- PAGE 80 -->
+MS. RENWICK: Finally, the monitoring specialist had discretion to evaluate support. His testimony did not say that personal observation would automatically close the item. That is not our contention. It said that the source would be a relevant part of the adequacy and further inquiry decision. Actual influence is not necessary. The defense properly points to the request that preceded the statement and the receipt that followed it. Those are circumstances you may weigh in determining capacity. We submit that a claim of personal verification of all six could affect the monitoring assessment even when a receipt remained important. The government asks you to apply the instructions and decide each disputed element. Thank you.
+THE COURT: Members of the jury, I will now give you the final instructions. The written set will be available in the jury room. Please listen to the entire set; no individual sentence is to be considered in isolation.
