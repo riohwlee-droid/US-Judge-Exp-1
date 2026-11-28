@@ -730,7 +730,7 @@
       "actor_id": "R",
       "created_at": "2026-07-16T09:00:00-07:00",
       "filed_at": "2026-07-16T16:00:00-07:00",
-      "pages": 96,
+      "pages": 95,
       "path": "records/CA9-SUP-000001/v1/TRIAL.md",
       "depends_on": [],
       "access": "judge",
@@ -743,7 +743,7 @@
       "actor_id": "J",
       "created_at": "2026-07-16T09:00:00-07:00",
       "filed_at": "2026-07-16T16:00:00-07:00",
-      "pages": 8,
+      "pages": 7,
       "path": "records/CA9-SUP-000001/v1/INSTR.md",
       "depends_on": [],
       "access": "judge",
@@ -769,7 +769,7 @@
       "actor_id": "B",
       "created_at": "2026-07-20T09:00:00-07:00",
       "filed_at": "2026-07-20T16:00:00-07:00",
-      "pages": 10,
+      "pages": 8,
       "path": "records/CA9-SUP-000001/v1/R29.md",
       "depends_on": [],
       "access": "judge",
@@ -782,7 +782,7 @@
       "actor_id": "G",
       "created_at": "2026-07-27T09:00:00-07:00",
       "filed_at": "2026-07-27T16:00:00-07:00",
-      "pages": 10,
+      "pages": 8,
       "path": "records/CA9-SUP-000001/v1/GOPP.md",
       "depends_on": [],
       "access": "judge",
@@ -795,7 +795,7 @@
       "actor_id": "J",
       "created_at": "2026-08-04T09:00:00-07:00",
       "filed_at": "2026-08-04T16:00:00-07:00",
-      "pages": 8,
+      "pages": 7,
       "path": "records/CA9-SUP-000001/v1/ORDER.md",
       "depends_on": [],
       "access": "judge",
@@ -808,7 +808,7 @@
       "actor_id": "R",
       "created_at": "2026-09-01T09:00:00-07:00",
       "filed_at": "2026-09-01T16:00:00-07:00",
-      "pages": 15,
+      "pages": 12,
       "path": "records/CA9-SUP-000001/v1/SENT.md",
       "depends_on": [],
       "access": "judge",
@@ -821,7 +821,7 @@
       "actor_id": "J",
       "created_at": "2026-09-01T09:00:00-07:00",
       "filed_at": "2026-09-01T16:00:00-07:00",
-      "pages": 2,
+      "pages": 4,
       "path": "records/CA9-SUP-000001/v1/JUD.md",
       "depends_on": [],
       "access": "judge",
@@ -1377,6 +1377,17 @@
       "mode": "testimony",
       "asserted_value": "I checked all six before I signed.",
       "unit": "verbatim"
+    },
+    {
+      "id": "AS15",
+      "document_id": "CA9-SUP-000001-ORDER",
+      "page": 1,
+      "fact_id": "F12",
+      "quote": "The renewed motion for judgment of acquittal is denied.",
+      "speaker_id": "J",
+      "mode": "finding",
+      "asserted_value": "denied",
+      "unit": "ruling"
     }
   ],
   "evidence": [
@@ -1454,7 +1465,238 @@
     }
   ],
   "excerpts": [],
-  "authorities": [],
+  "authorities": [
+    {
+      "id": "STAT",
+      "origin": "real",
+      "authority_type": "statute",
+      "citation": "18 U.S.C. § 1001(a)(2)",
+      "court": "federal_law",
+      "decided_at": "1996-10-11",
+      "url": "https://uscode.house.gov/us/usc/t18/s1001/",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000001/v1/law/STAT.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Original opinion text or statute/rule checked in public source; CourtListener identity query 1102beab for cases. Narrow proposition only; subsequent treatment review pending.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Initial original and identity checks; later treatment not yet fully recorded.",
+        "checked_at": "2026-11-28",
+        "method": "CourtListener citation lookup and actual public opinion or rule text; source URL recorded."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "subsection (a)(2)",
+          "quote": "makes any materially false, fictitious, or fraudulent statement or representation",
+          "proposition": "The charged subsection requires a materially false representation made knowingly and willfully in a federal matter."
+        }
+      ]
+    },
+    {
+      "id": "R29",
+      "origin": "real",
+      "authority_type": "rule",
+      "citation": "Fed. R. Crim. P. 29(c)(1)",
+      "court": "federal_law",
+      "decided_at": "2009-12-01",
+      "url": "https://www.law.cornell.edu/rules/frcrmp/rule_29",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000001/v1/law/R29.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Original opinion text or statute/rule checked in public source; CourtListener identity query 1102beab for cases. Narrow proposition only; subsequent treatment review pending.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Initial original and identity checks; later treatment not yet fully recorded.",
+        "checked_at": "2026-11-28",
+        "method": "CourtListener citation lookup and actual public opinion or rule text; source URL recorded."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "Rule 29(c)(1)",
+          "quote": "within 14 days after a guilty verdict or after the court discharges the jury, whichever is later",
+          "proposition": "Renewed acquittal motion within 14 days of verdict/discharge."
+        }
+      ]
+    },
+    {
+      "id": "MUS",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "Musacchio v. United States, 577 U.S. 237, 243 (2016)",
+      "court": "scotus",
+      "decided_at": "2016-01-25",
+      "url": "https://www.law.cornell.edu/supremecourt/text/14-1095",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000001/v1/law/MUS.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Original opinion text or statute/rule checked in public source; CourtListener identity query 1102beab for cases. Narrow proposition only; subsequent treatment review pending.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Initial original and identity checks; later treatment not yet fully recorded.",
+        "checked_at": "2026-11-28",
+        "method": "CourtListener citation lookup and actual public opinion or rule text; source URL recorded."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "243",
+          "quote": "any rational trier of fact could have found the essential elements of the crime beyond a reasonable doubt",
+          "proposition": "Sufficiency review asks whether a rational factfinder could find the statutory elements beyond reasonable doubt, favorably to prosecution."
+        }
+      ],
+      "lookup_cluster_id": 3171723
+    },
+    {
+      "id": "JIANG",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "United States v. Jiang, 476 F.3d 1026, 1029–31 (9th Cir. 2007)",
+      "court": "ca9",
+      "decided_at": "2007-01-25",
+      "url": "https://www.courtlistener.com/opinion/796823/united-states-v-qing-chang-jiang-aka-frank-jiang/",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000001/v1/law/JIANG.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Original opinion text or statute/rule checked in public source; CourtListener identity query 1102beab for cases. Narrow proposition only; subsequent treatment review pending.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Initial original and identity checks; later treatment not yet fully recorded.",
+        "checked_at": "2026-11-28",
+        "method": "CourtListener citation lookup and actual public opinion or rule text; source URL recorded."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "1029–31",
+          "quote": "extrinsic evidence relevant to [the defendant’s] understanding of the questions posed",
+          "proposition": "In sufficiency review of false statements, actual context and extrinsic evidence bearing on defendant's understanding matter; reversal on particular insufficient record."
+        }
+      ],
+      "lookup_cluster_id": 796823
+    },
+    {
+      "id": "CAMP",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "United States v. Camper, 384 F.3d 1073, 1076–77 (9th Cir. 2004)",
+      "court": "ca9",
+      "decided_at": "2004-09-22",
+      "url": "https://www.courtlistener.com/opinion/787910/united-states-v-demond-jamal-camper/",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000001/v1/law/CAMP.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Original opinion text or statute/rule checked in public source; CourtListener identity query 1102beab for cases. Narrow proposition only; subsequent treatment review pending.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Initial original and identity checks; later treatment not yet fully recorded.",
+        "checked_at": "2026-11-28",
+        "method": "CourtListener citation lookup and actual public opinion or rule text; source URL recorded."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "1076–77",
+          "quote": "Ordinarily, the finder of fact decides which of the plausible interpretations of an ambiguous question the defendant apprehended and responded to.",
+          "proposition": "Some ambiguity need not preclude a conviction if evidence supports the defendant's actual understanding and knowing false response."
+        }
+      ],
+      "lookup_cluster_id": 787910
+    },
+    {
+      "id": "GAUD",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "United States v. Gaudin, 515 U.S. 506, 522–23 (1995)",
+      "court": "scotus",
+      "decided_at": "1995-06-19",
+      "url": "https://www.law.cornell.edu/supremecourt/text/515/506",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000001/v1/law/GAUD.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Original opinion text or statute/rule checked in public source; CourtListener identity query 1102beab for cases. Narrow proposition only; subsequent treatment review pending.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Initial original and identity checks; later treatment not yet fully recorded.",
+        "checked_at": "2026-11-28",
+        "method": "CourtListener citation lookup and actual public opinion or rule text; source URL recorded."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "522–23",
+          "quote": "The trial judge's refusal to allow the jury to pass on the \"materiality\" of Gaudin's false statements infringed that right.",
+          "proposition": "Jury, not judge, must decide materiality as an element beyond reasonable doubt."
+        }
+      ],
+      "lookup_cluster_id": 117958
+    },
+    {
+      "id": "PETER",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "United States v. Peterson, 538 F.3d 1064, 1072 (9th Cir. 2008)",
+      "court": "ca9",
+      "decided_at": "2008-08-13",
+      "url": "https://www.courtlistener.com/opinion/1443107/united-states-v-peterson/",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000001/v1/law/PETER.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Original opinion text or statute/rule checked in public source; CourtListener identity query 1102beab for cases. Narrow proposition only; subsequent treatment review pending.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Initial original and identity checks; later treatment not yet fully recorded.",
+        "checked_at": "2026-11-28",
+        "method": "CourtListener citation lookup and actual public opinion or rule text; source URL recorded."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "1072",
+          "quote": "has a natural tendency to influence, or was capable of influencing, the decision of the decisionmaking body to which it was addressed",
+          "proposition": "Objective materiality capability standard, not actual influence; Peterson considered plain error in instruction and sufficiency in its context."
+        }
+      ],
+      "lookup_cluster_id": 1443107
+    },
+    {
+      "id": "CHAR",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "United States v. Charley, 1 F.4th 637, 643–45 (9th Cir. 2021)",
+      "court": "ca9",
+      "decided_at": "2021-06-11",
+      "url": "https://www.courtlistener.com/opinion/4891025/united-states-v-seraphina-charley/",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000001/v1/law/CHAR.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Original opinion text or statute/rule checked in public source; CourtListener identity query 1102beab for cases. Narrow proposition only; subsequent treatment review pending.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Initial original and identity checks; later treatment not yet fully recorded.",
+        "checked_at": "2026-11-28",
+        "method": "CourtListener citation lookup and actual public opinion or rule text; source URL recorded."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "644–45",
+          "quote": "the jury is entitled to make common sense inferences from the proven facts",
+          "proposition": "Knowledge that false statement conduct is unlawful is required; circumstantial proof can establish it; specific facts matter."
+        }
+      ],
+      "lookup_cluster_id": 4891025
+    }
+  ],
   "arguments": [],
   "timeliness_review": {
     "reviewed": true,
@@ -1466,7 +1708,261 @@
     "Actual evidence annotations, excerpts, briefs and citation audits incomplete",
     "Subsequent-treatment and semantic review pending"
   ],
-  "legal_uses": [],
+  "legal_uses": [
+    {
+      "id": "LU1",
+      "document_id": "CA9-SUP-000001-R29",
+      "page": 1,
+      "quote": "Fed. R. Crim. P. 29(c)(1)",
+      "authority_id": "R29",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "text",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU2",
+      "document_id": "CA9-SUP-000001-R29",
+      "page": 2,
+      "quote": "Musacchio v. United States, 577 U.S. 237, 243 (2016)",
+      "authority_id": "MUS",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU3",
+      "document_id": "CA9-SUP-000001-R29",
+      "page": 2,
+      "quote": "18 U.S.C. § 1001(a)(2)",
+      "authority_id": "STAT",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "text",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU4",
+      "document_id": "CA9-SUP-000001-R29",
+      "page": 3,
+      "quote": "United States v. Jiang, 476 F.3d 1026, 1029–31 (9th Cir. 2007)",
+      "authority_id": "JIANG",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU5",
+      "document_id": "CA9-SUP-000001-R29",
+      "page": 5,
+      "quote": "United States v. Camper, 384 F.3d 1073, 1076–77 (9th Cir. 2004)",
+      "authority_id": "CAMP",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU6",
+      "document_id": "CA9-SUP-000001-R29",
+      "page": 6,
+      "quote": "United States v. Charley, 1 F.4th 637, 643–45 (9th Cir. 2021)",
+      "authority_id": "CHAR",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU7",
+      "document_id": "CA9-SUP-000001-R29",
+      "page": 7,
+      "quote": "United States v. Peterson, 538 F.3d 1064, 1072 (9th Cir. 2008)",
+      "authority_id": "PETER",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU8",
+      "document_id": "CA9-SUP-000001-R29",
+      "page": 8,
+      "quote": "United States v. Gaudin, 515 U.S. 506, 522–23 (1995)",
+      "authority_id": "GAUD",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU9",
+      "document_id": "CA9-SUP-000001-GOPP",
+      "page": 2,
+      "quote": "Musacchio v. United States, 577 U.S. 237, 243 (2016)",
+      "authority_id": "MUS",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU10",
+      "document_id": "CA9-SUP-000001-GOPP",
+      "page": 2,
+      "quote": "18 U.S.C. § 1001(a)(2)",
+      "authority_id": "STAT",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "text",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU11",
+      "document_id": "CA9-SUP-000001-GOPP",
+      "page": 5,
+      "quote": "United States v. Jiang, 476 F.3d 1026, 1029–31 (9th Cir. 2007)",
+      "authority_id": "JIANG",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU12",
+      "document_id": "CA9-SUP-000001-GOPP",
+      "page": 5,
+      "quote": "United States v. Camper, 384 F.3d 1073, 1076–77 (9th Cir. 2004)",
+      "authority_id": "CAMP",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU13",
+      "document_id": "CA9-SUP-000001-GOPP",
+      "page": 6,
+      "quote": "United States v. Charley, 1 F.4th 637, 643–45 (9th Cir. 2021)",
+      "authority_id": "CHAR",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU14",
+      "document_id": "CA9-SUP-000001-GOPP",
+      "page": 7,
+      "quote": "United States v. Peterson, 538 F.3d 1064, 1072 (9th Cir. 2008)",
+      "authority_id": "PETER",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU15",
+      "document_id": "CA9-SUP-000001-GOPP",
+      "page": 8,
+      "quote": "United States v. Gaudin, 515 U.S. 506, 522–23 (1995)",
+      "authority_id": "GAUD",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU16",
+      "document_id": "CA9-SUP-000001-ORDER",
+      "page": 1,
+      "quote": "Fed. R. Crim. P. 29(c)(1)",
+      "authority_id": "R29",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "text",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU17",
+      "document_id": "CA9-SUP-000001-ORDER",
+      "page": 2,
+      "quote": "Musacchio v. United States, 577 U.S. 237, 243 (2016)",
+      "authority_id": "MUS",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU18",
+      "document_id": "CA9-SUP-000001-ORDER",
+      "page": 2,
+      "quote": "18 U.S.C. § 1001(a)(2)",
+      "authority_id": "STAT",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "text",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU19",
+      "document_id": "CA9-SUP-000001-ORDER",
+      "page": 4,
+      "quote": "United States v. Jiang, 476 F.3d 1026, 1029–31 (9th Cir. 2007)",
+      "authority_id": "JIANG",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU20",
+      "document_id": "CA9-SUP-000001-ORDER",
+      "page": 4,
+      "quote": "United States v. Camper, 384 F.3d 1073, 1076–77 (9th Cir. 2004)",
+      "authority_id": "CAMP",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU21",
+      "document_id": "CA9-SUP-000001-ORDER",
+      "page": 5,
+      "quote": "United States v. Charley, 1 F.4th 637, 643–45 (9th Cir. 2021)",
+      "authority_id": "CHAR",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU22",
+      "document_id": "CA9-SUP-000001-ORDER",
+      "page": 6,
+      "quote": "United States v. Peterson, 538 F.3d 1064, 1072 (9th Cir. 2008)",
+      "authority_id": "PETER",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    },
+    {
+      "id": "LU23",
+      "document_id": "CA9-SUP-000001-ORDER",
+      "page": 7,
+      "quote": "United States v. Gaudin, 515 U.S. 506, 522–23 (1995)",
+      "authority_id": "GAUD",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "See the specific application and limitations in the original paragraph."
+    }
+  ],
   "research": {
     "schema_version": 1,
     "cutoff": "2026-11-27",

@@ -707,7 +707,7 @@ A. That I did not think I had gone that week.
 Q. Did you hear yourself say on the recording that you were not saying you did Nora's inventory for her?
 A. Yes. That was what I was trying to explain. I had a different role from her.
 Q. Were you aware on April seven that a false representation to the federal agency could be unlawful?
-A. I understood that we needed to give accurate information. I wasn't thinking about a criminal charge. I intended to explain the review and get the supporting documents.
+A. I knew it was unlawful to knowingly give a false answer to the agency. I wasn't thinking about a particular criminal statute. I did not think my answer was false. I intended to explain the review and get the supporting documents.
 Q. Is your testimony that every answer you gave was phrased as clearly as it could have been?
 A. No. I can see that the question was more specific than my answer. I should have been more precise.
 Q. Is your testimony that you actually made a second physical inventory of all six before signing?
@@ -852,7 +852,7 @@ THE COURT: I deny the renewed motion at the close of all evidence for the reason
 
 <!-- PAGE 66 -->
 FINAL INSTRUCTION CONFERENCE — OUTSIDE JURY PRESENCE
-THE COURT: We have the proposed final instructions. The parties agree that the charged statement is the April seventh sentence, and that materiality is for the jury. The instructions will require knowledge of falsity and willful making of the statement, not merely a mistake or negligent answer. I will include a paragraph telling the jury to consider the words in the context of the question and surrounding exchange. Government?
+THE COURT: We have the proposed final instructions. The parties agree that the charged statement is the April seventh sentence, and that materiality is for the jury. The instructions will require knowledge of falsity and deliberate action with knowledge that the conduct was unlawful, not merely a mistake or negligent answer. Knowledge of the particular statutory number or federal jurisdiction is not required. I will include a paragraph telling the jury to consider the words in the context of the question and surrounding exchange. Government?
 MS. RENWICK: Agreed, provided the instruction does not require the government to negate every conceivable interpretation. We submit a rational factual interpretation is for the jury.
 MR. CARROW: We request that the jury be told that a statement that is actually true in the context in which it was made cannot support conviction even if it was imprecise or the questioner misunderstood it.
 THE COURT: I will say that. The burden of proving the representation false and the defendant's knowledge remains with the government.
@@ -911,3 +911,106 @@ MS. RENWICK: Defense counsel is right that the full conversation matters. Look a
 <!-- PAGE 80 -->
 MS. RENWICK: Finally, the monitoring specialist had discretion to evaluate support. His testimony did not say that personal observation would automatically close the item. That is not our contention. It said that the source would be a relevant part of the adequacy and further inquiry decision. Actual influence is not necessary. The defense properly points to the request that preceded the statement and the receipt that followed it. Those are circumstances you may weigh in determining capacity. We submit that a claim of personal verification of all six could affect the monitoring assessment even when a receipt remained important. The government asks you to apply the instructions and decide each disputed element. Thank you.
 THE COURT: Members of the jury, I will now give you the final instructions. The written set will be available in the jury room. Please listen to the entire set; no individual sentence is to be considered in isolation.
+
+<!-- PAGE 81 -->
+FINAL INSTRUCTIONS — ORAL DELIVERY
+THE COURT: The defendant is accused of one offense. An indictment is simply the charging document. It is not evidence. The presumption of innocence continues during your deliberations. The government has the burden of establishing the defendant's guilt on every element beyond a reasonable doubt. The defendant does not have to prove his innocence. A reasonable doubt is a genuine doubt grounded in reason and common sense after careful consideration of the evidence or absence of evidence. The burden is a high one, although it does not require proof beyond every possible doubt. If, after impartial consideration of the evidence, you have a reasonable doubt on any element, your verdict must be not guilty. If the government has proved all of the elements beyond a reasonable doubt, your verdict must be guilty. You may not compromise the burden of proof because you believe better records should have been kept.
+
+<!-- PAGE 82 -->
+THE COURT: There are several kinds of evidence in this trial: testimony from witnesses, the exhibits admitted, and the facts to which the parties stipulated. The questions of counsel and counsel's arguments are not evidence. If a question was excluded, do not speculate about the answer. If an answer was stricken, disregard it. You may consider both direct and circumstantial evidence. There is no general rule assigning greater value to one kind. You may draw reasonable inferences grounded in proved facts, but may not speculate. Evaluate the witnesses in the light of their opportunity to observe, recollection, manner of testifying, possible interest and consistency with other evidence. You may believe all, some or none of a witness's testimony. The defendant testified; you may evaluate his testimony by the same principles. The government retains the burden regardless of whether you credit a particular witness.
+
+<!-- PAGE 83 -->
+THE COURT: Count One is brought under the federal false statement statute. To find the defendant guilty, you must find beyond a reasonable doubt that he made the charged statement; that the statement, as understood in context, was false; that it concerned a material fact; that he made it knowingly and willfully; and that it was made in a matter within the jurisdiction of a department of the United States. The parties have stipulated to the words recorded and to the department's administration of the award. Those stipulations are evidence. They do not establish falsity, knowledge, willfulness or materiality. The charged statement is the April seven answer identified in the indictment. You must not convict on the basis of a different statement, including the signature on March thirteen or any other sentence in the interview. Those matters are evidence only as they bear on the charged statement and its elements.
+
+<!-- PAGE 84 -->
+THE COURT: In determining whether a statement was false, consider the meaning of the words in the actual circumstances, including the question, prior exchange, follow-up and other evidence bearing on what the speaker understood. The government must establish that the defendant made the false representation charged. An answer that was actually true in the context in which it was made does not become false merely because it was imprecise or the questioner understood it differently. An answer may have more than one plausible meaning; you must evaluate the evidence of the meaning understood and conveyed by the defendant. Do not substitute a different, clearer statement for the actual words. The fact that the defendant was responsible for the records or that additional documentation was needed does not itself prove that the charged answer was false. Conversely, the accuracy of the underlying records does not necessarily establish the truth of every statement concerning how those records were verified.
+
+<!-- PAGE 85 -->
+THE COURT: The government must also prove that the defendant acted knowingly and willfully. For this charge, the defendant must have made the statement deliberately, knowing it was false and knowing that the conduct was unlawful. It is not enough that an answer was objectively inaccurate if it resulted from an honest mistake, misunderstanding, negligence or inadvertence. The government need not establish that the defendant knew the number or precise wording of the criminal statute, and need not prove that the defendant knew the matter was within federal jurisdiction. Knowledge and intent may be proved by circumstantial evidence, including the defendant's words, prior knowledge, conduct and other relevant circumstances. You must not infer knowledge merely from the defendant's job title or impose a duty on him to establish an innocent explanation. If you have a reasonable doubt whether he knowingly and willfully made a false statement, you must acquit.
+
+<!-- PAGE 86 -->
+THE COURT: A statement is material if, in the circumstances in which it was made, it had a tendency or capacity to influence the decision or function of the decisionmaking body to which it was directed. You must decide this element, beyond a reasonable doubt, based on the evidence about the monitoring function and the statement. It is not necessary for the government to prove that the statement actually changed a decision, that the monitoring item was closed, or that the agency lost money. Actual actions, prior information, follow-up questions and the rest of the exchange may be considered to the extent they bear on capacity to influence. The specialist's views concerning the significance of information are evidence about his responsibilities and the process; they do not establish the legal element by themselves. The element is not proved merely because a statement concerns a federally funded activity. Apply the standard to the charged statement.
+
+<!-- PAGE 87 -->
+THE COURT: The matter must be within the jurisdiction of a department of the United States. You may consider the parties' stipulation that the Department of Commerce administered the award and the specialist acted in that monitoring process. As to venue, the parties have stipulated that the interview occurred in San Francisco. The government need not prove that the defendant knew the legal limits of the department's jurisdiction, but the government must prove the jurisdictional element itself. The government's case is not about whether a transfer for calibration was permissible as a matter of award administration. Do not make a decision concerning entitlement to the award, civil repayment or other regulatory questions. Your only task is to determine whether the government proved the one criminal charge before you.
+
+<!-- PAGE 88 -->
+THE COURT: Your verdict must be unanimous. You must discuss the evidence with one another and deliberate with an open mind. Each juror must make an individual decision after considering the views of the other jurors. Do not change an honestly held view merely to reach a verdict, but be willing to reconsider an opinion if the discussion convinces you it is mistaken. You must base your verdict only on the evidence and these instructions, not on sympathy, prejudice or speculation. If you have a question, send a written note signed by your foreperson through the courtroom deputy. Do not disclose how you are divided. If you reach a unanimous verdict, have your foreperson sign the verdict form and notify the deputy. The alternates will remain apart from deliberations. The clerk will provide the admitted exhibits and the written instructions. Counsel, any objections outside the presence of the jury?
+
+<!-- PAGE 89 -->
+[Jury excused to deliberate.]
+THE COURT: We are outside the jury's presence. Any objections to the oral instructions as delivered?
+MS. RENWICK: None from the United States.
+MR. CARROW: No additional objection. We appreciate the clarification regarding actual meaning and knowledge of unlawfulness. We renew the objections embodied in our Rule 29 motion, not an objection to the instructions as given.
+THE COURT: The record reflects that. The exhibits will be transmitted under the parties' stipulation, with the recording and the transcript aid. The written instruction packet is filed as the final instructions. The alternate jurors are excused from service subject to the direction not to discuss the case until discharged. Counsel should remain available while the jury deliberates. Any communication from the jury will be disclosed to both counsel before response.
+[Recess.]
+
+<!-- PAGE 90 -->
+JURY COMMUNICATION — JULY 16
+THE COURT: Counsel, the jury has sent a note: "For the materiality element, do we have to decide that the answer actually changed what the specialist did, or only that it could have mattered to his decision?" We will discuss a response on the record outside the jury's presence.
+MS. RENWICK: The final instructions already answer the question. We ask the Court to refer the jury to the materiality instruction and make clear actual influence is not required.
+MR. CARROW: We agree that the law does not require actual influence. We request the Court also remind them that they must determine capability on the evidence concerning the actual statement and actual function, beyond a reasonable doubt, and may consider actual actions as evidence.
+THE COURT: I will give a neutral response referring to the entire instruction. Neither party requests additional evidence.
+
+<!-- PAGE 91 -->
+[Jury enters.]
+THE COURT: Members of the jury, I have your question. Please refer to the materiality instruction, and consider it with all the other instructions. The government must prove beyond a reasonable doubt that the charged statement was material under the definition given. It need not prove an actual change in the specialist's decision. It must establish the statement's capacity or tendency to influence the relevant decision or function, based on the evidence in this case. The circumstances including actual actions may be considered to the extent they bear on that question, but actual influence is not an additional element. You must decide the disputed elements for yourselves. Nothing in this response suggests how you should find on any element. You may resume your deliberations.
+[Jury exits.]
+THE COURT: Does either counsel object to the response as delivered?
+MS. RENWICK: No.
+MR. CARROW: No.
+[Recess.]
+
+<!-- PAGE 92 -->
+RETURN OF VERDICT — JULY 16
+THE COURT: The jury has indicated it has reached a verdict. Are counsel and the defendant present?
+MS. RENWICK: Yes.
+MR. CARROW: Yes.
+[Jury enters.]
+THE COURT: Has the jury reached a unanimous verdict?
+THE FOREPERSON: Yes, Your Honor.
+THE CLERK: Please hand the form to the deputy. [Form delivered.] In the matter of the United States against Avery R. Denslow, on Count One, we the jury find the defendant guilty.
+THE COURT: Counsel, do you request polling?
+MR. CARROW: Yes, Your Honor.
+THE CLERK: Juror One, is this your verdict?
+JUROR ONE: Yes.
+THE CLERK: Juror Two?
+JUROR TWO: Yes.
+THE CLERK: Juror Three?
+JUROR THREE: Yes.
+THE CLERK: Juror Four?
+JUROR FOUR: Yes.
+THE CLERK: Juror Five?
+JUROR FIVE: Yes.
+
+<!-- PAGE 93 -->
+THE CLERK: Juror Six, is this your verdict?
+JUROR SIX: Yes.
+THE CLERK: Juror Seven?
+JUROR SEVEN: Yes.
+THE CLERK: Juror Eight?
+JUROR EIGHT: Yes.
+THE CLERK: Juror Nine?
+JUROR NINE: Yes.
+THE CLERK: Juror Ten?
+JUROR TEN: Yes.
+THE CLERK: Juror Eleven?
+JUROR ELEVEN: Yes.
+THE CLERK: Juror Twelve?
+JUROR TWELVE: Yes.
+THE COURT: The Court accepts the unanimous verdict and directs that the verdict form be filed. Members of the jury, thank you for your service. You are discharged. You are not required to discuss your deliberations with anyone. The Court's instructions regarding disclosure of the deliberations continue to apply where the law requires. You may leave the courtroom.
+[Jury exits.]
+THE COURT: Counsel, we will address the post-verdict schedule.
+
+<!-- PAGE 94 -->
+POST-VERDICT SCHEDULE
+THE COURT: The verdict is not the final judgment. The Court will set a sentencing hearing and direct preparation of the presentence report under the applicable rules. Defense counsel has advised that a renewed Rule 29 motion will be filed. The ordinary deadline is governed by the rule. Counsel may file the motion July twenty, and the United States may respond July twenty-seven. The Court will decide on the papers unless a hearing is needed. No extension of the appeal deadline is represented by this schedule. The sentencing hearing is set for September one, subject to any further order. The existing release conditions continue pending sentencing. The parties shall confer with Probation concerning disclosure and objections to the report. No issue concerning the amount of a loss or a restitution claim was decided by the jury verdict.
+MR. CARROW: Thank you. We reserve our posttrial motions.
+MS. RENWICK: Understood.
+[Adjourned.]
+
+<!-- PAGE 95 -->
+REPORTER'S CERTIFICATION — TRIAL RECORD
+I, Milo J. Frey, fictional court reporter, certify for this simulation that the preceding logical pages contain the authored trial proceedings of July 13 through July 16, 2026, including opening statements, witness examinations, admitted exhibit references, Rule 29 motions, closing arguments, oral instructions, jury question and response, polling, verdict and post-verdict schedule. The stable page numbers are record references within the simulated case, not a representation of actual court-certified stenographic pagination. Speaker labels and bracketed courtroom notations distinguish testimony from argument and rulings. The written instructions and admitted exhibit originals are separately maintained. No private jury deliberations are represented as part of the transcript. The record does not establish a reason for each juror's verdict beyond the verdict itself.
+/s/ Milo J. Frey, Court Reporter (fictional).
+Filed July 16, 2026.

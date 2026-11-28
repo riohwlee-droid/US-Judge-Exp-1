@@ -50,12 +50,6 @@
       "words": 129
     },
     {
-      "id": "CA9-SUP-000001-JUD",
-      "path": "records/CA9-SUP-000001/v1/JUD.md",
-      "pages": 2,
-      "words": 260
-    },
-    {
       "id": "CA9-SUP-000001-NOA",
       "path": "records/CA9-SUP-000001/v1/NOA.md",
       "pages": 1,
@@ -112,16 +106,58 @@
     {
       "id": "CA9-SUP-000001-TRIAL",
       "path": "records/CA9-SUP-000001/v1/TRIAL.md",
-      "pages": 80,
-      "words": 12053,
-      "complete": false
+      "pages": 95,
+      "words": 14225,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-INSTR",
+      "path": "records/CA9-SUP-000001/v1/INSTR.md",
+      "pages": 7,
+      "words": 924,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-R29",
+      "path": "records/CA9-SUP-000001/v1/R29.md",
+      "pages": 8,
+      "words": 1228,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-GOPP",
+      "path": "records/CA9-SUP-000001/v1/GOPP.md",
+      "pages": 8,
+      "words": 1220,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-ORDER",
+      "path": "records/CA9-SUP-000001/v1/ORDER.md",
+      "pages": 7,
+      "words": 1132,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-SENT",
+      "path": "records/CA9-SUP-000001/v1/SENT.md",
+      "pages": 12,
+      "words": 1741,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000001-JUD",
+      "path": "records/CA9-SUP-000001/v1/JUD.md",
+      "pages": 4,
+      "words": 539,
+      "complete": true
     }
   ],
-  "original_pages": 119,
-  "original_words": 17370,
+  "original_pages": 178,
+  "original_words": 26066,
   "planned_documents": 29,
   "planned_original_pages": 230,
-  "next_batch": "Finalize trial instructions, deliberation and verdict transcript, renewed Rule 29 briefs/order, sentencing, remaining appellate documents. Trial still partial, no record stage validation.",
+  "next_batch": "Complete exact ER assembly and adversarial appellate briefs; expand necessary full original records to reach production floor without filler; complete authority research and all semantic reviews.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [
