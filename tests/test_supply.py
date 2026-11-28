@@ -25,12 +25,25 @@ class QueueTests(unittest.TestCase):
         self.assertEqual(before,self.ledger)
         with self.assertRaisesRegex(ValueError,"capacity"):process_command(self.root,self.ledger,POL,self.state,{"schema_version":1,"action":"request"},0)
     def test_real_first_release_inventory(self):
-        import_seals(ROOT,self.ledger,POL,0);replenish(self.ledger,self.state,POL,0)
+        # Isolate the original migration fixture from additional production seals.
+        import shutil
+        for folder in ("factory","records"):
+            shutil.copytree(ROOT/folder/"CA9-26-001",self.root/folder/"CA9-26-001")
+        import_seals(self.root,self.ledger,POL,0);replenish(self.ledger,self.state,POL,0)
         self.assertEqual(inventory(self.ledger,self.state,POL)["ready"],1)
         self.assertEqual(inventory(self.ledger,self.state,POL)["queued"],2)
         self.assertEqual(self.ledger["jobs"]["CA9-26-001"]["release_digest"],canonical(check_release(ROOT,RELEASE)))
-        before=deepcopy(self.ledger);import_seals(ROOT,self.ledger,POL,0);replenish(self.ledger,self.state,POL,0)
+        before=deepcopy(self.ledger);import_seals(self.root,self.ledger,POL,0);replenish(self.ledger,self.state,POL,0)
         self.assertEqual(before,self.ledger)
+    def test_all_production_seals_reconcile(self):
+        ledger=deepcopy(read_json(ROOT/"supply/STATE.json"))
+        for j in ledger["jobs"].values():
+            if j["status"]=="sealed":
+                release=check_release(ROOT,j["release_path"],j["release_digest"])
+                validate_release_job(ROOT,j,release,j["release_path"])
+        before=deepcopy(ledger)
+        import_seals(ROOT,ledger,POL,0)
+        self.assertEqual(before,ledger)
     def test_stage_failure_and_retry(self):
         j=make_job(self.ledger,POL,POL["provisional_cutoff"],0)
         def command(action,expected,**p):
@@ -137,7 +150,7 @@ class OfficialPipelineTests(unittest.TestCase):
         with TemporaryDirectory() as tmp:
             root=Path(tmp)
             for folder in ("courts","law","factory","records"):
-                shutil.copytree(ROOT/folder,root/folder)
+                shutil.copytree(ROOT/folder,root/folder,ignore=shutil.ignore_patterns("CA9-SUP-*"))
             write_json(root/"supply/policy.json",POL)
             pr=read_json(root/"courts/profiles.json")
             pr["profiles"]["CA9"]["status"]="ready" # temporary test only

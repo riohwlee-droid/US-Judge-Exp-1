@@ -1,0 +1,6 @@
+{
+  "schema_version": 1,
+  "request_id": "SUPREQ-20261128-204R",
+  "action": "sync",
+  "note": "Re-run reconciliation after adapting single-release test fixtures to multiple sealed production packages."
+}

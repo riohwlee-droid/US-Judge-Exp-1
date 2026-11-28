@@ -256,5 +256,6 @@
       }
     ],
     "vol2": 85
-  }
+  },
+  "test_repair_note": "New production seal exposed hard-coded one-release fixture assumptions; isolate first-release test and verify every actual sealed release independently."
 }
