@@ -86,13 +86,34 @@
       "pages": 28,
       "words": 3721,
       "complete": true
+    },
+    {
+      "id": "CA9-SUP-000002-HDEP",
+      "path": "records/CA9-SUP-000002/v1/HDEP.md",
+      "pages": 19,
+      "words": 2321,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000002-IDEP",
+      "path": "records/CA9-SUP-000002/v1/IDEP.md",
+      "pages": 20,
+      "words": 2348,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000002-WDEP",
+      "path": "records/CA9-SUP-000002/v1/WDEP.md",
+      "pages": 19,
+      "words": 2126,
+      "complete": true
     }
   ],
-  "original_pages": 97,
-  "original_words": 12631,
+  "original_pages": 155,
+  "original_words": 19426,
   "planned_documents": 28,
   "planned_original_pages": 258,
-  "next_batch": "Author payroll, system custodian and coworker depositions, then summary-judgment briefing/hearing/order. No record gate request yet.",
+  "next_batch": "All five depositions drafted. Author motion, opposition, reply, hearing and district order with actual authority pins.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [
