@@ -1,0 +1,1500 @@
+{
+  "schema_version": 1,
+  "case_id": "CA9-SUP-000002",
+  "version": "v1",
+  "purpose": "production",
+  "fictional": true,
+  "court_id": "CA9",
+  "track": "civil_summary_judgment",
+  "appeal_shape": "single_represented_appeal",
+  "title": "Mira L. Sedgewick v. Harborline Support Services, LLC",
+  "origin_district": "CDCA",
+  "calendar_location": "Pasadena",
+  "jurisdiction_basis": "28 U.S.C. §§ 1331, 1291; 29 U.S.C. §§ 207(a)(1), 216(b); final judgment disposing of sole federal claim; private represented parties.",
+  "legal_cutoff": "2026-11-27",
+  "record_as_of": "2026-11-27T10:00:00-08:00",
+  "actors": [
+    {
+      "id": "P",
+      "name": "Mira L. Sedgewick",
+      "role": "plaintiff",
+      "fictional": true
+    },
+    {
+      "id": "D",
+      "name": "Harborline Support Services, LLC",
+      "role": "defendant",
+      "fictional": true
+    },
+    {
+      "id": "PC",
+      "name": "Jessa M. Orell",
+      "role": "plaintiff counsel",
+      "fictional": true
+    },
+    {
+      "id": "DC",
+      "name": "Brennan T. Halwick",
+      "role": "defense counsel",
+      "fictional": true
+    },
+    {
+      "id": "J",
+      "name": "Hon. Leona V. March",
+      "role": "district judge",
+      "fictional": true
+    },
+    {
+      "id": "K",
+      "name": "Isla R. Bram",
+      "role": "district clerk",
+      "fictional": true
+    },
+    {
+      "id": "S",
+      "name": "Kellan D. Brice",
+      "role": "team supervisor",
+      "fictional": true
+    },
+    {
+      "id": "H",
+      "name": "Maren J. Vossler",
+      "role": "payroll manager",
+      "fictional": true
+    },
+    {
+      "id": "I",
+      "name": "Tomas N. Ewan",
+      "role": "system custodian",
+      "fictional": true
+    },
+    {
+      "id": "W",
+      "name": "Celeste A. Venn",
+      "role": "coworker",
+      "fictional": true
+    },
+    {
+      "id": "R",
+      "name": "Gavin M. Lorne",
+      "role": "court reporter",
+      "fictional": true
+    },
+    {
+      "id": "U",
+      "name": "Selah T. Morris",
+      "role": "appellate clerk",
+      "fictional": true
+    }
+  ],
+  "timeline": [
+    {
+      "id": "T01",
+      "at": "2023-09-05T10:00:00-08:00",
+      "description": "Sedgewick begins hourly nonexempt customer support employment.",
+      "actor_ids": [
+        "P",
+        "D",
+        "H"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T02",
+      "at": "2024-01-08T10:00:00-08:00",
+      "description": "Written timekeeping procedure issued.",
+      "actor_ids": [
+        "D",
+        "H",
+        "S",
+        "P"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T03",
+      "at": "2024-04-29T10:00:00-08:00",
+      "description": "Four-week disputed period begins.",
+      "actor_ids": [
+        "P",
+        "S",
+        "H"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T04",
+      "at": "2024-05-02T10:00:00-08:00",
+      "description": "First selected closing event recorded.",
+      "actor_ids": [
+        "P",
+        "I"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T05",
+      "at": "2024-05-09T10:00:00-08:00",
+      "description": "Second selected closing event recorded.",
+      "actor_ids": [
+        "P",
+        "I"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T06",
+      "at": "2024-05-13T10:00:00-08:00",
+      "description": "Supervisor sends team reminder about completion of assigned cases.",
+      "actor_ids": [
+        "S",
+        "P",
+        "W"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T07",
+      "at": "2024-05-16T10:00:00-08:00",
+      "description": "Third selected closing event recorded.",
+      "actor_ids": [
+        "P",
+        "I"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T08",
+      "at": "2024-05-20T10:00:00-08:00",
+      "description": "Plaintiff asks supervisor about closing time and time entry.",
+      "actor_ids": [
+        "P",
+        "S"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T09",
+      "at": "2024-05-21T10:00:00-08:00",
+      "description": "Supervisor responds.",
+      "actor_ids": [
+        "S",
+        "P"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T10",
+      "at": "2024-05-23T10:00:00-08:00",
+      "description": "Fourth selected closing event recorded.",
+      "actor_ids": [
+        "P",
+        "I"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T11",
+      "at": "2024-05-26T10:00:00-08:00",
+      "description": "Disputed four-week period ends.",
+      "actor_ids": [
+        "P",
+        "H"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T12",
+      "at": "2024-05-31T10:00:00-08:00",
+      "description": "Last of four relevant payroll periods paid.",
+      "actor_ids": [
+        "H",
+        "P"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T13",
+      "at": "2024-06-04T10:00:00-08:00",
+      "description": "Payroll corrects separate previously submitted missed-punch request.",
+      "actor_ids": [
+        "H",
+        "P"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T14",
+      "at": "2025-02-10T10:00:00-08:00",
+      "description": "Civil complaint filed.",
+      "actor_ids": [
+        "PC",
+        "P",
+        "K"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T15",
+      "at": "2025-03-10T10:00:00-07:00",
+      "description": "Answer filed.",
+      "actor_ids": [
+        "DC",
+        "D"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T16",
+      "at": "2025-04-03T10:00:00-07:00",
+      "description": "Scheduling order entered.",
+      "actor_ids": [
+        "J",
+        "K"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T17",
+      "at": "2026-01-12T10:00:00-08:00",
+      "description": "Plaintiff deposed.",
+      "actor_ids": [
+        "P",
+        "PC",
+        "DC",
+        "R"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T18",
+      "at": "2026-01-14T10:00:00-08:00",
+      "description": "Supervisor deposed.",
+      "actor_ids": [
+        "S",
+        "PC",
+        "DC",
+        "R"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T19",
+      "at": "2026-01-16T10:00:00-08:00",
+      "description": "Payroll manager deposed.",
+      "actor_ids": [
+        "H",
+        "PC",
+        "DC",
+        "R"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T20",
+      "at": "2026-01-21T10:00:00-08:00",
+      "description": "System custodian deposed.",
+      "actor_ids": [
+        "I",
+        "PC",
+        "DC",
+        "R"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T21",
+      "at": "2026-01-23T10:00:00-08:00",
+      "description": "Coworker deposed.",
+      "actor_ids": [
+        "W",
+        "PC",
+        "DC",
+        "R"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T22",
+      "at": "2026-05-18T10:00:00-07:00",
+      "description": "Defendant moves for summary judgment.",
+      "actor_ids": [
+        "DC",
+        "D"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T23",
+      "at": "2026-06-01T10:00:00-07:00",
+      "description": "Opposition filed.",
+      "actor_ids": [
+        "PC",
+        "P"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T24",
+      "at": "2026-06-08T10:00:00-07:00",
+      "description": "Reply filed.",
+      "actor_ids": [
+        "DC",
+        "D"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T25",
+      "at": "2026-06-29T10:00:00-07:00",
+      "description": "Motion argued.",
+      "actor_ids": [
+        "J",
+        "PC",
+        "DC",
+        "R"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T26",
+      "at": "2026-08-24T10:00:00-07:00",
+      "description": "Order granting summary judgment and separate judgment entered.",
+      "actor_ids": [
+        "J",
+        "K"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T27",
+      "at": "2026-09-08T10:00:00-07:00",
+      "description": "Notice of appeal filed.",
+      "actor_ids": [
+        "PC",
+        "K"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T28",
+      "at": "2026-10-16T10:00:00-07:00",
+      "description": "Opening brief filed.",
+      "actor_ids": [
+        "PC",
+        "U"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T29",
+      "at": "2026-11-13T10:00:00-08:00",
+      "description": "Answering brief filed.",
+      "actor_ids": [
+        "DC",
+        "U"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T30",
+      "at": "2026-11-24T10:00:00-08:00",
+      "description": "Reply brief filed.",
+      "actor_ids": [
+        "PC",
+        "U"
+      ],
+      "time_precision": "date_only"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "subject_id": "P",
+      "event_id": "T01",
+      "field": "pay basis",
+      "value": "hourly nonexempt",
+      "unit": "classification",
+      "known_by": [
+        "P",
+        "D",
+        "H",
+        "S"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F02",
+      "subject_id": "P",
+      "event_id": "T01",
+      "field": "hourly rate",
+      "value": "22.00",
+      "unit": "USD/hour",
+      "known_by": [
+        "P",
+        "H",
+        "D"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F03",
+      "subject_id": "D",
+      "event_id": "T02",
+      "field": "timekeeping instruction",
+      "value": "record all work time",
+      "unit": "policy",
+      "known_by": [
+        "P",
+        "D",
+        "H",
+        "S",
+        "W"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F04",
+      "subject_id": "P",
+      "event_id": "T11",
+      "field": "recorded paid time",
+      "value": "40 hours each week",
+      "unit": "hours",
+      "known_by": [
+        "P",
+        "H",
+        "D"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F05",
+      "subject_id": "P",
+      "event_id": "T04",
+      "field": "punch out",
+      "value": "17:00",
+      "unit": "Pacific time",
+      "known_by": [
+        "P",
+        "H",
+        "I"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F06",
+      "subject_id": "P",
+      "event_id": "T04",
+      "field": "closing action",
+      "value": "17:08",
+      "unit": "Pacific time",
+      "known_by": [
+        "P",
+        "I"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F07",
+      "subject_id": "P",
+      "event_id": "T05",
+      "field": "closing action",
+      "value": "17:06",
+      "unit": "Pacific time",
+      "known_by": [
+        "P",
+        "I"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F08",
+      "subject_id": "P",
+      "event_id": "T07",
+      "field": "closing action",
+      "value": "17:11",
+      "unit": "Pacific time",
+      "known_by": [
+        "P",
+        "I"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F09",
+      "subject_id": "P",
+      "event_id": "T10",
+      "field": "closing action",
+      "value": "17:07",
+      "unit": "Pacific time",
+      "known_by": [
+        "P",
+        "I"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F10",
+      "subject_id": "S",
+      "event_id": "T06",
+      "field": "team reminder",
+      "value": "finish assigned case notes before leaving",
+      "unit": "instruction",
+      "known_by": [
+        "S",
+        "P",
+        "W"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F11",
+      "subject_id": "P",
+      "event_id": "T08",
+      "field": "employee message",
+      "value": "Sometimes I have a few minutes of notes after the clock says out.",
+      "unit": "verbatim",
+      "known_by": [
+        "P",
+        "S"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F12",
+      "subject_id": "S",
+      "event_id": "T09",
+      "field": "supervisor response",
+      "value": "Do not work unpaid; send any missed time to payroll.",
+      "unit": "verbatim",
+      "known_by": [
+        "S",
+        "P"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F13",
+      "subject_id": "H",
+      "event_id": "T13",
+      "field": "separate correction",
+      "value": "12 minutes",
+      "unit": "minutes",
+      "known_by": [
+        "H",
+        "P",
+        "D"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F14",
+      "subject_id": "P",
+      "event_id": "T12",
+      "field": "disputed closing-time correction",
+      "value": "none",
+      "unit": "status",
+      "known_by": [
+        "P",
+        "H",
+        "D"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F15",
+      "subject_id": "J",
+      "event_id": "T26",
+      "field": "summary judgment",
+      "value": "granted",
+      "unit": "ruling",
+      "known_by": [
+        "J",
+        "K",
+        "P",
+        "D",
+        "PC",
+        "DC"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F16",
+      "subject_id": "K",
+      "event_id": "T27",
+      "field": "appeal date",
+      "value": "2026-09-08",
+      "unit": "date",
+      "known_by": [
+        "K",
+        "PC",
+        "P",
+        "DC"
+      ],
+      "visibility": "record_possible"
+    }
+  ],
+  "issues": [
+    {
+      "id": "I1",
+      "question": "Whether the evidence, viewed for the nonmovant, permits a reasonable jury to find uncompensated overtime work and actual or constructive employer knowledge under the FLSA.",
+      "standard_of_review": "De novo; Rule 56 nonmovant reasonable inferences, substantive FLSA knowledge and worktime requirements.",
+      "preservation_status": "Raised in opposition and June 29 hearing; resolved in final summary judgment.",
+      "appellant_theory": "Specific after-punch user events and supervisor communications support inference of work and knowledge; correction process does not automatically defeat liability.",
+      "appellee_theory": "Event timestamps do not measure continuous work, general reminder and prompt direction to correct time do not establish employer knowledge of actual uncompensated work; no reliable weekly duration evidence.",
+      "appellant_relief": "Vacate summary judgment and remand for further proceedings.",
+      "appellee_relief": "Affirm final judgment.",
+      "ruling_document_id": "CA9-SUP-000002-ORDER",
+      "ruling_page": 1,
+      "ruling_quote": "Defendant's motion for summary judgment is granted.",
+      "preservation_document_id": "CA9-SUP-000002-OPP",
+      "preservation_page": 1,
+      "preservation_quote": "The record permits a reasonable inference of work and employer knowledge."
+    }
+  ],
+  "documents": [
+    {
+      "id": "CA9-SUP-000002-COM",
+      "kind": "complaint",
+      "title": "Complaint",
+      "actor_id": "PC",
+      "created_at": "2025-02-10T09:00:00-08:00",
+      "filed_at": "2025-02-10T16:00:00-08:00",
+      "pages": 5,
+      "path": "records/CA9-SUP-000002/v1/COM.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-ANS",
+      "kind": "answer",
+      "title": "Answer",
+      "actor_id": "DC",
+      "created_at": "2025-03-10T09:00:00-07:00",
+      "filed_at": "2025-03-10T16:00:00-07:00",
+      "pages": 3,
+      "path": "records/CA9-SUP-000002/v1/ANS.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-SCHED",
+      "kind": "other_lower",
+      "title": "Scheduling order",
+      "actor_id": "J",
+      "created_at": "2025-04-03T09:00:00-07:00",
+      "filed_at": "2025-04-03T16:00:00-07:00",
+      "pages": 2,
+      "path": "records/CA9-SUP-000002/v1/SCHED.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-POL",
+      "kind": "exhibit",
+      "title": "Timekeeping procedure and correction form",
+      "actor_id": "H",
+      "created_at": "2024-01-08T09:00:00-08:00",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "pages": 4,
+      "path": "records/CA9-SUP-000002/v1/POL.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-PAY",
+      "kind": "exhibit",
+      "title": "Payroll and punch records",
+      "actor_id": "H",
+      "created_at": "2024-06-04T09:00:00-08:00",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "pages": 6,
+      "path": "records/CA9-SUP-000002/v1/PAY.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-LOG",
+      "kind": "exhibit",
+      "title": "Application activity records and extraction protocol",
+      "actor_id": "I",
+      "created_at": "2026-01-09T09:00:00-08:00",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "pages": 6,
+      "path": "records/CA9-SUP-000002/v1/LOG.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-MSG",
+      "kind": "exhibit",
+      "title": "Team and individual messages",
+      "actor_id": "S",
+      "created_at": "2024-05-21T09:00:00-08:00",
+      "filed_at": "2026-06-01T16:00:00-07:00",
+      "pages": 4,
+      "path": "records/CA9-SUP-000002/v1/MSG.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-PDEP",
+      "kind": "deposition",
+      "title": "Deposition of Sedgewick",
+      "actor_id": "R",
+      "created_at": "2026-01-12T09:00:00-08:00",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "pages": 32,
+      "path": "records/CA9-SUP-000002/v1/PDEP.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-SDEP",
+      "kind": "deposition",
+      "title": "Deposition of Brice",
+      "actor_id": "R",
+      "created_at": "2026-01-14T09:00:00-08:00",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "pages": 29,
+      "path": "records/CA9-SUP-000002/v1/SDEP.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-HDEP",
+      "kind": "deposition",
+      "title": "Deposition of Vossler",
+      "actor_id": "R",
+      "created_at": "2026-01-16T09:00:00-08:00",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "pages": 23,
+      "path": "records/CA9-SUP-000002/v1/HDEP.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-IDEP",
+      "kind": "deposition",
+      "title": "Deposition of Ewan",
+      "actor_id": "R",
+      "created_at": "2026-01-21T09:00:00-08:00",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "pages": 25,
+      "path": "records/CA9-SUP-000002/v1/IDEP.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-WDEP",
+      "kind": "deposition",
+      "title": "Deposition of Venn",
+      "actor_id": "R",
+      "created_at": "2026-01-23T09:00:00-08:00",
+      "filed_at": "2026-06-01T16:00:00-07:00",
+      "pages": 21,
+      "path": "records/CA9-SUP-000002/v1/WDEP.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-MSJ",
+      "kind": "motion_summary_judgment",
+      "title": "Motion for summary judgment",
+      "actor_id": "DC",
+      "created_at": "2026-05-18T09:00:00-07:00",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "pages": 11,
+      "path": "records/CA9-SUP-000002/v1/MSJ.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-OPP",
+      "kind": "opposition",
+      "title": "Opposition",
+      "actor_id": "PC",
+      "created_at": "2026-06-01T09:00:00-07:00",
+      "filed_at": "2026-06-01T16:00:00-07:00",
+      "pages": 11,
+      "path": "records/CA9-SUP-000002/v1/OPP.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-REPL",
+      "kind": "reply_motion",
+      "title": "Reply",
+      "actor_id": "DC",
+      "created_at": "2026-06-08T09:00:00-07:00",
+      "filed_at": "2026-06-08T16:00:00-07:00",
+      "pages": 7,
+      "path": "records/CA9-SUP-000002/v1/REPL.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-HEAR",
+      "kind": "other_lower",
+      "title": "Summary judgment hearing transcript",
+      "actor_id": "R",
+      "created_at": "2026-06-29T09:00:00-07:00",
+      "filed_at": "2026-06-29T16:00:00-07:00",
+      "pages": 10,
+      "path": "records/CA9-SUP-000002/v1/HEAR.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-ORDER",
+      "kind": "trial_order",
+      "title": "Order granting summary judgment",
+      "actor_id": "J",
+      "created_at": "2026-08-24T09:00:00-07:00",
+      "filed_at": "2026-08-24T16:00:00-07:00",
+      "pages": 8,
+      "path": "records/CA9-SUP-000002/v1/ORDER.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-JUD",
+      "kind": "judgment",
+      "title": "Separate judgment",
+      "actor_id": "J",
+      "created_at": "2026-08-24T09:00:00-07:00",
+      "filed_at": "2026-08-24T16:00:00-07:00",
+      "pages": 1,
+      "path": "records/CA9-SUP-000002/v1/JUD.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-NOA",
+      "kind": "notice_appeal",
+      "title": "Notice of appeal",
+      "actor_id": "PC",
+      "created_at": "2026-09-08T09:00:00-07:00",
+      "filed_at": "2026-09-08T16:00:00-07:00",
+      "pages": 1,
+      "path": "records/CA9-SUP-000002/v1/NOA.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-TD",
+      "kind": "trial_docket",
+      "title": "District docket",
+      "actor_id": "K",
+      "created_at": "2026-09-08T09:00:00-07:00",
+      "filed_at": "2026-09-08T16:00:00-07:00",
+      "pages": 3,
+      "path": "records/CA9-SUP-000002/v1/TD.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-BRORD",
+      "kind": "order_appeal",
+      "title": "Briefing order",
+      "actor_id": "U",
+      "created_at": "2026-09-14T09:00:00-07:00",
+      "filed_at": "2026-09-14T16:00:00-07:00",
+      "pages": 1,
+      "path": "records/CA9-SUP-000002/v1/BRORD.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-OPEN",
+      "kind": "opening_brief",
+      "title": "Opening brief",
+      "actor_id": "PC",
+      "created_at": "2026-10-16T09:00:00-07:00",
+      "filed_at": "2026-10-16T16:00:00-07:00",
+      "pages": 18,
+      "path": "records/CA9-SUP-000002/v1/OPEN.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-ER1",
+      "kind": "er_volume",
+      "title": "Excerpts of record volume 1",
+      "actor_id": "PC",
+      "created_at": "2026-10-16T09:00:00-07:00",
+      "filed_at": "2026-10-16T16:00:00-07:00",
+      "pages": 12,
+      "path": "records/CA9-SUP-000002/v1/ER1.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed",
+      "volume": 1
+    },
+    {
+      "id": "CA9-SUP-000002-ER2",
+      "kind": "er_volume",
+      "title": "Excerpts of record volume 2",
+      "actor_id": "PC",
+      "created_at": "2026-10-16T09:00:00-07:00",
+      "filed_at": "2026-10-16T16:00:00-07:00",
+      "pages": 190,
+      "path": "records/CA9-SUP-000002/v1/ER2.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed",
+      "volume": 2
+    },
+    {
+      "id": "CA9-SUP-000002-IDX",
+      "kind": "er_index",
+      "title": "Index to excerpts",
+      "actor_id": "PC",
+      "created_at": "2026-10-16T09:00:00-07:00",
+      "filed_at": "2026-10-16T16:00:00-07:00",
+      "pages": 6,
+      "path": "records/CA9-SUP-000002/v1/IDX.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-ANSWER",
+      "kind": "answering_brief",
+      "title": "Answering brief",
+      "actor_id": "DC",
+      "created_at": "2026-11-13T09:00:00-08:00",
+      "filed_at": "2026-11-13T16:00:00-08:00",
+      "pages": 18,
+      "path": "records/CA9-SUP-000002/v1/ANSWER.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-REPLY",
+      "kind": "reply_brief",
+      "title": "Reply brief",
+      "actor_id": "PC",
+      "created_at": "2026-11-24T09:00:00-08:00",
+      "filed_at": "2026-11-24T16:00:00-08:00",
+      "pages": 8,
+      "path": "records/CA9-SUP-000002/v1/REPLY.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000002-AD",
+      "kind": "appellate_docket",
+      "title": "Appellate docket",
+      "actor_id": "U",
+      "created_at": "2026-11-24T09:00:00-08:00",
+      "filed_at": "2026-11-24T16:00:00-08:00",
+      "pages": 1,
+      "path": "records/CA9-SUP-000002/v1/AD.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    }
+  ],
+  "docket": [
+    {
+      "id": "D01",
+      "document_id": "CA9-SUP-000002-COM",
+      "court": "district",
+      "filed_at": "2025-02-10T16:00:00-08:00",
+      "docket_page": 1,
+      "entry_text": "1. 2025-02-10 — Complaint. Record ID CA9-SUP-000002-COM."
+    },
+    {
+      "id": "D02",
+      "document_id": "CA9-SUP-000002-ANS",
+      "court": "district",
+      "filed_at": "2025-03-10T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "2. 2025-03-10 — Answer. Record ID CA9-SUP-000002-ANS."
+    },
+    {
+      "id": "D03",
+      "document_id": "CA9-SUP-000002-SCHED",
+      "court": "district",
+      "filed_at": "2025-04-03T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "3. 2025-04-03 — Scheduling order. Record ID CA9-SUP-000002-SCHED."
+    },
+    {
+      "id": "D04",
+      "document_id": "CA9-SUP-000002-POL",
+      "court": "district",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "4. 2026-05-18 — Timekeeping procedure and correction form. Record ID CA9-SUP-000002-POL."
+    },
+    {
+      "id": "D05",
+      "document_id": "CA9-SUP-000002-PAY",
+      "court": "district",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "5. 2026-05-18 — Payroll and punch records. Record ID CA9-SUP-000002-PAY."
+    },
+    {
+      "id": "D06",
+      "document_id": "CA9-SUP-000002-LOG",
+      "court": "district",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "6. 2026-05-18 — Application activity records and extraction protocol. Record ID CA9-SUP-000002-LOG."
+    },
+    {
+      "id": "D07",
+      "document_id": "CA9-SUP-000002-MSG",
+      "court": "district",
+      "filed_at": "2026-06-01T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "7. 2026-06-01 — Team and individual messages. Record ID CA9-SUP-000002-MSG."
+    },
+    {
+      "id": "D08",
+      "document_id": "CA9-SUP-000002-PDEP",
+      "court": "district",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "8. 2026-05-18 — Deposition of Sedgewick. Record ID CA9-SUP-000002-PDEP."
+    },
+    {
+      "id": "D09",
+      "document_id": "CA9-SUP-000002-SDEP",
+      "court": "district",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "9. 2026-05-18 — Deposition of Brice. Record ID CA9-SUP-000002-SDEP."
+    },
+    {
+      "id": "D10",
+      "document_id": "CA9-SUP-000002-HDEP",
+      "court": "district",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "10. 2026-05-18 — Deposition of Vossler. Record ID CA9-SUP-000002-HDEP."
+    },
+    {
+      "id": "D11",
+      "document_id": "CA9-SUP-000002-IDEP",
+      "court": "district",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "11. 2026-05-18 — Deposition of Ewan. Record ID CA9-SUP-000002-IDEP."
+    },
+    {
+      "id": "D12",
+      "document_id": "CA9-SUP-000002-WDEP",
+      "court": "district",
+      "filed_at": "2026-06-01T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "12. 2026-06-01 — Deposition of Venn. Record ID CA9-SUP-000002-WDEP."
+    },
+    {
+      "id": "D13",
+      "document_id": "CA9-SUP-000002-MSJ",
+      "court": "district",
+      "filed_at": "2026-05-18T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "13. 2026-05-18 — Motion for summary judgment. Record ID CA9-SUP-000002-MSJ."
+    },
+    {
+      "id": "D14",
+      "document_id": "CA9-SUP-000002-OPP",
+      "court": "district",
+      "filed_at": "2026-06-01T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "14. 2026-06-01 — Opposition. Record ID CA9-SUP-000002-OPP."
+    },
+    {
+      "id": "D15",
+      "document_id": "CA9-SUP-000002-REPL",
+      "court": "district",
+      "filed_at": "2026-06-08T16:00:00-07:00",
+      "docket_page": 3,
+      "entry_text": "15. 2026-06-08 — Reply. Record ID CA9-SUP-000002-REPL."
+    },
+    {
+      "id": "D16",
+      "document_id": "CA9-SUP-000002-HEAR",
+      "court": "district",
+      "filed_at": "2026-06-29T16:00:00-07:00",
+      "docket_page": 3,
+      "entry_text": "16. 2026-06-29 — Summary judgment hearing transcript. Record ID CA9-SUP-000002-HEAR."
+    },
+    {
+      "id": "D17",
+      "document_id": "CA9-SUP-000002-ORDER",
+      "court": "district",
+      "filed_at": "2026-08-24T16:00:00-07:00",
+      "docket_page": 3,
+      "entry_text": "17. 2026-08-24 — Order granting summary judgment. Record ID CA9-SUP-000002-ORDER."
+    },
+    {
+      "id": "D18",
+      "document_id": "CA9-SUP-000002-JUD",
+      "court": "district",
+      "filed_at": "2026-08-24T16:00:00-07:00",
+      "docket_page": 3,
+      "entry_text": "18. 2026-08-24 — Separate judgment. Record ID CA9-SUP-000002-JUD."
+    },
+    {
+      "id": "D19",
+      "document_id": "CA9-SUP-000002-NOA",
+      "court": "district",
+      "filed_at": "2026-09-08T16:00:00-07:00",
+      "docket_page": 3,
+      "entry_text": "19. 2026-09-08 — Notice of appeal. Record ID CA9-SUP-000002-NOA."
+    },
+    {
+      "id": "A01",
+      "document_id": "CA9-SUP-000002-BRORD",
+      "court": "appeals",
+      "filed_at": "2026-09-14T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "1. 2026-09-14 — Briefing order. Record ID CA9-SUP-000002-BRORD."
+    },
+    {
+      "id": "A02",
+      "document_id": "CA9-SUP-000002-OPEN",
+      "court": "appeals",
+      "filed_at": "2026-10-16T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "2. 2026-10-16 — Opening brief. Record ID CA9-SUP-000002-OPEN."
+    },
+    {
+      "id": "A03",
+      "document_id": "CA9-SUP-000002-ER1",
+      "court": "appeals",
+      "filed_at": "2026-10-16T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "3. 2026-10-16 — Excerpts of record volume 1. Record ID CA9-SUP-000002-ER1."
+    },
+    {
+      "id": "A04",
+      "document_id": "CA9-SUP-000002-ER2",
+      "court": "appeals",
+      "filed_at": "2026-10-16T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "4. 2026-10-16 — Excerpts of record volume 2. Record ID CA9-SUP-000002-ER2."
+    },
+    {
+      "id": "A05",
+      "document_id": "CA9-SUP-000002-IDX",
+      "court": "appeals",
+      "filed_at": "2026-10-16T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "5. 2026-10-16 — Index to excerpts. Record ID CA9-SUP-000002-IDX."
+    },
+    {
+      "id": "A06",
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "court": "appeals",
+      "filed_at": "2026-11-13T16:00:00-08:00",
+      "docket_page": 1,
+      "entry_text": "6. 2026-11-13 — Answering brief. Record ID CA9-SUP-000002-ANSWER."
+    },
+    {
+      "id": "A07",
+      "document_id": "CA9-SUP-000002-REPLY",
+      "court": "appeals",
+      "filed_at": "2026-11-24T16:00:00-08:00",
+      "docket_page": 1,
+      "entry_text": "7. 2026-11-24 — Reply brief. Record ID CA9-SUP-000002-REPLY."
+    }
+  ],
+  "assertions": [
+    {
+      "id": "AS1",
+      "document_id": "CA9-SUP-000002-PAY",
+      "page": 1,
+      "fact_id": "F01",
+      "quote": "Classification: hourly nonexempt.",
+      "speaker_id": "H",
+      "mode": "canonical",
+      "asserted_value": "hourly nonexempt",
+      "unit": "classification"
+    },
+    {
+      "id": "AS2",
+      "document_id": "CA9-SUP-000002-PAY",
+      "page": 1,
+      "fact_id": "F02",
+      "quote": "Regular hourly rate: $22.00.",
+      "speaker_id": "H",
+      "mode": "canonical",
+      "asserted_value": "22.00",
+      "unit": "USD/hour"
+    },
+    {
+      "id": "AS3",
+      "document_id": "CA9-SUP-000002-POL",
+      "page": 1,
+      "fact_id": "F03",
+      "quote": "Representatives must record all work time.",
+      "speaker_id": "H",
+      "mode": "canonical",
+      "asserted_value": "record all work time",
+      "unit": "policy"
+    },
+    {
+      "id": "AS4",
+      "document_id": "CA9-SUP-000002-PAY",
+      "page": 1,
+      "fact_id": "F04",
+      "quote": "40.00 regular hours, 0.00 overtime hours",
+      "speaker_id": "H",
+      "mode": "canonical",
+      "asserted_value": "40 hours each week",
+      "unit": "hours"
+    },
+    {
+      "id": "AS5",
+      "document_id": "CA9-SUP-000002-PAY",
+      "page": 2,
+      "fact_id": "F05",
+      "quote": "May 2 | 08:30 | 12:02 | 12:32 | 17:00",
+      "speaker_id": "H",
+      "mode": "canonical",
+      "asserted_value": "17:00",
+      "unit": "Pacific time"
+    },
+    {
+      "id": "AS6",
+      "document_id": "CA9-SUP-000002-LOG",
+      "page": 2,
+      "fact_id": "F06",
+      "quote": "17:08 | HC-240502-61 | NOTE_SAVE",
+      "speaker_id": "I",
+      "mode": "canonical",
+      "asserted_value": "17:08",
+      "unit": "Pacific time"
+    },
+    {
+      "id": "AS7",
+      "document_id": "CA9-SUP-000002-LOG",
+      "page": 3,
+      "fact_id": "F07",
+      "quote": "17:06 | HC-240509-22 | NOTE_SAVE",
+      "speaker_id": "I",
+      "mode": "canonical",
+      "asserted_value": "17:06",
+      "unit": "Pacific time"
+    },
+    {
+      "id": "AS8",
+      "document_id": "CA9-SUP-000002-LOG",
+      "page": 4,
+      "fact_id": "F08",
+      "quote": "17:11 | HC-240516-43 | NOTE_SAVE",
+      "speaker_id": "I",
+      "mode": "canonical",
+      "asserted_value": "17:11",
+      "unit": "Pacific time"
+    },
+    {
+      "id": "AS9",
+      "document_id": "CA9-SUP-000002-LOG",
+      "page": 5,
+      "fact_id": "F09",
+      "quote": "17:07 | HC-240523-17 | NOTE_SAVE",
+      "speaker_id": "I",
+      "mode": "canonical",
+      "asserted_value": "17:07",
+      "unit": "Pacific time"
+    },
+    {
+      "id": "AS10",
+      "document_id": "CA9-SUP-000002-MSG",
+      "page": 1,
+      "fact_id": "F10",
+      "quote": "Please finish assigned case notes before leaving.",
+      "speaker_id": "S",
+      "mode": "canonical",
+      "asserted_value": "finish assigned case notes before leaving",
+      "unit": "instruction"
+    },
+    {
+      "id": "AS11",
+      "document_id": "CA9-SUP-000002-MSG",
+      "page": 2,
+      "fact_id": "F11",
+      "quote": "Sometimes I have a few minutes of notes after the clock says out.",
+      "speaker_id": "P",
+      "mode": "canonical",
+      "asserted_value": "Sometimes I have a few minutes of notes after the clock says out.",
+      "unit": "verbatim"
+    },
+    {
+      "id": "AS12",
+      "document_id": "CA9-SUP-000002-MSG",
+      "page": 3,
+      "fact_id": "F12",
+      "quote": "Do not work unpaid; send any missed time to payroll.",
+      "speaker_id": "S",
+      "mode": "canonical",
+      "asserted_value": "Do not work unpaid; send any missed time to payroll.",
+      "unit": "verbatim"
+    },
+    {
+      "id": "AS13",
+      "document_id": "CA9-SUP-000002-PAY",
+      "page": 6,
+      "fact_id": "F13",
+      "quote": "twelve minutes added",
+      "speaker_id": "H",
+      "mode": "canonical",
+      "asserted_value": "12 minutes",
+      "unit": "minutes"
+    },
+    {
+      "id": "AS14",
+      "document_id": "CA9-SUP-000002-PAY",
+      "page": 5,
+      "fact_id": "F14",
+      "quote": "No closing-time adjustment recorded for the four disputed weeks.",
+      "speaker_id": "H",
+      "mode": "canonical",
+      "asserted_value": "none",
+      "unit": "status"
+    },
+    {
+      "id": "AS15",
+      "document_id": "CA9-SUP-000002-JUD",
+      "page": 1,
+      "fact_id": "F15",
+      "quote": "judgment is entered in favor of Harborline Support Services, LLC",
+      "speaker_id": "J",
+      "mode": "finding",
+      "asserted_value": "granted",
+      "unit": "ruling"
+    },
+    {
+      "id": "AS16",
+      "document_id": "CA9-SUP-000002-NOA",
+      "page": 1,
+      "fact_id": "F16",
+      "quote": "Filed September 8, 2026.",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "2026-09-08",
+      "unit": "date"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV1",
+      "document_id": "CA9-SUP-000002-POL",
+      "event_id": "T02",
+      "custodian_id": "H",
+      "fact_ids": [
+        "F03"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional original maintained by identified custodian; see source document and future testimony.",
+      "page": 1,
+      "quote": "Representatives must record all work time."
+    },
+    {
+      "id": "EV2",
+      "document_id": "CA9-SUP-000002-PAY",
+      "event_id": "T11",
+      "custodian_id": "H",
+      "fact_ids": [
+        "F01",
+        "F02",
+        "F04",
+        "F05",
+        "F13",
+        "F14"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional original maintained by identified custodian; see source document and future testimony.",
+      "page": 1,
+      "quote": "The export reports time paid"
+    },
+    {
+      "id": "EV3",
+      "document_id": "CA9-SUP-000002-LOG",
+      "event_id": "T04",
+      "custodian_id": "I",
+      "fact_ids": [
+        "F06",
+        "F07",
+        "F08",
+        "F09"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional original maintained by identified custodian; see source document and future testimony.",
+      "page": 2,
+      "quote": "17:08 | HC-240502-61 | NOTE_SAVE"
+    },
+    {
+      "id": "EV4",
+      "document_id": "CA9-SUP-000002-MSG",
+      "event_id": "T06",
+      "custodian_id": "S",
+      "fact_ids": [
+        "F10",
+        "F11",
+        "F12"
+      ],
+      "record_status": "filed",
+      "admission_status": "submitted_not_admitted",
+      "provenance": "Fictional original maintained by identified custodian; see source document and future testimony.",
+      "page": 1,
+      "quote": "Please finish assigned case notes before leaving."
+    }
+  ],
+  "excerpts": [],
+  "authorities": [],
+  "arguments": [],
+  "timeliness_review": {
+    "reviewed": true,
+    "basis": "Claim period April–May 2024; complaint Feb 10 2025 within ordinary two-year FLSA period. Judgment Aug 24, notice Sep 8 2026 (15 days). Opening Oct 16, answer Nov 13 (28 days), reply Nov 24 (11 days). No tolling motion recorded; verify local schedule."
+  },
+  "reviews": [],
+  "unresolved_blockers": [
+    "Original documents not all authored",
+    "Actual evidence annotations, excerpts, briefs and citation audits incomplete",
+    "Subsequent-treatment and semantic review pending"
+  ],
+  "legal_uses": [],
+  "research": {
+    "schema_version": 1,
+    "cutoff": "2026-11-27",
+    "authority_reviews": [],
+    "document_audits": [],
+    "issue_searches": []
+  }
+}

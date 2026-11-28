@@ -1,0 +1,112 @@
+{
+  "status": "working_originals_partial",
+  "authored_documents": [
+    {
+      "id": "CA9-SUP-000002-COM",
+      "path": "records/CA9-SUP-000002/v1/COM.md",
+      "pages": 5,
+      "words": 799
+    },
+    {
+      "id": "CA9-SUP-000002-ANS",
+      "path": "records/CA9-SUP-000002/v1/ANS.md",
+      "pages": 3,
+      "words": 487
+    },
+    {
+      "id": "CA9-SUP-000002-SCHED",
+      "path": "records/CA9-SUP-000002/v1/SCHED.md",
+      "pages": 2,
+      "words": 281
+    },
+    {
+      "id": "CA9-SUP-000002-POL",
+      "path": "records/CA9-SUP-000002/v1/POL.md",
+      "pages": 4,
+      "words": 522
+    },
+    {
+      "id": "CA9-SUP-000002-PAY",
+      "path": "records/CA9-SUP-000002/v1/PAY.md",
+      "pages": 6,
+      "words": 626
+    },
+    {
+      "id": "CA9-SUP-000002-LOG",
+      "path": "records/CA9-SUP-000002/v1/LOG.md",
+      "pages": 6,
+      "words": 646
+    },
+    {
+      "id": "CA9-SUP-000002-MSG",
+      "path": "records/CA9-SUP-000002/v1/MSG.md",
+      "pages": 4,
+      "words": 465
+    },
+    {
+      "id": "CA9-SUP-000002-JUD",
+      "path": "records/CA9-SUP-000002/v1/JUD.md",
+      "pages": 1,
+      "words": 137
+    },
+    {
+      "id": "CA9-SUP-000002-NOA",
+      "path": "records/CA9-SUP-000002/v1/NOA.md",
+      "pages": 1,
+      "words": 119
+    },
+    {
+      "id": "CA9-SUP-000002-BRORD",
+      "path": "records/CA9-SUP-000002/v1/BRORD.md",
+      "pages": 1,
+      "words": 121
+    },
+    {
+      "id": "CA9-SUP-000002-TD",
+      "path": "records/CA9-SUP-000002/v1/TD.md",
+      "pages": 3,
+      "words": 251
+    },
+    {
+      "id": "CA9-SUP-000002-AD",
+      "path": "records/CA9-SUP-000002/v1/AD.md",
+      "pages": 1,
+      "words": 89
+    }
+  ],
+  "original_pages": 37,
+  "original_words": 4543,
+  "planned_documents": 28,
+  "planned_original_pages": 258,
+  "next_batch": "Author remaining original lower-court documents; reconcile filed dates/attachments and citations; complete record, excerpts, actual legal research, briefs and review. No seal.",
+  "research": {
+    "status": "initial primary-source research, not proposition clearance",
+    "sources": [
+      [
+        "29 USC 207",
+        "https://uscode.house.gov/us/usc/119-134/t29/s207/",
+        "(a)(1)",
+        "overtime compensation"
+      ],
+      [
+        "Cadena v. Customer Connexx",
+        "https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/10/23-15820.pdf",
+        "slip opinion",
+        "knowledge and compensation procedure; official PDF needs page inspection"
+      ],
+      [
+        "Forrester v. Roth's IGA",
+        "https://law.justia.com/cases/federal/appellate-courts/F2/646/413/87054/",
+        "414",
+        "actual or constructive knowledge"
+      ],
+      [
+        "Tolan v. Cotton",
+        "https://www.law.cornell.edu/supremecourt/text/13-551",
+        "656–57",
+        "Rule 56 nonmovant standard"
+      ]
+    ],
+    "remaining": "Verify direct opinion text, pins and later treatment; review FLSA damages, Mt. Clemens, local CDCA rules, FRAP."
+  }
+}

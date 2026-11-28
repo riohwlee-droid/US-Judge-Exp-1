@@ -1,0 +1,1347 @@
+{
+  "schema_version": 1,
+  "case_id": "CA9-SUP-000001",
+  "version": "v1",
+  "purpose": "production",
+  "fictional": true,
+  "court_id": "CA9",
+  "track": "criminal_trial",
+  "appeal_shape": "single_represented_appeal",
+  "title": "United States v. Avery R. Denslow",
+  "origin_district": "NDCA",
+  "calendar_location": "San Francisco",
+  "jurisdiction_basis": "18 U.S.C. § 3231; 28 U.S.C. § 1291; final judgment of conviction; offense alleged in San Francisco.",
+  "legal_cutoff": "2026-11-27",
+  "record_as_of": "2026-11-27T10:00:00-08:00",
+  "actors": [
+    {
+      "id": "D",
+      "name": "Avery R. Denslow",
+      "role": "defendant",
+      "fictional": true
+    },
+    {
+      "id": "G",
+      "name": "Lucia M. Renwick",
+      "role": "assistant US attorney",
+      "fictional": true
+    },
+    {
+      "id": "B",
+      "name": "Emmett J. Carrow",
+      "role": "defense counsel",
+      "fictional": true
+    },
+    {
+      "id": "J",
+      "name": "Hon. Miriam V. Keene",
+      "role": "district judge",
+      "fictional": true
+    },
+    {
+      "id": "K",
+      "name": "Iona W. Trest",
+      "role": "district clerk",
+      "fictional": true
+    },
+    {
+      "id": "S",
+      "name": "Nora T. Hewlin",
+      "role": "property coordinator",
+      "fictional": true
+    },
+    {
+      "id": "A",
+      "name": "Rafael P. Soren",
+      "role": "federal grant specialist",
+      "fictional": true
+    },
+    {
+      "id": "T",
+      "name": "Evan L. Merrick",
+      "role": "instrument technician",
+      "fictional": true
+    },
+    {
+      "id": "M",
+      "name": "Dana R. Pell",
+      "role": "operations director",
+      "fictional": true
+    },
+    {
+      "id": "L",
+      "name": "Talia N. Bex",
+      "role": "digital records custodian",
+      "fictional": true
+    },
+    {
+      "id": "R",
+      "name": "Milo J. Frey",
+      "role": "court reporter",
+      "fictional": true
+    },
+    {
+      "id": "P",
+      "name": "Owen A. Nellis",
+      "role": "probation officer",
+      "fictional": true
+    },
+    {
+      "id": "U",
+      "name": "Mara J. Havil",
+      "role": "appellate clerk",
+      "fictional": true
+    },
+    {
+      "id": "Y",
+      "name": "Jury No. 1",
+      "role": "jury",
+      "fictional": true
+    }
+  ],
+  "timeline": [
+    {
+      "id": "T01",
+      "at": "2024-10-01T10:00:00-08:00",
+      "description": "Fictional federal equipment award enters performance period.",
+      "actor_ids": [
+        "A",
+        "M",
+        "D"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T02",
+      "at": "2025-03-11T10:00:00-07:00",
+      "description": "Technician transfers two instruments to calibration vendor.",
+      "actor_ids": [
+        "T",
+        "S"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T03",
+      "at": "2025-03-12T10:00:00-07:00",
+      "description": "Property review sheet records six listed instruments; four are at facility, two at vendor.",
+      "actor_ids": [
+        "S",
+        "D",
+        "T"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T04",
+      "at": "2025-03-13T10:00:00-07:00",
+      "description": "Denslow signs property certification.",
+      "actor_ids": [
+        "D",
+        "S"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T05",
+      "at": "2025-04-02T10:00:00-07:00",
+      "description": "Grant specialist requests clarification before deciding whether to close monitoring item.",
+      "actor_ids": [
+        "A",
+        "D"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T06",
+      "at": "2025-04-07T10:00:00-07:00",
+      "description": "Recorded interview in San Francisco includes charged answer.",
+      "actor_ids": [
+        "A",
+        "D"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T07",
+      "at": "2025-04-09T10:00:00-07:00",
+      "description": "Specialist receives vendor records and leaves item open.",
+      "actor_ids": [
+        "A",
+        "T"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T08",
+      "at": "2025-12-02T10:00:00-08:00",
+      "description": "Grand jury indictment filed.",
+      "actor_ids": [
+        "G",
+        "K"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T09",
+      "at": "2025-12-08T10:00:00-08:00",
+      "description": "Arraignment, not guilty plea, scheduling order.",
+      "actor_ids": [
+        "J",
+        "D",
+        "B",
+        "G"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T10",
+      "at": "2026-06-26T10:00:00-07:00",
+      "description": "Joint pretrial materials filed.",
+      "actor_ids": [
+        "G",
+        "B"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T11",
+      "at": "2026-07-13T10:00:00-07:00",
+      "description": "Jury trial opens.",
+      "actor_ids": [
+        "J",
+        "G",
+        "B",
+        "Y",
+        "R"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T12",
+      "at": "2026-07-14T10:00:00-07:00",
+      "description": "Grant specialist and records witnesses testify.",
+      "actor_ids": [
+        "A",
+        "L",
+        "T",
+        "R"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T13",
+      "at": "2026-07-15T10:00:00-07:00",
+      "description": "Defense evidence and Rule 29 argument.",
+      "actor_ids": [
+        "D",
+        "S",
+        "M",
+        "J",
+        "B",
+        "G",
+        "R"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T14",
+      "at": "2026-07-16T10:00:00-07:00",
+      "description": "Jury returns guilty verdict on count one.",
+      "actor_ids": [
+        "Y",
+        "J",
+        "K"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T15",
+      "at": "2026-07-20T10:00:00-07:00",
+      "description": "Renewed Rule 29 motion filed.",
+      "actor_ids": [
+        "B",
+        "D"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T16",
+      "at": "2026-07-27T10:00:00-07:00",
+      "description": "Government opposition filed.",
+      "actor_ids": [
+        "G"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T17",
+      "at": "2026-08-04T10:00:00-07:00",
+      "description": "Court denies renewed motion.",
+      "actor_ids": [
+        "J"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T18",
+      "at": "2026-09-01T10:00:00-07:00",
+      "description": "Sentencing and final judgment.",
+      "actor_ids": [
+        "J",
+        "P",
+        "D",
+        "B",
+        "G",
+        "R"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T19",
+      "at": "2026-09-10T10:00:00-07:00",
+      "description": "Notice of appeal.",
+      "actor_ids": [
+        "B",
+        "K"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T20",
+      "at": "2026-10-15T10:00:00-07:00",
+      "description": "Opening brief filed.",
+      "actor_ids": [
+        "B",
+        "U"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T21",
+      "at": "2026-11-12T10:00:00-08:00",
+      "description": "Answering brief filed.",
+      "actor_ids": [
+        "G",
+        "U"
+      ],
+      "time_precision": "date_only"
+    },
+    {
+      "id": "T22",
+      "at": "2026-11-23T10:00:00-08:00",
+      "description": "Reply brief filed.",
+      "actor_ids": [
+        "B",
+        "U"
+      ],
+      "time_precision": "date_only"
+    }
+  ],
+  "facts": [
+    {
+      "id": "F01",
+      "subject_id": "M",
+      "event_id": "T01",
+      "field": "award property schedule",
+      "value": "six instruments",
+      "unit": "count",
+      "known_by": [
+        "M",
+        "A",
+        "S",
+        "D"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F02",
+      "subject_id": "T",
+      "event_id": "T02",
+      "field": "vendor transfer",
+      "value": "two instruments",
+      "unit": "count",
+      "known_by": [
+        "T",
+        "S",
+        "L"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F03",
+      "subject_id": "S",
+      "event_id": "T03",
+      "field": "onsite count",
+      "value": "four instruments",
+      "unit": "count",
+      "known_by": [
+        "S",
+        "T",
+        "D"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F04",
+      "subject_id": "S",
+      "event_id": "T03",
+      "field": "vendor count",
+      "value": "two instruments",
+      "unit": "count",
+      "known_by": [
+        "S",
+        "T",
+        "D"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F05",
+      "subject_id": "D",
+      "event_id": "T04",
+      "field": "certification date",
+      "value": "2025-03-13",
+      "unit": "date",
+      "known_by": [
+        "D",
+        "S",
+        "A"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F06",
+      "subject_id": "D",
+      "event_id": "T06",
+      "field": "charged words",
+      "value": "I checked all six before I signed.",
+      "unit": "verbatim",
+      "known_by": [
+        "D",
+        "A",
+        "L"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F07",
+      "subject_id": "A",
+      "event_id": "T05",
+      "field": "monitoring status",
+      "value": "open",
+      "unit": "status",
+      "known_by": [
+        "A",
+        "D"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F08",
+      "subject_id": "A",
+      "event_id": "T07",
+      "field": "post-interview status",
+      "value": "open",
+      "unit": "status",
+      "known_by": [
+        "A",
+        "T"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F09",
+      "subject_id": "D",
+      "event_id": "T08",
+      "field": "count charged",
+      "value": "one",
+      "unit": "count",
+      "known_by": [
+        "G",
+        "K",
+        "D",
+        "B"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F10",
+      "subject_id": "D",
+      "event_id": "T09",
+      "field": "plea",
+      "value": "not guilty",
+      "unit": "plea",
+      "known_by": [
+        "J",
+        "D",
+        "G",
+        "B",
+        "K"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F11",
+      "subject_id": "Y",
+      "event_id": "T14",
+      "field": "verdict",
+      "value": "guilty",
+      "unit": "verdict",
+      "known_by": [
+        "Y",
+        "J",
+        "K",
+        "G",
+        "B",
+        "D"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F12",
+      "subject_id": "J",
+      "event_id": "T17",
+      "field": "renewed Rule 29 motion",
+      "value": "denied",
+      "unit": "ruling",
+      "known_by": [
+        "J",
+        "B",
+        "G",
+        "D",
+        "K"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F13",
+      "subject_id": "J",
+      "event_id": "T18",
+      "field": "custody term",
+      "value": "six months",
+      "unit": "term",
+      "known_by": [
+        "J",
+        "P",
+        "D",
+        "G",
+        "B"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F14",
+      "subject_id": "J",
+      "event_id": "T18",
+      "field": "supervised release",
+      "value": "one year",
+      "unit": "term",
+      "known_by": [
+        "J",
+        "P",
+        "D",
+        "G",
+        "B"
+      ],
+      "visibility": "record_possible"
+    },
+    {
+      "id": "F15",
+      "subject_id": "K",
+      "event_id": "T19",
+      "field": "notice date",
+      "value": "2026-09-10",
+      "unit": "date",
+      "known_by": [
+        "K",
+        "B",
+        "D",
+        "G"
+      ],
+      "visibility": "record_possible"
+    }
+  ],
+  "issues": [
+    {
+      "id": "I1",
+      "question": "Whether the evidence at trial permitted a rational jury to find knowing and willful falsity of the charged answer and its materiality under 18 U.S.C. § 1001(a)(2).",
+      "standard_of_review": "De novo review of preserved Rule 29 sufficiency; evidence and reasonable inferences in government favor; not a credibility retrial.",
+      "preservation_status": "Preserved at close of government evidence and all evidence, renewed within 14 days after verdict.",
+      "appellant_theory": "The answer referred to reconciliation of records, not a representation of personally seeing every item; the wording and contemporaneous records do not exclude a reasonable understanding of a truthful answer. Actual decision process and ability to affect it must be evaluated.",
+      "appellee_theory": "Interview context, prior discussion and certification support a rational inference the speaker knowingly represented physical verification; answer could influence monitoring even if follow-up continued.",
+      "appellant_relief": "Reverse conviction and direct judgment of acquittal for insufficient evidence.",
+      "appellee_relief": "Affirm judgment.",
+      "ruling_document_id": "CA9-SUP-000001-ORDER",
+      "ruling_page": 1,
+      "ruling_quote": "The renewed motion for judgment of acquittal is denied.",
+      "preservation_document_id": "CA9-SUP-000001-TRIAL",
+      "preservation_page": 90,
+      "preservation_quote": "Defense renews the Rule 29 motion on falsity, knowledge and materiality."
+    }
+  ],
+  "documents": [
+    {
+      "id": "CA9-SUP-000001-IND",
+      "kind": "indictment",
+      "title": "Indictment",
+      "actor_id": "G",
+      "created_at": "2025-12-02T09:00:00-08:00",
+      "filed_at": "2025-12-02T16:00:00-08:00",
+      "pages": 2,
+      "path": "records/CA9-SUP-000001/v1/IND.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-ARR",
+      "kind": "other_lower",
+      "title": "Arraignment and scheduling minute order",
+      "actor_id": "K",
+      "created_at": "2025-12-08T09:00:00-08:00",
+      "filed_at": "2025-12-08T16:00:00-08:00",
+      "pages": 2,
+      "path": "records/CA9-SUP-000001/v1/ARR.md",
+      "depends_on": [
+        "CA9-SUP-000001-IND"
+      ],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-GRANT",
+      "kind": "exhibit",
+      "title": "Government Exhibit 1 — property award terms",
+      "actor_id": "A",
+      "created_at": "2024-10-01T09:00:00-08:00",
+      "filed_at": "2026-07-13T16:00:00-07:00",
+      "pages": 4,
+      "path": "records/CA9-SUP-000001/v1/GRANT.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-SHEET",
+      "kind": "exhibit",
+      "title": "Joint Exhibit 2 — property review and certification",
+      "actor_id": "S",
+      "created_at": "2025-03-13T09:00:00-07:00",
+      "filed_at": "2026-07-13T16:00:00-07:00",
+      "pages": 4,
+      "path": "records/CA9-SUP-000001/v1/SHEET.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-VENDOR",
+      "kind": "exhibit",
+      "title": "Joint Exhibit 3 — calibration transfer records",
+      "actor_id": "T",
+      "created_at": "2025-03-11T09:00:00-07:00",
+      "filed_at": "2026-07-13T16:00:00-07:00",
+      "pages": 3,
+      "path": "records/CA9-SUP-000001/v1/VENDOR.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-EMAIL",
+      "kind": "exhibit",
+      "title": "Government Exhibit 4 — monitoring correspondence",
+      "actor_id": "A",
+      "created_at": "2025-04-09T09:00:00-07:00",
+      "filed_at": "2026-07-13T16:00:00-07:00",
+      "pages": 4,
+      "path": "records/CA9-SUP-000001/v1/EMAIL.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-INT",
+      "kind": "exhibit",
+      "title": "Joint Exhibit 5 — recorded interview transcript",
+      "actor_id": "L",
+      "created_at": "2025-04-07T09:00:00-07:00",
+      "filed_at": "2026-07-14T16:00:00-07:00",
+      "pages": 12,
+      "path": "records/CA9-SUP-000001/v1/INT.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-STIP",
+      "kind": "other_lower",
+      "title": "Joint stipulations and pretrial conference order",
+      "actor_id": "B",
+      "created_at": "2026-06-26T09:00:00-07:00",
+      "filed_at": "2026-06-26T16:00:00-07:00",
+      "pages": 2,
+      "path": "records/CA9-SUP-000001/v1/STIP.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-TRIAL",
+      "kind": "trial_transcript",
+      "title": "Trial transcript — July 13–16",
+      "actor_id": "R",
+      "created_at": "2026-07-16T09:00:00-07:00",
+      "filed_at": "2026-07-16T16:00:00-07:00",
+      "pages": 96,
+      "path": "records/CA9-SUP-000001/v1/TRIAL.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-INSTR",
+      "kind": "other_lower",
+      "title": "Final jury instructions",
+      "actor_id": "J",
+      "created_at": "2026-07-16T09:00:00-07:00",
+      "filed_at": "2026-07-16T16:00:00-07:00",
+      "pages": 8,
+      "path": "records/CA9-SUP-000001/v1/INSTR.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-VER",
+      "kind": "verdict",
+      "title": "Jury verdict",
+      "actor_id": "Y",
+      "created_at": "2026-07-16T09:00:00-07:00",
+      "filed_at": "2026-07-16T16:00:00-07:00",
+      "pages": 1,
+      "path": "records/CA9-SUP-000001/v1/VER.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-R29",
+      "kind": "other_lower",
+      "title": "Renewed motion for judgment of acquittal",
+      "actor_id": "B",
+      "created_at": "2026-07-20T09:00:00-07:00",
+      "filed_at": "2026-07-20T16:00:00-07:00",
+      "pages": 10,
+      "path": "records/CA9-SUP-000001/v1/R29.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-GOPP",
+      "kind": "opposition",
+      "title": "Government opposition to Rule 29 motion",
+      "actor_id": "G",
+      "created_at": "2026-07-27T09:00:00-07:00",
+      "filed_at": "2026-07-27T16:00:00-07:00",
+      "pages": 10,
+      "path": "records/CA9-SUP-000001/v1/GOPP.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-ORDER",
+      "kind": "trial_order",
+      "title": "Order denying renewed motion",
+      "actor_id": "J",
+      "created_at": "2026-08-04T09:00:00-07:00",
+      "filed_at": "2026-08-04T16:00:00-07:00",
+      "pages": 8,
+      "path": "records/CA9-SUP-000001/v1/ORDER.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-SENT",
+      "kind": "sentencing_transcript",
+      "title": "Sentencing transcript",
+      "actor_id": "R",
+      "created_at": "2026-09-01T09:00:00-07:00",
+      "filed_at": "2026-09-01T16:00:00-07:00",
+      "pages": 15,
+      "path": "records/CA9-SUP-000001/v1/SENT.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-JUD",
+      "kind": "judgment",
+      "title": "Judgment in a criminal case",
+      "actor_id": "J",
+      "created_at": "2026-09-01T09:00:00-07:00",
+      "filed_at": "2026-09-01T16:00:00-07:00",
+      "pages": 2,
+      "path": "records/CA9-SUP-000001/v1/JUD.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-NOA",
+      "kind": "notice_appeal",
+      "title": "Notice of appeal",
+      "actor_id": "B",
+      "created_at": "2026-09-10T09:00:00-07:00",
+      "filed_at": "2026-09-10T16:00:00-07:00",
+      "pages": 1,
+      "path": "records/CA9-SUP-000001/v1/NOA.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-TD",
+      "kind": "trial_docket",
+      "title": "District docket",
+      "actor_id": "K",
+      "created_at": "2026-09-10T09:00:00-07:00",
+      "filed_at": "2026-09-10T16:00:00-07:00",
+      "pages": 3,
+      "path": "records/CA9-SUP-000001/v1/TD.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-BRORD",
+      "kind": "order_appeal",
+      "title": "Briefing schedule",
+      "actor_id": "U",
+      "created_at": "2026-09-14T09:00:00-07:00",
+      "filed_at": "2026-09-14T16:00:00-07:00",
+      "pages": 1,
+      "path": "records/CA9-SUP-000001/v1/BRORD.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-OPEN",
+      "kind": "opening_brief",
+      "title": "Opening brief",
+      "actor_id": "B",
+      "created_at": "2026-10-15T09:00:00-07:00",
+      "filed_at": "2026-10-15T16:00:00-07:00",
+      "pages": 18,
+      "path": "records/CA9-SUP-000001/v1/OPEN.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-ER1",
+      "kind": "er_volume",
+      "title": "Excerpts of record volume 1",
+      "actor_id": "B",
+      "created_at": "2026-10-15T09:00:00-07:00",
+      "filed_at": "2026-10-15T16:00:00-07:00",
+      "pages": 12,
+      "path": "records/CA9-SUP-000001/v1/ER1.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed",
+      "volume": 1
+    },
+    {
+      "id": "CA9-SUP-000001-ER2",
+      "kind": "er_volume",
+      "title": "Excerpts of record volume 2",
+      "actor_id": "B",
+      "created_at": "2026-10-15T09:00:00-07:00",
+      "filed_at": "2026-10-15T16:00:00-07:00",
+      "pages": 180,
+      "path": "records/CA9-SUP-000001/v1/ER2.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed",
+      "volume": 2
+    },
+    {
+      "id": "CA9-SUP-000001-IDX",
+      "kind": "er_index",
+      "title": "Index to excerpts",
+      "actor_id": "B",
+      "created_at": "2026-10-15T09:00:00-07:00",
+      "filed_at": "2026-10-15T16:00:00-07:00",
+      "pages": 6,
+      "path": "records/CA9-SUP-000001/v1/IDX.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-ANSWER",
+      "kind": "answering_brief",
+      "title": "Answering brief",
+      "actor_id": "G",
+      "created_at": "2026-11-12T09:00:00-08:00",
+      "filed_at": "2026-11-12T16:00:00-08:00",
+      "pages": 18,
+      "path": "records/CA9-SUP-000001/v1/ANSWER.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-REPLY",
+      "kind": "reply_brief",
+      "title": "Reply brief",
+      "actor_id": "B",
+      "created_at": "2026-11-23T09:00:00-08:00",
+      "filed_at": "2026-11-23T16:00:00-08:00",
+      "pages": 8,
+      "path": "records/CA9-SUP-000001/v1/REPLY.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    },
+    {
+      "id": "CA9-SUP-000001-AD",
+      "kind": "appellate_docket",
+      "title": "Appellate docket",
+      "actor_id": "U",
+      "created_at": "2026-11-23T09:00:00-08:00",
+      "filed_at": "2026-11-23T16:00:00-08:00",
+      "pages": 1,
+      "path": "records/CA9-SUP-000001/v1/AD.md",
+      "depends_on": [],
+      "access": "judge",
+      "status": "filed"
+    }
+  ],
+  "docket": [
+    {
+      "id": "D01",
+      "document_id": "CA9-SUP-000001-IND",
+      "court": "district",
+      "filed_at": "2025-12-02T16:00:00-08:00",
+      "docket_page": 1,
+      "entry_text": "1. 2025-12-02 — Indictment. Record ID CA9-SUP-000001-IND."
+    },
+    {
+      "id": "D02",
+      "document_id": "CA9-SUP-000001-ARR",
+      "court": "district",
+      "filed_at": "2025-12-08T16:00:00-08:00",
+      "docket_page": 1,
+      "entry_text": "2. 2025-12-08 — Arraignment and scheduling minute order. Record ID CA9-SUP-000001-ARR."
+    },
+    {
+      "id": "D03",
+      "document_id": "CA9-SUP-000001-GRANT",
+      "court": "district",
+      "filed_at": "2026-07-13T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "3. 2026-07-13 — Government Exhibit 1 — property award terms. Record ID CA9-SUP-000001-GRANT."
+    },
+    {
+      "id": "D04",
+      "document_id": "CA9-SUP-000001-SHEET",
+      "court": "district",
+      "filed_at": "2026-07-13T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "4. 2026-07-13 — Joint Exhibit 2 — property review and certification. Record ID CA9-SUP-000001-SHEET."
+    },
+    {
+      "id": "D05",
+      "document_id": "CA9-SUP-000001-VENDOR",
+      "court": "district",
+      "filed_at": "2026-07-13T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "5. 2026-07-13 — Joint Exhibit 3 — calibration transfer records. Record ID CA9-SUP-000001-VENDOR."
+    },
+    {
+      "id": "D06",
+      "document_id": "CA9-SUP-000001-EMAIL",
+      "court": "district",
+      "filed_at": "2026-07-13T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "6. 2026-07-13 — Government Exhibit 4 — monitoring correspondence. Record ID CA9-SUP-000001-EMAIL."
+    },
+    {
+      "id": "D07",
+      "document_id": "CA9-SUP-000001-INT",
+      "court": "district",
+      "filed_at": "2026-07-14T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "7. 2026-07-14 — Joint Exhibit 5 — recorded interview transcript. Record ID CA9-SUP-000001-INT."
+    },
+    {
+      "id": "D08",
+      "document_id": "CA9-SUP-000001-STIP",
+      "court": "district",
+      "filed_at": "2026-06-26T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "8. 2026-06-26 — Joint stipulations and pretrial conference order. Record ID CA9-SUP-000001-STIP."
+    },
+    {
+      "id": "D09",
+      "document_id": "CA9-SUP-000001-TRIAL",
+      "court": "district",
+      "filed_at": "2026-07-16T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "9. 2026-07-16 — Trial transcript — July 13–16. Record ID CA9-SUP-000001-TRIAL."
+    },
+    {
+      "id": "D10",
+      "document_id": "CA9-SUP-000001-INSTR",
+      "court": "district",
+      "filed_at": "2026-07-16T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "10. 2026-07-16 — Final jury instructions. Record ID CA9-SUP-000001-INSTR."
+    },
+    {
+      "id": "D11",
+      "document_id": "CA9-SUP-000001-VER",
+      "court": "district",
+      "filed_at": "2026-07-16T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "11. 2026-07-16 — Jury verdict. Record ID CA9-SUP-000001-VER."
+    },
+    {
+      "id": "D12",
+      "document_id": "CA9-SUP-000001-R29",
+      "court": "district",
+      "filed_at": "2026-07-20T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "12. 2026-07-20 — Renewed motion for judgment of acquittal. Record ID CA9-SUP-000001-R29."
+    },
+    {
+      "id": "D13",
+      "document_id": "CA9-SUP-000001-GOPP",
+      "court": "district",
+      "filed_at": "2026-07-27T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "13. 2026-07-27 — Government opposition to Rule 29 motion. Record ID CA9-SUP-000001-GOPP."
+    },
+    {
+      "id": "D14",
+      "document_id": "CA9-SUP-000001-ORDER",
+      "court": "district",
+      "filed_at": "2026-08-04T16:00:00-07:00",
+      "docket_page": 2,
+      "entry_text": "14. 2026-08-04 — Order denying renewed motion. Record ID CA9-SUP-000001-ORDER."
+    },
+    {
+      "id": "D15",
+      "document_id": "CA9-SUP-000001-SENT",
+      "court": "district",
+      "filed_at": "2026-09-01T16:00:00-07:00",
+      "docket_page": 3,
+      "entry_text": "15. 2026-09-01 — Sentencing transcript. Record ID CA9-SUP-000001-SENT."
+    },
+    {
+      "id": "D16",
+      "document_id": "CA9-SUP-000001-JUD",
+      "court": "district",
+      "filed_at": "2026-09-01T16:00:00-07:00",
+      "docket_page": 3,
+      "entry_text": "16. 2026-09-01 — Judgment in a criminal case. Record ID CA9-SUP-000001-JUD."
+    },
+    {
+      "id": "D17",
+      "document_id": "CA9-SUP-000001-NOA",
+      "court": "district",
+      "filed_at": "2026-09-10T16:00:00-07:00",
+      "docket_page": 3,
+      "entry_text": "17. 2026-09-10 — Notice of appeal. Record ID CA9-SUP-000001-NOA."
+    },
+    {
+      "id": "A01",
+      "document_id": "CA9-SUP-000001-BRORD",
+      "court": "appeals",
+      "filed_at": "2026-09-14T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "1. 2026-09-14 — Briefing schedule. Record ID CA9-SUP-000001-BRORD."
+    },
+    {
+      "id": "A02",
+      "document_id": "CA9-SUP-000001-OPEN",
+      "court": "appeals",
+      "filed_at": "2026-10-15T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "2. 2026-10-15 — Opening brief. Record ID CA9-SUP-000001-OPEN."
+    },
+    {
+      "id": "A03",
+      "document_id": "CA9-SUP-000001-ER1",
+      "court": "appeals",
+      "filed_at": "2026-10-15T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "3. 2026-10-15 — Excerpts of record volume 1. Record ID CA9-SUP-000001-ER1."
+    },
+    {
+      "id": "A04",
+      "document_id": "CA9-SUP-000001-ER2",
+      "court": "appeals",
+      "filed_at": "2026-10-15T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "4. 2026-10-15 — Excerpts of record volume 2. Record ID CA9-SUP-000001-ER2."
+    },
+    {
+      "id": "A05",
+      "document_id": "CA9-SUP-000001-IDX",
+      "court": "appeals",
+      "filed_at": "2026-10-15T16:00:00-07:00",
+      "docket_page": 1,
+      "entry_text": "5. 2026-10-15 — Index to excerpts. Record ID CA9-SUP-000001-IDX."
+    },
+    {
+      "id": "A06",
+      "document_id": "CA9-SUP-000001-ANSWER",
+      "court": "appeals",
+      "filed_at": "2026-11-12T16:00:00-08:00",
+      "docket_page": 1,
+      "entry_text": "6. 2026-11-12 — Answering brief. Record ID CA9-SUP-000001-ANSWER."
+    },
+    {
+      "id": "A07",
+      "document_id": "CA9-SUP-000001-REPLY",
+      "court": "appeals",
+      "filed_at": "2026-11-23T16:00:00-08:00",
+      "docket_page": 1,
+      "entry_text": "7. 2026-11-23 — Reply brief. Record ID CA9-SUP-000001-REPLY."
+    }
+  ],
+  "assertions": [
+    {
+      "id": "AS1",
+      "document_id": "CA9-SUP-000001-GRANT",
+      "page": 1,
+      "fact_id": "F01",
+      "quote": "The six serial identifiers are CS-101, CS-102, CS-103, CS-104, CS-105 and CS-106.",
+      "speaker_id": "A",
+      "mode": "canonical",
+      "asserted_value": "six instruments",
+      "unit": "count"
+    },
+    {
+      "id": "AS2",
+      "document_id": "CA9-SUP-000001-VENDOR",
+      "page": 1,
+      "fact_id": "F02",
+      "quote": "Items: CS-105 and CS-106.",
+      "speaker_id": "T",
+      "mode": "canonical",
+      "asserted_value": "two instruments",
+      "unit": "count"
+    },
+    {
+      "id": "AS3",
+      "document_id": "CA9-SUP-000001-SHEET",
+      "page": 1,
+      "fact_id": "F03",
+      "quote": "Four instruments observed onsite",
+      "speaker_id": "S",
+      "mode": "canonical",
+      "asserted_value": "four instruments",
+      "unit": "count"
+    },
+    {
+      "id": "AS4",
+      "document_id": "CA9-SUP-000001-SHEET",
+      "page": 1,
+      "fact_id": "F04",
+      "quote": "two instruments recorded as offsite",
+      "speaker_id": "S",
+      "mode": "canonical",
+      "asserted_value": "two instruments",
+      "unit": "count"
+    },
+    {
+      "id": "AS5",
+      "document_id": "CA9-SUP-000001-SHEET",
+      "page": 3,
+      "fact_id": "F05",
+      "quote": "Date: March 13, 2025.",
+      "speaker_id": "D",
+      "mode": "canonical",
+      "asserted_value": "2025-03-13",
+      "unit": "date"
+    },
+    {
+      "id": "AS6",
+      "document_id": "CA9-SUP-000001-EMAIL",
+      "page": 1,
+      "fact_id": "F07",
+      "quote": "The monitoring item remains open.",
+      "speaker_id": "A",
+      "mode": "canonical",
+      "asserted_value": "open",
+      "unit": "status"
+    },
+    {
+      "id": "AS7",
+      "document_id": "CA9-SUP-000001-EMAIL",
+      "page": 4,
+      "fact_id": "F08",
+      "quote": "The monitoring item remains open.",
+      "speaker_id": "A",
+      "mode": "canonical",
+      "asserted_value": "open",
+      "unit": "status"
+    },
+    {
+      "id": "AS8",
+      "document_id": "CA9-SUP-000001-IND",
+      "page": 1,
+      "fact_id": "F09",
+      "quote": "INDICTMENT — COUNT ONE",
+      "speaker_id": "G",
+      "mode": "canonical",
+      "asserted_value": "one",
+      "unit": "count"
+    },
+    {
+      "id": "AS9",
+      "document_id": "CA9-SUP-000001-ARR",
+      "page": 1,
+      "fact_id": "F10",
+      "quote": "The defendant enters a plea of not guilty to Count One.",
+      "speaker_id": "K",
+      "mode": "canonical",
+      "asserted_value": "not guilty",
+      "unit": "plea"
+    },
+    {
+      "id": "AS10",
+      "document_id": "CA9-SUP-000001-VER",
+      "page": 1,
+      "fact_id": "F11",
+      "quote": "GUILTY of Count One",
+      "speaker_id": "Y",
+      "mode": "canonical",
+      "asserted_value": "guilty",
+      "unit": "verdict"
+    },
+    {
+      "id": "AS11",
+      "document_id": "CA9-SUP-000001-JUD",
+      "page": 2,
+      "fact_id": "F13",
+      "quote": "a term of six months",
+      "speaker_id": "J",
+      "mode": "canonical",
+      "asserted_value": "six months",
+      "unit": "term"
+    },
+    {
+      "id": "AS12",
+      "document_id": "CA9-SUP-000001-JUD",
+      "page": 2,
+      "fact_id": "F14",
+      "quote": "supervised release for one year",
+      "speaker_id": "J",
+      "mode": "canonical",
+      "asserted_value": "one year",
+      "unit": "term"
+    },
+    {
+      "id": "AS13",
+      "document_id": "CA9-SUP-000001-NOA",
+      "page": 1,
+      "fact_id": "F15",
+      "quote": "Filed September 10, 2026.",
+      "speaker_id": "B",
+      "mode": "canonical",
+      "asserted_value": "2026-09-10",
+      "unit": "date"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EV1",
+      "document_id": "CA9-SUP-000001-GRANT",
+      "event_id": "T01",
+      "custodian_id": "A",
+      "fact_ids": [
+        "F01"
+      ],
+      "record_status": "filed",
+      "admission_status": "admitted",
+      "provenance": "Fictional original maintained by identified custodian; see source document and future testimony.",
+      "page": 1,
+      "quote": "The six serial identifiers are CS-101, CS-102, CS-103, CS-104, CS-105 and CS-106."
+    },
+    {
+      "id": "EV2",
+      "document_id": "CA9-SUP-000001-VENDOR",
+      "event_id": "T02",
+      "custodian_id": "T",
+      "fact_ids": [
+        "F02"
+      ],
+      "record_status": "filed",
+      "admission_status": "admitted",
+      "provenance": "Fictional original maintained by identified custodian; see source document and future testimony.",
+      "page": 1,
+      "quote": "Items: CS-105 and CS-106."
+    },
+    {
+      "id": "EV3",
+      "document_id": "CA9-SUP-000001-SHEET",
+      "event_id": "T03",
+      "custodian_id": "S",
+      "fact_ids": [
+        "F03",
+        "F04"
+      ],
+      "record_status": "filed",
+      "admission_status": "admitted",
+      "provenance": "Fictional original maintained by identified custodian; see source document and future testimony.",
+      "page": 1,
+      "quote": "Four instruments observed onsite; two instruments recorded as offsite."
+    },
+    {
+      "id": "EV4",
+      "document_id": "CA9-SUP-000001-EMAIL",
+      "event_id": "T05",
+      "custodian_id": "A",
+      "fact_ids": [
+        "F07",
+        "F08"
+      ],
+      "record_status": "filed",
+      "admission_status": "admitted",
+      "provenance": "Fictional original maintained by identified custodian; see source document and future testimony.",
+      "page": 1,
+      "quote": "The monitoring item remains open."
+    }
+  ],
+  "excerpts": [],
+  "authorities": [],
+  "arguments": [],
+  "timeliness_review": {
+    "reviewed": true,
+    "basis": "Final judgment September 1, notice September 10 (9 days, within FRAP 4(b)(1)(A)); renewed Rule 29 July 20 after July 16 verdict (4 days). Opening served Oct 15, answer Nov 12 (28 days), reply Nov 23 (11 days). Trial exclusions and final local schedule still require record review."
+  },
+  "reviews": [],
+  "unresolved_blockers": [
+    "Original documents not all authored",
+    "Actual evidence annotations, excerpts, briefs and citation audits incomplete",
+    "Subsequent-treatment and semantic review pending"
+  ],
+  "legal_uses": [],
+  "research": {
+    "schema_version": 1,
+    "cutoff": "2026-11-27",
+    "authority_reviews": [],
+    "document_audits": [],
+    "issue_searches": []
+  }
+}

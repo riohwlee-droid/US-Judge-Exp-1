@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "request_id": "SUPREQ-20261128-101",
+  "action": "start",
+  "job_id": "CA9-SUP-000001",
+  "expected_status": "queued",
+  "note": "Creator authored actual partial package; validate only completed world/procedure stage."
+}

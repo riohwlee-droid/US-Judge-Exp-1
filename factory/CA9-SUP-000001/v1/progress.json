@@ -1,0 +1,124 @@
+{
+  "status": "working_originals_partial",
+  "authored_documents": [
+    {
+      "id": "CA9-SUP-000001-IND",
+      "path": "records/CA9-SUP-000001/v1/IND.md",
+      "pages": 2,
+      "words": 353
+    },
+    {
+      "id": "CA9-SUP-000001-ARR",
+      "path": "records/CA9-SUP-000001/v1/ARR.md",
+      "pages": 2,
+      "words": 307
+    },
+    {
+      "id": "CA9-SUP-000001-GRANT",
+      "path": "records/CA9-SUP-000001/v1/GRANT.md",
+      "pages": 4,
+      "words": 510
+    },
+    {
+      "id": "CA9-SUP-000001-SHEET",
+      "path": "records/CA9-SUP-000001/v1/SHEET.md",
+      "pages": 4,
+      "words": 470
+    },
+    {
+      "id": "CA9-SUP-000001-VENDOR",
+      "path": "records/CA9-SUP-000001/v1/VENDOR.md",
+      "pages": 3,
+      "words": 290
+    },
+    {
+      "id": "CA9-SUP-000001-EMAIL",
+      "path": "records/CA9-SUP-000001/v1/EMAIL.md",
+      "pages": 4,
+      "words": 455
+    },
+    {
+      "id": "CA9-SUP-000001-STIP",
+      "path": "records/CA9-SUP-000001/v1/STIP.md",
+      "pages": 2,
+      "words": 308
+    },
+    {
+      "id": "CA9-SUP-000001-VER",
+      "path": "records/CA9-SUP-000001/v1/VER.md",
+      "pages": 1,
+      "words": 129
+    },
+    {
+      "id": "CA9-SUP-000001-JUD",
+      "path": "records/CA9-SUP-000001/v1/JUD.md",
+      "pages": 2,
+      "words": 260
+    },
+    {
+      "id": "CA9-SUP-000001-NOA",
+      "path": "records/CA9-SUP-000001/v1/NOA.md",
+      "pages": 1,
+      "words": 146
+    },
+    {
+      "id": "CA9-SUP-000001-BRORD",
+      "path": "records/CA9-SUP-000001/v1/BRORD.md",
+      "pages": 1,
+      "words": 128
+    },
+    {
+      "id": "CA9-SUP-000001-TD",
+      "path": "records/CA9-SUP-000001/v1/TD.md",
+      "pages": 3,
+      "words": 259
+    },
+    {
+      "id": "CA9-SUP-000001-AD",
+      "path": "records/CA9-SUP-000001/v1/AD.md",
+      "pages": 1,
+      "words": 88
+    }
+  ],
+  "original_pages": 30,
+  "original_words": 3703,
+  "planned_documents": 26,
+  "planned_original_pages": 233,
+  "next_batch": "Author remaining original lower-court documents; reconcile filed dates/attachments and citations; complete record, excerpts, actual legal research, briefs and review. No seal.",
+  "research": {
+    "status": "initial primary-source research, not proposition clearance",
+    "sources": [
+      [
+        "18 USC 1001",
+        "https://uscode.house.gov/us/usc/t18/s1001/",
+        "subsection (a)(2)",
+        "materially false, fictitious, or fraudulent statement or representation"
+      ],
+      [
+        "Gaudin, 515 U.S. 506",
+        "https://www.law.cornell.edu/supremecourt/text/515/506",
+        "511",
+        "natural tendency to influence"
+      ],
+      [
+        "Musacchio v. United States",
+        "https://www.law.cornell.edu/supremecourt/text/14-1095",
+        "sufficiency discussion",
+        "rational trier of fact"
+      ],
+      [
+        "FRCP criminal Rule 29",
+        "https://www.law.cornell.edu/rules/frcrmp/rule_29",
+        "renewed motion timing",
+        "14 days"
+      ],
+      [
+        "Ninth Circuit model instruction 24.10",
+        "https://www3.ce9.uscourts.gov/jury-instructions/node/1168",
+        "materiality and elements",
+        "instruction is guidance not binding opinion"
+      ]
+    ],
+    "remaining": "Obtain circuit opinions, pinpoint full text, adverse and subsequent treatment review; check speedy trial exclusions, actual jury instructions and sentence. No legal review certification."
+  }
+}
