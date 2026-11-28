@@ -1,0 +1,9 @@
+{
+  "request_id": "SUPREQ-20261128-104",
+  "request_sha256": "66b4622450ab193148329cbfa80fb798028769543a448abc514e6fe311c4cc70",
+  "status": "rework",
+  "job_id": "CA9-SUP-000001",
+  "job_status": "rework",
+  "stage_index": 1,
+  "reason": "record: evidence before source event"
+}

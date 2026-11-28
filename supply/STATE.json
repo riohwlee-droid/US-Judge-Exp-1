@@ -35,7 +35,7 @@
       "track": "criminal_trial",
       "origin_district": "NDCA",
       "legal_cutoff": "2026-11-27",
-      "status": "working",
+      "status": "rework",
       "stage_index": 1,
       "attempt": 1,
       "blueprint_path": "factory/CA9-SUP-000001/v1/blueprint.json",
@@ -62,6 +62,11 @@
         {
           "action": "advance",
           "note": "Creator authored actual partial package; validate only completed world/procedure stage.",
+          "revision": 1
+        },
+        {
+          "action": "validation_failed",
+          "note": "record: evidence before source event",
           "revision": 1
         }
       ]
@@ -152,6 +157,15 @@
       "job_id": "CA9-SUP-000002",
       "job_status": "working",
       "stage_index": 1
+    },
+    "SUPREQ-20261128-104": {
+      "request_id": "SUPREQ-20261128-104",
+      "request_sha256": "66b4622450ab193148329cbfa80fb798028769543a448abc514e6fe311c4cc70",
+      "status": "rework",
+      "job_id": "CA9-SUP-000001",
+      "job_status": "rework",
+      "stage_index": 1,
+      "reason": "record: evidence before source event"
     }
   },
   "as_of_checkpoint": "S0001-connection-check",
