@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "request_id": "REQ-20261128-CA9-WHITMORE-APPOINTMENT",
+  "base_checkpoint": "S0001-connection-check",
+  "base_revision": 1,
+  "checkpoint": "S0002-ca9-whitmore-appointment",
+  "events": [
+    {
+      "id": "EV-20261128-CA9-WHITMORE-CONFIGURE",
+      "type": "campaign.configure",
+      "payload": {
+        "court_id": "CA9",
+        "player": {
+          "id": "J-CA9-PLAYER",
+          "name": "Michael Kay Whitmore",
+          "birth_date": "1981-12-29",
+          "commission_date": "2026-11-27",
+          "chambers_city": "San Francisco",
+          "fictional": true,
+          "education": [
+            {
+              "school": "University of California, Los Angeles",
+              "degree": "B.A.",
+              "major": "Economics",
+              "from": "2000-09",
+              "to": "2004-06"
+            },
+            {
+              "school": "UCLA School of Law",
+              "degree": "J.D.",
+              "from": "2004-08",
+              "to": "2007-05"
+            }
+          ],
+          "career_history": [
+            {
+              "from": "2007",
+              "to": "2008",
+              "position": "Judicial Law Clerk",
+              "employer": "U.S. District Court for the Northern District of California"
+            },
+            {
+              "from": "2008",
+              "to": "2013",
+              "position": "Associate Attorney",
+              "employer": "Redwood Vale & Ash LLP (fictional)",
+              "practice": "Federal civil litigation, commercial disputes and economic regulation"
+            },
+            {
+              "from": "2013",
+              "to": "2019",
+              "position": "Assistant United States Attorney",
+              "employer": "U.S. Attorney's Office, Northern District of California",
+              "practice": "Economic crime and criminal appeals"
+            },
+            {
+              "from": "2019",
+              "to": "2026-11-27",
+              "position": "United States District Judge",
+              "employer": "U.S. District Court for the Northern District of California"
+            }
+          ],
+          "appointment_basis": "Fictional presidential nomination, Senate confirmation and commission; prior district judgeship relinquished upon circuit appointment.",
+          "judicial_approach": "User-controlled; no preset ideology or merits votes",
+          "conflict_screening": {
+            "former_firm": "Redwood Vale & Ash LLP (fictional)",
+            "former_government_office": "USAO NDCA",
+            "former_district": "NDCA",
+            "prior_participation": "Review each proceeding, counsel, parties, prior rulings, financial and family interests before assignment; no presumed clearance."
+          }
+        },
+        "game_time": "2026-11-30T08:30:00-08:00",
+        "legal_cutoff": "2026-11-27",
+        "user_confirmed": true
+      }
+    },
+    {
+      "id": "EV-20261128-CA9-WHITMORE-ROSTER",
+      "type": "ca9.organization_install",
+      "payload": {
+        "roster_id": "CA9-ROSTER-V1",
+        "roster_digest": "server_computed",
+        "user_confirmed": true
+      }
+    }
+  ]
+}
