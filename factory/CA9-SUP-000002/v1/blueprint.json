@@ -961,7 +961,7 @@
       "actor_id": "PC",
       "created_at": "2026-10-16T09:00:00-07:00",
       "filed_at": "2026-10-16T16:00:00-07:00",
-      "pages": 190,
+      "pages": 179,
       "path": "records/CA9-SUP-000002/v1/ER2.md",
       "depends_on": [],
       "access": "judge",
@@ -975,7 +975,7 @@
       "actor_id": "PC",
       "created_at": "2026-10-16T09:00:00-07:00",
       "filed_at": "2026-10-16T16:00:00-07:00",
-      "pages": 6,
+      "pages": 5,
       "path": "records/CA9-SUP-000002/v1/IDX.md",
       "depends_on": [],
       "access": "judge",
@@ -2221,6 +2221,758 @@
       "volume": 2,
       "source_document_id": "CA9-SUP-000002-HDEP",
       "source_page": 19
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 86,
+      "citation_page": 94,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 1
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 87,
+      "citation_page": 95,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 2
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 88,
+      "citation_page": 96,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 3
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 89,
+      "citation_page": 97,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 4
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 90,
+      "citation_page": 98,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 5
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 91,
+      "citation_page": 99,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 6
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 92,
+      "citation_page": 100,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 7
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 93,
+      "citation_page": 101,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 8
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 94,
+      "citation_page": 102,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 9
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 95,
+      "citation_page": 103,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 10
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 96,
+      "citation_page": 104,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 11
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 97,
+      "citation_page": 105,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 12
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 98,
+      "citation_page": 106,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 13
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 99,
+      "citation_page": 107,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 14
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 100,
+      "citation_page": 108,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 15
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 101,
+      "citation_page": 109,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 16
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 102,
+      "citation_page": 110,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 17
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 103,
+      "citation_page": 111,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 18
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 104,
+      "citation_page": 112,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 19
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 105,
+      "citation_page": 113,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 20
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 106,
+      "citation_page": 114,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 21
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 107,
+      "citation_page": 115,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 22
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 108,
+      "citation_page": 116,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 23
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 109,
+      "citation_page": 117,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 24
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 110,
+      "citation_page": 118,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 25
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 111,
+      "citation_page": 119,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 26
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 112,
+      "citation_page": 120,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 27
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 113,
+      "citation_page": 121,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 28
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 114,
+      "citation_page": 122,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 1
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 115,
+      "citation_page": 123,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 2
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 116,
+      "citation_page": 124,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 3
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 117,
+      "citation_page": 125,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 4
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 118,
+      "citation_page": 126,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 5
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 119,
+      "citation_page": 127,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 6
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 120,
+      "citation_page": 128,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 7
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 121,
+      "citation_page": 129,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 8
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 122,
+      "citation_page": 130,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 9
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 123,
+      "citation_page": 131,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 10
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 124,
+      "citation_page": 132,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 11
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 125,
+      "citation_page": 133,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 12
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 126,
+      "citation_page": 134,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 13
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 127,
+      "citation_page": 135,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 14
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 128,
+      "citation_page": 136,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 15
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 129,
+      "citation_page": 137,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 16
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 130,
+      "citation_page": 138,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 17
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 131,
+      "citation_page": 139,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 18
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 132,
+      "citation_page": 140,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 19
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 133,
+      "citation_page": 141,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 20
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 134,
+      "citation_page": 142,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 21
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 135,
+      "citation_page": 143,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 22
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 136,
+      "citation_page": 144,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 23
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 137,
+      "citation_page": 145,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 24
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 138,
+      "citation_page": 146,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 25
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 139,
+      "citation_page": 147,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 26
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 140,
+      "citation_page": 148,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 27
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 141,
+      "citation_page": 149,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 28
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 142,
+      "citation_page": 150,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 29
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 143,
+      "citation_page": 151,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 30
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 144,
+      "citation_page": 152,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 31
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 145,
+      "citation_page": 153,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 32
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 146,
+      "citation_page": 154,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-MSG",
+      "source_page": 1
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 147,
+      "citation_page": 155,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-MSG",
+      "source_page": 2
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 148,
+      "citation_page": 156,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-MSG",
+      "source_page": 3
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 149,
+      "citation_page": 157,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-MSG",
+      "source_page": 4
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 150,
+      "citation_page": 158,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 1
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 151,
+      "citation_page": 159,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 2
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 152,
+      "citation_page": 160,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 3
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 153,
+      "citation_page": 161,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 4
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 154,
+      "citation_page": 162,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 5
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 155,
+      "citation_page": 163,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 6
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 156,
+      "citation_page": 164,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PAY",
+      "source_page": 1
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 157,
+      "citation_page": 165,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PAY",
+      "source_page": 2
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 158,
+      "citation_page": 166,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PAY",
+      "source_page": 3
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 159,
+      "citation_page": 167,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PAY",
+      "source_page": 4
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 160,
+      "citation_page": 168,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PAY",
+      "source_page": 5
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 161,
+      "citation_page": 169,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-PAY",
+      "source_page": 6
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 162,
+      "citation_page": 170,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-POL",
+      "source_page": 1
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 163,
+      "citation_page": 171,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-POL",
+      "source_page": 2
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 164,
+      "citation_page": 172,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-POL",
+      "source_page": 3
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 165,
+      "citation_page": 173,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-POL",
+      "source_page": 4
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 166,
+      "citation_page": 174,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SCHED",
+      "source_page": 1
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 167,
+      "citation_page": 175,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-SCHED",
+      "source_page": 2
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 168,
+      "citation_page": 176,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-ANS",
+      "source_page": 1
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 169,
+      "citation_page": 177,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-ANS",
+      "source_page": 2
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 170,
+      "citation_page": 178,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-ANS",
+      "source_page": 3
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 171,
+      "citation_page": 179,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-COM",
+      "source_page": 1
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 172,
+      "citation_page": 180,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-COM",
+      "source_page": 2
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 173,
+      "citation_page": 181,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-COM",
+      "source_page": 3
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 174,
+      "citation_page": 182,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-COM",
+      "source_page": 4
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 175,
+      "citation_page": 183,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-COM",
+      "source_page": 5
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 176,
+      "citation_page": 184,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-NOA",
+      "source_page": 1
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 177,
+      "citation_page": 185,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-TD",
+      "source_page": 1
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 178,
+      "citation_page": 186,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-TD",
+      "source_page": 2
+    },
+    {
+      "excerpt_document_id": "CA9-SUP-000002-ER2",
+      "excerpt_page": 179,
+      "citation_page": 187,
+      "volume": 2,
+      "source_document_id": "CA9-SUP-000002-TD",
+      "source_page": 3
     }
   ],
   "authorities": [

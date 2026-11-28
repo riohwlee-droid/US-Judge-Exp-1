@@ -656,3 +656,861 @@ A. No separate adjustment for those events appears.
 Q. Is that different from an entry showing that the employee never performed any such work?
 A. Yes. They are different propositions.
 REPORTER: The witness was excused following reservation of signature. No correction was supplied for this deposition in the filed materials.
+
+<!-- PAGE 86 -->
+UNITED STATES DISTRICT COURT, CENTRAL DISTRICT OF CALIFORNIA — WESTERN DIVISION
+Mira L. Sedgewick v. Harborline Support Services, LLC
+SIM-CDCA-25-CV-081
+DEPOSITION OF KELLAN D. BRICE
+January 14, 2026, 9:15 a.m. Appearances: Jessa M. Orell for plaintiff; Brennan T. Halwick for defendant. Reported by Gavin M. Lorne. Witness sworn.
+MS. ORELL: I will ask about the West support team and the timekeeping issue. If you need to distinguish what you remember from what a record says, please do so.
+THE WITNESS: All right.
+Q. Were you the supervisor of the team in the spring of 2024?
+A. Yes. I was responsible for queue performance, the representatives' schedules, and the first level of time correction review.
+Q. Did that include Ms. Sedgewick?
+A. Yes.
+
+<!-- PAGE 87 -->
+Q. How was the team's work assigned?
+A. The case application put matters in the queue, and representatives took assignments or received them through routing. The lead could shift assignments when we had a coverage problem. We had a mixture of calls, follow-up and documentation.
+Q. Who was responsible for completing a note?
+A. Generally the assigned representative. If a case was transferred, the representative had to leave enough information for the next person.
+Q. Did you monitor whether notes were returned for missing information?
+A. We received quality reports and addressed cases that needed correction. I would sometimes message the team or talk with a representative about an incomplete outcome.
+Q. Was case closure part of the representative's job duties?
+A. Yes, either closure or a proper handoff.
+
+<!-- PAGE 88 -->
+Q. What were the schedule and pay arrangements for Ms. Sedgewick?
+A. She was hourly and normally worked from eight-thirty to five with a half-hour meal period. I did not set her wage rate. Payroll kept that information.
+Q. Could she work longer than her schedule and be paid?
+A. Yes. She should tell the lead or me if she needed time beyond the schedule, but if work was performed the time had to be recorded even without advance approval.
+Q. Could you adjust the staffing plan to allow completion of a case?
+A. Yes. We might have somebody stay on or have the case reassigned.
+Q. Was there any numerical cutoff below which time did not count?
+A. No. Our policy did not say small amounts could be omitted.
+
+<!-- PAGE 89 -->
+Q. I show you Exhibit A, page one. Was that the policy you were responsible for enforcing?
+A. Yes, that looks like the January policy. I had the timekeeping responsibilities described in it.
+Q. It says supervisors shall not direct or permit off-clock work?
+A. Yes.
+Q. What did you understand "permit" to mean in practice?
+A. If I knew somebody was doing assigned work, I needed to make sure they stayed clocked in or the time was corrected. I didn't think I had authority to tell anyone to do something unpaid.
+Q. Was your responsibility limited to approving forms that employees happened to submit?
+A. No. If I knew there was missing work time, I was supposed to get the information and make sure payroll could fix it.
+
+<!-- PAGE 90 -->
+Q. The second page says if the supervisor learns of work not reflected in the time system, the supervisor shall promptly obtain the details or notify payroll even if the representative hasn't completed the form. Is that correct?
+A. That is what it says. My understanding was that I needed actual information about the work date or interval in order to correct the punch.
+Q. Did you understand that the employee was not solely responsible for bringing the correction to completion?
+A. If I had information, I couldn't just ignore it because there was no form. I needed to find out what had happened.
+Q. Did you have to prove every keystroke before a request could be processed?
+A. No. Normally the employee told us the actual interval and reason, and we checked it where we could.
+
+<!-- PAGE 91 -->
+Q. What would you see on your ordinary dashboard?
+A. Assigned cases, status, how many cases were open or closed, and queue information. I could open a particular case to see its current note or status. I did not normally see a column comparing time punches to save events.
+Q. Did you have access to employee punch information?
+A. For the people whose time I reviewed, yes. I would see punches or exceptions in the timekeeping application. It was separate from the operations screen.
+Q. Could you manually compare a representative's clock with the status of a case?
+A. I could look at the two systems if I knew what case to look for. I would need help from systems for the historical audit rows that are in this lawsuit.
+
+<!-- PAGE 92 -->
+Q. Could you request a historical event report from the systems group?
+A. Yes. I had requested reports for operational problems in general. I don't remember requesting this employee's late-event report during May 2024.
+Q. Did you have to obtain permission from the employee to request a report about assigned work?
+A. No. There might be access procedures, but it was an internal operations record.
+Q. Was it an onerous process?
+A. I would submit a ticket describing what I needed. Systems would decide what could be extracted. I can't say what the turnaround time would have been for this request at that point.
+Q. Did you receive a report every day automatically?
+A. Not the detailed event audit. I received queue information.
+
+<!-- PAGE 93 -->
+Q. In April and May 2024 did you see representatives working at the end of a shift?
+A. In general, yes. I was sometimes in the area when shifts were ending. I did not stand over every representative's desk or check the clock for each task.
+Q. Could somebody be at their workstation after five without working?
+A. Yes. They might be putting things away or waiting for transportation, for example. Presence by itself did not tell me whether they were still assigned work.
+Q. Could somebody still have a customer matter after five?
+A. Yes, in which case the lead was supposed to arrange paid completion or reassignment.
+Q. Did you personally observe Ms. Sedgewick after five on May second?
+A. I cannot recall where I was on that date at that time.
+
+<!-- PAGE 94 -->
+Q. Exhibit C, page two, shows an accepted save at 17:08 and status change at 17:09. Do you deny these are assigned work functions?
+A. A note save and closing a case are ordinarily work functions. I don't know when the underlying note was typed or why the server time is what it is.
+Q. Is it the company's position that a case should be closed correctly even if the representative has already punched out?
+A. The representative should not be off the clock while doing it. The task still needs to be done by somebody on paid time.
+Q. Would an assigned note have a business purpose after five as well as before five?
+A. Yes. The shift time doesn't change the usefulness of the record.
+
+<!-- PAGE 95 -->
+Q. Did you know before the lawsuit about the specific save at 17:08 on May second?
+A. I don't recall knowing about that case at that time. I have seen this export during preparation for the deposition.
+Q. Did you have a practice of looking at individual case timestamps whenever someone closed a case near five?
+A. No. We monitored queue and quality, not the punch against every event.
+Q. Could you look at a saved note and see when it had been last updated?
+A. In many cases the application displayed information about a note and its status. I can't describe every version of the screen or say that the displayed time was identical to the audit table.
+Q. Do you have any record that you looked at this particular case?
+A. No.
+
+<!-- PAGE 96 -->
+Q. I show you the May ninth event page. Were you aware of the save at 17:06 or closing at 17:07 at the time?
+A. I do not recall. I didn't have a routine report of those times.
+Q. Would an individual case marked closed after five show up in your count of closed cases?
+A. It might be included in a count, depending on when the report was generated. That doesn't necessarily tell me the representative's punch time.
+Q. Did you review closed-case counts to manage the team?
+A. Yes, alongside other information. I wasn't using them to calculate pay.
+Q. Did you ever compare a case's closure time with a punch when a representative said a closing task caused a missing punch?
+A. I could do that if a particular request identified the case or date.
+
+<!-- PAGE 97 -->
+Q. On May thirteenth you sent the message on Exhibit D, page one. Is that your message?
+A. Yes.
+Q. What prompted it?
+A. We had cases returned for incomplete outcome information. The next representative couldn't tell what had happened. I wanted the team to leave complete notes or arrange coverage.
+Q. Why did you say "Please finish assigned case notes before leaving"?
+A. Because an incomplete note might cause the customer to repeat their explanation or leave the next representative without the information needed to help.
+Q. Was a case that had to be completed by a certain service deadline always to be completed by that same representative?
+A. Not always. We could hand it off with a proper note. Some cases were more efficient to finish with the original representative.
+
+<!-- PAGE 98 -->
+Q. Did you understand that a representative might see "finish assigned case notes before leaving" as an instruction to stay beyond five?
+A. Yes, if needed, while paid. That is why the message says to ask for additional time or arrange coverage. I did not intend a person to punch out and then finish the task.
+Q. Did you expect someone with a note almost complete to ask the lead anyway?
+A. If it required extra time, yes, or at least stay clocked in and let us know. We wanted the time recorded even if the request came afterward.
+Q. Were time exceptions monitored?
+A. We checked them because they could indicate staffing issues or incorrect punches. We did not treat a legitimate correction as forbidden.
+
+<!-- PAGE 99 -->
+Q. Did you ever say an unapproved exception could be a problem for performance?
+A. We would discuss unexplained schedule deviations. I might ask why an employee stayed later without arranging coverage, but I would not say the employee should omit the time actually worked.
+Q. Could a representative want to avoid having to explain an exception?
+A. I suppose so. I cannot speak for a particular person's reasons. I tried to explain that the time needed to be recorded.
+Q. Did you have a numerical target for overtime cost?
+A. We had staffing expectations and were asked to manage coverage. I do not recall a particular target that required me to deny payment for completed work.
+Q. Did you have authority to deny a correction merely because of a staffing budget?
+A. No.
+
+<!-- PAGE 100 -->
+Q. On May sixteenth, the export shows the save at 17:11 and closure at 17:12. Did you know of this event before May twentieth?
+A. I cannot say that I did. I don't recall an individual conversation about that case.
+Q. Did you read the note in the ordinary course of reviewing quality?
+A. I can't identify this note. I might have reviewed selected matters, but we have no historical record showing that I opened this one.
+Q. Is your testimony that you never reviewed any of her cases?
+A. No. I reviewed cases as part of my job. I just cannot connect a particular review to these four later events.
+Q. Do you know what she was doing at five on that date?
+A. Not from memory.
+
+<!-- PAGE 101 -->
+Q. Turn to Exhibit D, page two. Did you receive Ms. Sedgewick's May twentieth message?
+A. Yes. I responded the following morning.
+Q. Read the first sentence aloud.
+A. "Sometimes I have a few minutes of notes after the clock says out."
+Q. Did you read that as a statement about her own work?
+A. Yes, that is what the words indicate. I understood she was concerned about finishing notes and that she might have done so after punching out.
+Q. Did you read it as only a hypothetical question about the future?
+A. No, I did not necessarily read it that way. I understood she was asking what to do, including if she had already punched out. She didn't identify a specific date or duration.
+
+<!-- PAGE 102 -->
+Q. When you read the message, did you understand that she was saying there had been some notes after clock-out in the past?
+A. That was a reasonable reading of the message. I couldn't tell which dates she meant or whether the clock time was correct on those dates.
+Q. Did you think there might have been time that was not reflected in the system?
+A. Yes, there might have been. That is why I told her to send missed time to payroll and give the date and actual time if she had already clocked out.
+Q. Did you believe she was entitled to payment for actual assigned work after the clock-out?
+A. Yes. If work was performed, it had to be recorded and paid.
+Q. Did you make a finding that her statement was false?
+A. No.
+
+<!-- PAGE 103 -->
+Q. Exhibit A, page two, says you are supposed to promptly obtain the details or notify payroll. What did you do after reading the message?
+A. I responded the next morning. I told her what she should do to stay paid or correct time if she had already punched out. I asked for the date and actual time if there was missed time. I offered help with the form.
+Q. Did you separately ask her for a list of previous dates?
+A. I did not send a separate request beyond the response in the exhibit.
+Q. Did you notify payroll that she had raised a possible issue?
+A. I don't recall notifying payroll about that message.
+Q. Did you open a systems ticket for her historical closing events?
+A. No ticket for those dates has been shown to me. I don't recall making one.
+
+<!-- PAGE 104 -->
+Q. Did you follow up when you didn't receive a reply in the thread?
+A. I don't recall doing a follow-up inquiry about the earlier notes. I might have discussed routine timekeeping with the team, but I cannot identify a later discussion about the dates at issue.
+Q. Did you assume she would use the correction procedure?
+A. Yes, if she had missed time. I thought my response explained what she should give us and how we could correct it.
+Q. Did you record that you had checked whether the problem was resolved?
+A. I don't have such a record.
+Q. Did she tell you that no unpaid work had occurred?
+A. Not in this thread. I don't recall a separate statement from her to that effect.
+
+<!-- PAGE 105 -->
+Q. Why didn't you ask the systems group for a report when she said she didn't always know how many minutes the note took?
+A. I thought the first step was to have her identify the work date and approximate circumstances. I didn't have a case number or date. The event report wouldn't necessarily tell us how long she worked.
+Q. Could you have asked what dates she remembered or whether the most recent week included such an event?
+A. Yes. I could have asked a more specific question.
+Q. Could a comparison of her punch and case records at least identify possible dates to discuss?
+A. Possibly, if we obtained the detailed audit. It wouldn't prove the duration, but it could identify an event after a punch.
+Q. Did you take that step?
+A. I don't recall doing it then.
+
+<!-- PAGE 106 -->
+Q. On May twenty-third the export shows a save after five. Did you know about that event on the day?
+A. No recollection of it. I did not receive an individual message identifying that case or date.
+Q. Did the May twentieth message make you aware of a possibility that the same thing could happen again?
+A. Yes. I thought my response was intended to prevent that. I told her to stay clocked in or hand off.
+Q. Did you specifically check her later closing events to see whether she had followed the instruction?
+A. Not that I remember. I don't have a record of a check like that.
+Q. Could you have told the lead to help her manage the last case at the end of her shift?
+A. I could have. I don't recall making a special arrangement for her.
+
+<!-- PAGE 107 -->
+Q. When you say "I thought my response would prevent it," was that based on a conversation in which she agreed that she could finish all assigned work on the clock?
+A. No particular conversation I can recall. It was based on the options I outlined and the policy.
+Q. Did you know whether the problem had occurred on three previous dates in the export?
+A. No. I had the general message but not those specific events identified at the time.
+Q. Did you distinguish between her lack of exact minutes and a lack of any work?
+A. Yes. I didn't think the absence of minutes proved there was no work. I needed information to process a correction.
+Q. Did you conclude that no correction was required because she did not respond?
+A. I assumed she would report actual missed time. I did not make an affirmative investigation or finding.
+
+<!-- PAGE 108 -->
+Q. What do you remember about the later May thirtieth correction?
+A. She submitted a request for a customer callback that ended after the recorded time. It stated the date and actual time. I approved the correction and sent it through. I can see the June fourth adjustment in Exhibit B.
+Q. Was that for one of the four disputed weeks?
+A. No. It was the week beginning May twenty-seventh.
+Q. Was the amount twelve minutes?
+A. Yes.
+Q. Did you ask her whether the earlier closing notes were included in that request?
+A. No, not that I recall. The request concerned the callback. I didn't treat it as a correction for any other date.
+Q. Did the approval require the detailed audit report?
+A. No. Her explanation and the stated time were enough for that request.
+
+<!-- PAGE 109 -->
+Q. If a representative didn't know the exact minute of a correction, could you talk with them and determine a reasonable interval?
+A. We could try. The form asked for the actual time, but we would work with the employee to resolve a discrepancy. I wouldn't know what to enter if the person couldn't give us any details at all.
+Q. Could you tell payroll that an employee reported a recurring issue without specifying every date?
+A. Yes. Payroll might ask for more details. It could be useful to raise the issue and figure out how to investigate.
+Q. Was the May twentieth message itself a payroll correction form?
+A. No. It was a message about the problem. I responded with the process to follow.
+Q. Did you consider forwarding that message as notice of possible missed time?
+A. I don't recall considering it separately.
+
+<!-- PAGE 110 -->
+Q. Was the correction process the only way the employer could discover off-clock work?
+A. No. If I actually saw someone doing work after they punched out, I could raise it. If there was another record identifying it, we could look into it.
+Q. Did you have any reason to think Ms. Sedgewick's May twentieth statement was intentionally misleading?
+A. No. I had no reason to accuse her of that. I didn't know the specific details.
+Q. Did you instruct the systems group to erase or conceal event timestamps?
+A. No.
+Q. Did you instruct her to avoid reporting a small interval?
+A. No.
+Q. Are you saying it was impossible for you to find out if there was a late event on May twenty-third?
+A. No. I am saying I didn't know that specific event at the time.
+
+<!-- PAGE 111 -->
+EXAMINATION BY MR. HALWICK
+Q. Did you tell any representative that they should work unpaid?
+A. No. My message says the opposite.
+Q. If an employee said an assigned case could not be completed before five, could the lead arrange coverage?
+A. Yes, that was one of the choices. If the employee needed to finish the case, they could stay clocked in and explain the additional time.
+Q. Did Ms. Sedgewick send you the four specific dates and amounts before the lawsuit?
+A. Not that I recall. I don't have any requests for those dates.
+Q. Could you determine from a save time alone that the employee had worked continuously from the out punch until the save?
+A. No. I would need other information about what the person did.
+
+<!-- PAGE 112 -->
+Q. Did the individual message tell you exactly when a particular unpaid interval began or ended?
+A. No. She said sometimes a few minutes and that she did not always know how many. There were no dates or case IDs.
+Q. Did you offer help with the form and tell her to send dates and time if she had already punched out?
+A. Yes.
+Q. Did she later use the correction system successfully for the callback?
+A. Yes.
+Q. Did you prevent her from submitting additional requests?
+A. No.
+Q. Are you aware of any specific request from her for the May second, ninth, sixteenth or twenty-third events that payroll refused?
+A. No. I don't recall any such request, and the exhibit does not show one.
+
+<!-- PAGE 113 -->
+FURTHER EXAMINATION BY MS. ORELL
+Q. You agree the May twentieth statement could refer to work already performed, not just potential work?
+A. Yes.
+Q. You did not make a specific follow-up inquiry about the earlier dates after your response, as far as you recall?
+A. Correct.
+Q. You do not know whether there was actually unpaid work on those dates?
+A. Correct. I cannot say that there was or was not from my own observations.
+MR. HALWICK: Nothing further.
+THE REPORTER: The deposition concluded at 12:25 p.m. Witness reserved review. No signed errata were received before the motion filing. This logical-page transcript is a fictional record; it does not represent an actual deposition or official certification.
+/s/ Gavin M. Lorne, fictional deposition officer.
+
+<!-- PAGE 114 -->
+UNITED STATES DISTRICT COURT, CENTRAL DISTRICT OF CALIFORNIA — WESTERN DIVISION
+Mira L. Sedgewick v. Harborline Support Services, LLC
+SIM-CDCA-25-CV-081
+DEPOSITION OF MIRA L. SEDGEWICK
+January 12, 2026, 9:30 a.m., Los Angeles, California. Appearances: Brennan T. Halwick for defendant; Jessa M. Orell for plaintiff. Reported by Gavin M. Lorne, fictional deposition officer. The witness is duly sworn.
+MR. HALWICK: We'll cover your job, timekeeping, and four specific weeks. If you don't recall, please say so. Don't guess because you think I expect a date.
+THE WITNESS: Understood.
+Q. Is there any reason you cannot give truthful answers today?
+A. No. I may need to see the records for dates.
+Q. Please identify yourself.
+A. Mira L. Sedgewick. I was a support representative with Harborline.
+
+<!-- PAGE 115 -->
+EXAMINATION BY MR. HALWICK
+Q. When did you start?
+A. September fifth, 2023. It was an hourly job. I had done customer support elsewhere, but the program here was different.
+Q. What did an assigned case mean?
+A. A customer issue routed to a representative. Sometimes it was a single question, sometimes a problem with an order or account that required looking in more than one screen.
+Q. You would not resolve all cases during a single conversation?
+A. Correct. You could need an internal response or a later callback. The record should show what had happened so far.
+Q. Were you paid separately per resolved case?
+A. No. My wage was by the hour. We had service targets, but I didn't receive a fixed amount for each case.
+
+<!-- PAGE 116 -->
+Q. What was your hourly rate during April and May 2024?
+A. Twenty-two dollars an hour. That was my regular rate.
+Q. Your normal schedule?
+A. Eight-thirty to five, Monday through Friday. A half-hour meal break.
+Q. Did you take those breaks during the weeks involved here?
+A. Yes, as far as I recall. My claim isn't about lunch.
+Q. Any time worked before eight-thirty that you are claiming?
+A. No. I am talking about finishing notes at the end of the day.
+Q. Did you receive the pay statements?
+A. Yes. The regular hours were forty each week.
+Q. Are you disputing the recorded hourly rate or regular hours?
+A. No. The extra time is what I am disputing.
+Q. You are not claiming the employer classified you as exempt?
+A. No.
+
+<!-- PAGE 117 -->
+Q. How did you clock in and out?
+A. I opened the time application, chose the punch, and waited for the confirmation. It was separate from the customer application.
+Q. Were you automatically clocked out at five?
+A. Not that I remember. I used the punch button. I would normally punch at five unless there was an approved change or a reason to stay on the clock.
+Q. Could you stay clocked in past five without a manager changing your schedule in advance?
+A. The button would let you do it. The issue was how it would be handled afterward.
+Q. Did the program physically prevent an employee from recording time beyond five?
+A. No. I never received a technical error for that reason.
+Q. Did the customer application close when the time application recorded an out punch?
+A. No. They were different windows.
+
+<!-- PAGE 118 -->
+Q. I'm handing you Exhibit A, page one. Have you seen that procedure?
+A. Yes. It was the timekeeping procedure we received. I don't remember which version I saw first, but this looks like the one.
+Q. It says all work time must be recorded?
+A. Yes.
+Q. It also distinguishes approval from payment?
+A. Yes, that is what this page says.
+Q. Did somebody tell you that time not approved would never be paid?
+A. Not in those words. We were supposed to ask if we needed extra time. I thought it would be a problem to have an exception without explanation, but I was never told not to be paid.
+Q. Did you ever see someone disciplined for accurately reporting overtime?
+A. I did not see a disciplinary notice like that. I can't testify to what other employees' managers did.
+
+<!-- PAGE 119 -->
+Q. What would happen when a case was still open near five?
+A. We could contact the lead. Sometimes a different representative could take it, but a note was needed for them to know what had happened. If the customer was already done and I had to finish the outcome, I usually tried to finish it myself.
+Q. Could a lead tell you to transfer the case and leave?
+A. Yes. That happened in general, although I cannot put a date on it in these four weeks.
+Q. Did you always ask for help before clocking out?
+A. No.
+Q. Why not?
+A. It might take longer to ask and explain than to write the last few lines. I thought finishing it was the quickest way to leave a complete record.
+
+<!-- PAGE 120 -->
+Q. Were the notes a required part of the job?
+A. Yes. The note was not an optional diary. It recorded what was done and what was still open. There was a status field too.
+Q. Could you prepare a note during a customer call?
+A. Often. It depended on the call. If I had to search several things, I might put part of it in the note, then finish when the conversation ended.
+Q. Did a note have to be typed all at once?
+A. No. You could have a draft, save it, and change it later.
+Q. Were there days you did all the notes before five?
+A. Certainly. Most days I was not dealing with a last note after clocking out.
+Q. So the job itself did not invariably require a late finish?
+A. Right. It depended on the assignment.
+
+<!-- PAGE 121 -->
+Q. Do you remember what you did when you pressed the clock-out button on May second?
+A. I don't remember the exact moment by itself. I remember that sort of case, and I have reviewed the records to identify that day.
+Q. Exhibit B, page two, shows a punch at 17:00. Is that disputed?
+A. No.
+Q. Exhibit C, page two, shows a note save at 17:08 and a status change at 17:09. Do you recall the customer?
+A. Not the person's identity. The record is anonymized, and I don't need to know the name now. I recall finishing an outcome note on one of those late days after I had clocked out.
+Q. Can you say you were typing without interruption from five until eight minutes after?
+A. No. I cannot reconstruct every minute.
+
+<!-- PAGE 122 -->
+Q. When you say you recall finishing an outcome note on one of those days, which day do you recall independently?
+A. May second is one I recognize from reviewing the case sequence. I recall that I had a note I could not leave blank and that I finished it after the punch. I don't recall whether I started that final part a minute or several minutes after five.
+Q. Did you create a contemporaneous handwritten record of those minutes?
+A. No.
+Q. Do you know whether any part of the note was already typed before five?
+A. It probably was. That's how I usually worked. I can't separate the earlier and later text.
+Q. Could some period have been spent waiting for a screen to refresh rather than typing?
+A. Yes. I don't remember how much.
+
+<!-- PAGE 123 -->
+Q. Is it possible you got a drink or put away your things before returning to the note?
+A. I don't recall doing that on May second. I cannot rule out a short interruption.
+Q. You cannot tell us that the eight-minute difference represents eight uninterrupted minutes of work?
+A. Correct. I know I finished work after the punch, but the event doesn't tell me all of the time.
+Q. Did you ask your supervisor to correct the punch for May second?
+A. I don't recall sending a request for that date. There isn't one in the payroll record.
+Q. Did you tell payroll the following morning?
+A. Not that I remember.
+Q. Did you see your supervisor while you were doing the note?
+A. I cannot say who was at a workstation or looking at my screen then.
+
+<!-- PAGE 124 -->
+Q. Turning to May ninth, Exhibit C, page three, what does that sequence mean to you?
+A. A case was open, there was a save before five and one after five, then it was marked closed. The later save looks like something I would do when finishing the note.
+Q. Do you remember this particular case as distinct from May second?
+A. Less clearly. I know I did the same kind of work on several evenings. I don't remember the issue the customer raised on May ninth.
+Q. Could a save after five have been of text you had finished before five?
+A. It is possible, but if I was pressing save and closing the case after five I considered that part of finishing the work.
+Q. Was it just a session ending by itself?
+A. I don't know the technical rules. A save is different from logging out in the way I used the program.
+
+<!-- PAGE 125 -->
+Q. Do you claim every save occurring after five involved new text entered after five?
+A. No. I don't have the text histories.
+Q. What would pressing save accomplish if the text was already entered?
+A. It would put the note where the next person could see it. Until it was saved, I couldn't assume it was there. I would normally confirm that the correct outcome was selected too.
+Q. Could the save have occurred later because the program was delayed in accepting a request you made earlier?
+A. I didn't monitor server time. I can't say whether that happened in these instances.
+Q. Are you claiming that the entire interval between the first and second saves was spent working unpaid?
+A. No. The first save was before five. I am claiming work after the punch, not the whole interval.
+
+<!-- PAGE 126 -->
+Q. How do you remember that you performed any work after five if you cannot remember each minute?
+A. I remember the pattern of clocking out because the shift was ending and still having a note to finish. The timestamps help me identify the days in question. I knew I was doing the notes, not checking personal messages in the customer program.
+Q. Did you write down the dates before the lawsuit?
+A. I did not keep a personal list of four dates. I raised the problem with my supervisor on May twentieth.
+Q. The four dates were selected after the activity records were available?
+A. Yes. My lawyer and I reviewed them. I did not make up a specific time interval for each date before seeing the records.
+Q. Can you identify the work with more certainty than its duration?
+A. Yes, for the closing tasks generally.
+
+<!-- PAGE 127 -->
+Q. Exhibit D, page one, is a message dated May thirteenth. Did you see it?
+A. Yes. Kellan sent it to the team.
+Q. Did it say to stay off the clock until the note was complete?
+A. No. It said to finish assigned notes before leaving, and that we should tell the lead if we couldn't finish on our shift.
+Q. It also said to let the team know about additional paid time or reassignment?
+A. Yes.
+Q. Did you understand those to be real options?
+A. I understood they were supposed to be options. With a note nearly done I thought I should finish rather than hand it to someone who hadn't handled the customer.
+Q. Were you ordered to clock out before completing notes?
+A. I did not receive an express order saying that.
+
+<!-- PAGE 128 -->
+Q. You understood that a note could be completed on paid time?
+A. Yes. I usually did it that way.
+Q. Did the May thirteenth message concern inaccurate payroll?
+A. It concerned quality. Cases were returned when the outcome was blank.
+Q. Did it identify you personally as someone with returned cases?
+A. No.
+Q. Did you know of an employee whose pay was docked for reporting a late note?
+A. No, not from a pay record. I heard people say they did not want time exceptions, but I can't give you names or details for all those conversations.
+MS. ORELL: Objection to the extent the question asks about others' statements for their truth.
+A. I can describe my own perception. I don't know what happened with their actual pay.
+
+<!-- PAGE 129 -->
+Q. Let's discuss May sixteenth. The activity page has a note save at 17:11 and status change at 17:12. Did you review those entries?
+A. Yes. I recognized the kind of sequence. That is one of the later finishes I recall, but I would not say I remember the exact time without the page.
+Q. Is that your only basis for an eleven-minute estimate?
+A. I don't claim that the note itself took eleven minutes. I think I did some of the work after punching out, and I know I stayed to finish the case. I could have been working on the note for several minutes.
+Q. Can you say that you did no personal activity between five and the save?
+A. Not with precision. I don't remember a particular personal task on that occasion.
+
+<!-- PAGE 130 -->
+Q. Before you sent the individual message on May twentieth, had you given Kellan a particular date and amount of unpaid time?
+A. I don't recall doing that. I had talked about closing time in the team generally, but I can't give a specific earlier conversation where I said "May second, eight minutes," for example.
+Q. Did he ever watch you press the punch and then personally watch you type a note?
+A. I don't remember that. We worked in the same area sometimes, but that doesn't mean he could see the time screen.
+Q. Do you know whether he looked at your individual case log on May second, ninth or sixteenth?
+A. No. I don't know which cases he opened. He used the dashboard for the queue.
+
+<!-- PAGE 131 -->
+Q. I will show you Exhibit D, page two. Is that your message of May twentieth?
+A. Yes.
+Q. Read the first sentence, please.
+A. "Sometimes I have a few minutes of notes after the clock says out."
+Q. Why did you send that message?
+A. I didn't want to keep getting near five with the last case unresolved, and I wanted him to know I was finishing notes after punching out. I wasn't trying to make a formal wage calculation in the message.
+Q. You said "sometimes," not "every day," correct?
+A. Correct.
+Q. You did not identify a particular customer case?
+A. Not in this message.
+Q. Did you mean that it had happened before, or that it could happen in the future?
+A. It had happened before and I was concerned about it happening again.
+
+<!-- PAGE 132 -->
+Q. Did you want Kellan to respond by submitting a payroll correction for you?
+A. I wanted a solution. I wasn't sure how he would handle earlier time. I hoped he would explain how to get the notes done without being off the clock.
+Q. Did you specifically ask to be paid a stated amount?
+A. No. I explained that I sometimes had notes after clocking out and that I didn't always know the minutes.
+Q. Were you aware of the correction form at that time?
+A. Yes. I said so in the message.
+Q. You could have put the date on a form and explained that you didn't recall the exact end time?
+A. I could have asked about that. I didn't know whether payroll could accept an estimate. I thought the form wanted the actual time.
+
+<!-- PAGE 133 -->
+Q. Exhibit D, page three. What did Kellan say the next morning?
+A. He said, "Do not work unpaid; send any missed time to payroll." He said to stay clocked in and tell him or the lead if the case needed a note, or arrange a handoff.
+Q. Did he threaten your job?
+A. No.
+Q. Did he say the time was too short to report?
+A. No.
+Q. Did he offer help with the form?
+A. Yes.
+Q. Did you respond to the message?
+A. Not in that thread. I don't have a recollection of a separate written reply.
+Q. Did you send him dates and times after receiving it?
+A. I don't recall giving him the four dates before this case.
+
+<!-- PAGE 134 -->
+Q. How did you understand the instruction to stay clocked in?
+A. I understood he did not want me working unpaid. It sounded like the solution going forward was to stay on the clock and tell someone or hand off. I was still worried about a note being returned and about the exception if I stayed.
+Q. Was that worry based on an actual refusal of a request to stay on the clock in the four weeks?
+A. I cannot identify a request on those dates that he refused.
+Q. Was there a deadline to complete a note at exactly five regardless of the case?
+A. No formal rule like that. The shift ended at five. We were supposed to keep the record complete.
+Q. Did the response change your ability to enter time?
+A. No, the application was the same.
+
+<!-- PAGE 135 -->
+Q. Now May twenty-third. That is after the exchange. Do you remember what happened?
+A. I remember another closing note after the punch. The activity page is one of the dates I reviewed. I cannot say what the customer called about. I know the procedure was to stay on the clock, but I still thought I would just finish the note quickly.
+Q. Did you ask for approval to stay clocked in before you punched out on May twenty-third?
+A. I don't recall doing so.
+Q. Did Kellan instruct you to punch out on that date?
+A. I don't remember any such instruction.
+Q. Did you send a correction request for the May twenty-third event afterward?
+A. No request shows up in the export. I do not remember sending one.
+
+<!-- PAGE 136 -->
+Q. Why did you not follow the instruction if you understood it?
+A. I should have stayed clocked in. I was trying to finish the work and leave. The problem was that it was a small task I thought would take almost no time, and I didn't know the exact amount after the fact. That doesn't mean I wasn't doing work.
+Q. Did the company direct you to ignore the policy?
+A. I am not saying it did in writing. I am saying my supervisor knew I told him about the problem and there was no follow-up about the earlier time.
+Q. Did he know on May twenty-third that you were still doing a note after punching out?
+A. I cannot testify to what he knew on that exact day. I did not tell him a particular case that evening.
+
+<!-- PAGE 137 -->
+Q. Exhibit B, page six, shows an adjustment. Do you recognize that?
+A. Yes. It was for May thirtieth, a callback. That was outside the four weeks we are talking about.
+Q. How did you make that request?
+A. I knew when I completed the callback. I submitted the missed punch and put the time and reason. The supervisor approved it. Payroll added twelve minutes.
+Q. Did you have to attach the text of the customer record?
+A. No.
+Q. Did anyone refuse that adjustment because you did not seek approval first?
+A. No. It was processed.
+Q. Were you paid for it?
+A. Yes, according to the adjustment record.
+Q. Are you claiming those same twelve minutes in this case?
+A. No. That is not part of the claim.
+
+<!-- PAGE 138 -->
+Q. Was the correction form unavailable to you during the earlier four weeks?
+A. No, not physically. I knew of it. I did not use it for those notes.
+Q. Had you ever been told by payroll that it would not correct a few minutes?
+A. No.
+Q. The separate correction shows the procedure could be used?
+A. Yes, when I knew the time and sent it in. It doesn't tell us whether the earlier notes were paid.
+Q. Did you have access to the detailed server audit table when you were employed?
+A. Not the export we have here. I could see my case and its status. I did not have the detailed report that compares all the timestamps.
+Q. Did you ask the systems group to provide you with those entries in May?
+A. No.
+
+<!-- PAGE 139 -->
+Q. Let's talk about the amount. Do you have a calculation that says exactly how many minutes you worked each week?
+A. No exact calculation. The four later saves and closes are the events I can identify from the records. I believe I spent some minutes finishing each of those cases. I cannot swear that the whole interval was active work.
+Q. Are you asking the court to assume the automatic session end is the last minute of work?
+A. No. I understand a session can stay open. I don't claim I worked until the session-end time.
+Q. If you had a few minutes of notes after five, could the actual work be less than the interval between the punch and save?
+A. Yes. I can't give an exact number of minutes from the timestamps alone.
+
+<!-- PAGE 140 -->
+Q. On what basis do you say the later actions were work rather than personal activity?
+A. The actions concern customer cases in my account. Saving a note and changing a case status were assigned work functions. I wasn't using the case application for private tasks.
+Q. Do you know whether a person other than you could have used your account?
+A. I never gave anyone my password. I can't speak to technical possibilities. I have no reason to think somebody else performed my closing actions.
+Q. Could a supervisor close an assigned case in the system?
+A. They could do things to cases in general. I don't know how the log would label it if they used their own account.
+Q. So the system custodian is in a better position to explain the event field?
+A. Yes.
+
+<!-- PAGE 141 -->
+Q. When did you first ask anyone for the detailed time and activity records?
+A. During this dispute after I talked with counsel. I had pay statements before then. I had not tried to obtain a historical export while I was doing the work.
+Q. Did you personally create the four-page selected-event comparison?
+A. No. The application export was produced by the company. I reviewed it with counsel.
+Q. Did you select every case event during that month?
+A. No. We looked at these four dates. I do not say all other events were on the clock or off the clock.
+Q. Are there other specific dates you are claiming?
+A. These four are the specific dates I can identify in the disputed weeks. I am not presenting a count of every possible late task.
+
+<!-- PAGE 142 -->
+Q. Do you dispute that the company had a written policy against working off the clock?
+A. No.
+Q. Do you dispute that your supervisor's written response instructed you not to work unpaid?
+A. No.
+Q. Do you dispute that you successfully reported another missed punch?
+A. No.
+Q. Then what is your complaint about the company's knowledge?
+A. I told my supervisor the notes had sometimes continued after the punch. I don't know what he did to check it, but he knew I was talking about actual notes, not a hypothetical unrelated problem. The company had the pay records and the customer records. I think it should have checked and paid the time I had worked.
+Q. That is your conclusion, not personal knowledge of any check he actually made?
+A. Correct. I don't know what searches he made.
+
+<!-- PAGE 143 -->
+EXAMINATION BY MS. ORELL
+Q. When you said you didn't know how many minutes the notes took, were you saying you did no work at all?
+A. No. I knew I was finishing notes. I didn't know the exact start and stop times.
+Q. Did you tell Kellan in the May twentieth message that the problem was related to your own clock and your own notes?
+A. Yes. I used "I." I was explaining what I sometimes did, not asking only about someone else.
+Q. Did you receive an inquiry from him requesting specific dates from the earlier weeks beyond the direction to send dates and times?
+A. I do not recall a separate inquiry. He told me what to send if I had missed time. I don't remember him asking me to sit down and go through the earlier cases.
+
+<!-- PAGE 144 -->
+Q. You were asked about an already prepared note. Even if the text was written before five, what did you have to do to finish the case?
+A. Submit the note, make sure it was saved, select the correct status, and close it or hand it off. Those were part of the assigned task. A note in an unsaved screen wouldn't tell the next representative what happened.
+Q. Did you think you could leave a case's required outcome blank without either finishing it or arranging a handoff?
+A. No. We had to do one or the other.
+Q. Did you believe the later saves and closes benefited the company?
+A. They completed the customer records the company needed.
+MR. HALWICK: Objection, calls for a conclusion.
+A. I can say they were tasks I was assigned to do.
+
+<!-- PAGE 145 -->
+FURTHER EXAMINATION BY MR. HALWICK
+Q. You are not claiming the company refused the separate request for twelve minutes?
+A. Correct.
+Q. You cannot identify an actual instruction to falsify a punch?
+A. Correct.
+Q. You agree that your recollection and the timestamps do not fix the precise amount of unpaid time?
+A. Yes. They do show why I believe I worked some time after the clock.
+MS. ORELL: No further questions.
+MR. HALWICK: We reserve the right to use the deposition in accordance with the rules. No further questions.
+THE REPORTER: The deposition concluded at 12:46 p.m. The witness requested review. No signed errata were returned by the date of the summary-judgment filing. This is the complete simulated logical-page transcript, not a certified real deposition.
+/s/ Gavin M. Lorne, fictional reporter.
+
+<!-- PAGE 146 -->
+EXHIBIT D — TEAM MESSAGE
+May 13, 2024, 15:44 Pacific
+From: Kellan D. Brice, Team Supervisor
+To: Support Team West
+Please finish assigned case notes before leaving. If a case cannot be completed on your shift, tell the lead before clocking out so that we can arrange coverage. We have had several cases returned by the quality group because the outcome field was blank. The next representative needs enough information to understand what happened. Do not leave a customer waiting merely to meet the scheduled end time; let us know if you need additional paid time or a reassignment. The reminder applies to the team as a whole and does not identify any particular representative's payroll record.
+
+<!-- PAGE 147 -->
+INDIVIDUAL MESSAGE — MAY 20, 2024, 17:14 PACIFIC
+From: Mira L. Sedgewick
+To: Kellan D. Brice
+Sometimes I have a few minutes of notes after the clock says out. I try to finish the case before leaving because it comes back if the outcome is blank. What should I do when the last case is still waiting for a note? I know we have the correction form, but I do not always know how many minutes the note took. I do not want to leave a blank outcome. The message does not identify a date for a particular unrecorded interval or specify a total number of minutes. The sender does not attach a punch record or a case identifier.
+
+<!-- PAGE 148 -->
+INDIVIDUAL RESPONSE — MAY 21, 2024, 08:19 PACIFIC
+From: Kellan D. Brice
+To: Mira L. Sedgewick
+Do not work unpaid; send any missed time to payroll. If a case needs a note at the end of the shift, stay clocked in and tell me or the lead. If you already clocked out, send the date and actual time so we can correct it. If you cannot finish a case during the shift, arrange a handoff before clocking out. We need accurate notes, but we also need accurate time. I can help with the form if you do not remember the procedure. The retained response contains no instruction to omit time under a stated number of minutes.
+
+<!-- PAGE 149 -->
+THREAD RETENTION NOTE
+The system custodian retained the two individual messages and the team reminder as separate communications. No response from Sedgewick to the May 21 individual message appears in this thread. That fact does not establish that the parties had no oral conversation or that no separate message was sent. The payroll export contains the later May 30 correction, outside the four disputed weeks. It does not identify a closing-time correction for the four selected dates. The parties disagree about what the supervisor should reasonably have understood from the May 20 message and whether further inquiry was required. The exhibit records the messages, not a conclusion about the supervisor's state of mind.
+
+<!-- PAGE 150 -->
+EXHIBIT C — APPLICATION ACTIVITY EXPORT
+Prepared January 9, 2026 by Tomas N. Ewan, systems custodian. Source: retained Harborline case application audit table. Filter: employee account MS-214, dates April 29 through May 26, 2024. Times converted to Pacific daylight time from stored UTC event times. Time field is server event receipt time, not necessarily the time the user began a task. The export preserves the event type and case identifier but excludes customer names and private contact information. Event type NOTE_SAVE denotes a client-submitted save request accepted by the server. Event type STATUS_CHANGE denotes an accepted status request. Event type SESSION_END denotes termination of a session, which may occur automatically. The system does not record every keystroke or all periods of active reading.
+
+<!-- PAGE 151 -->
+SELECTED EVENTS — MAY 2
+16:46 | HC-240502-61 | CASE_OPEN | MS-214
+16:55 | HC-240502-61 | NOTE_SAVE | MS-214
+17:08 | HC-240502-61 | NOTE_SAVE | MS-214
+17:09 | HC-240502-61 | STATUS_CHANGE | MS-214 | closed
+17:17 | session | SESSION_END | MS-214
+The May 2 event at 17:08 is a user-associated save request, not an automatic session end. The audit table does not contain the client-side text or the duration of editing. A save request may follow typing, a review of previously entered text or a later submission of text prepared before the recorded end of shift. The export does not determine which possibility occurred on May 2. The status change at 17:09 is a separate event.
+
+<!-- PAGE 152 -->
+SELECTED EVENTS — MAY 9
+16:38 | HC-240509-22 | CASE_OPEN | MS-214
+16:54 | HC-240509-22 | NOTE_SAVE | MS-214
+17:06 | HC-240509-22 | NOTE_SAVE | MS-214
+17:07 | HC-240509-22 | STATUS_CHANGE | MS-214 | closed
+17:21 | session | SESSION_END | MS-214
+The retained record shows a save after the recorded end of the shift. There is no event field identifying whether the employee was physically at her workstation throughout the interval. No automated batch save is identified for this case in the export. The custodian cannot use these records to calculate a continuous work interval without other evidence. The session end may follow inactivity.
+
+<!-- PAGE 153 -->
+SELECTED EVENTS — MAY 16
+16:49 | HC-240516-43 | CASE_OPEN | MS-214
+16:58 | HC-240516-43 | NOTE_SAVE | MS-214
+17:11 | HC-240516-43 | NOTE_SAVE | MS-214
+17:12 | HC-240516-43 | STATUS_CHANGE | MS-214 | closed
+17:25 | session | SESSION_END | MS-214
+The case was associated with the representative's account. The application stores a server time for each accepted event. It does not record the payroll punch in the same table. The timekeeping export is a separate exhibit. The event sequence may be compared with the punch time, but the resulting elapsed interval is not itself a measurement of active work.
+
+<!-- PAGE 154 -->
+SELECTED EVENTS — MAY 23
+16:43 | HC-240523-17 | CASE_OPEN | MS-214
+16:57 | HC-240523-17 | NOTE_SAVE | MS-214
+17:07 | HC-240523-17 | NOTE_SAVE | MS-214
+17:08 | HC-240523-17 | STATUS_CHANGE | MS-214 | closed
+17:23 | session | SESSION_END | MS-214
+The save and status change are logged under the employee account. The export does not establish the number of minutes spent preparing a note. It does establish the recorded time of the request and the case identifier. These four sequences were selected by counsel for comparison with the payroll records. The exhibit does not state that all other application events during the four weeks are absent or that every post-shift event is work.
+
+<!-- PAGE 155 -->
+ACCESS AND RETENTION NOTE
+The operations dashboard used by team supervisors normally shows current queue status, counts of assigned and closed matters, and case identifiers. Detailed audit history is available through an administrative report requested from the systems group. The payroll manager's ordinary payroll screen does not display the case audit table. A supervisor may open a particular case and review its saved note and status. The export does not include a historical log showing which detailed case records the supervisor actually opened. A request for a report is logged when made through the systems ticket process; the retained ticket history for this production has not established such a request for the four disputed dates. These limitations should be distinguished from a categorical assertion that the employer could never obtain the data.
+
+<!-- PAGE 156 -->
+EXHIBIT B — PAYROLL EXPORT
+Employee: Mira L. Sedgewick. Classification: hourly nonexempt. Regular hourly rate: $22.00. Pay basis: weekly pay for recorded hours. Time zone: America/Los_Angeles. The following workweek totals are the original paid totals for the disputed period. Week beginning April 29, 2024: 40.00 regular hours, 0.00 overtime hours, gross regular wages $880.00. Week beginning May 6, 2024: 40.00 regular hours, 0.00 overtime hours, gross regular wages $880.00. Week beginning May 13, 2024: 40.00 regular hours, 0.00 overtime hours, gross regular wages $880.00. Week beginning May 20, 2024: 40.00 regular hours, 0.00 overtime hours, gross regular wages $880.00. The export reports time paid, not an independent finding of all time worked.
+
+<!-- PAGE 157 -->
+WORKWEEK APRIL 29–MAY 5
+Date | clock in | meal out | meal in | clock out | paid hours
+Apr 29 | 08:30 | 12:00 | 12:30 | 17:00 | 8.00
+Apr 30 | 08:30 | 12:01 | 12:31 | 17:00 | 8.00
+May 1 | 08:30 | 12:05 | 12:35 | 17:00 | 8.00
+May 2 | 08:30 | 12:02 | 12:32 | 17:00 | 8.00
+May 3 | 08:30 | 12:00 | 12:30 | 17:00 | 8.00
+Total paid: 40.00. No overtime adjustment appears in the retained record for this week. The meal times shown represent thirty-minute intervals. There is no claim concerning meals in this litigation.
+
+<!-- PAGE 158 -->
+WORKWEEK MAY 6–MAY 12
+May 6 | 08:30 | 12:00 | 12:30 | 17:00 | 8.00
+May 7 | 08:30 | 12:04 | 12:34 | 17:00 | 8.00
+May 8 | 08:30 | 12:01 | 12:31 | 17:00 | 8.00
+May 9 | 08:30 | 12:03 | 12:33 | 17:00 | 8.00
+May 10 | 08:30 | 12:00 | 12:30 | 17:00 | 8.00
+Total paid: 40.00. No submitted closing-time correction is recorded. The time system and customer case application do not share a common activity counter. A later customer case timestamp is not automatically imported into payroll.
+
+<!-- PAGE 159 -->
+WORKWEEK MAY 13–MAY 19
+May 13 | 08:30 | 12:00 | 12:30 | 17:00 | 8.00
+May 14 | 08:30 | 12:08 | 12:38 | 17:00 | 8.00
+May 15 | 08:30 | 12:00 | 12:30 | 17:00 | 8.00
+May 16 | 08:30 | 12:03 | 12:33 | 17:00 | 8.00
+May 17 | 08:30 | 12:01 | 12:31 | 17:00 | 8.00
+Total paid: 40.00. No submitted closing-time correction is recorded. This extract contains the original punches and paid totals; it does not contain an employee's case notes.
+
+<!-- PAGE 160 -->
+WORKWEEK MAY 20–MAY 26
+May 20 | 08:30 | 12:00 | 12:30 | 17:00 | 8.00
+May 21 | 08:30 | 12:02 | 12:32 | 17:00 | 8.00
+May 22 | 08:30 | 12:03 | 12:33 | 17:00 | 8.00
+May 23 | 08:30 | 12:06 | 12:36 | 17:00 | 8.00
+May 24 | 08:30 | 12:00 | 12:30 | 17:00 | 8.00
+Total paid: 40.00. No closing-time adjustment recorded for the four disputed weeks. The final weekly payment was issued May 31, 2024.
+
+<!-- PAGE 161 -->
+SEPARATE ADJUSTMENT RECORD — JUNE 4, 2024
+Employee Mira L. Sedgewick submitted a missed-punch request for May 30, a date outside the disputed four-week period. The original record omitted twelve minutes following the scheduled end of the shift. Employee reason: completed a customer callback before signing out. Supervisor confirmed the request. Payroll disposition: approved; twelve minutes added to the May 27 workweek. The adjustment appears in the June 4 processing batch. This separate correction is retained to show the operation of the correction procedure, not to assert that the four earlier closing events were or were not reported. No correction request specific to May 2, May 9, May 16 or May 23 appears in this export.
+
+<!-- PAGE 162 -->
+EXHIBIT A — HOURLY EMPLOYEE TIMEKEEPING PROCEDURE
+Effective January 8, 2024. Harborline Support Services, LLC, fictional internal policy HS-TP-04. Representatives must record all work time. A representative shall clock in before performing assigned work and clock out after finishing assigned work. The scheduled shift is a staffing plan, not a direction to perform tasks without pay. Meal periods are recorded separately. A representative who performs work outside the scheduled shift must record the time even if the additional time was not authorized in advance. Advance authorization and payment for work are separate matters. Supervisors shall not direct or permit off-clock work. Failure to seek advance approval may be addressed as a scheduling issue, but time actually worked must be paid in accordance with applicable law.
+
+<!-- PAGE 163 -->
+MISSED PUNCH AND ADJUSTMENT PROCEDURE
+If a representative discovers a missing or incorrect punch, the representative should submit a correction request through the payroll portal as soon as practicable. The request identifies the date, actual start or stop time, and a brief reason. The employee need not supply a screen capture of every task. The supervisor reviews the request for accuracy and forwards it to payroll. If the supervisor learns of work not reflected in the time system, the supervisor shall promptly obtain the necessary details or notify payroll even if the representative has not completed the form. Payroll may correct a previous period when information is received after processing. No employee shall be discouraged from reporting actual work time. A request does not guarantee that all time claimed was worked; a factual discrepancy shall be resolved with the employee.
+
+<!-- PAGE 164 -->
+CUSTOMER CASE CLOSURE
+Representatives shall complete notes for an assigned customer matter while on paid time. If a matter remains open near the end of a shift, the representative should notify the team lead, request additional paid time or arrange reassignment where appropriate. Some cases can be transferred with a short status entry; others require a representative to record the outcome before transfer. The team supervisor may adjust staffing to permit completion. Representatives must not clock out and continue an assigned case on an unpaid basis. The customer case application is distinct from payroll; event timestamps are retained for operational and technical purposes. The procedure does not describe the application as a continuous measure of employee labor. Supervisors use case status reports for queue management and may seek detailed activity information when necessary.
+
+<!-- PAGE 165 -->
+CORRECTION FORM — FIELDS AND ROUTING
+Employee ID; work date; recorded punch; actual punch requested; reason; supervisor confirmation; payroll disposition; adjustment batch; employee notification. The form permits both additions and reductions. The system records the date of submission and the date of processing. A representative may contact payroll directly if unable to use the portal. Payroll will retain the original punch and the adjustment record. The form does not require a separate request for each minute of an interval; the employee identifies the actual interval of work. Employees receive a reminder of the procedure during orientation and when a correction is processed. The policy states no threshold under which overtime work need not be paid. No policy exception is created for a task of short duration.
+
+<!-- PAGE 166 -->
+UNITED STATES DISTRICT COURT
+CENTRAL DISTRICT OF CALIFORNIA — WESTERN DIVISION
+Mira L. Sedgewick v. Harborline Support Services, LLC — SIM-CDCA-25-CV-081 (fictional)
+SCHEDULING ORDER — APRIL 3, 2025
+The Court has considered the parties' joint report. The sole claim concerns alleged unpaid overtime in four workweeks in April and May 2024. The parties shall preserve the timekeeping data, payroll adjustments, case application events and relevant communications for the specified period, including metadata necessary to interpret event timestamps. Discovery shall be proportionate to the claim. The parties shall confer regarding the native export format and any limitations in using event data to estimate work duration. The order does not determine whether any particular event is compensable work. Plaintiff may seek testimony concerning supervisor access and knowledge. Defendant may seek testimony concerning actual task duration, corrections and the meaning of the employee's messages.
+
+<!-- PAGE 167 -->
+DATES AND MOTION PRACTICE
+Fact discovery shall close February 6, 2026. The parties shall complete the five planned depositions and exchange final exhibit lists before the close of fact discovery. The deadline for filing a dispositive motion is May 18, 2026. Any opposition shall be filed by June 1, 2026, and any reply by June 8, 2026. The Court sets a hearing for June 29, 2026 at 10:00 a.m. The Court directs counsel to provide a joint statement of the facts not genuinely disputed and identify the precise record references supporting disputed facts. No expert is presently designated. Any request to modify the schedule must be supported by good cause and a description of the discovery sought. A pretrial conference and trial date will be set if the case survives dispositive motions.
+/s/ Leona V. March, United States District Judge (fictional).
+
+<!-- PAGE 168 -->
+UNITED STATES DISTRICT COURT
+CENTRAL DISTRICT OF CALIFORNIA — WESTERN DIVISION
+Mira L. Sedgewick v. Harborline Support Services, LLC — SIM-CDCA-25-CV-081 (fictional)
+ANSWER TO COMPLAINT
+Defendant Harborline Support Services, LLC answers the complaint as follows. Defendant admits that Plaintiff was employed as an hourly nonexempt support representative and that the regular hourly rate during the identified period was $22.00. Defendant admits that the Act applies to the employment relationship and that this Court has jurisdiction and venue over the single claim alleged. Defendant admits that its payroll records show forty paid hours for each disputed week. Defendant denies that those records alone establish that Plaintiff actually worked additional hours. Defendant denies that it required Plaintiff to work after clocking out, denies that it knew or reasonably should have known of uncompensated overtime work in the identified weeks, and denies that it violated the overtime requirements. Defendant admits the existence of the case application and the time correction procedure. All allegations not expressly admitted are denied to the extent they assert liability or damages.
+
+<!-- PAGE 169 -->
+RESPONSE TO FACTUAL ALLEGATIONS
+Defendant admits the general normal schedule and that case notes are part of the representative's duties. It denies that completion of assigned cases required work outside recorded time. Defendant admits that supervisors reminded representatives to complete assigned notes before leaving, and that Plaintiff sent an individual message concerning closing time. Defendant states that the response expressly directed Plaintiff not to work unpaid and instructed her to submit missed time. Defendant admits that the application contains event timestamps, but denies that a timestamp alone identifies how long Plaintiff was actively performing work. The application is not the payroll system. Defendant denies that the supervisor received a report identifying the four specific disputed dates or the amount of unpaid work on each. Defendant admits that Plaintiff used the correction procedure on another occasion. The parties dispute whether that procedure and the circumstances of the alleged work established or defeated the employer's knowledge.
+
+<!-- PAGE 170 -->
+DEFENSES AND RELIEF
+Defendant asserts that Plaintiff bears the burden of establishing work for which she was not properly compensated and the requisite knowledge on the part of Defendant. Defendant denies the claimed amount and reserves the right to contest the reliability and meaning of the application data and testimony. Defendant denies willfulness and asserts good faith and reasonable grounds to the extent relevant to liquidated damages, without conceding any violation. Defendant does not assert that a policy alone eliminates liability for work actually suffered or permitted with knowledge, or that an employee can waive the Act's substantive protections. Defendant denies that Plaintiff is entitled to unpaid overtime, liquidated damages, attorney fees or other relief. Defendant requests judgment in its favor and such relief as the Court deems proper. Defendant does not demand a jury separate from Plaintiff's demand.
+Dated March 10, 2025.
+/s/ Brennan T. Halwick, counsel for Defendant. Certificate of electronic service on Plaintiff's counsel on the date shown.
+
+<!-- PAGE 171 -->
+UNITED STATES DISTRICT COURT
+CENTRAL DISTRICT OF CALIFORNIA — WESTERN DIVISION
+Mira L. Sedgewick v. Harborline Support Services, LLC — SIM-CDCA-25-CV-081 (fictional)
+COMPLAINT FOR UNPAID OVERTIME COMPENSATION
+Plaintiff Mira L. Sedgewick brings an individual action against Harborline Support Services, LLC under the Fair Labor Standards Act, 29 U.S.C. §§ 207 and 216(b). Plaintiff alleges that during four workweeks from April 29 through May 26, 2024, Defendant employed her in a nonexempt customer support position for forty recorded and paid hours per workweek and additionally suffered or permitted her to complete assigned case notes and closing tasks outside recorded time. Plaintiff alleges the employer knew or should have known of such work, including from communications with her team supervisor and the employer's own case activity records, and did not compensate the additional hours at the applicable overtime rate. This complaint asserts no collective action, state-law wage claim, retaliation claim or claim concerning employment classification. Plaintiff seeks unpaid overtime compensation, an equal amount as liquidated damages where authorized, reasonable attorney fees and costs, and other appropriate relief. The precise amount of uncompensated work is to be determined from the evidence.
+
+<!-- PAGE 172 -->
+PARTIES, JURISDICTION AND VENUE
+Plaintiff is a resident of Los Angeles County, California. Defendant is a fictional limited liability company operating a customer support facility in the Central District of California. Defendant provides customer service for clients located in several states and uses interstate telephone and electronic communications in the ordinary course of business. Plaintiff alleges enterprise coverage under the Act, including the applicable annual volume of business, and individual engagement in interstate communications in the course of her work. This Court has federal question jurisdiction under 28 U.S.C. § 1331 and authority to hear the claim under 29 U.S.C. § 216(b). Venue is proper because the employment, timekeeping decisions and alleged uncompensated work occurred in this district. Plaintiff seeks recovery for the four identified weeks only. The suit is brought within the ordinary limitations period.
+
+<!-- PAGE 173 -->
+EMPLOYMENT AND RECORDED TIME
+Plaintiff began employment on September 5, 2023 as an hourly nonexempt support representative. Her hourly rate during the disputed period was $22.00. The normal schedule was Monday through Friday, 8:30 a.m. through 5:00 p.m., with a thirty-minute unpaid meal period, yielding eight scheduled paid hours per day. Plaintiff does not allege missed meal periods in this action. Defendant's electronic timekeeping system recorded forty paid hours each of the four disputed weeks. The separate customer case application recorded entries associated with representatives' accounts, including case notes and status updates. Plaintiff alleges that completion of the case notes was an assigned job duty and that on several occasions she completed required notes after clocking out. Plaintiff does not claim that every post-clock event necessarily represents work or that an open computer session alone establishes continuous working time.
+
+<!-- PAGE 174 -->
+SUPERVISOR COMMUNICATIONS AND TIME CORRECTION
+Plaintiff alleges that her supervisor expected assigned cases to be documented before representatives left for the day. On May 20, 2024, Plaintiff sent a message explaining that she sometimes had several minutes of notes after the clock indicated that she was out. The supervisor responded on May 21, directing her not to work unpaid and to send missed time to payroll. Plaintiff alleges that the response did not resolve the recurring tension between closing notes and the schedule and that the employer had enough information to inquire into the actual work. Defendant maintained a correction procedure. Plaintiff acknowledges using that procedure on another occasion; she alleges that the procedure did not, in practice, identify or correct the closing work at issue here. The existence of the procedure is not disputed. The parties disagree about the knowledge available to the employer and the reasonable inferences from its response.
+
+<!-- PAGE 175 -->
+COUNT ONE — FLSA OVERTIME
+Plaintiff incorporates the preceding allegations. Defendant was an employer within the meaning of the Act. Plaintiff was an employee entitled to overtime compensation and did not fall within any applicable exemption. Plaintiff alleges that the actual work in each identified week exceeded forty hours by the time required to finish closing tasks. Defendant paid her recorded hours at the regular rate but did not pay any additional overtime compensation for those tasks. Plaintiff alleges actual or constructive knowledge, not liability based merely on a deviation from a schedule. Plaintiff will rely on her recollection of particular closing work, the contemporaneous communications and case activity data, and testimony concerning what the supervisor and payroll department could observe. The exact minutes and resulting amount are disputed; Plaintiff does not plead a fixed number of minutes as an established fact. WHEREFORE Plaintiff requests judgment on Count One, unpaid overtime, applicable liquidated damages, fees, costs and appropriate relief. Jury trial demanded on issues so triable.
+Dated February 10, 2025.
+/s/ Jessa M. Orell, counsel for Plaintiff.
+
+<!-- PAGE 176 -->
+UNITED STATES DISTRICT COURT
+CENTRAL DISTRICT OF CALIFORNIA — WESTERN DIVISION
+Mira L. Sedgewick v. Harborline Support Services, LLC — SIM-CDCA-25-CV-081 (fictional)
+NOTICE OF APPEAL
+Plaintiff Mira L. Sedgewick appeals to the United States Court of Appeals for the Ninth Circuit from the final judgment entered August 24, 2026, and the order granting Defendant's motion for summary judgment entered the same day. The judgment disposes of the sole federal overtime claim. Plaintiff is represented by Jessa M. Orell. Counsel will arrange the relevant transcript and excerpts of record and comply with the appellate briefing schedule.
+Dated September 8, 2026.
+/s/ Jessa M. Orell, counsel for Plaintiff. Filed September 8, 2026. Certificate of electronic service on counsel for Defendant on that date.
+
+<!-- PAGE 177 -->
+UNITED STATES DISTRICT COURT — CENTRAL DISTRICT OF CALIFORNIA
+SIM-CDCA-25-CV-081 — Civil docket, through September 8, 2026
+1. 2025-02-10 — Complaint. Record ID CA9-SUP-000002-COM.
+2. 2025-03-10 — Answer. Record ID CA9-SUP-000002-ANS.
+3. 2025-04-03 — Scheduling order. Record ID CA9-SUP-000002-SCHED.
+4. 2026-05-18 — Timekeeping procedure and correction form. Record ID CA9-SUP-000002-POL.
+5. 2026-05-18 — Payroll and punch records. Record ID CA9-SUP-000002-PAY.
+6. 2026-05-18 — Application activity records and extraction protocol. Record ID CA9-SUP-000002-LOG.
+7. 2026-05-18 — Deposition of Sedgewick. Record ID CA9-SUP-000002-PDEP.
+
+<!-- PAGE 178 -->
+UNITED STATES DISTRICT COURT — CENTRAL DISTRICT OF CALIFORNIA
+SIM-CDCA-25-CV-081 — Civil docket, through September 8, 2026
+8. 2026-05-18 — Deposition of Brice. Record ID CA9-SUP-000002-SDEP.
+9. 2026-05-18 — Deposition of Vossler. Record ID CA9-SUP-000002-HDEP.
+10. 2026-05-18 — Deposition of Ewan. Record ID CA9-SUP-000002-IDEP.
+11. 2026-05-18 — Motion for summary judgment. Record ID CA9-SUP-000002-MSJ.
+12. 2026-06-01 — Team and individual messages. Record ID CA9-SUP-000002-MSG.
+13. 2026-06-01 — Deposition of Venn. Record ID CA9-SUP-000002-WDEP.
+14. 2026-06-01 — Opposition. Record ID CA9-SUP-000002-OPP.
+
+<!-- PAGE 179 -->
+UNITED STATES DISTRICT COURT — CENTRAL DISTRICT OF CALIFORNIA
+SIM-CDCA-25-CV-081 — Civil docket, through September 8, 2026
+15. 2026-06-08 — Reply. Record ID CA9-SUP-000002-REPL.
+16. 2026-06-29 — Summary judgment hearing transcript. Record ID CA9-SUP-000002-HEAR.
+17. 2026-08-24 — Order granting summary judgment. Record ID CA9-SUP-000002-ORDER.
+18. 2026-08-24 — Separate judgment. Record ID CA9-SUP-000002-JUD.
+19. 2026-09-08 — Notice of appeal. Record ID CA9-SUP-000002-NOA.

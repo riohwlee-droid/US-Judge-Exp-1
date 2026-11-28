@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "request_id": "SUPREQ-20261128-205",
+  "action": "advance",
+  "job_id": "CA9-SUP-000002",
+  "expected_status": "working",
+  "stage": "excerpts",
+  "note": "Compile verbatim source pages and complete citation index."
+}
