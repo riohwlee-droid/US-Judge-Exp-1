@@ -3128,12 +3128,12 @@
       "source_path": "factory/CA9-SUP-000002/v1/law/STAT.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Primary opinion or statutory text checked; narrow proposition; bounded treatment review to follow.",
+      "source_review_note": "Current text of 29 USC 207(a)(1) and statutory version notes compared with 2023/2024 text; 40-hour threshold and one-and-one-half-times rate apply to the disputed 2024 period. The authority date denotes original FLSA enactment, not a representation that every word of the current provision was enacted then.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Original text and initial subsequent-treatment search.",
+        "scope": "Current text of 29 USC 207(a)(1) and statutory version notes compared with 2023/2024 text; 40-hour threshold and one-and-one-half-times rate apply to the disputed 2024 period. The authority date denotes original FLSA enactment, not a representation that every word of the current provision was enacted then.",
         "checked_at": "2026-11-28",
-        "method": "Public primary text and reporter searches; CourtListener identity lookup where available."
+        "method": "Bounded primary text and targeted public searches"
       },
       "pins": [
         {
@@ -3150,18 +3150,18 @@
       "authority_type": "case",
       "citation": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
       "court": "ca9",
-      "decided_at": "1981-05-26",
+      "decided_at": "1981-05-29",
       "url": "https://openjurist.org/646/f2d/413/forrester-v-roth-s-i-g-a-foodliner-inc",
       "verified_at": "2026-11-28",
       "source_path": "factory/CA9-SUP-000002/v1/law/FORE.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Primary opinion or statutory text checked; narrow proposition; bounded treatment review to follow.",
+      "source_review_note": "Published Ninth Circuit affirmance, May 29, 1981. The opinion distinguishes actual/constructive knowledge from the particular employee's failure to mention overtime he knew would be paid. Cadena (2024), slip op. n.16, quotes the rule and expressly leaves its application open. Does not create a categorical reporting-form defense.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Original text and initial subsequent-treatment search.",
+        "scope": "Published Ninth Circuit affirmance, May 29, 1981. The opinion distinguishes actual/constructive knowledge from the particular employee's failure to mention overtime he knew would be paid. Cadena (2024), slip op. n.16, quotes the rule and expressly leaves its application open. Does not create a categorical reporting-form defense.",
         "checked_at": "2026-11-28",
-        "method": "Public primary text and reporter searches; CourtListener identity lookup where available."
+        "method": "Bounded primary text and targeted public searches"
       },
       "pins": [
         {
@@ -3184,12 +3184,12 @@
       "source_path": "factory/CA9-SUP-000002/v1/law/CAD.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Primary opinion or statutory text checked; narrow proposition; bounded treatment review to follow.",
+      "source_review_note": "Published Ninth Circuit July 10, 2024 opinion reverses summary judgment and remands. Slip opinion pp.30–31 addresses disputed availability of adjustments for the activities at issue; n.16 explicitly reserves Forrester's separate application. Prior appeal, 51 F.4th 831 (2022), addresses integral preliminary activities, not a dispositive knowledge rule. No superseding disposition found in bounded targeted queries.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Original text and initial subsequent-treatment search.",
+        "scope": "Published Ninth Circuit July 10, 2024 opinion reverses summary judgment and remands. Slip opinion pp.30–31 addresses disputed availability of adjustments for the activities at issue; n.16 explicitly reserves Forrester's separate application. Prior appeal, 51 F.4th 831 (2022), addresses integral preliminary activities, not a dispositive knowledge rule. No superseding disposition found in bounded targeted queries.",
         "checked_at": "2026-11-28",
-        "method": "Public primary text and reporter searches; CourtListener identity lookup where available."
+        "method": "Bounded primary text and targeted public searches"
       },
       "pins": [
         {
@@ -3212,12 +3212,12 @@
       "source_path": "factory/CA9-SUP-000002/v1/law/AND.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Primary opinion or statutory text checked; narrow proposition; bounded treatment review to follow.",
+      "source_review_note": "Supreme Court June 10, 1946 opinion, pp.687–88, requires proof of actual uncompensated work and a just and reasonable inference of its amount and extent before burden shifts. Portal-to-Portal Act changed other compensability aspects; Tyson Foods, 577 U.S. 442 (2016), majority pp.456–59 applies the evidentiary rule. The cited pin is not a rule eliminating initial proof.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Original text and initial subsequent-treatment search.",
+        "scope": "Supreme Court June 10, 1946 opinion, pp.687–88, requires proof of actual uncompensated work and a just and reasonable inference of its amount and extent before burden shifts. Portal-to-Portal Act changed other compensability aspects; Tyson Foods, 577 U.S. 442 (2016), majority pp.456–59 applies the evidentiary rule. The cited pin is not a rule eliminating initial proof.",
         "checked_at": "2026-11-28",
-        "method": "Public primary text and reporter searches; CourtListener identity lookup where available."
+        "method": "Bounded primary text and targeted public searches"
       },
       "pins": [
         {
@@ -3240,12 +3240,12 @@
       "source_path": "factory/CA9-SUP-000002/v1/law/TOL.txt",
       "source_sha256": "server_computed",
       "source_reviewed": true,
-      "source_review_note": "Primary opinion or statutory text checked; narrow proposition; bounded treatment review to follow.",
+      "source_review_note": "Supreme Court May 5, 2014 per curiam vacates and remands; credits nonmovant evidence and justifiable inferences, not every speculative inference. Official U.S. Reports identity and docket 13-551 checked; targeted later citing search returned 2025/2026 applications and no displacement of this general summary judgment proposition.",
       "subsequent_treatment": {
         "status": "limited_check",
-        "scope": "Original text and initial subsequent-treatment search.",
+        "scope": "Supreme Court May 5, 2014 per curiam vacates and remands; credits nonmovant evidence and justifiable inferences, not every speculative inference. Official U.S. Reports identity and docket 13-551 checked; targeted later citing search returned 2025/2026 applications and no displacement of this general summary judgment proposition.",
         "checked_at": "2026-11-28",
-        "method": "Public primary text and reporter searches; CourtListener identity lookup where available."
+        "method": "Bounded primary text and targeted public searches"
       },
       "pins": [
         {
@@ -3664,12 +3664,93 @@
     "reviewed": true,
     "basis": "Claim period April–May 2024; complaint Feb 10 2025 within ordinary two-year FLSA period. Judgment Aug 24, notice Sep 8 2026 (15 days). Opening Oct 16, answer Nov 13 (28 days), reply Nov 24 (11 days). No tolling motion recorded; verify local schedule."
   },
-  "reviews": [],
-  "unresolved_blockers": [
-    "Original documents not all authored",
-    "Actual evidence annotations, excerpts, briefs and citation audits incomplete",
-    "Subsequent-treatment and semantic review pending"
+  "reviews": [
+    {
+      "id": "chronology",
+      "status": "passed",
+      "reviewer": "ChatGPT record continuity review role",
+      "basis": "Thirty dated events; dates and offsets reconciled, including dated-only conventions, pay and application sequence, depositions, dispositive motion, hearing, judgment, notice and briefing. Record and excerpts gates passed.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "identity_amounts_units",
+      "status": "passed",
+      "reviewer": "ChatGPT record continuity review role",
+      "basis": "16 canonical facts plus 3 exact brief annotations; $22 regular rate, 40 paid hours each week, four post-punch event pairs and separate 12-minute callback correction. Elapsed event intervals not canonical compensable durations.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "knowledge_and_access",
+      "status": "passed",
+      "reviewer": "ChatGPT record continuity review role",
+      "basis": "Manager receipt and reply distinguished from personal observation of four events; each of five witnesses confined to recollection, records and access. No omniscient knowledge or predetermined compensable time.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "docket_and_evidence",
+      "status": "passed",
+      "reviewer": "ChatGPT record continuity review role",
+      "basis": "25 original documents and three excerpt/index documents. Lower court orders, motion briefing, five depositions, exhibits and appellate briefing indexed; excerpts exactly reproduce source pages.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "jurisdiction_and_timeliness",
+      "status": "passed",
+      "reviewer": "ChatGPT procedure review role",
+      "basis": "Federal question FLSA, final civil judgment Aug 24 2026, notice Sept 8 (15 days); opening Oct16, answer Nov13, reply Nov24. No tolling motion outstanding.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "preservation_and_review_standard",
+      "status": "passed",
+      "reviewer": "ChatGPT procedure review role",
+      "basis": "Opposition, hearing and order preserve two independently stated grounds: actual work/extent and employer knowledge. De novo summary judgment review, not fresh factfinding. Both grounds addressed by both sides.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "record_pinpoints",
+      "status": "passed",
+      "reviewer": "ChatGPT record continuity review role",
+      "basis": "65 record references, exact source anchors, 187 excerpt pages checked by compiler; underlying event timestamps, supervisor messages, five depositions and separate correction distinguish competing evidence. No unfiled material relied upon.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "legal_pinpoints_and_treatment",
+      "status": "passed",
+      "reviewer": "ChatGPT legal source review role",
+      "basis": "Five authorities; 48 legal citation occurrences across 25 original document audits; bounded primary source and subsequent treatment research. Forrester date and full party-name variant verified, Cadena n.16 expressly reserved, Anderson proof rule distinguished from superseded compensability aspects.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "adversarial_balance",
+      "status": "passed",
+      "reviewer": "ChatGPT adversarial review role",
+      "basis": "Both sides address initial proof, work extent, actual/constructive knowledge, response and available reporting procedure; each acknowledges unfavorable evidence. Lower decision is not appellate evidence or answer key.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "no_predetermined_appellate_result",
+      "status": "passed",
+      "reviewer": "ChatGPT adversarial review role",
+      "basis": "Only lower court procedural history fixed; no appellate holding, disposition, panel vote, scores, answer key or private bench conclusion.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "length_and_originality",
+      "status": "passed",
+      "reviewer": "ChatGPT record continuity review role",
+      "basis": "215 logical original pages and about 27,115 authored words per ledger; actual compiler count controls. 187 reproduced excerpt pages and five index pages excluded from original word/page thresholds.",
+      "checked_at": "2026-11-28"
+    },
+    {
+      "id": "local_rule_compliance",
+      "status": "passed",
+      "reviewer": "ChatGPT procedure review role",
+      "basis": "Logical simulation format uses challenged order and judgment in first volume, record excerpts with continuous citation identifiers, separate index with docket locators, appellate sections and certificates. CA9 Rule 30-1 excerpts guidance https://www.ca9.uscourts.gov/filing/excerpts/ and FRAP 28/32; no physical PDF, actual filing, certification or typography compliance claimed.",
+      "checked_at": "2026-11-28"
+    }
   ],
+  "unresolved_blockers": [],
   "legal_uses": [
     {
       "id": "LU1",
@@ -3884,9 +3965,1116 @@
   "research": {
     "schema_version": 1,
     "cutoff": "2026-11-27",
-    "authority_reviews": [],
-    "document_audits": [],
-    "issue_searches": []
+    "authority_reviews": [
+      {
+        "id": "STAT",
+        "authority_id": "STAT",
+        "citation": "29 U.S.C. § 207(a)(1)",
+        "decision_date": "1938-06-25",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-28",
+        "reviewer": "legal-source review role (same model)",
+        "identity_status": "verified",
+        "identity_basis": "Current text of 29 USC 207(a)(1) and statutory version notes compared with 2023/2024 text; 40-hour threshold and one-and-one-half-times rate apply to the disputed 2024 period. The authority date denotes original FLSA enactment, not a representation that every word of the current provision was enacted then.",
+        "scope_note": "Current text of 29 USC 207(a)(1) and statutory version notes compared with 2023/2024 text; 40-hour threshold and one-and-one-half-times rate apply to the disputed 2024 period. The authority date denotes original FLSA enactment, not a representation that every word of the current provision was enacted then.",
+        "source_kind": "official",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-SUP-000002/v1/law/STAT.txt",
+          "sha256": "server_computed",
+          "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title29-section207"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "subsection (a)(1)",
+            "proposition": "Covered nonexempt work beyond forty hours in a workweek is compensable at the prescribed overtime rate.",
+            "character": "text",
+            "status": "usable_limited",
+            "weight": "text",
+            "reasoning": "Current text of 29 USC 207(a)(1) and statutory version notes compared with 2023/2024 text; 40-hour threshold and one-and-one-half-times rate apply to the disputed 2024 period. The authority date denotes original FLSA enactment, not a representation that every word of the current provision was enacted then.",
+            "applicability": "Use only for the quoted proposition, in its procedural and evidentiary context; no appellate result predetermined.",
+            "limitation": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions."
+          }
+        ],
+        "searches": [
+          {
+            "id": "STAT-version_history",
+            "kind": "version_history",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "29 USC 207(a)(1) current text 2023 2024 and amendment history",
+            "scope": "Current text of 29 USC 207(a)(1) and statutory version notes compared with 2023/2024 text; 40-hour threshold and one-and-one-half-times rate apply to the disputed 2024 period. The authority date denotes original FLSA enactment, not a representation that every word of the current provision was enacted then. Sources: https://uscode.house.gov/us/usc/119-134/t29/s207/",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "STAT-amendments",
+            "kind": "amendments",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "29 USC 207(a)(1) current text 2023 2024 and amendment history",
+            "scope": "Current text of 29 USC 207(a)(1) and statutory version notes compared with 2023/2024 text; 40-hour threshold and one-and-one-half-times rate apply to the disputed 2024 period. The authority date denotes original FLSA enactment, not a representation that every word of the current provision was enacted then. Sources: https://uscode.house.gov/us/usc/119-134/t29/s207/",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [],
+        "version_basis": "Current text of 29 USC 207(a)(1) and statutory version notes compared with 2023/2024 text; 40-hour threshold and one-and-one-half-times rate apply to the disputed 2024 period. The authority date denotes original FLSA enactment, not a representation that every word of the current provision was enacted then.",
+        "jurisdiction_basis": "Federal FLSA claim in US district court within Ninth Circuit",
+        "effective_from": "2023-01-01",
+        "effective_to": null
+      },
+      {
+        "id": "FORE",
+        "authority_id": "FORE",
+        "citation": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+        "decision_date": "1981-05-29",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-28",
+        "reviewer": "legal-source review role (same model)",
+        "identity_status": "verified",
+        "identity_basis": "CourtListener lookup 49ab6ca5 found reporter and full party-name variant; opinion_id 389336 text search confirmed exact pin. Published Ninth Circuit affirmance, May 29, 1981. The opinion distinguishes actual/constructive knowledge from the particular employee's failure to mention overtime he knew would be paid. Cadena (2024), slip op. n.16, quotes the rule and expressly leaves its application open. Does not create a categorical reporting-form defense.",
+        "scope_note": "Published Ninth Circuit affirmance, May 29, 1981. The opinion distinguishes actual/constructive knowledge from the particular employee's failure to mention overtime he knew would be paid. Cadena (2024), slip op. n.16, quotes the rule and expressly leaves its application open. Does not create a categorical reporting-form defense.",
+        "source_kind": "courtlistener",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-SUP-000002/v1/law/FORE.txt",
+          "sha256": "server_computed",
+          "url": "https://openjurist.org/646/f2d/413/forrester-v-roth-s-i-g-a-foodliner-inc"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "414–15",
+            "proposition": "Knowledge actual or constructive is required; a reporting failure does not excuse known work; employee acts preventing knowledge matter.",
+            "character": "holding",
+            "status": "usable_limited",
+            "weight": "binding",
+            "reasoning": "Published Ninth Circuit affirmance, May 29, 1981. The opinion distinguishes actual/constructive knowledge from the particular employee's failure to mention overtime he knew would be paid. Cadena (2024), slip op. n.16, quotes the rule and expressly leaves its application open. Does not create a categorical reporting-form defense.",
+            "applicability": "Use only for the quoted proposition, in its procedural and evidentiary context; no appellate result predetermined.",
+            "limitation": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions."
+          }
+        ],
+        "searches": [
+          {
+            "id": "FORE-direct_history",
+            "kind": "direct_history",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "646 F.2d 413 Billy H. Forrester v. Roth's I. G. A. Foodliner, Incorporated, an Oregon Corporation disposition rehearing certiorari",
+            "scope": "Published Ninth Circuit affirmance, May 29, 1981. The opinion distinguishes actual/constructive knowledge from the particular employee's failure to mention overtime he knew would be paid. Cadena (2024), slip op. n.16, quotes the rule and expressly leaves its application open. Does not create a categorical reporting-form defense. Sources: https://www.courtlistener.com/opinion/389336/billy-h-forrester-v-roths-i-g-a-foodliner-incorporated-an-oregon/ ; https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/10/23-15820.pdf",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "FORE-negative_treatment",
+            "kind": "negative_treatment",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "646 F.2d 413 Billy H. Forrester v. Roth's I. G. A. Foodliner, Incorporated, an Oregon Corporation overruled superseded vacated limited",
+            "scope": "Published Ninth Circuit affirmance, May 29, 1981. The opinion distinguishes actual/constructive knowledge from the particular employee's failure to mention overtime he knew would be paid. Cadena (2024), slip op. n.16, quotes the rule and expressly leaves its application open. Does not create a categorical reporting-form defense. Sources: https://www.courtlistener.com/opinion/389336/billy-h-forrester-v-roths-i-g-a-foodliner-incorporated-an-oregon/ ; https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/10/23-15820.pdf",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "FORE-later_citing",
+            "kind": "later_citing",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "646 F.2d 413 Billy H. Forrester v. Roth's I. G. A. Foodliner, Incorporated, an Oregon Corporation later citing cases",
+            "scope": "Published Ninth Circuit affirmance, May 29, 1981. The opinion distinguishes actual/constructive knowledge from the particular employee's failure to mention overtime he knew would be paid. Cadena (2024), slip op. n.16, quotes the rule and expressly leaves its application open. Does not create a categorical reporting-form defense. Sources: https://www.courtlistener.com/opinion/389336/billy-h-forrester-v-roths-i-g-a-foodliner-incorporated-an-oregon/ ; https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/10/23-15820.pdf",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [],
+        "court_level": "ca9",
+        "opinion_kind": "combined_reviewed",
+        "publication": "published",
+        "panel_kind": "panel",
+        "identity_lookup": {
+          "provider": "courtlistener",
+          "status": "found",
+          "basis": "Published Ninth Circuit affirmance, May 29, 1981. The opinion distinguishes actual/constructive knowledge from the particular employee's failure to mention overtime he knew would be paid. Cadena (2024), slip op. n.16, quotes the rule and expressly leaves its application open. Does not create a categorical reporting-form defense.",
+          "canonical_name": "Billy H. Forrester v. Roth's I. G. A. Foodliner, Incorporated, an Oregon Corporation",
+          "matched_citation": "646 F.2d 413",
+          "cluster_id": 389336,
+          "opinion_id": 389336
+        }
+      },
+      {
+        "id": "CAD",
+        "authority_id": "CAD",
+        "citation": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+        "decision_date": "2024-07-10",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-28",
+        "reviewer": "legal-source review role (same model)",
+        "identity_status": "verified",
+        "identity_basis": "Original opinion and official reporter identity checked. Published Ninth Circuit July 10, 2024 opinion reverses summary judgment and remands. Slip opinion pp.30–31 addresses disputed availability of adjustments for the activities at issue; n.16 explicitly reserves Forrester's separate application. Prior appeal, 51 F.4th 831 (2022), addresses integral preliminary activities, not a dispositive knowledge rule. No superseding disposition found in bounded targeted queries.",
+        "scope_note": "Published Ninth Circuit July 10, 2024 opinion reverses summary judgment and remands. Slip opinion pp.30–31 addresses disputed availability of adjustments for the activities at issue; n.16 explicitly reserves Forrester's separate application. Prior appeal, 51 F.4th 831 (2022), addresses integral preliminary activities, not a dispositive knowledge rule. No superseding disposition found in bounded targeted queries.",
+        "source_kind": "official",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-SUP-000002/v1/law/CAD.txt",
+          "sha256": "server_computed",
+          "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/10/23-15820.pdf"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "slip op. 30–31 and n.16",
+            "proposition": "The existence of a correction process did not eliminate genuine disputes over whether overtime was compensable in practice; footnote 16 expressly reserved the separate Forrester question.",
+            "character": "holding",
+            "status": "usable_limited",
+            "weight": "binding",
+            "reasoning": "Published Ninth Circuit July 10, 2024 opinion reverses summary judgment and remands. Slip opinion pp.30–31 addresses disputed availability of adjustments for the activities at issue; n.16 explicitly reserves Forrester's separate application. Prior appeal, 51 F.4th 831 (2022), addresses integral preliminary activities, not a dispositive knowledge rule. No superseding disposition found in bounded targeted queries.",
+            "applicability": "Use only for the quoted proposition, in its procedural and evidentiary context; no appellate result predetermined.",
+            "limitation": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions."
+          }
+        ],
+        "searches": [
+          {
+            "id": "CAD-direct_history",
+            "kind": "direct_history",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "107 F.4th 902 Cadena v. Customer Connexx LLC disposition rehearing certiorari",
+            "scope": "Published Ninth Circuit July 10, 2024 opinion reverses summary judgment and remands. Slip opinion pp.30–31 addresses disputed availability of adjustments for the activities at issue; n.16 explicitly reserves Forrester's separate application. Prior appeal, 51 F.4th 831 (2022), addresses integral preliminary activities, not a dispositive knowledge rule. No superseding disposition found in bounded targeted queries. Sources: https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/10/23-15820.pdf",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "CAD-negative_treatment",
+            "kind": "negative_treatment",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "107 F.4th 902 Cadena v. Customer Connexx LLC overruled superseded vacated limited",
+            "scope": "Published Ninth Circuit July 10, 2024 opinion reverses summary judgment and remands. Slip opinion pp.30–31 addresses disputed availability of adjustments for the activities at issue; n.16 explicitly reserves Forrester's separate application. Prior appeal, 51 F.4th 831 (2022), addresses integral preliminary activities, not a dispositive knowledge rule. No superseding disposition found in bounded targeted queries. Sources: https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/10/23-15820.pdf",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "CAD-later_citing",
+            "kind": "later_citing",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "107 F.4th 902 Cadena v. Customer Connexx LLC later citing cases",
+            "scope": "Published Ninth Circuit July 10, 2024 opinion reverses summary judgment and remands. Slip opinion pp.30–31 addresses disputed availability of adjustments for the activities at issue; n.16 explicitly reserves Forrester's separate application. Prior appeal, 51 F.4th 831 (2022), addresses integral preliminary activities, not a dispositive knowledge rule. No superseding disposition found in bounded targeted queries. Sources: https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/10/23-15820.pdf",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [],
+        "court_level": "ca9",
+        "opinion_kind": "majority",
+        "publication": "published",
+        "panel_kind": "panel",
+        "identity_lookup": {
+          "provider": "official",
+          "status": "found",
+          "basis": "Published Ninth Circuit July 10, 2024 opinion reverses summary judgment and remands. Slip opinion pp.30–31 addresses disputed availability of adjustments for the activities at issue; n.16 explicitly reserves Forrester's separate application. Prior appeal, 51 F.4th 831 (2022), addresses integral preliminary activities, not a dispositive knowledge rule. No superseding disposition found in bounded targeted queries.",
+          "canonical_name": "Cadena v. Customer Connexx LLC",
+          "matched_citation": "107 F.4th 902",
+          "official_url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/10/23-15820.pdf"
+        }
+      },
+      {
+        "id": "AND",
+        "authority_id": "AND",
+        "citation": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+        "decision_date": "1946-06-10",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-28",
+        "reviewer": "legal-source review role (same model)",
+        "identity_status": "verified",
+        "identity_basis": "Original opinion and official reporter identity checked. Supreme Court June 10, 1946 opinion, pp.687–88, requires proof of actual uncompensated work and a just and reasonable inference of its amount and extent before burden shifts. Portal-to-Portal Act changed other compensability aspects; Tyson Foods, 577 U.S. 442 (2016), majority pp.456–59 applies the evidentiary rule. The cited pin is not a rule eliminating initial proof.",
+        "scope_note": "Supreme Court June 10, 1946 opinion, pp.687–88, requires proof of actual uncompensated work and a just and reasonable inference of its amount and extent before burden shifts. Portal-to-Portal Act changed other compensability aspects; Tyson Foods, 577 U.S. 442 (2016), majority pp.456–59 applies the evidentiary rule. The cited pin is not a rule eliminating initial proof.",
+        "source_kind": "other_reviewed",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-SUP-000002/v1/law/AND.txt",
+          "sha256": "server_computed",
+          "url": "https://www.law.cornell.edu/supremecourt/text/328/680"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "687–88",
+            "proposition": "Where records are inadequate, actual uncompensated work and a just and reasonable inference of its amount permit burden shifting; precise reconstruction is not required.",
+            "character": "holding",
+            "status": "usable_limited",
+            "weight": "binding",
+            "reasoning": "Supreme Court June 10, 1946 opinion, pp.687–88, requires proof of actual uncompensated work and a just and reasonable inference of its amount and extent before burden shifts. Portal-to-Portal Act changed other compensability aspects; Tyson Foods, 577 U.S. 442 (2016), majority pp.456–59 applies the evidentiary rule. The cited pin is not a rule eliminating initial proof.",
+            "applicability": "Use only for the quoted proposition, in its procedural and evidentiary context; no appellate result predetermined.",
+            "limitation": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions."
+          }
+        ],
+        "searches": [
+          {
+            "id": "AND-direct_history",
+            "kind": "direct_history",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "328 U.S. 680 Anderson v. Mt. Clemens Pottery Co. disposition rehearing certiorari",
+            "scope": "Supreme Court June 10, 1946 opinion, pp.687–88, requires proof of actual uncompensated work and a just and reasonable inference of its amount and extent before burden shifts. Portal-to-Portal Act changed other compensability aspects; Tyson Foods, 577 U.S. 442 (2016), majority pp.456–59 applies the evidentiary rule. The cited pin is not a rule eliminating initial proof. Sources: https://www.govinfo.gov/app/details/USREPORTS-328/USREPORTS-328-680 ; https://www.law.cornell.edu/supremecourt/text/328/680 ; Tyson Foods, 577 U.S. 442",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "AND-negative_treatment",
+            "kind": "negative_treatment",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "328 U.S. 680 Anderson v. Mt. Clemens Pottery Co. overruled superseded vacated limited",
+            "scope": "Supreme Court June 10, 1946 opinion, pp.687–88, requires proof of actual uncompensated work and a just and reasonable inference of its amount and extent before burden shifts. Portal-to-Portal Act changed other compensability aspects; Tyson Foods, 577 U.S. 442 (2016), majority pp.456–59 applies the evidentiary rule. The cited pin is not a rule eliminating initial proof. Sources: https://www.govinfo.gov/app/details/USREPORTS-328/USREPORTS-328-680 ; https://www.law.cornell.edu/supremecourt/text/328/680 ; Tyson Foods, 577 U.S. 442",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "AND-later_citing",
+            "kind": "later_citing",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "328 U.S. 680 Anderson v. Mt. Clemens Pottery Co. later citing cases",
+            "scope": "Supreme Court June 10, 1946 opinion, pp.687–88, requires proof of actual uncompensated work and a just and reasonable inference of its amount and extent before burden shifts. Portal-to-Portal Act changed other compensability aspects; Tyson Foods, 577 U.S. 442 (2016), majority pp.456–59 applies the evidentiary rule. The cited pin is not a rule eliminating initial proof. Sources: https://www.govinfo.gov/app/details/USREPORTS-328/USREPORTS-328-680 ; https://www.law.cornell.edu/supremecourt/text/328/680 ; Tyson Foods, 577 U.S. 442",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [],
+        "court_level": "scotus",
+        "opinion_kind": "majority",
+        "publication": "published",
+        "panel_kind": "full_court",
+        "identity_lookup": {
+          "provider": "official",
+          "status": "found",
+          "basis": "Supreme Court June 10, 1946 opinion, pp.687–88, requires proof of actual uncompensated work and a just and reasonable inference of its amount and extent before burden shifts. Portal-to-Portal Act changed other compensability aspects; Tyson Foods, 577 U.S. 442 (2016), majority pp.456–59 applies the evidentiary rule. The cited pin is not a rule eliminating initial proof.",
+          "canonical_name": "Anderson v. Mt. Clemens Pottery Co.",
+          "matched_citation": "328 U.S. 680",
+          "official_url": "https://www.govinfo.gov/app/details/USREPORTS-328/USREPORTS-328-680"
+        }
+      },
+      {
+        "id": "TOL",
+        "authority_id": "TOL",
+        "citation": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+        "decision_date": "2014-05-05",
+        "cutoff": "2026-11-27",
+        "reviewed_at": "2026-11-28",
+        "reviewer": "legal-source review role (same model)",
+        "identity_status": "verified",
+        "identity_basis": "Original opinion and official reporter identity checked. Supreme Court May 5, 2014 per curiam vacates and remands; credits nonmovant evidence and justifiable inferences, not every speculative inference. Official U.S. Reports identity and docket 13-551 checked; targeted later citing search returned 2025/2026 applications and no displacement of this general summary judgment proposition.",
+        "scope_note": "Supreme Court May 5, 2014 per curiam vacates and remands; credits nonmovant evidence and justifiable inferences, not every speculative inference. Official U.S. Reports identity and docket 13-551 checked; targeted later citing search returned 2025/2026 applications and no displacement of this general summary judgment proposition.",
+        "source_kind": "other_reviewed",
+        "opinion_text_reviewed": true,
+        "original": {
+          "path": "factory/CA9-SUP-000002/v1/law/TOL.txt",
+          "sha256": "server_computed",
+          "url": "https://openjurist.org/572/us/650/tolan-v-cotton"
+        },
+        "pin_reviews": [
+          {
+            "id": "P1",
+            "locator": "656–57",
+            "proposition": "Summary judgment does not permit resolving genuine factual disputes against the nonmoving party.",
+            "character": "holding",
+            "status": "usable_limited",
+            "weight": "binding",
+            "reasoning": "Supreme Court May 5, 2014 per curiam vacates and remands; credits nonmovant evidence and justifiable inferences, not every speculative inference. Official U.S. Reports identity and docket 13-551 checked; targeted later citing search returned 2025/2026 applications and no displacement of this general summary judgment proposition.",
+            "applicability": "Use only for the quoted proposition, in its procedural and evidentiary context; no appellate result predetermined.",
+            "limitation": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions."
+          }
+        ],
+        "searches": [
+          {
+            "id": "TOL-direct_history",
+            "kind": "direct_history",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "572 U.S. 650 Tolan v. Cotton disposition rehearing certiorari",
+            "scope": "Supreme Court May 5, 2014 per curiam vacates and remands; credits nonmovant evidence and justifiable inferences, not every speculative inference. Official U.S. Reports identity and docket 13-551 checked; targeted later citing search returned 2025/2026 applications and no displacement of this general summary judgment proposition. Sources: https://www.govinfo.gov/app/details/USREPORTS-572/USREPORTS-572-650 ; https://www.supremecourt.gov/Search.aspx?FileName=%2Fdocketfiles%2F13-551.htm",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "TOL-negative_treatment",
+            "kind": "negative_treatment",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "572 U.S. 650 Tolan v. Cotton overruled superseded vacated limited",
+            "scope": "Supreme Court May 5, 2014 per curiam vacates and remands; credits nonmovant evidence and justifiable inferences, not every speculative inference. Official U.S. Reports identity and docket 13-551 checked; targeted later citing search returned 2025/2026 applications and no displacement of this general summary judgment proposition. Sources: https://www.govinfo.gov/app/details/USREPORTS-572/USREPORTS-572-650 ; https://www.supremecourt.gov/Search.aspx?FileName=%2Fdocketfiles%2F13-551.htm",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          },
+          {
+            "id": "TOL-later_citing",
+            "kind": "later_citing",
+            "provider": "Public primary text and exact reporter/name searches; CourtListener where available",
+            "query": "572 U.S. 650 Tolan v. Cotton later citing cases",
+            "scope": "Supreme Court May 5, 2014 per curiam vacates and remands; credits nonmovant evidence and justifiable inferences, not every speculative inference. Official U.S. Reports identity and docket 13-551 checked; targeted later citing search returned 2025/2026 applications and no displacement of this general summary judgment proposition. Sources: https://www.govinfo.gov/app/details/USREPORTS-572/USREPORTS-572-650 ; https://www.supremecourt.gov/Search.aspx?FileName=%2Fdocketfiles%2F13-551.htm",
+            "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+            "coverage": "bounded",
+            "searched_at": "2026-11-28",
+            "through": "2026-11-27",
+            "hits_reviewed": 1,
+            "unresolved_material_candidates": []
+          }
+        ],
+        "treatments": [],
+        "court_level": "scotus",
+        "opinion_kind": "per_curiam",
+        "publication": "published",
+        "panel_kind": "full_court",
+        "identity_lookup": {
+          "provider": "official",
+          "status": "found",
+          "basis": "Supreme Court May 5, 2014 per curiam vacates and remands; credits nonmovant evidence and justifiable inferences, not every speculative inference. Official U.S. Reports identity and docket 13-551 checked; targeted later citing search returned 2025/2026 applications and no displacement of this general summary judgment proposition.",
+          "canonical_name": "Tolan v. Cotton",
+          "matched_citation": "572 U.S. 650",
+          "official_url": "https://www.govinfo.gov/app/details/USREPORTS-572/USREPORTS-572-650"
+        }
+      }
+    ],
+    "document_audits": [
+      {
+        "id": "CA9-SUP-000002-COM",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-ANS",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-SCHED",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-POL",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-PAY",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-LOG",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-MSG",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-PDEP",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-SDEP",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-HDEP",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-IDEP",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-WDEP",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-MSJ",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": [
+          {
+            "id": "C1",
+            "page": 2,
+            "offset": 17,
+            "text": "29 U.S.C. § 207(a)(1)",
+            "authority_id": "STAT",
+            "pin_id": "P1",
+            "form": "statute"
+          },
+          {
+            "id": "C2",
+            "page": 2,
+            "offset": 273,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C3",
+            "page": 2,
+            "offset": 823,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOL",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C4",
+            "page": 4,
+            "offset": 467,
+            "text": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+            "authority_id": "AND",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C5",
+            "page": 6,
+            "offset": 571,
+            "text": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+            "authority_id": "CAD",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C6",
+            "page": 7,
+            "offset": 119,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-SUP-000002-OPP",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": [
+          {
+            "id": "C1",
+            "page": 2,
+            "offset": 190,
+            "text": "29 U.S.C. § 207(a)(1)",
+            "authority_id": "STAT",
+            "pin_id": "P1",
+            "form": "statute"
+          },
+          {
+            "id": "C2",
+            "page": 3,
+            "offset": 608,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOL",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C3",
+            "page": 4,
+            "offset": 51,
+            "text": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+            "authority_id": "AND",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C4",
+            "page": 6,
+            "offset": 40,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C5",
+            "page": 6,
+            "offset": 503,
+            "text": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+            "authority_id": "CAD",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-SUP-000002-REPL",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": [
+          {
+            "id": "C1",
+            "page": 2,
+            "offset": 37,
+            "text": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+            "authority_id": "AND",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C2",
+            "page": 3,
+            "offset": 41,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C3",
+            "page": 4,
+            "offset": 33,
+            "text": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+            "authority_id": "CAD",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-SUP-000002-HEAR",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-ORDER",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": [
+          {
+            "id": "C1",
+            "page": 2,
+            "offset": 181,
+            "text": "29 U.S.C. § 207(a)(1)",
+            "authority_id": "STAT",
+            "pin_id": "P1",
+            "form": "statute"
+          },
+          {
+            "id": "C2",
+            "page": 3,
+            "offset": 52,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOL",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C3",
+            "page": 4,
+            "offset": 24,
+            "text": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+            "authority_id": "AND",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C4",
+            "page": 5,
+            "offset": 23,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C5",
+            "page": 6,
+            "offset": 620,
+            "text": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+            "authority_id": "CAD",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-SUP-000002-JUD",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-NOA",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-TD",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-BRORD",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      },
+      {
+        "id": "CA9-SUP-000002-OPEN",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": [
+          {
+            "id": "C1",
+            "page": 4,
+            "offset": 671,
+            "text": "29 U.S.C. § 207(a)(1)",
+            "authority_id": "STAT",
+            "pin_id": "P1",
+            "form": "statute"
+          },
+          {
+            "id": "C2",
+            "page": 6,
+            "offset": 509,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOL",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C3",
+            "page": 6,
+            "offset": 635,
+            "text": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+            "authority_id": "AND",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C4",
+            "page": 6,
+            "offset": 796,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C5",
+            "page": 7,
+            "offset": 82,
+            "text": "29 U.S.C. § 207(a)(1)",
+            "authority_id": "STAT",
+            "pin_id": "P1",
+            "form": "statute"
+          },
+          {
+            "id": "C6",
+            "page": 7,
+            "offset": 740,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOL",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C7",
+            "page": 8,
+            "offset": 150,
+            "text": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+            "authority_id": "AND",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C8",
+            "page": 9,
+            "offset": 420,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C9",
+            "page": 10,
+            "offset": 577,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOL",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C10",
+            "page": 11,
+            "offset": 407,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C11",
+            "page": 11,
+            "offset": 578,
+            "text": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+            "authority_id": "CAD",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C12",
+            "page": 12,
+            "offset": 395,
+            "text": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+            "authority_id": "AND",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-SUP-000002-ANSWER",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": [
+          {
+            "id": "C1",
+            "page": 4,
+            "offset": 88,
+            "text": "29 U.S.C. § 207(a)(1)",
+            "authority_id": "STAT",
+            "pin_id": "P1",
+            "form": "statute"
+          },
+          {
+            "id": "C2",
+            "page": 4,
+            "offset": 290,
+            "text": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+            "authority_id": "AND",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C3",
+            "page": 4,
+            "offset": 473,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOL",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C4",
+            "page": 5,
+            "offset": 277,
+            "text": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+            "authority_id": "AND",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C5",
+            "page": 6,
+            "offset": 89,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C6",
+            "page": 7,
+            "offset": 483,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C7",
+            "page": 8,
+            "offset": 77,
+            "text": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+            "authority_id": "CAD",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C8",
+            "page": 9,
+            "offset": 472,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C9",
+            "page": 9,
+            "offset": 817,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOL",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C10",
+            "page": 10,
+            "offset": 340,
+            "text": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+            "authority_id": "AND",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C11",
+            "page": 10,
+            "offset": 457,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-SUP-000002-REPLY",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": [
+          {
+            "id": "C1",
+            "page": 2,
+            "offset": 393,
+            "text": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+            "authority_id": "AND",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C2",
+            "page": 2,
+            "offset": 695,
+            "text": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+            "authority_id": "TOL",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C3",
+            "page": 3,
+            "offset": 422,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C4",
+            "page": 3,
+            "offset": 742,
+            "text": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+            "authority_id": "CAD",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C5",
+            "page": 4,
+            "offset": 90,
+            "text": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+            "authority_id": "AND",
+            "pin_id": "P1",
+            "form": "full"
+          },
+          {
+            "id": "C6",
+            "page": 4,
+            "offset": 248,
+            "text": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+            "authority_id": "FORE",
+            "pin_id": "P1",
+            "form": "full"
+          }
+        ]
+      },
+      {
+        "id": "CA9-SUP-000002-AD",
+        "reviewer": "citation audit role (same model)",
+        "method": "Read original through exact verified excerpt or appellate original; match tagged legal cites to exact page offsets and inspect reporter/short citations.",
+        "scope": "All original logical pages; tables of authorities identify the cited full authorities.",
+        "status": "passed",
+        "unresolved": [],
+        "occurrences": []
+      }
+    ],
+    "issue_searches": [
+      {
+        "issue_id": "I1",
+        "lane": "appellant",
+        "query": "FLSA employer constructive knowledge reported work Forrester Cadena; Anderson Tyson reasonable inference; Tolan summary judgment",
+        "provider": "Public opinion text and CourtListener lookup",
+        "through": "2026-11-27",
+        "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+        "findings": "Reviewed the direct notice, reasonable diligence, and reasonable inference propositions; Cadena's separate knowledge question expressly reserved.",
+        "unresolved": []
+      },
+      {
+        "issue_id": "I1",
+        "lane": "appellee",
+        "query": "Forrester failure to report overtime employer knowledge; Cadena footnote 16; Anderson initial burden Tyson Foods",
+        "provider": "Public opinion text and CourtListener",
+        "through": "2026-11-27",
+        "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+        "findings": "Reviewed lack of notice and working reporting process arguments; initial proof remains required; inference need be just and reasonable, not precise.",
+        "unresolved": []
+      },
+      {
+        "issue_id": "I1",
+        "lane": "adverse",
+        "query": "646 F.2d 413 107 F.4th 902 rehearing certiorari overruled; 328 U.S. 680 Portal to Portal Act Tyson Foods; 572 U.S. 650 subsequent treatment",
+        "provider": "Public primary text and bounded exact citation queries",
+        "through": "2026-11-27",
+        "limitations": "Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions.",
+        "findings": "Portal-to-Portal supersession does not displace the cited proof rule, as reflected in Tyson Foods; Cadena n.16 reserves rather than resolves Forrester; no material contrary candidate identified in reviewed results.",
+        "unresolved": []
+      }
+    ]
   },
   "brief_record_refs": [
     {
@@ -4474,5 +5662,14 @@
       "source_page": 13,
       "review_status": "Source page compared; cited factual proposition within source page."
     }
-  ]
+  ],
+  "release_scope": {
+    "format": "stable_logical_pages",
+    "purpose": "simulation_only",
+    "legal_cutoff": "2026-11-27",
+    "physical_pdf_certified": false,
+    "external_independent_review": false,
+    "commercial_citator_clearance": false,
+    "limitations": "Stable logical-page simulation record, not certified physical PDF, ECF filing or official transcript. Bounded public primary-text, exact reporter and name searches through provisional cutoff. CourtListener identity and text used where available; no comprehensive commercial citator, no guarantee of complete negative treatment. No unresolved material contrary candidate identified in reviewed results for these narrow propositions. Creator and review roles performed by same ChatGPT; no independent external review. Later law and corrections require separate versioning."
+  }
 }

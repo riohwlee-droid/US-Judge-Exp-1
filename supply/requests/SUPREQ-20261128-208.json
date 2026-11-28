@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "request_id": "SUPREQ-20261128-208",
+  "action": "seal",
+  "job_id": "CA9-SUP-000002",
+  "expected_status": "reviewed",
+  "stage": "review",
+  "note": "Seal only if every production gate passes."
+}

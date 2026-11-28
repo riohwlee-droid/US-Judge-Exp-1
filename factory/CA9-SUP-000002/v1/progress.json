@@ -1,5 +1,5 @@
 {
-  "status": "working_originals_partial",
+  "status": "review_and_seal_requested",
   "authored_documents": [
     {
       "id": "CA9-SUP-000002-COM",
@@ -169,7 +169,7 @@
   "original_words": 27115,
   "planned_documents": 28,
   "planned_original_pages": 258,
-  "next_batch": "All originals and appellate excerpts complete. Build full legal research and occurrence audit; then request briefs gate.",
+  "next_batch": "All original drafting, record citation and bounded legal review complete; await automated briefs/review/seal receipts.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [

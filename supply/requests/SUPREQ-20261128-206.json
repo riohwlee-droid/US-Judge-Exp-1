@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "request_id": "SUPREQ-20261128-206",
+  "action": "advance",
+  "job_id": "CA9-SUP-000002",
+  "expected_status": "working",
+  "stage": "briefs",
+  "note": "Validate complete briefs and legal source audit."
+}
