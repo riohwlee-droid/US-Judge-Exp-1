@@ -934,11 +934,54 @@
       "actor_id": "PC",
       "created_at": "2026-10-16T09:00:00-07:00",
       "filed_at": "2026-10-16T16:00:00-07:00",
-      "pages": 18,
+      "pages": 12,
       "path": "records/CA9-SUP-000002/v1/OPEN.md",
       "depends_on": [],
       "access": "judge",
-      "status": "filed"
+      "status": "filed",
+      "sections": {
+        "table_of_contents": {
+          "page": 2,
+          "heading": "TABLE OF CONTENTS"
+        },
+        "table_of_authorities": {
+          "page": 3,
+          "heading": "TABLE OF AUTHORITIES"
+        },
+        "jurisdiction": {
+          "page": 4,
+          "heading": "JURISDICTIONAL STATEMENT"
+        },
+        "issues": {
+          "page": 4,
+          "heading": "ISSUES PRESENTED"
+        },
+        "statement_of_case": {
+          "page": 5,
+          "heading": "STATEMENT OF THE CASE"
+        },
+        "summary": {
+          "page": 6,
+          "heading": "SUMMARY OF ARGUMENT"
+        },
+        "standard_of_review": {
+          "page": 6,
+          "heading": "STANDARD OF REVIEW"
+        },
+        "argument": {
+          "page": 7,
+          "heading": "ARGUMENT"
+        },
+        "conclusion": {
+          "page": 12,
+          "heading": "CONCLUSION"
+        },
+        "certificate": {
+          "page": 12,
+          "heading": "CERTIFICATE"
+        }
+      },
+      "body_words_reviewed": 1228
     },
     {
       "id": "CA9-SUP-000002-ER1",
@@ -988,11 +1031,34 @@
       "actor_id": "DC",
       "created_at": "2026-11-13T09:00:00-08:00",
       "filed_at": "2026-11-13T16:00:00-08:00",
-      "pages": 18,
+      "pages": 10,
       "path": "records/CA9-SUP-000002/v1/ANSWER.md",
       "depends_on": [],
       "access": "judge",
-      "status": "filed"
+      "status": "filed",
+      "sections": {
+        "table_of_contents": {
+          "page": 2,
+          "heading": "TABLE OF CONTENTS"
+        },
+        "table_of_authorities": {
+          "page": 2,
+          "heading": "TABLE OF AUTHORITIES"
+        },
+        "argument": {
+          "page": 4,
+          "heading": "ARGUMENT"
+        },
+        "conclusion": {
+          "page": 10,
+          "heading": "CONCLUSION"
+        },
+        "certificate": {
+          "page": 10,
+          "heading": "CERTIFICATE"
+        }
+      },
+      "body_words_reviewed": 1048
     },
     {
       "id": "CA9-SUP-000002-REPLY",
@@ -1001,11 +1067,34 @@
       "actor_id": "PC",
       "created_at": "2026-11-24T09:00:00-08:00",
       "filed_at": "2026-11-24T16:00:00-08:00",
-      "pages": 8,
+      "pages": 4,
       "path": "records/CA9-SUP-000002/v1/REPLY.md",
       "depends_on": [],
       "access": "judge",
-      "status": "filed"
+      "status": "filed",
+      "sections": {
+        "table_of_contents": {
+          "page": 1,
+          "heading": "TABLE OF CONTENTS"
+        },
+        "table_of_authorities": {
+          "page": 1,
+          "heading": "TABLE OF AUTHORITIES"
+        },
+        "argument": {
+          "page": 2,
+          "heading": "ARGUMENT"
+        },
+        "conclusion": {
+          "page": 4,
+          "heading": "CONCLUSION"
+        },
+        "certificate": {
+          "page": 4,
+          "heading": "CERTIFICATE"
+        }
+      },
+      "body_words_reviewed": 429
     },
     {
       "id": "CA9-SUP-000002-AD",
@@ -1407,6 +1496,57 @@
       "mode": "allegation",
       "asserted_value": "2026-09-08",
       "unit": "date"
+    },
+    {
+      "id": "AS17",
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 9,
+      "fact_id": "F11",
+      "quote": "Sometimes I have a few minutes of notes after the clock says out.",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "Sometimes I have a few minutes of notes after the clock says out.",
+      "unit": "verbatim",
+      "record_cites": [
+        {
+          "cite": "2-ER-155",
+          "quote": "Sometimes I have a few minutes of notes after the clock says out."
+        }
+      ]
+    },
+    {
+      "id": "AS18",
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 7,
+      "fact_id": "F11",
+      "quote": "Sometimes I have a few minutes of notes after the clock says out.",
+      "speaker_id": "DC",
+      "mode": "allegation",
+      "asserted_value": "Sometimes I have a few minutes of notes after the clock says out.",
+      "unit": "verbatim",
+      "record_cites": [
+        {
+          "cite": "2-ER-155",
+          "quote": "Sometimes I have a few minutes of notes after the clock says out."
+        }
+      ]
+    },
+    {
+      "id": "AS19",
+      "document_id": "CA9-SUP-000002-REPLY",
+      "page": 3,
+      "fact_id": "F11",
+      "quote": "Sometimes I have a few minutes of notes after the clock says out.",
+      "speaker_id": "PC",
+      "mode": "allegation",
+      "asserted_value": "Sometimes I have a few minutes of notes after the clock says out.",
+      "unit": "verbatim",
+      "record_cites": [
+        {
+          "cite": "2-ER-155",
+          "quote": "Sometimes I have a few minutes of notes after the clock says out."
+        }
+      ]
     }
   ],
   "evidence": [
@@ -3117,7 +3257,409 @@
       ]
     }
   ],
-  "arguments": [],
+  "arguments": [
+    {
+      "id": "ARG-1",
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 4,
+      "quote": "29 U.S.C. § 207(a)(1)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "STAT",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-2",
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 6,
+      "quote": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "TOL",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        },
+        {
+          "authority_id": "AND",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        },
+        {
+          "authority_id": "FORE",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-3",
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 7,
+      "quote": "29 U.S.C. § 207(a)(1)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "STAT",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        },
+        {
+          "authority_id": "TOL",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-4",
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 8,
+      "quote": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "AND",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-5",
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 9,
+      "quote": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "FORE",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-6",
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 10,
+      "quote": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "TOL",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-7",
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 11,
+      "quote": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "FORE",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        },
+        {
+          "authority_id": "CAD",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-8",
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 12,
+      "quote": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "AND",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-9",
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 4,
+      "quote": "29 U.S.C. § 207(a)(1)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "STAT",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "text",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        },
+        {
+          "authority_id": "AND",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        },
+        {
+          "authority_id": "TOL",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-10",
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 5,
+      "quote": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "AND",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-11",
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 6,
+      "quote": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "FORE",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-12",
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 7,
+      "quote": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "FORE",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-13",
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 8,
+      "quote": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "CAD",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-14",
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 9,
+      "quote": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "FORE",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        },
+        {
+          "authority_id": "TOL",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-15",
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 10,
+      "quote": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+      "issue_id": "I1",
+      "side": "appellee",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "AND",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        },
+        {
+          "authority_id": "FORE",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-16",
+      "document_id": "CA9-SUP-000002-REPLY",
+      "page": 2,
+      "quote": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "AND",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        },
+        {
+          "authority_id": "TOL",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-17",
+      "document_id": "CA9-SUP-000002-REPLY",
+      "page": 3,
+      "quote": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "FORE",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        },
+        {
+          "authority_id": "CAD",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    },
+    {
+      "id": "ARG-18",
+      "document_id": "CA9-SUP-000002-REPLY",
+      "page": 4,
+      "quote": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+      "issue_id": "I1",
+      "side": "appellant",
+      "record_cites": [],
+      "authorities": [
+        {
+          "authority_id": "AND",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        },
+        {
+          "authority_id": "FORE",
+          "pin_id": "P1",
+          "use": "support",
+          "claimed_weight": "binding",
+          "analysis": "Specific scope and application explained in the cited paragraph."
+        }
+      ]
+    }
+  ],
   "timeliness_review": {
     "reviewed": true,
     "basis": "Claim period April–May 2024; complaint Feb 10 2025 within ordinary two-year FLSA period. Judgment Aug 24, notice Sep 8 2026 (15 days). Opening Oct 16, answer Nov 13 (28 days), reply Nov 24 (11 days). No tolling motion recorded; verify local schedule."
@@ -3345,5 +3887,592 @@
     "authority_reviews": [],
     "document_audits": [],
     "issue_searches": []
-  }
+  },
+  "brief_record_refs": [
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 4,
+      "cite": "1-ER-2",
+      "quote": "Defendant's motion for summary judgment is granted. The sole claim seeks overtime compensation under the Fair Labor Standards Act for four weeks ending May 26, 2024. The court considers the record cited by both parties and draws reasonable inferences in plaintiff's favor. The court does not make a finding that plaintiff's testimony was untruthful, that the application records were fabricated, or that a failure to request a payroll correction automatically bars recovery. The ruling concerns the sufficiency of the evidence on the elements of the particular claim.",
+      "source_document_id": "CA9-SUP-000002-ORDER",
+      "source_page": 1,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 4,
+      "cite": "1-ER-1",
+      "quote": "Pursuant to the order granting Defendant's motion for summary judgment entered this date, judgment is entered in favor of Harborline Support Services, LLC and against Mira L. Sedgewick on the sole claim for overtime compensation under the Fair Labor Standards Act. Plaintiff shall take nothing on the claim. This judgment resolves all claims between the parties. The Clerk is directed to close the district case. Any application for taxable costs or attorney fees shall be made separately in accordance with applicable rules. No determination of a specific amount of costs is made by this judgment.",
+      "source_document_id": "CA9-SUP-000002-JUD",
+      "source_page": 1,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 4,
+      "cite": "2-ER-184",
+      "quote": "Plaintiff Mira L. Sedgewick appeals to the United States Court of Appeals for the Ninth Circuit from the final judgment entered August 24, 2026, and the order granting Defendant's motion for summary judgment entered the same day. The judgment disposes of the sole federal overtime claim. Plaintiff is represented by Jessa M. Orell. Counsel will arrange the relevant transcript and excerpts of record and comply with the appellate briefing schedule.",
+      "source_document_id": "CA9-SUP-000002-NOA",
+      "source_page": 1,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 5,
+      "cite": "2-ER-164",
+      "quote": "Employee: Mira L. Sedgewick. Classification: hourly nonexempt. Regular hourly rate: $22.00. Pay basis: weekly pay for recorded hours. Time zone: America/Los_Angeles. The following workweek totals are the original paid totals for the disputed period. Week beginning April 29, 2024: 40.00 regular hours, 0.00 overtime hours, gross regular wages $880.00. Week beginning May 6, 2024: 40.00 regular hours, 0.00 overtime hours, gross regular wages $880.00. Week beginning May 13, 2024: 40.00 regular hours, 0.00 overtime hours, gross regular wages $880.00. Week beginning May 20, 2024: 40.00 regular hours, 0.00 overtime hours, gross regular wages $880.00. The export reports time paid, not an independent finding of all time worked.",
+      "source_document_id": "CA9-SUP-000002-PAY",
+      "source_page": 1,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 5,
+      "cite": "2-ER-124",
+      "quote": "A. Eight-thirty to five, Monday through Friday. A half-hour meal break.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 3,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 5,
+      "cite": "2-ER-159",
+      "quote": "The May 2 event at 17:08 is a user-associated save request, not an automatic session end. The audit table does not contain the client-side text or the duration of editing. A save request may follow typing, a review of previously entered text or a later submission of text prepared before the recorded end of shift. The export does not determine which possibility occurred on May 2. The status change at 17:09 is a separate event.",
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 2,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 5,
+      "cite": "2-ER-160",
+      "quote": "The retained record shows a save after the recorded end of the shift. There is no event field identifying whether the employee was physically at her workstation throughout the interval. No automated batch save is identified for this case in the export. The custodian cannot use these records to calculate a continuous work interval without other evidence. The session end may follow inactivity.",
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 3,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 5,
+      "cite": "2-ER-161",
+      "quote": "The case was associated with the representative's account. The application stores a server time for each accepted event. It does not record the payroll punch in the same table. The timekeeping export is a separate exhibit. The event sequence may be compared with the punch time, but the resulting elapsed interval is not itself a measurement of active work.",
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 4,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 5,
+      "cite": "2-ER-162",
+      "quote": "The save and status change are logged under the employee account. The export does not establish the number of minutes spent preparing a note. It does establish the recorded time of the request and the case identifier. These four sequences were selected by counsel for comparison with the payroll records. The exhibit does not state that all other application events during the four weeks are absent or that every post-shift event is work.",
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 5,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 5,
+      "cite": "2-ER-21",
+      "quote": "The record permits a reasonable inference of work and employer knowledge. Plaintiff does not demand a ruling that each elapsed minute between punch and event was worked. She asks that the trier of fact evaluate her sworn description of completing assigned notes, the four pairs of accepted application transactions following recorded punches, and her direct notice to the supervisor. The employer's theory isolates each item and treats its limitations as if no other evidence existed. The governing summary judgment inquiry requires a reasonable inference from the combined record. The single claim should proceed to determination on the merits.",
+      "source_document_id": "CA9-SUP-000002-OPP",
+      "source_page": 1,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 5,
+      "cite": "2-ER-11",
+      "quote": "MS. ORELL: Her testimony about the finishing notes, the May message describing a few minutes, the four pairs of business events, and the recorded punches. We are not treating the period until session termination as work.",
+      "source_document_id": "CA9-SUP-000002-HEAR",
+      "source_page": 3,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 5,
+      "cite": "1-ER-4",
+      "quote": "Under Tolan v. Cotton, 572 U.S. 650, 656–57 (2014) [[AUTH:TOL:P1]], the court must credit the nonmovant's evidence and draw justifiable inferences in her favor. Plaintiff's recollection of completing assigned notes may support an inference that some activity occurred after a punch. Yet the timestamps are not measurements of active work. The custodian explains that the server records accepted events and that composition, transmission and acceptance are distinct. IDEP 3–10, 16–20. Plaintiff does not recall a reliable duration and expressly disclaims equating the elapsed intervals with work. PDEP 8–13, 16, 22, 26. The coworker's general observations do not establish dates or punches. WDEP 4, 12. The court concludes that the proffered intervals lack a sufficient factual basis to infer the amount and extent of uncompensated work in each particular week.",
+      "source_document_id": "CA9-SUP-000002-ORDER",
+      "source_page": 3,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 5,
+      "cite": "1-ER-8",
+      "quote": "The court concludes the evidence is insufficient to create a genuine issue on the amount and extent of compensable work beyond forty hours and, independently, on actual or constructive knowledge of the alleged unpaid overtime. The ruling extends to the final disputed date after the exchange because plaintiff supplied no new information identifying actual missed work and the evidence does not establish contemporaneous observation of that event. The court has not fixed the amount of damages or determined the truth of disputed witness recollections. Judgment shall be entered for defendant on the sole claim. The separate judgment will resolve the action. Any collateral matter not decided here is governed by applicable procedure.",
+      "source_document_id": "CA9-SUP-000002-ORDER",
+      "source_page": 7,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 7,
+      "cite": "2-ER-128",
+      "quote": "A. Often. It depended on the call. If I had to search several things, I might put part of it in the note, then finish when the conversation ended.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 7,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 7,
+      "cite": "2-ER-129",
+      "quote": "A. Not the person's identity. The record is anonymized, and I don't need to know the name now. I recall finishing an outcome note on one of those late days after I had clocked out.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 8,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 7,
+      "cite": "2-ER-133",
+      "quote": "A. It would put the note where the next person could see it. Until it was saved, I couldn't assume it was there. I would normally confirm that the correct outcome was selected too.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 12,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 7,
+      "cite": "2-ER-58",
+      "quote": "A. The server records the accepted event time. It is not a client-side diary of each keystroke. There may be a difference between composing text, requesting a save, transmission and acceptance.",
+      "source_document_id": "CA9-SUP-000002-IDEP",
+      "source_page": 4,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 7,
+      "cite": "2-ER-59",
+      "quote": "A. They can occur close together in a workflow, but the table records them separately. The sequence here contains a save and a later status change. I cannot infer the entire interaction sequence from those two rows alone.",
+      "source_document_id": "CA9-SUP-000002-IDEP",
+      "source_page": 5,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 7,
+      "cite": "2-ER-60",
+      "quote": "A. It records termination of the application session. A session may end automatically because of inactivity or system behavior. A session-end entry is not a positive indication that someone was working until the displayed time.",
+      "source_document_id": "CA9-SUP-000002-IDEP",
+      "source_page": 6,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 8,
+      "cite": "2-ER-130",
+      "quote": "A. May second is one I recognize from reviewing the case sequence. I recall that I had a note I could not leave blank and that I finished it after the punch. I don't recall whether I started that final part a minute or several minutes after five.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 9,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 8,
+      "cite": "2-ER-137",
+      "quote": "A. I don't claim that the note itself took eleven minutes. I think I did some of the work after punching out, and I know I stayed to finish the case. I could have been working on the note for several minutes.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 16,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 8,
+      "cite": "2-ER-143",
+      "quote": "A. I remember another closing note after the punch. The activity page is one of the dates I reviewed. I cannot say what the customer called about. I know the procedure was to stay on the clock, but I still thought I would just finish the note quickly.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 22,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 8,
+      "cite": "2-ER-147",
+      "quote": "A. No exact calculation. The four later saves and closes are the events I can identify from the records. I believe I spent some minutes finishing each of those cases. I cannot swear that the whole interval was active work.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 26,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 9,
+      "cite": "2-ER-155",
+      "quote": "Sometimes I have a few minutes of notes after the clock says out. I try to finish the case before leaving because it comes back if the outcome is blank. What should I do when the last case is still waiting for a note? I know we have the correction form, but I do not always know how many minutes the note took. I do not want to leave a blank outcome. The message does not identify a date for a particular unrecorded interval or specify a total number of minutes. The sender does not attach a punch record or a case identifier.",
+      "source_document_id": "CA9-SUP-000002-MSG",
+      "source_page": 2,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 9,
+      "cite": "2-ER-109",
+      "quote": "A. No, I did not necessarily read it that way. I understood she was asking what to do, including if she had already punched out. She didn't identify a specific date or duration.",
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 16,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 9,
+      "cite": "2-ER-110",
+      "quote": "A. Yes, there might have been. That is why I told her to send missed time to payroll and give the date and actual time if she had already clocked out.",
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 17,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 10,
+      "cite": "2-ER-66",
+      "quote": "A. Certain event information is available through operational views, depending on permissions. The detailed historical table is obtained through a report request. I would distinguish opening a case to see its current status from retrieving an event history.",
+      "source_document_id": "CA9-SUP-000002-IDEP",
+      "source_page": 12,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 10,
+      "cite": "2-ER-67",
+      "quote": "A. There is staff time to identify the records, check the access request and prepare an extract. This is not equivalent to writing a new system. A request limited to one employee account and several weeks is more focused than an unrestricted company-wide search.",
+      "source_document_id": "CA9-SUP-000002-IDEP",
+      "source_page": 13,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 10,
+      "cite": "2-ER-68",
+      "quote": "A. Yes. The report can be organized by local date and time and event type. To compare with actual payroll out punches, someone would need the punch data as a separate source.",
+      "source_document_id": "CA9-SUP-000002-IDEP",
+      "source_page": 14,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 10,
+      "cite": "2-ER-112",
+      "quote": "A. I don't recall doing a follow-up inquiry about the earlier notes. I might have discussed routine timekeeping with the team, but I cannot identify a later discussion about the dates at issue.",
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 19,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 10,
+      "cite": "2-ER-113",
+      "quote": "A. I thought the first step was to have her identify the work date and approximate circumstances. I didn't have a case number or date. The event report wouldn't necessarily tell us how long she worked.",
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 20,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 10,
+      "cite": "2-ER-162",
+      "quote": "The save and status change are logged under the employee account. The export does not establish the number of minutes spent preparing a note. It does establish the recorded time of the request and the case identifier. These four sequences were selected by counsel for comparison with the payroll records. The exhibit does not state that all other application events during the four weeks are absent or that every post-shift event is work.",
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 5,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 11,
+      "cite": "2-ER-156",
+      "quote": "Do not work unpaid; send any missed time to payroll. If a case needs a note at the end of the shift, stay clocked in and tell me or the lead. If you already clocked out, send the date and actual time so we can correct it. If you cannot finish a case during the shift, arrange a handoff before clocking out. We need accurate notes, but we also need accurate time. I can help with the form if you do not remember the procedure. The retained response contains no instruction to omit time under a stated number of minutes.",
+      "source_document_id": "CA9-SUP-000002-MSG",
+      "source_page": 3,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-OPEN",
+      "page": 11,
+      "cite": "2-ER-169",
+      "quote": "Employee Mira L. Sedgewick submitted a missed-punch request for May 30, a date outside the disputed four-week period. The original record omitted twelve minutes following the scheduled end of the shift. Employee reason: completed a customer callback before signing out. Supervisor confirmed the request. Payroll disposition: approved; twelve minutes added to the May 27 workweek. The adjustment appears in the June 4 processing batch. This separate correction is retained to show the operation of the correction procedure, not to assert that the four earlier closing events were or were not reported. No correction request specific to May 2, May 9, May 16 or May 23 appears in this export.",
+      "source_document_id": "CA9-SUP-000002-PAY",
+      "source_page": 6,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 3,
+      "cite": "1-ER-4",
+      "quote": "Under Tolan v. Cotton, 572 U.S. 650, 656–57 (2014) [[AUTH:TOL:P1]], the court must credit the nonmovant's evidence and draw justifiable inferences in her favor. Plaintiff's recollection of completing assigned notes may support an inference that some activity occurred after a punch. Yet the timestamps are not measurements of active work. The custodian explains that the server records accepted events and that composition, transmission and acceptance are distinct. IDEP 3–10, 16–20. Plaintiff does not recall a reliable duration and expressly disclaims equating the elapsed intervals with work. PDEP 8–13, 16, 22, 26. The coworker's general observations do not establish dates or punches. WDEP 4, 12. The court concludes that the proffered intervals lack a sufficient factual basis to infer the amount and extent of uncompensated work in each particular week.",
+      "source_document_id": "CA9-SUP-000002-ORDER",
+      "source_page": 3,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 3,
+      "cite": "1-ER-8",
+      "quote": "The court concludes the evidence is insufficient to create a genuine issue on the amount and extent of compensable work beyond forty hours and, independently, on actual or constructive knowledge of the alleged unpaid overtime. The ruling extends to the final disputed date after the exchange because plaintiff supplied no new information identifying actual missed work and the evidence does not establish contemporaneous observation of that event. The court has not fixed the amount of damages or determined the truth of disputed witness recollections. Judgment shall be entered for defendant on the sole claim. The separate judgment will resolve the action. Any collateral matter not decided here is governed by applicable procedure.",
+      "source_document_id": "CA9-SUP-000002-ORDER",
+      "source_page": 7,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 3,
+      "cite": "2-ER-156",
+      "quote": "Do not work unpaid; send any missed time to payroll. If a case needs a note at the end of the shift, stay clocked in and tell me or the lead. If you already clocked out, send the date and actual time so we can correct it. If you cannot finish a case during the shift, arrange a handoff before clocking out. We need accurate notes, but we also need accurate time. I can help with the form if you do not remember the procedure. The retained response contains no instruction to omit time under a stated number of minutes.",
+      "source_document_id": "CA9-SUP-000002-MSG",
+      "source_page": 3,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 3,
+      "cite": "2-ER-169",
+      "quote": "Employee Mira L. Sedgewick submitted a missed-punch request for May 30, a date outside the disputed four-week period. The original record omitted twelve minutes following the scheduled end of the shift. Employee reason: completed a customer callback before signing out. Supervisor confirmed the request. Payroll disposition: approved; twelve minutes added to the May 27 workweek. The adjustment appears in the June 4 processing batch. This separate correction is retained to show the operation of the correction procedure, not to assert that the four earlier closing events were or were not reported. No correction request specific to May 2, May 9, May 16 or May 23 appears in this export.",
+      "source_document_id": "CA9-SUP-000002-PAY",
+      "source_page": 6,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 4,
+      "cite": "2-ER-131",
+      "quote": "Q. You cannot tell us that the eight-minute difference represents eight uninterrupted minutes of work?",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 10,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 4,
+      "cite": "2-ER-147",
+      "quote": "A. No exact calculation. The four later saves and closes are the events I can identify from the records. I believe I spent some minutes finishing each of those cases. I cannot swear that the whole interval was active work.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 26,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 4,
+      "cite": "2-ER-57",
+      "quote": "A. The service stores timestamps in UTC. For the exhibit, we converted the relevant entries to Pacific local time. April and May in Southern California are daylight saving time. The displayed entries correspond to local time, not raw UTC.",
+      "source_document_id": "CA9-SUP-000002-IDEP",
+      "source_page": 3,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 4,
+      "cite": "2-ER-74",
+      "quote": "Q (Halwick). Is it a technical conclusion that the person worked eight, six, eleven and seven minutes respectively?",
+      "source_document_id": "CA9-SUP-000002-IDEP",
+      "source_page": 20,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 5,
+      "cite": "2-ER-39",
+      "quote": "A. I recall occasions when she was still at her station dealing with case information while I was getting ready to leave. I cannot give you dates for those occasions. I did not look at her time record.",
+      "source_document_id": "CA9-SUP-000002-WDEP",
+      "source_page": 4,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 5,
+      "cite": "2-ER-47",
+      "quote": "A. No. She could still be on paid time or doing something else. I cannot tell from presence at a desk.",
+      "source_document_id": "CA9-SUP-000002-WDEP",
+      "source_page": 12,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 5,
+      "cite": "2-ER-130",
+      "quote": "A. May second is one I recognize from reviewing the case sequence. I recall that I had a note I could not leave blank and that I finished it after the punch. I don't recall whether I started that final part a minute or several minutes after five.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 9,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 5,
+      "cite": "2-ER-132",
+      "quote": "A. A case was open, there was a save before five and one after five, then it was marked closed. The later save looks like something I would do when finishing the note.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 11,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 5,
+      "cite": "2-ER-133",
+      "quote": "A. It would put the note where the next person could see it. Until it was saved, I couldn't assume it was there. I would normally confirm that the correct outcome was selected too.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 12,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 6,
+      "cite": "2-ER-154",
+      "quote": "Please finish assigned case notes before leaving. If a case cannot be completed on your shift, tell the lead before clocking out so that we can arrange coverage. We have had several cases returned by the quality group because the outcome field was blank. The next representative needs enough information to understand what happened. Do not leave a customer waiting merely to meet the scheduled end time; let us know if you need additional paid time or a reassignment. The reminder applies to the team as a whole and does not identify any particular representative's payroll record.",
+      "source_document_id": "CA9-SUP-000002-MSG",
+      "source_page": 1,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 6,
+      "cite": "2-ER-125",
+      "quote": "A. Not that I remember. I used the punch button. I would normally punch at five unless there was an approved change or a reason to stay on the clock.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 4,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 7,
+      "cite": "2-ER-155",
+      "quote": "Sometimes I have a few minutes of notes after the clock says out. I try to finish the case before leaving because it comes back if the outcome is blank. What should I do when the last case is still waiting for a note? I know we have the correction form, but I do not always know how many minutes the note took. I do not want to leave a blank outcome. The message does not identify a date for a particular unrecorded interval or specify a total number of minutes. The sender does not attach a punch record or a case identifier.",
+      "source_document_id": "CA9-SUP-000002-MSG",
+      "source_page": 2,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 7,
+      "cite": "2-ER-156",
+      "quote": "Do not work unpaid; send any missed time to payroll. If a case needs a note at the end of the shift, stay clocked in and tell me or the lead. If you already clocked out, send the date and actual time so we can correct it. If you cannot finish a case during the shift, arrange a handoff before clocking out. We need accurate notes, but we also need accurate time. I can help with the form if you do not remember the procedure. The retained response contains no instruction to omit time under a stated number of minutes.",
+      "source_document_id": "CA9-SUP-000002-MSG",
+      "source_page": 3,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 7,
+      "cite": "2-ER-111",
+      "quote": "A. I responded the next morning. I told her what she should do to stay paid or correct time if she had already punched out. I asked for the date and actual time if there was missed time. I offered help with the form.",
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 18,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 7,
+      "cite": "2-ER-112",
+      "quote": "A. I don't recall doing a follow-up inquiry about the earlier notes. I might have discussed routine timekeeping with the team, but I cannot identify a later discussion about the dates at issue.",
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 19,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 8,
+      "cite": "2-ER-169",
+      "quote": "Employee Mira L. Sedgewick submitted a missed-punch request for May 30, a date outside the disputed four-week period. The original record omitted twelve minutes following the scheduled end of the shift. Employee reason: completed a customer callback before signing out. Supervisor confirmed the request. Payroll disposition: approved; twelve minutes added to the May 27 workweek. The adjustment appears in the June 4 processing batch. This separate correction is retained to show the operation of the correction procedure, not to assert that the four earlier closing events were or were not reported. No correction request specific to May 2, May 9, May 16 or May 23 appears in this export.",
+      "source_document_id": "CA9-SUP-000002-PAY",
+      "source_page": 6,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 8,
+      "cite": "2-ER-86",
+      "quote": "A. It relates to a callback on May 30, 2024, with twelve minutes entered as an adjustment processed on June 4.",
+      "source_document_id": "CA9-SUP-000002-HDEP",
+      "source_page": 12,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 8,
+      "cite": "2-ER-162",
+      "quote": "The save and status change are logged under the employee account. The export does not establish the number of minutes spent preparing a note. It does establish the recorded time of the request and the case identifier. These four sequences were selected by counsel for comparison with the payroll records. The exhibit does not state that all other application events during the four weeks are absent or that every post-shift event is work.",
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 5,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 9,
+      "cite": "2-ER-69",
+      "quote": "A. No. I reviewed the material relevant to this extract. My recollection and the documents I reviewed do not establish the universe of internal conversations or requests.",
+      "source_document_id": "CA9-SUP-000002-IDEP",
+      "source_page": 15,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-ANSWER",
+      "page": 9,
+      "cite": "2-ER-65",
+      "quote": "A. Operational information about the queue: case identifiers, statuses, and counts. It helps allocate work. A supervisor can also open individual case records within his permissions.",
+      "source_document_id": "CA9-SUP-000002-IDEP",
+      "source_page": 11,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-REPLY",
+      "page": 2,
+      "cite": "2-ER-130",
+      "quote": "A. May second is one I recognize from reviewing the case sequence. I recall that I had a note I could not leave blank and that I finished it after the punch. I don't recall whether I started that final part a minute or several minutes after five.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 9,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-REPLY",
+      "page": 2,
+      "cite": "2-ER-133",
+      "quote": "A. It would put the note where the next person could see it. Until it was saved, I couldn't assume it was there. I would normally confirm that the correct outcome was selected too.",
+      "source_document_id": "CA9-SUP-000002-PDEP",
+      "source_page": 12,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-REPLY",
+      "page": 2,
+      "cite": "2-ER-159",
+      "quote": "The May 2 event at 17:08 is a user-associated save request, not an automatic session end. The audit table does not contain the client-side text or the duration of editing. A save request may follow typing, a review of previously entered text or a later submission of text prepared before the recorded end of shift. The export does not determine which possibility occurred on May 2. The status change at 17:09 is a separate event.",
+      "source_document_id": "CA9-SUP-000002-LOG",
+      "source_page": 2,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-REPLY",
+      "page": 3,
+      "cite": "2-ER-155",
+      "quote": "Sometimes I have a few minutes of notes after the clock says out. I try to finish the case before leaving because it comes back if the outcome is blank. What should I do when the last case is still waiting for a note? I know we have the correction form, but I do not always know how many minutes the note took. I do not want to leave a blank outcome. The message does not identify a date for a particular unrecorded interval or specify a total number of minutes. The sender does not attach a punch record or a case identifier.",
+      "source_document_id": "CA9-SUP-000002-MSG",
+      "source_page": 2,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-REPLY",
+      "page": 3,
+      "cite": "2-ER-110",
+      "quote": "A. Yes, there might have been. That is why I told her to send missed time to payroll and give the date and actual time if she had already clocked out.",
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 17,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-REPLY",
+      "page": 3,
+      "cite": "2-ER-113",
+      "quote": "A. I thought the first step was to have her identify the work date and approximate circumstances. I didn't have a case number or date. The event report wouldn't necessarily tell us how long she worked.",
+      "source_document_id": "CA9-SUP-000002-SDEP",
+      "source_page": 20,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    },
+    {
+      "document_id": "CA9-SUP-000002-REPLY",
+      "page": 3,
+      "cite": "2-ER-67",
+      "quote": "A. There is staff time to identify the records, check the access request and prepare an extract. This is not equivalent to writing a new system. A request limited to one employee account and several weeks is more focused than an unrestricted company-wide search.",
+      "source_document_id": "CA9-SUP-000002-IDEP",
+      "source_page": 13,
+      "review_status": "Source page compared; cited factual proposition within source page."
+    }
+  ]
 }

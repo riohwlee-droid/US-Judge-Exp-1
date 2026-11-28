@@ -142,13 +142,34 @@
       "pages": 7,
       "words": 925,
       "complete": true
+    },
+    {
+      "id": "CA9-SUP-000002-OPEN",
+      "path": "records/CA9-SUP-000002/v1/OPEN.md",
+      "pages": 12,
+      "words": 1536,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000002-ANSWER",
+      "path": "records/CA9-SUP-000002/v1/ANSWER.md",
+      "pages": 10,
+      "words": 1310,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000002-REPLY",
+      "path": "records/CA9-SUP-000002/v1/REPLY.md",
+      "pages": 4,
+      "words": 537,
+      "complete": true
     }
   ],
-  "original_pages": 189,
-  "original_words": 23732,
+  "original_pages": 215,
+  "original_words": 27115,
   "planned_documents": 28,
   "planned_original_pages": 258,
-  "next_batch": "Excerpts complete; author three appellate briefs.",
+  "next_batch": "All originals and appellate excerpts complete. Build full legal research and occurrence audit; then request briefs gate.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [
