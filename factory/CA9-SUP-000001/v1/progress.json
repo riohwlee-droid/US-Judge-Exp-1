@@ -1,5 +1,5 @@
 {
-  "status": "authored_all_originals_legal_review_pending",
+  "status": "briefs_authored_research_reviewed_gate_pending",
   "authored_documents": [
     {
       "id": "CA9-SUP-000001-IND",
@@ -178,7 +178,7 @@
   "original_words": 30461,
   "planned_documents": 29,
   "planned_original_pages": 230,
-  "next_batch": "Complete proposition-specific legal research, citation audit and review; do not seal until every gate passes.",
+  "next_batch": "Run briefs gate; audit semantic and local rule review before requesting release.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [
@@ -227,5 +227,12 @@
     "index_pages": 6,
     "volume1": 11,
     "volume2": 165
+  },
+  "research_audit": {
+    "authorities": 8,
+    "documents": 26,
+    "occurrences": 56,
+    "issues": [],
+    "limitation": "Bounded public primary-text and exact-reporter/name searches through the provisional cutoff; CourtListener API throttled during some additional lookups. Not a comprehensive citator certification. No contrary material candidate identified among reviewed results; later and uncaptured results remain outside coverage."
   }
 }
