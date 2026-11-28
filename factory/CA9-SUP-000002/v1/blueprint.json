@@ -710,7 +710,7 @@
       "kind": "exhibit",
       "title": "Payroll and punch records",
       "actor_id": "H",
-      "created_at": "2024-06-04T09:00:00-08:00",
+      "created_at": "2024-06-04T09:00:00-07:00",
       "filed_at": "2026-05-18T16:00:00-07:00",
       "pages": 6,
       "path": "records/CA9-SUP-000002/v1/PAY.md",
@@ -736,7 +736,7 @@
       "kind": "exhibit",
       "title": "Team and individual messages",
       "actor_id": "S",
-      "created_at": "2024-05-21T09:00:00-08:00",
+      "created_at": "2024-05-21T09:00:00-07:00",
       "filed_at": "2026-06-01T16:00:00-07:00",
       "pages": 4,
       "path": "records/CA9-SUP-000002/v1/MSG.md",
@@ -816,7 +816,7 @@
       "actor_id": "DC",
       "created_at": "2026-05-18T09:00:00-07:00",
       "filed_at": "2026-05-18T16:00:00-07:00",
-      "pages": 11,
+      "pages": 7,
       "path": "records/CA9-SUP-000002/v1/MSJ.md",
       "depends_on": [],
       "access": "judge",
@@ -829,7 +829,7 @@
       "actor_id": "PC",
       "created_at": "2026-06-01T09:00:00-07:00",
       "filed_at": "2026-06-01T16:00:00-07:00",
-      "pages": 11,
+      "pages": 8,
       "path": "records/CA9-SUP-000002/v1/OPP.md",
       "depends_on": [],
       "access": "judge",
@@ -842,7 +842,7 @@
       "actor_id": "DC",
       "created_at": "2026-06-08T09:00:00-07:00",
       "filed_at": "2026-06-08T16:00:00-07:00",
-      "pages": 7,
+      "pages": 4,
       "path": "records/CA9-SUP-000002/v1/REPL.md",
       "depends_on": [],
       "access": "judge",
@@ -855,7 +855,7 @@
       "actor_id": "R",
       "created_at": "2026-06-29T09:00:00-07:00",
       "filed_at": "2026-06-29T16:00:00-07:00",
-      "pages": 10,
+      "pages": 8,
       "path": "records/CA9-SUP-000002/v1/HEAR.md",
       "depends_on": [],
       "access": "judge",
@@ -868,7 +868,7 @@
       "actor_id": "J",
       "created_at": "2026-08-24T09:00:00-07:00",
       "filed_at": "2026-08-24T16:00:00-07:00",
-      "pages": 8,
+      "pages": 7,
       "path": "records/CA9-SUP-000002/v1/ORDER.md",
       "depends_on": [],
       "access": "judge",
@@ -1477,7 +1477,148 @@
     }
   ],
   "excerpts": [],
-  "authorities": [],
+  "authorities": [
+    {
+      "id": "STAT",
+      "origin": "real",
+      "authority_type": "statute",
+      "citation": "29 U.S.C. § 207(a)(1)",
+      "court": "federal_law",
+      "decided_at": "1938-06-25",
+      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title29-section207",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000002/v1/law/STAT.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Primary opinion or statutory text checked; narrow proposition; bounded treatment review to follow.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Original text and initial subsequent-treatment search.",
+        "checked_at": "2026-11-28",
+        "method": "Public primary text and reporter searches; CourtListener identity lookup where available."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "subsection (a)(1)",
+          "quote": "at a rate not less than one and one-half times the regular rate at which he is employed",
+          "proposition": "Covered nonexempt work beyond forty hours in a workweek is compensable at the prescribed overtime rate."
+        }
+      ]
+    },
+    {
+      "id": "FORE",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+      "court": "ca9",
+      "decided_at": "1981-05-26",
+      "url": "https://openjurist.org/646/f2d/413/forrester-v-roth-s-i-g-a-foodliner-inc",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000002/v1/law/FORE.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Primary opinion or statutory text checked; narrow proposition; bounded treatment review to follow.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Original text and initial subsequent-treatment search.",
+        "checked_at": "2026-11-28",
+        "method": "Public primary text and reporter searches; CourtListener identity lookup where available."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "414–15",
+          "quote": "an employer who knows or should have known that an employee is or was working overtime must comply",
+          "proposition": "Knowledge actual or constructive is required; a reporting failure does not excuse known work; employee acts preventing knowledge matter."
+        }
+      ]
+    },
+    {
+      "id": "CAD",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+      "court": "ca9",
+      "decided_at": "2024-07-10",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2024/07/10/23-15820.pdf",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000002/v1/law/CAD.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Primary opinion or statutory text checked; narrow proposition; bounded treatment review to follow.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Original text and initial subsequent-treatment search.",
+        "checked_at": "2026-11-28",
+        "method": "Public primary text and reporter searches; CourtListener identity lookup where available."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "slip op. 30–31 and n.16",
+          "quote": "Given the dispute over whether Connexx had a policy against such adjustments, the district court erred",
+          "proposition": "The existence of a correction process did not eliminate genuine disputes over whether overtime was compensable in practice; footnote 16 expressly reserved the separate Forrester question."
+        }
+      ]
+    },
+    {
+      "id": "AND",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+      "court": "scotus",
+      "decided_at": "1946-06-10",
+      "url": "https://www.law.cornell.edu/supremecourt/text/328/680",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000002/v1/law/AND.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Primary opinion or statutory text checked; narrow proposition; bounded treatment review to follow.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Original text and initial subsequent-treatment search.",
+        "checked_at": "2026-11-28",
+        "method": "Public primary text and reporter searches; CourtListener identity lookup where available."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "687–88",
+          "quote": "the amount and extent of that work as a matter of just and reasonable inference",
+          "proposition": "Where records are inadequate, actual uncompensated work and a just and reasonable inference of its amount permit burden shifting; precise reconstruction is not required."
+        }
+      ]
+    },
+    {
+      "id": "TOL",
+      "origin": "real",
+      "authority_type": "case",
+      "citation": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "court": "scotus",
+      "decided_at": "2014-05-05",
+      "url": "https://openjurist.org/572/us/650/tolan-v-cotton",
+      "verified_at": "2026-11-28",
+      "source_path": "factory/CA9-SUP-000002/v1/law/TOL.txt",
+      "source_sha256": "server_computed",
+      "source_reviewed": true,
+      "source_review_note": "Primary opinion or statutory text checked; narrow proposition; bounded treatment review to follow.",
+      "subsequent_treatment": {
+        "status": "limited_check",
+        "scope": "Original text and initial subsequent-treatment search.",
+        "checked_at": "2026-11-28",
+        "method": "Public primary text and reporter searches; CourtListener identity lookup where available."
+      },
+      "pins": [
+        {
+          "id": "P1",
+          "locator": "656–57",
+          "quote": "the evidence of the nonmovant is to be believed, and all justifiable inferences are to be drawn in his favor",
+          "proposition": "Summary judgment does not permit resolving genuine factual disputes against the nonmoving party."
+        }
+      ]
+    }
+  ],
   "arguments": [],
   "timeliness_review": {
     "reviewed": true,
@@ -1489,7 +1630,217 @@
     "Actual evidence annotations, excerpts, briefs and citation audits incomplete",
     "Subsequent-treatment and semantic review pending"
   ],
-  "legal_uses": [],
+  "legal_uses": [
+    {
+      "id": "LU1",
+      "document_id": "CA9-SUP-000002-MSJ",
+      "page": 2,
+      "quote": "29 U.S.C. § 207(a)(1)",
+      "authority_id": "STAT",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "text",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU2",
+      "document_id": "CA9-SUP-000002-MSJ",
+      "page": 2,
+      "quote": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+      "authority_id": "FORE",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU3",
+      "document_id": "CA9-SUP-000002-MSJ",
+      "page": 2,
+      "quote": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "authority_id": "TOL",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU4",
+      "document_id": "CA9-SUP-000002-MSJ",
+      "page": 4,
+      "quote": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+      "authority_id": "AND",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU5",
+      "document_id": "CA9-SUP-000002-MSJ",
+      "page": 6,
+      "quote": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+      "authority_id": "CAD",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU6",
+      "document_id": "CA9-SUP-000002-MSJ",
+      "page": 7,
+      "quote": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+      "authority_id": "FORE",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU7",
+      "document_id": "CA9-SUP-000002-OPP",
+      "page": 2,
+      "quote": "29 U.S.C. § 207(a)(1)",
+      "authority_id": "STAT",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "text",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU8",
+      "document_id": "CA9-SUP-000002-OPP",
+      "page": 3,
+      "quote": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "authority_id": "TOL",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU9",
+      "document_id": "CA9-SUP-000002-OPP",
+      "page": 4,
+      "quote": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+      "authority_id": "AND",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU10",
+      "document_id": "CA9-SUP-000002-OPP",
+      "page": 6,
+      "quote": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+      "authority_id": "FORE",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU11",
+      "document_id": "CA9-SUP-000002-OPP",
+      "page": 6,
+      "quote": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+      "authority_id": "CAD",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU12",
+      "document_id": "CA9-SUP-000002-REPL",
+      "page": 2,
+      "quote": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+      "authority_id": "AND",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU13",
+      "document_id": "CA9-SUP-000002-REPL",
+      "page": 3,
+      "quote": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+      "authority_id": "FORE",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU14",
+      "document_id": "CA9-SUP-000002-REPL",
+      "page": 4,
+      "quote": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+      "authority_id": "CAD",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU15",
+      "document_id": "CA9-SUP-000002-ORDER",
+      "page": 2,
+      "quote": "29 U.S.C. § 207(a)(1)",
+      "authority_id": "STAT",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "text",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU16",
+      "document_id": "CA9-SUP-000002-ORDER",
+      "page": 3,
+      "quote": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
+      "authority_id": "TOL",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU17",
+      "document_id": "CA9-SUP-000002-ORDER",
+      "page": 4,
+      "quote": "Anderson v. Mt. Clemens Pottery Co., 328 U.S. 680, 687–88 (1946)",
+      "authority_id": "AND",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU18",
+      "document_id": "CA9-SUP-000002-ORDER",
+      "page": 5,
+      "quote": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
+      "authority_id": "FORE",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    },
+    {
+      "id": "LU19",
+      "document_id": "CA9-SUP-000002-ORDER",
+      "page": 6,
+      "quote": "Cadena v. Customer Connexx LLC, 107 F.4th 902 (9th Cir. 2024) (slip op. at 30–31 & n.16)",
+      "authority_id": "CAD",
+      "pin_id": "P1",
+      "use": "support",
+      "claimed_weight": "binding",
+      "analysis": "Original argument explains applicability and limitations of the proposition."
+    }
+  ],
   "research": {
     "schema_version": 1,
     "cutoff": "2026-11-27",

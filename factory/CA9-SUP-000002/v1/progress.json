@@ -107,13 +107,48 @@
       "pages": 19,
       "words": 2126,
       "complete": true
+    },
+    {
+      "id": "CA9-SUP-000002-MSJ",
+      "path": "records/CA9-SUP-000002/v1/MSJ.md",
+      "pages": 7,
+      "words": 934,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000002-OPP",
+      "path": "records/CA9-SUP-000002/v1/OPP.md",
+      "pages": 8,
+      "words": 1019,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000002-REPL",
+      "path": "records/CA9-SUP-000002/v1/REPL.md",
+      "pages": 4,
+      "words": 504,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000002-HEAR",
+      "path": "records/CA9-SUP-000002/v1/HEAR.md",
+      "pages": 8,
+      "words": 924,
+      "complete": true
+    },
+    {
+      "id": "CA9-SUP-000002-ORDER",
+      "path": "records/CA9-SUP-000002/v1/ORDER.md",
+      "pages": 7,
+      "words": 925,
+      "complete": true
     }
   ],
-  "original_pages": 155,
-  "original_words": 19426,
+  "original_pages": 189,
+  "original_words": 23732,
   "planned_documents": 28,
   "planned_original_pages": 258,
-  "next_batch": "All five depositions drafted. Author motion, opposition, reply, hearing and district order with actual authority pins.",
+  "next_batch": "Lower originals complete; correct timestamp ordering and request record gate, then assemble excerpts.",
   "research": {
     "status": "initial primary-source research, not proposition clearance",
     "sources": [
