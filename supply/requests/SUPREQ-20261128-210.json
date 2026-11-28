@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "request_id": "SUPREQ-20261128-210",
+  "action": "advance",
+  "job_id": "CA9-SUP-000002",
+  "expected_status": "working",
+  "stage": "briefs",
+  "note": "Revalidate legal sources without changing record or validation criteria."
+}

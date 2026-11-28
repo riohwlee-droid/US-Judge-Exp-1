@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "request_id": "SUPREQ-20261128-209",
+  "action": "retry",
+  "job_id": "CA9-SUP-000002",
+  "expected_status": "rework",
+  "note": "Replace two non-allowlisted reproductions with already verified CourtListener and official U.S. Reports source URLs."
+}

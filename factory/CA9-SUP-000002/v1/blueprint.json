@@ -3151,7 +3151,7 @@
       "citation": "Forrester v. Roth's I.G.A. Foodliner, Inc., 646 F.2d 413, 414–15 (9th Cir. 1981)",
       "court": "ca9",
       "decided_at": "1981-05-29",
-      "url": "https://openjurist.org/646/f2d/413/forrester-v-roth-s-i-g-a-foodliner-inc",
+      "url": "https://www.courtlistener.com/opinion/389336/billy-h-forrester-v-roths-i-g-a-foodliner-incorporated-an-oregon/",
       "verified_at": "2026-11-28",
       "source_path": "factory/CA9-SUP-000002/v1/law/FORE.txt",
       "source_sha256": "server_computed",
@@ -3235,7 +3235,7 @@
       "citation": "Tolan v. Cotton, 572 U.S. 650, 656–57 (2014)",
       "court": "scotus",
       "decided_at": "2014-05-05",
-      "url": "https://openjurist.org/572/us/650/tolan-v-cotton",
+      "url": "https://www.govinfo.gov/app/details/USREPORTS-572/USREPORTS-572-650",
       "verified_at": "2026-11-28",
       "source_path": "factory/CA9-SUP-000002/v1/law/TOL.txt",
       "source_sha256": "server_computed",
@@ -4047,7 +4047,7 @@
         "original": {
           "path": "factory/CA9-SUP-000002/v1/law/FORE.txt",
           "sha256": "server_computed",
-          "url": "https://openjurist.org/646/f2d/413/forrester-v-roth-s-i-g-a-foodliner-inc"
+          "url": "https://www.courtlistener.com/opinion/389336/billy-h-forrester-v-roths-i-g-a-foodliner-incorporated-an-oregon/"
         },
         "pin_reviews": [
           {
@@ -4306,7 +4306,7 @@
         "original": {
           "path": "factory/CA9-SUP-000002/v1/law/TOL.txt",
           "sha256": "server_computed",
-          "url": "https://openjurist.org/572/us/650/tolan-v-cotton"
+          "url": "https://www.govinfo.gov/app/details/USREPORTS-572/USREPORTS-572-650"
         },
         "pin_reviews": [
           {
