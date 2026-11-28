@@ -13,8 +13,8 @@ from scripts.process_requests import process
 ROOT=Path(__file__).resolve().parents[1]
 PLAYER="J-CA9-PLAYER"
 CUTOFF="2026-11-27"
-def event(i,kind,**p):
-    return {"id":i,"type":kind,"payload":p}
+def event(i,event_type,**p):
+    return {"id":i,"type":event_type,"payload":p}
 
 class Preflight(unittest.TestCase):
     def test_production_end_to_end(self):
