@@ -1,0 +1,10 @@
+# CA9 launch preflight — 2026-11-28
+
+## Current official state
+No live appointment, case intake, assignment, or vote authorized by this preflight. CURRENT remains S0001-connection-check/revision 1. Three sealed cases available at cutoff 2026-11-27; production release validation and supply reconciliation succeeded. All test dispositions are isolated temporary fixtures, never decisions in any live case.
+
+## Rule-date verification
+Official Ninth Circuit rules page (updated 2026-11-24): https://www.ca9.uscourts.gov/rules — handbook effective June 1 2026; General Orders revised October 27 2026. US Courts current rules and pending amendment page https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments — appellate Form 4 amendment scheduled December 1, 2026; future in this baseline. Do not silently backdate amendments. Official closure announcement https://www.ca9.uscourts.gov/news/court-closure-for-thanksgiving-holiday/ — Clerk closed Nov 26–27, 2026. Proposed first normal working day Monday Nov 30, 08:30 Pacific; commission remains Nov 27. Baseline legal cutoff Nov 27 (all three releases); future legal history branches under established policy, no automatically updated real law.
+
+## Tests and remaining limits
+Existing CA9 lifecycle tests cover panel replacement, quorum, petition/rehearing, en banc grant/draw/recusal, stay and mandate. New production preflight exercises all three actual releases in temporary campaign; clerk task with research lock, preliminary NPC views, hearing, conference, revision/positions, judgment, premature mandate rejection, mandate, replay and supply. No actual case result is determined. Full technical secrecy, continuous world, unattended AI production, real court ECF/PDF certification, exhaustive later-treatment citator, unsupported special procedures remain out of scope. The appointment is fictional; no actual official roster. Do not claim all real General Orders implemented. Review legal and calendar inputs on each live turn. Player biography and formal appointment remain to be confirmed before live setup.
