@@ -107,13 +107,13 @@
       "track": "civil_summary_judgment",
       "origin_district": "CDCA",
       "legal_cutoff": "2026-11-27",
-      "status": "rework",
-      "stage_index": 3,
-      "attempt": 1,
+      "status": "sealed",
+      "stage_index": 5,
+      "attempt": 2,
       "blueprint_path": "factory/CA9-SUP-000002/v1/blueprint.json",
-      "release_path": null,
-      "release_digest": null,
-      "record_as_of": null,
+      "release_path": "factory/CA9-SUP-000002/v1/release.json",
+      "release_digest": "a2ac40a6ca1f96566d4cf8c031de5b58320fb2316961a2b3c1f48657f51cb9db",
+      "record_as_of": "2026-11-27T10:00:00-08:00",
       "requested_revision": 1,
       "history": [
         {
@@ -149,6 +149,26 @@
         {
           "action": "validation_failed",
           "note": "briefs: unverified authority identity/source",
+          "revision": 1
+        },
+        {
+          "action": "retry",
+          "note": "Replace two non-allowlisted reproductions with already verified CourtListener and official U.S. Reports source URLs.",
+          "revision": 1
+        },
+        {
+          "action": "advance",
+          "note": "Revalidate legal sources without changing record or validation criteria.",
+          "revision": 1
+        },
+        {
+          "action": "advance",
+          "note": "Final review gate.",
+          "revision": 1
+        },
+        {
+          "action": "seal",
+          "note": "Immutable release if all gates pass.",
           "revision": 1
         }
       ]
@@ -302,6 +322,38 @@
       "request_sha256": "0cb7aab019152239c98ff3ebab846fe771dbf14ace5f3f89f655e4253a6e7063",
       "status": "rejected",
       "reason": "stale production status"
+    },
+    "SUPREQ-20261128-209": {
+      "request_id": "SUPREQ-20261128-209",
+      "request_sha256": "d04b9dbde8ee15a34f8f17100041a86a72e1a93f623da36a6c9c8f89873459fb",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000002",
+      "job_status": "working",
+      "stage_index": 3
+    },
+    "SUPREQ-20261128-210": {
+      "request_id": "SUPREQ-20261128-210",
+      "request_sha256": "82fecbe91c10d599f3136bd46f1860717325da09982b44561ea12bab498b1ff2",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000002",
+      "job_status": "working",
+      "stage_index": 4
+    },
+    "SUPREQ-20261128-211": {
+      "request_id": "SUPREQ-20261128-211",
+      "request_sha256": "3d81282d7636d4d4f0e934e0b81c306c9c5435932a76a76486d8012ab98081be",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000002",
+      "job_status": "reviewed",
+      "stage_index": 5
+    },
+    "SUPREQ-20261128-212": {
+      "request_id": "SUPREQ-20261128-212",
+      "request_sha256": "71071965088f6eb073a99f17a4c69a98915d3e4f8c1b2b07f2bd00ad4a5fd323",
+      "status": "accepted",
+      "job_id": "CA9-SUP-000002",
+      "job_status": "sealed",
+      "stage_index": 5
     }
   },
   "as_of_checkpoint": "S0001-connection-check",
