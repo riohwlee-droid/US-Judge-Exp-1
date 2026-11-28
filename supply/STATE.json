@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "next_serial": 3,
+  "jobs": {
+    "CA9-26-001": {
+      "id": "CA9-26-001",
+      "version": "v1",
+      "track": "civil_summary_judgment",
+      "origin_district": "NDCA",
+      "legal_cutoff": "2026-11-27",
+      "status": "sealed",
+      "stage_index": 5,
+      "attempt": 1,
+      "blueprint_path": "factory/CA9-26-001/v1/blueprint.json",
+      "release_path": "factory/CA9-26-001/v1/release.json",
+      "release_digest": "a5dbeba3b2708d2049edee93bacba5c1825aebbe709a5f43021cd9559f246fc6",
+      "record_as_of": "2026-11-27T10:00:00-08:00",
+      "requested_revision": 1,
+      "history": [
+        {
+          "action": "import",
+          "note": "verified legacy release",
+          "revision": 1
+        },
+        {
+          "action": "seal",
+          "note": "factory release verified",
+          "revision": 1
+        }
+      ]
+    },
+    "CA9-SUP-000001": {
+      "id": "CA9-SUP-000001",
+      "version": "v1",
+      "track": "criminal_trial",
+      "origin_district": "NDCA",
+      "legal_cutoff": "2026-11-27",
+      "status": "queued",
+      "stage_index": -1,
+      "attempt": 0,
+      "blueprint_path": "factory/CA9-SUP-000001/v1/blueprint.json",
+      "release_path": null,
+      "release_digest": null,
+      "record_as_of": null,
+      "requested_revision": 1,
+      "history": [
+        {
+          "action": "request",
+          "note": "automatic stock replenishment",
+          "revision": 1
+        }
+      ]
+    },
+    "CA9-SUP-000002": {
+      "id": "CA9-SUP-000002",
+      "version": "v1",
+      "track": "civil_summary_judgment",
+      "origin_district": "CDCA",
+      "legal_cutoff": "2026-11-27",
+      "status": "queued",
+      "stage_index": -1,
+      "attempt": 0,
+      "blueprint_path": "factory/CA9-SUP-000002/v1/blueprint.json",
+      "release_path": null,
+      "release_digest": null,
+      "record_as_of": null,
+      "requested_revision": 1,
+      "history": [
+        {
+          "action": "request",
+          "note": "automatic stock replenishment",
+          "revision": 1
+        }
+      ]
+    }
+  },
+  "receipts": {},
+  "as_of_checkpoint": "S0001-connection-check",
+  "as_of_revision": 1
+}
