@@ -1,0 +1,14 @@
+{
+  "id": "INTAKE-0001",
+  "type": "ca9.supply_intake",
+  "payload": {
+    "limit": 1,
+    "reviews": {
+      "CA9-26-001": {
+        "conflict_review_completed": true,
+        "jurisdiction_review_completed": true,
+        "review_note": "Replace with actual case-specific review. Do not blindly reuse."
+      }
+    }
+  }
+}

@@ -10,6 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from judgesim.engine import Invalid, apply_batch, require, identifier, digest
 from judgesim.case_factory import check_release,canonical
 from judgesim.legal_research import validate_packet
+from judgesim.supply import intake_plan, calendar_events
 from judgesim.storage import read_json, write_json, verify, profiles, safe, sha, write_checkpoint
 
 
@@ -34,6 +35,15 @@ def process(root):
                     packet["base_revision"] == state["revision"], "stale base: reload CURRENT and rebase events")
             require(isinstance(packet["events"], list) and packet["events"], "empty or invalid event batch")
             events = deepcopy(packet["events"])
+            raw=[]
+            for event in events:
+                if event['type']=='ca9.supply_intake':
+                    jobs=intake_plan(root,state,event['payload'])
+                    require(jobs,'no reviewed eligible sealed case in supply')
+                    for i,j in enumerate(jobs):
+                        raw.append({'id':event['id']+'-I'+str(i+1),'type':'ca9.factory_admit','payload':{'release_path':j['release_path'],'release_digest':j['release_digest'],'conflict_review_completed':True}})
+                else:raw.append(event)
+            events=raw
             expanded=[]
             for event in events:
                 if event["type"]=="ca9.factory_admit":
@@ -67,7 +77,17 @@ def process(root):
                         actual=validate_packet(root,lock["path"],lock["digest"],doc,cutoff)
                         if "source_hashes" in lock:require(lock["source_hashes"]==actual,"research source lock mismatch")
                         lock["source_hashes"]=actual
-            result = apply_batch(state, events, profiles(root))
+            if any(e["type"]=="ca9.clerk_calendar" for e in events):
+                # Calendar selection uses the state after earlier events in this same atomic batch.
+                result=state;actual=[];pending=[]
+                for e in events:
+                    if e["type"]!="ca9.clerk_calendar":pending.append(e);continue
+                    if pending:
+                        result=apply_batch(result,pending,profiles(root));actual.extend(pending);pending=[]
+                    generated,result=calendar_events(root,result,e);actual.extend(generated)
+                if pending:result=apply_batch(result,pending,profiles(root));actual.extend(pending)
+                events=actual
+            else:result = apply_batch(state, events, profiles(root))
             # Document/inventory checks happen before a production pointer is written.
             import shutil
             import tempfile

@@ -151,6 +151,8 @@ def handle(s, kind, p, now, require, moment, judge_document):
         require(type(p["case_weight"]) is int and p["case_weight"]>0 and options,"no eligible sitting slot")
         sid=draw(seed,options,c["id"])[0]
         c["assignment"]={"slot_id":sid,"seed":seed,"eligible_slots":sorted(options),"calendar_month":p["calendar_month"],"weight":p["case_weight"],"priority_review":p.get("priority_review"),"at":now}
+        if p.get("supply_calendar"):
+            c["assignment"].update(slot_total_weight=options[sid]["total_weight"],slot_judges=list(options[sid]["judges"]))
         require(p.get("priority_review"),"GO 3.3(c) priority review required")
         set_panel(s,c,options[sid]["judges"],"ordinary_merits","clerk_calendar_draw",now,require);c["phase"]="merits"
     elif kind=="ca9.panel_change":

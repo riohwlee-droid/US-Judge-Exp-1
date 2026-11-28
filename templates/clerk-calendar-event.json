@@ -1,0 +1,27 @@
+{
+  "id": "CAL-0001",
+  "type": "ca9.clerk_calendar",
+  "payload": {
+    "limit": 1,
+    "reviews": {
+      "CA9-26-001": {
+        "calendar_review_completed": true,
+        "legal_review_completed": true,
+        "rule_basis": "Actual reviewed basis required",
+        "priority_review": "Actual priority review required",
+        "calendar_month": "YYYY-MM",
+        "case_weight": 1,
+        "slots": [
+          {
+            "id": "SLOT-REPLACE",
+            "location": "San Francisco",
+            "month": "YYYY-MM",
+            "judges": [],
+            "conflicts": [],
+            "total_weight": 4
+          }
+        ]
+      }
+    }
+  }
+}

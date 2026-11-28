@@ -89,6 +89,7 @@ def process_command(root,ledger,p,s,cmd,revision):
     no_answers(cmd);need(cmd["schema_version"]==1,"supply request version")
     action=cmd["action"]
     if action=="request":
+        need(sum(j["status"] in OPEN and j["legal_cutoff"]==(s["campaign"].get("legal_cutoff") or p["provisional_cutoff"]) for j in ledger["jobs"].values())<p["max_open_jobs"],"production capacity full")
         return make_job(ledger,p,s["campaign"].get("legal_cutoff") or p["provisional_cutoff"],revision,cmd.get("track"),cmd.get("origin_district"),True)["id"]
     j=ledger["jobs"][key(cmd["job_id"])]
     expected=cmd["expected_status"];need(expected==j["status"],"stale production status")
@@ -116,7 +117,12 @@ def process_command(root,ledger,p,s,cmd,revision):
                 path=str(Path(j["blueprint_path"]).with_name("release.json"))
                 dest=safe(root,path);need(not dest.exists(),"release already exists")
                 # Compiler returns the actual seal, not a caller-supplied digest.
-                write_json(dest,r);validate_release_job(root,j,check_release(root,path),path)
+                validate_release_job(root,j,r,path)
+                write_json(dest,r)
+                try:validate_release_job(root,j,check_release(root,path),path)
+                except Exception:
+                    dest.unlink()
+                    raise
                 j.update(status="sealed",release_path=path,release_digest=canonical(r),record_as_of=r["record_as_of"])
         except (ValueError,KeyError,TypeError,OSError,IndexError) as exc:
             j["status"]="rework"
@@ -150,7 +156,10 @@ def sync(root):
         except (ValueError,KeyError,TypeError,OSError,IndexError) as exc:receipt.update(status="rejected",reason=str(exc)[:1000])
         ledger["receipts"][rid]=receipt
         write_json(root/"supply/receipts"/(rid+".json"),receipt)
-    import_seals(root,ledger,p,rev);replenish(ledger,s,p,rev)
+    import_seals(root,ledger,p,rev)
+    for j in ledger["jobs"].values():
+        if j["status"]=="sealed":check_release(root,j["release_path"],j["release_digest"])
+    replenish(ledger,s,p,rev)
     ledger["as_of_checkpoint"]=pointer["checkpoint"];ledger["as_of_revision"]=rev
     write_json(dest,ledger)
     public={"schema_version":1,"checkpoint":pointer["checkpoint"],"revision":rev,"campaign_status":s["campaign"]["status"],"inventory":inventory(ledger,s,p),"target_stock":p["target_stock"],"low_watermark":p["low_watermark"]}
@@ -185,3 +194,61 @@ def intake_plan(root,state,payload):
         need(rv.get("conflict_review_completed") is True and rv.get("jurisdiction_review_completed") is True and rv.get("review_note"),"case-specific review incomplete")
         result.append(j)
     return result
+
+def calendar_events(root,state,event):
+    """Convert a reviewed clerk calendar request to ordinary assignment events.
+    Capacity is computed from existing assignments, not reset for each case.
+    No special preference for the player. Future months may be calendared."""
+    from .engine import apply_batch
+    from .storage import profiles
+    p=event["payload"];no_answers(p)
+    need(state["campaign"]["status"]=="active" and state["campaign"].get("organization"),"active installed organization required")
+    policy=read_json(Path(root)/"supply/policy.json")
+    reviews=p["reviews"];limit=p.get("limit",policy["max_intake_per_turn"])
+    need(type(limit) is int and 1<=limit<=policy["max_intake_per_turn"],"calendar batch limit")
+    pending=sorted((c for c in state["cases"].values() if c["court_id"]=="CA9" and c["phase"]=="unassigned"),key=lambda c:(at(c["factory_record_as_of"]),c["id"]))
+    emitted=[];current=state
+    for c in pending:
+        if len(emitted)>=limit:break
+        rv=reviews.get(c["id"])
+        if not rv:break
+        if rv.get("defer_reason"):
+            need(isinstance(rv["defer_reason"],str) and rv["defer_reason"].strip(),"reviewed deferral reason");continue
+        need(rv.get("calendar_review_completed") is True and rv.get("legal_review_completed") is True and rv.get("rule_basis") and rv.get("priority_review"),"clerk calendar review incomplete")
+        month=rv["calendar_month"]
+        need(isinstance(month,str) and len(month)==7 and date.fromisoformat(month+"-01")>=date.fromisoformat(current["campaign"]["game_time"][:7]+"-01"),"past/invalid calendar month")
+        weight=rv["case_weight"]
+        need(type(weight) is int and weight>0,"case weight")
+        slots=[];seen=set()
+        for raw in rv["slots"]:
+            slot=deepcopy(raw);sid=key(slot["id"])
+            need(sid not in seen,"duplicate calendar slot");seen.add(sid)
+            if slot["location"]!=c["calendar_location"] or slot["month"]!=month:continue
+            total=slot.pop("total_weight")
+            need(type(total) is int and total>0,"reviewed total slot capacity required")
+            used=0
+            for old in current["cases"].values():
+                a=old.get("assignment",{})
+                if a.get("slot_id")==sid and a.get("calendar_month")==month and old["calendar_location"]==slot["location"]:
+                    if a.get("slot_total_weight") is not None:
+                        need(a["slot_total_weight"]==total and a["slot_judges"]==slot["judges"],"calendar slot definition changed")
+                    used+=a["weight"]
+            slot["remaining_weight"]=total-used;slot["total_weight"]=total
+            if slot["remaining_weight"]>=weight:slots.append(slot)
+        if not slots:break
+        payload={"case_id":c["id"],"seed":canonical([event["id"],c["id"],month]),"calendar_month":month,"case_weight":weight,"slots":slots,"calendar_review_completed":True,"legal_review_completed":True,"rule_basis":rv["rule_basis"],"priority_review":rv["priority_review"],"supply_calendar":True}
+        actual={"id":key(event["id"]+"-A"+str(len(emitted)+1)),"type":"ca9.assign","payload":payload}
+        current=apply_batch(current,[actual],profiles(root));emitted.append(actual)
+    need(emitted,"no reviewed eligible unassigned case/calendar slot")
+    return emitted,current
+
+def notices(state):
+    """Only actual assigned player cases; derived from the immutable assignment event."""
+    player=(state["campaign"].get("player") or {}).get("id")
+    result=[]
+    if not player:return result
+    for c in state["cases"].values():
+        a=c.get("assignment")
+        if a and player in c["assigned_judges"] and c["status"]!="closed":
+            result.append({"id":"ASSIGN-"+c["id"],"case_id":c["id"],"title":c.get("title",c["id"]),"at":a["at"],"calendar_month":a["calendar_month"],"panel":list(c["assigned_judges"]),"message":"A case has been assigned to your panel. The appellate briefs and excerpts of record are available in your chambers docket."})
+    return sorted(result,key=lambda n:(n["at"],n["id"]))
