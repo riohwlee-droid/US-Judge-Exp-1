@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "checkpoint": "S0001-connection-check",
-  "revision": 1,
-  "campaign_status": "setup_required",
+  "checkpoint": "S0002-ca9-whitmore-appointment",
+  "revision": 3,
+  "campaign_status": "active",
   "inventory": {
     "cutoff": "2026-11-27",
     "ready": 3,

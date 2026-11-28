@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "request_id": "REQ-20261128-CA9-WHITMORE-APPOINTMENT",
+  "request_sha256": "3375440a6b2b534d759cdfe255fb5fecb58ee12bcb2c04aa247737a58e08854d",
+  "status": "accepted",
+  "checkpoint": "S0002-ca9-whitmore-appointment",
+  "revision": 3
+}

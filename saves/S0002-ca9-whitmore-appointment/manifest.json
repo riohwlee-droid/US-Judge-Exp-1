@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "id": "S0002-ca9-whitmore-appointment",
+  "parent": "S0001-connection-check",
+  "parent_manifest_sha256": "17dc0b7e8a914bbf610b589eb8d6849bf99db91f62c30b078aef3e364fed1b32",
+  "base_revision": 1,
+  "revision": 3,
+  "state_path": "saves/S0002-ca9-whitmore-appointment/state.json",
+  "events_path": "saves/S0002-ca9-whitmore-appointment/events.json",
+  "state_digest": "3b806363ab0ef4a7d29f9625846bd50fbd73fad464e7a6a73803b418b4935201",
+  "events_digest": "b08a1e22a835e784ee6a8e3393625bb826367ec33a2f36a6958b93d72e916cb0"
+}
