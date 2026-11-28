@@ -1,0 +1,6 @@
+{
+  "request_id": "SUPREQ-20261128-208",
+  "request_sha256": "0cb7aab019152239c98ff3ebab846fe771dbf14ace5f3f89f655e4253a6e7063",
+  "status": "rejected",
+  "reason": "stale production status"
+}

@@ -1,0 +1,9 @@
+{
+  "request_id": "SUPREQ-20261128-206",
+  "request_sha256": "445e2140915e92d9b0e3d946bcde70dcfca2ce5454cd81aebde367961aa890b5",
+  "status": "rework",
+  "job_id": "CA9-SUP-000002",
+  "job_status": "rework",
+  "stage_index": 3,
+  "reason": "briefs: unverified authority identity/source"
+}

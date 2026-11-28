@@ -10,8 +10,8 @@
     "assigned": 0,
     "closed": 0,
     "queued": 0,
-    "working": 1,
-    "rework": 0,
+    "working": 0,
+    "rework": 1,
     "reviewed": 0,
     "blocked_date_or_cutoff": 0,
     "cancelled": 0
