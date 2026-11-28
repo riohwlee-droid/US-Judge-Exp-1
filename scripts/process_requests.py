@@ -41,7 +41,7 @@ def process(root):
                     jobs=intake_plan(root,state,event['payload'])
                     require(jobs,'no reviewed eligible sealed case in supply')
                     for i,j in enumerate(jobs):
-                        raw.append({'id':event['id']+'-I'+str(i+1),'type':'ca9.factory_admit','payload':{'release_path':j['release_path'],'release_digest':j['release_digest'],'conflict_review_completed':True}})
+                        raw.append({'id':event['id']+'-I'+str(i+1),'type':'ca9.factory_admit','payload':{'release_path':j['release_path'],'release_digest':j['release_digest'],'conflict_review_completed':True,'supply_intake':{'request_event_id':event['id'],'review_note':event['payload']['reviews'][j['id']]['review_note'],'jurisdiction_review_completed':True}}})
                 else:raw.append(event)
             events=raw
             expanded=[]
@@ -52,6 +52,7 @@ def process(root):
                     require(p.get("release_digest") in {"server_computed",canonical(r)},"release digest mismatch")
                     require(r["legal_cutoff"]==state["campaign"]["legal_cutoff"] or any(e["type"]=="campaign.configure" and e["payload"]["legal_cutoff"]==r["legal_cutoff"] for e in events),"factory cutoff mismatch")
                     case=dict(r["case_fields"],factory_record_as_of=r["record_as_of"],id=r["case_id"],fictional=True,record_status="complete",initial_document_ids=[d["id"] for d in r["documents"]],assigned_judges=[],panel_kind="ordinary_merits",conflict_review_completed=True,factory_release={"path":p["release_path"],"digest":canonical(r)})
+                    if p.get("supply_intake"):case["supply_intake"]=p["supply_intake"]
                     expanded.append({"id":event["id"],"type":"case.register","payload":{"case":case}})
                     for i,d in enumerate(r["documents"]):
                         expanded.append({"id":event["id"]+"-D"+str(i+1),"type":"document.register","payload":{"document":d}})

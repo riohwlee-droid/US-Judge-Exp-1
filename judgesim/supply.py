@@ -139,6 +139,11 @@ def sync(root):
     ledger=read_json(dest) if dest.exists() else new_ledger()
     need(ledger["schema_version"]==1,"supply ledger version")
     import_seals(root,ledger,p,rev)
+    for rid,old in ledger["receipts"].items():
+        key(rid)
+        q=root/"supply/requests"/(rid+".json")
+        need(q.is_file() and sha(q)==old["request_sha256"],"processed supply request missing or modified")
+        need(read_json(root/"supply/receipts"/(rid+".json"))==old,"supply receipt missing or changed")
     for q in sorted((root/"supply/requests").glob("*.json")):
         rid=key(q.stem);d=sha(q);old=ledger["receipts"].get(rid)
         if old:
@@ -182,6 +187,7 @@ def intake_plan(root,state,payload):
     p=read_json(Path(root)/"supply/policy.json")
     limit=payload.get("limit",p["max_intake_per_turn"])
     need(type(limit) is int and 1<=limit<=p["max_intake_per_turn"],"intake batch limit")
+    no_answers(payload)
     reviews=payload["reviews"];need(isinstance(reviews,dict),"case-specific clerk reviews required")
     result=[]
     for j in candidates(root,state):
@@ -200,6 +206,7 @@ def calendar_events(root,state,event):
     Capacity is computed from existing assignments, not reset for each case.
     No special preference for the player. Future months may be calendared."""
     from .engine import apply_batch
+    from .ca9_lifecycle import local_date
     from .storage import profiles
     p=event["payload"];no_answers(p)
     need(state["campaign"]["status"]=="active" and state["campaign"].get("organization"),"active installed organization required")
@@ -216,7 +223,7 @@ def calendar_events(root,state,event):
             need(isinstance(rv["defer_reason"],str) and rv["defer_reason"].strip(),"reviewed deferral reason");continue
         need(rv.get("calendar_review_completed") is True and rv.get("legal_review_completed") is True and rv.get("rule_basis") and rv.get("priority_review"),"clerk calendar review incomplete")
         month=rv["calendar_month"]
-        need(isinstance(month,str) and len(month)==7 and date.fromisoformat(month+"-01")>=date.fromisoformat(current["campaign"]["game_time"][:7]+"-01"),"past/invalid calendar month")
+        need(isinstance(month,str) and len(month)==7 and date.fromisoformat(month+"-01")>=local_date(current["campaign"]["game_time"],moment).replace(day=1),"past/invalid calendar month")
         weight=rv["case_weight"]
         need(type(weight) is int and weight>0,"case weight")
         slots=[];seen=set()
@@ -250,5 +257,11 @@ def notices(state):
     for c in state["cases"].values():
         a=c.get("assignment")
         if a and player in c["assigned_judges"] and c["status"]!="closed":
-            result.append({"id":"ASSIGN-"+c["id"],"case_id":c["id"],"title":c.get("title",c["id"]),"at":a["at"],"calendar_month":a["calendar_month"],"panel":list(c["assigned_judges"]),"message":"A case has been assigned to your panel. The appellate briefs and excerpts of record are available in your chambers docket."})
+            entry=None
+            for panel in c["panel_history"]:
+                if player in panel["judges"]:
+                    if entry is None:entry=panel
+                else:entry=None
+            if entry:
+                result.append({"id":"ASSIGN-"+c["id"]+"-"+str(entry["epoch"]),"case_id":c["id"],"title":c.get("title",c["id"]),"at":entry["at"],"calendar_month":a["calendar_month"],"panel":list(c["assigned_judges"]),"message":"A case has been assigned to your panel. The appellate briefs and excerpts of record are available in your chambers docket."})
     return sorted(result,key=lambda n:(n["at"],n["id"]))

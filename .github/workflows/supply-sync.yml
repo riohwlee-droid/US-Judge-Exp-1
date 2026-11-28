@@ -24,6 +24,7 @@ jobs:
           ref: main
           fetch-depth: 0
       - run: python3 -m unittest discover -s tests -v
+      - run: python3 scripts/audit_history.py HEAD^
       - run: python3 scripts/sync_supply.py
       - name: Publish derived supply and new releases
         run: |

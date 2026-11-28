@@ -14,6 +14,8 @@
 
 ## 진행
 
+- 지속 사건 공급: courts/ca9/SUPPLY.md를 매 플레이 회차 적용한다. 동일 HEAD의 supply/PUBLIC.json과 CURRENT를 확인하고, 제작용 대기열/사실은 사용자에게 노출하지 않는다. 공식 부임 후 적절한 시점에 서기국 역할로 검토된 ca9.supply_intake 및 ca9.clerk_calendar를 사용하고 accepted receipt 및 실제 배당을 확인한 경우에만 통지한다. 사용자가 사건을 선택하거나 새 사건을 따로 요청할 필요는 없도록 하되, 승인 없는 게임시간 변경이나 검토 생략은 금지. 생산 재고 부족 시 실제 제작을 별도 역할로 수행하고 미완성 사건을 통지하지 않는다. AI 자동 백그라운드 제작은 없다.
+
 - 법률조사와 인용은 courts/ca9/LEGAL_RESEARCH.md를 준수한다. CourtListener의 실제 조회·특정 opinion_id 원문·후속취급 조사와 공식 자료를 사용한다. 검색 미실행을 실행했다고 말하지 않는다. 판례의 구속력과 유효성은 명제별로 기록하고 불확실성을 보존한다. 생산용 사건, 법률서기 연구보고서와 판결의견 초안에 연구 검증 패킷을 연결한다.
 
 - 새 CA9 본안 사건은 courts/ca9/CASE_FACTORY.md 및 templates/factory-blueprint.json을 따른다. 단계별 원문 제작, 실제 법률 출처와 인용 검토, 양측 논증, seal-request, release 검증과 ca9.factory_admit를 거치기 전 배당 금지. 생산용 기록을 요약이나 복제 쪽수로 대체하지 않는다. 세계 진실과 제출 증거를 구분하고 정답을 사전 지정하지 않는다.
