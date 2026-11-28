@@ -128,3 +128,45 @@ class CalendarTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,"review incomplete"):intake_plan(ROOT,self.s,{"reviews":{self.r["case_id"]:{"conflict_review_completed":True}}})
             jobs=intake_plan(ROOT,self.s,{"reviews":{self.r["case_id"]:{"conflict_review_completed":True,"jurisdiction_review_completed":True,"review_note":"test reviewed"}}})
         self.assertEqual([j["id"] for j in jobs],[self.r["case_id"]])
+
+class OfficialPipelineTests(unittest.TestCase):
+    def test_sealed_actual_record_to_official_assignment_in_temp(self):
+        import shutil
+        from scripts.process_requests import process
+        from judgesim.storage import write_checkpoint
+        with TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            for folder in ("courts","law","factory","records"):
+                shutil.copytree(ROOT/folder,root/folder)
+            write_json(root/"supply/policy.json",POL)
+            pr=read_json(root/"courts/profiles.json")
+            pr["profiles"]["CA9"]["status"]="ready" # temporary test only
+            write_json(root/"courts/profiles.json",pr)
+            write_checkpoint(root,"S0",initial_state(),[])
+            sync(root)
+            player={"id":"J-CA9-PLAYER","name":"Supply Integration Test Judge","birth_date":"1980-05-01","commission_date":"2026-11-27","chambers_city":"San Francisco"}
+            def publish(rid,checkpoint,events,expected="accepted"):
+                p=read_json(root/"CURRENT.json")
+                write_json(root/"requests"/(rid+".json"),{"schema_version":1,"request_id":rid,"checkpoint":checkpoint,"base_checkpoint":p["checkpoint"],"base_revision":p["revision"],"events":events})
+                result=process(root)
+                self.assertEqual(result,[{"request_id":rid,"status":expected}],read_json(root/"receipts"/(rid+".json")))
+                return verify(root)
+            publish("REQ-1","S1",[ev("C","campaign.configure",court_id="CA9",user_confirmed=True,player=player,game_time="2026-11-27T10:00:00-08:00",legal_cutoff="2026-11-27"),ev("O","ca9.organization_install",roster_id="CA9-ROSTER-V1",roster_digest="server_computed",user_confirmed=True)])
+            sync(root)
+            cid="CA9-26-001"
+            self.assertEqual(read_json(root/"supply/PUBLIC.json")["inventory"]["ready"],1)
+            intake=ev("IN","ca9.supply_intake",limit=1,reviews={cid:{"conflict_review_completed":True,"jurisdiction_review_completed":True,"review_note":"temporary review fixture, no live authorization"}})
+            cal=ev("CAL","ca9.clerk_calendar",limit=1,reviews={cid:{"calendar_review_completed":True,"legal_review_completed":True,"rule_basis":"test fixture","priority_review":"test FIFO","calendar_month":"2026-12","case_weight":1,"slots":[{"id":"SLOT-1","location":"San Francisco","month":"2026-12","judges":[player["id"],"J-CA9-01","J-CA9-02"],"total_weight":2,"conflicts":[]}]}})
+            s=publish("REQ-2","S2",[intake,cal])
+            self.assertEqual(len(s["documents"]),33)
+            self.assertEqual(s["cases"][cid]["phase"],"merits")
+            self.assertEqual(len(notices(s)),1)
+            self.assertEqual(s["cases"][cid]["factory_release"]["digest"],canonical(check_release(root,RELEASE)))
+            stock=sync(root)["inventory"]
+            self.assertEqual(stock["ready"],0)
+            self.assertEqual(stock["assigned"],1)
+            self.assertEqual(stock["queued"],3)
+            before=read_json(root/"CURRENT.json")
+            publish("REQ-3","S3",[ev("DUP","ca9.supply_intake",limit=1,reviews={cid:{"conflict_review_completed":True,"jurisdiction_review_completed":True,"review_note":"duplicate"}})],"rejected")
+            self.assertEqual(before,read_json(root/"CURRENT.json"))
+            self.assertEqual(len(verify(root)["documents"]),33)
